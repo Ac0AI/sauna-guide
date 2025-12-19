@@ -1,5 +1,6 @@
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function HomePage() {
   return (
@@ -26,12 +27,12 @@ export default function HomePage() {
               Directory
             </Link>
             <Link href="/guides" className="text-sauna-dark/70 hover:text-sauna-copper transition-colors font-medium">
-              Guides
+              Protocols
             </Link>
             <Link href="#newsletter" className="px-5 py-2.5 bg-sauna-dark text-white rounded-full font-medium
                                                  hover:bg-sauna-charcoal transition-all duration-300
                                                  shadow-lg shadow-sauna-dark/20 hover:shadow-xl hover:shadow-sauna-dark/30">
-              Subscribe
+              Get the Protocol
             </Link>
           </div>
         </div>
@@ -39,46 +40,44 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-        {/* Atmospheric background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-sauna-charcoal via-sauna-dark to-sauna-wood" />
-
-        {/* Steam/mist effects */}
-        <div className="absolute inset-0 opacity-30">
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-sauna-glow/20 rounded-full blur-3xl animate-float" />
-          <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-sauna-ember/20 rounded-full blur-3xl animate-float-delayed" />
-          <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-sauna-honey/15 rounded-full blur-3xl animate-float-slow" />
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/hero-sauna.png"
+            alt="Premium Finnish sauna interior with cedar wood and ambient lighting"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-sauna-charcoal/90 via-sauna-dark/70 to-sauna-dark/50" />
         </div>
-
-        {/* Decorative elements */}
-        <div className="absolute top-20 right-10 w-32 h-32 border border-sauna-copper/20 rounded-full animate-float-slow" />
-        <div className="absolute bottom-32 left-20 w-24 h-24 border border-sauna-glow/20 rounded-full animate-float" />
 
         {/* Content */}
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <div className="animate-fade-up">
             <span className="inline-block px-4 py-1.5 bg-sauna-copper/20 border border-sauna-copper/30 rounded-full
                             text-sauna-glow text-sm font-medium mb-8 backdrop-blur-sm">
-              The #1 Resource for Sauna Enthusiasts
+              Evidence-Based Heat Protocols
             </span>
           </div>
 
           <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-8
                         leading-[1.1] tracking-tight animate-fade-up"
               style={{ animationDelay: '0.1s' }}>
-            Discover the{' '}
+            Optimize Your{' '}
             <span className="relative">
-              <span className="gradient-text">Art of Heat</span>
+              <span className="gradient-text">Healthspan</span>
               <svg className="absolute -bottom-2 left-0 w-full h-3 text-sauna-copper/40" viewBox="0 0 200 12" preserveAspectRatio="none">
                 <path d="M0,6 Q50,0 100,6 T200,6" fill="none" stroke="currentColor" strokeWidth="3" />
               </svg>
             </span>
-            {' '}& Wellness
+            {' '}Through Heat
           </h1>
 
           <p className="text-xl md:text-2xl text-sauna-birch/80 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-up font-light"
              style={{ animationDelay: '0.2s' }}>
-            Your complete guide to authentic sauna experiences. Explore world-class saunas,
-            master traditional techniques, and transform your wellness journey.
+            Science-backed protocols for deliberate heat exposure. Activate heat shock proteins,
+            boost cardiovascular health, and enhance cognitive performance.
           </p>
 
           <div className="animate-fade-up" style={{ animationDelay: '0.3s' }}>
@@ -111,29 +110,22 @@ export default function HomePage() {
               </div>
               <div className="text-sauna-dark">
                 <span className="font-semibold">10,000+</span>
-                <span className="text-sauna-dark/60 ml-1">enthusiasts</span>
+                <span className="text-sauna-dark/60 ml-1">high performers</span>
               </div>
             </div>
 
             <div className="h-8 w-px bg-sauna-warm/30 hidden md:block" />
 
-            <div className="flex items-center gap-2">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <svg key={i} className="w-5 h-5 text-sauna-honey" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-              ))}
-              <span className="text-sauna-dark ml-1">
-                <span className="font-semibold">4.9</span>
-                <span className="text-sauna-dark/60 ml-1">rating</span>
-              </span>
+            <div className="flex items-center gap-2 text-sauna-dark">
+              <span className="text-sauna-dark/60">Referenced by</span>
+              <span className="font-semibold">Huberman Lab</span>
             </div>
 
             <div className="h-8 w-px bg-sauna-warm/30 hidden md:block" />
 
             <div className="text-sauna-dark">
               <span className="font-semibold">Weekly</span>
-              <span className="text-sauna-dark/60 ml-1">expert insights</span>
+              <span className="text-sauna-dark/60 ml-1">protocol updates</span>
             </div>
           </div>
         </div>
@@ -146,10 +138,10 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="font-display text-4xl md:text-5xl font-bold text-sauna-dark mb-4">
-              Everything You Need
+              Your Complete Protocol Stack
             </h2>
             <p className="text-xl text-sauna-dark/60 max-w-2xl mx-auto">
-              From finding the perfect sauna to mastering authentic techniques
+              Evidence-based resources for optimizing your heat exposure practice
             </p>
           </div>
 
@@ -162,8 +154,8 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               }
-              title="Sauna Directory"
-              description="Discover authentic saunas worldwide. From traditional Finnish saunas to luxurious spa retreats, find your perfect heat sanctuary."
+              title="Premium Sauna Directory"
+              description="Curated selection of world-class saunas. From traditional Finnish to infrared, find facilities that meet exacting standards."
               href="/saunas"
               accent="from-sauna-copper to-sauna-ember"
             />
@@ -172,11 +164,11 @@ export default function HomePage() {
               icon={
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               }
-              title="Expert Guides"
-              description="Master contrast therapy, learn traditional techniques, and unlock the science-backed health benefits of regular sauna practice."
+              title="Optimized Protocols"
+              description="Temperature, duration, and frequency protocols backed by peer-reviewed research. Maximize heat shock protein activation."
               href="/guides"
               accent="from-sauna-glow to-sauna-honey"
             />
@@ -185,11 +177,11 @@ export default function HomePage() {
               icon={
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               }
-              title="Weekly Newsletter"
-              description="Exclusive content, new discoveries, and expert tips delivered every week. Join 10,000+ wellness enthusiasts."
+              title="The Heat Protocol"
+              description="Weekly insights on longevity, contrast therapy, and performance optimization. Join 10,000+ high performers."
               href="#newsletter"
               accent="from-sauna-ember to-sauna-heat"
             />
@@ -197,75 +189,120 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Benefits Section */}
+      {/* Benefits Section with Image */}
       <section className="py-24 md:py-32 bg-sauna-dark relative overflow-hidden">
-        {/* Background decoration */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-sauna-copper/20 to-transparent" />
-        </div>
-
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <span className="inline-block px-4 py-1.5 bg-sauna-copper/20 border border-sauna-copper/30 rounded-full
                               text-sauna-glow text-sm font-medium mb-6">
-                Why Join?
+                What You&apos;ll Get
               </span>
               <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-                Level Up Your<br />
-                <span className="gradient-text">Sauna Practice</span>
+                The Executive&apos;s<br />
+                <span className="gradient-text">Heat Protocol</span>
               </h2>
               <p className="text-xl text-sauna-birch/70 mb-10 leading-relaxed">
-                Get science-backed protocols, exclusive deals, and insider knowledge
-                that transforms your wellness routine.
+                Research-driven insights that the world&apos;s top performers use to optimize
+                their health span and cognitive performance.
               </p>
 
               <div className="space-y-6">
                 <BenefitItem
-                  icon="🔥"
+                  icon="🔬"
                   title="Contrast Therapy Protocols"
-                  description="Optimized hot-cold sequences backed by the latest research"
+                  description="Optimized hot-cold sequences for maximum hormetic stress response"
                 />
                 <BenefitItem
                   icon="📊"
-                  title="Science-Based Benefits"
-                  description="Deep dives into cardiovascular, longevity, and mental health benefits"
+                  title="Longevity Research Breakdowns"
+                  description="Deep dives into cardiovascular, cognitive, and all-cause mortality benefits"
                 />
                 <BenefitItem
-                  icon="🎁"
-                  title="Exclusive Deals"
-                  description="Member-only discounts on sauna equipment and accessories"
+                  icon="🎯"
+                  title="Equipment Analysis"
+                  description="Data-driven comparisons of premium home sauna setups ($8K-$50K range)"
                 />
                 <BenefitItem
-                  icon="🌍"
-                  title="Global Discoveries"
-                  description="First access to new sauna reviews and hidden gems"
+                  icon="⚡"
+                  title="Performance Stacking"
+                  description="How to combine heat exposure with cold, breath work, and training"
                 />
               </div>
             </div>
 
             <div className="relative">
-              {/* Placeholder for image - geometric pattern */}
-              <div className="aspect-square rounded-3xl bg-gradient-to-br from-sauna-copper/20 via-sauna-ember/10 to-transparent
-                              border border-sauna-copper/20 flex items-center justify-center relative overflow-hidden">
-                {/* Decorative circles */}
-                <div className="absolute inset-8 border border-sauna-copper/20 rounded-full" />
-                <div className="absolute inset-16 border border-sauna-glow/20 rounded-full" />
-                <div className="absolute inset-24 border border-sauna-honey/20 rounded-full" />
-
-                {/* Center icon */}
-                <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-sauna-copper to-sauna-ember
-                                flex items-center justify-center shadow-2xl shadow-sauna-ember/50 animate-float">
-                  <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                          d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-                  </svg>
-                </div>
-
-                {/* Corner decorations */}
-                <div className="absolute top-4 right-4 w-24 h-24 bg-sauna-glow/10 rounded-full blur-2xl" />
-                <div className="absolute bottom-4 left-4 w-32 h-32 bg-sauna-copper/10 rounded-full blur-2xl" />
+              <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl shadow-black/30">
+                <Image
+                  src="/images/contrast-therapy.png"
+                  alt="Outdoor Nordic sauna with cold plunge for contrast therapy"
+                  fill
+                  className="object-cover"
+                />
               </div>
+              {/* Floating stat card */}
+              <div className="absolute -bottom-6 -left-6 bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl">
+                <div className="text-3xl font-bold text-sauna-copper">23%</div>
+                <div className="text-sm text-sauna-dark/60">Reduced all-cause mortality<br/>with regular sauna use</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Protocol Preview Section */}
+      <section className="py-24 md:py-32 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="order-2 lg:order-1 relative">
+              <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
+                <Image
+                  src="/images/sauna-protocols.png"
+                  alt="Modern home sauna setup with digital controls"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+
+            <div className="order-1 lg:order-2">
+              <span className="inline-block px-4 py-1.5 bg-sauna-copper/10 border border-sauna-copper/20 rounded-full
+                              text-sauna-copper text-sm font-medium mb-6">
+                Featured Protocol
+              </span>
+              <h2 className="font-display text-4xl md:text-5xl font-bold text-sauna-dark mb-6 leading-tight">
+                The Huberman<br />Sauna Protocol
+              </h2>
+              <p className="text-xl text-sauna-dark/60 mb-8 leading-relaxed">
+                Based on Dr. Andrew Huberman&apos;s research synthesis. Optimize growth hormone release,
+                cardiovascular adaptation, and mental clarity.
+              </p>
+
+              <div className="bg-sauna-steam rounded-2xl p-6 mb-8">
+                <div className="grid grid-cols-3 gap-4 text-center">
+                  <div>
+                    <div className="text-2xl font-bold text-sauna-copper">80-100°C</div>
+                    <div className="text-sm text-sauna-dark/60">Temperature</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-sauna-copper">20 min</div>
+                    <div className="text-sm text-sauna-dark/60">Duration</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-sauna-copper">3-4x</div>
+                    <div className="text-sm text-sauna-dark/60">Weekly</div>
+                  </div>
+                </div>
+              </div>
+
+              <Link href="#newsletter" className="inline-flex items-center gap-2 px-6 py-3 bg-sauna-dark text-white rounded-full
+                                                   font-medium hover:bg-sauna-charcoal transition-all
+                                                   shadow-lg shadow-sauna-dark/20 hover:shadow-xl">
+                Get the Full Protocol
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
@@ -276,18 +313,18 @@ export default function HomePage() {
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sauna-copper/30 to-transparent" />
 
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-50 border border-red-200 rounded-full mb-8">
-            <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
-            <span className="text-red-700 font-medium text-sm">Limited: Free Contrast Therapy Guide</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-sauna-copper/10 border border-sauna-copper/20 rounded-full mb-8">
+            <span className="w-2 h-2 bg-sauna-copper rounded-full animate-pulse" />
+            <span className="text-sauna-copper font-medium text-sm">Free: The Executive&apos;s Contrast Therapy Protocol</span>
           </div>
 
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-sauna-dark mb-6 leading-tight">
-            Start Your Sauna<br />Journey Today
+            Join the Inner Circle
           </h2>
 
           <p className="text-xl text-sauna-dark/60 mb-10 max-w-2xl mx-auto">
-            Join 10,000+ sauna enthusiasts getting weekly insights, exclusive guides,
-            and early access to new content. Plus, get our Contrast Therapy Starter Guide free.
+            10,000+ founders, executives, and high performers receive weekly protocol updates,
+            research breakdowns, and equipment analysis. Plus, get our complete Contrast Therapy Protocol.
           </p>
 
           <NewsletterSignup variant="inline" />
@@ -297,19 +334,19 @@ export default function HomePage() {
               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              No spam, ever
+              Research-backed only
+            </span>
+            <span className="flex items-center gap-2">
+              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              5-minute weekly read
             </span>
             <span className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               Unsubscribe anytime
-            </span>
-            <span className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              Free starter guide
             </span>
           </div>
         </div>
@@ -330,7 +367,7 @@ export default function HomePage() {
                 <span className="font-display text-2xl font-semibold">Sauna Guide</span>
               </div>
               <p className="text-sauna-mist/60 max-w-sm">
-                Your complete guide to authentic sauna experiences. Discover, learn, and embrace the sauna lifestyle.
+                Evidence-based protocols for deliberate heat exposure. Optimize your health span through the science of sauna.
               </p>
             </div>
 
@@ -338,7 +375,7 @@ export default function HomePage() {
               <h4 className="font-semibold mb-4">Explore</h4>
               <ul className="space-y-2 text-sauna-mist/60">
                 <li><Link href="/saunas" className="hover:text-sauna-copper transition-colors">Sauna Directory</Link></li>
-                <li><Link href="/guides" className="hover:text-sauna-copper transition-colors">Guides & Tips</Link></li>
+                <li><Link href="/guides" className="hover:text-sauna-copper transition-colors">Protocols</Link></li>
                 <li><Link href="/guides/contrast-therapy" className="hover:text-sauna-copper transition-colors">Contrast Therapy</Link></li>
               </ul>
             </div>
@@ -413,7 +450,7 @@ function FeatureCard({
       </p>
 
       <div className="flex items-center text-sauna-copper font-medium group-hover:gap-3 gap-2 transition-all">
-        Learn more
+        Explore
         <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>

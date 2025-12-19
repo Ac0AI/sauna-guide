@@ -1,0 +1,336 @@
+{
+  "createdAt": "2025-12-19",
+  "projectContext": {
+    "business": "Sauna Guide - Premium sauna directory and newsletter",
+    "goal": "100K+ subscribers, affiliate commissions on premium saunas and experiences",
+    "positioning": "Quiet luxury meets evidence-based biohacking",
+    "monetization": "Free newsletter, high-ticket affiliate ($5K-$50K saunas), experience partnerships"
+  },
+  "primaryPersona": {
+    "name": "Marcus",
+    "descriptor": "The Performance-Driven Founder",
+    "quickSummary": {
+      "ageRange": "38-52",
+      "occupation": "Tech founder, CEO, or senior executive",
+      "income": "$300K-$2M+ annually",
+      "location": "Urban/suburban - Austin, Miami, NYC, LA, London, Stockholm",
+      "techSavviness": "High - early adopter, uses Oura/WHOOP, follows biohacking"
+    },
+    "demographics": {
+      "familyStatus": "Married with 1-2 kids, or divorced and dating",
+      "education": "MBA or technical degree (CS, Engineering)",
+      "livingSituation": "Homeowner - modern home with dedicated wellness space or building one",
+      "netWorth": "$2M-$20M+",
+      "spendingPatterns": "Buys best-in-class without flinching - new Peloton yearly, $400 running shoes, $2K mattress"
+    },
+    "psychographics": {
+      "values": [
+        "Optimization and efficiency in everything",
+        "Long-term thinking (healthspan > lifespan)",
+        "Quality over quantity - will pay 10x for 20% better",
+        "Time is the ultimate currency",
+        "Evidence-based decision making"
+      ],
+      "dailyLife": "Wakes at 5:30AM. Morning routine includes cold plunge (3min), sauna (20min), Zone 2 cardio while reviewing overnight emails. Afternoon focused work blocks. Evening family time, early dinner. Tracks HRV, sleep score, and adjusts routine based on data. Takes 2-3 'executive wellness retreats' per year.",
+      "informationSources": {
+        "podcasts": ["Huberman Lab", "Peter Attia - The Drive", "Tim Ferriss", "All-In", "Lex Fridman"],
+        "newsletters": ["Morning Brew", "Milk Road", "The Profile"],
+        "socialMedia": "Twitter/X for tech/finance, Instagram for lifestyle, minimal TikTok",
+        "trustedVoices": ["Andrew Huberman", "Peter Attia", "Bryan Johnson", "David Sinclair"]
+      }
+    },
+    "goalsAndMotivations": {
+      "primaryGoals": [
+        "Maintain peak cognitive and physical performance into 60s, 70s, and beyond",
+        "Build the ultimate home wellness setup (sauna + cold plunge + gym)",
+        "Have more energy for both work intensity and family presence"
+      ],
+      "secondaryGoals": [
+        "Impress peers with sophisticated wellness knowledge",
+        "Create a home environment that reflects success and intentionality",
+        "Find stress relief that actually works (therapy alone isn't enough)"
+      ],
+      "whatSuccessLooksLike": "A beautiful barrel sauna in the backyard that's part of his daily ritual. Friends and colleagues mention how young and energetic he looks. His kids want to join him for sauna sessions. His doctor is impressed by his biomarkers improving year over year."
+    },
+    "painPointsAndFrustrations": {
+      "currentChallenges": [
+        {
+          "pain": "Information overload - too many conflicting protocols from different sources",
+          "emotion": "Frustrated that he can't find ONE trusted source for sauna expertise",
+          "intensity": "High"
+        },
+        {
+          "pain": "Fear of buying wrong sauna - $15K-$50K purchase with no clear comparison",
+          "emotion": "Anxious about making an expensive mistake visible in his backyard",
+          "intensity": "Very High"
+        },
+        {
+          "pain": "Time wasted researching instead of optimizing",
+          "emotion": "Annoyed that he has to become an expert in yet another domain",
+          "intensity": "High"
+        },
+        {
+          "pain": "Lack of premium, curated content - most sauna content feels amateur",
+          "emotion": "Disappointed that the space isn't as sophisticated as other wellness areas",
+          "intensity": "Medium"
+        }
+      ],
+      "failedAttempts": [
+        "Bought an infrared sauna blanket - doesn't feel 'real' enough",
+        "Gym sauna - too public, timing is inconvenient, questionable hygiene",
+        "DIY research - overwhelmed by Reddit, conflicting YouTube reviews",
+        "Asked contractor - they recommended generic brands with no protocol guidance"
+      ]
+    },
+    "buyingBehavior": {
+      "triggers": [
+        "Heard Huberman or Attia discuss sauna benefits on podcast",
+        "Saw a friend's setup and felt 'sauna envy'",
+        "Annual health checkup showed declining metrics - needs intervention",
+        "Building/renovating home - perfect time to add wellness features",
+        "Turning 40/45/50 - midlife optimization awakening"
+      ],
+      "researchProcess": [
+        "1. Google 'best home sauna' or 'Huberman sauna protocol'",
+        "2. Read 2-3 articles, get overwhelmed by options",
+        "3. Ask successful friends in Slack/WhatsApp groups",
+        "4. Look for an expert or trusted curator to shortcut decision",
+        "5. Once decided, ready to purchase within 2 weeks"
+      ],
+      "barriers": [
+        "Uncertainty about which type (infrared vs traditional vs barrel)",
+        "Installation complexity - doesn't want to project manage",
+        "Spouse buy-in on aesthetics and yard space",
+        "Fear of it becoming another unused purchase"
+      ],
+      "convincers": [
+        "Clear, data-backed comparison from trusted source",
+        "Real testimonials from people 'like him' (other founders/execs)",
+        "Premium aesthetics that enhance property value",
+        "Protocol guidance that guarantees he'll actually use it",
+        "White-glove service - just tell him what to buy"
+      ]
+    },
+    "budgetAndValue": {
+      "priceInsensitivity": "Will happily spend $20K-$50K on the right setup. Doesn't negotiate - values time over haggling. Would spend more if convinced it's meaningfully better.",
+      "valuePerception": "Calculates ROI in terms of years of life, cognitive performance, and stress reduction. A $30K sauna that gives him 10 extra productive years is a bargain.",
+      "redFlags": "Cheap-looking marketing, pushy sales tactics, lack of scientific backing, mass-market positioning"
+    },
+    "communicationPreferences": {
+      "toneThatResonates": "Sophisticated but not pretentious. Confident but not salesy. Data-driven but readable. Exclusive but not elitist.",
+      "keyMessagesThatWork": [
+        "The definitive guide for serious wellness investors",
+        "What the world's top performers know about heat therapy",
+        "Science-backed protocols you won't find elsewhere",
+        "Curated by experts, for those who demand the best"
+      ],
+      "wordsAndPhrases": [
+        "optimize", "protocol", "stack", "ROI", "evidence-based",
+        "longevity", "healthspan", "biohack", "heat shock proteins",
+        "deliberate heat exposure", "cognitive performance", "recovery"
+      ],
+      "avoid": [
+        "relaxation", "spa day", "treat yourself", "self-care Sunday",
+        "cheap", "budget", "deal", "discount", "basic"
+      ]
+    },
+    "userJourneyTouchpoints": {
+      "awareness": [
+        "Huberman Lab podcast episode on sauna benefits",
+        "Friend mentions new sauna on group chat",
+        "Google search for 'sauna health benefits research'",
+        "Twitter/X thread from wellness thought leader"
+      ],
+      "consideration": [
+        "Comparison guides: infrared vs traditional vs barrel",
+        "Protocol breakdowns with specific temperatures and durations",
+        "Real cost analysis including installation",
+        "Reviews from credible sources (not generic 'best of' lists)"
+      ],
+      "decision": [
+        "Newsletter with curated recommendation for his situation",
+        "Expert consultation or quiz that matches him to right sauna",
+        "Testimonials from founders/execs he respects",
+        "Installation partner who handles everything"
+      ],
+      "retention": [
+        "Weekly protocol tips to maximize his investment",
+        "New research on heat therapy benefits",
+        "Exclusive access to premium experiences and retreats",
+        "Community of like-minded high performers"
+      ]
+    },
+    "designImplications": {
+      "visualPreferences": {
+        "colors": "Muted earth tones, charcoal, warm woods, subtle gold accents",
+        "imagery": "Minimalist Scandinavian/Japanese aesthetic, natural materials, premium finishes",
+        "avoid": "Stock photos, bright colors, cluttered layouts, cheesy steam effects"
+      },
+      "uxConsiderations": [
+        "Fast-loading, no bloat - respects his time",
+        "Clean typography, plenty of whitespace",
+        "Data visualizations for research studies",
+        "Easy-to-scan format with clear headers",
+        "Mobile-optimized for reading during commute/waiting"
+      ],
+      "contentFormatPreferences": [
+        "Newsletter: 5-minute read max, Sunday evening delivery",
+        "Guides: Comprehensive but scannable, PDF download option",
+        "Video: Only from recognized experts, under 10 minutes",
+        "No TikTok-style short-form content"
+      ]
+    }
+  },
+  "secondaryPersona": {
+    "name": "Sofia",
+    "descriptor": "The Biohacking Early Adopter",
+    "quickSummary": {
+      "ageRange": "28-38",
+      "occupation": "Product manager, VC associate, wellness professional, influencer",
+      "income": "$120K-$300K",
+      "location": "Urban - Brooklyn, SF, London, Berlin, Melbourne",
+      "techSavviness": "Very high - uses every tracker, beta tests new wellness tech"
+    },
+    "keyDifferencesFromPrimary": {
+      "budget": "More price-conscious but will stretch for right product ($5K-$15K range)",
+      "housing": "May rent or have smaller space - interested in portable/compact solutions",
+      "motivation": "Social currency and content creation alongside personal optimization",
+      "influence": "Often influences others' purchases - the 'friend who knows about wellness'",
+      "content": "More active on Instagram/TikTok, creates content about her routines"
+    },
+    "demographics": {
+      "familyStatus": "Single or DINK (dual income, no kids)",
+      "education": "Bachelor's or Master's degree",
+      "livingSituation": "Rents apartment or owns condo, limited outdoor space"
+    },
+    "uniqueGoals": [
+      "Be the first in friend group to have home sauna setup",
+      "Create content that performs well (wellness aesthetic photos/videos)",
+      "Build sustainable wellness routine that fits apartment life",
+      "Prepare for future home purchase with wellness setup vision"
+    ],
+    "uniquePainPoints": [
+      "Space constraints - can't fit barrel sauna in apartment",
+      "Budget constraints - wants premium but can't justify $30K (yet)",
+      "Landlord restrictions on permanent installations",
+      "FOMO on experiences she sees influencers having"
+    ],
+    "buyingBehavior": {
+      "triggers": [
+        "Instagram ad for portable sauna that looks aesthetic",
+        "Wellness retreat experience she wants to recreate at home",
+        "Getting bonus/promotion - time to upgrade wellness setup"
+      ],
+      "products": [
+        "HigherDOSE sauna blanket ($500-$700)",
+        "Portable tent saunas ($2K-$4K)",
+        "Infrared panels ($1K-$3K)",
+        "Sauna retreat experiences ($500-$2K)"
+      ],
+      "decisionStyle": "Research-heavy, reads reviews, asks community, but ultimately influenced by aesthetics and social proof"
+    },
+    "valueToSaunaGuide": {
+      "immediate": "Entry-level affiliate products, higher volume of purchases",
+      "longTerm": "Graduates to premium purchases, influences others, creates UGC",
+      "engagement": "High newsletter open rates, shares content, participates in community"
+    }
+  },
+  "tertiaryPersona": {
+    "name": "Henrik",
+    "descriptor": "The Authentic Traditionalist",
+    "quickSummary": {
+      "ageRange": "45-65",
+      "occupation": "Professional (lawyer, doctor, architect), business owner",
+      "income": "$200K-$500K",
+      "location": "Suburban - Nordic countries, Germany, Minnesota, Michigan, Pacific Northwest"
+    },
+    "keyCharacteristics": {
+      "motivation": "Cultural connection, tradition, craftsmanship over optimization",
+      "preference": "Wood-burning traditional saunas, authentic Finnish/Swedish style",
+      "knowledge": "Already knows about saunas from cultural background",
+      "needs": "Sourcing authentic materials, proper build techniques, community connection"
+    },
+    "contentNeeds": [
+      "Traditional building techniques and materials",
+      "Authentic löyly (steam) and temperature guidance",
+      "Finnish/Swedish sauna culture and etiquette",
+      "Premium wood-burning stove comparisons (Harvia, Helo, Narvi)"
+    ],
+    "valueToSaunaGuide": {
+      "expertise": "Can contribute authentic cultural knowledge",
+      "network": "Connected to Nordic communities and traditional sauna societies",
+      "purchases": "High-quality traditional equipment ($8K-$25K setups)"
+    }
+  },
+  "antiPersonas": {
+    "doNotTarget": [
+      {
+        "type": "Budget-Maximizer",
+        "description": "Looking for cheapest option, compares on price only",
+        "reason": "Won't convert on premium affiliates, drags down engagement"
+      },
+      {
+        "type": "Casual Spa-Goer",
+        "description": "Occasional hotel sauna user, no home purchase intent",
+        "reason": "No monetization potential, different content needs"
+      },
+      {
+        "type": "Skeptic",
+        "description": "Doesn't believe in health benefits, sees saunas as luxury waste",
+        "reason": "High effort to convert, negative community influence"
+      }
+    ]
+  },
+  "keyTakeaways": {
+    "mustHaveElements": [
+      "Science-backed content with specific protocols (temperatures, durations, frequency)",
+      "Premium visual design that signals quality without screaming it",
+      "Curated product recommendations with clear 'best for you' guidance",
+      "Exclusive feel - subscriber-only content, insider knowledge",
+      "Time-efficient format - these people value their minutes"
+    ],
+    "messagingPillars": [
+      {
+        "pillar": "Performance Optimization",
+        "howToCommunicate": "Frame sauna as productivity tool, not relaxation. Cognitive benefits, longevity ROI, competitive edge."
+      },
+      {
+        "pillar": "Evidence-Based Authority",
+        "howToCommunicate": "Cite research, name-drop credible experts (Huberman, Attia), use precise numbers."
+      },
+      {
+        "pillar": "Quiet Luxury",
+        "howToCommunicate": "Premium without bragging. Quality signals through design and depth, not price tags."
+      },
+      {
+        "pillar": "Curated Expertise",
+        "howToCommunicate": "We did the research so you don't have to. Trust our recommendations."
+      }
+    ],
+    "redFlagsToAvoid": [
+      "Mass-market wellness language ('self-care', 'treat yourself', 'spa day')",
+      "Discount-focused messaging (undermines premium positioning)",
+      "Generic stock photography (instant credibility loss)",
+      "Oversimplified content (insults their intelligence)",
+      "Pushy sales tactics (they smell desperation)"
+    ],
+    "quickReferenceCard": {
+      "tone": {
+        "do": "Sophisticated expert friend sharing insider knowledge",
+        "dont": "Salesy newsletter or basic wellness blog"
+      },
+      "imagery": {
+        "do": "Minimalist Scandi/Japanese, natural materials, editorial quality",
+        "dont": "Stock photos, bright colors, people in towels looking at camera"
+      },
+      "cta": {
+        "do": "Get the Executive's Protocol | Join the Inner Circle",
+        "dont": "Subscribe Now! | Don't Miss Out! | Limited Time!"
+      },
+      "pricing": {
+        "do": "Investment in longevity | Premium selection | Curated picks",
+        "dont": "Best deals | Budget-friendly | Save money"
+      }
+    }
+  }
+}
