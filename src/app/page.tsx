@@ -14,7 +14,7 @@ export default function HomePage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/hero-sauna.png"
+            src="/images/hero-sauna.jpg"
             alt="Premium Finnish sauna interior with cedar wood and ambient lighting"
             fill
             className="object-cover"
@@ -205,7 +205,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl shadow-black/30">
                 <Image
-                  src="/images/contrast-therapy.png"
+                  src="/images/contrast-therapy.jpg"
                   alt="Outdoor Nordic sauna with cold plunge for contrast therapy"
                   fill
                   className="object-cover"
@@ -228,7 +228,7 @@ export default function HomePage() {
             <div className="order-2 lg:order-1 relative">
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/sauna-protocols.png"
+                  src="/images/sauna-protocols.jpg"
                   alt="Modern home sauna setup with digital controls"
                   fill
                   className="object-cover"
