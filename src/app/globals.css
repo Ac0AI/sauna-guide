@@ -170,3 +170,111 @@ img {
 img[loading] {
   opacity: 0;
 }
+
+/* Prose styling for guides */
+.prose-sauna {
+  --tw-prose-body: #605C57;
+  --tw-prose-headings: #2B2926;
+  --tw-prose-lead: #605C57;
+  --tw-prose-links: #7A6655;
+  --tw-prose-bold: #2B2926;
+  --tw-prose-counters: #8B8884;
+  --tw-prose-bullets: #9D826B;
+  --tw-prose-hr: #E0DDD7;
+  --tw-prose-quotes: #4A403A;
+  --tw-prose-quote-borders: #9D826B;
+  --tw-prose-captions: #8B8884;
+  --tw-prose-code: #2B2926;
+  --tw-prose-pre-code: #F5F3EF;
+  --tw-prose-pre-bg: #2B2926;
+  --tw-prose-th-borders: #E0DDD7;
+  --tw-prose-td-borders: #E0DDD7;
+}
+
+.prose-sauna h1 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+}
+
+.prose-sauna h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-top: 2.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid #E0DDD7;
+}
+
+.prose-sauna h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+}
+
+.prose-sauna a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.prose-sauna a:hover {
+  color: #4A403A;
+}
+
+.prose-sauna blockquote {
+  font-style: normal;
+  border-left-width: 3px;
+  background: #F5F3EF;
+  padding: 1rem 1.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.prose-sauna code:not(pre code) {
+  background: #F5F3EF;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+
+.prose-sauna table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prose-sauna th {
+  background: #F5F3EF;
+  font-weight: 600;
+  text-align: left;
+}
+
+.prose-sauna th,
+.prose-sauna td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #E0DDD7;
+}
+
+.prose-sauna tr:nth-child(even) {
+  background: #FAFAF8;
+}
+
+.prose-sauna hr {
+  margin: 3rem 0;
+}
+
+.prose-sauna ul > li::marker {
+  color: #9D826B;
+}
+
+.prose-sauna ol > li::marker {
+  color: #7A6655;
+  font-weight: 600;
+}
+
+.prose-sauna strong {
+  font-weight: 600;
+}
+
+.prose-sauna img {
+  border-radius: 0.75rem;
+}

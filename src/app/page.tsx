@@ -1,38 +1,12 @@
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
+import { Navigation } from '@/components/layout/Navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function HomePage() {
   return (
     <main className="min-h-screen overflow-hidden">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-sauna-paper/90 backdrop-blur-md border-b border-sauna-ash/50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-sauna-bark flex items-center justify-center
-                            group-hover:bg-sauna-walnut transition-colors duration-300">
-              <svg className="w-5 h-5 text-sauna-sand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-              </svg>
-            </div>
-            <span className="font-display text-xl font-medium text-sauna-ink tracking-tight">Sauna Guide</span>
-          </Link>
-
-          <div className="hidden md:flex items-center gap-8">
-            <Link href="/saunas" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
-              Directory
-            </Link>
-            <Link href="/guides" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
-              Guides
-            </Link>
-            <Link href="#newsletter" className="px-5 py-2.5 bg-sauna-ink text-sauna-paper rounded-lg text-sm font-medium
-                                                 hover:bg-sauna-charcoal transition-colors duration-300">
-              Get The Briefing
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">

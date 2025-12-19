@@ -8,7 +8,7 @@
       "features": ["Wood-Burning", "Smoke Sauna", "Baltic Sea", "Architecture"],
       "priceRange": "$$",
       "description": "An architectural masterpiece on the Helsinki waterfront. Löyly offers exceptional wood-burning and smoke saunas with direct access to the Baltic Sea.",
-      "images": ["https://images.unsplash.com/photo-1627429670014-998901eb47df?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/loyly-helsinki.jpg"],
       "rating": 4.8
     },
     {
@@ -41,7 +41,7 @@
       "features": ["Balinese Village", "Textile-Free", "Silence", "Urban Oasis"],
       "priceRange": "$$",
       "description": "A Balinese-style wellness resort in central Berlin. Textile-free paradise with vast grounds and numerous saunas.",
-      "images": ["https://images.unsplash.com/photo-1571210543666-41dfd1cb032d?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/vabali-berlin.jpg"],
       "rating": 4.8
     },
     {
@@ -52,7 +52,7 @@
       "features": ["World's Largest", "27 Saunas", "Slides", "Events"],
       "priceRange": "$$$",
       "description": "The world's largest thermal bath complex. The sauna area is a textile-free paradise with themes ranging from Roman to Russian.",
-      "images": ["https://images.unsplash.com/photo-1560942485-b2a11cc13456?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/therme-erding.jpg"],
       "rating": 4.9
     },
     {
@@ -63,7 +63,7 @@
       "features": ["Floating Pools", "Alpine Views", "Thermal Water", "Futuristic"],
       "priceRange": "$$$",
       "description": "Famous for its three levitating bowl-shaped pools suspended in the air with panoramic views of the Ötztal Alps.",
-      "images": ["https://images.unsplash.com/photo-1519824145371-296894a0daa9?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/aqua-dome.jpg"],
       "rating": 4.9
     },
     {
@@ -195,7 +195,7 @@
       "features": ["Guided Sessions", "Breathwork", "Ice Baths", "Social"],
       "priceRange": "$$",
       "description": "Redefining social wellness with guided emotional regulation classes using heat and cold.",
-      "images": ["https://images.unsplash.com/photo-1629235069279-7a08b90c749b?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/othership-toronto.jpg"],
       "rating": 4.9
     },
     {
@@ -206,7 +206,7 @@
       "features": ["Silence Policy", "Forest Setting", "Outdoor", "Hydrotherapy"],
       "priceRange": "$$$",
       "description": "A silent hydrotherapy cycle nestled in the ancient cedar forests of Whistler.",
-      "images": ["https://images.unsplash.com/photo-1606041011872-596597976b25?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/scandinave-spa-whistler.jpg"],
       "rating": 4.8
     },
     {
@@ -309,6 +309,17 @@
       "rating": 4.8
     },
     {
+      "id": "centralbadet",
+      "name": "Centralbadet",
+      "location": { "city": "Stockholm", "country": "Sweden" },
+      "type": "spa",
+      "features": ["Art Nouveau", "Historic 1904", "City Center", "Pool"],
+      "priceRange": "$$",
+      "description": "A stunning Art Nouveau bathhouse in the heart of Stockholm, operating since 1904. Features a beautiful indoor pool, Turkish baths, and classic Swedish saunas.",
+      "images": ["/images/saunas-photos/centralbadet.jpg"],
+      "rating": 4.6
+    },
+    {
       "id": "hellasgarden",
       "name": "Hellasgården",
       "location": { "city": "Stockholm", "country": "Sweden" },
@@ -327,7 +338,7 @@
       "features": ["Japanese", "Yukata", "Hot Springs", "Architecture"],
       "priceRange": "$$$",
       "description": "A massive Japanese ryokan-style spa in the Swedish archipelago. Everyone wears matching yukatas.",
-      "images": ["https://images.unsplash.com/photo-1536420215698-286c9780520e?q=80&w=1600&auto=format&fit=crop"],
+      "images": ["/images/saunas-photos/yasuragi.jpg"],
       "rating": 4.7
     },
     {
