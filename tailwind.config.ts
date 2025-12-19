@@ -9,32 +9,51 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Luxurious Nordic sauna palette
+        // Quiet Luxury Sauna Palette
+        // Inspired by premium Scandinavian design, aged wood, and steam
         sauna: {
-          // Rich wood tones
-          wood: '#8B4513',
-          cedar: '#A0522D',
-          birch: '#F5DEB3',
+          // Paper & Canvas - warm whites
+          paper: '#FAFAF8',
+          linen: '#F5F3EF',
+          cream: '#EBE8E2',
 
-          // Warm atmospheric colors
-          steam: '#FAF7F4',
-          mist: '#E8E4E1',
+          // Stone & Earth - neutral grays with warmth
+          ash: '#E0DDD7',
+          fog: '#C5C2BC',
+          stone: '#8B8884',
+          slate: '#605C57',
 
-          // Heat & ember tones
-          heat: '#CD5C5C',
-          ember: '#D2691E',
-          glow: '#FF8C42',
-          copper: '#B87333',
+          // Text hierarchy - warm blacks
+          ink: '#2B2926',
+          charcoal: '#1C1917',
+          night: '#0F0E0D',
 
-          // Accent warmth
-          warm: '#DEB887',
-          honey: '#DAA520',
-          amber: '#FFBF00',
+          // Wood tones - the soul of sauna
+          birch: '#D4C9B8',
+          cedar: '#B8A68A',
+          oak: '#9D826B',
+          walnut: '#7A6655',
+          bark: '#4A403A',
 
-          // Deep contrast
-          dark: '#2C1810',
-          charcoal: '#1A0F0A',
-          night: '#0D0705',
+          // Accent - understated warmth
+          clay: '#A68B6B',
+          sand: '#C4B5A0',
+          brass: '#9A8560',
+          bronze: '#7A6B55',
+
+          // Heat - subtle, not screaming
+          ember: '#B87B5A',
+          glow: '#D4A574',
+          warm: '#E8D5C4',
+
+          // Legacy mappings for compatibility
+          wood: '#9D826B',
+          steam: '#FAFAF8',
+          mist: '#E0DDD7',
+          heat: '#B87B5A',
+          copper: '#A68B6B',
+          honey: '#C4B5A0',
+          dark: '#2B2926',
         },
       },
       fontFamily: {
@@ -76,7 +95,7 @@ const config: Config = {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'wood-grain': 'repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(139,69,19,0.03) 50px, rgba(139,69,19,0.03) 51px)',
+        'wood-grain': 'repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(157,130,107,0.03) 50px, rgba(157,130,107,0.03) 51px)',
       },
     },
   },

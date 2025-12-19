@@ -8,10 +8,10 @@
   --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body: 'Outfit', system-ui, sans-serif;
 
-  --foreground: #2C1810;
-  --background: #FAF7F4;
+  --foreground: #2B2926;
+  --background: #FAFAF8;
 
-  --glow-color: rgba(255, 140, 66, 0.15);
+  --accent-subtle: rgba(166, 139, 107, 0.1);
 }
 
 * {
@@ -30,31 +30,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Selection styling */
+/* Selection styling - muted and refined */
 ::selection {
-  background: rgba(184, 115, 51, 0.3);
-  color: #2C1810;
+  background: rgba(166, 139, 107, 0.25);
+  color: #2B2926;
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - subtle and elegant */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #FAF7F4;
+  background: #FAFAF8;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #DEB887;
-  border-radius: 4px;
+  background: #C5C2BC;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #B87333;
+  background: #9D826B;
 }
 
-/* Ambient glow effect */
+/* Ambient glow effect - very subtle */
 .ambient-glow {
   position: relative;
 }
@@ -66,7 +66,7 @@ body {
   left: 50%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
+  background: radial-gradient(circle, var(--accent-subtle) 0%, transparent 70%);
   transform: translate(-50%, -50%);
   pointer-events: none;
   z-index: -1;
@@ -77,12 +77,12 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,255,255,0.6) 0%, transparent 70%);
   border-radius: 50%;
   animation: steam 4s ease-in-out infinite;
 }
 
-/* Wood texture overlay */
+/* Wood texture overlay - more subtle */
 .wood-texture {
   position: relative;
 }
@@ -96,40 +96,40 @@ body {
       90deg,
       transparent,
       transparent 100px,
-      rgba(139, 69, 19, 0.02) 100px,
-      rgba(139, 69, 19, 0.02) 101px
+      rgba(157, 130, 107, 0.015) 100px,
+      rgba(157, 130, 107, 0.015) 101px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 50px,
-      rgba(139, 69, 19, 0.01) 50px,
-      rgba(139, 69, 19, 0.01) 51px
+      rgba(157, 130, 107, 0.01) 50px,
+      rgba(157, 130, 107, 0.01) 51px
     );
   pointer-events: none;
 }
 
-/* Gradient text */
+/* Gradient text - muted earth tones */
 .gradient-text {
-  background: linear-gradient(135deg, #B87333 0%, #DAA520 50%, #D2691E 100%);
+  background: linear-gradient(135deg, #9D826B 0%, #B8A68A 50%, #A68B6B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Card hover effects */
+/* Card hover effects - refined and subtle */
 .card-hover {
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-hover:hover {
-  transform: translateY(-8px);
+  transform: translateY(-4px);
   box-shadow:
-    0 20px 40px -12px rgba(44, 24, 16, 0.15),
-    0 0 0 1px rgba(184, 115, 51, 0.1);
+    0 16px 32px -8px rgba(43, 41, 38, 0.1),
+    0 0 0 1px rgba(157, 130, 107, 0.08);
 }
 
-/* Button glow */
+/* Button glow - subtle shimmer */
 .btn-glow {
   position: relative;
   overflow: hidden;
@@ -145,7 +145,7 @@ body {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.15),
     transparent
   );
   transition: left 0.5s ease;
@@ -155,9 +155,9 @@ body {
   left: 100%;
 }
 
-/* Focus styles */
+/* Focus styles - understated */
 *:focus-visible {
-  outline: 2px solid #B87333;
+  outline: 2px solid #9D826B;
   outline-offset: 2px;
 }
 

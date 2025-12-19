@@ -1,43 +1,28 @@
 {
   "images": [
     {
-      "imageId": "hero-finnish-sauna-001",
+      "filename": "hero-sauna.jpg",
+      "prompt": "Cinematic wide shot of a luxury Finnish sauna interior, floor to ceiling window overlooking a snowy forest, golden hour light, steam rising, hyper-realistic, 8k",
       "purpose": "hero",
-      "prompt": "Luxurious Finnish sauna interior, warm cedar wood walls with beautiful natural grain patterns, soft ethereal steam rising gently through the air, ambient amber and golden lighting creating a serene meditative atmosphere, traditional tiered wooden benches in classic Finnish style, small frosted window with soft diffused natural light filtering through, professional high-end spa photography style, ultra high quality, warm color palette with rich browns copper and amber tones, no people visible, peaceful and inviting, 8k resolution, cinematic composition, focus on warmth and serenity",
-      "dimensions": "16:9",
-      "altText": "Luxurious Finnish sauna interior with warm wooden walls and gentle steam creating a serene atmosphere",
-      "filename": "hero-finnish-sauna.jpg",
-      "articleAssociation": "homepage-hero",
-      "brandColors": ["#8B4513", "#DEB887", "#CD5C5C"],
-      "mood": "serene, luxurious, inviting"
+      "dimensions": "16:9"
     },
     {
-      "imageId": "contrast-therapy-wellness-001",
-      "purpose": "blog-featured",
-      "prompt": "Artistic visualization of sauna contrast therapy concept, elegant split composition showing the interplay between warmth and cold elements, left side featuring warm wooden sauna texture with amber glowing heat and rich brown tones, right side with crystalline ice formations and cool blue water creating beautiful contrast, delicate steam meeting cold air creating ethereal vapor patterns and swirling mist, abstract yet sophisticated design, professional wellness and spa photography, warm copper and amber tones beautifully contrasting with deep Nordic blues and crisp whites, high-end luxury spa aesthetic, 8k quality, balanced composition, represents hot-cold therapy benefits",
-      "dimensions": "1:1",
-      "altText": "Artistic contrast therapy visualization showing warm sauna heat meeting cool water elements",
-      "filename": "contrast-therapy-wellness.jpg",
-      "articleAssociation": "/guides/contrast-therapy",
-      "brandColors": ["#CD5C5C", "#4682B4", "#F5F5F5"],
-      "mood": "dynamic, balanced, wellness-focused"
+      "filename": "contrast-therapy.jpg",
+      "prompt": "A person emerging from a cold plunge pool in nature, steam rising from their skin, mountains in background, moody atmospheric lighting, wellness photography",
+      "purpose": "content",
+      "dimensions": "4:5"
     },
     {
-      "imageId": "newsletter-community-sauna-001",
-      "purpose": "newsletter",
-      "prompt": "Cozy traditional Finnish lakeside sauna at golden hour, charming red wooden sauna building nestled by a serene pristine lake, warm inviting amber glow emanating from small window, beautiful birch trees framing the scene in background, peaceful Nordic landscape with natural beauty, soft evening light bathing everything in warm golden and amber tones, gentle steam wisping from traditional chimney, welcoming and community-focused atmosphere, professional travel and lifestyle photography style, stunning natural Finnish setting, cream warm wood and copper color palette, 8k resolution, inviting serene and aspirational mood, represents sauna culture and community",
-      "dimensions": "1:1",
-      "altText": "Traditional Finnish lakeside sauna at sunset with warm welcoming glow by serene water",
-      "filename": "newsletter-community-sauna.jpg",
-      "articleAssociation": "newsletter-header",
-      "brandColors": ["#8B4513", "#DEB887", "#E8E4E1"],
-      "mood": "welcoming, community, aspirational"
+      "filename": "newsletter-community.jpg",
+      "prompt": "Top down view of a diverse group of people sitting in a modern wooden sauna, laughing, towel wrapped, soft warm lighting, community vibe",
+      "purpose": "social-proof",
+      "dimensions": "1:1"
+    },
+    {
+      "filename": "sauna-protocols.jpg",
+      "prompt": "Minimalist photography of sauna accessories: a wooden bucket, ladle, hourglass, and birch whisk (vihta) on a cedar bench, shallow depth of field",
+      "purpose": "content",
+      "dimensions": "4:3"
     }
-  ],
-  "metadata": {
-    "created": "2025-12-19",
-    "totalImages": 3,
-    "aiModel": "Google Gemini 2.5 Flash Image (NanoBanana)",
-    "purpose": "Brand imagery for Sauna Guide website launch"
-  }
+  ]
 }

@@ -1,0 +1,586 @@
+{
+  "updatedAt": "2025-12-19T12:00:00Z",
+  "version": "1.0",
+  "purpose": "High-converting newsletter landing page copy frameworks and examples for Sauna Guide",
+
+  "researchSummary": {
+    "sources": [
+      "Morning Brew (4M+ subscribers)",
+      "The Hustle (2M+ subscribers)",
+      "Milk Road (330K subscribers, acquired in 10 months)",
+      "James Clear 3-2-1 (3M+ subscribers)",
+      "Tim Ferriss 5-Bullet Friday",
+      "Lenny's Newsletter",
+      "Farnam Street"
+    ],
+    "keyInsights": [
+      "Specific time commitment (5 minutes) outperforms vague promises",
+      "Social proof with exact numbers builds instant credibility",
+      "Benefit-driven CTAs convert 202% better than generic 'Subscribe'",
+      "Single email field forms maximize conversion",
+      "Identity-based language creates tribal belonging"
+    ]
+  },
+
+  "headlineFormulas": {
+    "proven": [
+      {
+        "formula": "Become [Outcome] in just [Time]",
+        "example": "Become smarter in just 5 minutes",
+        "source": "Morning Brew",
+        "whyItWorks": "Promises transformation with minimal time investment. Specific minutes beats vague 'quick read'"
+      },
+      {
+        "formula": "[Specific Format] + [Transformation Promise]",
+        "example": "3 ideas from me, 2 quotes from others, 1 question for you",
+        "source": "James Clear 3-2-1",
+        "whyItWorks": "Crystal clear expectation. Reader knows exactly what they'll get."
+      },
+      {
+        "formula": "Get [Specific Benefit] + [Frequency]",
+        "example": "Get the 5 Things I've Been Loving, Using, and Reading",
+        "source": "Tim Ferriss",
+        "whyItWorks": "Curiosity gap - what 5 things? Personal curation feels exclusive."
+      },
+      {
+        "formula": "Turning [Current State] Into [Desired State]",
+        "example": "Turning Everyday People Into Smart Investors",
+        "source": "Milk Road",
+        "whyItWorks": "Transformation story. Reader sees themselves becoming something better."
+      },
+      {
+        "formula": "[Objection Killer] + [Promise]",
+        "example": "Business as usual? No thanks.",
+        "source": "Morning Brew",
+        "whyItWorks": "Acknowledges pain point, positions newsletter as the antidote."
+      },
+      {
+        "formula": "Get a [Specific Advantage] in [Time] for free",
+        "example": "Get a mental edge in 5 minutes a week for free",
+        "source": "Farnam Street",
+        "whyItWorks": "Three benefits in one: specific outcome, time efficiency, zero cost."
+      }
+    ],
+    "forSaunaGuide": [
+      "Master sauna science in 5 minutes every Sunday",
+      "The protocols Huberman uses - distilled weekly",
+      "Become the most informed sauna owner in any room",
+      "Evidence-based heat therapy for peak performers",
+      "What Finnish researchers know that you don't - every week"
+    ]
+  },
+
+  "subheadlineFormulas": {
+    "patterns": [
+      {
+        "pattern": "Handle objections + Set expectations",
+        "example": "Quick and insightful updates...every day of the week",
+        "purpose": "Tells frequency, reassures about quality"
+      },
+      {
+        "pattern": "Pain point acknowledgment + Solution positioning",
+        "example": "Escape AI overwhelm",
+        "purpose": "Names the problem they face, positions you as relief"
+      },
+      {
+        "pattern": "Social proof embedded",
+        "example": "Join 330,000+ subscribers getting daily crypto updates",
+        "purpose": "Combines action with credibility"
+      },
+      {
+        "pattern": "Format + Frequency + Value",
+        "example": "A free, 5-minute newsletter keeping innovators in the loop",
+        "purpose": "Answers all three questions: what, when, why"
+      }
+    ],
+    "forSaunaGuide": [
+      "Science-backed protocols for longevity, recovery, and performance - every Sunday at 6pm",
+      "Join 10,000+ founders and executives who optimize with heat",
+      "No fluff. No broscience. Just the protocols that actually work.",
+      "The weekly briefing trusted by Huberman listeners and Attia fans"
+    ]
+  },
+
+  "ctaButtonCopy": {
+    "avoid": [
+      "Subscribe",
+      "Sign Up",
+      "Submit",
+      "Join",
+      "Enter"
+    ],
+    "whyAvoid": "These are self-serving and focus on what the business gains, not the reader benefit. Generic CTAs convert at generic rates.",
+    "highConverting": {
+      "formulas": [
+        {
+          "formula": "[Action Verb] + My/Your + [Benefit]",
+          "examples": ["Get My Free Guide", "Send Me The Playbook", "Get Your Protocol"],
+          "conversionLift": "First-person language increases conversions significantly"
+        },
+        {
+          "formula": "Join + [Number] + [Identity]",
+          "examples": ["Join 200K+ Subscribers", "Join 10,000+ Performers"],
+          "conversionLift": "Social proof in button creates FOMO"
+        },
+        {
+          "formula": "[Start/Get] + [Specific Outcome]",
+          "examples": ["Start Earning", "Get Smarter", "Start Optimizing"],
+          "conversionLift": "Outcome-focused, no commitment implied"
+        },
+        {
+          "formula": "Try + [Low Commitment Word]",
+          "examples": ["Try It Free", "See This Week's Edition"],
+          "conversionLift": "Reduces perceived risk"
+        }
+      ],
+      "bestPractices": [
+        "2-5 words optimal",
+        "Use action verbs: Get, Send, Download, Start, Join, Try",
+        "Include 'Free' when applicable - it's a power word",
+        "First-person (My, Me, I) outperforms second-person (Your, You)"
+      ]
+    },
+    "forSaunaGuide": [
+      "Get My Sauna Protocol",
+      "Send Me Sunday's Edition",
+      "Get The Science Free",
+      "Join 10K+ Optimizers",
+      "Start Optimizing",
+      "Get Smarter About Heat"
+    ]
+  },
+
+  "socialProofFormats": {
+    "subscriberCount": {
+      "formats": [
+        "Join [exact number]+ readers",
+        "Read by [number] [identity] weekly",
+        "[Number]+ [identity group] already subscribe",
+        "There's a reason [number]+ professionals read this"
+      ],
+      "examples": [
+        "Join 330,000+ subscribers",
+        "Read by 13,488 EV geeks weekly",
+        "5,500+ Portlanders are already reading. What's stopping you?",
+        "There's a reason 4M+ professionals read our free newsletter"
+      ],
+      "tips": [
+        "Use exact numbers when possible (more believable than round)",
+        "Update regularly as you grow",
+        "Segment by identity when audience is specific"
+      ]
+    },
+    "authorityProof": {
+      "formats": [
+        "Read by top executives from [Company logos]",
+        "Trusted by [% or fraction] of Fortune 500",
+        "Featured in [Publication names]",
+        "As seen on [Media outlets]"
+      ],
+      "examples": [
+        "Read by top executives from Google, Meta, Apple",
+        "Trusted by marketers from 44% of Fortune 500",
+        "Featured in TechCrunch, Forbes, WSJ"
+      ]
+    },
+    "testimonials": {
+      "formats": [
+        "Short quote + Name + Role + Company",
+        "Single powerful sentence",
+        "Before/after transformation"
+      ],
+      "tips": [
+        "Real names and photos increase trust",
+        "Specific outcomes beat generic praise",
+        "Celebrity/influencer testimonials are gold"
+      ]
+    },
+    "forSaunaGuide": {
+      "atLaunch": [
+        "Join the waitlist for the #1 sauna newsletter",
+        "Be among the first 1,000 subscribers"
+      ],
+      "at1000": [
+        "Join 1,000+ sauna enthusiasts and biohackers",
+        "Read by founders, CEOs, and performance athletes"
+      ],
+      "at10000": [
+        "Join 10,000+ executives who optimize with heat",
+        "The Sunday read trusted by Huberman listeners"
+      ],
+      "at50000": [
+        "Read by 50,000+ high performers every Sunday",
+        "The world's most-read sauna newsletter"
+      ]
+    }
+  },
+
+  "frequencyMessaging": {
+    "bestPractices": [
+      "Specific day beats 'weekly' (builds anticipation)",
+      "Time of day adds ritual feeling",
+      "'Only' or 'Just' reassures about volume",
+      "Combine with time-to-read estimate"
+    ],
+    "examples": [
+      {
+        "format": "Every [Day]",
+        "example": "Every Thursday, I send out an exclusive email",
+        "source": "Tim Ferriss"
+      },
+      {
+        "format": "[Frequency] + [Time to Read]",
+        "example": "A free, 5-minute newsletter",
+        "source": "The Hustle"
+      },
+      {
+        "format": "[Day] + [Time]",
+        "example": "Sunday at 6pm",
+        "source": "Recommendation for Sauna Guide"
+      }
+    ],
+    "forSaunaGuide": [
+      "Every Sunday at 6pm - 5 minute read",
+      "One email. Once a week. Zero spam.",
+      "Your Sunday evening optimization briefing"
+    ]
+  },
+
+  "valueBullets": {
+    "framework": {
+      "structure": "3-5 bullets max, each starting with action verb or specific benefit",
+      "elements": [
+        "What they'll learn/get",
+        "How often/when",
+        "What makes it different",
+        "Who else reads it (implied community)",
+        "What they won't get (no spam, no fluff)"
+      ]
+    },
+    "examplesFromTopNewsletters": [
+      {
+        "source": "James Clear",
+        "bullets": [
+          "3 short ideas from me",
+          "2 quotes from others",
+          "1 question for you to ponder"
+        ]
+      },
+      {
+        "source": "Burberry (adapted for newsletters)",
+        "bullets": [
+          "Exclusive access to new research",
+          "First look at equipment reviews",
+          "Insider protocols from experts"
+        ]
+      }
+    ],
+    "forSaunaGuide": [
+      {
+        "version": "Feature-focused",
+        "bullets": [
+          "Latest research on heat therapy, simplified",
+          "Actionable protocols you can use this week",
+          "Premium equipment reviews and comparisons",
+          "Insider tips from Finnish sauna masters",
+          "Zero spam. Unsubscribe anytime."
+        ]
+      },
+      {
+        "version": "Outcome-focused",
+        "bullets": [
+          "Optimize your longevity with evidence-based heat protocols",
+          "Save 40+ hours researching sauna equipment",
+          "Join a community of high performers who prioritize recovery",
+          "Get the science Huberman references, without the 3-hour podcast"
+        ]
+      },
+      {
+        "version": "Format-focused",
+        "bullets": [
+          "The science: One breakthrough finding, explained simply",
+          "The protocol: One actionable practice to implement",
+          "The gear: One premium product worth your attention",
+          "The insider: What's happening in the sauna world"
+        ]
+      }
+    ]
+  },
+
+  "urgencyAndScarcity": {
+    "ethical": [
+      {
+        "tactic": "Social proof urgency",
+        "example": "Join 10,000+ subscribers who already get this",
+        "why": "FOMO through community, not artificial scarcity"
+      },
+      {
+        "tactic": "Information timeliness",
+        "example": "This week's protocols drop Sunday - don't miss them",
+        "why": "Real time sensitivity"
+      },
+      {
+        "tactic": "Growth milestone",
+        "example": "Be among our first 1,000 founding subscribers",
+        "why": "Genuine scarcity of early-adopter status"
+      },
+      {
+        "tactic": "Referral exclusives",
+        "example": "Referral rewards only available to current subscribers",
+        "why": "Real exclusivity tied to action"
+      }
+    ],
+    "avoid": [
+      "Fake countdown timers",
+      "False limited spots",
+      "Manufactured urgency for free newsletters",
+      "Pressure tactics that feel manipulative"
+    ],
+    "forSaunaGuide": [
+      "The science is always evolving. Stay current.",
+      "Every Sunday, 10,000+ high performers read this. You?",
+      "Be among our founding subscribers",
+      "The protocols drop Sunday at 6pm. Be there."
+    ]
+  },
+
+  "landingPageStructure": {
+    "aboveTheFold": {
+      "elements": [
+        "Headline (transformation promise)",
+        "Subheadline (handle objections, set expectations)",
+        "Email form (single field)",
+        "CTA button (benefit-driven)",
+        "Minimal social proof (subscriber count or logo strip)"
+      ],
+      "design": [
+        "Single clear focus - no navigation distractions",
+        "Plenty of whitespace",
+        "High-contrast CTA button",
+        "Form immediately visible without scrolling"
+      ]
+    },
+    "belowTheFold": {
+      "elements": [
+        "Newsletter preview/sample",
+        "Detailed value bullets",
+        "Testimonials",
+        "Founder photo and brief intro",
+        "FAQ addressing objections",
+        "Second CTA"
+      ]
+    },
+    "optionalElements": [
+      "Recent edition titles to demonstrate content",
+      "Company logos of notable readers",
+      "Media mentions/features",
+      "Brief video introduction"
+    ]
+  },
+
+  "saunaSpecificAngles": {
+    "uniquePositioning": {
+      "problem": "Generic wellness newsletters are too broad. Biohacking newsletters cover sauna occasionally but not deeply.",
+      "solution": "The only newsletter 100% focused on sauna for performance-minded individuals",
+      "differentiators": [
+        "Deep expertise vs. surface-level mentions",
+        "Premium audience focus (executives, founders)",
+        "Evidence-based but actionable",
+        "Equipment guidance that saves thousands in research"
+      ]
+    },
+    "headlineAngles": [
+      {
+        "angle": "Authority/Expertise",
+        "examples": [
+          "The most authoritative sauna newsletter on the internet",
+          "What Finnish researchers know about sauna that you don't"
+        ]
+      },
+      {
+        "angle": "Time Savings",
+        "examples": [
+          "40 hours of sauna research, distilled into 5 minutes",
+          "The protocols - without the 3-hour Huberman podcasts"
+        ]
+      },
+      {
+        "angle": "Peer Identity",
+        "examples": [
+          "The sauna newsletter for founders and executives",
+          "How high performers optimize with heat"
+        ]
+      },
+      {
+        "angle": "Results/Outcomes",
+        "examples": [
+          "Better recovery. Sharper cognition. Longer life.",
+          "The protocols that make your sauna investment pay off"
+        ]
+      },
+      {
+        "angle": "Insider Access",
+        "examples": [
+          "What the world's best saunas don't tell you",
+          "The equipment secrets brands don't advertise"
+        ]
+      }
+    ],
+    "leadMagnetIdeas": [
+      {
+        "name": "The Executive's Sauna Protocol",
+        "type": "PDF Guide",
+        "appeal": "Comprehensive, premium-feeling, actionable immediately",
+        "conversionEstimate": "4-6%"
+      },
+      {
+        "name": "The Huberman Sauna Protocols - Decoded",
+        "type": "PDF Cheat Sheet",
+        "appeal": "Rides on trusted authority, saves research time",
+        "conversionEstimate": "5-8%"
+      },
+      {
+        "name": "Sauna Buyer's Decision Matrix",
+        "type": "Interactive Quiz/PDF",
+        "appeal": "High intent, practical value, leads to affiliate",
+        "conversionEstimate": "6-10%"
+      },
+      {
+        "name": "7-Day Sauna Optimization Challenge",
+        "type": "Email Course",
+        "appeal": "Commitment device, builds email habit",
+        "conversionEstimate": "3-5%"
+      },
+      {
+        "name": "The Protocol Card Collection",
+        "type": "Printable Cards",
+        "appeal": "Physical artifact to keep in sauna",
+        "conversionEstimate": "4-6%"
+      }
+    ]
+  },
+
+  "copyTemplates": {
+    "heroSection": {
+      "template1": {
+        "headline": "Master sauna science in 5 minutes every Sunday",
+        "subheadline": "Evidence-based protocols for longevity, recovery, and cognitive performance. Join 10,000+ executives and founders.",
+        "cta": "Get My Sunday Protocol",
+        "microCopy": "Free forever. Unsubscribe anytime."
+      },
+      "template2": {
+        "headline": "The protocols Huberman references - simplified weekly",
+        "subheadline": "No 3-hour podcasts. No broscience. Just the science-backed sauna practices that high performers actually use.",
+        "cta": "Send Me The Science",
+        "microCopy": "One email. Once a week. Zero spam."
+      },
+      "template3": {
+        "headline": "What Finnish researchers know about sauna that you don't",
+        "subheadline": "Every Sunday at 6pm: breakthrough research, actionable protocols, and premium equipment insights.",
+        "cta": "Get Insider Access",
+        "microCopy": "Join 10,000+ sauna optimizers"
+      },
+      "template4": {
+        "headline": "Stop guessing. Start optimizing.",
+        "subheadline": "The Heat Protocol: Science-backed sauna strategies for founders and executives who refuse to leave longevity to chance.",
+        "cta": "Start Optimizing",
+        "microCopy": "Your Sunday evening optimization ritual"
+      }
+    },
+    "valuePropSection": {
+      "headline": "What you'll get every Sunday",
+      "bullets": [
+        "The Science Brief: One breakthrough finding, explained simply",
+        "The Protocol Card: An actionable practice you can implement this week",
+        "The Gear Spotlight: One premium product worth your attention",
+        "The Insider Intel: What's happening in the sauna world you won't find elsewhere"
+      ],
+      "closingLine": "All in under 5 minutes. No fluff. No spam. Ever."
+    },
+    "socialProofSection": {
+      "withTestimonials": {
+        "headline": "What our readers say",
+        "testimonials": [
+          {
+            "quote": "Finally, a sauna resource that respects my time and intelligence.",
+            "name": "Alex K.",
+            "role": "CEO, Tech Startup"
+          },
+          {
+            "quote": "I've spent $30K on my sauna setup. Wish I had this newsletter first.",
+            "name": "Michael R.",
+            "role": "Founder"
+          },
+          {
+            "quote": "The protocol cards alone are worth subscribing for.",
+            "name": "Sarah L.",
+            "role": "Performance Coach"
+          }
+        ]
+      },
+      "withLogos": {
+        "headline": "Read by executives from",
+        "logos": ["Google", "Meta", "Apple", "Netflix", "Stripe"]
+      },
+      "withStats": {
+        "stat1": "10,000+ subscribers",
+        "stat2": "52% open rate",
+        "stat3": "4.9/5 reader rating"
+      }
+    },
+    "faqSection": {
+      "questions": [
+        {
+          "q": "How often will I receive emails?",
+          "a": "Once per week, every Sunday at 6pm. That's it. No daily spam."
+        },
+        {
+          "q": "Is this actually free?",
+          "a": "100% free. Forever. We make money through partnerships with premium sauna brands - brands we'd recommend even if they didn't pay us."
+        },
+        {
+          "q": "I'm new to sauna - is this for me?",
+          "a": "Absolutely. We explain the science simply and include beginner protocols alongside advanced techniques."
+        },
+        {
+          "q": "What makes this different from Huberman/Attia content?",
+          "a": "They mention sauna occasionally. We go deep - every week. If sauna is a priority in your wellness stack, we're your resource."
+        }
+      ]
+    }
+  },
+
+  "testingPriorities": {
+    "highImpact": [
+      "Headline variations (transformation vs. authority vs. time-savings)",
+      "CTA button text (first-person vs. action-oriented)",
+      "Social proof format (subscriber count vs. testimonials vs. logos)",
+      "Lead magnet offer (protocol guide vs. equipment guide vs. quiz)"
+    ],
+    "mediumImpact": [
+      "Subheadline messaging",
+      "Value bullet content and order",
+      "Form placement",
+      "Page length (short vs. long-form)"
+    ],
+    "testingProcess": [
+      "Test one element at a time",
+      "Run for minimum 1000 visitors or 100 conversions",
+      "Document all tests and results",
+      "Implement winners, test new challengers"
+    ]
+  },
+
+  "implementationChecklist": [
+    "Write 3-4 headline variations based on formulas",
+    "Create benefit-driven CTA button text (not 'Subscribe')",
+    "Prepare social proof copy at each subscriber milestone",
+    "Draft value proposition bullets (3-5 max)",
+    "Write FAQ addressing top objections",
+    "Create lead magnet to offer",
+    "Design single-field email form",
+    "Remove all unnecessary navigation/distractions",
+    "Set up A/B testing infrastructure",
+    "Mobile-optimize everything"
+  ]
+}

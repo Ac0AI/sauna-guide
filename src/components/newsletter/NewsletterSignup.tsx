@@ -27,7 +27,7 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
 
       if (response.ok) {
         setStatus('success')
-        setMessage('Welcome to the sauna community! Check your inbox.')
+        setMessage('Welcome! Check your inbox.')
         setEmail('')
       } else {
         setStatus('error')
@@ -49,18 +49,17 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
             required
-            className="flex-1 px-5 py-3.5 bg-white/80 backdrop-blur-sm border border-sauna-warm/30
-                       rounded-full text-sauna-dark placeholder:text-sauna-wood/50
-                       focus:outline-none focus:ring-2 focus:ring-sauna-copper/50 focus:border-transparent
+            className="flex-1 px-5 py-3.5 bg-sauna-paper border border-sauna-ash
+                       rounded-lg text-sauna-ink placeholder:text-sauna-stone
+                       focus:outline-none focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
                        transition-all duration-300"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-8 py-3.5 bg-sauna-copper text-white font-medium rounded-full
-                       hover:bg-sauna-ember transition-all duration-300
-                       disabled:opacity-50 disabled:cursor-not-allowed
-                       btn-glow shadow-lg shadow-sauna-copper/25"
+            className="px-6 py-3.5 bg-sauna-ink text-sauna-paper font-medium rounded-lg
+                       hover:bg-sauna-charcoal transition-colors duration-300
+                       disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === 'loading' ? (
               <span className="flex items-center justify-center gap-2">
@@ -92,19 +91,17 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Your email address"
             required
-            className="flex-1 px-6 py-4 bg-white border-2 border-sauna-warm/20
-                       rounded-xl text-sauna-dark placeholder:text-sauna-wood/40
-                       focus:outline-none focus:ring-2 focus:ring-sauna-copper/40 focus:border-sauna-copper/40
-                       transition-all duration-300 shadow-sm"
+            className="flex-1 px-5 py-3.5 bg-sauna-paper border border-sauna-ash
+                       rounded-lg text-sauna-ink placeholder:text-sauna-stone
+                       focus:outline-none focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
+                       transition-all duration-300"
           />
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-8 py-4 bg-gradient-to-r from-sauna-copper to-sauna-ember text-white font-semibold rounded-xl
-                       hover:from-sauna-ember hover:to-sauna-copper transition-all duration-500
-                       disabled:opacity-50 disabled:cursor-not-allowed
-                       btn-glow shadow-lg shadow-sauna-copper/30 hover:shadow-xl hover:shadow-sauna-copper/40
-                       hover:-translate-y-0.5"
+            className="px-8 py-3.5 bg-sauna-ink text-sauna-paper font-medium rounded-lg
+                       hover:bg-sauna-charcoal transition-colors duration-300
+                       disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
           </button>
@@ -121,34 +118,27 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
   // Hero variant (default)
   return (
     <form onSubmit={handleSubmit} className={`max-w-xl mx-auto ${className}`}>
-      <div className="flex flex-col sm:flex-row gap-4">
-        <div className="flex-1 relative group">
+      <div className="flex flex-col sm:flex-row gap-3">
+        <div className="flex-1 relative">
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
             required
-            className="w-full px-6 py-4 bg-white/95 backdrop-blur-sm border-2 border-white/50
-                       rounded-2xl text-sauna-dark placeholder:text-sauna-wood/50 text-lg
-                       focus:outline-none focus:ring-4 focus:ring-sauna-glow/30 focus:border-sauna-glow/50
-                       transition-all duration-300 shadow-xl
-                       group-hover:shadow-2xl group-hover:shadow-sauna-glow/20"
+            className="w-full px-6 py-4 bg-sauna-paper/95 backdrop-blur-sm border border-sauna-paper/50
+                       rounded-xl text-sauna-ink placeholder:text-sauna-stone text-base
+                       focus:outline-none focus:ring-2 focus:ring-sauna-sand/50 focus:border-sauna-sand
+                       transition-all duration-300 shadow-lg"
           />
-          <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-sauna-glow/20 to-sauna-honey/20
-                          opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none -z-10 blur-xl" />
         </div>
         <button
           type="submit"
           disabled={status === 'loading'}
-          className="px-10 py-4 bg-gradient-to-r from-sauna-ember via-sauna-copper to-sauna-honey text-white
-                     font-semibold text-lg rounded-2xl
-                     hover:from-sauna-honey hover:via-sauna-copper hover:to-sauna-ember
-                     transition-all duration-700 ease-out
+          className="px-8 py-4 bg-sauna-paper text-sauna-ink font-medium text-base rounded-xl
+                     hover:bg-sauna-linen transition-colors duration-300
                      disabled:opacity-50 disabled:cursor-not-allowed
-                     btn-glow shadow-xl shadow-sauna-ember/40 hover:shadow-2xl hover:shadow-sauna-ember/50
-                     hover:-translate-y-1 hover:scale-[1.02]
-                     active:scale-[0.98]"
+                     shadow-lg hover:shadow-xl"
         >
           {status === 'loading' ? (
             <span className="flex items-center justify-center gap-2">
@@ -158,25 +148,25 @@ export function NewsletterSignup({ variant = 'hero', className = '' }: Newslette
               </svg>
               Joining...
             </span>
-          ) : 'Join the Community'}
+          ) : 'Join Free'}
         </button>
       </div>
 
       {message && (
-        <p className={`mt-4 text-center text-base ${status === 'success' ? 'text-green-300' : 'text-red-300'}`}>
+        <p className={`mt-4 text-center text-sm ${status === 'success' ? 'text-green-300' : 'text-red-300'}`}>
           {message}
         </p>
       )}
 
-      <p className="mt-6 text-sm text-white/70 flex items-center justify-center gap-4">
+      <p className="mt-5 text-sm text-sauna-birch/70 flex items-center justify-center gap-4">
         <span className="flex items-center gap-1.5">
-          <svg className="w-4 h-4 text-sauna-glow" fill="currentColor" viewBox="0 0 20 20">
+          <svg className="w-4 h-4 text-sauna-sand" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
           </svg>
-          Free weekly insights
+          Free weekly
         </span>
         <span className="flex items-center gap-1.5">
-          <svg className="w-4 h-4 text-sauna-glow" fill="currentColor" viewBox="0 0 20 20">
+          <svg className="w-4 h-4 text-sauna-sand" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
           </svg>
           Unsubscribe anytime
