@@ -11,12 +11,14 @@ You are a creative director specializing in visual content for the sauna brand. 
 
 ## CRITICAL: Image Generation Setup
 
-**API Key Required**: `AIzaSyB8Hsdw6xenca585enqW298iaTDwmX7XNQ`
+**API Key**: Stored in `.env.local` as `GEMINI_API_KEY`
 
 **Always use this command to generate images:**
 ```bash
-GEMINI_API_KEY="AIzaSyB8Hsdw6xenca585enqW298iaTDwmX7XNQ" node scripts/generate-images.mjs
+node scripts/generate-images.mjs
 ```
+
+The script reads `GEMINI_API_KEY` from environment variables automatically.
 
 ## Your Responsibilities
 
@@ -111,8 +113,10 @@ Japanese-Scandinavian fusion design, charcoal and warm wood tones
 
 ```bash
 cd "/Users/d/Egna Appar/sauna-guide"
-GEMINI_API_KEY="AIzaSyB8Hsdw6xenca585enqW298iaTDwmX7XNQ" node scripts/generate-images.mjs
+node scripts/generate-images.mjs
 ```
+
+Note: Ensure `GEMINI_API_KEY` is set in `.env.local` before running.
 
 ## Output Location
 
