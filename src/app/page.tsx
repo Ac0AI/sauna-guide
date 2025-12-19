@@ -138,15 +138,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Explore Section */}
       <section className="py-20 md:py-28 bg-sauna-paper relative">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
             <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-4">
-              More than a newsletter
+              Go deeper
             </h2>
             <p className="text-lg text-sauna-slate max-w-2xl mx-auto">
-              Your complete resource for mastering heat therapy
+              The letter is just the beginning.
             </p>
           </div>
 
@@ -159,10 +159,10 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               }
-              title="Sauna Directory"
-              description="Find world-class saunas near you. Curated for quality, not quantity."
+              title="Find a Sauna"
+              description="Places worth the journey. Curated, not scraped."
               href="/saunas"
-              cta="Explore Directory"
+              cta="Browse locations"
             />
 
             <FeatureCard
@@ -172,10 +172,10 @@ export default function HomePage() {
                         d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               }
-              title="Protocol Library"
-              description="Step-by-step guides for every goal. Backed by research, tested in practice."
+              title="Learn the Practice"
+              description="Guides for those who want to understand, not just do."
               href="/guides"
-              cta="Browse Protocols"
+              cta="Read guides"
             />
 
             <FeatureCard
@@ -185,58 +185,34 @@ export default function HomePage() {
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               }
-              title="Weekly Briefing"
-              description="The newsletter that 10,000+ trust for their heat therapy intelligence."
+              title="The Weekly Letter"
+              description="A moment of stillness in your inbox. Every Thursday."
               href="#newsletter"
-              cta="Subscribe Free"
+              cta="Step inside"
             />
           </div>
         </div>
       </section>
 
-      {/* Newsletter Preview Section */}
+      {/* Quote Section */}
       <section className="py-20 md:py-28 bg-sauna-ink text-sauna-paper">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            <div className="order-2 lg:order-1 relative">
-              <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl" style={{ aspectRatio: '4/3' }}>
-                <img
-                  src="/images/sauna-protocols.jpg"
-                  alt="Modern home sauna with clean Scandinavian design"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <blockquote className="font-display text-2xl md:text-3xl lg:text-4xl font-medium mb-8 leading-relaxed">
+            &ldquo;The sauna is the poor man&apos;s pharmacy.&rdquo;
+          </blockquote>
+          <p className="text-sauna-sand text-lg">— Finnish proverb</p>
 
-            <div className="order-1 lg:order-2">
-              <span className="inline-block px-3 py-1 bg-sauna-paper/10 text-sauna-sand text-sm font-medium mb-5 rounded">
-                What readers are saying
-              </span>
-              <h2 className="font-display text-3xl md:text-4xl font-medium mb-8 leading-tight">
-                &ldquo;The only newsletter I actually read every week&rdquo;
-              </h2>
-
-              <div className="space-y-6 mb-8">
-                <Testimonial
-                  quote="Finally, sauna science without the 3-hour podcast commitment. This is exactly what busy professionals need."
-                  author="Marcus T."
-                  role="CEO, Tech Startup"
-                />
-                <Testimonial
-                  quote="Bought a $12K sauna based on their equipment analysis. Zero regrets. They saved me from an expensive mistake."
-                  author="Sarah K."
-                  role="Physician"
-                />
-              </div>
-
-              <Link href="#newsletter" className="inline-flex items-center gap-2 px-6 py-3 bg-sauna-paper text-sauna-ink rounded-lg
+          <div className="mt-16 pt-16 border-t border-sauna-paper/10">
+            <p className="text-sauna-birch/80 text-lg mb-8 max-w-2xl mx-auto">
+              Thousands of years of wisdom. One letter a week.
+            </p>
+            <Link href="#newsletter" className="inline-flex items-center gap-2 px-6 py-3 bg-sauna-paper text-sauna-ink rounded-lg
                                                    font-medium hover:bg-sauna-linen transition-colors">
-                Join 10,000+ Readers
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </Link>
-            </div>
+              Step inside
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
@@ -394,19 +370,3 @@ function BenefitRow({ text }: { text: string }) {
   )
 }
 
-function Testimonial({
-  quote,
-  author,
-  role,
-}: {
-  quote: string
-  author: string
-  role: string
-}) {
-  return (
-    <div className="bg-sauna-charcoal rounded-lg p-4">
-      <p className="text-sauna-birch/90 text-sm leading-relaxed mb-2">&ldquo;{quote}&rdquo;</p>
-      <p className="text-sauna-sand text-sm font-medium">{author} <span className="text-sauna-fog font-normal">· {role}</span></p>
-    </div>
-  )
-}

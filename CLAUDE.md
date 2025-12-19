@@ -86,12 +86,34 @@ Agents save data to `src/data/`:
 3. **Scale (10K-100K)**: Paid acquisition, partnerships
 4. **Monetize (100K+)**: Sponsorships, premium tier
 
+## Brand Voice
+
+**CRITICAL: Read `src/data/brand-voice.json` before writing ANY copy.**
+
+Core principles:
+- We sell **longing**, not information
+- The sauna is not a hack — it's a **practice**
+- Lead with **atmosphere**, not features
+- Give **permission** to slow down, don't pressure
+
+| Use | Avoid |
+|-----|-------|
+| "Step inside" | "Subscribe now" |
+| "Practice", "Ritual" | "Hack", "Optimize" |
+| "Warmth", "Stillness" | "High performers", "Level up" |
+| Short, breathing sentences | Hype and urgency |
+
+**Signature phrases:**
+- "There's a room with no notifications."
+- "Just heat. Silence. Breath."
+- "Slower. Hotter. Older."
+
 ## Content Guidelines
 
-- Every piece drives newsletter signups
+- Every piece drives newsletter signups through **longing**, not pressure
 - Write for beginners AND enthusiasts
 - Include safety information where relevant
-- ALWAYS include newsletter CTA at article end
+- CTA language: "Step inside" (never "Subscribe now")
 
 ## SEO Requirements
 

@@ -1,0 +1,95 @@
+{
+  "name": "Sauna Guide Voice",
+  "updated": "2024-12-19",
+
+  "essence": "We sell longing, not information. The newsletter is a weekly reminder that there's another way to live — slower, hotter, older.",
+
+  "core_belief": "The sauna is not a hack. It's a practice. A ritual in a ritual-starved world.",
+
+  "what_we_sell": {
+    "not": ["Information", "Optimization tips", "Biohacks", "FOMO about health benefits"],
+    "actually": [
+      "Permission to slow down",
+      "Belonging to something ancient",
+      "A moment of stillness",
+      "The feeling of stepping into the heat"
+    ]
+  },
+
+  "tone": {
+    "is": ["Atmospheric", "Inviting", "Quiet confidence", "Poetic but grounded", "Warm"],
+    "is_not": ["Salesy", "Urgent", "Optimizing", "Bro-science", "Hypey"]
+  },
+
+  "vocabulary": {
+    "use": [
+      "Practice", "Ritual", "Session", "Letter", "Warmth", "Stillness",
+      "Step inside", "The heat", "Ancient", "Breath", "Permission"
+    ],
+    "avoid": [
+      "Hack", "Optimize", "High performers", "Crush it", "Level up",
+      "Subscribe", "Join now", "Don't miss out", "Game-changer"
+    ]
+  },
+
+  "cta_language": {
+    "primary": "Step inside →",
+    "alternatives": ["Open the door", "Enter the heat", "I'm in"],
+    "never": ["Subscribe now", "Join free", "Get updates", "Sign up"]
+  },
+
+  "success_messages": {
+    "after_signup": "The door is open. Check your inbox.",
+    "loading_state": "Opening..."
+  },
+
+  "headline_examples": {
+    "hero": "Close the door. Let everything go.",
+    "sections": [
+      "Slower. Hotter. Older.",
+      "Not a hack. A practice.",
+      "Go deeper"
+    ]
+  },
+
+  "body_copy_principles": [
+    "Lead with atmosphere, not information",
+    "Short sentences. Let them breathe.",
+    "Transport the reader INTO the heat",
+    "Give permission, don't pressure",
+    "Show the life around the sauna — the cabin, forest, ritual"
+  ],
+
+  "signature_phrases": [
+    "There's a room with no notifications.",
+    "Just heat. Silence. Breath.",
+    "One letter a week. No spam. Just warmth.",
+    "The Finns call the steam löyly — it once meant 'spirit.'",
+    "A weekly letter from the heat."
+  ],
+
+  "finnish_wisdom": {
+    "proverb": "The sauna is the poor man's pharmacy.",
+    "concept": "Löyly (the steam) originally meant 'spirit' or 'soul'",
+    "cultural_note": "Finnish sauna culture is UNESCO intangible heritage"
+  },
+
+  "content_structure": {
+    "newsletter_sections": [
+      { "name": "One Thing That Works", "description": "A practice worth trying. Tested by time, backed by research." },
+      { "name": "A Place Worth Visiting", "description": "Saunas that understand what this is really about." },
+      { "name": "Something to Consider", "description": "The science, history, philosophy. Context that deepens the practice." },
+      { "name": "The Quiet Part", "description": "Reflections on slowing down. Permission to take time for yourself." }
+    ]
+  },
+
+  "emotional_drivers": [
+    "Permission to do nothing in a world that demands constant productivity",
+    "Forced presence — you can't scroll in the heat",
+    "Ritual in a ritual-starved world",
+    "The only place left where you're unreachable",
+    "Communion with something ancient"
+  ],
+
+  "competition_reframe": "We're not competing with health newsletters. We're competing with cabin porn, fireplace videos, anything that makes people feel like they could live a richer, slower life. The sauna is just the doorway."
+}
