@@ -48,13 +48,14 @@ export default function GuidesIndexPage() {
             <article key={guide.slug} className="group relative grid md:grid-cols-12 gap-6 items-start border-b border-sauna-ash/50 pb-10 last:border-0">
               {guide.image && (
                 <Link href={`/guides/${guide.slug}`} className="md:col-span-3">
-                  <div className="aspect-[16/10] rounded-lg overflow-hidden bg-sauna-linen">
+                  <div className="aspect-[16/10] rounded-lg overflow-hidden bg-sauna-linen relative">
                     <Image
                       src={guide.image}
                       alt={guide.title}
-                      width={300}
-                      height={188}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      fill
+                      sizes="(max-width: 768px) 100vw, 25vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
                     />
                   </div>
                 </Link>

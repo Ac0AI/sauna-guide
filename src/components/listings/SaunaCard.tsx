@@ -1,21 +1,31 @@
 import type { Sauna } from '@/lib/types'
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface SaunaCardProps {
   sauna: Sauna
 }
 
 export function SaunaCard({ sauna }: SaunaCardProps) {
+  const imageSrc = sauna.images[0]?.startsWith('http')
+    ? sauna.images[0]
+    : sauna.images[0]
+      ? `/images/saunas/${sauna.images[0]}`
+      : null
+
   return (
-    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 overflow-hidden 
+    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 overflow-hidden
                     hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
       {/* Image Container */}
       <div className="aspect-[16/10] bg-sauna-linen relative overflow-hidden">
-        {sauna.images[0] ? (
-          <img
-            src={sauna.images[0].startsWith('http') ? sauna.images[0] : `/images/saunas/${sauna.images[0]}`}
+        {imageSrc ? (
+          <Image
+            src={imageSrc}
             alt={sauna.name}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-sauna-ash">
