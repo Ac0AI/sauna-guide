@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getGuideBySlug, getAllGuides } from '@/lib/guides'
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import remarkGfm from 'remark-gfm'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 
 // This generates static pages at build time
@@ -84,13 +85,20 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           </div>
         )}
 
-        <div className="prose prose-lg prose-stone mx-auto 
+        <div className="prose prose-lg prose-stone mx-auto
                         prose-headings:font-display prose-headings:font-medium prose-headings:text-sauna-ink
                         prose-p:text-sauna-slate prose-p:leading-relaxed
                         prose-a:text-sauna-heat prose-a:no-underline hover:prose-a:underline
                         prose-strong:text-sauna-dark
-                        prose-li:text-sauna-slate">
-           <MDXRemote source={guide.content} components={components} />
+                        prose-li:text-sauna-slate
+                        prose-table:w-full prose-table:border-collapse
+                        prose-th:bg-sauna-linen prose-th:text-sauna-ink prose-th:font-medium prose-th:text-left prose-th:p-3 prose-th:border prose-th:border-sauna-ash
+                        prose-td:p-3 prose-td:border prose-td:border-sauna-ash prose-td:text-sauna-slate">
+           <MDXRemote
+             source={guide.content}
+             components={components}
+             options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+           />
         </div>
 
         <div className="mt-16 pt-10 border-t border-sauna-ash/50">
