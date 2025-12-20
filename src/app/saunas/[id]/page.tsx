@@ -101,18 +101,6 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
                         </div>
                     </div>
                     
-                    <div className="flex items-center gap-4">
-                        {sauna.rating && (
-                            <div className="bg-sauna-paper text-sauna-ink px-4 py-3 rounded-lg flex flex-col items-center shadow-lg">
-                                <span className="text-2xl font-bold leading-none">{sauna.rating}</span>
-                                <span className="text-[10px] font-bold uppercase tracking-wider text-sauna-walnut">Rating</span>
-                            </div>
-                        )}
-                         <div className="bg-sauna-paper text-sauna-ink px-4 py-3 rounded-lg flex flex-col items-center shadow-lg">
-                                <span className="text-2xl font-bold leading-none">{sauna.priceRange}</span>
-                                <span className="text-[10px] font-bold uppercase tracking-wider text-sauna-walnut">Price</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

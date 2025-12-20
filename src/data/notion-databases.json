@@ -53,6 +53,7 @@
       "workflow_name": "Sauna Guide: RSS Aggregator",
       "target_database": "content_inbox",
       "target_database_id": "2cfd0e52-2114-8100-af51-f20ab3def8c7",
+      "status": "needs_notion_credentials",
       "field_mapping": {
         "title": "Title",
         "url": "URL",
@@ -63,39 +64,25 @@
         "status": "Status → New"
       }
     },
-    "buyer_finder": {
-      "workflow_id": "VMUpbX8Dj0nn7wtQ",
-      "workflow_name": "Sauna Guide: Buyer Finder",
-      "target_database": "buyer_community",
-      "target_database_id": "2cfd0e52-2114-8173-b00f-fe70801ec9d5",
-      "field_mapping": {
-        "title": "Post Title",
-        "url": "Post URL",
-        "author": "Reddit Username",
-        "stage": "Journey Stage",
-        "brands_mentioned": "Brands Mentioned",
-        "story_potential": "Story Potential",
-        "priority": "Contact Priority",
-        "score": "Post Score",
-        "num_comments": "Comments",
-        "created": "Post Date",
-        "selftext_preview": "Summary"
-      }
-    },
-    "reddit_monitor": {
-      "workflow_id": "mD1CD7Hrb37CgqB4",
-      "workflow_name": "Sauna Guide: Reddit Monitor",
+    "reddit_hot": {
+      "workflow_id": "t24kMTjX3T7hqnA2",
+      "workflow_name": "Sauna Guide: Reddit Hot to Content Inbox",
       "target_database": "content_inbox",
       "target_database_id": "2cfd0e52-2114-8100-af51-f20ab3def8c7",
-      "field_mapping": {
-        "title": "Title",
-        "url": "URL",
-        "author": "Source Name",
-        "selftext": "Summary",
-        "category": "Category",
-        "source_type": "Source → Reddit",
-        "status": "Status → New"
-      }
+      "source": "RSS feed (no auth required)",
+      "rss_url": "https://www.reddit.com/r/Sauna/hot/.rss",
+      "schedule": "Every 4 hours",
+      "status": "needs_notion_credentials"
+    },
+    "buyer_finder": {
+      "workflow_id": "aPXBmtHIFVjOSLia",
+      "workflow_name": "Sauna Guide: Reddit Buyers to Notion",
+      "target_database": "buyer_community",
+      "target_database_id": "2cfd0e52-2114-8173-b00f-fe70801ec9d5",
+      "source": "RSS feed (no auth required)",
+      "rss_url": "https://www.reddit.com/r/Sauna/search.rss?q=just+bought+OR+new+sauna+OR+finally+installed&sort=new&restrict_sr=true&t=week",
+      "schedule": "Twice daily",
+      "status": "needs_notion_credentials"
     }
   }
 }
