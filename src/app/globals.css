@@ -167,10 +167,6 @@ img {
   transition: opacity 0.3s ease;
 }
 
-img[loading] {
-  opacity: 0;
-}
-
 /* Prose styling for guides */
 .prose-sauna {
   --tw-prose-body: #605C57;

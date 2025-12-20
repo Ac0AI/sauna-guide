@@ -1,12 +1,15 @@
 import type { Sauna } from '@/lib/types'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useState } from 'react'
 
 interface SaunaCardProps {
   sauna: Sauna
 }
 
 export function SaunaCard({ sauna }: SaunaCardProps) {
+  const [isLoading, setIsLoading] = useState(true)
+
   // Handle: external URLs, full paths (starting with /), or just filenames
   const imageSrc = sauna.images[0]?.startsWith('http') || sauna.images[0]?.startsWith('/')
     ? sauna.images[0]
@@ -25,7 +28,10 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
             alt={sauna.name}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className={`object-cover transition-all duration-700 group-hover:scale-105 ${
+              isLoading ? 'opacity-0 scale-105' : 'opacity-100 scale-100'
+            }`}
+            onLoad={() => setIsLoading(false)}
             loading="lazy"
           />
         ) : (
