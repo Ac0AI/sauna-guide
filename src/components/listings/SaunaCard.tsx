@@ -7,10 +7,11 @@ interface SaunaCardProps {
 }
 
 export function SaunaCard({ sauna }: SaunaCardProps) {
-  const imageSrc = sauna.images[0]?.startsWith('http')
+  // Handle: external URLs, full paths (starting with /), or just filenames
+  const imageSrc = sauna.images[0]?.startsWith('http') || sauna.images[0]?.startsWith('/')
     ? sauna.images[0]
     : sauna.images[0]
-      ? `/images/saunas/${sauna.images[0]}`
+      ? `/images/saunas-photos/${sauna.images[0]}`
       : null
 
   return (

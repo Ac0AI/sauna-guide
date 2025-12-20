@@ -63,7 +63,7 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
       <div className="relative h-[60vh] min-h-[500px] w-full bg-sauna-charcoal mt-20">
         {sauna.images[0] ? (
           <Image
-            src={sauna.images[0].startsWith('http') ? sauna.images[0] : `/images/saunas/${sauna.images[0]}`}
+            src={sauna.images[0].startsWith('http') || sauna.images[0].startsWith('/') ? sauna.images[0] : `/images/saunas-photos/${sauna.images[0]}`}
             alt={sauna.name}
             fill
             priority
