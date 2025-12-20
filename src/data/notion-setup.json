@@ -1,0 +1,210 @@
+{
+  "name": "Sauna Guide Notion Workspace",
+  "description": "Complete setup guide for Notion databases and n8n integration",
+  "created": "2024-12-20",
+
+  "main_page": {
+    "title": "Sauna Guide",
+    "icon": "🧖",
+    "description": "Central hub for Sauna Guide content operations, newsletter planning, and research. Goal: Build a 100K+ subscriber newsletter about sauna culture and wellness.",
+    "sections": [
+      "📥 Content Inbox - All incoming content ideas and research",
+      "📰 Newsletter Queue - Planned and scheduled newsletter editions",
+      "🔗 Sources Directory - RSS feeds, blogs, and content sources",
+      "🛒 Gadgets & Tech - Sauna products and technology tracking",
+      "🏭 Manufacturers - Sauna brand and manufacturer database",
+      "👥 Buyer Community - Reddit users and potential story subjects"
+    ]
+  },
+
+  "databases": {
+    "content_inbox": {
+      "name": "📥 Content Inbox",
+      "icon": "📥",
+      "description": "All incoming content ideas, RSS items, Reddit posts, and research notes",
+      "properties": [
+        {"name": "Title", "type": "title", "required": true},
+        {"name": "Status", "type": "select", "options": ["🆕 New", "👀 Reviewing", "✅ Approved", "📝 In Progress", "✨ Published", "🗑️ Rejected"]},
+        {"name": "Source", "type": "select", "options": ["RSS", "Reddit", "Manual", "Social", "Email", "Research"]},
+        {"name": "Category", "type": "select", "options": ["Science", "Culture", "DIY", "Travel", "Product", "Community", "Business"]},
+        {"name": "Priority", "type": "select", "options": ["🔴 High", "🟡 Medium", "🟢 Low"]},
+        {"name": "URL", "type": "url"},
+        {"name": "Source Name", "type": "text"},
+        {"name": "Summary", "type": "text"},
+        {"name": "Added Date", "type": "date"},
+        {"name": "Newsletter Edition", "type": "relation", "relation_to": "Newsletter Queue"},
+        {"name": "Notes", "type": "text"}
+      ],
+      "views": [
+        {"name": "🆕 New Items", "type": "table", "filter": "Status = New", "sort": "Added Date DESC"},
+        {"name": "🔥 Hot (High Priority)", "type": "table", "filter": "Priority = High"},
+        {"name": "📋 By Source", "type": "board", "group_by": "Source"},
+        {"name": "🏷️ By Category", "type": "board", "group_by": "Category"}
+      ]
+    },
+
+    "newsletter_queue": {
+      "name": "📰 Newsletter Queue",
+      "icon": "📰",
+      "description": "Planned newsletter editions with status tracking",
+      "properties": [
+        {"name": "Edition Title", "type": "title", "required": true},
+        {"name": "Edition Number", "type": "number"},
+        {"name": "Status", "type": "select", "options": ["💡 Idea", "📝 Drafting", "✏️ Editing", "📅 Scheduled", "✅ Sent", "📊 Analyzed"]},
+        {"name": "Publish Date", "type": "date"},
+        {"name": "Theme", "type": "select", "options": ["Beginner Guide", "Deep Dive", "Travel", "Science", "Culture", "Product Review", "Community Story"]},
+        {"name": "Main Topic", "type": "text"},
+        {"name": "Sauna Spotlight", "type": "text"},
+        {"name": "Content Items", "type": "relation", "relation_to": "Content Inbox"},
+        {"name": "Word Count", "type": "number"},
+        {"name": "Open Rate", "type": "number", "format": "percent"},
+        {"name": "Click Rate", "type": "number", "format": "percent"},
+        {"name": "Beehiiv Link", "type": "url"},
+        {"name": "Notes", "type": "text"}
+      ],
+      "views": [
+        {"name": "📅 Calendar", "type": "calendar", "date_property": "Publish Date"},
+        {"name": "✏️ In Progress", "type": "table", "filter": "Status IN [Drafting, Editing]"},
+        {"name": "📊 Analytics", "type": "table", "filter": "Status = Sent", "show": ["Open Rate", "Click Rate"]}
+      ]
+    },
+
+    "sources_directory": {
+      "name": "🔗 Sources Directory",
+      "icon": "🔗",
+      "description": "RSS feeds, blogs, newsletters, and content sources to monitor",
+      "properties": [
+        {"name": "Source Name", "type": "title", "required": true},
+        {"name": "Type", "type": "select", "options": ["RSS Feed", "Blog", "Newsletter", "Subreddit", "YouTube", "Podcast", "Social Account"]},
+        {"name": "Category", "type": "select", "options": ["Science", "Culture", "DIY", "Travel", "Product", "Community", "News"]},
+        {"name": "URL", "type": "url"},
+        {"name": "RSS URL", "type": "url"},
+        {"name": "Quality", "type": "select", "options": ["⭐⭐⭐ Excellent", "⭐⭐ Good", "⭐ Basic"]},
+        {"name": "Active", "type": "checkbox"},
+        {"name": "Last Checked", "type": "date"},
+        {"name": "Notes", "type": "text"}
+      ],
+      "initial_data": [
+        {"Source Name": "SaunaTimes", "Type": "RSS Feed", "Category": "Culture", "URL": "https://www.saunatimes.com", "RSS URL": "https://www.saunatimes.com/feed/", "Quality": "Excellent", "Active": true},
+        {"Source Name": "r/Sauna", "Type": "Subreddit", "Category": "Community", "URL": "https://reddit.com/r/Sauna", "RSS URL": "https://www.reddit.com/r/Sauna/.rss", "Quality": "Good", "Active": true},
+        {"Source Name": "Found My Fitness", "Type": "Podcast", "Category": "Science", "URL": "https://www.foundmyfitness.com", "RSS URL": "https://www.foundmyfitness.com/feed", "Quality": "Excellent", "Active": true},
+        {"Source Name": "Almost Heaven", "Type": "Blog", "Category": "Product", "URL": "https://almostheaven.com", "RSS URL": "https://almostheaven.com/blogs/news.atom", "Quality": "Good", "Active": true}
+      ]
+    },
+
+    "gadgets_tech": {
+      "name": "🛒 Gadgets & Tech",
+      "icon": "🛒",
+      "description": "Sauna products, accessories, and technology for potential reviews and recommendations",
+      "properties": [
+        {"name": "Product Name", "type": "title", "required": true},
+        {"name": "Category", "type": "select", "options": ["Heater", "Thermometer", "Bucket & Ladle", "Timer", "Lighting", "Sound System", "Aromatherapy", "Accessories", "DIY Kit", "Smart Device"]},
+        {"name": "Manufacturer", "type": "relation", "relation_to": "Manufacturers"},
+        {"name": "Price Range", "type": "select", "options": ["$ Budget", "$$ Mid-range", "$$$ Premium", "$$$$ Luxury"]},
+        {"name": "Price", "type": "number", "format": "dollar"},
+        {"name": "Rating", "type": "select", "options": ["⭐⭐⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐", "⭐⭐", "⭐"]},
+        {"name": "Review Status", "type": "select", "options": ["To Review", "Reviewing", "Published", "Not Reviewing"]},
+        {"name": "Product URL", "type": "url"},
+        {"name": "Affiliate Link", "type": "url"},
+        {"name": "Image URL", "type": "url"},
+        {"name": "Key Features", "type": "text"},
+        {"name": "Notes", "type": "text"}
+      ]
+    },
+
+    "manufacturers": {
+      "name": "🏭 Manufacturers",
+      "icon": "🏭",
+      "description": "Sauna brands and manufacturers for partnerships and content",
+      "properties": [
+        {"name": "Brand Name", "type": "title", "required": true},
+        {"name": "Country", "type": "select", "options": ["Finland", "Sweden", "USA", "Germany", "Estonia", "Canada", "Japan", "Other"]},
+        {"name": "Type", "type": "multi_select", "options": ["Traditional", "Infrared", "Barrel", "Outdoor", "Indoor", "Portable", "Commercial"]},
+        {"name": "Price Tier", "type": "select", "options": ["Budget", "Mid-range", "Premium", "Luxury"]},
+        {"name": "Partnership Status", "type": "select", "options": ["Not Contacted", "Contacted", "In Discussion", "Partner", "Declined", "Former Partner"]},
+        {"name": "Website", "type": "url"},
+        {"name": "Contact Email", "type": "email"},
+        {"name": "Contact Name", "type": "text"},
+        {"name": "Products", "type": "relation", "relation_to": "Gadgets & Tech"},
+        {"name": "Notes", "type": "text"}
+      ],
+      "initial_data": [
+        {"Brand Name": "Harvia", "Country": "Finland", "Type": ["Traditional", "Commercial"], "Price Tier": "Premium", "Website": "https://harvia.com"},
+        {"Brand Name": "Huum", "Country": "Estonia", "Type": ["Traditional", "Indoor"], "Price Tier": "Premium", "Website": "https://huum.eu"},
+        {"Brand Name": "Clearlight", "Country": "USA", "Type": ["Infrared"], "Price Tier": "Premium", "Website": "https://www.clearlightsaunas.com"},
+        {"Brand Name": "Sunlighten", "Country": "USA", "Type": ["Infrared"], "Price Tier": "Luxury", "Website": "https://www.sunlighten.com"},
+        {"Brand Name": "Almost Heaven", "Country": "USA", "Type": ["Barrel", "Outdoor", "Traditional"], "Price Tier": "Mid-range", "Website": "https://almostheaven.com"},
+        {"Brand Name": "Tylö", "Country": "Sweden", "Type": ["Traditional", "Commercial"], "Price Tier": "Premium", "Website": "https://www.tylo.com"}
+      ]
+    },
+
+    "buyer_community": {
+      "name": "👥 Buyer Community",
+      "icon": "👥",
+      "description": "Reddit users and community members with sauna buying/ownership stories",
+      "properties": [
+        {"name": "Post Title", "type": "title", "required": true},
+        {"name": "Reddit Username", "type": "text"},
+        {"name": "Journey Stage", "type": "select", "options": ["🔍 Researching", "🛒 Just Bought", "📅 3+ Months Owner", "📅 1+ Year Owner", "🔧 DIY Builder"]},
+        {"name": "Brands Mentioned", "type": "multi_select", "options": ["Harvia", "Huum", "Clearlight", "Sunlighten", "Almost Heaven", "Tylö", "Finnleo", "Custom Build"]},
+        {"name": "Story Potential", "type": "select", "options": ["🔥 High", "👍 Medium", "👎 Low"]},
+        {"name": "Contact Priority", "type": "select", "options": ["🔴 High", "🟡 Medium", "🟢 Low", "⬜ Skip"]},
+        {"name": "Contact Status", "type": "select", "options": ["Not Contacted", "DM Sent", "Responded", "Interview Scheduled", "Story Published", "Not Interested"]},
+        {"name": "Post URL", "type": "url"},
+        {"name": "Post Score", "type": "number"},
+        {"name": "Comments", "type": "number"},
+        {"name": "Post Date", "type": "date"},
+        {"name": "Summary", "type": "text"},
+        {"name": "Notes", "type": "text"}
+      ],
+      "views": [
+        {"name": "🔥 High Priority", "type": "table", "filter": "Contact Priority = High AND Contact Status = Not Contacted"},
+        {"name": "📋 By Journey Stage", "type": "board", "group_by": "Journey Stage"},
+        {"name": "📊 Story Pipeline", "type": "board", "group_by": "Contact Status"}
+      ]
+    }
+  },
+
+  "n8n_integration": {
+    "workflows_to_update": [
+      {
+        "workflow_id": "h0MNBqU2UKEvXzUV",
+        "name": "Sauna Guide: RSS Aggregator",
+        "notion_database": "Content Inbox",
+        "action": "Add new items from RSS feeds daily"
+      },
+      {
+        "workflow_id": "VMUpbX8Dj0nn7wtQ",
+        "name": "Sauna Guide: Buyer Finder",
+        "notion_database": "Buyer Community",
+        "action": "Add potential story subjects from Reddit"
+      },
+      {
+        "workflow_id": "mD1CD7Hrb37CgqB4",
+        "name": "Sauna Guide: Reddit Monitor",
+        "notion_database": "Content Inbox",
+        "action": "Add trending Reddit discussions"
+      }
+    ],
+    "setup_steps": [
+      "1. Create all 6 databases in Notion following schemas above",
+      "2. Share each database with the n8n Notion integration",
+      "3. Copy each database ID from the URL (32-character string after notion.so/)",
+      "4. Update each n8n workflow with a Notion node pointing to correct database",
+      "5. Activate workflows"
+    ]
+  },
+
+  "quick_setup_checklist": [
+    "☐ Create 'Sauna Guide' main page in Notion",
+    "☐ Create '📥 Content Inbox' database with properties",
+    "☐ Create '📰 Newsletter Queue' database with properties",
+    "☐ Create '🔗 Sources Directory' database with initial data",
+    "☐ Create '🛒 Gadgets & Tech' database",
+    "☐ Create '🏭 Manufacturers' database with initial data",
+    "☐ Create '👥 Buyer Community' database",
+    "☐ Share all databases with n8n Notion integration",
+    "☐ Update n8n workflows with Notion database IDs",
+    "☐ Test workflows and activate"
+  ]
+}

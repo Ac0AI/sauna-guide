@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Complete Sauna Protocol | Sauna Guide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap');
+
+    :root {
+      --ink: #1a1a1a;
+      --charcoal: #2d2d2d;
+      --stone: #6b6b6b;
+      --ash: #d4d4d4;
+      --linen: #f5f3ef;
+      --paper: #faf9f7;
+      --oak: #8b7355;
+      --birch: #c4b8a5;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 11pt;
+      line-height: 1.7;
+      color: var(--ink);
+      background: var(--paper);
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 60px 40px;
+    }
+
+    @media print {
+      body {
+        padding: 40px;
+        max-width: 100%;
+      }
+
+      .page-break {
+        page-break-before: always;
+      }
+
+      h2 {
+        page-break-after: avoid;
+      }
+
+      table, blockquote {
+        page-break-inside: avoid;
+      }
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 32pt;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      color: var(--ink);
+    }
+
+    .subtitle {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 14pt;
+      font-style: italic;
+      color: var(--stone);
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 18pt;
+      font-weight: 500;
+      margin-top: 48px;
+      margin-bottom: 20px;
+      color: var(--ink);
+      border-bottom: 1px solid var(--ash);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 11pt;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      color: var(--charcoal);
+    }
+
+    h4 {
+      font-size: 11pt;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      color: var(--ink);
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    ul, ol {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .intro {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 13pt;
+      font-style: italic;
+      color: var(--stone);
+      border-left: 2px solid var(--birch);
+      padding-left: 20px;
+      margin: 32px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 10pt;
+    }
+
+    th {
+      text-align: left;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 9pt;
+      color: var(--stone);
+      border-bottom: 2px solid var(--ash);
+      padding: 8px 12px 8px 0;
+    }
+
+    td {
+      padding: 10px 12px 10px 0;
+      border-bottom: 1px solid var(--ash);
+    }
+
+    blockquote {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 14pt;
+      font-style: italic;
+      color: var(--charcoal);
+      border-left: 3px solid var(--oak);
+      padding-left: 20px;
+      margin: 32px 0;
+    }
+
+    .finnish-rule {
+      background: var(--linen);
+      padding: 16px 20px;
+      border-radius: 4px;
+      margin: 24px 0;
+      font-size: 10pt;
+    }
+
+    .finnish-rule strong {
+      color: var(--oak);
+    }
+
+    .note {
+      font-size: 10pt;
+      color: var(--stone);
+      font-style: italic;
+      margin-top: 24px;
+    }
+
+    .science-ref {
+      font-size: 9pt;
+      color: var(--stone);
+      font-style: italic;
+    }
+
+    .divider {
+      text-align: center;
+      margin: 40px 0;
+      color: var(--birch);
+      letter-spacing: 0.5em;
+    }
+
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--ash);
+      text-align: center;
+    }
+
+    .footer-brand {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 14pt;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .footer-tagline {
+      font-size: 10pt;
+      color: var(--stone);
+      font-style: italic;
+      margin-bottom: 16px;
+    }
+
+    .footer-url {
+      font-size: 10pt;
+      color: var(--oak);
+    }
+
+    .disclaimer {
+      font-size: 9pt;
+      color: var(--stone);
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--ash);
+    }
+
+    .cover {
+      text-align: center;
+      padding: 120px 40px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cover h1 {
+      font-size: 42pt;
+      margin-bottom: 16px;
+    }
+
+    .cover .subtitle {
+      font-size: 16pt;
+      margin-bottom: 60px;
+    }
+
+    .cover-footer {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    .cover-brand {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 14pt;
+      color: var(--stone);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cover Page -->
+  <div class="cover">
+    <h1>The Complete<br>Sauna Protocol</h1>
+    <p class="subtitle">A guide to the practice. Not a hack.</p>
+    <p class="cover-brand">Sauna Guide</p>
+  </div>
+
+  <div class="page-break"></div>
+
+  <!-- Introduction -->
+  <h2>Before You Begin</h2>
+
+  <p class="intro">
+    This isn't a set of rules. It's an invitation to slow down.
+  </p>
+
+  <p>
+    The Finns have been doing this for 2,000 years without timers, heart rate monitors, or optimization protocols. They simply step into the heat, stay until it feels right, and repeat.
+  </p>
+
+  <p>
+    What follows is a framework — tested by tradition, refined by modern understanding. Take what serves you. Leave what doesn't.
+  </p>
+
+  <div class="page-break"></div>
+
+  <!-- Section 1 -->
+  <h2>1. Before the Heat</h2>
+
+  <h4>Hydration</h4>
+  <p>
+    Drink water throughout the day. Not a gallon right before — just steady, consistent hydration. You'll lose 300-500ml of sweat per session. Your body knows this is coming.
+  </p>
+
+  <h4>Timing</h4>
+  <ul>
+    <li><strong>Morning sessions:</strong> energizing, sets the tone</li>
+    <li><strong>Evening sessions:</strong> unwinding, better sleep</li>
+    <li><strong>After exercise:</strong> enhanced recovery, muscle relaxation</li>
+    <li><strong>Before bed:</strong> leave 1-2 hours for your body to cool</li>
+  </ul>
+
+  <h4>What to avoid</h4>
+  <ul>
+    <li>Heavy meals within 2 hours</li>
+    <li>Alcohol (despite what you've seen in movies)</li>
+    <li>Intense exercise immediately before</li>
+  </ul>
+
+  <h4>What to bring</h4>
+  <ul>
+    <li>Water (room temperature, not ice cold)</li>
+    <li>A towel to sit on</li>
+    <li>Nothing else. That's the point.</li>
+  </ul>
+
+  <!-- Section 2 -->
+  <h2>2. Temperature & Duration</h2>
+
+  <p>There is no "optimal" temperature. There's only what your body tells you.</p>
+
+  <h4>Traditional Finnish sauna</h4>
+  <ul>
+    <li>Temperature: 70-100°C (158-212°F)</li>
+    <li>Duration: 10-20 minutes per round</li>
+    <li>Humidity: Low to moderate</li>
+  </ul>
+
+  <h4>Infrared sauna</h4>
+  <ul>
+    <li>Temperature: 45-65°C (113-149°F)</li>
+    <li>Duration: 20-45 minutes</li>
+    <li>Penetration: Deeper tissue warming at lower temperatures</li>
+  </ul>
+
+  <h4>Steam room</h4>
+  <ul>
+    <li>Temperature: 40-50°C (104-122°F)</li>
+    <li>Humidity: 100%</li>
+    <li>Duration: 10-15 minutes</li>
+  </ul>
+
+  <h3>By Intention</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Goal</th>
+        <th>Temperature</th>
+        <th>Duration</th>
+        <th>Rounds</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Relaxation</td>
+        <td>70-80°C</td>
+        <td>15-20 min</td>
+        <td>2-3</td>
+      </tr>
+      <tr>
+        <td>Deep sweat</td>
+        <td>80-90°C</td>
+        <td>10-15 min</td>
+        <td>3-4</td>
+      </tr>
+      <tr>
+        <td>Recovery</td>
+        <td>70-80°C</td>
+        <td>10-15 min</td>
+        <td>2-3</td>
+      </tr>
+      <tr>
+        <td>Sleep prep</td>
+        <td>65-75°C</td>
+        <td>15-20 min</td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="finnish-rule">
+    <strong>The Finnish rule:</strong> If you're watching the clock, you're not present. Enter the heat. When your body says "enough," step out.
+  </div>
+
+  <div class="page-break"></div>
+
+  <!-- Section 3 -->
+  <h2>3. The Round Structure</h2>
+
+  <p>This is the rhythm. Heat, cool, rest. Repeat.</p>
+
+  <h4>Round 1: Awakening</h4>
+  <ul>
+    <li>Enter the sauna</li>
+    <li>Sit or lie down (upper benches are hotter)</li>
+    <li>Focus on your breath</li>
+    <li>10-15 minutes, or until you feel ready to cool</li>
+  </ul>
+
+  <h4>Cooling</h4>
+  <ul>
+    <li>Cold shower, plunge pool, or fresh air</li>
+    <li>Start with cool, progress to cold over time</li>
+    <li>30 seconds to 2 minutes</li>
+    <li>The contrast is where the magic happens</li>
+  </ul>
+
+  <h4>Rest</h4>
+  <ul>
+    <li>Sit or lie somewhere comfortable</li>
+    <li>Room temperature</li>
+    <li>5-10 minutes</li>
+    <li>This is when your body recalibrates</li>
+  </ul>
+
+  <h4>Round 2 & 3: Deepening</h4>
+  <ul>
+    <li>Return to the heat</li>
+    <li>You'll tolerate more now</li>
+    <li>The mind quiets</li>
+    <li>Same pattern: heat → cool → rest</li>
+  </ul>
+
+  <h4>Round 4: Integration (optional)</h4>
+  <ul>
+    <li>Final, shorter round</li>
+    <li>Often the most meditative</li>
+    <li>End with cooling and longer rest</li>
+  </ul>
+
+  <p><strong>Total session:</strong> 60-90 minutes, including rest periods.</p>
+
+  <!-- Section 4 -->
+  <h2>4. Breathing in the Heat</h2>
+
+  <p>Your breath is your anchor.</p>
+
+  <h4>Simple practice</h4>
+  <ul>
+    <li>Inhale slowly through the nose (4 counts)</li>
+    <li>Hold briefly (2 counts)</li>
+    <li>Exhale slowly through the mouth (6 counts)</li>
+    <li>The longer exhale activates relaxation</li>
+  </ul>
+
+  <h4>When the heat intensifies</h4>
+  <ul>
+    <li>Keep breathing slow and steady</li>
+    <li>Shallow, rapid breathing signals panic</li>
+    <li>Deep breaths tell your body you're safe</li>
+  </ul>
+
+  <h4>Advanced: Löyly breathing</h4>
+  <p>When the steam rises (löyly — the Finnish word for "spirit"):</p>
+  <ul>
+    <li>Breathe in the wave of heat</li>
+    <li>Let it fill your lungs</li>
+    <li>Exhale tension</li>
+    <li>The steam carries more than moisture</li>
+  </ul>
+
+  <div class="page-break"></div>
+
+  <!-- Section 5 -->
+  <h2>5. After the Heat</h2>
+
+  <p>What you do post-sauna matters.</p>
+
+  <h4>Immediately after</h4>
+  <ul>
+    <li>Shower to rinse sweat</li>
+    <li>Rest for 10-20 minutes</li>
+    <li>Let your heart rate normalize</li>
+  </ul>
+
+  <h4>Rehydration</h4>
+  <ul>
+    <li>Water with electrolytes</li>
+    <li>Herbal tea</li>
+    <li>Light snack if hungry</li>
+    <li>Avoid alcohol for at least 30 minutes</li>
+  </ul>
+
+  <h4>The glow</h4>
+  <ul>
+    <li>Your skin will be flushed</li>
+    <li>Your mind will be quiet</li>
+    <li>This feeling lasts 2-4 hours</li>
+    <li>Protect it. Don't immediately dive into screens or stress.</li>
+  </ul>
+
+  <h4>Sleep</h4>
+  <p>If you sauna in the evening:</p>
+  <ul>
+    <li>Your core temperature will drop as you cool</li>
+    <li>This drop signals sleepiness</li>
+    <li>Many report the best sleep of their lives</li>
+  </ul>
+
+  <!-- Section 6 -->
+  <h2>6. Contrast Therapy</h2>
+
+  <p>The cold is not punishment. It's the other half.</p>
+
+  <h4>The practice</h4>
+  <p>Heat (sauna) → Cold (plunge, shower, snow) → Rest</p>
+  <p>The contrast triggers circulation, endorphin release, and deep relaxation.</p>
+
+  <h4>Cold options (warmest to coldest)</h4>
+  <ul>
+    <li>Cool shower</li>
+    <li>Cold shower</li>
+    <li>Cold plunge (10-15°C / 50-59°F)</li>
+    <li>Ice bath (2-5°C / 35-41°F)</li>
+    <li>Snow or frozen lake (for the brave)</li>
+  </ul>
+
+  <h4>Building tolerance</h4>
+  <ul>
+    <li>Start with cool showers</li>
+    <li>Increase cold exposure gradually</li>
+    <li>Never force it</li>
+    <li>The goal is invigoration, not suffering</li>
+  </ul>
+
+  <h4>The physiology</h4>
+  <ul>
+    <li>Blood vessels constrict (cold) then dilate (heat)</li>
+    <li>This "pumping" enhances circulation</li>
+    <li>Inflammation decreases</li>
+    <li>Mood elevates</li>
+  </ul>
+
+  <div class="page-break"></div>
+
+  <!-- Section 7 -->
+  <h2>7. The Science</h2>
+
+  <p>For those who want to know why it works.</p>
+
+  <h4>Cardiovascular</h4>
+  <ul>
+    <li>Heart rate increases to 100-150 bpm (similar to moderate exercise)</li>
+    <li>Blood vessels dilate, improving circulation</li>
+    <li>Regular use associated with reduced cardiovascular disease risk</li>
+  </ul>
+  <p class="science-ref">Laukkanen et al., JAMA Internal Medicine, 2015</p>
+
+  <h4>Heat Shock Proteins</h4>
+  <ul>
+    <li>Activated at temperatures above 39°C</li>
+    <li>Help repair damaged proteins</li>
+    <li>May slow cellular aging</li>
+  </ul>
+  <p class="science-ref">Hooper, 1999; Kregel, 2002</p>
+
+  <h4>Endorphins & Mood</h4>
+  <ul>
+    <li>Heat stress triggers endorphin release</li>
+    <li>Comparable to "runner's high"</li>
+    <li>Regular sauna linked to reduced depression symptoms</li>
+  </ul>
+  <p class="science-ref">Kunutsor et al., 2018</p>
+
+  <h4>Sleep</h4>
+  <ul>
+    <li>Post-sauna temperature drop mimics natural sleep onset</li>
+    <li>Growth hormone increases during deep sauna sessions</li>
+    <li>Sleep quality improves with regular practice</li>
+  </ul>
+  <p class="science-ref">Hussain & Cohen, 2018</p>
+
+  <h4>Inflammation</h4>
+  <ul>
+    <li>Heat therapy reduces inflammatory markers</li>
+    <li>May help with chronic pain conditions</li>
+    <li>Accelerates muscle recovery after exercise</li>
+  </ul>
+  <p class="science-ref">Mero et al., 2015</p>
+
+  <p class="note">The best research comes from Finland, where sauna is cultural infrastructure, not wellness trend.</p>
+
+  <div class="page-break"></div>
+
+  <!-- Section 8 -->
+  <h2>8. Building Your Practice</h2>
+
+  <p>Start where you are.</p>
+
+  <h4>Week 1-2: Familiarization</h4>
+  <ul>
+    <li>1-2 sessions per week</li>
+    <li>Single rounds (15-20 minutes)</li>
+    <li>Lower temperatures if available</li>
+    <li>Cool showers after</li>
+  </ul>
+
+  <h4>Week 3-4: Building</h4>
+  <ul>
+    <li>2-3 sessions per week</li>
+    <li>2 rounds per session</li>
+    <li>Introduce longer cooling</li>
+    <li>Add the rest period</li>
+  </ul>
+
+  <h4>Month 2+: Deepening</h4>
+  <ul>
+    <li>3-4 sessions per week</li>
+    <li>3-4 rounds per session</li>
+    <li>Cold plunge if accessible</li>
+    <li>The practice becomes ritual</li>
+  </ul>
+
+  <div class="finnish-rule">
+    <strong>Consistency over intensity:</strong> 4 weekly sessions beat 1 extreme session. This is a practice, not an event. The benefits compound over months and years.
+  </div>
+
+  <div class="page-break"></div>
+
+  <!-- Closing -->
+  <h2>A Final Word</h2>
+
+  <p class="intro">
+    The sauna is not a place to achieve.<br>
+    It is a place to be.
+  </p>
+
+  <p>
+    No notifications. No optimization. No performance.
+  </p>
+
+  <p>
+    Just heat. Silence. Breath.
+  </p>
+
+  <blockquote>
+    "The sauna is a poor man's pharmacy."<br>
+    — Finnish proverb
+  </blockquote>
+
+  <blockquote>
+    "In the sauna, one must conduct oneself as one would in church."<br>
+    — Finnish saying
+  </blockquote>
+
+  <p>
+    Not because it's sacred.<br>
+    Because in there, finally, you can stop.
+  </p>
+
+  <div class="divider">* * *</div>
+
+  <div class="footer">
+    <p class="footer-brand">Sauna Guide</p>
+    <p class="footer-tagline">A weekly letter from the heat</p>
+    <p class="footer-url">saunaguide.com</p>
+  </div>
+
+  <p class="disclaimer">
+    This guide is for informational purposes. Consult a healthcare provider before starting any heat therapy practice, especially if you have cardiovascular conditions, are pregnant, or take medications that affect heat regulation.
+  </p>
+
+</body>
+</html>

@@ -1,0 +1,373 @@
+{
+  "updated": "2024-12-20",
+  "version": "1.0",
+
+  "newsletters": [
+    {
+      "name": "SaunaTimes Newsletter",
+      "url": "https://saunatimes.substack.com/",
+      "rss": "https://saunatimes.substack.com/feed",
+      "author": "Glenn Auerbach",
+      "focus": ["culture", "DIY", "travel", "events"],
+      "frequency": "weekly",
+      "quality": 5,
+      "notes": "Largest sauna newsletter. Gold standard for community feel."
+    },
+    {
+      "name": "Relax Saunas",
+      "url": "https://relaxsaunas.substack.com/",
+      "rss": "https://relaxsaunas.substack.com/feed",
+      "focus": ["infrared", "science", "detox", "longevity"],
+      "frequency": "weekly",
+      "quality": 3,
+      "notes": "Infrared-focused, research-heavy."
+    },
+    {
+      "name": "The Huberman Lab Newsletter",
+      "url": "https://www.hubermanlab.com/newsletter",
+      "rss": null,
+      "author": "Andrew Huberman",
+      "focus": ["neuroscience", "protocols", "sauna-science"],
+      "frequency": "weekly",
+      "quality": 5,
+      "notes": "Covers sauna protocols periodically. Massive reach."
+    },
+    {
+      "name": "Tim Ferriss 5-Bullet Friday",
+      "url": "https://go.tim.blog/",
+      "rss": null,
+      "author": "Tim Ferriss",
+      "focus": ["biohacking", "wellness", "tools"],
+      "frequency": "weekly",
+      "quality": 4,
+      "notes": "Occasionally features sauna content and gear."
+    }
+  ],
+
+  "blogs": [
+    {
+      "name": "SaunaTimes",
+      "url": "https://www.saunatimes.com/",
+      "rss": "https://www.saunatimes.com/feed/",
+      "focus": ["culture", "DIY", "guides", "travel"],
+      "quality": 5,
+      "notes": "Authority in North America. Glenn Auerbach's main site."
+    },
+    {
+      "name": "Svenska Bastuakademien",
+      "url": "https://www.bastuakademien.se/",
+      "rss": null,
+      "focus": ["swedish-culture", "finnish-culture", "events", "history"],
+      "language": "swedish",
+      "quality": 4,
+      "notes": "Swedish sauna association. Good for local networking."
+    },
+    {
+      "name": "North American Sauna Society",
+      "url": "https://www.saunasociety.org/",
+      "rss": null,
+      "focus": ["community", "events", "culture"],
+      "quality": 4,
+      "notes": "Community-focused, event listings."
+    },
+    {
+      "name": "Almost Heaven Saunas Blog",
+      "url": "https://almostheaven.com/blogs/news",
+      "rss": "https://almostheaven.com/blogs/news.atom",
+      "focus": ["products", "tips", "buyer-guides"],
+      "quality": 3,
+      "notes": "DTC brand blog. Good for buyer insights."
+    },
+    {
+      "name": "Clearlight Saunas Blog",
+      "url": "https://infraredsauna.com/blog/",
+      "rss": null,
+      "focus": ["infrared", "health-claims", "science"],
+      "quality": 3,
+      "notes": "Infrared-focused. Science articles."
+    },
+    {
+      "name": "Finnish Sauna Society",
+      "url": "https://www.sauna.fi/en/",
+      "rss": null,
+      "focus": ["finnish-culture", "tradition", "research"],
+      "language": "finnish/english",
+      "quality": 5,
+      "notes": "Official Finnish source. UNESCO heritage context."
+    },
+    {
+      "name": "Found My Fitness",
+      "url": "https://www.foundmyfitness.com/",
+      "rss": "https://www.foundmyfitness.com/feed",
+      "author": "Dr. Rhonda Patrick",
+      "focus": ["science", "longevity", "heat-shock-proteins"],
+      "quality": 5,
+      "notes": "Deep science content. Sauna research summaries."
+    }
+  ],
+
+  "reddit": [
+    {
+      "name": "r/Sauna",
+      "url": "https://www.reddit.com/r/Sauna/",
+      "rss": "https://www.reddit.com/r/Sauna/.rss",
+      "members": "50k+",
+      "focus": ["community", "questions", "builds", "reviews"],
+      "quality": 5,
+      "keywords_to_track": ["just bought", "new sauna", "first time", "help choosing", "review"]
+    },
+    {
+      "name": "r/SaunaStories",
+      "url": "https://www.reddit.com/r/SaunaStories/",
+      "rss": "https://www.reddit.com/r/SaunaStories/.rss",
+      "focus": ["personal-stories", "experiences"],
+      "quality": 3,
+      "notes": "Smaller but personal content."
+    },
+    {
+      "name": "r/Biohackers",
+      "url": "https://www.reddit.com/r/Biohackers/",
+      "rss": "https://www.reddit.com/r/Biohackers/.rss",
+      "focus": ["longevity", "protocols", "tech"],
+      "quality": 4,
+      "filter": "sauna",
+      "notes": "Filter for sauna-related posts."
+    },
+    {
+      "name": "r/coldshowers",
+      "url": "https://www.reddit.com/r/coldshowers/",
+      "rss": "https://www.reddit.com/r/coldshowers/.rss",
+      "focus": ["contrast-therapy", "cold-exposure"],
+      "quality": 3,
+      "notes": "Contrast therapy angle."
+    },
+    {
+      "name": "r/Finland",
+      "url": "https://www.reddit.com/r/Finland/",
+      "rss": "https://www.reddit.com/r/Finland/.rss",
+      "focus": ["finnish-culture", "traditions"],
+      "quality": 4,
+      "filter": "sauna",
+      "notes": "Authentic Finnish perspective."
+    },
+    {
+      "name": "r/Plunge",
+      "url": "https://www.reddit.com/r/Plunge/",
+      "rss": "https://www.reddit.com/r/Plunge/.rss",
+      "focus": ["cold-plunge", "contrast"],
+      "quality": 3,
+      "notes": "Cold plunge community, often discusses sauna pairing."
+    }
+  ],
+
+  "youtube": [
+    {
+      "name": "Huberman Lab",
+      "url": "https://www.youtube.com/@hubaboratorylab",
+      "focus": ["science", "protocols"],
+      "quality": 5,
+      "key_videos": ["Sauna Benefits", "Heat & Cold Exposure"]
+    },
+    {
+      "name": "FoundMyFitness",
+      "url": "https://www.youtube.com/@FoundMyFitness",
+      "focus": ["science", "longevity"],
+      "quality": 5,
+      "key_videos": ["Sauna Use and Health"]
+    },
+    {
+      "name": "Sauna Times",
+      "url": "https://www.youtube.com/@SaunaTimes",
+      "focus": ["DIY", "builds", "culture"],
+      "quality": 4,
+      "notes": "Glenn Auerbach's channel."
+    },
+    {
+      "name": "Rob Lipsett",
+      "url": "https://www.youtube.com/@RobLipsett",
+      "focus": ["biohacking", "cold-plunge", "sauna"],
+      "quality": 3,
+      "notes": "Lifestyle/fitness angle."
+    }
+  ],
+
+  "podcasts": [
+    {
+      "name": "Sauna Talk",
+      "url": "https://www.saunatimes.com/sauna-talk/",
+      "host": "Glenn Auerbach",
+      "focus": ["interviews", "culture", "community"],
+      "quality": 5,
+      "notes": "Premier sauna podcast."
+    },
+    {
+      "name": "Huberman Lab Podcast",
+      "url": "https://hubermanlab.com/",
+      "focus": ["science", "protocols"],
+      "quality": 5,
+      "sauna_episodes": ["Episode on Heat Exposure", "Deliberate Cold & Heat"]
+    },
+    {
+      "name": "Found My Fitness",
+      "url": "https://www.foundmyfitness.com/podcasts",
+      "focus": ["science", "longevity"],
+      "quality": 5,
+      "notes": "Deep dives on heat shock proteins, sauna research."
+    },
+    {
+      "name": "The Tim Ferriss Show",
+      "url": "https://tim.blog/podcast/",
+      "focus": ["biohacking", "performance"],
+      "quality": 4,
+      "notes": "Occasionally covers sauna protocols."
+    }
+  ],
+
+  "twitter": [
+    {
+      "name": "@SaunaTimes",
+      "url": "https://twitter.com/SaunaTimes",
+      "focus": ["news", "culture"],
+      "quality": 4
+    },
+    {
+      "name": "@hubaboratorylab",
+      "url": "https://twitter.com/hubaboratorylab",
+      "focus": ["science", "protocols"],
+      "quality": 5
+    },
+    {
+      "name": "@FoundMyFitness",
+      "url": "https://twitter.com/FoundMyFitness",
+      "focus": ["science", "longevity"],
+      "quality": 5
+    },
+    {
+      "name": "@haraboratoryiasauna",
+      "url": "https://twitter.com/haraboratoryiasauna",
+      "focus": ["brand", "products"],
+      "quality": 3
+    }
+  ],
+
+  "instagram": [
+    {
+      "name": "@saunatimes",
+      "url": "https://instagram.com/saunatimes",
+      "focus": ["culture", "builds"],
+      "quality": 4
+    },
+    {
+      "name": "@harvia",
+      "url": "https://instagram.com/harvia",
+      "focus": ["products", "design"],
+      "quality": 4
+    },
+    {
+      "name": "@huumsauna",
+      "url": "https://instagram.com/huumsauna",
+      "focus": ["design", "aesthetics"],
+      "quality": 5,
+      "notes": "Beautiful design content."
+    },
+    {
+      "name": "@loylyhelsinki",
+      "url": "https://instagram.com/loylyhelsinki",
+      "focus": ["destination", "architecture"],
+      "quality": 5,
+      "notes": "Iconic Helsinki sauna."
+    }
+  ],
+
+  "communities": [
+    {
+      "name": "Sauna Owners Facebook Group",
+      "url": "https://www.facebook.com/groups/saunaowners",
+      "platform": "facebook",
+      "focus": ["community", "questions", "reviews"],
+      "quality": 4,
+      "notes": "Active buyer community."
+    },
+    {
+      "name": "Backyard Saunas Facebook Group",
+      "url": "https://www.facebook.com/groups/backyardsaunas",
+      "platform": "facebook",
+      "focus": ["DIY", "builds", "outdoor"],
+      "quality": 4
+    },
+    {
+      "name": "Houzz - Saunas",
+      "url": "https://www.houzz.com/discussions/saunas",
+      "platform": "houzz",
+      "focus": ["design", "renovation", "buying"],
+      "quality": 3,
+      "notes": "Good for buyer research."
+    }
+  ],
+
+  "tech_and_innovation": [
+    {
+      "name": "Kickstarter - Sauna",
+      "url": "https://www.kickstarter.com/discover/advanced?term=sauna",
+      "type": "crowdfunding",
+      "focus": ["innovation", "new-products"],
+      "check_frequency": "weekly"
+    },
+    {
+      "name": "Indiegogo - Sauna",
+      "url": "https://www.indiegogo.com/explore?q=sauna",
+      "type": "crowdfunding",
+      "focus": ["innovation", "gadgets"],
+      "check_frequency": "weekly"
+    },
+    {
+      "name": "Product Hunt - Wellness",
+      "url": "https://www.producthunt.com/topics/wellness",
+      "type": "product-discovery",
+      "focus": ["apps", "tech", "devices"],
+      "check_frequency": "weekly",
+      "filter": "sauna OR heat OR wellness"
+    },
+    {
+      "name": "Google Patents - Sauna",
+      "url": "https://patents.google.com/?q=sauna&oq=sauna",
+      "type": "patents",
+      "focus": ["innovation", "future-tech"],
+      "check_frequency": "monthly"
+    }
+  ],
+
+  "trade_and_industry": [
+    {
+      "name": "Pool & Spa News",
+      "url": "https://www.poolspanews.com/",
+      "focus": ["industry", "trade", "market"],
+      "quality": 4,
+      "notes": "Industry publication, covers sauna market."
+    },
+    {
+      "name": "Interbad Trade Show",
+      "url": "https://www.messe-stuttgart.de/interbad/",
+      "type": "trade-show",
+      "location": "Stuttgart, Germany",
+      "frequency": "biennial",
+      "focus": ["products", "innovation", "B2B"]
+    },
+    {
+      "name": "Piscine Global",
+      "url": "https://www.piscine-global-europe.com/",
+      "type": "trade-show",
+      "location": "Lyon, France",
+      "frequency": "biennial",
+      "focus": ["pool-spa", "wellness"]
+    },
+    {
+      "name": "Pool Spa Patio Expo",
+      "url": "https://www.poolspapatio.com/",
+      "type": "trade-show",
+      "location": "US (rotating)",
+      "frequency": "annual",
+      "focus": ["US-market", "retail"]
+    }
+  ]
+}

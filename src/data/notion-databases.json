@@ -1,0 +1,101 @@
+{
+  "created": "2025-12-20",
+  "workspace": "Flyttsmart",
+  "main_page": {
+    "name": "Sauna",
+    "id": "2cfd0e52-2114-8060-b545-ddb527ddc75b",
+    "url": "https://www.notion.so/Sauna-2cfd0e5221148060b545ddb527ddc75b",
+    "icon": "🧖"
+  },
+  "databases": {
+    "content_inbox": {
+      "name": "📥 Content Inbox",
+      "id": "2cfd0e52-2114-8100-af51-f20ab3def8c7",
+      "url": "https://www.notion.so/2cfd0e5221148100af51f20ab3def8c7",
+      "purpose": "All incoming content ideas, RSS items, Reddit posts",
+      "n8n_workflows": ["RSS Aggregator", "Reddit Monitor"]
+    },
+    "newsletter_queue": {
+      "name": "📰 Newsletter Queue",
+      "id": "2cfd0e52-2114-8187-8ae1-e046ba5b21a8",
+      "url": "https://www.notion.so/2cfd0e52211481878ae1e046ba5b21a8",
+      "purpose": "Planned newsletter editions with calendar"
+    },
+    "sources_directory": {
+      "name": "🔗 Sources Directory",
+      "id": "2cfd0e52-2114-811d-b978-c3faf7ddf977",
+      "url": "https://www.notion.so/2cfd0e522114811db978c3faf7ddf977",
+      "purpose": "RSS feeds, blogs, and content sources"
+    },
+    "gadgets_tech": {
+      "name": "🛒 Gadgets & Tech",
+      "id": "2cfd0e52-2114-81cd-86a1-c60b5a631e2b",
+      "url": "https://www.notion.so/2cfd0e52211481cd86a1c60b5a631e2b",
+      "purpose": "Sauna products and tech for reviews"
+    },
+    "manufacturers": {
+      "name": "🏭 Manufacturers",
+      "id": "2cfd0e52-2114-81a2-aacf-e4f26c92485c",
+      "url": "https://www.notion.so/2cfd0e52211481a2aacfe4f26c92485c",
+      "purpose": "Sauna brands for partnerships"
+    },
+    "buyer_community": {
+      "name": "👥 Buyer Community",
+      "id": "2cfd0e52-2114-8173-b00f-fe70801ec9d5",
+      "url": "https://www.notion.so/2cfd0e5221148173b00ffe70801ec9d5",
+      "purpose": "Reddit users with sauna buying stories",
+      "n8n_workflows": ["Buyer Finder"]
+    }
+  },
+  "n8n_workflow_config": {
+    "rss_aggregator": {
+      "workflow_id": "h0MNBqU2UKEvXzUV",
+      "workflow_name": "Sauna Guide: RSS Aggregator",
+      "target_database": "content_inbox",
+      "target_database_id": "2cfd0e52-2114-8100-af51-f20ab3def8c7",
+      "field_mapping": {
+        "title": "Title",
+        "url": "URL",
+        "source": "Source Name",
+        "summary": "Summary",
+        "category": "Category",
+        "source_type": "Source → RSS",
+        "status": "Status → New"
+      }
+    },
+    "buyer_finder": {
+      "workflow_id": "VMUpbX8Dj0nn7wtQ",
+      "workflow_name": "Sauna Guide: Buyer Finder",
+      "target_database": "buyer_community",
+      "target_database_id": "2cfd0e52-2114-8173-b00f-fe70801ec9d5",
+      "field_mapping": {
+        "title": "Post Title",
+        "url": "Post URL",
+        "author": "Reddit Username",
+        "stage": "Journey Stage",
+        "brands_mentioned": "Brands Mentioned",
+        "story_potential": "Story Potential",
+        "priority": "Contact Priority",
+        "score": "Post Score",
+        "num_comments": "Comments",
+        "created": "Post Date",
+        "selftext_preview": "Summary"
+      }
+    },
+    "reddit_monitor": {
+      "workflow_id": "mD1CD7Hrb37CgqB4",
+      "workflow_name": "Sauna Guide: Reddit Monitor",
+      "target_database": "content_inbox",
+      "target_database_id": "2cfd0e52-2114-8100-af51-f20ab3def8c7",
+      "field_mapping": {
+        "title": "Title",
+        "url": "URL",
+        "author": "Source Name",
+        "selftext": "Summary",
+        "category": "Category",
+        "source_type": "Source → Reddit",
+        "status": "Status → New"
+      }
+    }
+  }
+}

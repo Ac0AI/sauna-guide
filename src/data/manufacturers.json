@@ -1,0 +1,330 @@
+{
+  "updated": "2024-12-20",
+  "version": "1.0",
+
+  "manufacturers": [
+    {
+      "name": "Harvia",
+      "country": "Finland",
+      "founded": 1950,
+      "website": "https://harvia.com/",
+      "type": "traditional",
+      "products": ["heaters", "saunas", "steam-rooms", "accessories"],
+      "market": "global",
+      "public": true,
+      "stock": "HARVIA (Helsinki)",
+      "unique_angle": "Largest sauna company. Public company = financial transparency.",
+      "content_opportunities": [
+        "Quarterly earnings = market insights",
+        "New product launches",
+        "Industry trends from investor reports"
+      ],
+      "social": {
+        "instagram": "@harvia",
+        "linkedin": "harvia-oyj"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "Gold standard Finnish brand."
+    },
+    {
+      "name": "Huum",
+      "country": "Estonia",
+      "founded": 2011,
+      "website": "https://huum.eu/",
+      "type": "traditional",
+      "products": ["heaters", "controllers", "smart-tech"],
+      "market": "europe-focused",
+      "unique_angle": "Design-forward, smart controllers, modern aesthetic.",
+      "content_opportunities": [
+        "Smart sauna tech features",
+        "Design awards and press",
+        "App integration stories"
+      ],
+      "social": {
+        "instagram": "@huumsauna"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "Beautiful design. Tech-forward. Great for modern sauna content."
+    },
+    {
+      "name": "Tylö",
+      "country": "Sweden",
+      "founded": 1950,
+      "website": "https://www.tylo.com/",
+      "type": "traditional",
+      "products": ["heaters", "saunas", "steam-generators"],
+      "market": "global",
+      "unique_angle": "Swedish quality. B2B focus. Commercial installations.",
+      "content_opportunities": [
+        "Commercial/spa installations",
+        "Swedish design philosophy",
+        "Quality engineering stories"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Swedish heritage brand. Strong B2B presence."
+    },
+    {
+      "name": "Narvi",
+      "country": "Finland",
+      "founded": 1937,
+      "website": "https://www.narvi.fi/",
+      "type": "traditional",
+      "products": ["wood-burning-heaters", "electric-heaters"],
+      "market": "finland-focused",
+      "unique_angle": "Family-owned. Wood-burning specialist. Authentic.",
+      "content_opportunities": [
+        "Traditional wood-burning culture",
+        "Family business story",
+        "Craftsmanship angle"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Authentic Finnish. Wood-burning experts."
+    },
+    {
+      "name": "Kirami",
+      "country": "Finland",
+      "founded": 2001,
+      "website": "https://kirami.com/",
+      "type": "outdoor",
+      "products": ["hot-tubs", "saunas", "outdoor-wellness"],
+      "market": "europe",
+      "unique_angle": "Outdoor focus. Hot tubs + sauna combo.",
+      "content_opportunities": [
+        "Outdoor wellness lifestyle",
+        "Cabin/retreat content",
+        "Nordic outdoor culture"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Great for outdoor/cabin content."
+    },
+    {
+      "name": "Almost Heaven Saunas",
+      "country": "USA",
+      "founded": 1979,
+      "website": "https://almostheaven.com/",
+      "type": "barrel-cabin",
+      "products": ["barrel-saunas", "cabin-saunas", "outdoor"],
+      "market": "north-america",
+      "unique_angle": "DTC leader. Barrel saunas. Active community.",
+      "content_opportunities": [
+        "Buyer reviews and stories",
+        "Build/setup content",
+        "Community spotlights"
+      ],
+      "social": {
+        "instagram": "@almostheavensaunas"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "Great for buyer community content. Active reviews."
+    },
+    {
+      "name": "Finnleo",
+      "country": "USA/Finland",
+      "founded": 1919,
+      "website": "https://www.finnleo.com/",
+      "type": "traditional",
+      "products": ["saunas", "heaters", "infrared"],
+      "market": "north-america",
+      "owned_by": "TylöHelo Group",
+      "unique_angle": "Premium US market. Hybrid (traditional + infrared).",
+      "content_opportunities": [
+        "Premium segment insights",
+        "US market trends",
+        "Dealer network stories"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Premium positioning. Part of TylöHelo."
+    },
+    {
+      "name": "Clearlight Saunas",
+      "country": "USA",
+      "website": "https://www.clearlight-saunas.com/",
+      "type": "infrared",
+      "products": ["infrared-saunas", "full-spectrum"],
+      "market": "north-america",
+      "unique_angle": "Infrared leader. Health claims. Celebrity endorsements.",
+      "content_opportunities": [
+        "Infrared science content",
+        "Health benefit studies",
+        "Celebrity/influencer usage"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Infrared market leader. Strong health marketing."
+    },
+    {
+      "name": "Sunlighten",
+      "country": "USA",
+      "founded": 1999,
+      "website": "https://www.sunlighten.com/",
+      "type": "infrared",
+      "products": ["infrared-saunas", "portable"],
+      "market": "north-america",
+      "unique_angle": "Full-spectrum infrared. Medical research partnerships.",
+      "content_opportunities": [
+        "Medical research coverage",
+        "Clinical studies",
+        "Health practitioner angle"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Research-focused infrared brand."
+    },
+    {
+      "name": "SaunaSpace",
+      "country": "USA",
+      "website": "https://sauna.space/",
+      "type": "red-light",
+      "products": ["near-infrared", "red-light", "portable"],
+      "market": "biohacker",
+      "unique_angle": "Biohacker niche. Near-infrared. Red light therapy combo.",
+      "content_opportunities": [
+        "Biohacking content",
+        "Red light + heat combo",
+        "Influencer partnerships"
+      ],
+      "social": {
+        "instagram": "@saunaspace"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "Biohacker-focused. Unique positioning."
+    },
+    {
+      "name": "Barrel Sauna Co",
+      "country": "USA",
+      "website": "https://www.barrelsaunaco.com/",
+      "type": "barrel",
+      "products": ["barrel-saunas", "kits"],
+      "market": "north-america",
+      "unique_angle": "DIY kits. Budget-friendly. Hands-on community.",
+      "content_opportunities": [
+        "DIY build content",
+        "Budget sauna guides",
+        "Builder community"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "DIY angle. Great for build content."
+    },
+    {
+      "name": "Saunum",
+      "country": "Estonia",
+      "website": "https://saunum.com/",
+      "type": "traditional",
+      "products": ["air-purification-heaters", "aromatherapy"],
+      "market": "global",
+      "unique_angle": "Air purification tech. Aromatherapy integration.",
+      "content_opportunities": [
+        "Innovation/tech stories",
+        "Air quality angle",
+        "Wellness integration"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Innovative tech. Air purification unique angle."
+    },
+    {
+      "name": "Klafs",
+      "country": "Germany",
+      "founded": 1928,
+      "website": "https://www.klafs.com/",
+      "type": "luxury",
+      "products": ["saunas", "spa-systems", "steam-baths"],
+      "market": "europe",
+      "unique_angle": "Luxury segment. Retractable saunas. Hotel installations.",
+      "content_opportunities": [
+        "Luxury/design content",
+        "Space-saving innovations",
+        "Hotel spa features"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Premium German engineering. Famous for retractable sauna."
+    },
+    {
+      "name": "Polar Saunas",
+      "country": "Finland",
+      "website": "https://www.polarimetri.fi/",
+      "type": "traditional",
+      "products": ["saunas", "steam-rooms"],
+      "market": "europe",
+      "unique_angle": "Finnish craftsmanship. Mid-market.",
+      "content_opportunities": [
+        "Finnish quality content",
+        "Value positioning"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Solid Finnish brand."
+    },
+    {
+      "name": "Durasage",
+      "country": "USA",
+      "website": "https://www.durasage.com/",
+      "type": "portable",
+      "products": ["portable-saunas", "steam-saunas"],
+      "market": "budget",
+      "unique_angle": "Budget portable. Entry-level market.",
+      "content_opportunities": [
+        "Budget buyer guides",
+        "Apartment/rental solutions"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Budget segment. Good for beginner content."
+    },
+    {
+      "name": "Health Mate",
+      "country": "USA",
+      "founded": 1979,
+      "website": "https://www.healthmatesauna.com/",
+      "type": "infrared",
+      "products": ["infrared-saunas"],
+      "market": "north-america",
+      "unique_angle": "Long history in infrared. EMF-focused.",
+      "content_opportunities": [
+        "EMF safety content",
+        "Infrared heritage"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Established infrared brand."
+    }
+  ],
+
+  "aggregators_and_retailers": [
+    {
+      "name": "Costco Saunas",
+      "url": "https://www.costco.com/saunas.html",
+      "type": "retailer",
+      "notes": "Good for price trends and popular models."
+    },
+    {
+      "name": "Wayfair Saunas",
+      "url": "https://www.wayfair.com/outdoor/sb0/saunas-c1780234.html",
+      "type": "retailer",
+      "notes": "Reviews and price comparisons."
+    },
+    {
+      "name": "Amazon Saunas",
+      "url": "https://www.amazon.com/s?k=sauna",
+      "type": "retailer",
+      "notes": "Trending products, reviews, new entries."
+    }
+  ],
+
+  "content_angles": {
+    "by_type": {
+      "traditional": ["Harvia", "Huum", "Tylö", "Narvi"],
+      "infrared": ["Clearlight", "Sunlighten", "Health Mate"],
+      "barrel": ["Almost Heaven", "Barrel Sauna Co"],
+      "luxury": ["Klafs", "Finnleo"],
+      "biohacker": ["SaunaSpace"],
+      "portable": ["Durasage"]
+    },
+    "by_price": {
+      "budget": ["Durasage", "Barrel Sauna Co"],
+      "mid": ["Almost Heaven", "Polar"],
+      "premium": ["Harvia", "Huum", "Tylö"],
+      "luxury": ["Klafs", "Finnleo"]
+    },
+    "by_innovation": {
+      "smart_tech": ["Huum", "Harvia"],
+      "air_purification": ["Saunum"],
+      "red_light": ["SaunaSpace"],
+      "space_saving": ["Klafs"]
+    }
+  }
+}

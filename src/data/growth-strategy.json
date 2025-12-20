@@ -1,0 +1,325 @@
+{
+  "name": "Sauna Guide Growth Strategy",
+  "created": "2024-12-20",
+  "target": "10,000 subscribers in 12 months",
+  "philosophy": "Grow through warmth, not pressure. Every tactic must feel like an extension of the brand — atmospheric, inviting, never salesy.",
+
+  "phase_1": {
+    "name": "Foundation",
+    "goal": "0 → 500 subscribers",
+    "duration": "Month 1-2",
+    "focus": "Set up systems, launch lead magnet, start content engine",
+
+    "beehiiv_setup": [
+      {
+        "task": "Configure welcome sequence",
+        "details": "3 emails over 7 days",
+        "emails": [
+          {
+            "day": 0,
+            "subject": "The door is open",
+            "content": "Deliver PDF + set expectations for Thursday letters"
+          },
+          {
+            "day": 2,
+            "subject": "The Finnish secret",
+            "content": "Share löyly concept + one practice tip"
+          },
+          {
+            "day": 5,
+            "subject": "Your first session",
+            "content": "Practical getting-started guide + ask what they want to learn"
+          }
+        ]
+      },
+      {
+        "task": "Set up referral program",
+        "rewards": [
+          { "referrals": 3, "reward": "Sauna Breathing Guide PDF" },
+          { "referrals": 10, "reward": "Premium content access" },
+          { "referrals": 25, "reward": "Featured in newsletter" }
+        ],
+        "language": "Share the warmth →"
+      },
+      {
+        "task": "Optimize landing page SEO",
+        "keywords": [
+          "sauna newsletter",
+          "sauna benefits guide",
+          "finnish sauna culture",
+          "sauna protocol",
+          "sauna routine"
+        ]
+      }
+    ],
+
+    "content_cadence": {
+      "newsletter": "Every Thursday, 7am CET",
+      "word_count": "600-900 words",
+      "structure": [
+        "Hook (atmospheric opening)",
+        "One Thing That Works (practice tip)",
+        "A Place Worth Visiting (sauna spotlight)",
+        "The Quiet Part (reflection)",
+        "CTA (reply or share)"
+      ]
+    },
+
+    "lead_magnet_distribution": [
+      "Landing page primary CTA",
+      "Exit intent popup (subtle, on-brand)",
+      "Blog post CTAs",
+      "Social bio links"
+    ],
+
+    "metrics_to_track": [
+      "Signup conversion rate (target: 30%+)",
+      "Welcome sequence open rate (target: 60%+)",
+      "First newsletter open rate (target: 50%+)"
+    ]
+  },
+
+  "phase_2": {
+    "name": "Organic Growth",
+    "goal": "500 → 2,000 subscribers",
+    "duration": "Month 3-5",
+    "focus": "Content repurposing, social presence, first collaborations",
+
+    "social_strategy": {
+      "platforms": ["Instagram", "X/Twitter", "Pinterest"],
+      "content_repurposing": {
+        "per_newsletter": [
+          "1 carousel (key insights)",
+          "1 quote graphic (atmospheric)",
+          "3-5 text posts/threads",
+          "1 Reel/short video (optional)"
+        ]
+      },
+      "posting_frequency": "Daily for first 30 days, then 5x/week",
+      "hashtags": [
+        "#sauna", "#saunalife", "#finnishsauna", "#wellness",
+        "#slowliving", "#ritual", "#coldplunge", "#biohacking"
+      ],
+      "bio_cta": "Free Sauna Protocol → [link]"
+    },
+
+    "collaborations": {
+      "target_niches": [
+        "Wellness newsletters",
+        "Longevity/health optimization",
+        "Travel (Nordic focus)",
+        "Mindfulness/meditation",
+        "Cold exposure/Wim Hof"
+      ],
+      "tactics": [
+        "Join Beehiiv Recommendations network",
+        "Pitch 5 newsletter swaps per month",
+        "Guest posts on wellness blogs",
+        "Podcast guest appearances"
+      ]
+    },
+
+    "seo_content": {
+      "publish": "2 guides per month on website",
+      "topics": [
+        "Sauna vs steam room: Complete guide",
+        "How to build a sauna routine",
+        "Best saunas in [City]",
+        "Sauna benefits backed by science",
+        "Cold plunge after sauna: The protocol"
+      ],
+      "each_guide_includes": [
+        "Newsletter signup CTA (3x per article)",
+        "Lead magnet mention",
+        "Internal links to other guides"
+      ]
+    },
+
+    "engagement_tactics": [
+      "Add poll to every newsletter",
+      "Ask one question per issue (reply-bait)",
+      "Feature reader stories monthly",
+      "Create 'Sauna of the Week' user submissions"
+    ],
+
+    "metrics_to_track": [
+      "Social follower growth",
+      "Website traffic from social",
+      "Referral program participation rate",
+      "Newsletter reply rate"
+    ]
+  },
+
+  "phase_3": {
+    "name": "Viral Loops",
+    "goal": "2,000 → 5,000 subscribers",
+    "duration": "Month 6-8",
+    "focus": "Amplify referrals, community building, viral content",
+
+    "referral_optimization": {
+      "tactics": [
+        "Monthly referral leaderboard in newsletter",
+        "Seasonal referral campaigns (Winter Warmth Challenge)",
+        "Milestone celebrations (public thanks at 100 referrals)"
+      ],
+      "expected_impact": "15-20% of new subscribers from referrals"
+    },
+
+    "viral_content_experiments": [
+      {
+        "type": "Interactive tools",
+        "ideas": [
+          "Sauna protocol calculator",
+          "Find your ideal sauna temperature quiz",
+          "Sauna benefits timeline infographic"
+        ]
+      },
+      {
+        "type": "Shareable content",
+        "ideas": [
+          "World's most beautiful saunas (visual list)",
+          "Sauna around the world (culture comparison)",
+          "Celebrity sauna routines"
+        ]
+      }
+    ],
+
+    "community_building": [
+      "Launch private Discord or Circle community",
+      "Host monthly virtual 'sauna sessions' (casual hangouts)",
+      "Create user-generated content campaigns"
+    ],
+
+    "partnerships": {
+      "targets": [
+        "Sauna brands (Harvia, Huum, etc.)",
+        "Wellness apps (Whoop, Oura)",
+        "Travel platforms (boutique hotel partnerships)"
+      ],
+      "value_exchange": "Newsletter feature for product/service access"
+    }
+  },
+
+  "phase_4": {
+    "name": "Scale",
+    "goal": "5,000 → 10,000 subscribers",
+    "duration": "Month 9-12",
+    "focus": "Paid acquisition, monetization, premium tier",
+
+    "paid_growth": {
+      "budget": "Start with $500/month, scale based on CAC",
+      "channels": [
+        {
+          "platform": "Beehiiv Boosts",
+          "description": "Pay per subscriber from other newsletters",
+          "target_cac": "$1-3 per subscriber"
+        },
+        {
+          "platform": "Meta Ads",
+          "description": "Lead magnet download campaigns",
+          "target_cac": "$2-5 per subscriber"
+        },
+        {
+          "platform": "Influencer partnerships",
+          "description": "Pay micro-influencers for shoutouts",
+          "target_cac": "$1-2 per subscriber"
+        }
+      ]
+    },
+
+    "monetization_prep": {
+      "options": [
+        {
+          "type": "Sponsorships",
+          "when": "5,000+ subscribers",
+          "rate": "$50-100 CPM for niche wellness audience",
+          "targets": "Sauna brands, wellness products, travel"
+        },
+        {
+          "type": "Premium tier",
+          "when": "7,500+ subscribers",
+          "price": "$8-12/month",
+          "includes": [
+            "Deep-dive guides",
+            "Sauna travel recommendations",
+            "Community access",
+            "Exclusive interviews"
+          ]
+        },
+        {
+          "type": "Digital products",
+          "ideas": [
+            "Complete Sauna Masterclass ($49-99)",
+            "City sauna guides ($9-19 each)",
+            "Sauna journal/tracker ($19)"
+          ]
+        }
+      ]
+    },
+
+    "retention_focus": [
+      "Re-engagement automation for 30-day inactive",
+      "Subscriber satisfaction surveys quarterly",
+      "Segmentation by interest (wellness, travel, DIY)",
+      "Personalized content based on engagement"
+      ]
+  },
+
+  "weekly_rhythm": {
+    "monday": "Plan newsletter content, review analytics",
+    "tuesday": "Write newsletter draft",
+    "wednesday": "Edit, schedule newsletter, prep social content",
+    "thursday": "Newsletter sends 7am, engage with replies all day",
+    "friday": "Publish 2-3 social posts, outreach for collaborations",
+    "weekend": "Batch content creation, community engagement"
+  },
+
+  "kpis": {
+    "growth": {
+      "subscribers": "Monthly growth rate 20%+",
+      "referral_rate": "15% of new subs from referrals",
+      "social_followers": "2x subscriber count"
+    },
+    "engagement": {
+      "open_rate": "45%+ (industry avg: 35%)",
+      "click_rate": "5%+ (industry avg: 2.5%)",
+      "reply_rate": "1%+ per issue"
+    },
+    "retention": {
+      "30_day_retention": "85%+",
+      "unsubscribe_rate": "<0.5% per issue"
+    }
+  },
+
+  "tools": {
+    "required": [
+      "Beehiiv (newsletter + landing pages)",
+      "Canva (social graphics)",
+      "Google Analytics (website tracking)"
+    ],
+    "recommended": [
+      "Buffer or Later (social scheduling)",
+      "SparkLoop (advanced referrals)",
+      "Notion (content calendar)"
+    ]
+  },
+
+  "dont_do": [
+    "Pop-ups that interrupt reading",
+    "Countdown timers or fake scarcity",
+    "Clickbait subject lines",
+    "Aggressive upselling in every email",
+    "Buying email lists",
+    "Sending more than 2x per week initially"
+  ],
+
+  "brand_alignment_check": {
+    "every_tactic_must_feel": [
+      "Like a warm invitation, not a cold pitch",
+      "Patient, not urgent",
+      "Generous, not transactional",
+      "Atmospheric, not clinical"
+    ],
+    "test_question": "Would this feel at home in a quiet Finnish sauna?"
+  }
+}
