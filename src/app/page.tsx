@@ -210,8 +210,7 @@ export default function HomePage() {
 
           <div className="mt-16 pt-16 border-t border-sauna-paper/10">
             <p className="text-sauna-birch/80 text-lg mb-8 max-w-2xl mx-auto">
-              The Finns have done this for thousands of years.<br />
-              Once a week, we send a letter from the heat.
+              Some traditions survive for a reason.
             </p>
             <Link href="#newsletter" className="inline-flex items-center gap-2 px-6 py-3 bg-sauna-paper text-sauna-ink rounded-lg
                                                    font-medium hover:bg-sauna-linen transition-colors">
