@@ -43,11 +43,6 @@ export default function HomePage() {
             <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
               <NewsletterSignup />
             </div>
-
-            <p className="text-sm text-sauna-paper/70 mt-6 animate-fade-up"
-               style={{ animationDelay: '0.25s' }}>
-              5-minute read. Thursday evenings. No spam.
-            </p>
           </div>
         </div>
 
