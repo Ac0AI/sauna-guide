@@ -3,7 +3,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 
-const GEMINI_API_KEY = "REDACTED_API_KEY";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 if (!GEMINI_API_KEY) {
   console.error("Please set GEMINI_API_KEY environment variable");
