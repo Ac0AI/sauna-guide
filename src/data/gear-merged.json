@@ -72,7 +72,7 @@
               "type": "amazon"
             }
           ],
-          "image": "https://m.media-amazon.com/images/I/41uOz6nTm+L._SX342_SY445_QL70_ML2_.jpg"
+          "image": "sensorpush-ht1-thermometer.jpg"
         },
         {
           "name": "Fischer German Thermometer",
@@ -415,7 +415,7 @@
               "type": "amazon"
             }
           ],
-          "image": "https://m.media-amazon.com/images/I/712mEXqxuYL._AC_SX679_.jpg"
+          "image": "plunge-cold-tub.jpg"
         },
         {
           "name": "Ice Barrel",
@@ -527,7 +527,7 @@
               "type": "amazon"
             }
           ],
-          "image": "https://www.webhallen.com/images/product/377446?trim"
+          "image": "oura-ring-4.jpg"
         },
         {
           "name": "Whoop 4.0",
@@ -548,7 +548,7 @@
               "type": "amazon"
             }
           ],
-          "image": "https://m.media-amazon.com/images/I/61ryxDMqRUL._AC_SX679_.jpg"
+          "image": "whoop-4-0.jpg"
         },
         {
           "name": "Sauna Tracker App",
@@ -589,8 +589,9 @@
               "url": "https://www.amazon.com/s?k=Athlytic%20App%20Apple%20Watch",
               "type": "amazon"
             }
-          ]
-        }
+          ],
+          "image": "athlytic-app.jpg"
+        },
       ]
     },
     {
@@ -616,7 +617,8 @@
               "url": "https://www.amazon.com/s?k=Theragun%20Prime%20Therabody",
               "type": "amazon"
             }
-          ]
+          ],
+          "image": "theragun-prime.jpg"
         },
         {
           "name": "Theragun Pro Plus",
@@ -725,7 +727,8 @@
               "url": "https://www.amazon.com/s?k=MitoPRO%201500%2B%20Mito%20Red%20Light",
               "type": "amazon"
             }
-          ]
+          ],
+          "image": "mito-red-light-mitopro.jpg"
         },
         {
           "name": "Joovv Solo",
@@ -1097,7 +1100,7 @@
               "type": "amazon"
             }
           ],
-          "image": "https://www.webhallen.com/images/product/388708?trim"
+          "image": "bose-soundlink-micro.jpg"
         },
         {
           "name": "IP68 LED Strip Lights",
