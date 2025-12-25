@@ -72,7 +72,7 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/sensorpush-ht1-thermometer.png"
+          "image": "https://m.media-amazon.com/images/I/41uOz6nTm+L._SX342_SY445_QL70_ML2_.jpg"
         },
         {
           "name": "Fischer German Thermometer",
@@ -415,7 +415,7 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/plunge-cold-tub.png"
+          "image": "https://m.media-amazon.com/images/I/712mEXqxuYL._AC_SX679_.jpg"
         },
         {
           "name": "Ice Barrel",
@@ -527,7 +527,7 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/oura-ring-4.png"
+          "image": "https://www.webhallen.com/images/product/377446?trim"
         },
         {
           "name": "Whoop 4.0",
@@ -548,7 +548,7 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/whoop-4-0.png"
+          "image": "https://m.media-amazon.com/images/I/61ryxDMqRUL._AC_SX679_.jpg"
         },
         {
           "name": "Sauna Tracker App",
@@ -1096,7 +1096,8 @@
               "url": "https://www.amazon.com/s?k=Bose%20SoundLink%20Micro%20Bose",
               "type": "amazon"
             }
-          ]
+          ],
+          "image": "https://www.webhallen.com/images/product/388708?trim"
         },
         {
           "name": "IP68 LED Strip Lights",
