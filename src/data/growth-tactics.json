@@ -1,0 +1,826 @@
+{
+  "updatedAt": "2026-01-16T00:00:00.000Z",
+  "version": "1.0",
+  "executiveSummary": {
+    "objective": "Rapid newsletter growth through viral, zero-budget tactics aligned with soft wellness positioning",
+    "keyOpportunity": "January 2026 is THE moment: contrast therapy exploding, New Year wellness peak, soft wellness movement aligns perfectly with brand voice",
+    "criticalInsight": "Reddit dominates AI citations (Perplexity 6.6%, ChatGPT 11.3%) - authentic community presence = future discovery engine",
+    "priorityFocus": "Quick wins this week: myth-busting content, Reddit engagement, contrast therapy lead magnet, AI search optimization"
+  },
+
+  "viralLoops": [
+    {
+      "name": "Contrast Therapy Challenge Lead Magnet",
+      "mechanism": "Downloadable '30-Day Sauna + Cold Plunge Protocol' PDF with social sharing built-in",
+      "viralElement": "Each day includes 'Share Your Progress' prompt with unique daily insights worth posting",
+      "implementation": {
+        "gatedContent": "Email required to download PDF",
+        "sharingIncentive": "Community hashtag #SaunaGuide30Days creates FOMO and social proof",
+        "progressTracking": "Printable tracker with visual progress (satisfying to complete and share)",
+        "timing": "Launch IMMEDIATELY - January New Year momentum still active"
+      },
+      "effort": "medium",
+      "potentialImpact": "very high",
+      "costBreakdown": {
+        "design": "Canva Pro ($13/month - already worth it)",
+        "hosting": "Beehiiv native PDF delivery (free)",
+        "total": "$0 if design in-house"
+      },
+      "expectedGrowth": "15-25 signups per share if 10% of downloaders share = 150-250 signups from 100 initial downloads",
+      "brandAlignment": "high - but emphasize 'practice' not 'challenge', ritual not optimization"
+    },
+    {
+      "name": "The Sauna Finder Tool",
+      "mechanism": "Interactive map/directory that people share when asked 'where can I try a sauna?'",
+      "viralElement": "Every time someone asks on Reddit/Twitter/forums, this becomes THE shareable answer",
+      "implementation": {
+        "phase1": "Static city pages with rich descriptions (already planned)",
+        "phase2": "Interactive map with filters (budget, type, neighborhood)",
+        "phase3": "User submissions ('Add your favorite sauna') creates UGC and investment",
+        "ctaPlacement": "Newsletter signup to get new listings weekly"
+      },
+      "effort": "high (phase 2-3), low (phase 1)",
+      "potentialImpact": "very high - becomes evergreen organic growth engine",
+      "costBreakdown": {
+        "phase1": "$0 (Next.js pages)",
+        "phase2": "Mapbox free tier (50k monthly loads)",
+        "phase3": "Airtable/Google Sheets API (free)",
+        "total": "$0 for MVP"
+      },
+      "expectedGrowth": "Long-tail organic - every Reddit/forum mention drives 10-50 visits, 5-15% convert",
+      "brandAlignment": "perfect - 'where to find it' is core pillar"
+    },
+    {
+      "name": "Share-Worthy Quote Graphics",
+      "mechanism": "Beautiful, brand-aligned quote graphics that spread on Pinterest/Instagram/Twitter",
+      "viralElement": "Longing-based, atmospheric quotes create emotional response and saves/shares",
+      "implementation": {
+        "quotes": [
+          "There's a room with no notifications. Just heat. Silence. Breath.",
+          "Close the door. Let everything go.",
+          "The sauna is not a hack — it's a practice.",
+          "Every Thursday: why heat heals, where to find it, and five minutes of stillness.",
+          "The Finns have a saying: the sauna is the poor man's pharmacy."
+        ],
+        "design": "Minimalist, atmospheric photography (Unsplash) + clean typography",
+        "ctaOnGraphic": "Small bottom text: 'Every Thursday - SaunaGuide.co'",
+        "platforms": "Pinterest (longevity), Instagram (Stories/Feed), Twitter (threads)"
+      },
+      "effort": "low - batch create 20 graphics in 2 hours",
+      "potentialImpact": "medium-high - Pinterest evergreen, Instagram reach",
+      "costBreakdown": {
+        "design": "Canva Pro templates ($13/month)",
+        "images": "Unsplash (free)",
+        "total": "$0 if already have Canva"
+      },
+      "expectedGrowth": "Slow burn - Pinterest pins drive 5-10 visits/day after 3-6 months, compounding",
+      "brandAlignment": "perfect - extends brand voice visually"
+    },
+    {
+      "name": "Referral Program: Give a Friend Stillness",
+      "mechanism": "Subscribers share unique referral link, both get reward when friend subscribes",
+      "viralElement": "Not transactional rewards - experiential and mission-aligned",
+      "implementation": {
+        "tiers": {
+          "1friend": "Exclusive: 'Sauna Meditation Audio Guide' (5-min guided practice)",
+          "3friends": "Downloadable: 'World's Most Beautiful Saunas' photo guide",
+          "5friends": "Early access: Next month's newsletter 24h early",
+          "10friends": "Recognition: Featured in newsletter 'Sauna Guide Community' spotlight"
+        },
+        "techStack": "Beehiiv native referral program (free)",
+        "messaging": "Share five minutes of stillness with someone who needs it"
+      },
+      "effort": "medium - create reward content",
+      "potentialImpact": "high - typical referral programs drive 15-30% list growth",
+      "costBreakdown": {
+        "platform": "Beehiiv native (free)",
+        "rewards": "Digital content (free to create)",
+        "total": "$0"
+      },
+      "expectedGrowth": "If 10% of 1,000 subscribers refer 1 friend = 100 new signups/month",
+      "brandAlignment": "high - frame as giving gift of practice, not gamification"
+    },
+    {
+      "name": "The Weekly Ritual Email Course",
+      "mechanism": "Free 4-week email course teaching sauna practice (not benefits), spreads via WOM",
+      "viralElement": "So good people forward to friends + share on social",
+      "implementation": {
+        "week1": "Your First Sauna: What to Expect (addresses anxiety)",
+        "week2": "Creating Your Sauna Ritual (personal practice)",
+        "week3": "Sauna Meditation: 5 Minutes of Stillness",
+        "week4": "Expanding Your Practice (contrast therapy, destinations)",
+        "autoresponder": "Beehiiv automation (free feature)",
+        "ctaEachEmail": "Forward this to someone who needs stillness"
+      },
+      "effort": "high initially (4 emails), zero ongoing",
+      "potentialImpact": "medium - builds trust, increases forwards",
+      "costBreakdown": {
+        "platform": "Beehiiv automation (free)",
+        "total": "$0"
+      },
+      "expectedGrowth": "If 5% forward and 30% of recipients subscribe = 15 signups per 1,000 course completers",
+      "brandAlignment": "perfect - deepens practice, permission-giving"
+    }
+  ],
+
+  "redditStrategy": {
+    "philosophy": "Authentic community member first, subtle brand builder second",
+    "criticalImportance": "Reddit dominates AI citations - Perplexity 6.6%, ChatGPT 11.3%, Google AI 2.2%. Community presence = future discovery.",
+    "communities": {
+      "primary": {
+        "name": "r/Sauna",
+        "members": "102k",
+        "activity": "Very high",
+        "sentiment": "Helpful, protective of traditions, evidence-focused",
+        "approach": "Deep technical help, cultural respect, myth-busting with sources"
+      },
+      "secondary": [
+        {
+          "name": "r/Biohackers",
+          "angle": "Longevity science, but frame as practice not optimization"
+        },
+        {
+          "name": "r/Fitness",
+          "angle": "Post-workout recovery, contrast therapy protocols"
+        },
+        {
+          "name": "r/coldshowers",
+          "angle": "Contrast therapy pairing, safety protocols"
+        },
+        {
+          "name": "r/Longevity",
+          "angle": "Finnish studies, cardiovascular benefits, brain health"
+        }
+      ]
+    },
+    "tactics": {
+      "dailyParticipation": {
+        "timeCommitment": "30 minutes/day",
+        "activities": [
+          "Answer 2-3 beginner questions with depth and empathy",
+          "Comment on trending discussions with evidence/research",
+          "Share relevant guides when genuinely helpful (not every post)",
+          "Upvote quality content, build community goodwill"
+        ],
+        "linkingStrategy": "Only link when directly helpful, lead with value first, never spam"
+      },
+      "contentSeeding": {
+        "approach": "Create Reddit-native discussion posts, not promotion",
+        "examples": [
+          "'I analyzed every sauna weight loss claim - here's what science actually says' (myth-busting)",
+          "'Built a database of 100+ public saunas in major cities - what am I missing?' (directory seeding)",
+          "'The 2018 study that ended the infrared vs traditional debate' (research synthesis)",
+          "'Why I stopped calling sauna a 'hack' - it's a practice' (soft wellness manifesto)"
+        ],
+        "timing": "After 2 weeks of pure participation to build trust"
+      },
+      "contentMining": {
+        "frequency": "Check daily",
+        "process": [
+          "Screenshot frequently asked questions for content ideas",
+          "Monitor pain points and frustrations for myth-busting",
+          "Track trending debates for hot-take content",
+          "Note success stories for case study features"
+        ]
+      },
+      "ama": {
+        "concept": "Host AMA with Finnish sauna expert or researcher",
+        "timing": "Month 3 after community trust established",
+        "promotion": "Organic only - no ads, just genuine expertise sharing",
+        "linkOpportunity": "AMA recap on site, naturally earns links and citations"
+      }
+    },
+    "whatNeverToDo": [
+      "Post promotional links in comments without value",
+      "Create account just to promote",
+      "Copy-paste generic answers",
+      "Argue with purists",
+      "Spam multiple subreddits with same content"
+    ],
+    "expectedResults": {
+      "week1-2": "Build trust, learn community norms, zero promotion",
+      "week3-4": "Become recognized helpful member, occasional relevant links",
+      "month2+": "25-50 visits/week from helpful comments + discussion posts",
+      "month3+": "AI citations begin as Reddit threads reference our guides",
+      "month6+": "Organic mentions when people recommend resources"
+    },
+    "effort": "30 min/day ongoing",
+    "potentialImpact": "very high - AI citation source + organic growth engine",
+    "cost": "$0"
+  },
+
+  "crossPromotions": [
+    {
+      "type": "Newsletter Cross-Promotion",
+      "targetPartners": [
+        {
+          "category": "Wellness newsletters (non-competing)",
+          "examples": ["The Margin", "Health Pulse", "Mind Body Green newsletter"],
+          "pitch": "We both serve wellness-curious audience, different angles. Mention each other's newsletters.",
+          "offer": "We feature them in 'Where to Find It' section, they mention us in wellness roundup",
+          "effort": "low",
+          "potentialReach": "5-10k readers per partner"
+        },
+        {
+          "category": "Travel/destination newsletters",
+          "examples": ["Atlas Obscura", "Nomadic Matt", "Travel + Leisure newsletters"],
+          "pitch": "Sauna tourism angle - beautiful destinations feature",
+          "offer": "We create co-branded 'World's Most Beautiful Saunas' guide, both promote",
+          "effort": "medium",
+          "potentialReach": "10-50k readers"
+        },
+        {
+          "category": "Men's/Women's wellness",
+          "examples": ["The Assist (men's health)", "Well+Good newsletter"],
+          "pitch": "Recovery and mental health angle",
+          "offer": "Guest article on sauna mental health benefits, newsletter mention",
+          "effort": "medium",
+          "potentialReach": "10-30k readers"
+        }
+      ],
+      "outreachTemplate": {
+        "subject": "Collaboration idea: [Their Newsletter] x Sauna Guide",
+        "body": "Hi [Name], I write Sauna Guide - a weekly newsletter about why heat heals, where to find it, and five minutes of stillness. I think our audiences overlap beautifully: [specific reason]. Would you be open to a simple cross-promotion? I'd feature you in [specific section], you mention us in [their format]. No strings, just sharing good work. Let me know if you're interested. Warm regards, [Your Name]"
+      },
+      "expectedConversion": "5-15% of partner audience visits, 10-20% of visitors subscribe",
+      "timing": "Start outreach Month 2 after 1,000+ subscribers"
+    },
+    {
+      "type": "Podcast Guest Appearances",
+      "targetShows": [
+        {
+          "category": "Wellness/longevity podcasts",
+          "examples": ["FoundMyFitness", "The Art of Living Podcast", "Feel Better Live More"],
+          "pitch": "The science of heat therapy + sauna as mental health practice",
+          "effort": "medium - research pitch, prep notes",
+          "potentialReach": "5-20k listeners per appearance"
+        },
+        {
+          "category": "Travel/culture podcasts",
+          "examples": ["Zero To Travel", "Travel Tales", "The Earful Tower"],
+          "pitch": "Finnish sauna culture, UNESCO heritage, best sauna destinations",
+          "effort": "medium",
+          "potentialReach": "3-10k listeners"
+        }
+      ],
+      "pitchAngle": "Not selling products - sharing cultural practice and honest science",
+      "newsletterMention": "Host mentions newsletter naturally in intro/outro",
+      "expectedConversion": "2-5% of listeners visit, 15-25% subscribe",
+      "timing": "Month 3-6 after content library established"
+    },
+    {
+      "type": "Influencer Seeding (Micro-Influencers)",
+      "approach": "Gift subscriptions + honest reviews, not paid promotion",
+      "targets": [
+        {
+          "category": "Wellness micro-influencers (5-50k followers)",
+          "platform": "Instagram, TikTok",
+          "pitch": "Free subscription, no strings. If you love it, share. If not, no worries.",
+          "examples": "Wellness coaches, yoga teachers, meditation guides, recovery experts"
+        },
+        {
+          "category": "Travel content creators",
+          "platform": "Instagram, YouTube",
+          "pitch": "Sauna destination content collaboration",
+          "offer": "We create destination guide, they share with credit"
+        }
+      ],
+      "budget": "$0 (newsletter is free)",
+      "expectedResults": "10% share organically, reach 500-5k per share",
+      "effort": "low - email outreach, 10-20 per week"
+    },
+    {
+      "type": "Local Sauna Business Partnerships",
+      "approach": "Feature in directory in exchange for newsletter promotion",
+      "implementation": {
+        "offer": "Premium directory listing with rich description + photos",
+        "theyDo": "Share newsletter signup link with customers (email footer, social, in-person)",
+        "incentive": "We drive foot traffic, they drive newsletter signups",
+        "targetBusinesses": "Urban sauna clubs, spas, wellness centers with sauna"
+      },
+      "effort": "medium - personalized outreach to 50+ businesses",
+      "potentialImpact": "Each partner refers 5-20 signups/month",
+      "cost": "$0",
+      "timing": "Start Month 2 with top 20 cities"
+    }
+  ],
+
+  "distribution": [
+    {
+      "platform": "Reddit",
+      "strategy": "See redditStrategy above",
+      "contentTypes": ["Helpful answers", "Discussion posts", "Myth-busting", "Research synthesis"],
+      "frequency": "Daily participation (30 min)",
+      "effort": "medium ongoing",
+      "roi": "very high - AI citations + organic discovery"
+    },
+    {
+      "platform": "Pinterest",
+      "strategy": "Evergreen quote graphics + destination photos",
+      "contentTypes": ["Quote graphics", "Destination pins", "Infographics", "Guides"],
+      "frequency": "20 pins/week (batch create)",
+      "effort": "low - 2 hours/week",
+      "roi": "medium - slow burn but compounds (6+ months)",
+      "implementation": {
+        "boards": [
+          "Sauna Wisdom & Quotes",
+          "Beautiful Saunas Around the World",
+          "Sauna Health & Wellness",
+          "Home Sauna Inspiration"
+        ],
+        "pinDescription": "Always include 'Every Thursday: why heat heals, where to find it, and five minutes of stillness. Link in bio.'",
+        "linkStrategy": "Link to relevant guide, not just homepage"
+      },
+      "expectedTraffic": "5-10 visits/day after 3 months, 20-50/day after 6 months"
+    },
+    {
+      "platform": "Twitter/X",
+      "strategy": "Sauna wisdom threads + myth-busting + science breakdowns",
+      "contentTypes": ["Threads", "Quick tips", "Research findings", "Quote tweets"],
+      "frequency": "3-5 tweets/week",
+      "effort": "low - 30 min/week",
+      "roi": "medium - hit-or-miss virality",
+      "implementation": {
+        "threadTemplates": [
+          "Why Finns live longer: The sauna science you don't hear about (8-tweet thread)",
+          "Sauna myths I'm tired of seeing: A thread (myth-busting)",
+          "The 2018 study that should've ended the infrared debate (research breakdown)",
+          "7 signs you're thinking of sauna wrong (reframe as practice)"
+        ],
+        "hashtagStrategy": "#Sauna #Wellness #Longevity (sparingly)",
+        "ctaStyle": "End threads with 'Every Thursday I share this kind of stuff. Link in bio if you're curious.'"
+      },
+      "expectedGrowth": "Slow - 20-50 followers/month, occasional viral thread brings 100-500"
+    },
+    {
+      "platform": "Quora",
+      "strategy": "Answer top sauna questions with depth, link to guides",
+      "contentTypes": ["Detailed answers to top questions"],
+      "frequency": "2-3 answers/week",
+      "effort": "medium - 1 hour/week",
+      "roi": "medium - evergreen SEO value",
+      "implementation": {
+        "targetQuestions": [
+          "How long should you stay in a sauna?",
+          "Does sauna help you lose weight?",
+          "What's better: infrared or traditional sauna?",
+          "What are the benefits of sauna?",
+          "Is sauna good for mental health?"
+        ],
+        "answerFormat": "Direct answer (100 words) + deeper explanation + link to full guide for more",
+        "tone": "Helpful expert, not salesy"
+      },
+      "expectedTraffic": "5-15 visits/day after 6 months"
+    },
+    {
+      "platform": "Medium",
+      "strategy": "Cross-post best guides to reach Medium's wellness audience",
+      "contentTypes": ["Repurposed blog content", "Medium-exclusive thought pieces"],
+      "frequency": "1 article/week",
+      "effort": "low - repurposing existing content",
+      "roi": "low-medium - discoverability",
+      "implementation": {
+        "canonical": "Set canonical URL to original on sauna-guide.co",
+        "cta": "End with newsletter pitch",
+        "tags": ["Wellness", "Mental Health", "Longevity", "Biohacking", "Mindfulness"]
+      },
+      "expectedTraffic": "10-30 visits/week"
+    },
+    {
+      "platform": "LinkedIn",
+      "strategy": "CEO/productivity angle - 'why leaders sauna'",
+      "contentTypes": ["Thought leadership posts", "Longevity science", "Mental performance"],
+      "frequency": "1-2 posts/week",
+      "effort": "low - 20 min/week",
+      "roi": "low - but reaches different demographic",
+      "implementation": {
+        "angles": [
+          "Why top CEOs have sauna routines (mental clarity, decision-making)",
+          "The productivity tool no one talks about: forced stillness",
+          "Finnish longevity secrets that apply to your work life"
+        ],
+        "tone": "Professional but not corporate, evidence-based"
+      },
+      "expectedGrowth": "Slow - 10-30 followers/month"
+    },
+    {
+      "platform": "TikTok",
+      "strategy": "Contrast therapy how-tos + beginner tips + myth-busting",
+      "contentTypes": ["Protocol demonstrations", "Myth-busting", "Sauna tours", "Quick tips"],
+      "frequency": "3-5 videos/week",
+      "effort": "high - video production",
+      "roi": "high potential - Gen Z adoption of contrast therapy",
+      "implementation": {
+        "seriesIdeas": [
+          "Sauna Myths Debunked (5-part series)",
+          "Contrast Therapy Protocol (step-by-step)",
+          "Hidden Saunas in [City] (local spotlights)",
+          "What Not to Do in a Sauna (etiquette comedy)"
+        ],
+        "equipment": "Just phone camera, natural lighting",
+        "editing": "CapCut free app",
+        "cta": "Link in bio for Thursday newsletter"
+      },
+      "expectedGrowth": "High variance - viral video can bring 500-5,000 followers overnight",
+      "timing": "Start Month 2-3 when comfortable with brand voice"
+    }
+  ],
+
+  "quickWins": [
+    {
+      "action": "Publish 'Sauna Weight Loss Myth' Brutal Honesty Article",
+      "rationale": "HUGE trust-builder. Competitors overpromise, we tell truth. High search volume. Featured snippet potential.",
+      "effort": "4 hours to write 1,500 words",
+      "potentialImpact": "very high",
+      "timeline": "This week",
+      "implementation": {
+        "angle": "Water weight truth, calorie burn reality (50-100 cal), what it actually does",
+        "cta": "Honest, no-BS health insights every Thursday",
+        "distribution": "Reddit r/Fitness, r/loseit (myth-busting always gets upvotes)"
+      },
+      "expectedResults": "500-2,000 visits in first month, 100-400 newsletter signups (20% conversion)"
+    },
+    {
+      "action": "Start Reddit Daily Participation (30 min/day)",
+      "rationale": "Reddit dominates AI citations. Authentic presence = future discovery. Community is goldmine for content ideas.",
+      "effort": "30 min/day ongoing",
+      "potentialImpact": "very high long-term",
+      "timeline": "Start today",
+      "implementation": {
+        "week1": "Read only, understand norms",
+        "week2": "Start answering questions with depth",
+        "week3+": "Become recognized helpful member, occasional guide links"
+      },
+      "expectedResults": "Month 1: trust building. Month 2+: 25-50 visits/week. Month 6+: AI citations."
+    },
+    {
+      "action": "Create 'Complete Contrast Therapy Protocol' Lead Magnet PDF",
+      "rationale": "THE trending topic January 2026. High-value gated content drives email signups. Shareable = viral potential.",
+      "effort": "6 hours (write + design)",
+      "potentialImpact": "very high",
+      "timeline": "This week",
+      "implementation": {
+        "content": "Protocols, safety, equipment, where to try, research citations",
+        "design": "Canva Pro - clean, printable, shareable",
+        "gate": "Email required to download",
+        "distribution": "Landing page + Reddit mention + newsletter promo",
+        "socialSharing": "Add 'Share this guide' CTA in PDF"
+      },
+      "expectedResults": "100-300 downloads in month 1, 100-300 newsletter signups"
+    },
+    {
+      "action": "Allow AI Crawlers in robots.txt",
+      "rationale": "Future-proof for AI training data inclusion + current AI search citations",
+      "effort": "5 minutes",
+      "potentialImpact": "high long-term",
+      "timeline": "Today",
+      "implementation": {
+        "bots": ["GPTBot", "ChatGPT-User", "PerplexityBot", "ClaudeBot"],
+        "file": "Add to robots.txt"
+      },
+      "expectedResults": "Eligibility for future AI training + current AI search citations"
+    },
+    {
+      "action": "Batch Create 20 Quote Graphics for Pinterest/Instagram",
+      "rationale": "Shareable, evergreen, brand-building. Pinterest drives long-tail traffic. Low effort, compounds over time.",
+      "effort": "2 hours",
+      "potentialImpact": "medium long-term",
+      "timeline": "This week",
+      "implementation": {
+        "quotes": [
+          "There's a room with no notifications",
+          "Close the door. Let everything go.",
+          "The sauna is not a hack — it's a practice",
+          "Every Thursday: why heat heals, where to find it, and five minutes of stillness"
+        ],
+        "design": "Canva templates + Unsplash photos",
+        "watermark": "Small 'SaunaGuide.co' bottom corner",
+        "distribution": "Pin all to Pinterest, 2-3/week to Instagram"
+      },
+      "expectedResults": "Pinterest: 5-10 visits/day after 3 months. Instagram: variable reach."
+    }
+  ],
+
+  "experiments": [
+    {
+      "hypothesis": "Myth-busting content (weight loss, detox) will convert 2x higher than benefits content because it builds trust",
+      "testMethod": "A/B test two newsletter signup pages",
+      "pageA": "Traditional benefits pitch: 'Learn why heat heals'",
+      "pageB": "Myth-busting pitch: 'The truth about sauna (no BS)'",
+      "metric": "Signup conversion rate",
+      "duration": "2 weeks, 500 visitors each",
+      "effort": "low - duplicate page, rotate traffic",
+      "expectedOutcome": "Myth-busting converts 20%+ vs 10% baseline"
+    },
+    {
+      "hypothesis": "Permission-giving CTA ('Step inside') converts better than action CTA ('Get the newsletter')",
+      "testMethod": "A/B test CTA button text",
+      "buttonA": "Get the Thursday letter",
+      "buttonB": "Step inside",
+      "metric": "Button click-through rate",
+      "duration": "2 weeks",
+      "effort": "very low - button text change",
+      "expectedOutcome": "'Step inside' converts 15-30% higher (more aligned with brand)"
+    },
+    {
+      "hypothesis": "Local 'Sauna Near Me' content converts 3x higher than educational content",
+      "testMethod": "Track conversion rate by page type",
+      "pageType1": "Educational guides (benefits, how-to)",
+      "pageType2": "Local directory pages (NYC saunas, SF saunas)",
+      "metric": "Newsletter signup conversion rate by page type",
+      "duration": "1 month",
+      "effort": "low - analytics tracking",
+      "expectedOutcome": "Local pages convert 25-35% vs 10-15% educational (search intent is stronger)"
+    },
+    {
+      "hypothesis": "Exit-intent popup with 'Five Minutes of Stillness' pitch increases signups 30%",
+      "testMethod": "A/B test exit-intent popup on vs off",
+      "popupMessage": "'Before you go: every Thursday, five minutes of stillness in your inbox. No optimization. No pressure. Just heat, science, and escape.'",
+      "metric": "Exit-intent conversion rate + overall page conversion",
+      "duration": "2 weeks",
+      "effort": "low - popup plugin",
+      "expectedOutcome": "2-5% of exits convert (found money)"
+    },
+    {
+      "hypothesis": "Contrast therapy lead magnet converts 2x better than general sauna guide",
+      "testMethod": "A/B test two lead magnets",
+      "magnetA": "Complete Sauna Beginner's Guide PDF",
+      "magnetB": "Complete Contrast Therapy Protocol PDF",
+      "metric": "Download rate + email signup rate",
+      "duration": "2 weeks",
+      "effort": "medium - create both PDFs",
+      "expectedOutcome": "Contrast therapy downloads 2x more (trending topic)"
+    },
+    {
+      "hypothesis": "Reddit discussion posts drive 5x more traffic than comment answers",
+      "testMethod": "Track traffic from 10 discussion posts vs 30 comment answers",
+      "posts": "Create valuable Reddit discussions that naturally link to guides",
+      "comments": "Answer questions with depth, occasional guide links",
+      "metric": "Traffic per unit of effort",
+      "duration": "1 month",
+      "effort": "medium - time tracking",
+      "expectedOutcome": "Discussion posts drive 100-500 visits, comments drive 10-50, but comments build trust faster"
+    }
+  ],
+
+  "referralProgram": {
+    "name": "Share Five Minutes of Stillness",
+    "philosophy": "Not transactional rewards - experiential and mission-aligned",
+    "platform": "Beehiiv native referral program (free)",
+    "implementation": {
+      "tiers": {
+        "1referral": {
+          "reward": "Exclusive: 'Sauna Meditation Audio Guide' (5-min guided practice)",
+          "production": "Record once, auto-deliver",
+          "cost": "$0"
+        },
+        "3referrals": {
+          "reward": "Downloadable: 'World's Most Beautiful Saunas' photo guide",
+          "production": "Curate 20 stunning saunas with descriptions",
+          "cost": "$0"
+        },
+        "5referrals": {
+          "reward": "Early access: Next month's newsletter 24h early",
+          "production": "Automated Beehiiv delivery",
+          "cost": "$0"
+        },
+        "10referrals": {
+          "reward": "Recognition: Featured in newsletter 'Sauna Guide Community' spotlight",
+          "production": "Interview via email, feature in newsletter",
+          "cost": "$0"
+        },
+        "25referrals": {
+          "reward": "Ultimate: Hand-written postcard from a Finnish sauna (limited)",
+          "production": "Personal touch, worth the postage for super-fans",
+          "cost": "$2/postcard"
+        }
+      },
+      "messaging": {
+        "emailSubject": "Give a friend five minutes of stillness",
+        "emailBody": "Know someone who needs a break from notifications? Someone curious about heat and health? Someone planning a trip to Finland? Share Sauna Guide with them. When they subscribe, you both get access to exclusive practices and guides. Not points. Not discounts. Just more stillness.",
+        "cta": "Share your unique link"
+      },
+      "promotion": {
+        "newsletterFooter": "Refer friends and unlock exclusive sauna practices",
+        "welcomeEmail": "P.S. Want to share this with someone? Here's your referral link.",
+        "milestone": "Congratulations on [X] referrals! Here's your reward."
+      }
+    },
+    "expectedResults": {
+      "participation": "10-15% of subscribers will refer at least 1 person",
+      "referralRate": "Average 1.3 referrals per active referrer",
+      "listGrowth": "15-30% additional growth from referrals"
+    },
+    "effort": "medium setup (create rewards), zero ongoing",
+    "potentialImpact": "high - compounds over time",
+    "brandAlignment": "high - frame as sharing practice, not gamification"
+  },
+
+  "zeroButgetGrowthHacks": [
+    {
+      "tactic": "Reddit 'Best Of' Synthesis Posts",
+      "description": "Synthesize top Reddit threads into authoritative guides, credit community, share back",
+      "example": "'I read 200+ r/Sauna posts about beginner anxiety. Here's what actually helps.'",
+      "effort": "medium - 3 hours per post",
+      "distribution": "Share back to Reddit (they love seeing their wisdom organized)",
+      "expectedROI": "500-2,000 upvotes, 1,000-5,000 visits, 200-1,000 signups"
+    },
+    {
+      "tactic": "Answer Every 'Sauna Near Me' Question on Reddit",
+      "description": "Set up Google Alert for Reddit 'sauna near me' posts, answer all with directory link",
+      "implementation": "Helpful answer first, then 'I'm building a sauna directory here: [link]'",
+      "effort": "low - 10 min/day",
+      "expectedROI": "Each answer drives 10-50 visits, 2-10 signups"
+    },
+    {
+      "tactic": "Guest Post on Community Wellness Blogs",
+      "description": "Offer free, high-quality guest articles to wellness blogs in exchange for author bio link",
+      "pitchAngle": "'The Truth About Sauna Myths' or 'Sauna as Mental Health Practice'",
+      "targets": "Medium-sized wellness blogs (10-50k monthly visitors)",
+      "effort": "medium - 4 hours per article",
+      "expectedROI": "500-2,000 visits per post, 50-300 signups"
+    },
+    {
+      "tactic": "Twitter Thread -> Newsletter Funnel",
+      "description": "Write viral-potential threads, end with 'I write about this every Thursday'",
+      "threadTopics": [
+        "Why Finns live longer (8 tweets)",
+        "Sauna myths I'm tired of seeing",
+        "The study that changed how I think about heat",
+        "7 signs you're thinking of sauna wrong"
+      ],
+      "effort": "low - 30 min per thread",
+      "expectedROI": "Average thread: 20-50 visits. Viral thread: 500-5,000 visits."
+    },
+    {
+      "tactic": "Quora 'Definitive Answer' Strategy",
+      "description": "Write THE definitive answer to top sauna questions, link to full guide",
+      "targets": "Top 20 sauna questions on Quora",
+      "answerLength": "500-800 words (thorough but readable)",
+      "effort": "medium - 1 hour per answer",
+      "expectedROI": "Each answer drives 5-20 visits/day long-term (evergreen)"
+    },
+    {
+      "tactic": "Pinterest SEO Optimization",
+      "description": "Create keyword-optimized pins for high-volume searches",
+      "targetKeywords": [
+        "sauna benefits",
+        "home sauna ideas",
+        "sauna routine",
+        "Finnish sauna",
+        "infrared sauna"
+      ],
+      "pinFormat": "Vertical (1000x1500), text overlay, beautiful imagery",
+      "effort": "low - batch create 20 pins in 2 hours",
+      "expectedROI": "5-10 visits/day after 3 months, 20-50/day after 6 months"
+    },
+    {
+      "tactic": "Local Sauna Business Outreach",
+      "description": "Email local sauna businesses: 'Can I feature you in my newsletter directory?'",
+      "offer": "Premium directory listing + newsletter mention",
+      "ask": "Share newsletter with customers (email footer, social, in-person)",
+      "script": "Hi [Name], I write Sauna Guide - a weekly newsletter about sauna culture and science. I'm building a curated directory of the best saunas in [City], and I'd love to feature [Business Name]. No cost, just quality curation. In exchange, would you be open to sharing the newsletter with your customers? Let me know if you're interested!",
+      "effort": "medium - 20 emails per city",
+      "expectedROI": "Each business drives 5-20 signups/month"
+    },
+    {
+      "tactic": "Instagram Story Series: 'Hidden Saunas'",
+      "description": "Feature hidden gem saunas in Stories, tag location, encourage shares",
+      "format": "Beautiful photo + 3-4 slides with description, why it's special, how to visit",
+      "cta": "Link in bio for full directory",
+      "effort": "low - 15 min per story",
+      "expectedROI": "Variable - depends on following. Each story reaches 20-50% of followers."
+    }
+  ],
+
+  "contentVelocity": {
+    "week1": [
+      "Publish: 'Sauna Weight Loss Myth' (4 hours)",
+      "Publish: 'How Long in Sauna Beginner Guide' (3 hours)",
+      "Create: Contrast Therapy PDF lead magnet (6 hours)",
+      "Start: Reddit daily participation (30 min/day)",
+      "Technical: Allow AI crawlers in robots.txt (5 min)",
+      "Design: Batch 20 quote graphics (2 hours)",
+      "Total: ~20 hours"
+    ],
+    "week2": [
+      "Publish: 'Sauna Detox Myth' (3 hours)",
+      "Publish: 'Sauna Before/After Workout' (5 hours)",
+      "Launch: Contrast Therapy lead magnet landing page (2 hours)",
+      "Distribute: Share lead magnet on Reddit (30 min)",
+      "Pinterest: Pin 20 quote graphics (30 min)",
+      "Reddit: Daily participation (30 min/day)",
+      "Total: ~15 hours"
+    ],
+    "week3-4": [
+      "Publish: 2 more quick-win articles (8 hours total)",
+      "Set up: Beehiiv referral program (3 hours)",
+      "Outreach: 5 newsletter cross-promotion pitches (2 hours)",
+      "Reddit: Daily participation ongoing (30 min/day)",
+      "Social: Schedule Pinterest pins + Instagram posts (1 hour)",
+      "Total: ~15 hours/week"
+    ],
+    "sustainable": "12-15 hours/week once systems in place"
+  },
+
+  "metricsToTrack": {
+    "primaryKPIs": [
+      {
+        "metric": "Newsletter signups from organic",
+        "target": "150/month by month 3",
+        "measurement": "Beehiiv + GA4 source tracking"
+      },
+      {
+        "metric": "Reddit-driven traffic",
+        "target": "100 visits/week by month 2",
+        "measurement": "GA4 referral tracking"
+      },
+      {
+        "metric": "Lead magnet downloads",
+        "target": "100 downloads/month",
+        "measurement": "Landing page conversion"
+      },
+      {
+        "metric": "Referral program participation",
+        "target": "10% of subscribers refer at least 1",
+        "measurement": "Beehiiv referral dashboard"
+      },
+      {
+        "metric": "AI search citations",
+        "target": "Cited in Perplexity for 3+ queries by month 6",
+        "measurement": "Manual testing monthly"
+      }
+    ],
+    "secondaryKPIs": [
+      {
+        "metric": "Social shares per article",
+        "target": "Average 20+ shares",
+        "measurement": "Social share buttons + manual search"
+      },
+      {
+        "metric": "Pinterest monthly viewers",
+        "target": "1,000/month by month 6",
+        "measurement": "Pinterest Analytics"
+      },
+      {
+        "metric": "Reddit karma from helpful answers",
+        "target": "500+ karma from r/Sauna participation",
+        "measurement": "Reddit profile"
+      },
+      {
+        "metric": "Cross-promotion partnerships",
+        "target": "3 active partnerships by month 3",
+        "measurement": "Outreach tracker"
+      }
+    ]
+  },
+
+  "priorityOrder": {
+    "thisWeek": [
+      "1. Allow AI crawlers (5 min) - DONE TODAY",
+      "2. Write 'Sauna Weight Loss Myth' (4 hours) - CRITICAL TRUST-BUILDER",
+      "3. Create Contrast Therapy PDF (6 hours) - TRENDING TOPIC",
+      "4. Start Reddit daily participation (30 min/day) - LONG-TERM FOUNDATION",
+      "5. Batch create quote graphics (2 hours) - EVERGREEN ASSETS"
+    ],
+    "nextTwoWeeks": [
+      "Launch lead magnet landing page",
+      "Write 'Sauna Detox Myth' + 'Before/After Workout'",
+      "Set up referral program",
+      "Start newsletter cross-promotion outreach",
+      "Pin graphics to Pinterest"
+    ],
+    "month2": [
+      "Publish 8-10 more quick-win articles",
+      "Secure 2-3 newsletter cross-promotions",
+      "Launch TikTok series (if bandwidth)",
+      "Outreach to 20 local sauna businesses per city",
+      "Guest post on 2-3 wellness blogs"
+    ],
+    "month3+": [
+      "Host Reddit AMA with expert",
+      "Podcast guest appearances",
+      "Influencer seeding campaign",
+      "Scale what's working, cut what's not"
+    ]
+  },
+
+  "budgetBreakdown": {
+    "month1": {
+      "total": "$13",
+      "breakdown": {
+        "Canva Pro": "$13 (design tools)",
+        "everything else": "$0"
+      }
+    },
+    "month2-3": {
+      "total": "$13-50/month",
+      "breakdown": {
+        "Canva Pro": "$13",
+        "Optional: Podcast guest booking service": "$0-37 (if desired)",
+        "everything else": "$0"
+      }
+    },
+    "note": "Truly zero-budget if you skip Canva Pro and use Figma/Photopea free alternatives"
+  }
+}

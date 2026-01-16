@@ -1,776 +1,894 @@
 {
-  "analyzedAt": "2025-12-20T00:00:00Z",
+  "analyzedAt": "2026-01-16T00:00:00.000Z",
   "executiveSummary": {
-    "topOpportunity": "Sauna as Analog Wellness Ritual - Digital detox positioning (+273% search growth) aligns perfectly with brand voice",
-    "emergingNiche": "Women's hormonal health and sauna therapy - minimal quality content, strong research backing",
-    "seasonalPeak": "Q4 2024 - Q1 2025 (holiday gifts, New Year wellness resolutions)",
-    "contentGap": "Non-biohacking sauna content emphasizing ritual, mindfulness, and slow living over optimization",
-    "criticalInsight": "The sauna market is bifurcating into 'hardcare' (biohacking) and 'softcare' (ritual/slow living) - position firmly in softcare to differentiate"
-  },
-  "keyTrendShift": {
-    "finding": "Analog Wellness Movement is THE macro trend of 2025",
-    "data": {
-      "digitalDetoxVisionBoard": "+273% searches",
-      "digitalDetoxIdeas": "+72% searches",
-      "marketSize": "Digital detox apps: $19.44B by 2032 (from $0.39B in 2023)",
-      "genZAdoption": "46% actively limiting screen time",
-      "wellness": "Gen Z rejecting high-tech optimization for simple, slow, social experiences"
-    },
-    "implication": "Sauna perfectly positioned as 'room with no notifications' - ancient, low-tech, mindful practice",
-    "brandAlignment": "100% - this IS our voice: 'longing not information', 'practice not hack', 'slower, hotter, older'",
-    "urgency": "IMMEDIATE - this is our lane and it's exploding now"
+    "headline": "January 2026: Sauna renaissance accelerates - New Year wellness resolutions drive 40-50% search spike, home installations surge with smart tech, and contrast therapy dominates as social wellness practice",
+    "keyOpportunity": "69.1% of wellness seekers want to try sauna in 2026 (highest recovery practice interest). January peak happening NOW - capitalize before Q1 ends.",
+    "criticalTrend": "Soft Wellness Movement is 2026's defining shift - rejection of optimization for gentle, mindful practices. Sauna positioned as THE analog wellness ritual.",
+    "urgentAction": "1) Publish Dry January + sauna pairing content THIS WEEK. 2) Launch contrast therapy protocol guide. 3) Set up World Sauna Forum June 2026 coverage (early bird ends Jan 31)."
   },
   "searchTrends": {
-    "infraredSauna": {
-      "currentVolume": 79,
-      "trend": "rising sharply",
-      "growth": "+76% from June 2024 to February 2025",
-      "peakMonths": ["December", "January", "February"],
-      "marketSize": "$1.89B in 2025, projected $1.43B by 2033",
-      "notes": "40% increase in usage in 2024, continuing into 2025"
+    "overallTrend": "rising",
+    "januaryPeak": {
+      "volumeIncrease": "+40-50%",
+      "driver": "New Year wellness resolutions",
+      "peakMonths": ["January", "December"],
+      "context": "Infrared sauna searches consistently peak in January, tied directly to New Year health goals and resolution-setting",
+      "competitorActivity": "Equipment sellers flooding with 'New Year, New You' messaging - opportunity to differentiate with ritual focus"
     },
-    "portableSauna": {
-      "currentVolume": 19,
-      "trend": "explosive growth",
-      "growth": "+200% from June to December 2024",
-      "marketProjection": "$3.2B by 2033",
-      "amazonSearches": "+42.78% YoY (May 2025)",
-      "notes": "Space-saving, renter-friendly, accessibility driver"
-    },
-    "saunaBlanket": {
-      "currentVolume": "80K+ monthly searches",
-      "trend": "sharp climb",
-      "growth": "Doubled late 2024 into 2025",
-      "notes": "Entry-level product, high purchase intent, affiliate goldmine"
-    },
-    "homeSauna": {
-      "currentVolume": 37,
-      "trend": "stable growth",
-      "demographics": "69.32% millennials and urban professionals",
-      "driver": "Privacy focus (64% prefer home for privacy post-COVID)"
-    },
+    "topSearchTerms": [
+      {
+        "term": "sauna benefits",
+        "status": "High and stable - evergreen demand",
+        "insight": "Cardiovascular, brain health, and recovery benefits dominating search intent. Harvard study (Dec 2025) shows nuanced results: blood pressure reduction confirmed (~4 points systolic) but cholesterol/inflammation effects unclear.",
+        "contentOpportunity": "Honest, evidence-based explainer that separates hype from science"
+      },
+      {
+        "term": "infrared sauna",
+        "status": "Rising sharply",
+        "marketSize": "USD 3,088.45M in 2026, projected USD 7,783.39M by 2035 (7.3% CAGR)",
+        "insight": "Massive growth in infrared category driven by home units with smart features. 44% of new spa installs include smart tech, 45% feature app-based controls.",
+        "emergingFeature": "Chromotherapy lighting, remote pre-heating, energy-saving modes becoming standard",
+        "contentOpportunity": "Smart Home Saunas: Worth the Upgrade? (tech review aligned with accessible tone)"
+      },
+      {
+        "term": "cold plunge",
+        "status": "Rapidly rising - mainstream momentum",
+        "marketSize": "USD 352.38M in 2025, projected 4.10% CAGR through 2035",
+        "socialProof": "Cold plunge named #2 recovery practice (42.4% interest) after sauna (69.1%)",
+        "insight": "Contrast therapy (sauna + cold plunge) is THE pairing trend of 2026. Shifting from solo biohacking to social wellness - urban centers creating community contrast therapy spaces.",
+        "contentOpportunity": "The Complete Contrast Therapy Routine (protocol with social/community angle, NOT just performance)"
+      },
+      {
+        "term": "sauna at home / portable sauna",
+        "status": "Surging - home wellness boom continues",
+        "context": "32% of new sauna sales globally are residential (2023). Home saunas evolved from 'luxury novelty' to 'essential wellness feature'",
+        "realEstateImpact": "Zillow reports 22% increase in spa-inspired bathroom searches, 33% increase in wellness feature searches",
+        "propertyValue": "Home saunas now cited as 'real estate differentiator' boosting property value",
+        "insight": "Affluent homeowners view saunas as vital to maintaining healthy lifestyle, not optional luxury",
+        "contentOpportunity": "Does Adding a Sauna Increase Home Value? (real estate + health ROI analysis)"
+      },
+      {
+        "term": "Finnish sauna",
+        "status": "Elevated - cultural moment happening",
+        "catalyst": "Finland named Lonely Planet Best in Travel 2026. World Sauna Forum June 9-11, 2026 in Jyväskylä + Sauna Region Week.",
+        "culturalContext": "UNESCO heritage status, sauna credited in Finland's 6-year run as #1 World Happiness Report",
+        "insight": "Major international attention on authentic Finnish sauna culture in 2026. Timing perfect for destination content.",
+        "urgentAction": "Register for World Sauna Forum (early bird pricing ends January 31, 2026 - €200 discount)",
+        "contentOpportunity": "Why June 2026 Is THE Time to Visit Finland (destination guide, event coverage, cultural deep-dive)"
+      },
+      {
+        "term": "sauna routine / sauna after workout",
+        "status": "Evidence-backed surge",
+        "research": "NEW STUDY (2025): 15min post-workout sauna enhanced cardio fitness gains, reduced BP, lowered cholesterol. First multi-arm RCT on long-term sauna exposure.",
+        "protocol": "Post-exercise sauna supplemented fitness gains considerably",
+        "insight": "Athletes and fitness enthusiasts seeking recovery optimization - bridge to wellness audience",
+        "contentOpportunity": "The 15-Minute Recovery Window: Why Sauna After Exercise Works (science explainer)"
+      }
+    ],
     "breakoutQueries": [
       {
-        "query": "contrast therapy",
-        "status": "MAINSTREAM - no longer niche",
-        "growth": "Explosive via TikTok/Gen Z",
-        "opportunity": "Social wellness angle, NOT biohacking performance",
-        "contentAngle": "Community sauna clubs, group experiences, connection over optimization",
-        "monetization": "Cold plunge affiliate partnerships"
+        "query": "portable sauna blanket",
+        "growth": "High sustained demand",
+        "pricePoint": "$349-$699 range - budget-friendly alternative to full installations",
+        "weeklyRevenue": "$70K weekly revenue opportunities for online sellers (US market)",
+        "topBrand": "HigherDOSE Infrared Sauna Blanket specifically called out as top portable option - travel-friendly design",
+        "opportunity": "Best Portable Saunas Under $1,000 for 2026 (buyer's guide capturing price-conscious searchers)",
+        "monetization": "Affiliate partnerships with HigherDOSE, SereneLife, Sunlighten"
       },
       {
-        "query": "sauna blanket",
-        "growth": "+200%+",
-        "searchVolume": "80K monthly",
-        "opportunity": "Comprehensive buyer's guide with real testing",
-        "monetization": "High affiliate commissions (10-15% of $349-$699)",
-        "urgency": "HIGH - purchase intent queries"
+        "query": "smart sauna app control",
+        "growth": "Emerging fast - tech adoption accelerating",
+        "adoption": "44% of new spa installs include smart tech integration (2023), 45% of new sauna units feature app-based controls",
+        "features": "WiFi-enabled remote pre-heating, scheduling, chromotherapy lighting controls, energy-saving automation",
+        "designTrend": "Scandinavian minimalism, ergonomic layouts, marine and ambient lighting, home automation integration",
+        "opportunity": "Smart Home Saunas: Are App Controls Worth the Upgrade? (tech review without biohacking jargon)",
+        "angle": "Frame as 'making the ritual easier' NOT optimization"
       },
       {
-        "query": "digital detox + sauna",
-        "growth": "+273% (digital detox vision board)",
-        "opportunity": "Position sauna as ultimate phone-free sanctuary",
-        "contentAngle": "Align with analog wellness trend, slow living movement",
-        "brandAlignment": "PERFECT - 'room with no notifications'",
-        "urgency": "CRITICAL - this is our differentiator"
+        "query": "contrast therapy routine / protocol",
+        "growth": "Viral potential - mainstream adoption happening",
+        "protocol": "2-3 cycles of 12-15min sauna (140-200°F) + 30sec-5min cold plunge (37-59°F)",
+        "frequency": "2-3 sessions per week recommended",
+        "mechanism": "Alternating vasodilation/vasoconstriction optimizes blood flow, clears toxins, delivers oxygen to muscles",
+        "mentalBenefits": "Cold plunge boosts dopamine up to 250%, sauna promotes relaxation and endorphin release",
+        "endingDebate": "End with cold for revitalization, end with heat for parasympathetic rest/recovery",
+        "opportunity": "The Complete Contrast Therapy Guide (lead magnet PDF with protocols, safety, equipment recs)",
+        "urgency": "HIGH - highest momentum trend, evergreen content, monetization potential"
       },
       {
-        "query": "sauna for women / hormones / menopause",
-        "growth": "Emerging niche",
-        "contentGap": "Severe - minimal quality content exists",
-        "research": "Strong backing for hormonal balance, fertility, menopause support",
-        "opportunity": "First-mover authority in women's health sauna niche",
-        "urgency": "HIGH - underserved demographic"
+        "query": "sauna dry january",
+        "growth": "Seasonal spike - January-specific opportunity",
+        "pairing": "Sauna + alcohol abstinence creates synergistic wellness benefits",
+        "insight": "When stacked with sauna habit during Dry January, participants see changes affecting entire well-being",
+        "opportunity": "Why Sauna and Dry January Just Make Sense (timely pairing content)",
+        "urgency": "CRITICAL - publish THIS WEEK (January 16 - still prime Dry January window)"
       },
       {
-        "query": "sauna mental health / anxiety / depression",
-        "growth": "Strong sustained interest",
-        "research": "86.2% MDD improvement with sauna + CBT, 77% reduced psychosis risk",
-        "contentGap": "Research exists but consumer-friendly content lacking",
-        "opportunity": "Science-backed mental wellness positioning",
-        "brandAlignment": "Aligns with 'stillness', 'breath', mindfulness messaging"
+        "query": "sauna brain health / Alzheimer's",
+        "growth": "Mainstreaming - longevity focus driving interest",
+        "research": "4-7x/week sauna use may reduce Alzheimer's risk 50%+, 60% reduced stroke risk (Finnish 20-year study)",
+        "trend": "2026 prediction: mainstream care of brain health. Cognitive longevity becoming priority alongside healthspan.",
+        "opportunity": "The Alzheimer's Prevention Practice You're Not Doing Yet (brain health explainer)",
+        "angle": "Accessible longevity content WITHOUT extreme biohacking"
+      }
+    ],
+    "geographicInsights": [
+      {
+        "region": "Finland / Nordic countries",
+        "status": "Cultural epicenter - 2026 spotlight moment",
+        "finland": "3.3M saunas for 5.4M people. 90% weekly usage, 40% multiple times per week. UNESCO heritage.",
+        "june2026Event": "World Sauna Forum + Sauna Region Week (June 9-11, Jyväskylä) - 'not just best week to visit Finland, best week to UNDERSTAND Finland'",
+        "opportunities": [
+          "Event coverage and dispatches from World Sauna Forum",
+          "Destination guides: 'The Complete Guide to Finland's Sauna Culture'",
+          "Travel partnerships with Visit Finland tourism board",
+          "Sauna Region Week rare access features (doors normally closed to public)"
+        ],
+        "urgency": "Register for event by Jan 31 for early bird pricing"
+      },
+      {
+        "region": "North America",
+        "status": "Explosive growth - fastest-growing region",
+        "shift": "From niche luxury to mainstream wellness essential",
+        "adoption": "Millennials (69.32% of market) and Gen Z driving residential installations",
+        "urbanTrend": "Urban sauna clubs and bathhouses emerging as social hubs - 'younger, hipper crowd' embracing tradition",
+        "example": "Bywater Sauna (Seattle) selling out Sunday cold plunge sessions for New Year resolution crowd (16/16 slots filled)",
+        "opportunities": [
+          "Urban sauna club directories by city",
+          "Home installation buyer's guides",
+          "Community sauna culture features",
+          "Affiliate partnerships for portable/home units"
+        ]
+      },
+      {
+        "region": "Europe (non-Nordic)",
+        "status": "Rising wellness tourism + thermal spa culture",
+        "trend": "Thermal and contrast therapies (cold plunges, saunas, infrared baths) combined with breathwork/meditation trending",
+        "opportunities": [
+          "Thermal spa destination guides",
+          "Contrast therapy center reviews",
+          "Wellness travel itineraries"
+        ]
+      },
+      {
+        "region": "Global (platform-agnostic)",
+        "trend": "Community-based wellness replacing solo practices",
+        "shift": "2026: 'wellness is getting a plus one' - ditching solo wellness for IRL connection",
+        "venues": "Wellness centers and luxury spas offering guided cold immersion + sauna sessions as social experiences",
+        "insight": "Spaces becoming social hubs where 'like-minded individuals gather' - belonging and connection over optimization",
+        "opportunities": [
+          "Feature community sauna experiences",
+          "Create meetup guides",
+          "Foster IRL connections through content"
+        ]
       }
     ]
   },
-  "socialTrends": [
+  "seasonalInsights": {
+    "january2026": {
+      "dominantTheme": "New Year wellness resolutions + Dry January synergy",
+      "searchVolume": "Peak month - 40-50% above baseline",
+      "topStat": "69.1% of wellness survey respondents named sauna as recovery practice they want to try in 2026 (highest ranked)",
+      "resolutionTiming": "January consistently shows 40-50% higher search volumes than baseline months",
+      "winningContent": [
+        "Why Sauna and Dry January Just Make Sense (alcohol abstinence + heat therapy pairing)",
+        "Why Sauna Topped Every Wellness Resolution List in 2026 (tap into 69.1% stat)",
+        "New Year, New Ritual: Starting a Sauna Practice (NOT resolution - practice focus)",
+        "The Recovery Practice 69% of People Want to Try This Year"
+      ],
+      "toneGuidance": "Use 'practice' and 'ritual' NOT 'resolution' and 'optimization' - align with soft wellness movement",
+      "urgency": "CRITICAL - January 16, prime resolution window still open"
+    },
+    "upcoming": {
+      "february": "Valentine's wellness angle - couples sauna experiences, wellness date nights, intimate rituals",
+      "march": "Spring training begins - athlete recovery content, post-workout protocols",
+      "april": "Pre-summer body prep (gentle approach), outdoor sauna installation planning season begins",
+      "may": "World Sauna Forum early registration push, Nordic destination travel planning for summer",
+      "june": {
+        "event": "MAJOR OPPORTUNITY: World Sauna Forum 2026 + Sauna Region Week (June 9-11, Jyväskylä, Finland)",
+        "content": [
+          "Live event coverage and dispatches",
+          "Expert interviews and networking",
+          "Behind-the-scenes sauna experiences",
+          "Cultural deep-dives on Finnish sauna tradition"
+        ],
+        "positioning": "THE sauna event of 2026 - position Sauna Guide as insider voice",
+        "urgency": "Early bird registration ends January 31, 2026"
+      }
+    },
+    "seasonalPatterns": {
+      "winter": "Peak sauna season - recovery, immune support, cold weather wellness, cozy rituals",
+      "spring": "Renewal themes, outdoor sauna culture, transition wellness",
+      "summer": "Outdoor experiences, travel destinations, post-workout cooling (yes, you can sauna in summer)",
+      "fall": "Routine building, holiday prep, reflection and ritual"
+    }
+  },
+  "emergingTopics": [
     {
-      "platform": "TikTok",
-      "trend": "The Great Lock-In 2025",
-      "description": "Sept 1 - Dec 31 viral trend: routine overhaul, self-prioritization",
-      "saunaAngle": "Regular sauna visits featured as wellness habit",
-      "hashtags": ["#greatlockIn2025", "#wellnessroutine", "#saunalife"],
-      "opportunity": "Sauna as part of daily ritual/habit building",
-      "contentFormat": "Short videos, 30-day challenges, routine templates"
+      "topic": "Soft Wellness Movement",
+      "momentum": "Cultural shift - THE defining wellness trend of 2026",
+      "description": "2026 is 'the year of soft wellness' - gentler, more mindful approach to health. Rejection of optimization, biohacking, and performance pressure for calming the nervous system and intentional rest.",
+      "evidence": [
+        "Wellness conversation shifting from 'how long can I live?' to 'how well can I live for longer?' (healthspan over lifespan)",
+        "Focus on metabolic optimization, functional nutrition, restorative sleep vs extreme protocols",
+        "Making intentional rest a wellness priority",
+        "Gut-brain support, magnesium, probiotics for nervous system calm"
+      ],
+      "saunaAlignment": "PERFECT - we already lead with atmosphere not optimization. 'The sauna is not a hack - it's a practice.'",
+      "contentAngles": [
+        "Five Minutes of Stillness: Why Doing Nothing in the Sauna Is the Point",
+        "The Sauna Isn't a Hack - It's a Practice (manifesto on soft wellness)",
+        "Permission to Slow Down: The Soft Wellness Revolution"
+      ],
+      "brandOpportunity": "We're already positioned in soft wellness lane - double down on this differentiation",
+      "urgency": "CRITICAL - this IS our competitive advantage"
     },
     {
-      "platform": "TikTok",
-      "trend": "Contrast Therapy Goes Mainstream",
-      "reach": "50%+ of Gen Z aware",
-      "shift": "From biohacking niche to social wellness practice",
-      "examples": "Cold plunge social clubs, group recovery classes, mobile pop-ups",
-      "demographics": "Gen Z leading adoption (no longer just 40+ biohackers)",
-      "opportunity": "Own the 'social sauna' narrative vs solo optimization",
-      "contentAngle": "Community over performance, connection over data"
+      "topic": "Contrast Therapy as Social Wellness",
+      "momentum": "Viral - mainstream adoption accelerating",
+      "evidence": [
+        "Cold plunge + sauna creating community wellness spaces, not just solo recovery",
+        "Urban wellness centers building dedicated contrast therapy facilities",
+        "Social aspect: 'spaces where like-minded individuals gather'",
+        "Gen Z leading adoption (no longer just 40+ biohackers)",
+        "Example: Bywater Sauna (Seattle) cold plunge sessions selling out for New Year resolutions"
+      ],
+      "shift": "From biohacking performance optimization to social connection and shared ritual",
+      "protocol": "2-3 cycles of 12-15min sauna + 30sec-5min cold plunge, 2-3x per week",
+      "benefits": "Dopamine boost (+250% from cold), endorphin release (heat), improved circulation, toxin clearance",
+      "contentAngles": [
+        "The Complete Contrast Therapy Routine (protocol guide as lead magnet)",
+        "Contrast Therapy for Connection, Not Performance",
+        "Best Contrast Therapy Centers by City (directory content)",
+        "Building a Backyard Contrast Therapy Setup (home installation guide)"
+      ],
+      "urgency": "HIGH - highest momentum trend, evergreen content, multiple monetization angles"
     },
     {
-      "platform": "Multiple",
-      "trend": "Analog Wellness Movement",
-      "description": "Active rejection of high-tech wellness for simple, slow, social practices",
+      "topic": "Home Sauna Smart Technology",
+      "momentum": "Growing fast - tech adoption mainstream",
+      "evidence": [
+        "44% of new spa installs include smart tech integration (2023)",
+        "45% of new sauna units feature app-based control systems",
+        "Features: remote pre-heating, chromotherapy lighting, energy-saving modes, scheduling",
+        "Design trend: Scandinavian minimalism, WiFi-enabled controls, ambient lighting"
+      ],
+      "marketImpact": "Smart features becoming expectation, not luxury add-on",
+      "contentAngles": [
+        "Smart Home Saunas: Worth the Upgrade?",
+        "How to Control Your Sauna from Your Phone (+ Why You'd Want To)",
+        "Chromotherapy in Saunas: Science or Spa Gimmick?"
+      ],
+      "tone": "Frame as 'making the ritual easier' NOT optimization or biohacking",
+      "urgency": "MEDIUM - emerging but not yet saturated"
+    },
+    {
+      "topic": "Sauna as Real Estate Value-Add",
+      "momentum": "Emerging - real estate trend",
+      "evidence": [
+        "Home saunas evolved from 'luxury novelty' to 'essential wellness feature'",
+        "Growing real estate differentiator, cited as boosting property value",
+        "Zillow: 22% increase in spa-inspired bathroom searches, 33% increase in wellness feature searches",
+        "Affluent homeowners view as vital to healthy lifestyle maintenance"
+      ],
+      "contentAngles": [
+        "Does Adding a Sauna Increase Home Value? (real estate analysis)",
+        "The Home Wellness Features Buyers Actually Want in 2026",
+        "ROI of Home Sauna Installation: Financial + Health Returns"
+      ],
+      "audience": "Homeowners considering renovation, real estate investors, luxury buyers",
+      "urgency": "MEDIUM - niche but monetizable through affiliate partnerships"
+    },
+    {
+      "topic": "Brain Health + Cognitive Longevity",
+      "momentum": "Mainstreaming - major 2026 prediction",
+      "evidence": [
+        "Growing interest in longevity and healthy aging",
+        "Major prediction: 2026 sees mainstream care of brain health",
+        "Research: 4-7x/week sauna may reduce Alzheimer's risk 50%+",
+        "60% reduced stroke risk with frequent sauna use (Finnish studies)",
+        "Healthspan over lifespan focus - quality of cognitive function"
+      ],
+      "contentAngles": [
+        "The Alzheimer's Prevention Practice You're Not Doing Yet",
+        "Sauna and Brain Health: What the 20-Year Finnish Study Found",
+        "Heat Therapy for Cognitive Longevity (mechanisms explainer)"
+      ],
+      "tone": "Accessible, evidence-based, non-alarmist - longing for clarity and vitality",
+      "urgency": "MEDIUM-HIGH - strong research backing, growing public interest"
+    },
+    {
+      "topic": "Community-Based Wellness / Social Sauna Culture",
+      "momentum": "Growing - generational shift",
+      "evidence": [
+        "2026 trend: 'wellness is getting a plus one' - IRL connection replacing solo practices",
+        "Ditching solo wellness for spaces to 'belong, be seen, and move together'",
+        "Urban sauna clubs and bathhouses becoming social hubs",
+        "Younger, hipper crowd embracing traditional sauna culture",
+        "Sauna Renaissance: attracting increasingly younger demographic"
+      ],
+      "shift": "From individual optimization to collective experience and belonging",
+      "contentAngles": [
+        "Why Sauna Culture Is Social (Not Solo)",
+        "The New Social Club: Urban Saunas Replacing Bars",
+        "Directory: Best Community Saunas and Bathhouses by City"
+      ],
+      "brandAlignment": "Community over metrics, connection over data - our lane",
+      "urgency": "MEDIUM-HIGH - differentiates from solo biohacking content"
+    },
+    {
+      "topic": "Portable Sauna Market Explosion",
+      "momentum": "High growth - accessibility driver",
+      "evidence": [
+        "Portable sauna market projected $3.2B by 2033",
+        "Sauna blankets creating $70K weekly revenue opportunities for US sellers",
+        "HigherDOSE blanket top portable recommendation - travel-friendly, apartment-friendly",
+        "SereneLife tent sauna, Sunlighten Solo portable units gaining traction",
+        "Lower barrier to entry expanding market beyond luxury buyers"
+      ],
+      "demographic": "Renters, small spaces, budget-conscious wellness seekers, travelers",
+      "contentAngles": [
+        "Best Portable Saunas for Apartments and Small Spaces",
+        "Sauna Blankets vs. Tent Saunas vs. Full Installations: Which to Choose",
+        "Can You Really Get Sauna Benefits from a Blanket? (honest evidence review)"
+      ],
+      "monetization": "High affiliate potential - 10-15% commissions on $349-$699 price points",
+      "urgency": "HIGH - strong search volume (80K+ monthly for 'sauna blanket'), purchase intent queries"
+    },
+    {
+      "topic": "Food as Medicine + Circadian Wellness Integration",
+      "momentum": "Mainstream - holistic health approach",
+      "evidence": [
+        "Bioharmony nutrition: eating aligned with circadian rhythms, metabolic needs",
+        "Healthspan focus: mitochondrial support, inflammation reduction",
+        "Gut health market expected to surpass $90 billion by 2030",
+        "Microbiome role in neurotransmitters (serotonin, dopamine)"
+      ],
+      "saunaConnection": "Heat stress supports metabolic health, mitochondrial function, inflammation management",
+      "contentAngles": [
+        "Sauna Timing: Morning vs. Evening for Sleep and Recovery",
+        "How Heat Stress Supports Metabolic Health (mitochondrial explainer)",
+        "What to Eat Before and After Sauna Sessions"
+      ],
+      "urgency": "MEDIUM - bridge to broader wellness audience"
+    },
+    {
+      "topic": "Joyful Movement + Dance Wellness",
+      "momentum": "Growing - fitness culture shift",
+      "evidence": [
+        "Dance workouts making big comeback in 2026",
+        "People finding joy again in fitness routines",
+        "Rejection of punishment-based exercise for pleasurable movement"
+      ],
+      "saunaConnection": "Post-workout sauna as joyful recovery ritual, not punishment protocol",
+      "contentAngles": "Sauna as celebration of movement, not just optimization tool",
+      "urgency": "LOW - tangential connection"
+    }
+  ],
+  "socialBuzz": [
+    {
+      "platform": "TikTok",
+      "trend": "No single viral sauna trend identified for 2026 yet",
+      "observation": "Steady sauna content (portable units, barrel saunas, benefits, routines) performing consistently but no breakout viral moment",
+      "hashtags": ["#sauna", "#saunalife", "#contrasttherapy", "#coldplunge", "#saunaroutine"],
+      "contentType": "Educational + lifestyle + product reviews",
+      "virality": "2026's first viral trend was '365 buttons' (New Year resolution concept), not wellness-specific",
+      "opportunity": "WHITE SPACE - no dominant sauna creator on TikTok yet. Sauna Guide could create signature series.",
+      "contentIdeas": [
+        "Contrast therapy how-to (visual protocol demonstration)",
+        "5-minute sauna meditation series",
+        "Urban sauna tour series (community spaces)",
+        "Beginner mistakes and safety tips"
+      ],
+      "urgency": "MEDIUM-HIGH - first-mover advantage available, visual platform suits ritual content"
+    },
+    {
+      "platform": "Instagram",
+      "accounts": [
+        "@saunasoftheworld (13K followers) - destination/aesthetic focus",
+        "@saunas_com (3.4K followers) - product/home sauna focus",
+        "@okrsauna (London), @spiritsauna, @okrsauna - local urban sauna clubs"
+      ],
+      "contentType": "Aesthetic photography, destination features, lifestyle imagery, sauna quotes",
+      "tools": "100+ sauna caption resources exist - shows demand for shareable content",
+      "observation": "Visually-driven platform suits destination and atmosphere content",
+      "opportunity": [
+        "Create shareable sauna quote graphics aligned with brand voice",
+        "Destination photo series with longing-focused captions",
+        "User-generated content from newsletter community",
+        "Behind-the-scenes from World Sauna Forum June 2026"
+      ],
+      "urgency": "MEDIUM - steady platform for brand building"
+    },
+    {
+      "platform": "YouTube",
+      "trend": "Product review content dominant",
+      "publications": "Garage Gym Reviews, Men's Fitness, BarBend, Family Handyman all publishing 'Best Saunas 2026' tested reviews",
+      "observation": "Equipment testing and buyer's guides saturating search results",
+      "contentGap": "Limited long-form cultural/destination content, expert interviews, practice guides",
+      "opportunity": [
+        "Long-form sauna destination videos",
+        "'A Week of Sauna' cultural immersion vlogs",
+        "Expert interviews (sauna masters, researchers, wellness practitioners)",
+        "Contrast therapy demonstrations with proper protocols"
+      ],
+      "urgency": "LOW-MEDIUM - resource-intensive, not immediate priority"
+    },
+    {
+      "platform": "Reddit / Online Communities",
+      "observation": "Active discussions on r/Sauna, wellness subreddits, biohacking forums",
+      "contentType": "Protocol questions, product recommendations, troubleshooting, research sharing",
+      "opportunity": "Monitor for content ideas, pain points, frequently asked questions",
+      "urgency": "LOW - research input, not primary distribution channel"
+    },
+    {
+      "platform": "Community Spaces (IRL)",
+      "trend": "In-person sauna experiences as social connectors",
       "examples": [
-        "Reading salons set to live music",
-        "Social ceramics clubs",
-        "Dumb homes (anti-smart home)",
-        "Phone-free hotel programs (Six Senses + YONDR partnership)"
+        "Bywater Sauna (Seattle) - selling out Sunday cold plunge slots for New Year resolutions (16/16 filled)",
+        "Urban sauna clubs and bathhouses emerging as social hubs",
+        "Cold plunge social clubs, group recovery classes, mobile pop-ups"
       ],
-      "searchData": {
-        "digitalDetox": "+273%",
-        "analogTravel": "Major travel trend",
-        "softcareWellness": "Growing vs hardcare biohacking"
-      },
-      "saunaPositioning": "Ancient, low-tech, phone-free ritual - PERFECT fit",
-      "opportunity": "Be THE voice for sauna as analog wellness practice",
-      "urgency": "CRITICAL - this is our lane"
-    },
-    {
-      "platform": "TikTok/Instagram",
-      "trend": "Sauna Wellness Normalization",
-      "status": "Moving from niche to mainstream wellness essential",
-      "usage": "2-3x per week recommended, appearing in routine content",
-      "grouping": "Alongside tongue scraping, low-tox living, mindfulness",
-      "opportunity": "Position as accessible wellness staple, not luxury"
-    },
-    {
-      "platform": "Multiple",
-      "trend": "Longevity Industry Boom",
-      "searchGrowth": "+428% for NAD and longevity terms (Nov 2024 - Oct 2025)",
-      "driver": "Longevity was THE driving force of wellness in 2025",
-      "influencers": ["Andrew Huberman", "Peter Attia", "Bryan Johnson"],
-      "protocols": "11 min cold / 57 min heat per week for cardiovascular benefits",
-      "opportunity": "Bridge biohacker protocols to everyday wellness seekers",
-      "contentAngle": "Accessible protocols WITHOUT biohacking jargon"
+      "shift": "Wellness becoming communal, not individual - 'spaces to belong, be seen, move together'",
+      "opportunity": [
+        "Feature local sauna communities in newsletter",
+        "Create city-by-city meetup guides",
+        "Foster IRL connections through content (not just digital audience)"
+      ],
+      "brandAlignment": "Connection over data, community over metrics - perfect fit",
+      "urgency": "MEDIUM - differentiates from purely digital wellness content"
     }
   ],
-  "marketData": {
-    "globalSaunaMarket": {
-      "2024": "$904.8M USD",
-      "2030": "$1.27B USD (projected)",
-      "cagr": "6% from 2025-2030"
-    },
-    "infraredSaunaMarket": {
-      "2025": "$1.89B USD",
-      "2033": "$1.43B USD (projected)",
-      "cagr": "6.5% from 2025-2033",
-      "usMarket": "$290.85M (2025) → $378.70M (2030)"
-    },
-    "portableSaunaMarket": {
-      "2033": "$3.2B USD (projected)",
-      "growth": "Fastest-growing segment"
-    },
-    "usSaunaMarket": {
-      "2025-2029": "+$151.3M USD growth",
-      "cagr": "6.4%"
-    },
-    "wellnessIndustry": {
-      "2025": "$6.3T USD",
-      "2028": "$9T USD (projected)"
-    },
-    "productMix": {
-      "traditional": "42.35% market share (2023) - still largest",
-      "infrared": "Fastest growing, celebrity-driven",
-      "hybrid": "Emerging premium category (+20-30% price premium)"
-    }
-  },
-  "demographics": {
-    "primaryAudience": {
-      "group": "Millennials (25-40 years)",
-      "share": "Majority of market growth",
-      "characteristics": [
-        "Urban professionals",
-        "Wellness as essential, not luxury",
-        "Home setup priority (69.32%)",
-        "Privacy-focused (64% prefer home)",
-        "Digital detox seekers"
-      ],
-      "incomeLevel": "Middle to high income",
-      "contentPreference": "Science-informed but accessible, NOT technical jargon"
-    },
-    "genZ": {
-      "trend": "Fastest-growing demographic for sauna/wellness",
-      "behaviors": [
-        "46% actively limiting screen time",
-        "50%+ get health advice from TikTok",
-        "Rejecting high-tech wellness for analog experiences",
-        "Social wellness over solo optimization"
-      ],
-      "saunaAngle": "Community, social clubs, group experiences, ritual",
-      "opportunity": "Social sauna content, beginner-friendly, non-intimidating"
-    },
-    "women": {
-      "status": "Severely underserved demographic",
-      "contentGap": "Most research historically focused on men",
-      "interests": [
-        "Hormonal balance and cycle regulation",
-        "Menopause and perimenopause support",
-        "Fertility optimization",
-        "Skin health and beauty",
-        "Mental health and stress management"
-      ],
-      "research": "Strong evidence for hormonal benefits, but consumer content lacking",
-      "opportunity": "First-mover advantage in women's sauna health niche",
-      "urgency": "HIGH - specific pain points with clear solutions"
-    },
-    "geriatric": {
-      "trend": "Steady growth for therapeutic benefits",
-      "interests": ["Pain relief", "Cardiovascular health", "Longevity", "Mobility"],
-      "contentAngle": "Safety-first, accessibility, gentle protocols"
-    }
-  },
-  "geographicTrends": {
-    "europe": {
-      "marketShare": "37.8% (leading region)",
-      "driver": "Deep-rooted Nordic sauna culture",
-      "finland": {
-        "saunas": "3.3M saunas for 5.4M people",
-        "usage": "90% weekly, 40% multiple times per week",
-        "cultural": "UNESCO heritage, national identity",
-        "happiness": "Finland #1 in World Happiness Report 6 years running - sauna credited"
-      },
-      "trend": "Premium infrared displacing traditional with health messaging"
-    },
-    "northAmerica": {
-      "status": "Fastest-growing region",
-      "shift": "From niche luxury to mainstream wellness feature",
-      "driver": "Home wellness trends, privacy focus post-COVID",
-      "usTrend": "Infrared popular in urban areas, traditional in gyms/spas",
-      "growth": "Millennials and Gen Z driving adoption"
-    },
-    "asiaPacific": {
-      "trend": "Rising growth",
-      "driver": "Urban income growth in India, China, Southeast Asia",
-      "opportunity": "Emerging markets with wellness aspirations"
-    }
-  },
-  "healthBenefitsTrending": {
-    "mentalHealth": {
-      "trendStatus": "MAJOR GROWTH AREA - less saturated than fitness content",
-      "research": [
-        "86.2% of MDD patients no longer met criteria after sauna + CBT",
-        "77% reduced psychosis risk with 4-7 sessions/week",
-        "Single session can improve mood for 6 weeks",
-        "UCLA study: whole-body heating effective for major depression"
-      ],
-      "mechanisms": [
-        "Increased serotonin and endorphins",
-        "BDNF increase of 66% (15 min post-session)",
-        "Cortisol reduction (single session effective)",
-        "Body temperature regulation linked to depression relief"
-      ],
-      "opportunity": "Mental health angle less saturated, aligns with mindfulness positioning",
-      "contentAngle": "Sauna for anxiety, stress, depression - research-backed but approachable",
-      "urgency": "HIGH - strong evidence, underserved content niche"
-    },
-    "cardiovascularHealth": {
-      "trendStatus": "Well-established, Huberman/Attia endorsement",
-      "research": "40% mortality reduction, 18% absolute risk reduction (Finnish 20-year study)",
-      "protocols": "2-3 sessions/week, 5-20 min at 176-212°F",
-      "opportunity": "Translate research into beginner protocols",
-      "contentGap": "Protocols exist but often too technical or intimidating"
-    },
-    "womensHealth": {
-      "trendStatus": "EMERGING NICHE - first-mover advantage",
-      "benefits": [
-        "Hormonal balance via hypothalamic-pituitary stimulation",
-        "Menstrual relief and cycle regulation",
-        "Fertility support (thermal exposure benefits)",
-        "Menopause and perimenopause symptom management",
-        "Skin health (reduced breakouts, improved hydration in 3 weeks)"
-      ],
-      "contentGap": "Conversation expanding but quality content severely lacking",
-      "research": "Strong but underutilized in consumer content",
-      "opportunity": "Create authoritative women's sauna health hub",
-      "urgency": "CRITICAL - underserved demographic with clear needs"
-    },
-    "skinHealth": {
-      "trendStatus": "Popular among younger demographics, beauty audience crossover",
-      "benefits": [
-        "Reduced breakouts and rashes within 3 weeks",
-        "Improved hydration and even tone",
-        "31% collagen density increase (12 weeks with red light)",
-        "Anti-aging and elasticity improvements"
-      ],
-      "opportunity": "Bridge wellness to beauty/skincare audience",
-      "contentAngle": "Natural beauty protocol, not chemical treatments"
-    },
-    "longevity": {
-      "trendStatus": "Core to 2025 wellness industry",
-      "research": "40% mortality reduction, heat shock proteins, Alzheimer's prevention",
-      "influencers": "Peter Attia conversion, Bryan Johnson experiments",
-      "opportunity": "Accessible longevity content WITHOUT extreme biohacking",
-      "contentAngle": "Simple practice for long-term health, not complex optimization"
-    }
-  },
-  "competitorAnalysis": {
-    "contentGaps": [
+  "competitorContent": {
+    "wellnessNewsletters": [
       {
-        "gap": "SAUNA AS ANALOG WELLNESS RITUAL",
-        "description": "Most content is either biohacking (technical, data-driven) or superficial wellness blogs",
-        "opportunity": "Own the middle ground: science-informed, approachable, ritual-focused",
-        "differentiation": "Emphasize ATMOSPHERE, LONGING, PRACTICE vs metrics and optimization",
-        "brandAlignment": "PERFECT - this is our lane",
-        "urgency": "CRITICAL - analog wellness trend exploding NOW (+273%)"
-      },
-      {
-        "gap": "Women's health specific sauna content",
-        "description": "Virtually no quality content on hormones, fertility, menopause despite strong research",
-        "opportunity": "First-mover authority in women's sauna health niche",
-        "audience": "Women 25-55 with specific hormonal health goals",
-        "urgency": "HIGH - clear demand, minimal supply"
-      },
-      {
-        "gap": "Digital detox + sauna positioning",
-        "description": "No one owns 'sauna as phone-free sanctuary' narrative",
-        "opportunity": "Perfect alignment with brand voice and analog wellness trend",
-        "messaging": "'Room with no notifications', 'Just heat. Silence. Breath.'",
-        "urgency": "CRITICAL - this IS our differentiator"
-      },
-      {
-        "gap": "Social/community sauna experiences",
-        "description": "Limited content on group sauna culture outside Finland",
-        "shift": "Contrast therapy going from solo biohacking to social wellness",
-        "opportunity": "Sauna clubs, communal experiences, connection over optimization",
-        "audience": "Gen Z, millennials seeking social wellness (not solo optimization)"
-      },
-      {
-        "gap": "Accessible mental health + sauna content",
-        "description": "Strong research exists but consumer-friendly content lacking",
-        "opportunity": "Translate clinical research into practical mental wellness guides",
-        "audience": "Anxiety/depression sufferers seeking natural therapies",
-        "urgency": "MEDIUM-HIGH - less saturated than fitness angle"
-      },
-      {
-        "gap": "Beginner-friendly protocols without biohacking jargon",
-        "description": "Huberman/Attia protocols intimidating for average person",
-        "opportunity": "Simplify expert protocols for wellness seekers (not biohackers)",
-        "contentAngle": "Start here, progress gradually, emphasize safety",
-        "audience": "Wellness-curious millennials and Gen Z"
+        "observation": "Mainstream wellness publications covering sauna as part of broader 2026 trend roundups",
+        "sources": "Dr. Axe, NPR, Experience Life, Good Housekeeping, The Good Trade, Health Digest, Who What Wear",
+        "angle": "Sauna mentioned alongside NAD+ therapy, vagus nerve stimulation, mood-altering scents, dance workouts",
+        "strength": "Broad wellness authority, large existing audiences",
+        "weakness": "Surface-level coverage - part of trend lists, NOT deep sauna focus",
+        "opportunity": "Sauna Guide is niche specialist - go DEEP where they go wide. Own sauna authority."
       }
     ],
-    "oversaturatedTopics": [
-      "General sauna health benefits (cardiovascular, detox)",
-      "Celebrity sauna routines and #SaunaSelfies",
-      "Basic infrared vs traditional comparisons (been done to death)",
-      "Hardcore biohacking protocols (Bryan Johnson ice packs, etc.)",
-      "Product reviews without depth (affiliate-heavy fluff)"
+    "saunaSpecificContent": [
+      {
+        "player": "Sauna Weekly",
+        "example": "'Cold Plunging Into 2026' guide published January 2026",
+        "strength": "Timely, trend-focused, sauna-specific publication",
+        "weakness": "Informational/educational focus - delivers information, not atmosphere",
+        "differentiation": "They're informational. We sell longing and practice. Different emotional register entirely."
+      },
+      {
+        "player": "Equipment brands (Sun Home Saunas, homesauna.com, Perspire Sauna Studio)",
+        "content": "Blog posts, 'Infrared vs Traditional 2026' comparisons, product-focused guides",
+        "strength": "SEO-optimized buying guides, product authority, affiliate revenue",
+        "weakness": "Obvious commercial intent - selling products first, education second",
+        "differentiation": "They sell products. We sell the experience and ritual. Editorial independence."
+      },
+      {
+        "player": "Regional/cultural sauna publications (SaunaTimes, Sauna from Finland)",
+        "content": "Cultural knowledge, Finnish traditions, authentic sauna experiences",
+        "strength": "Deep cultural authenticity, insider knowledge",
+        "weakness": "Niche audience - insiders and purists, not accessible to curious beginners",
+        "differentiation": "They're insiders. We're the accessible bridge for curious newcomers. Translation layer."
+      },
+      {
+        "player": "Biohacking/longevity creators (Huberman Lab, Peter Attia content breakdowns)",
+        "content": "Protocol optimization, research deep-dives, data-driven approaches",
+        "strength": "Scientific credibility, large followings, evidence-based protocols",
+        "weakness": "Intimidating for average person, optimization language, technical jargon",
+        "differentiation": "They optimize. We invite. Soft wellness vs. hardcare biohacking. Ritual vs. protocol."
+      }
     ],
-    "whiteSpace": [
-      "Sauna as digital detox ritual (OURS)",
-      "Women's hormonal health and sauna",
-      "Mental health and sauna (anxiety, depression, stress)",
-      "Social sauna culture and community",
-      "Slow living and sauna integration",
-      "Beginner sauna practice (ritual building, not optimization)"
-    ]
+    "contentGap": "No one combines destination longing + accessible science + permission to slow down in our voice. The trends are shared. The way we make people FEEL about saunas is ours alone.",
+    "competitiveAdvantage": {
+      "positioning": "Bridge between curiosity and practice. Not for biohackers, not for Finnish purists - for anyone who's ever wanted to just... stop. And get warm. And breathe.",
+      "moat": "Brand voice is our competitive advantage. Soft wellness positioning. Longing over information. Practice over hack.",
+      "urgency": "Soft wellness movement exploding NOW - we're already positioned perfectly, just need to amplify"
+    }
   },
+  "healthResearchUpdates": [
+    {
+      "study": "Hot Tubs vs. Saunas Comparison (University of Oregon, November 2025)",
+      "finding": "Hot water immersion most effective for raising core body temperature vs. dry sauna and far-infrared sauna",
+      "publication": "American Journal of Physiology",
+      "implication": "Different passive heating methods have different physiological impacts",
+      "contentAngle": "Sauna vs. Hot Tub: What Science Says About Each (honest comparison, not sauna advocacy)",
+      "tone": "Evidence-based, nuanced - acknowledge trade-offs and different use cases",
+      "urgency": "MEDIUM - interesting but not core to sauna positioning"
+    },
+    {
+      "study": "Harvard Health Review of Passive Heating (December 2025)",
+      "finding": "19 RCTs analyzed - passive heating (saunas, hot-water bathing, hot yoga) showed mixed results. Blood pressure reduction confirmed (~4 points systolic), but NO improvement in cholesterol, inflammation, or arterial stiffness.",
+      "publication": "American Journal of Preventive Cardiology, September 2025",
+      "implication": "Need to moderate sauna health claims - not a cure-all, specific benefits confirmed",
+      "contentAngle": "What Saunas Actually Do for Your Heart (separate hype from evidence)",
+      "tone": "Honest, nuanced, science-based - builds credibility by acknowledging limitations",
+      "urgency": "HIGH - important for editorial credibility to address mixed findings",
+      "brandAlignment": "Fits with 'longing not information' - we're not selling miracle cures"
+    },
+    {
+      "study": "Exercise Plus Sauna Multi-Arm RCT (2025)",
+      "finding": "Adding 15-minute Finnish sauna after exercise supplemented cardiorespiratory fitness gains, reduced systolic blood pressure, and lowered total cholesterol considerably",
+      "significance": "First multi-arm randomized controlled trial investigating cardiovascular effects of long-term sauna exposure in general population with CVD risk factors",
+      "protocol": "Regular 15min post-exercise sauna sessions",
+      "publication": "American Journal of Physiology-Regulatory, Integrative and Comparative Physiology",
+      "contentAngle": "The 15-Minute Recovery Window: Why Sauna After Exercise Works",
+      "audience": "Athletes, fitness enthusiasts, anyone with regular workout routine",
+      "urgency": "HIGH - strong evidence, practical application, broad audience appeal"
+    },
+    {
+      "study": "Peripheral Arterial Disease Management via Sauna (February 2025)",
+      "finding": "Sauna bathing shows promise as therapeutic intervention for PAD. Physiological and molecular responses to heat stress mimic moderate-to-vigorous aerobic exercise.",
+      "publication": "Frontiers in Cardiovascular Medicine",
+      "implication": "Heat therapy as medicine for populations unable to exercise traditionally",
+      "contentAngle": "When You Can't Exercise: Heat Therapy as Medicine",
+      "audience": "Older adults, people with mobility limitations, chronic disease management",
+      "urgency": "MEDIUM - niche but important for accessibility messaging"
+    },
+    {
+      "study": "Study on Post-Workout Sauna Timing (January 2026)",
+      "finding": "Research reveals what happens to body when going in sauna directly after working out",
+      "context": "Recent publication examining immediate post-exercise sauna protocols",
+      "contentAngle": "What Really Happens When You Sauna Right After Working Out",
+      "urgency": "MEDIUM - timely research, practical guidance needed"
+    }
+  ],
+  "monetizationOpportunities": [
+    {
+      "tactic": "Affiliate partnerships - Portable/home sauna equipment",
+      "timing": "Immediate - January peak buying season happening NOW",
+      "targets": [
+        "HigherDOSE (sauna blankets - top portable recommendation)",
+        "Sunlighten (portable infrared units, Solo model specifically)",
+        "SereneLife (budget tent saunas ~$400 range)",
+        "Sun Home Saunas (mid-range options)",
+        "Sauna accessory brands (thermometers, essential oils, towels, bucket/ladle sets)"
+      ],
+      "content": [
+        "Best Portable Saunas Under $1,000 for 2026 (buyer's guide)",
+        "Sauna Blankets vs. Tent Saunas vs. Full Installations: Which to Choose",
+        "Smart Home Saunas Worth the Upgrade (tech review)"
+      ],
+      "commission": "10-15% of $349-$699 price points for blankets, higher for full units",
+      "urgency": "CRITICAL - set up partnerships THIS MONTH before January peak ends"
+    },
+    {
+      "tactic": "Destination partnerships - Finland focus",
+      "timing": "Q1-Q2 2026 ahead of World Sauna Forum June 9-11",
+      "targets": [
+        "Visit Finland tourism board (official partner potential)",
+        "World Sauna Forum 2026 (media partnership, event coverage)",
+        "Luxury sauna hotels/resorts in Jyväskylä region",
+        "Urban sauna clubs for local city guides"
+      ],
+      "content": [
+        "Sponsored destination feature: 'Why June 2026 Is THE Time to Visit Finland'",
+        "Event coverage: 'Inside the World Sauna Forum 2026'",
+        "Travel guides: 'The Complete Finland Sauna Itinerary'",
+        "City guides: 'Best Urban Saunas in [City]'"
+      ],
+      "urgency": "HIGH - reach out to Visit Finland and Forum organizers NOW for June partnerships"
+    },
+    {
+      "tactic": "Lead magnet - email list growth",
+      "timing": "Launch February 2026",
+      "products": [
+        {
+          "title": "The Complete Contrast Therapy Guide",
+          "format": "PDF with protocols, safety guidelines, equipment recommendations",
+          "use": "Grow email list, demonstrate expertise, include affiliate links",
+          "urgency": "HIGH - capitalize on contrast therapy momentum"
+        },
+        {
+          "title": "30-Day Sauna Ritual Builder",
+          "format": "Printable PDF with daily prompts (practice focus, NOT metrics)",
+          "use": "January/New Year signup driver, emphasizes ritual over resolution",
+          "urgency": "CRITICAL - should have launched early January, still valuable through Q1"
+        }
+      ]
+    },
+    {
+      "tactic": "Sponsored content - wellness brands",
+      "timing": "Q2 2026 once audience grows",
+      "targets": [
+        "Wellness supplement brands (magnesium, electrolytes for sauna hydration)",
+        "Athletic recovery brands",
+        "Skincare brands (sauna beauty angle)",
+        "Mental health apps (mindfulness + sauna pairing)"
+      ],
+      "approach": "Maintain editorial independence - only partner with brands aligned with soft wellness values",
+      "urgency": "MEDIUM - focus on audience growth first, monetization second"
+    }
+  ],
   "contentCalendar": {
-    "immediate": [
-      {
-        "topic": "The Room With No Notifications: Sauna as Digital Detox Sanctuary",
-        "why": "Analog wellness trend +273%, perfect brand alignment",
-        "format": "Manifesto-style article (1,500 words) + newsletter edition",
-        "tone": "Longing, atmospheric, permission-giving (NOT instructional)",
-        "seoTarget": "digital detox sauna, phone-free wellness, analog wellness",
-        "brandAlignment": "100% - this IS our voice",
-        "urgency": "CRITICAL - publish this week"
-      },
-      {
-        "topic": "Women's Sauna Guide: Hormones, Menopause, and Fertility",
-        "why": "Underserved niche, strong research, specific pain points",
-        "format": "Comprehensive guide (3,000 words) with subsections",
-        "sections": ["Hormonal balance", "Menopause support", "Fertility optimization", "Safety guidelines"],
-        "seoTarget": "sauna for hormones, sauna menopause, sauna fertility women",
-        "leadMagnet": "Women's Hormonal Health & Sauna: Complete Protocol PDF",
-        "urgency": "HIGH - first-mover advantage"
-      },
-      {
-        "topic": "Sauna for Anxiety and Depression: What Science Actually Says",
-        "why": "86.2% MDD improvement, strong research, less saturated niche",
-        "format": "Research roundup for general audience (2,000 words)",
-        "tone": "Evidence-based but compassionate, NOT clinical",
-        "seoTarget": "sauna for anxiety, sauna for depression, sauna mental health",
-        "credibility": "Build authority with research citations",
-        "urgency": "HIGH - mental health angle aligns with mindfulness positioning"
-      },
-      {
-        "topic": "The Best Sauna Blankets for Small Spaces (2025 Buyer's Guide)",
-        "why": "80K monthly searches, high purchase intent, affiliate revenue",
-        "format": "Honest comparison with testing (2,500 words)",
-        "brands": ["HigherDOSE", "MiHIGH", "Sun Home", "BON CHARGE"],
-        "approach": "Trustworthy recommendations, NOT affiliate spam",
-        "seoTarget": "sauna blanket, portable sauna, infrared blanket",
-        "monetization": "High-commission affiliate (10-15% of $349-$699)",
-        "urgency": "HIGH - strong search volume"
-      }
-    ],
-    "january2025": [
-      {
-        "topic": "Building a Sauna Ritual: 30-Day Practice Guide",
-        "why": "Peak season (New Year), emphasize practice over resolution",
-        "format": "Habit-building guide with daily prompts (NOT optimization metrics)",
-        "tone": "Permission to slow down, gentle progression, ritual focus",
-        "hook": "'Start the year with stillness, not optimization'",
-        "leadMagnet": "30-Day Sauna Ritual Builder (printable PDF)",
-        "brandAlignment": "Practice, not hack - perfect fit"
-      },
-      {
-        "topic": "Contrast Therapy for Connection, Not Performance",
-        "why": "Trending but shifting from biohacking to social wellness",
-        "format": "Beginner guide emphasizing community over metrics (2,000 words)",
-        "angle": "Social sauna clubs, group experiences, shared ritual",
-        "NOT": "Optimization, biomarkers, data tracking",
-        "audience": "Gen Z, millennials seeking social wellness",
-        "urgency": "HIGH - own the social wellness narrative"
-      },
-      {
-        "topic": "How to Sauna in Winter: Scandinavian Rituals for Dark Months",
-        "why": "Seasonal relevance, cultural storytelling, atmospheric",
-        "format": "Cultural exploration + practical guide (1,800 words)",
-        "tone": "Longing, storytelling, slow living",
-        "brandAlignment": "Culture, ritual, atmosphere over information",
-        "seoTarget": "winter sauna, Scandinavian sauna culture"
-      }
-    ],
-    "february2025": [
-      {
-        "topic": "Building Your Home Sauna Practice: Beginner to Established Ritual",
-        "why": "Peak search interest in February (volume: 79)",
-        "format": "Practical setup guide for different budgets/spaces (2,500 words)",
-        "audience": "Millennials considering home investment (69.32% of market)",
-        "approach": "Privacy, convenience, ritual-building (NOT ROI calculations)",
-        "tone": "Aspirational but accessible"
-      },
-      {
-        "topic": "Sauna and Sleep: The Research on Rest and Recovery",
-        "why": "Sleep is top wellness concern, natural sauna benefit",
-        "format": "Science-backed guide for general audience (2,000 words)",
-        "angle": "Evening ritual, winding down, nervous system regulation",
-        "seoTarget": "sauna for sleep, sauna before bed",
-        "brandAlignment": "Stillness, rest, slowing down"
-      }
-    ],
-    "seasonal": [
-      {
-        "season": "Q4 (Oct-Dec)",
-        "themes": ["Ritual and reflection", "Winter wellness preparation", "Gift-giving from the heart"],
-        "topics": [
-          "Sauna as Year-End Reflection Practice",
-          "Winter Solstice Sauna Rituals",
-          "Gifts for the Sauna Lover (NOT product spam)"
-        ],
-        "tone": "Longing, ritual, slowness - NOT commercial",
-        "why": "Peak search volume, but avoid crass commercialism"
-      },
-      {
-        "season": "Q1 (Jan-Mar)",
-        "themes": ["New rituals (not resolutions)", "Winter self-care", "Building practices"],
-        "topics": [
-          "30-Day Sauna Ritual Builder",
-          "Winter Sauna Traditions Worldwide",
-          "Beginner's Mind: Starting a Sauna Practice"
-        ],
-        "tone": "Permission-giving, gentle, ritual-focused",
-        "why": "Highest search volume and conversion"
-      },
-      {
-        "season": "Q2 (Apr-Jun)",
-        "themes": ["Outdoor sauna culture", "Spring renewal", "Slow living"],
-        "topics": [
-          "Outdoor Sauna Rituals: Nordic Summer Traditions",
-          "Sauna in Spring: Renewal and Lightness",
-          "Building Community Around Sauna"
-        ],
-        "tone": "Cultural, aspirational, community-focused",
-        "why": "Lower volume - focus on culture and ritual"
-      },
-      {
-        "season": "Q3 (Jul-Sep)",
-        "themes": ["Educational foundation", "Summer wellness myths", "Ritual maintenance"],
-        "topics": [
-          "Sauna in Summer: Ancient Wisdom for Hot Months",
-          "The Science of Heat: How Sauna Works",
-          "Maintaining Your Practice Year-Round"
-        ],
-        "tone": "Educational but atmospheric",
-        "why": "Lowest volume - build evergreen foundation"
-      }
-    ]
-  },
-  "recommendedNiche": {
-    "primaryNiche": "SAUNA AS ANALOG WELLNESS RITUAL",
-    "tagline": "Slower. Hotter. Older. (brand voice perfect fit)",
-    "positioning": "The ultimate digital detox - a room with no notifications",
-    "reasoning": [
-      "Analog wellness trend +273% (digital detox vision board searches)",
-      "Gen Z 46% actively limiting screen time - seeking simple, slow practices",
-      "PERFECT brand voice alignment: 'longing not information', 'practice not hack'",
-      "White space opportunity - no one owns this narrative for sauna",
-      "Differentiates from crowded biohacking space (Huberman/Attia saturated)",
-      "Appeals to primary demographic (millennials seeking slow living)",
-      "Timeless positioning (not trend-dependent)",
-      "Aligns with Finnish cultural roots (UNESCO heritage, ritual focus)"
-    ],
-    "messaging": [
-      "There's a room with no notifications.",
-      "Just heat. Silence. Breath.",
-      "Slower. Hotter. Older.",
-      "Step inside. (CTA)",
-      "The sauna is not a hack - it's a practice.",
-      "We sell longing, not information."
-    ],
-    "contentPillars": [
-      "Digital detox and phone-free rituals",
-      "Slow living integration",
-      "Cultural sauna traditions (Finnish, Scandinavian)",
-      "Mindfulness and meditation in heat",
-      "Permission to slow down (not pressure to optimize)"
-    ],
-    "urgency": "CRITICAL - analog wellness exploding NOW, first-mover advantage available"
-  },
-  "secondaryNiche": {
-    "niche": "Women's Health and Sauna Therapy",
-    "positioning": "Authoritative resource for women's hormonal health and sauna",
-    "reasoning": [
-      "Severe content gap - minimal quality content exists",
-      "Strong research backing (hormones, fertility, menopause)",
-      "Specific demographic with clear pain points",
-      "First-mover advantage in establishing authority",
-      "Natural newsletter audience (women seeking solutions)",
-      "Complements primary niche (ritual + women's health)"
-    ],
-    "contentPillars": [
-      "Hormonal balance and cycle regulation",
-      "Menopause and perimenopause support",
-      "Fertility optimization (thermal therapy benefits)",
-      "Skin health and beauty (natural approach)",
-      "Mental health for women (anxiety, stress, depression)"
-    ],
-    "urgency": "HIGH - underserved demographic, clear opportunity"
-  },
-  "tertiaryNiche": {
-    "niche": "Mental Health and Sauna (Anxiety, Depression, Stress)",
-    "positioning": "Science-backed mental wellness through sauna practice",
-    "reasoning": [
-      "Strongest research backing (86.2% MDD improvement)",
-      "Less saturated than fitness/cardiovascular content",
-      "Aligns with mindfulness and ritual positioning",
-      "Growing mental health awareness and treatment seeking",
-      "Natural bridge to meditation and breathwork content"
-    ],
-    "contentPillars": [
-      "Anxiety reduction and cortisol management",
-      "Depression treatment (complementary to therapy)",
-      "Stress relief and nervous system regulation",
-      "Sleep improvement and rest",
-      "Mindfulness practices in sauna"
-    ],
-    "urgency": "MEDIUM-HIGH - strong opportunity, good brand fit"
-  },
-  "newsletterStrategy": {
-    "overarchingTheme": "Sauna as ritual practice for slow living and digital detox",
-    "signupHooks": [
-      "Step inside. (signature CTA)",
-      "Weekly sauna rituals delivered to your inbox.",
-      "No optimization. No hacks. Just heat, breath, and stillness.",
-      "Join the practice. (community framing, not subscriber count)",
-      "There's a room with no notifications. Enter here."
-    ],
-    "tone": "Longing, atmospheric, permission-giving - NEVER urgent or salesy",
-    "contentMix": {
-      "ritual": "40% - Cultural stories, practice building, slow living integration",
-      "educational": "30% - Science-backed benefits, protocols (simplified, accessible)",
-      "practical": "20% - Setup guides, beginner tips, safety (helpful, not instructional)",
-      "community": "10% - Reader stories, social sauna culture, shared experiences"
+    "immediate": {
+      "week1_jan16-23": [
+        {
+          "title": "Why Sauna and Dry January Just Make Sense",
+          "rationale": "January 16 - still prime Dry January window, timely seasonal pairing",
+          "format": "1,500-word article + newsletter edition",
+          "tone": "Permission-giving, not preachy. Focus on synergistic wellness, not restriction.",
+          "urgency": "CRITICAL - publish THIS WEEK"
+        },
+        {
+          "title": "Why Sauna Topped Every Wellness Resolution List in 2026",
+          "rationale": "Tap into 69.1% stat - sauna as #1 recovery practice people want to try",
+          "format": "Trend piece (1,200 words) with survey data",
+          "angle": "Validation for curious beginners - 'everyone's interested, you're not alone'",
+          "urgency": "HIGH"
+        }
+      ],
+      "week2_jan23-30": [
+        {
+          "title": "The Complete Contrast Therapy Routine (Sauna + Cold Plunge Protocol)",
+          "rationale": "Highest momentum trend, evergreen content, lead magnet potential",
+          "format": "Comprehensive guide (2,500 words) + downloadable PDF protocol",
+          "sections": ["Science", "Protocol (timing/temp)", "Safety", "Equipment", "Where to try"],
+          "tone": "Social wellness angle, NOT biohacking optimization",
+          "urgency": "CRITICAL - launch lead magnet"
+        },
+        {
+          "title": "World Sauna Forum 2026: Why June Is THE Time to Visit Finland",
+          "rationale": "Early bird registration ends January 31 - timely promotional moment",
+          "format": "Destination preview (1,800 words) + event details",
+          "cta": "Register by Jan 31 for early bird pricing",
+          "urgency": "CRITICAL - publish before Jan 31 deadline"
+        }
+      ],
+      "week3-4_jan30-feb6": [
+        {
+          "title": "The 15-Minute Recovery Window: Why Sauna After Exercise Works",
+          "rationale": "New RCT study (2025) shows post-workout sauna enhances fitness gains",
+          "format": "Science explainer (1,800 words) for general audience",
+          "tone": "Evidence-based but accessible, NOT technical jargon",
+          "urgency": "HIGH"
+        },
+        {
+          "title": "What Saunas Actually Do for Your Heart (Honest Evidence Review)",
+          "rationale": "Harvard study shows mixed results - builds credibility with nuanced take",
+          "format": "Research roundup (2,000 words) - separate hype from evidence",
+          "tone": "Honest, balanced, science-based - acknowledges limitations",
+          "urgency": "HIGH - important for editorial integrity"
+        },
+        {
+          "title": "Newsletter Edition: New Year, New Ritual - The Practice, Not the Hack",
+          "rationale": "Position sauna as soft wellness practice vs. optimization protocol",
+          "format": "Newsletter essay (800 words) emphasizing permission and ritual",
+          "tone": "Atmospheric, contemplative, permission-giving",
+          "urgency": "HIGH"
+        }
+      ]
     },
-    "leadMagnets": [
-      {
-        "title": "The 30-Day Sauna Ritual Builder",
-        "description": "Daily prompts for building a sustainable sauna practice (NOT optimization)",
-        "format": "Printable PDF with atmospheric design",
-        "audience": "Wellness seekers wanting to start sauna practice"
-      },
-      {
-        "title": "Women's Hormonal Health & Sauna: Complete Guide",
-        "description": "Research-backed protocols for hormones, menopause, fertility",
-        "format": "Comprehensive PDF guide",
-        "audience": "Women 25-55 with hormonal health goals"
-      },
-      {
-        "title": "Digital Detox Ritual: Sauna as Phone-Free Sanctuary",
-        "description": "7-day guide to building phone-free sauna practice",
-        "format": "Email course + printable guide",
-        "audience": "Digital detox seekers, slow living advocates"
-      },
-      {
-        "title": "Sauna for Anxiety: Science-Backed Calm Protocol",
-        "description": "Practical guide for using sauna to manage anxiety and stress",
-        "format": "PDF with breathing exercises and protocols",
-        "audience": "Anxiety sufferers seeking natural therapies"
-      }
-    ],
-    "growthTactics": [
-      "SEO-optimized cornerstone content (digital detox, women's health, mental health)",
-      "Trending topic alignment (analog wellness, slow living, Great Lock-In)",
-      "Community building (NOT just subscriber count - emphasize practice)",
-      "Cross-promotion with slow living, digital detox, mindfulness newsletters",
-      "Cultural storytelling (Finnish traditions, sauna rituals worldwide)",
-      "Avoid: urgency, FOMO, aggressive CTAs (breaks brand voice)"
-    ],
-    "emailVoice": "Atmospheric, contemplative, longing - like a letter from a friend who wants you to slow down",
-    "avoidance": [
-      "Biohacking jargon (unless simplifying for beginners)",
-      "Urgent CTAs ('Subscribe NOW', 'Don't miss out')",
-      "Optimization language ('Hack', 'Level up', 'High performers')",
-      "Data/metrics focus (heart rate, cortisol levels, etc.)",
-      "Hype and urgency"
-    ]
-  },
-  "keyInsights": [
-    {
-      "insight": "Analog wellness is THE macro trend of 2025 (+273% digital detox searches)",
-      "implication": "Sauna perfectly positioned as ancient, low-tech, phone-free ritual",
-      "action": "Own the 'sauna as digital detox' narrative - this IS our differentiator",
-      "urgency": "CRITICAL - publish digital detox content immediately"
+    "upcoming": {
+      "february": [
+        "Best Portable Saunas Under $1,000 for 2026 (buyer's guide with affiliate links)",
+        "Valentine's wellness angle: Couples Sauna Experiences Worth Trying",
+        "Morning vs. Evening Sauna: Timing for Sleep and Recovery",
+        "Launch: Complete Contrast Therapy Guide PDF (lead magnet)"
+      ],
+      "march": [
+        "Athlete recovery series: Sauna Protocols for Spring Training",
+        "Smart Home Saunas: Are App Controls Worth the Upgrade? (tech review)",
+        "The Alzheimer's Prevention Practice You're Not Doing Yet (brain health)"
+      ],
+      "april": [
+        "Planning Your Backyard Sauna: What to Know Before You Build",
+        "Does Adding a Sauna Increase Home Value? (real estate analysis)",
+        "Spring Wellness: Outdoor Sauna Rituals"
+      ],
+      "may": [
+        "Pre-summer sauna content (gentle approach to body prep)",
+        "World Sauna Forum registration push (final call before June event)",
+        "Nordic destination guides for summer travel planning",
+        "Finland Sauna Itinerary: Complete Travel Guide"
+      ],
+      "june": [
+        "MAJOR EVENT: World Sauna Forum 2026 + Sauna Region Week coverage (June 9-11)",
+        "Live dispatches from Jyväskylä, Finland",
+        "Expert interviews with sauna masters and researchers",
+        "Behind-the-scenes rare sauna experiences",
+        "Cultural deep-dive: UNESCO Heritage Sauna Traditions",
+        "Summer Sauna: Yes, You Can (And Should) Sauna in Summer"
+      ]
     },
-    {
-      "insight": "The sauna market is bifurcating into 'hardcare' (biohacking) and 'softcare' (ritual/slow living)",
-      "implication": "Most content is in hardcare lane (Huberman, Attia, Bryan Johnson)",
-      "action": "Position firmly in softcare - emphasize practice, ritual, atmosphere over optimization",
-      "differentiation": "We are NOT another biohacking resource - we sell longing, not information"
-    },
-    {
-      "insight": "Gen Z (46% limiting screen time) + millennials driving sauna adoption with different values than biohackers",
-      "implication": "They want simple, social, slow wellness - NOT data and optimization",
-      "action": "Create beginner-friendly, social, ritual-focused content (NOT technical protocols)",
-      "audience": "Wellness-curious seeking practice, not performance"
-    },
-    {
-      "insight": "Women's sauna health content is severely underserved despite strong research",
-      "implication": "First-mover advantage in hormones, menopause, fertility niche",
-      "action": "Create comprehensive women's health sauna hub - own this authority",
-      "urgency": "HIGH - clear demand, minimal competition"
-    },
-    {
-      "insight": "Mental health sauna research is strongest (86.2% MDD improvement) but consumer content lacking",
-      "implication": "Opportunity to translate clinical research into accessible mental wellness guides",
-      "action": "Create anxiety/depression sauna content emphasizing calm, not clinical",
-      "brandAlignment": "Aligns with 'stillness', 'breath', mindfulness messaging"
-    },
-    {
-      "insight": "Portable saunas +200% growth driven by renters, small spaces, accessibility",
-      "implication": "Lower barrier to entry products expanding market beyond luxury",
-      "action": "Create honest buyer's guides (NOT affiliate spam) for portable solutions",
-      "monetization": "Affiliate revenue but maintain trust with honest recommendations"
-    },
-    {
-      "insight": "Contrast therapy shifting from solo biohacking to social wellness practice",
-      "implication": "Community sauna clubs, group experiences emerging (Gen Z driven)",
-      "action": "Own social sauna narrative - connection over optimization",
-      "differentiation": "Social wellness vs solo performance - our lane"
-    },
-    {
-      "insight": "January peak search (volume: 100) but opportunity to reframe New Year wellness",
-      "implication": "Most content pushes 'resolutions' and 'optimization' - we can offer permission instead",
-      "action": "Create 'ritual, not resolution' content - gentle practice building",
-      "brandAlignment": "Permission to slow down (not pressure to optimize)"
+    "seasonal": {
+      "q1": "New rituals (not resolutions), winter self-care, building practices, Dry January pairing",
+      "q2": "Outdoor sauna culture, spring renewal, World Sauna Forum, travel/destination focus",
+      "q3": "Summer wellness, educational foundation, maintaining practice year-round",
+      "q4": "Ritual and reflection, winter wellness prep, holiday gift guides (not crass)"
     }
-  ],
-  "actionPriorities": [
+  },
+  "urgentActions": [
     {
       "priority": 1,
-      "action": "Publish 'The Room With No Notifications: Sauna as Digital Detox Sanctuary'",
-      "rationale": "Analog wellness +273%, perfect brand alignment, WHITE SPACE opportunity",
-      "urgency": "CRITICAL - this week",
-      "format": "Manifesto-style article (1,500 words) emphasizing longing and atmosphere",
-      "distribution": "Newsletter edition, social sharing, SEO optimization"
+      "action": "Publish 'Why Sauna and Dry January Just Make Sense' THIS WEEK (by January 23)",
+      "rationale": "January 16 - still peak Dry January window. Timely pairing content aligns with New Year wellness resolutions AND analog wellness trend.",
+      "format": "1,500-word article + newsletter edition emphasizing synergy, not restriction",
+      "urgency": "CRITICAL"
     },
     {
       "priority": 2,
-      "action": "Create Women's Sauna Health comprehensive guide (hormones, menopause, fertility)",
-      "rationale": "Underserved niche, first-mover advantage, clear audience demand",
-      "urgency": "HIGH - within 2 weeks",
-      "format": "3,000-word guide with lead magnet PDF",
-      "seoTarget": "sauna for hormones, sauna menopause, sauna fertility women"
+      "action": "Create 'Complete Contrast Therapy Protocol' guide and launch as lead magnet",
+      "rationale": "Highest momentum trend (contrast therapy mainstream). Evergreen content. Multiple monetization angles (affiliate, email growth).",
+      "deliverables": "2,500-word article + downloadable PDF protocol with safety guidelines",
+      "urgency": "CRITICAL - launch by end of January"
     },
     {
       "priority": 3,
-      "action": "Write 'Sauna for Anxiety and Depression: What Science Actually Says'",
-      "rationale": "Strong research (86.2% MDD improvement), less saturated, brand-aligned",
-      "urgency": "HIGH - within 2 weeks",
-      "format": "2,000-word research roundup (accessible, compassionate tone)",
-      "seoTarget": "sauna for anxiety, sauna for depression, sauna mental health"
+      "action": "Set up affiliate relationships with HigherDOSE, Sunlighten, SereneLife",
+      "rationale": "January buying season happening NOW. Portable sauna market surging. Need partnerships in place before publishing buyer's guides.",
+      "urgency": "CRITICAL - contact partners THIS WEEK"
     },
     {
       "priority": 4,
-      "action": "Develop 30-Day Sauna Ritual Builder lead magnet",
-      "rationale": "Newsletter growth driver, emphasizes practice over optimization",
-      "urgency": "HIGH - before January peak",
-      "format": "Printable PDF with daily prompts (atmospheric design)",
-      "distribution": "Lead magnet for all cornerstone content"
+      "action": "Register for World Sauna Forum 2026 + reach out for media partnership (deadline: January 31)",
+      "rationale": "Finland is THE 2026 sauna story (Lonely Planet Best in Travel, UNESCO heritage, major event). Early bird pricing ends Jan 31 (€200 savings). Content opportunity, networking, positioning as insider voice.",
+      "deliverables": "Event registration, media partnership inquiry to organizers, Visit Finland tourism board outreach",
+      "urgency": "CRITICAL - deadline January 31, 2026"
     },
     {
       "priority": 5,
-      "action": "Create honest Sauna Blanket Buyer's Guide",
-      "rationale": "80K monthly searches, high purchase intent, affiliate revenue",
-      "urgency": "MEDIUM-HIGH - within 3 weeks",
-      "format": "2,500-word comparison with real testing (trustworthy recommendations)",
-      "monetization": "Affiliate links BUT maintain editorial integrity"
+      "action": "Publish 'World Sauna Forum 2026: Why June Is THE Time to Visit Finland' (before Jan 31)",
+      "rationale": "Drive early registrations (affiliate potential if partnership secured). Position Sauna Guide as go-to Finland sauna resource.",
+      "format": "1,800-word destination preview + event details",
+      "urgency": "CRITICAL - before early bird deadline"
     },
     {
       "priority": 6,
-      "action": "Establish affiliate partnerships (MiHIGH, HigherDOSE, portable sauna brands)",
-      "rationale": "Monetization foundation before scaling traffic",
-      "urgency": "MEDIUM - within month",
-      "approach": "Select brands aligned with values (quality, accessibility, honesty)"
+      "action": "Launch TikTok with contrast therapy how-to series",
+      "rationale": "No dominant sauna creator on TikTok yet - white space opportunity. Visual protocol content performs well. Community building. Gen Z audience adoption of contrast therapy.",
+      "content": "5-part series: protocols, safety, mistakes, timing, where to try",
+      "urgency": "HIGH - first-mover advantage available"
+    },
+    {
+      "priority": 7,
+      "action": "Write 'The 15-Minute Recovery Window: Why Sauna After Exercise Works'",
+      "rationale": "New RCT study (2025) provides fresh evidence. Athletes and fitness enthusiasts active in January (New Year workouts). Bridge to wellness audience.",
+      "format": "1,800-word science explainer for general audience",
+      "urgency": "HIGH"
+    },
+    {
+      "priority": 8,
+      "action": "Develop '30-Day Sauna Ritual Builder' lead magnet (should have launched early January, still valuable through Q1)",
+      "rationale": "New Year resolution audience still active through January-February. Emphasizes practice over optimization. Email list growth driver.",
+      "format": "Printable PDF with daily prompts, atmospheric design",
+      "urgency": "HIGH"
     }
   ],
-  "avoidance": [
-    "Do NOT become another Huberman protocol breakdown site (saturated)",
-    "Do NOT use biohacking jargon without simplifying for beginners",
-    "Do NOT create affiliate-heavy product spam (breaks trust)",
-    "Do NOT use urgent/salesy CTAs (breaks brand voice)",
-    "Do NOT focus on optimization/performance metrics over ritual/practice",
-    "Do NOT ignore women's health niche (clear first-mover opportunity)",
-    "Do NOT miss analog wellness trend (THIS IS OUR LANE)"
+  "brandVoiceAlignment": {
+    "perfectFit": [
+      "Soft Wellness Movement - we already lead with atmosphere not optimization. 2026's defining trend aligns perfectly with 'longing not information' positioning.",
+      "Practice over hack - core to our brand voice. Rejection of biohacking optimization for gentle ritual.",
+      "Community and IRL connection - 'spaces where you belong' vs. solo optimization. Social sauna culture rising.",
+      "Permission to slow down - 'five minutes of stillness' is our promise. Analog wellness (+273% digital detox searches) IS our lane.",
+      "Healthspan over lifespan - 'how well can I live?' not extreme longevity. Quality over quantity aligns with our values."
+    ],
+    "languageOpportunities": [
+      "Use 'practice' and 'ritual' when covering New Year resolutions (vs. 'optimize', 'hack', 'resolution')",
+      "Frame contrast therapy as 'the hot-cold practice' or 'shared ritual' NOT 'performance protocol' or 'recovery optimization'",
+      "Lead portable sauna content with 'bringing warmth home' or 'making the practice accessible' NOT 'biohacking on a budget'",
+      "Emphasize 'permission to slow down' in Dry January and New Year content - give permission, don't create pressure",
+      "Smart saunas: 'making the ritual easier' NOT 'optimizing your sessions' or 'tracking performance'",
+      "Research: 'what science actually says' with nuance NOT 'miracle cure' or 'game-changer' hype"
+    ],
+    "avoidances": [
+      "Don't use optimization language (hack, level up, high performers, maximize, optimize)",
+      "Don't create urgency or FOMO (Subscribe NOW, Don't miss out, Limited time)",
+      "Don't oversell research - Harvard study shows mixed results, be honest about limitations",
+      "Don't pressure readers - invite with 'step inside', give permission, create longing",
+      "Don't use biohacking jargon without translation for beginners",
+      "Don't focus on metrics and data over atmosphere and experience"
+    ],
+    "signaturePhrases": [
+      "Every Thursday: why heat heals, where to find it, and five minutes of stillness.",
+      "Close the door. Let everything go.",
+      "Step inside. (CTA)",
+      "The sauna is not a hack - it's a practice.",
+      "There's a room with no notifications.",
+      "Just heat. Silence. Breath."
+    ],
+    "competitiveAdvantage": "Brand voice is our moat. The trends (contrast therapy, portable saunas, brain health) are shared. The way we make people FEEL about saunas - the longing, the permission, the ritual - is ours alone."
+  },
+  "keyInsights": [
+    {
+      "insight": "Soft Wellness Movement is THE 2026 trend - rejection of optimization for gentle, mindful practices",
+      "implication": "Sauna perfectly positioned as analog wellness ritual. We're already in this lane.",
+      "action": "Double down on 'practice not hack' messaging. Own soft wellness positioning.",
+      "urgency": "CRITICAL - this IS our differentiator",
+      "brandAlignment": "PERFECT - 'longing not information' is soft wellness embodied"
+    },
+    {
+      "insight": "69.1% of wellness seekers want to try sauna in 2026 - highest ranked recovery practice",
+      "implication": "Massive curious beginner audience. They want accessible entry points, not intimidating protocols.",
+      "action": "Create beginner-friendly content emphasizing permission and simplicity, NOT optimization.",
+      "audience": "Wellness-curious seeking practice, not performance"
+    },
+    {
+      "insight": "January peak happening NOW - 40-50% search spike above baseline",
+      "implication": "New Year resolution window still open through January. Peak buying and signup season.",
+      "action": "Publish Dry January pairing content THIS WEEK. Launch affiliate partnerships immediately.",
+      "urgency": "CRITICAL - capitalize before Q1 ends"
+    },
+    {
+      "insight": "Contrast therapy shifting from solo biohacking to social wellness practice",
+      "implication": "Community sauna clubs and shared experiences emerging. Gen Z driving adoption.",
+      "action": "Own social sauna narrative - connection over optimization, community over metrics.",
+      "differentiation": "Our lane vs. solo performance focus"
+    },
+    {
+      "insight": "Finland experiencing major 2026 spotlight - Lonely Planet Best in Travel, World Sauna Forum June 9-11",
+      "implication": "THE sauna destination story of 2026. Content and partnership opportunities.",
+      "action": "Register for Forum by Jan 31 (early bird). Pitch Visit Finland for partnership. Create destination content series.",
+      "urgency": "CRITICAL - early bird deadline January 31"
+    },
+    {
+      "insight": "Home sauna market exploding - evolved from luxury to essential wellness feature",
+      "implication": "Real estate value-add angle. Smart tech becoming standard. Portable options expanding accessibility.",
+      "action": "Create buyer's guides (portable under $1K, smart tech review), real estate value analysis, home setup guides.",
+      "monetization": "Affiliate partnerships with portable sauna brands"
+    },
+    {
+      "insight": "Research showing mixed results - Harvard study confirms BP reduction but not cholesterol/inflammation",
+      "implication": "Need nuanced, honest coverage to build editorial credibility.",
+      "action": "Publish 'What Saunas Actually Do for Your Heart' - separate hype from evidence.",
+      "brandAlignment": "Honesty builds trust. We're not selling miracle cures, we're selling practice and longing."
+    },
+    {
+      "insight": "No dominant sauna creator on TikTok yet - white space opportunity",
+      "implication": "First-mover advantage available for visual protocol content and community building.",
+      "action": "Launch TikTok with contrast therapy how-to series, beginner tips, urban sauna tours.",
+      "urgency": "HIGH - capture Gen Z audience before competitors"
+    },
+    {
+      "insight": "Post-workout sauna research strengthens (new RCT shows enhanced fitness gains)",
+      "implication": "Athlete and fitness audience bridge to wellness seekers. Practical application of sauna benefits.",
+      "action": "Publish '15-Minute Recovery Window' explainer. Partner with athletic recovery brands.",
+      "audience": "Crossover between fitness and wellness"
+    },
+    {
+      "insight": "Brain health mainstreaming in 2026 - cognitive longevity becoming priority",
+      "implication": "Alzheimer's prevention angle (4-7x/week reduces risk 50%+) resonates with aging population AND preventive-minded millennials.",
+      "action": "Create accessible brain health content - longevity without extreme biohacking.",
+      "tone": "Longing for clarity and cognitive vitality, not fear-based"
+    }
   ],
   "sources": [
-    "https://www.accio.com/business/sauna_trends",
-    "https://plunge.com/blogs/blog/health-wellness-trends",
-    "https://www.insighttrendsworld.com/post/insight-of-the-day-how-contrast-therapy-became-2025-s-biggest-wellness-trend",
-    "https://infraredsauna.com/blog/health-and-wellness-trends/",
-    "https://nordvikoutdoors.com/blogs/news/infrared-sauna-statistics",
-    "https://www.glossy.co/beauty/wellness/wellness-briefing-the-2025-wellness-trends-that-drove-the-industry-this-year/",
-    "https://www.accio.com/business/tiktok_wellness_trends",
-    "https://www.prnewswire.com/news-releases/sauna-market-in-us-to-grow-by-usd-151-3-million-from-2025-2029--driven-by-increased-focus-on-wellness-and-self-care-report-on-ai-powered-market-evolution---technavio-302365984.html",
-    "https://vitality-pro.com/biohacking/statistics-trends-sauna/",
-    "https://www.grandviewresearch.com/industry-analysis/sauna-market-report",
-    "https://blog.routledge.com/social-sciences/top-digital-detox-trends-in-2025-backed-by-psychology/",
-    "https://lifeinpumps.com/2025-wellness-trends-the-future-of-health-and-wellness/",
-    "https://greencalmvibes.com/digital-detox-in-2025-why-unplugging-is-the-new-wellness-trend/",
-    "https://www.accio.com/business/digital_detox_trends",
-    "https://www.wallpaper.com/fashion-beauty/wellness/wellness-report-2025-analogue-living-digital-burnout",
-    "https://www.organicspamagazine.com/the-analog-revival-the-wellness-trend-of-2025/",
-    "https://www.nationalgeographic.com/travel/article/finlands-sauna-obsession",
-    "https://saunafromfinland.com/finnish-sauna-experience-providers-outside-of-finland/nordic-sauna-works-for-the-authentic-finnish-sauna-lifestyle-in-usa/",
-    "https://visitsauna.com/2025/06/25/why-is-sauna-tourism-gaining-popularity-in-2025/",
-    "https://saunaimport.com/2025/06/13/sauna-for-womens-health/",
-    "https://www.balancewithfriends.com/blog/why-saunas-are-a-secret-superpower-for-womens-hormones-gut-health-and-stress",
-    "https://www.hack-wellness.com/andrew-huberman/andrew-huberman-sauna-protocol",
-    "https://www.zest.science/blog/march-longevity-challenge-extreme-temperatures",
-    "https://podcastnotes.org/huberman-lab/episode-69-the-science-health-benefits-of-deliberate-heat-exposure-huberman-lab/",
-    "https://www.restore.com/blog/anxiety-depression-infrared-sauna",
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10681252/",
-    "https://esmed.org/MRA/mra/article/view/3965",
-    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6422146/",
-    "https://www.uclahealth.org/news/article/heat-therapy-may-alleviate-depression-study-suggests",
-    "https://www.psychiatrypodcast.com/psychiatry-psychotherapy-podcast/episode-221-sauna-amp-heat-exposures-impact-on-mental-amp-physical-health"
+    "https://www.redonline.co.uk/wellbeing/a69751621/2026-wellness-trends/",
+    "https://www.koziwellness.com/blogs/news/home-saunas-the-rising-wellness-trend-for-2025-2026",
+    "https://draxe.com/health/wellness-trends-2026/",
+    "https://massmarketretailers.com/google-trends-examines-wellness-trends-for-2026/",
+    "https://sunhomesaunas.com/blogs/saunas/infrared-vs-traditional-sauna-best-home-sauna-2026",
+    "https://www.technavio.com/report/us-sauna-market-analysis",
+    "https://saunaweekly.com/guides/cold-plunging-into-2026-chill-trends-athlete-insights-risks-rewards/",
+    "https://www.capitolhillseattle.com/2026/01/ready-for-the-plunge-into-2026-bywater-sauna-and-cold-dips-are-creating-warm-community-dockside-on-lake-washington/",
+    "https://sunhomesaunas.com/blogs/saunas/why-cold-plunges-are-the-latest-wellness-trend-in-2025",
+    "https://www.housedigest.com/2052619/wellness-trend-cold-plunge-more-yards-and-homes-2026/",
+    "https://www.bloomberg.com/news/features/2026-01-16/why-saunas-bathhouses-cold-plunge-pools-are-so-popular-right-now",
+    "https://www.garagegymreviews.com/best-portable-sauna",
+    "https://homesauna.com/blogs/news/which-are-the-top-infrared-saunas-under-1000-for-2026",
+    "https://www.npr.org/2026/01/04/nx-s1-5665123/wellness-trends-new-year",
+    "https://www.whowhatwear.com/beauty/wellness/wellness-trends-2026",
+    "https://www.thegoodtrade.com/features/wellness-trends-2026/",
+    "https://experiencelife.lifetime.life/article/15-health-and-wellness-trends-to-watch-in-2026/",
+    "https://meetglimpse.com/trends/health-wellness-trends/",
+    "https://www.healthdigest.com/2071857/health-wellness-trends-2026/",
+    "https://theeverygirl.com/wellness-trends/",
+    "https://www.accio.com/business/trend-of-the-hotbox-sauna",
+    "https://www.saunafin.com/blog/the-most-important-sauna-insights-of-2025/",
+    "https://cedarandstonesauna.com/why-sauna-and-dry-january-just-make-sense/",
+    "https://news.lifetime.life/2024-12-30-2025-Wellness-Survey-Sauna-Tops-Recovery-Practices-People-Want-to-Try-Building-Muscle-Remains-Top-New-Years-Fitness-Goal-in-Annual-Life-Time-Poll",
+    "https://worldsaunaforum.com/",
+    "https://www.visitfinland.com/en/articles/lonely-planet-names-finland-best-in-travel-2026/",
+    "https://suitcasemag.com/oulu-travel-guide-2026-culture/",
+    "https://www.sciencedaily.com/releases/2025/11/251120002611.htm",
+    "https://www.health.harvard.edu/heart-health/can-regular-sauna-sessions-support-a-healthy-heart",
+    "https://journals.physiology.org/doi/full/10.1152/ajpregu.00076.2022",
+    "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2025.1537194/full",
+    "https://www.unilad.com/news/health/what-happens-to-your-body-sauna-after-working-out-078924-20260103",
+    "https://www.tucsonsportsrecovery.com/how-to-do-contrast-therapy-with-near-infrared-sauna-and-cold-plunge",
+    "https://southeastspas.com/how-to-use-sauna-and-cold-tub-contrast-therapy-for-the-ultimate-wellness-routine/",
+    "https://www.doseyogastudios.com/blog/sauna-cold-plunge-contrast-therapy",
+    "https://plunge.com/blogs/blog/the-combo-benefits-of-sauna-and-cold-plunge"
   ]
 }

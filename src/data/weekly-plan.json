@@ -1,655 +1,676 @@
 {
-  "weekOf": "2024-12-19",
-  "weekEnd": "2024-12-25",
+  "weekOf": "2026-01-16",
+  "weekEnd": "2026-01-22",
   "phase": "foundation",
-  "urgency": "CRITICAL - Peak Season Week",
-  "context": "This is the most important week of the year for sauna content. Winter search volume 50% higher, holiday gift-buying peaks Dec 24, and New Year resolution planning begins.",
+  "theme": "Capture the Contrast Therapy Moment",
+  "context": "January 2026 is the perfect storm: New Year wellness surge (+40-50% search volume), contrast therapy exploding from niche to mainstream, soft wellness movement aligns perfectly with our brand voice. 69.1% of wellness seekers want to try sauna this year - highest ranked recovery practice. We must capitalize NOW before Q1 ends.",
 
-  "topThreePriorities": [
-    {
-      "rank": 1,
-      "priority": "Launch 30-Day Sauna Challenge Landing Page",
-      "why": "Capture New Year resolution traffic - signups for Jan 1 start must happen NOW",
-      "deadline": "Dec 21 (Saturday)",
-      "successMetric": "100 email signups by Dec 25",
-      "owner": "content-writer + growth-hacker"
-    },
-    {
-      "rank": 2,
-      "priority": "Publish Sauna Blanket Gift Guide",
-      "why": "33K monthly searches, trending +350%, last-minute gift buyers shopping through Dec 24",
-      "deadline": "Dec 20 (Friday) - URGENT",
-      "successMetric": "Rank page 1 for 'sauna blanket gift'",
-      "owner": "seo-strategist + content-writer"
-    },
-    {
-      "rank": 3,
-      "priority": "Contrast Therapy Protocol Article",
-      "why": "280% trending, Huberman effect, viral TikTok topic - positions us as authority",
-      "deadline": "Dec 22 (Sunday)",
-      "successMetric": "500 organic visits in first week",
-      "owner": "content-writer + image-creator"
-    }
-  ],
+  "weekAtGlance": {
+    "summary": "This week we establish authority in the exploding contrast therapy trend while building trust through myth-busting content. Our secret weapon: brutal honesty in a sea of overpromising competitors.",
+    "keyTrends": [
+      "Contrast therapy (sauna + cold plunge) is THE dominant wellness trend of January 2026",
+      "Dry January pairing content has narrow window - must publish by Jan 20",
+      "Soft wellness movement means 'practice over hack' - our brand voice is perfect",
+      "Reddit dominates AI citations - daily engagement is long-term SEO investment",
+      "World Sauna Forum early bird ends Jan 31 - major positioning opportunity"
+    ],
+    "brandVoiceReminder": "We sell longing, not information. Permission, not pressure. The sauna is not a hack - it's a practice."
+  },
 
   "goals": {
     "subscribers": {
       "start": 0,
       "target": 100,
       "stretch": 200,
-      "note": "Aggressive but achievable with 30-day challenge + gift guide combo"
+      "source": "Contrast therapy lead magnet + myth-busting content"
     },
     "content": {
-      "articles": 3,
-      "landingPages": 1,
+      "articles": 4,
+      "leadMagnets": 1,
       "newsletterEditions": 1,
       "targets": [
-        "Sauna Blanket Gift Guide (Dec 20)",
-        "Contrast Therapy Protocol (Dec 22)",
-        "Sauna Benefits Ultimate Guide (Dec 24)",
-        "30-Day Challenge Landing Page (Dec 21)"
+        "Contrast Therapy Protocol Guide (Jan 18)",
+        "Sauna Weight Loss Myth - Brutal Honesty (Jan 17)",
+        "Dry January + Sauna Pairing (Jan 19)",
+        "World Sauna Forum Preview (Jan 21)"
       ]
     },
-    "social": {
-      "tiktokVideos": 4,
-      "redditPosts": 10,
-      "redditComments": 30,
-      "note": "Focus on contrast therapy clips and helpful Reddit comments"
+    "technical": {
+      "aiCrawlers": "Allow in robots.txt TODAY",
+      "affiliatePartners": "Contact 3 partners (HigherDOSE, Plunge, SereneLife)"
+    },
+    "community": {
+      "redditParticipation": "30 min daily - genuine help, not promotion",
+      "subreddits": ["r/sauna", "r/coldshowers", "r/Biohackers", "r/Fitness"]
     }
   },
 
-  "dailyBreakdown": {
-    "thursday_dec19": {
-      "theme": "Research & Foundation Day",
+  "dailySchedule": {
+    "thursday_jan16": {
+      "theme": "Foundation Day - Technical Setup + Research",
       "criticalTasks": [
         {
-          "task": "Finalize keyword targets for all 3 articles",
-          "agent": "seo-strategist",
-          "output": "src/data/seo-strategy.json",
-          "timeEstimate": "2 hours"
+          "task": "Allow AI crawlers in robots.txt (GPTBot, PerplexityBot, ClaudeBot)",
+          "agent": "team-coordinator",
+          "priority": "critical",
+          "timeEstimate": "5 minutes",
+          "rationale": "Future-proofs for AI training data inclusion + current AI search citations"
         },
         {
-          "task": "Create content briefs for all 3 articles",
+          "task": "Begin Reddit daily participation (r/sauna, r/coldshowers)",
+          "agent": "reddit-scout",
+          "priority": "critical",
+          "timeEstimate": "30 min",
+          "rationale": "Reddit dominates AI citations (Perplexity 6.6%, ChatGPT 11.3%)"
+        },
+        {
+          "task": "Create content briefs for all 4 articles",
           "agent": "content-writer",
-          "output": "src/data/content-briefs.json",
+          "priority": "high",
           "timeEstimate": "2 hours"
-        },
-        {
-          "task": "Draft 30-Day Sauna Challenge structure and email sequence outline",
-          "agent": "newsletter-strategist",
-          "output": "src/data/challenge-plan.json",
-          "timeEstimate": "3 hours"
         }
       ],
       "founderTasks": [
-        "Confirm Beehiiv account is set up and API keys configured",
-        "Review and approve challenge structure",
-        "Set up Google Analytics and Search Console if not done"
+        "Verify Beehiiv account and API integration working",
+        "Review and approve content calendar priorities",
+        "Set up Google Search Console indexing for new pages"
       ]
     },
-    "friday_dec20": {
-      "theme": "Sauna Blanket Gift Guide PUBLISH DAY",
+    "friday_jan17": {
+      "theme": "Trust-Building Day - Myth-Busting Content",
       "criticalTasks": [
         {
-          "task": "Write complete Sauna Blanket Gift Guide (2000+ words)",
+          "task": "Write 'Sauna Weight Loss Myth: The Brutal Truth' article (1,500 words)",
           "agent": "content-writer",
-          "output": "src/content/guides/sauna-blanket-gift-guide.mdx",
+          "priority": "critical",
           "timeEstimate": "4 hours",
-          "priority": "CRITICAL"
+          "rationale": "HUGE trust-builder. High search volume. Competitors overpromise, we tell truth.",
+          "keyPoints": [
+            "Water weight loss (1-3 lbs) returns in 24h",
+            "Burns only 50-100 calories (less than walking)",
+            "Does NOT burn fat",
+            "What sauna actually does (real benefits)"
+          ],
+          "cta": "Honest, no-BS health insights every Thursday"
         },
         {
-          "task": "Create 3 image prompts for gift guide",
+          "task": "Create quote graphics batch (20 images) for Pinterest/Instagram",
           "agent": "image-creator",
-          "output": "src/data/image-prompts.json",
-          "timeEstimate": "1 hour"
+          "priority": "medium",
+          "timeEstimate": "2 hours",
+          "quotes": [
+            "There's a room with no notifications. Just heat. Silence. Breath.",
+            "Close the door. Let everything go.",
+            "The sauna is not a hack - it's a practice."
+          ]
         },
         {
-          "task": "Optimize page SEO and add structured data",
-          "agent": "seo-strategist",
-          "timeEstimate": "1 hour"
-        },
-        {
-          "task": "Create social share assets",
-          "agent": "social-manager",
-          "timeEstimate": "1 hour"
-        }
-      ],
-      "founderTasks": [
-        "Review and publish gift guide article",
-        "Share to personal social accounts",
-        "Submit to Google Search Console for indexing"
-      ]
-    },
-    "saturday_dec21": {
-      "theme": "30-Day Challenge Launch",
-      "criticalTasks": [
-        {
-          "task": "Build 30-Day Challenge landing page",
-          "agent": "growth-hacker",
-          "output": "src/app/challenge/page.tsx",
-          "timeEstimate": "3 hours"
-        },
-        {
-          "task": "Write challenge welcome email sequence (5 emails)",
-          "agent": "newsletter-strategist",
-          "output": "src/data/challenge-emails.json",
-          "timeEstimate": "3 hours"
-        },
-        {
-          "task": "Create challenge social promotion content",
-          "agent": "social-manager",
-          "output": "src/data/social-calendar.json",
-          "timeEstimate": "2 hours"
-        },
-        {
-          "task": "Reddit value bombing - post helpful sauna tips in relevant subreddits",
+          "task": "Reddit value bombing - answer 5 beginner questions with depth",
           "agent": "reddit-scout",
-          "timeEstimate": "1 hour"
-        }
-      ],
-      "founderTasks": [
-        "Set up Beehiiv automation for challenge sequence",
-        "Test signup flow end-to-end",
-        "Post challenge announcement to personal Reddit account"
-      ]
-    },
-    "sunday_dec22": {
-      "theme": "Contrast Therapy Content Day",
-      "criticalTasks": [
-        {
-          "task": "Write Contrast Therapy Protocol guide (2500+ words)",
-          "agent": "content-writer",
-          "output": "src/content/guides/contrast-therapy-protocol.mdx",
-          "timeEstimate": "5 hours"
-        },
-        {
-          "task": "Create Huberman/Attia protocol infographic prompts",
-          "agent": "image-creator",
-          "timeEstimate": "2 hours"
-        },
-        {
-          "task": "Draft TikTok script for contrast therapy explainer",
-          "agent": "social-manager",
-          "timeEstimate": "1 hour"
-        }
-      ],
-      "founderTasks": [
-        "Review and publish contrast therapy article",
-        "Record TikTok video if possible (huge opportunity)"
-      ]
-    },
-    "monday_dec23": {
-      "theme": "Benefits Guide + Social Push",
-      "criticalTasks": [
-        {
-          "task": "Write Sauna Benefits Ultimate Guide (3000+ words) - target 90.5K/mo keyword",
-          "agent": "content-writer",
-          "output": "src/content/guides/sauna-benefits.mdx",
-          "timeEstimate": "6 hours"
-        },
-        {
-          "task": "Create social content blitz for Christmas Eve",
-          "agent": "social-manager",
-          "timeEstimate": "2 hours"
-        },
-        {
-          "task": "Reddit engagement - answer questions, provide value",
-          "agent": "reddit-scout",
-          "timeEstimate": "1 hour"
-        }
-      ],
-      "founderTasks": [
-        "Engage with any comments/questions on published content",
-        "Prepare Christmas newsletter if sending"
-      ]
-    },
-    "tuesday_dec24": {
-      "theme": "Christmas Eve - Light Touch Day",
-      "criticalTasks": [
-        {
-          "task": "Publish Sauna Benefits guide",
-          "agent": "seo-strategist",
-          "timeEstimate": "1 hour"
-        },
-        {
-          "task": "Schedule social posts for Dec 25-26",
-          "agent": "social-manager",
-          "timeEstimate": "1 hour"
-        },
-        {
-          "task": "Send 'Last chance' email for 30-day challenge early bird",
-          "agent": "newsletter-strategist",
+          "priority": "high",
           "timeEstimate": "30 min"
         }
       ],
       "founderTasks": [
-        "Review week metrics",
-        "Enjoy Christmas Eve - content is scheduled"
+        "Review and publish weight loss myth article",
+        "Share to personal social accounts",
+        "Begin affiliate partner outreach (email HigherDOSE, Plunge)"
       ]
     },
-    "wednesday_dec25": {
-      "theme": "Christmas Day - Automated Only",
+    "saturday_jan18": {
+      "theme": "Lead Magnet Day - Contrast Therapy Protocol",
       "criticalTasks": [
         {
-          "task": "Pre-scheduled social posts go live",
-          "agent": "social-manager",
-          "status": "automated"
+          "task": "Write 'Complete Contrast Therapy Protocol' guide (2,500 words)",
+          "agent": "content-writer",
+          "priority": "critical",
+          "timeEstimate": "5 hours",
+          "rationale": "THE trending topic of January 2026. Creates immediate authority.",
+          "sections": [
+            "Science: What alternating temperatures does to body (dopamine +250%)",
+            "Protocol: 2-3 cycles of 12-15min sauna + 30sec-5min cold",
+            "Safety: Gradual transitions, medical considerations",
+            "Home setup: Options from cold shower to dedicated plunge",
+            "The practice: Framing as ritual, not optimization"
+          ],
+          "tone": "Social wellness angle, NOT biohacking optimization"
+        },
+        {
+          "task": "Design Contrast Therapy PDF lead magnet (15-page premium PDF)",
+          "agent": "image-creator",
+          "priority": "critical",
+          "timeEstimate": "4 hours",
+          "deliverable": "Downloadable PDF with protocols, safety, equipment recs"
+        },
+        {
+          "task": "Build lead magnet landing page with email capture",
+          "agent": "growth-hacker",
+          "priority": "critical",
+          "timeEstimate": "3 hours"
         }
       ],
       "founderTasks": [
-        "Day off - enjoy Christmas",
-        "Check metrics briefly if curious"
+        "Review contrast therapy content for accuracy",
+        "Test lead magnet signup flow end-to-end",
+        "Contact SereneLife for affiliate partnership"
+      ]
+    },
+    "sunday_jan19": {
+      "theme": "Seasonal Content Day - Dry January Pairing",
+      "criticalTasks": [
+        {
+          "task": "Write 'Why Sauna and Dry January Just Make Sense' article (1,500 words)",
+          "agent": "content-writer",
+          "priority": "critical",
+          "timeEstimate": "4 hours",
+          "rationale": "January 19 - still prime Dry January window. Timely seasonal content.",
+          "deadline": "MUST publish by Jan 20 - window closing",
+          "tone": "Permission-giving, not preachy. Synergy, not restriction."
+        },
+        {
+          "task": "Create social content for Dry January article",
+          "agent": "social-manager",
+          "priority": "high",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Reddit engagement - share contrast therapy guide where helpful",
+          "agent": "reddit-scout",
+          "priority": "high",
+          "timeEstimate": "30 min"
+        }
       ],
-      "note": "All content should be pre-scheduled. This is a rest day."
+      "founderTasks": [
+        "Review and publish Dry January article",
+        "Share to personal social accounts",
+        "Check lead magnet conversion metrics"
+      ]
+    },
+    "monday_jan20": {
+      "theme": "Newsletter Launch Day",
+      "criticalTasks": [
+        {
+          "task": "Write first Thursday newsletter edition for Jan 23",
+          "agent": "newsletter-strategist",
+          "priority": "critical",
+          "timeEstimate": "4 hours",
+          "sections": {
+            "whyHeatHeals": "The science of contrast therapy - dopamine +250%, circulation, inflammation",
+            "whereToFindIt": "Feature: Bywater Sauna Seattle + 3 home setup options",
+            "fiveMinutesOfStillness": "The moment between hot and cold - where the practice lives"
+          },
+          "subjectLine": "the hot-cold ritual everyone's trying (and how to start)"
+        },
+        {
+          "task": "Set up Beehiiv welcome email sequence (7 emails)",
+          "agent": "newsletter-strategist",
+          "priority": "high",
+          "timeEstimate": "3 hours"
+        },
+        {
+          "task": "Daily Reddit participation + content mining",
+          "agent": "reddit-scout",
+          "priority": "high",
+          "timeEstimate": "30 min"
+        }
+      ],
+      "founderTasks": [
+        "Review newsletter draft for brand voice alignment",
+        "Schedule newsletter for Thursday Jan 23 send",
+        "Check affiliate partnership responses"
+      ]
+    },
+    "tuesday_jan21": {
+      "theme": "Destination Content Day - Finland Focus",
+      "criticalTasks": [
+        {
+          "task": "Write 'World Sauna Forum 2026: Why June Is THE Time to Visit Finland' (1,800 words)",
+          "agent": "content-writer",
+          "priority": "high",
+          "timeEstimate": "4 hours",
+          "rationale": "Early bird registration ends Jan 31. Position as insider voice.",
+          "deadline": "Publish before Jan 28 for early bird deadline push"
+        },
+        {
+          "task": "Create destination imagery prompts for Finland content",
+          "agent": "image-creator",
+          "priority": "medium",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Update social calendar for week 2",
+          "agent": "social-manager",
+          "priority": "medium",
+          "timeEstimate": "1 hour"
+        }
+      ],
+      "founderTasks": [
+        "Register for World Sauna Forum 2026 (early bird deadline Jan 31)",
+        "Send media partnership inquiry to Forum organizers",
+        "Reach out to Visit Finland tourism board"
+      ]
+    },
+    "wednesday_jan22": {
+      "theme": "Review + Optimization Day",
+      "criticalTasks": [
+        {
+          "task": "Analyze week 1 metrics and adjust strategy",
+          "agent": "team-coordinator",
+          "priority": "high",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Optimize published articles based on Search Console data",
+          "agent": "seo-strategist",
+          "priority": "medium",
+          "timeEstimate": "2 hours"
+        },
+        {
+          "task": "Plan week 2 content priorities",
+          "agent": "team-coordinator",
+          "priority": "high",
+          "timeEstimate": "1 hour"
+        },
+        {
+          "task": "Reddit daily participation",
+          "agent": "reddit-scout",
+          "priority": "high",
+          "timeEstimate": "30 min"
+        }
+      ],
+      "founderTasks": [
+        "Review week metrics in Beehiiv + GA4",
+        "Approve week 2 content plan",
+        "Follow up on pending affiliate partnerships"
+      ]
     }
   },
 
-  "agentTasks": [
+  "contentToProduce": [
     {
-      "id": "seo-001",
-      "agent": "seo-strategist",
-      "task": "Create comprehensive keyword strategy for all 3 articles plus challenge page",
-      "priority": 1,
-      "dueBy": "Thursday Dec 19",
-      "status": "pending",
-      "output": "src/data/seo-strategy.json",
-      "details": {
-        "articles": [
-          { "topic": "sauna blanket gift guide", "primaryKW": "sauna blanket gift", "volume": "2.4K" },
-          { "topic": "contrast therapy protocol", "primaryKW": "contrast therapy", "volume": "8.1K" },
-          { "topic": "sauna benefits", "primaryKW": "sauna benefits", "volume": "90.5K" }
-        ]
-      }
+      "title": "The Truth About Sauna and Weight Loss (Brutal Honesty)",
+      "type": "article",
+      "deadline": "2026-01-17",
+      "priority": "critical",
+      "agent": "content-writer",
+      "wordCount": 1500,
+      "targetKeyword": "sauna weight loss",
+      "rationale": "Trust-builder through honesty. High search volume. Featured snippet opportunity.",
+      "cta": "Honest health insights every Thursday - Step inside"
     },
+    {
+      "title": "The Complete Contrast Therapy Protocol (Sauna + Cold Plunge)",
+      "type": "article + lead magnet",
+      "deadline": "2026-01-18",
+      "priority": "critical",
+      "agent": "content-writer + image-creator",
+      "wordCount": 2500,
+      "targetKeyword": "contrast therapy protocol",
+      "rationale": "THE trending topic of January 2026. Creates immediate authority and list growth.",
+      "leadMagnet": "15-page PDF with protocols, safety, equipment recommendations"
+    },
+    {
+      "title": "Why Sauna and Dry January Just Make Sense",
+      "type": "article",
+      "deadline": "2026-01-19",
+      "priority": "critical",
+      "agent": "content-writer",
+      "wordCount": 1500,
+      "targetKeyword": "sauna dry january",
+      "rationale": "Seasonal window closing. Timely pairing content.",
+      "urgency": "MUST publish by Jan 20"
+    },
+    {
+      "title": "World Sauna Forum 2026: Why June Is THE Time to Visit Finland",
+      "type": "article",
+      "deadline": "2026-01-21",
+      "priority": "high",
+      "agent": "content-writer",
+      "wordCount": 1800,
+      "targetKeyword": "world sauna forum 2026",
+      "rationale": "Early bird ends Jan 31. Position as insider voice on THE sauna event of 2026.",
+      "cta": "Early bird registration + newsletter for updates"
+    },
+    {
+      "title": "First Newsletter Edition: The Hot-Cold Ritual",
+      "type": "newsletter",
+      "deadline": "2026-01-23",
+      "priority": "critical",
+      "agent": "newsletter-strategist",
+      "format": {
+        "whyHeatHeals": "Contrast therapy science (accessible, not technical)",
+        "whereToFindIt": "Community spaces + home setup options",
+        "fiveMinutesOfStillness": "The threshold moment between hot and cold"
+      },
+      "subjectLine": "the hot-cold ritual everyone's trying (and how to start)"
+    }
+  ],
+
+  "topPriorities": [
+    {
+      "rank": 1,
+      "priority": "Launch Contrast Therapy Lead Magnet",
+      "why": "Highest momentum trend of 2026. Captures New Year wellness surge. Foundation for list growth.",
+      "deadline": "January 18",
+      "successMetric": "100 downloads in first week, 50+ email signups",
+      "owner": "content-writer + image-creator + growth-hacker"
+    },
+    {
+      "rank": 2,
+      "priority": "Publish Myth-Busting Content (Weight Loss)",
+      "why": "HUGE trust-building opportunity. Competitors overpromise, we tell truth. Featured snippet potential.",
+      "deadline": "January 17",
+      "successMetric": "500+ organic visits in month 1, 100+ signups (20% conversion)",
+      "owner": "content-writer + seo-strategist"
+    },
+    {
+      "rank": 3,
+      "priority": "Establish Reddit Presence",
+      "why": "Reddit dominates AI citations. Authentic presence = future discovery engine. Content idea goldmine.",
+      "deadline": "Ongoing from today",
+      "successMetric": "Recognized helpful member in r/sauna, 50+ karma from helpful answers",
+      "owner": "reddit-scout"
+    }
+  ],
+
+  "founderActions": [
+    {
+      "id": "f-001",
+      "task": "Allow AI crawlers in robots.txt",
+      "priority": "critical",
+      "deadline": "January 16 (TODAY)",
+      "timeEstimate": "5 minutes",
+      "context": "Add GPTBot, PerplexityBot, ClaudeBot to allowed bots. Future-proofs for AI training data.",
+      "howTo": "Edit public/robots.txt or next.config.js robots configuration"
+    },
+    {
+      "id": "f-002",
+      "task": "Verify Beehiiv integration is working",
+      "priority": "critical",
+      "deadline": "January 16",
+      "timeEstimate": "15 minutes",
+      "context": "Lead magnet signups cannot work without this. Test signup flow end-to-end."
+    },
+    {
+      "id": "f-003",
+      "task": "Contact affiliate partners (HigherDOSE, Plunge, SereneLife)",
+      "priority": "critical",
+      "deadline": "January 17",
+      "timeEstimate": "1 hour",
+      "context": "January is peak buying season. Need partnerships ready before publishing buyer content.",
+      "emailTemplate": "Hi [Name], I write Sauna Guide - a weekly newsletter about sauna culture and science. I'm publishing a contrast therapy guide this week and would love to include [Product] as a recommended option. Would you be open to an affiliate partnership? Our audience is [description]. Let me know if you're interested!"
+    },
+    {
+      "id": "f-004",
+      "task": "Register for World Sauna Forum 2026",
+      "priority": "high",
+      "deadline": "January 31 (early bird deadline)",
+      "timeEstimate": "30 minutes",
+      "context": "Finland is THE sauna story of 2026. Early bird saves 200 EUR. Media partnership potential.",
+      "website": "worldsaunaforum.com"
+    },
+    {
+      "id": "f-005",
+      "task": "Reach out to Visit Finland tourism board",
+      "priority": "high",
+      "deadline": "January 22",
+      "timeEstimate": "30 minutes",
+      "context": "Potential content partnership for June coverage. Position as authentic cultural voice.",
+      "pitchAngle": "I run Sauna Guide, covering Finnish sauna culture for an international audience. Planning extensive coverage of World Sauna Forum in June. Open to partnership?"
+    },
+    {
+      "id": "f-006",
+      "task": "Review and approve all content before publishing",
+      "priority": "critical",
+      "deadline": "Each publish date",
+      "timeEstimate": "30 min per article",
+      "context": "Quick review for brand voice alignment, accuracy, and CTA placement."
+    },
+    {
+      "id": "f-007",
+      "task": "Decision: TikTok launch timing",
+      "priority": "medium",
+      "deadline": "January 22",
+      "context": "No dominant sauna creator on TikTok yet - first-mover advantage. Contrast therapy how-to content performs well. Decision needed: launch now or wait until content library established?",
+      "options": [
+        "Launch this month with contrast therapy series",
+        "Wait until February after content foundation is solid",
+        "Skip TikTok entirely, focus on written content"
+      ]
+    }
+  ],
+
+  "successMetrics": [
+    {
+      "metric": "Newsletter Signups",
+      "target": 100,
+      "stretch": 200,
+      "tracking": "Beehiiv dashboard",
+      "checkFrequency": "daily"
+    },
+    {
+      "metric": "Lead Magnet Downloads",
+      "target": 100,
+      "tracking": "Landing page conversion",
+      "checkFrequency": "daily"
+    },
+    {
+      "metric": "Organic Traffic",
+      "target": 500,
+      "tracking": "Google Analytics",
+      "checkFrequency": "daily"
+    },
+    {
+      "metric": "Reddit Engagement",
+      "target": "50+ karma from r/sauna participation",
+      "tracking": "Reddit profile",
+      "checkFrequency": "weekly"
+    },
+    {
+      "metric": "Featured Snippets",
+      "target": "1 snippet (weight loss myth)",
+      "tracking": "Manual search testing",
+      "checkFrequency": "weekly"
+    }
+  ],
+
+  "risks": [
+    {
+      "risk": "Dry January window closes before content published",
+      "severity": "high",
+      "mitigation": "Prioritize Dry January article for Sunday Jan 19 publication at latest",
+      "owner": "content-writer"
+    },
+    {
+      "risk": "Lead magnet technical issues prevent signups",
+      "severity": "critical",
+      "mitigation": "Test end-to-end before launch. Have backup plan (simple Typeform/Google Form)",
+      "owner": "Founder"
+    },
+    {
+      "risk": "Affiliate partnerships not secured in time",
+      "severity": "medium",
+      "mitigation": "Publish contrast therapy guide without affiliate links if needed. Add later.",
+      "owner": "Founder"
+    },
+    {
+      "risk": "Reddit spam perception if promotional",
+      "severity": "high",
+      "mitigation": "Pure value-giving for first 2 weeks. No links unless genuinely helpful. Read community norms first.",
+      "owner": "reddit-scout"
+    },
+    {
+      "risk": "Content quality suffers from speed",
+      "severity": "medium",
+      "mitigation": "Depth over breadth. 4 great articles > 6 mediocre ones. Brand voice review before publish.",
+      "owner": "content-writer + Founder"
+    }
+  ],
+
+  "agentTasks": [
     {
       "id": "cw-001",
       "agent": "content-writer",
-      "task": "Write Sauna Blanket Gift Guide - 2000+ words, affiliate-ready",
+      "task": "Write 'Sauna Weight Loss Myth' article (1,500 words)",
       "priority": 1,
-      "dueBy": "Friday Dec 20 EOD",
+      "dueBy": "Friday Jan 17",
       "status": "pending",
-      "output": "src/content/guides/sauna-blanket-gift-guide.mdx",
-      "requirements": [
-        "Target keyword: sauna blanket gift",
-        "Include top 5 sauna blanket recommendations",
-        "Price comparison table",
-        "Pros/cons for each",
-        "Newsletter CTA at end",
-        "FAQ section for featured snippets"
-      ]
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/content/guides/sauna-weight-loss-myth.mdx"
     },
     {
       "id": "cw-002",
       "agent": "content-writer",
-      "task": "Write Contrast Therapy Protocol Guide - 2500+ words",
-      "priority": 2,
-      "dueBy": "Sunday Dec 22 EOD",
+      "task": "Write 'Contrast Therapy Protocol' guide (2,500 words)",
+      "priority": 1,
+      "dueBy": "Saturday Jan 18",
       "status": "pending",
-      "output": "src/content/guides/contrast-therapy-protocol.mdx",
-      "requirements": [
-        "Huberman Lab protocol breakdown",
-        "Andrew Attia recommendations",
-        "Beginner-friendly progression",
-        "Safety warnings",
-        "Scientific citations",
-        "Newsletter CTA"
-      ]
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/content/guides/contrast-therapy-protocol.mdx"
     },
     {
       "id": "cw-003",
       "agent": "content-writer",
-      "task": "Write Sauna Benefits Ultimate Guide - 3000+ words cornerstone content",
-      "priority": 3,
-      "dueBy": "Monday Dec 23 EOD",
+      "task": "Write 'Dry January + Sauna' article (1,500 words)",
+      "priority": 1,
+      "dueBy": "Sunday Jan 19",
       "status": "pending",
-      "output": "src/content/guides/sauna-benefits.mdx",
-      "requirements": [
-        "Target: 'sauna benefits' (90.5K/mo)",
-        "Comprehensive benefit categories",
-        "Scientific backing for each claim",
-        "Comparison chart by sauna type",
-        "Internal links to other guides",
-        "Strong newsletter CTA"
-      ]
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/content/guides/sauna-dry-january.mdx"
     },
     {
-      "id": "gh-001",
-      "agent": "growth-hacker",
-      "task": "Build 30-Day Sauna Challenge landing page and signup flow",
-      "priority": 1,
-      "dueBy": "Saturday Dec 21 EOD",
+      "id": "cw-004",
+      "agent": "content-writer",
+      "task": "Write 'World Sauna Forum 2026' preview (1,800 words)",
+      "priority": 2,
+      "dueBy": "Tuesday Jan 21",
       "status": "pending",
-      "output": "src/app/challenge/page.tsx",
-      "requirements": [
-        "Compelling headline and value prop",
-        "Day-by-day challenge preview",
-        "Beehiiv signup form integration",
-        "Social proof section (add as we get signups)",
-        "Urgency: 'Starts Jan 1' countdown",
-        "Mobile-optimized"
-      ]
-    },
-    {
-      "id": "ns-001",
-      "agent": "newsletter-strategist",
-      "task": "Create 30-Day Challenge email sequence and structure",
-      "priority": 1,
-      "dueBy": "Saturday Dec 21 EOD",
-      "status": "pending",
-      "output": "src/data/challenge-plan.json",
-      "requirements": [
-        "30 daily emails with progressive difficulty",
-        "Week 1: Foundation (basic sauna sessions)",
-        "Week 2: Technique (breathing, temperature)",
-        "Week 3: Enhancement (cold plunge, contrast)",
-        "Week 4: Lifestyle integration",
-        "Bonus content for completion"
-      ]
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/content/guides/world-sauna-forum-2026.mdx"
     },
     {
       "id": "ic-001",
       "agent": "image-creator",
-      "task": "Create NanoBanana prompts for all content pieces",
-      "priority": 2,
-      "dueBy": "Friday Dec 20",
+      "task": "Design Contrast Therapy PDF lead magnet (15 pages)",
+      "priority": 1,
+      "dueBy": "Saturday Jan 18",
       "status": "pending",
-      "output": "src/data/image-prompts.json",
-      "requirements": [
-        "Gift guide hero image",
-        "Sauna blanket product-style images",
-        "Contrast therapy infographic",
-        "Benefits guide hero",
-        "Challenge landing page hero"
-      ]
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/public/downloads/contrast-therapy-protocol.pdf"
     },
     {
-      "id": "sm-001",
-      "agent": "social-manager",
-      "task": "Create full week social content calendar",
+      "id": "ic-002",
+      "agent": "image-creator",
+      "task": "Create 20 brand quote graphics for Pinterest/Instagram",
       "priority": 2,
-      "dueBy": "Friday Dec 20",
+      "dueBy": "Friday Jan 17",
       "status": "pending",
-      "output": "src/data/social-calendar.json",
-      "requirements": [
-        "4 TikTok video concepts",
-        "Daily Instagram/Twitter posts",
-        "Challenge promotion content",
-        "Christmas-themed sauna content",
-        "New Year preview posts"
-      ]
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/public/images/social/"
+    },
+    {
+      "id": "gh-001",
+      "agent": "growth-hacker",
+      "task": "Build contrast therapy lead magnet landing page",
+      "priority": 1,
+      "dueBy": "Saturday Jan 18",
+      "status": "pending",
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/app/contrast-therapy/page.tsx"
+    },
+    {
+      "id": "ns-001",
+      "agent": "newsletter-strategist",
+      "task": "Write first newsletter edition for Jan 23",
+      "priority": 1,
+      "dueBy": "Monday Jan 20",
+      "status": "pending",
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/data/newsletter-edition-001.json"
+    },
+    {
+      "id": "ns-002",
+      "agent": "newsletter-strategist",
+      "task": "Create 7-email welcome sequence",
+      "priority": 2,
+      "dueBy": "Monday Jan 20",
+      "status": "pending",
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/data/welcome-sequence.json"
     },
     {
       "id": "rs-001",
       "agent": "reddit-scout",
-      "task": "Daily Reddit value bombing - 30 min/day",
-      "priority": 3,
-      "dueBy": "Daily",
+      "task": "Daily Reddit participation (30 min/day) - r/sauna, r/coldshowers",
+      "priority": 1,
+      "dueBy": "Daily ongoing",
       "status": "ongoing",
-      "output": "src/data/reddit-insights.json",
-      "subreddits": [
-        "r/Sauna",
-        "r/BecomingTheIceman",
-        "r/Biohackers",
-        "r/coldshowers",
-        "r/hubermanlab"
-      ],
-      "approach": "Provide genuine value first, subtle mention of guide only when truly helpful"
+      "approach": "Pure value-giving. No links unless genuinely helpful. Learn community norms first."
     },
     {
-      "id": "ta-001",
-      "agent": "trend-analyst",
-      "task": "Monitor trends for rapid response opportunities",
-      "priority": 3,
-      "dueBy": "Ongoing",
-      "status": "ongoing",
-      "output": "src/data/trend-report.json",
-      "watchItems": [
-        "Celebrity sauna mentions",
-        "Viral sauna TikToks",
-        "Health podcast episodes on sauna",
-        "News about sauna studies"
-      ]
+      "id": "seo-001",
+      "agent": "seo-strategist",
+      "task": "Add Article and FAQ schema to all new guides",
+      "priority": 2,
+      "dueBy": "Saturday Jan 18",
+      "status": "pending"
+    },
+    {
+      "id": "sm-001",
+      "agent": "social-manager",
+      "task": "Create social content calendar for week 1",
+      "priority": 2,
+      "dueBy": "Friday Jan 17",
+      "status": "pending",
+      "output": "/Users/d/Desktop/Egna Appar/Projekt/sauna-guide/src/data/social-calendar.json"
     }
   ],
-
-  "founderTasks": [
-    {
-      "id": "f-001",
-      "task": "Verify Beehiiv setup is complete with API integration",
-      "priority": 1,
-      "dueBy": "Thursday Dec 19",
-      "context": "Challenge signups cannot work without this. Check .env has BEEHIIV_API_KEY and BEEHIIV_PUBLICATION_ID",
-      "timeEstimate": "30 min"
-    },
-    {
-      "id": "f-002",
-      "task": "Set up Google Analytics 4 and Search Console",
-      "priority": 1,
-      "dueBy": "Thursday Dec 19",
-      "context": "Need tracking before we publish content to measure success",
-      "timeEstimate": "1 hour"
-    },
-    {
-      "id": "f-003",
-      "task": "Review and approve 30-Day Challenge structure",
-      "priority": 1,
-      "dueBy": "Friday Dec 20",
-      "context": "Newsletter strategist will prepare plan - you need to approve before we build landing page",
-      "timeEstimate": "30 min"
-    },
-    {
-      "id": "f-004",
-      "task": "Final review and publish gift guide article",
-      "priority": 1,
-      "dueBy": "Friday Dec 20 EOD",
-      "context": "Time-sensitive for holiday shoppers. Quick review, then publish.",
-      "timeEstimate": "30 min"
-    },
-    {
-      "id": "f-005",
-      "task": "Decision: Will you record TikTok videos?",
-      "priority": 2,
-      "dueBy": "Friday Dec 20",
-      "context": "Contrast therapy is viral on TikTok (50M+ views). Personal videos perform 10x better than generic content. This could be a growth accelerator.",
-      "options": [
-        "Yes - record 1-2 min explainer videos",
-        "No - focus on written content only",
-        "Maybe later - revisit in January"
-      ]
-    },
-    {
-      "id": "f-006",
-      "task": "Test challenge signup flow end-to-end",
-      "priority": 1,
-      "dueBy": "Saturday Dec 21",
-      "context": "Sign up yourself, verify email arrives, check automation triggers",
-      "timeEstimate": "15 min"
-    },
-    {
-      "id": "f-007",
-      "task": "Post challenge announcement to Reddit (personal account)",
-      "priority": 2,
-      "dueBy": "Saturday Dec 21",
-      "context": "r/Sauna allows self-promotion if you're an active community member. Frame as 'free challenge I'm running' not 'sign up for my newsletter'",
-      "timeEstimate": "20 min"
-    },
-    {
-      "id": "f-008",
-      "task": "Share gift guide to personal social networks",
-      "priority": 2,
-      "dueBy": "Friday Dec 20",
-      "context": "First content needs initial boost. Personal shares drive early traffic and social signals.",
-      "timeEstimate": "15 min"
-    }
-  ],
-
-  "contentCalendar": {
-    "week1": [
-      {
-        "date": "2024-12-20",
-        "type": "article",
-        "title": "The Ultimate Sauna Blanket Gift Guide 2024",
-        "status": "scheduled",
-        "primaryKeyword": "sauna blanket gift",
-        "targetWordCount": 2000,
-        "newsletterCTA": true
-      },
-      {
-        "date": "2024-12-21",
-        "type": "landing-page",
-        "title": "30-Day Sauna Challenge - Transform Your Health in 2025",
-        "status": "scheduled",
-        "goal": "email-signups"
-      },
-      {
-        "date": "2024-12-22",
-        "type": "article",
-        "title": "The Complete Contrast Therapy Protocol: Sauna + Cold Plunge Guide",
-        "status": "scheduled",
-        "primaryKeyword": "contrast therapy protocol",
-        "targetWordCount": 2500,
-        "newsletterCTA": true
-      },
-      {
-        "date": "2024-12-23",
-        "type": "article",
-        "title": "21 Science-Backed Sauna Benefits (Complete Guide)",
-        "status": "scheduled",
-        "primaryKeyword": "sauna benefits",
-        "targetWordCount": 3000,
-        "newsletterCTA": true
-      }
-    ]
-  },
-
-  "kpis": {
-    "primary": [
-      {
-        "metric": "Newsletter Signups",
-        "target": 100,
-        "stretch": 200,
-        "tracking": "Beehiiv dashboard",
-        "checkFrequency": "daily"
-      },
-      {
-        "metric": "30-Day Challenge Signups",
-        "target": 50,
-        "stretch": 100,
-        "tracking": "Beehiiv segment",
-        "checkFrequency": "daily"
-      }
-    ],
-    "secondary": [
-      {
-        "metric": "Organic Traffic",
-        "target": 500,
-        "tracking": "Google Analytics",
-        "checkFrequency": "daily"
-      },
-      {
-        "metric": "Article Pageviews",
-        "target": 1000,
-        "tracking": "Google Analytics",
-        "checkFrequency": "daily"
-      },
-      {
-        "metric": "Reddit Upvotes/Engagement",
-        "target": "50 upvotes across posts",
-        "tracking": "Manual",
-        "checkFrequency": "daily"
-      }
-    ],
-    "lagging": [
-      {
-        "metric": "Search Rankings",
-        "target": "Page 1 for 'sauna blanket gift'",
-        "tracking": "Google Search Console",
-        "checkFrequency": "weekly",
-        "note": "May take 1-2 weeks to see movement"
-      }
-    ]
-  },
-
-  "criticalPath": [
-    {
-      "blocker": "Beehiiv not configured",
-      "impact": "Cannot collect any email signups",
-      "resolution": "Founder must set up Beehiiv and add API keys to .env",
-      "owner": "Founder",
-      "deadline": "Dec 19 EOD"
-    },
-    {
-      "blocker": "No analytics tracking",
-      "impact": "Cannot measure content performance or optimize",
-      "resolution": "Set up GA4 and Search Console",
-      "owner": "Founder",
-      "deadline": "Dec 19 EOD"
-    },
-    {
-      "blocker": "Gift guide not published by Dec 20",
-      "impact": "Miss peak holiday shopping window",
-      "resolution": "Prioritize above all else - this is time-sensitive",
-      "owner": "content-writer + Founder",
-      "deadline": "Dec 20 EOD"
-    },
-    {
-      "blocker": "Challenge page not live by Dec 21",
-      "impact": "Lose 4 days of signup momentum before Jan 1",
-      "resolution": "Keep scope minimal - landing page + signup form only",
-      "owner": "growth-hacker + Founder",
-      "deadline": "Dec 21 EOD"
-    }
-  ],
-
-  "riskMitigation": {
-    "lowContentQuality": {
-      "risk": "Rushing content leads to thin, unhelpful articles",
-      "mitigation": "Focus on depth over breadth. 3 great articles > 5 mediocre ones."
-    },
-    "technicalIssues": {
-      "risk": "Beehiiv integration fails, forms don't work",
-      "mitigation": "Test early, have backup plan (simple Typeform or Google Form)"
-    },
-    "burnout": {
-      "risk": "Holiday week is exhausting, momentum dies",
-      "mitigation": "Front-load work Thu-Sat, light touch Sun-Tue, rest Wed"
-    }
-  },
 
   "metrics": {
     "subscribersAdded": 0,
-    "challengeSignups": 0,
+    "leadMagnetDownloads": 0,
     "articleViews": 0,
     "organicTraffic": 0,
-    "redditEngagement": 0,
-    "socialFollowers": 0
+    "redditKarma": 0,
+    "newsletterOpenRate": 0,
+    "newsletterClickRate": 0
   },
 
-  "blockers": [
-    {
-      "issue": "Beehiiv setup status unknown",
-      "severity": "critical",
-      "action": "Founder to verify API keys are configured"
-    },
-    {
-      "issue": "Analytics not confirmed",
-      "severity": "high",
-      "action": "Founder to set up GA4 + Search Console"
-    }
-  ],
+  "blockers": [],
 
   "wins": [],
 
   "learnings": [],
 
   "nextWeekPreview": {
-    "dates": "Dec 26 - Jan 1",
-    "theme": "New Year Push",
+    "weekOf": "2026-01-23",
+    "theme": "Trust + Science Week",
     "priorities": [
-      "Heavy promotion of 30-Day Challenge (peak signup window)",
-      "New Year resolution content blitz",
-      "Blue Monday (Jan 6) content prep",
-      "First newsletter edition to all subscribers"
+      "Publish 'Sauna Detox Myth' (trust-building cluster)",
+      "Publish 'Sauna Before/After Workout' comparison",
+      "Launch Beehiiv referral program",
+      "First newsletter cross-promotion outreach",
+      "Continue Reddit daily engagement"
+    ],
+    "content": [
+      "Sauna Detox Myth article",
+      "Before/After Workout guide",
+      "Newsletter edition #2",
+      "NYC sauna local guide (local SEO)"
     ]
-  }
+  },
+
+  "quarterlyOutlook": {
+    "january2026": {
+      "theme": "Launch and Capture",
+      "goals": ["First newsletter live", "Contrast therapy lead magnet", "500 subscribers", "4 core guides published", "Affiliate partnerships active"]
+    },
+    "february2026": {
+      "theme": "Science and Trust",
+      "goals": ["1,500 subscribers", "Myth-busting content cluster", "First affiliate revenue", "30-Day Ritual Builder lead magnet"]
+    },
+    "march2026": {
+      "theme": "Destinations and Community",
+      "goals": ["2,500 subscribers", "TikTok launched", "First sponsorship conversation", "SparkLoop referral program live"]
+    }
+  },
+
+  "brandVoiceChecklist": [
+    "Does this create longing or anxiety?",
+    "Does this give permission or create pressure?",
+    "Would someone feel invited or sold to?",
+    "Is this atmospheric or just informational?",
+    "Could this line appear in a biohacking newsletter? (If yes, rewrite)"
+  ]
 }

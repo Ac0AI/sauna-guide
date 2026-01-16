@@ -1,0 +1,36 @@
+# Sauna Guide - robots.txt
+# Allow all search engines and AI crawlers
+
+User-agent: *
+Allow: /
+
+# Explicitly allow AI crawlers for citation visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap location
+Sitemap: https://saunaGuide.com/sitemap.xml

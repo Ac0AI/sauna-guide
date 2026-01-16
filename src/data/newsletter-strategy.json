@@ -1,940 +1,597 @@
 {
-  "updatedAt": "2025-12-19T10:30:00Z",
-  "strategyVersion": "1.0",
-  "currentPhase": 1,
-  "phaseName": "Foundation",
+  "updatedAt": "2026-01-16T10:00:00Z",
+  "strategyVersion": "2.0",
+  "previousVersion": "1.0 (2025-12-19)",
 
-  "targetPersonaSummary": {
-    "primaryPersona": "Marcus - The Performance-Driven Founder",
-    "ageRange": "38-52",
-    "income": "$300K-$2M+",
-    "occupation": "Tech founder, CEO, executive",
-    "influences": ["Huberman Lab", "Peter Attia", "Tim Ferriss", "Bryan Johnson"],
-    "budget": "$20K-$50K for home sauna setup",
-    "keyValues": ["optimization", "evidence-based", "quality over quantity", "time efficiency"],
-    "tonePreferences": {
-      "use": ["sophisticated", "data-driven", "exclusive", "protocol", "optimize", "ROI"],
-      "avoid": ["spa day", "self-care", "discount", "relax", "treat yourself", "budget"]
+  "currentPhase": {
+    "phase": 1,
+    "name": "Foundation",
+    "status": "Active - January 2026",
+    "assessment": "Perfect timing for launch. January 2026 represents peak sauna interest (40-50% above baseline), contrast therapy is exploding, and 'soft wellness' movement aligns perfectly with our brand voice. We are positioned to capture the New Year wellness surge.",
+    "keyOpportunity": "69.1% of wellness seekers want to try sauna in 2026 - highest ranked recovery practice. Capitalize NOW before Q1 ends."
+  },
+
+  "weeklyTheme": {
+    "edition": "Week of January 16, 2026",
+    "theme": "The Contrast Therapy Moment",
+    "headline": "Why Hot-Cold Practice Is 2026's Defining Wellness Ritual",
+    "rationale": [
+      "Contrast therapy is THE dominant trend in January 2026 - exploding from niche to mainstream",
+      "New Year wellness resolutions still active - perfect timing for accessible protocols",
+      "Aligns with soft wellness movement - position as practice and ritual, not optimization",
+      "High content gap - most guides assume wellness center access, we serve home practitioners"
+    ],
+    "newsletterSections": {
+      "whyHeatHeals": "The science of contrast therapy - what alternating hot and cold does to your body (dopamine +250%, circulation, inflammation). Frame as accessible science, not biohacking jargon.",
+      "whereToFindIt": "Feature: Bywater Sauna in Seattle - where community contrast therapy is creating belonging. Plus 3 home setup options for those without local access.",
+      "fiveMinutesOfStillness": "The moment between hot and cold - when the body adjusts, when the mind empties. This is where the practice lives."
+    },
+    "subjectLine": "the hot-cold ritual everyone's trying (and how to start)",
+    "cta": "Step inside. Your first contrast therapy guide awaits."
+  },
+
+  "contentCalendar": {
+    "nextFourEditions": [
+      {
+        "week": 1,
+        "date": "2026-01-16",
+        "theme": "Contrast Therapy Protocol",
+        "headline": "The Hot-Cold Practice: Your Complete Guide",
+        "whyHeatHeals": "Science of contrast therapy (accessible, not technical)",
+        "whereToFindIt": "Community contrast therapy spaces + home setup options",
+        "fiveMinutesOfStillness": "The threshold moment between hot and cold",
+        "leadMagnet": "Launch: Complete Contrast Therapy Protocol PDF",
+        "affiliateOpportunity": "Cold plunge tubs (Plunge, Ice Barrel), portable saunas"
+      },
+      {
+        "week": 2,
+        "date": "2026-01-23",
+        "theme": "The Dry January Pairing",
+        "headline": "Why Sauna and Dry January Just Make Sense",
+        "whyHeatHeals": "Heat + alcohol abstinence synergy - the science of stacked wellness practices",
+        "whereToFindIt": "Destination teaser: World Sauna Forum June 2026 (early bird ends Jan 31)",
+        "fiveMinutesOfStillness": "On clarity - what emerges when two things quiet down",
+        "affiliateOpportunity": "Hydration products, sauna accessories",
+        "urgency": "CRITICAL - still prime Dry January window"
+      },
+      {
+        "week": 3,
+        "date": "2026-01-30",
+        "theme": "The Beginner's Permission",
+        "headline": "Your First Sauna: It's Simpler Than You Think",
+        "whyHeatHeals": "Addressing first-time anxiety with empathy and science. 5-10 minutes is enough.",
+        "whereToFindIt": "Best first-timer friendly saunas by city",
+        "fiveMinutesOfStillness": "On permission - you don't have to be good at this",
+        "leadMagnet": "Promote: 30-Day Sauna Ritual Builder",
+        "brandVoiceAlignment": "Permission-giving is our competitive advantage"
+      },
+      {
+        "week": 4,
+        "date": "2026-02-06",
+        "theme": "The Science of Stillness",
+        "headline": "What Actually Happens When You Just... Stop",
+        "whyHeatHeals": "Mental health benefits - 78% psychosis risk reduction, depression treatment, stress response",
+        "whereToFindIt": "Sauna meditation spaces - where to find guided heat meditation",
+        "fiveMinutesOfStillness": "A guided sauna meditation (written, audio link)",
+        "affiliateOpportunity": "Meditation accessories, sauna aromatherapy",
+        "brandVoiceAlignment": "Core positioning - stillness as practice"
+      }
+    ],
+    "monthlyThemes": {
+      "january2026": "The New Ritual (not resolution) - contrast therapy, first-timers, permission",
+      "february2026": "The Science of Heat - cardiovascular, brain health, honest myth-busting",
+      "march2026": "Where to Find It - destinations, local guides, community spaces",
+      "april2026": "Building Your Practice - home setups, routines, spring renewal",
+      "may2026": "The Finnish Pilgrimage - World Sauna Forum preview, cultural deep-dive",
+      "june2026": "Live from Finland - World Sauna Forum coverage, Sauna Region Week dispatches"
     }
   },
 
-  "subscriberGoals": {
-    "current": 0,
-    "month1": 500,
-    "month3": 2500,
-    "month6": 8000,
-    "year1": 25000,
-    "year2": 75000,
-    "year3": 150000,
-    "milestone100K": "Month 30 (2.5 years)"
-  },
-
-  "revenueGoals": {
-    "year1": {
-      "target": 75000,
-      "breakdown": {
-        "affiliateCommissions": 50000,
-        "sponsorships": 15000,
-        "experiencePartnerships": 10000
-      }
-    },
-    "year2": {
-      "target": 350000,
-      "breakdown": {
-        "affiliateCommissions": 200000,
-        "sponsorships": 100000,
-        "experiencePartnerships": 35000,
-        "premiumContent": 15000
-      }
-    },
-    "year3": {
-      "target": 850000,
-      "breakdown": {
-        "affiliateCommissions": 400000,
-        "sponsorships": 300000,
-        "experiencePartnerships": 100000,
-        "premiumCommunity": 50000
-      }
-    }
-  },
-
-  "contentPillars": [
+  "leadMagnets": [
     {
-      "pillar": "Science of Heat",
-      "description": "Deep-dive into research on sauna benefits - heat shock proteins, cardiovascular improvements, cognitive enhancement, longevity markers",
-      "resonanceWithMarcus": "Feeds his need for evidence-based decision making. He wants to cite studies when explaining his sauna habit to peers.",
-      "contentTypes": ["Research breakdowns", "Podcast episode summaries", "Study comparisons", "Expert interviews"],
-      "frequencyPerMonth": 2,
-      "examples": [
-        "The 20-Year Finnish Study: What 2,315 Men Teach Us About Sauna and Heart Health",
-        "Heat Shock Proteins Explained: The Molecular Case for Regular Sauna",
-        "Huberman's Sauna Protocol Decoded: Why 4x/Week at 80-100C Works"
+      "name": "The Complete Contrast Therapy Protocol",
+      "type": "PDF guide",
+      "status": "Priority - create immediately",
+      "format": "15-page premium PDF",
+      "expectedConversion": "5-8%",
+      "description": "Everything you need to start a hot-cold practice. Protocol, safety, timing, home setup options.",
+      "contents": [
+        "The Science: What alternating temperatures does to your body (accessible, not jargon)",
+        "The Protocol: 2-3 cycles of 12-15min sauna + 30sec-5min cold, 2-3x/week",
+        "Safety First: Gradual transitions, medical considerations, when to stop",
+        "Home Setup: Options from cold shower to dedicated plunge (budget tiers)",
+        "The Practice: Framing as ritual, not optimization. End with what feels right."
+      ],
+      "brandVoiceAlignment": "Social wellness angle, NOT biohacking optimization",
+      "monetization": "Affiliate links to cold plunge tubs, portable saunas"
+    },
+    {
+      "name": "30-Day Sauna Ritual Builder",
+      "type": "Printable PDF tracker",
+      "status": "Create by end of January",
+      "format": "Printable daily prompts + reflection",
+      "expectedConversion": "6-8%",
+      "description": "A month of building your sauna practice. Daily prompts focused on experience, not metrics.",
+      "brandVoiceAlignment": "Practice focus, NOT optimization. No time/temp tracking - experience prompts only.",
+      "contents": [
+        "Week 1: Showing up (just get warm)",
+        "Week 2: Noticing (what does your body tell you?)",
+        "Week 3: Deepening (breathing, presence)",
+        "Week 4: Integrating (sauna as part of life)"
       ]
     },
     {
-      "pillar": "Optimal Protocols",
-      "description": "Specific, actionable protocols for different goals - recovery, cognition, sleep, longevity, competition prep",
-      "resonanceWithMarcus": "He optimizes everything. Give him exact temperatures, durations, frequencies, and stacking strategies.",
-      "contentTypes": ["Protocol cards", "Weekly schedules", "Stacking guides", "Seasonal adjustments"],
-      "frequencyPerMonth": 2,
-      "examples": [
-        "The Executive Recovery Stack: Sauna + Cold + HRV Optimization",
-        "Pre-Flight Protocol: Using Heat Stress to Minimize Jet Lag",
-        "The Sunday Reset: A 90-Minute Protocol for Peak Monday Performance"
-      ]
+      "name": "The Sauna Meditation Guide",
+      "type": "PDF + audio",
+      "status": "Create in February",
+      "format": "10-page guide + guided audio meditation",
+      "expectedConversion": "4-6%",
+      "description": "How to use sauna for meditation and mental stillness. Breathwork, body scan, totonou state.",
+      "brandVoiceAlignment": "Perfect - core positioning. Zero competition for this content."
     },
     {
-      "pillar": "Premium Equipment",
-      "description": "Curated reviews and comparisons of high-end sauna equipment - from heaters to full installations",
-      "resonanceWithMarcus": "He wants someone to tell him what the best is so he can buy it without weeks of research.",
-      "contentTypes": ["Comparison guides", "Brand deep-dives", "Installation case studies", "Expert recommendations"],
-      "frequencyPerMonth": 1,
-      "examples": [
-        "Clearlight vs Sunlighten: The $15K Infrared Decision, Decided",
-        "HUUM vs Harvia: Which Nordic Heater Deserves Your Backyard",
-        "The $50K Home Sauna Build: A Founder's 6-Month Journey"
-      ]
-    },
-    {
-      "pillar": "Performance Lifestyle",
-      "description": "How high performers integrate sauna into their broader optimization stack - morning routines, recovery days, travel",
-      "resonanceWithMarcus": "He wants to see how people like him use sauna. Social proof from peers matters.",
-      "contentTypes": ["Founder profiles", "Morning routine breakdowns", "Recovery day blueprints", "Travel optimization"],
-      "frequencyPerMonth": 1,
-      "examples": [
-        "How 5 Tech Founders Use Sauna to Maintain Cognitive Edge",
-        "The Hotel Sauna Audit: Best Chains for the Traveling Executive",
-        "Building a $40K Backyard Wellness Zone: One CEO's Blueprint"
-      ]
-    },
-    {
-      "pillar": "Curated Experiences",
-      "description": "World-class sauna destinations, retreats, and experiences worth traveling for",
-      "resonanceWithMarcus": "He takes 2-3 wellness retreats per year and wants exclusive, vetted recommendations.",
-      "contentTypes": ["Destination reviews", "Retreat guides", "City sauna guides", "Experience rankings"],
-      "frequencyPerMonth": 1,
-      "examples": [
-        "The 10 Saunas Worth Flying For: A Global Sauna Pilgrimage",
-        "Nordic Wellness Retreat Showdown: Farris Bad vs Loyly vs Bath House",
-        "Austin Sauna Scene: The Complete Executive Guide"
+      "name": "The Honest Sauna Guide",
+      "type": "PDF",
+      "status": "Create in February",
+      "format": "12-page myth-busting guide",
+      "expectedConversion": "5-7%",
+      "description": "What sauna actually does (and doesn't). Weight loss myth, detox myth, real benefits.",
+      "brandVoiceAlignment": "Trust-building through brutal honesty",
+      "contents": [
+        "Myth: Sauna burns fat (Reality: 50-100 cal, water weight only)",
+        "Myth: Sauna detoxes (Reality: Liver/kidneys do this, sweat is 99% water)",
+        "Truth: What sauna actually does (cardiovascular, mental health, recovery)",
+        "The Permission: You don't need to optimize. Just get warm."
       ]
     }
   ],
 
-  "weeklyNewsletterFormat": {
-    "name": "The Heat Protocol",
-    "sendDay": "Sunday",
-    "sendTime": "6:00 PM local time",
-    "rationale": "Sunday evening is when Marcus plans his week ahead. He's in optimization mode, thinking about the week's routines.",
-    "targetReadTime": "5-7 minutes",
-    "structure": {
-      "sections": [
-        {
-          "name": "The Opening Brief",
-          "length": "2-3 sentences",
-          "purpose": "Hook with a compelling insight, research finding, or provocative question",
-          "example": "Finnish researchers just published a 25-year follow-up on their landmark sauna study. The data on cognitive decline is remarkable - and changes the calculus on sauna frequency."
-        },
-        {
-          "name": "The Main Feature",
-          "length": "500-700 words",
-          "purpose": "Deep-dive into one topic from our content pillars. Substantial but scannable.",
-          "format": "Clear headers, bullet points for key takeaways, embedded data points"
-        },
-        {
-          "name": "The Protocol Card",
-          "length": "100-150 words",
-          "purpose": "One specific, actionable protocol they can implement this week",
-          "format": "Boxed/highlighted section with exact parameters (temp, duration, frequency)"
-        },
-        {
-          "name": "The Gear Spotlight",
-          "length": "75-100 words",
-          "purpose": "One product recommendation with affiliate link. Premium items only.",
-          "format": "Brief rationale + link. No hard sell."
-        },
-        {
-          "name": "The Insider Intel",
-          "length": "50-75 words",
-          "purpose": "Quick hits: new research, podcast clips, industry news, exclusive tips",
-          "format": "2-3 bullet points"
-        }
-      ],
-      "totalWordCount": "800-1000 words",
-      "designPrinciples": [
-        "Generous whitespace - no wall of text",
-        "Muted color palette - charcoal, warm wood tones, subtle gold accents",
-        "One hero image only - editorial quality, no stock photos",
-        "Clean typography - serif headers, sans-serif body",
-        "Mobile-optimized for commute reading"
-      ]
-    },
-    "subjectLineFormulas": {
-      "principles": [
-        "Lowercase preferred - matches exec-to-exec communication",
-        "Under 50 characters",
-        "Specificity with numbers when relevant",
-        "Avoid clickbait - respect their intelligence"
-      ],
-      "templates": [
-        "[research insight] + [surprising finding]",
-        "[protocol name]: [specific outcome]",
-        "[number] [thing] + [outcome]",
-        "the [expert] protocol for [goal]"
-      ],
-      "examples": [
-        "the 20-minute protocol that changed my sleep",
-        "why finnish men outlive us (new data)",
-        "4 sessions per week: the science explained",
-        "what huberman got wrong about cold exposure",
-        "the ceo's sunday reset ritual",
-        "$30k sauna: worth it? our verdict"
-      ],
-      "avoid": [
-        "ALL CAPS",
-        "Excessive punctuation!!!",
-        "Emojis",
-        "FOMO language (Don't miss out!)",
-        "Generic (This week's newsletter)"
-      ]
-    }
-  },
-
-  "emailSequences": {
-    "welcome": {
-      "name": "The Initiation Sequence",
-      "purpose": "Establish authority, deliver immediate value, create habit of opening",
-      "totalEmails": 7,
-      "sequence": [
-        {
-          "day": 0,
-          "subject": "your sauna protocol guide is here",
-          "content": {
-            "purpose": "Deliver lead magnet + set expectations",
-            "elements": [
-              "Immediate lead magnet delivery (no buried link)",
-              "Brief intro to Sauna Guide and our mission",
-              "What to expect (weekly editions, no spam)",
-              "One quick win they can implement today"
-            ],
-            "cta": "Download your guide"
-          }
-        },
-        {
-          "day": 2,
-          "subject": "the protocol that started it all",
-          "content": {
-            "purpose": "Share best/flagship content to demonstrate value",
-            "elements": [
-              "Link to top-performing article or guide",
-              "Brief context on why this piece matters",
-              "Tease what makes our content different"
-            ],
-            "cta": "Read the full protocol"
-          }
-        },
-        {
-          "day": 4,
-          "subject": "why i built sauna guide",
-          "content": {
-            "purpose": "Personal story to build connection and credibility",
-            "elements": [
-              "Founder's personal sauna journey",
-              "The problem we're solving (information overload, amateur content)",
-              "Our commitment to evidence-based, premium content"
-            ],
-            "cta": "Reply with your sauna story"
-          }
-        },
-        {
-          "day": 7,
-          "subject": "the resource everyone asks for",
-          "content": {
-            "purpose": "Deliver surprise value - second lead magnet or exclusive content",
-            "elements": [
-              "Unexpected bonus resource (equipment comparison, protocol cheat sheet)",
-              "Reinforce that subscribers get access to exclusive content",
-              "Build anticipation for weekly editions"
-            ],
-            "cta": "Get your bonus resource"
-          }
-        },
-        {
-          "day": 10,
-          "subject": "join the inner circle",
-          "content": {
-            "purpose": "Community invitation and social proof",
-            "elements": [
-              "Mention subscriber count and who's reading (founders, execs)",
-              "Invite to follow on Twitter/X for daily insights",
-              "Optional: invite to private Slack/Discord if launched"
-            ],
-            "cta": "Connect with us"
-          }
-        },
-        {
-          "day": 14,
-          "subject": "the buying guide you need",
-          "content": {
-            "purpose": "High-value content that naturally leads to affiliate opportunity",
-            "elements": [
-              "Premium equipment buying guide",
-              "Clear recommendations by budget and space",
-              "Position as 'the guide I wish I had'"
-            ],
-            "cta": "See our curated picks"
-          }
-        },
-        {
-          "day": 21,
-          "subject": "one request",
-          "content": {
-            "purpose": "First referral ask after demonstrating value",
-            "elements": [
-              "Soft ask to share with one friend who'd benefit",
-              "Referral rewards teaser (if program active)",
-              "Genuine gratitude for being a subscriber"
-            ],
-            "cta": "Share with a friend"
-          }
-        }
-      ]
-    },
-    "nurture": {
-      "name": "Weekly Edition Cadence",
-      "purpose": "Consistent value delivery that builds habit and trust",
-      "schedule": {
-        "primary": {
-          "day": "Sunday",
-          "time": "6:00 PM",
-          "content": "Main weekly newsletter (The Heat Protocol)"
-        },
-        "optional": {
-          "day": "Wednesday",
-          "time": "7:00 AM",
-          "content": "Quick protocol or research brief (2-3 min read)",
-          "note": "Only launch after 5K subscribers to maintain quality"
-        }
+  "growthTactics": {
+    "thisWeek": [
+      {
+        "tactic": "Publish Contrast Therapy Protocol Guide",
+        "priority": "critical",
+        "rationale": "Highest momentum trend of 2026. Creates immediate value and positions as authority.",
+        "expectedImpact": "Foundation for lead magnet, organic traffic, AI search citations",
+        "effort": "4-6 hours content creation"
+      },
+      {
+        "tactic": "Launch Contrast Therapy PDF Lead Magnet",
+        "priority": "critical",
+        "rationale": "Capture January wellness surge. High-value, trending topic.",
+        "expectedImpact": "5-8% conversion on guide page visitors",
+        "effort": "3-4 hours design and setup"
+      },
+      {
+        "tactic": "Publish Dry January + Sauna Article",
+        "priority": "high",
+        "rationale": "January 16 - still prime Dry January window. Timely and seasonal.",
+        "expectedImpact": "Seasonal traffic spike, social sharing",
+        "effort": "3-4 hours",
+        "deadline": "January 20"
+      },
+      {
+        "tactic": "World Sauna Forum Article + Early Bird Push",
+        "priority": "high",
+        "rationale": "Early bird registration ends January 31. Position as insider voice on 2026's biggest sauna event.",
+        "expectedImpact": "Destination content, potential partnership, authority building",
+        "effort": "4 hours",
+        "deadline": "January 28"
       }
-    },
-    "reEngagement": {
-      "name": "The Wake-Up Sequence",
-      "trigger": "No opens in 60 days",
-      "purpose": "Re-engage or clean list",
-      "sequence": [
-        {
-          "email": 1,
-          "subject": "miss you - here's our best",
-          "content": "Curated collection of best content they missed"
-        },
-        {
-          "email": 2,
-          "dayAfterPrevious": 5,
-          "subject": "what would you like to see?",
-          "content": "Brief survey: what content interests them most"
-        },
-        {
-          "email": 3,
-          "dayAfterPrevious": 7,
-          "subject": "last chance before we part ways",
-          "content": "Clear choice: click to stay or be removed. Value summary."
-        }
-      ],
-      "action": "No engagement after 3 emails = unsubscribe to maintain list health"
-    },
-    "purchaseIntentSequence": {
-      "name": "The Buyer's Journey",
-      "trigger": "Clicked on equipment comparison or buying guide",
-      "purpose": "Nurture toward affiliate conversion",
-      "sequence": [
-        {
-          "email": 1,
-          "delay": "24 hours",
-          "subject": "your sauna questions, answered",
-          "content": "FAQ on buying process, common mistakes, what to prioritize"
-        },
-        {
-          "email": 2,
-          "delay": "3 days",
-          "subject": "before you buy: the installation truth",
-          "content": "Real talk on installation, electrical requirements, hidden costs"
-        },
-        {
-          "email": 3,
-          "delay": "5 days",
-          "subject": "our top pick for [segment]",
-          "content": "Personalized recommendation based on engagement (infrared vs traditional)"
-        }
-      ]
-    }
-  },
-
-  "leadMagnets": {
-    "primary": {
-      "name": "The Executive's Sauna Protocol",
-      "type": "PDF guide",
-      "format": "20-page premium PDF",
-      "description": "The complete science-backed guide to optimizing your sauna practice for cognitive performance, longevity, and recovery. Includes specific protocols for different goals.",
-      "valueProposition": "Everything Huberman has said about sauna, distilled into actionable protocols you can implement this week.",
-      "conversionPlacement": ["Homepage hero", "Blog sidebar", "End of articles", "Exit intent popup"],
-      "expectedConversionRate": "4-6%",
-      "contents": [
-        "The Science: Heat shock proteins, cardiovascular benefits, cognitive enhancement",
-        "Core Protocols: Longevity, recovery, cognitive performance, sleep optimization",
-        "Timing & Frequency: When and how often based on your goals",
-        "Stacking: Combining with cold exposure, breathwork, supplements",
-        "Equipment Overview: What actually matters when buying a sauna"
-      ]
-    },
-    "secondary": [
+    ],
+    "thisMonth": [
       {
-        "name": "7-Day Sauna Optimization Challenge",
-        "type": "Email course",
-        "format": "7 daily emails",
-        "description": "A week of progressive sauna protocols, each building on the last. Designed for the already-sauna-curious who want to optimize.",
-        "valueProposition": "Transform your existing sauna habit into an optimized performance practice.",
-        "expectedConversionRate": "3-5%",
-        "bestFor": "Subscribers who already use sauna but want to level up"
+        "tactic": "Set Up Affiliate Partnerships",
+        "priority": "critical",
+        "targets": ["HigherDOSE (sauna blankets)", "Plunge (cold plunge)", "Sunlighten (infrared)", "SereneLife (budget)"],
+        "rationale": "January is peak buying season. Must have partnerships ready.",
+        "effort": "1 week for approvals"
       },
       {
-        "name": "The $50K Decision Guide",
-        "type": "Interactive guide/PDF",
-        "format": "Comparison tool + PDF download",
-        "description": "Comprehensive comparison of premium home sauna options. Clearlight vs Sunlighten vs custom builds. For serious buyers only.",
-        "valueProposition": "The buying guide that saves you 40 hours of research and prevents a $20K mistake.",
-        "expectedConversionRate": "5-8%",
-        "bestFor": "High-intent buyers in research phase",
-        "affiliateOpportunity": "High - direct path to premium product purchases"
+        "tactic": "Reddit Engagement Strategy",
+        "priority": "high",
+        "communities": ["r/sauna (102k)", "r/Biohackers", "r/coldshowers", "r/wellness"],
+        "approach": "Genuine help, not promotion. 30min daily. Be the trusted expert.",
+        "rationale": "Reddit dominates AI citations (Perplexity 6.6%, ChatGPT 11.3%)",
+        "effort": "30 min daily ongoing"
       },
       {
-        "name": "Sauna Protocol Cheat Sheet",
-        "type": "One-page PDF",
-        "format": "Printable reference card",
-        "description": "Temperature, duration, and frequency for 10 different goals. Print and post in your sauna.",
-        "valueProposition": "The quick reference guide to pin inside your sauna.",
-        "expectedConversionRate": "6-8%",
-        "bestFor": "Quick value, low commitment, high conversion rate"
+        "tactic": "Launch First Newsletter Edition",
+        "priority": "critical",
+        "rationale": "Establish Thursday cadence immediately. Quality from day 1.",
+        "effort": "1 day per edition"
+      },
+      {
+        "tactic": "Register for World Sauna Forum + Media Partnership Inquiry",
+        "priority": "high",
+        "deadline": "January 31 (early bird ends)",
+        "rationale": "Finland is THE sauna story of 2026. Lonely Planet Best in Travel, UNESCO heritage spotlight.",
+        "effort": "2 hours"
+      }
+    ],
+    "q1_2026": [
+      {
+        "tactic": "TikTok Launch - Contrast Therapy Series",
+        "priority": "medium-high",
+        "rationale": "No dominant sauna creator on TikTok yet. First-mover advantage. Visual platform suits ritual content.",
+        "content": ["5-part contrast therapy how-to", "Beginner mistakes", "5-minute sauna meditation"],
+        "effort": "Ongoing - 2-3 posts/week"
+      },
+      {
+        "tactic": "SparkLoop Referral Program Setup",
+        "priority": "medium",
+        "timing": "After 500 subscribers",
+        "rationale": "35-50% faster growth based on benchmarks"
+      },
+      {
+        "tactic": "Newsletter Cross-Promotions",
+        "priority": "medium",
+        "timing": "After 1,000 subscribers",
+        "targets": ["Wellness-adjacent newsletters", "Morning Brew lifestyle", "travel newsletters"]
       }
     ]
   },
 
-  "growthTactics": {
-    "phase1_foundation": {
-      "timeframe": "Months 1-3",
-      "goal": "0 to 2,500 subscribers",
-      "tactics": [
+  "emailSequences": {
+    "welcome": {
+      "name": "The Warmth Sequence",
+      "philosophy": "Invite, don't sell. Give permission, don't pressure. Create longing, not urgency.",
+      "totalEmails": 7,
+      "sequence": [
         {
-          "tactic": "SEO Content Engine",
-          "description": "Publish 2-3 long-form articles per week targeting high-intent keywords",
-          "keyTerms": ["huberman sauna protocol", "best infrared sauna 2025", "sauna health benefits", "clearlight vs sunlighten", "home sauna cost"],
-          "expectedImpact": "500-1,000 organic subscribers/month by month 3",
-          "effort": "High - requires consistent quality content"
+          "day": 0,
+          "subject": "your sauna guide is here",
+          "purpose": "Deliver lead magnet + set expectations warmly",
+          "keyMessage": "Welcome to the warmth. Here's what you came for, and what to expect from us.",
+          "cta": "Download your guide",
+          "tone": "Warm welcome, immediate value"
         },
         {
-          "tactic": "Reddit Value Mining",
-          "description": "Provide genuine value in r/sauna, r/biohacking, r/longevity. No spam - be the helpful expert.",
-          "subreddits": ["r/sauna", "r/Biohackers", "r/longevity", "r/NootropicsDepot", "r/Huberman"],
-          "expectedImpact": "100-300 highly engaged subscribers/month",
-          "effort": "Medium - requires authentic engagement"
+          "day": 2,
+          "subject": "why we started this",
+          "purpose": "Share origin story, build connection",
+          "keyMessage": "This started because we needed a place to be still. Maybe you do too.",
+          "cta": "Read our story",
+          "tone": "Personal, permission-giving"
         },
         {
-          "tactic": "Twitter/X Thought Leadership",
-          "description": "Daily posts on sauna science, protocols, industry news. Thread format for deep-dives.",
-          "approach": "Personal brand building, not promotional. Share insights, engage with wellness leaders.",
-          "expectedImpact": "200-500 subscribers/month from profile link",
-          "effort": "Medium - 30 min/day"
+          "day": 4,
+          "subject": "the piece everyone loves",
+          "purpose": "Deliver best content to demonstrate value",
+          "keyMessage": "If you read one thing from us, make it this.",
+          "cta": "Read now",
+          "tone": "Confidence without arrogance"
         },
         {
-          "tactic": "Podcast Guesting",
-          "description": "Pitch to appear on health/wellness/biohacking podcasts",
-          "targetPodcasts": ["Modern Wisdom", "The Model Health Show", "Ben Greenfield Life", "Wellness Force Radio"],
-          "expectedImpact": "100-500 subscribers per appearance",
-          "effort": "Medium - pitch + preparation time"
+          "day": 7,
+          "subject": "something extra for you",
+          "purpose": "Surprise second lead magnet",
+          "keyMessage": "We made this and thought you might want it.",
+          "cta": "Get your bonus",
+          "tone": "Generous, no strings"
+        },
+        {
+          "day": 10,
+          "subject": "what thursdays look like",
+          "purpose": "Set newsletter expectations",
+          "keyMessage": "Every Thursday: why heat heals, where to find it, and five minutes of stillness.",
+          "cta": "See what's coming",
+          "tone": "Anticipation, routine"
+        },
+        {
+          "day": 14,
+          "subject": "a question for you",
+          "purpose": "Engagement + personalization",
+          "keyMessage": "What brought you here? Reply and tell us - we read every one.",
+          "cta": "Just hit reply",
+          "tone": "Genuine curiosity"
+        },
+        {
+          "day": 21,
+          "subject": "one small ask",
+          "purpose": "First referral invitation (not ask)",
+          "keyMessage": "Know someone who needs a moment of stillness? They might like this.",
+          "cta": "Share with a friend",
+          "tone": "Soft invitation, not pressure"
         }
       ]
     },
-    "phase2_growth": {
-      "timeframe": "Months 4-12",
-      "goal": "2,500 to 25,000 subscribers",
-      "tactics": [
+    "reEngagement": {
+      "trigger": "No opens in 45 days",
+      "sequence": [
         {
-          "tactic": "SparkLoop Referral Program",
-          "description": "Launch subscriber referral program with tiered rewards",
-          "rewards": {
-            "1_referral": "Exclusive protocol PDF not available elsewhere",
-            "3_referrals": "Sauna equipment discount code (10%)",
-            "5_referrals": "Free month of premium content",
-            "10_referrals": "Custom sauna consultation call"
-          },
-          "expectedImpact": "35-50% faster growth based on SparkLoop benchmarks",
-          "effort": "Low to set up, ongoing maintenance"
+          "email": 1,
+          "subject": "still there?",
+          "content": "We noticed you haven't opened in a while. Here's what you missed - our 3 best pieces."
         },
         {
-          "tactic": "Newsletter Cross-Promotions",
-          "description": "Partner with complementary newsletters for mutual promotion",
-          "targetNewsletters": ["Milk Road (wellness audience)", "The Profile", "Superhuman", "Morning Brew (lifestyle section)"],
-          "expectedImpact": "500-2,000 subscribers per swap",
-          "effort": "Medium - outreach and coordination"
+          "email": 2,
+          "dayAfterPrevious": 7,
+          "subject": "what would you like to see?",
+          "content": "Quick question: what content would bring you back? [Link to 1-question survey]"
         },
         {
-          "tactic": "SparkLoop Partner Network",
-          "description": "Pay for subscribers through SparkLoop's partner program",
-          "cpl": "$2-4 per subscriber (executive wellness audience)",
-          "expectedImpact": "2,000-5,000 subscribers/month at scale",
-          "effort": "Low - primarily budget allocation"
-        },
-        {
-          "tactic": "Influencer Seeding",
-          "description": "Send premium saunas to wellness influencers in exchange for content",
-          "targetInfluencers": "Micro-influencers (10K-100K) in biohacking/wellness space",
-          "expectedImpact": "200-1,000 subscribers per partnership",
-          "effort": "High - coordination with brands, relationship building"
+          "email": 3,
+          "dayAfterPrevious": 7,
+          "subject": "no hard feelings",
+          "content": "If you'd like to stay, click here. If not, we'll remove you to keep your inbox clean. Either way, thank you."
         }
-      ]
-    },
-    "phase3_scale": {
-      "timeframe": "Year 2-3",
-      "goal": "25,000 to 100,000+ subscribers",
-      "tactics": [
-        {
-          "tactic": "Paid Acquisition",
-          "description": "Facebook/Instagram ads targeting Huberman/Attia audience lookalikes",
-          "budget": "$5,000-20,000/month",
-          "targetCPL": "$3-5",
-          "expectedImpact": "3,000-6,000 subscribers/month",
-          "effort": "Medium - requires ad expertise or agency"
-        },
-        {
-          "tactic": "Beehiiv Boosts",
-          "description": "Use Beehiiv's native recommendation network",
-          "expectedImpact": "1,000-3,000 subscribers/month",
-          "effort": "Low - platform handles distribution"
-        },
-        {
-          "tactic": "Brand Partnerships",
-          "description": "Partner with sauna brands for co-marketing",
-          "targetBrands": ["Clearlight", "Sunlighten", "HUUM", "HigherDOSE", "Plunge"],
-          "expectedImpact": "5,000-10,000 subscribers through brand channels",
-          "effort": "High - business development"
-        },
-        {
-          "tactic": "Event Presence",
-          "description": "Speak at/sponsor biohacking events",
-          "targetEvents": ["Biohacking Conference", "Upgrade Labs events", "Tony Robbins events"],
-          "expectedImpact": "1,000-2,000 high-quality subscribers per event",
-          "effort": "High - logistics and speaking prep"
-        }
-      ]
+      ],
+      "outcome": "No engagement after 3 = remove from list. List health over vanity metrics."
     }
   },
 
   "monetization": {
+    "currentPhase": "Foundation - focus on value first, monetization second",
+    "philosophy": "We sell longing, not products. Monetization should feel like service, not sales.",
+
     "affiliateStrategy": {
-      "overview": "High-ticket affiliate is primary revenue driver. Focus on $5K-$50K sauna purchases.",
-      "commissionTargets": {
-        "premiumSaunas": "8-15% commission on $10K-$50K purchases = $800-$7,500 per sale",
-        "accessories": "10-20% commission on $100-$500 items",
-        "experiences": "10-15% commission on $500-$2,000 retreats"
-      },
-      "tieredPartners": {
-        "tier1_premium": {
-          "brands": ["Clearlight Saunas", "Sunlighten", "Custom builders"],
-          "priceRange": "$15,000-$50,000",
-          "commissionRange": "8-12%",
-          "expectedRevenuePerSale": "$1,200-$6,000"
-        },
-        "tier2_midrange": {
-          "brands": ["HUUM", "Harvia", "Almost Heaven"],
-          "priceRange": "$5,000-$15,000",
-          "commissionRange": "8-15%",
-          "expectedRevenuePerSale": "$400-$2,250"
-        },
-        "tier3_accessories": {
-          "products": ["Sauna heaters", "Sauna buckets/ladles", "Temperature monitors", "Aromatherapy", "Robes"],
-          "priceRange": "$50-$500",
-          "commissionRange": "10-20%",
-          "expectedRevenuePerSale": "$5-$100"
-        },
-        "tier4_experiences": {
-          "partners": ["Luxury sauna retreats", "Wellness resorts", "Sauna tours"],
-          "priceRange": "$500-$5,000",
-          "commissionRange": "10-15%",
-          "expectedRevenuePerSale": "$50-$750"
-        }
-      },
-      "contentToConversionStrategy": [
+      "immediate": [
         {
-          "content": "Comparison guides (Clearlight vs Sunlighten)",
-          "conversionPath": "Direct affiliate links in recommendation",
-          "expectedConversion": "2-4% of readers"
+          "partner": "HigherDOSE",
+          "product": "Sauna Blankets ($349-$699)",
+          "commission": "10-15%",
+          "contentFit": "Portable saunas guide, apartment-friendly options",
+          "priority": "high"
         },
         {
-          "content": "Buying guide lead magnet",
-          "conversionPath": "Warm leads via email follow-up sequence",
-          "expectedConversion": "3-6% of downloaders within 90 days"
+          "partner": "Plunge",
+          "product": "Cold Plunge Tubs ($4,990+)",
+          "commission": "8-12%",
+          "contentFit": "Contrast therapy protocol, home setup guide",
+          "priority": "high"
         },
         {
-          "content": "Weekly newsletter gear spotlight",
-          "conversionPath": "Repeated exposure builds trust, then convert on click",
-          "expectedConversion": "0.5-1% click-through, 10-20% of clicks purchase"
-        }
-      ]
-    },
-    "sponsorshipStrategy": {
-      "overview": "Premium sponsors only. Brands must align with quality positioning.",
-      "pricingModel": {
-        "10K_subscribers": {
-          "rate": "$500-1,000/edition",
-          "format": "Single sponsor mention (100-150 words)"
-        },
-        "25K_subscribers": {
-          "rate": "$1,500-3,000/edition",
-          "format": "Featured sponsor section"
-        },
-        "50K_subscribers": {
-          "rate": "$3,500-6,000/edition",
-          "format": "Premium placement + dedicated send option"
-        },
-        "100K_subscribers": {
-          "rate": "$8,000-15,000/edition",
-          "format": "Full integration + exclusivity options"
-        }
-      },
-      "sponsorCategories": [
-        {
-          "category": "Sauna Equipment",
-          "brands": ["Clearlight", "Sunlighten", "HUUM", "Harvia"],
-          "fit": "Perfect - core audience interest"
+          "partner": "SereneLife",
+          "product": "Budget Tent Saunas (~$400)",
+          "commission": "10-15%",
+          "contentFit": "Accessible practice, renters guide",
+          "priority": "medium"
         },
         {
-          "category": "Cold Exposure",
-          "brands": ["Plunge", "Ice Barrel", "Blue Cube"],
-          "fit": "Excellent - complementary practice"
-        },
-        {
-          "category": "Health Tech/Wearables",
-          "brands": ["WHOOP", "Oura", "Levels", "Eight Sleep"],
-          "fit": "Excellent - Marcus already uses these"
-        },
-        {
-          "category": "Supplements",
-          "brands": ["Momentous", "Athletic Greens", "Thorne"],
-          "fit": "Good - but vet carefully for quality"
-        },
-        {
-          "category": "Wellness Experiences",
-          "brands": ["Equinox", "Upgrade Labs", "High-end retreats"],
-          "fit": "Good - experience-based"
-        },
-        {
-          "category": "Premium Home",
-          "brands": ["Peloton", "Tonal", "High-end mattress brands"],
-          "fit": "Acceptable - lifestyle alignment"
+          "partner": "Sunlighten",
+          "product": "Premium Infrared ($5K-$15K)",
+          "commission": "8-12%",
+          "contentFit": "Home sauna buying guide, infrared comparison",
+          "priority": "medium"
         }
       ],
-      "exclusions": [
-        "Budget/discount brands",
-        "Multi-level marketing",
-        "Unproven supplements",
-        "Any brand that feels 'mass market'"
-      ]
+      "approach": "Affiliate content must be genuinely helpful. Help readers decide IF they want something before recommending WHAT to buy."
     },
-    "futureRevenueStreams": {
-      "premiumCommunity": {
-        "launch": "At 25K subscribers",
-        "price": "$29-49/month",
-        "value": ["Private Slack/Discord", "Monthly Q&A calls", "Equipment discounts", "Early access to content"],
-        "projectedMembers": "2-3% of free subscribers"
+
+    "sponsorshipTimeline": {
+      "at5K": {
+        "rate": "$300-500/edition",
+        "format": "Single tasteful mention (50-75 words)",
+        "sponsors": "Only brands aligned with soft wellness positioning"
       },
-      "consultations": {
-        "launch": "At 10K subscribers",
-        "price": "$500-1,000 per session",
-        "value": "Personalized sauna buying advice for high-end buyers",
-        "volume": "5-10 per month"
+      "at10K": {
+        "rate": "$500-1,000/edition",
+        "format": "Featured sponsor section",
+        "sponsors": "Selective - must feel like natural fit"
+      },
+      "at25K": {
+        "rate": "$1,500-3,000/edition",
+        "format": "Premium placement",
+        "note": "Consider exclusivity arrangements with key partners"
+      }
+    },
+
+    "futureRevenue": {
+      "premiumCommunity": {
+        "launch": "At 15K subscribers",
+        "price": "$19-29/month",
+        "value": "Community, monthly Q&A, exclusive destination guides, early access"
       },
       "events": {
-        "launch": "At 50K subscribers",
-        "format": "Annual sauna summit or curated retreat",
-        "price": "$2,000-5,000 per attendee",
-        "capacity": "50-100 attendees"
-      },
-      "productLine": {
-        "launch": "At 100K subscribers",
-        "products": ["Branded sauna accessories", "Protocol cards/posters", "Collaboration with equipment brands"],
-        "margin": "40-60%"
+        "launch": "At 25K subscribers",
+        "format": "Curated sauna retreats, World Sauna Forum group trips"
       }
     }
   },
 
   "sponsorPipeline": [
     {
-      "company": "Clearlight Saunas",
-      "category": "Premium infrared saunas",
-      "estimatedValue": "$3,000-5,000/month (affiliate + sponsor)",
-      "approachStrategy": "Lead with affiliate partnership, propose newsletter sponsorship once we hit 10K subscribers. Emphasize high-intent, affluent audience.",
+      "company": "Plunge",
+      "category": "Cold plunge equipment",
+      "estimatedValue": "$2,000-4,000/month (affiliate + sponsor)",
+      "approachStrategy": "Lead with contrast therapy content partnership. Position as social wellness, not biohacking.",
+      "brandAlignment": "High - if positioned as ritual, not optimization",
       "status": "to_contact",
       "priority": 1
     },
     {
-      "company": "Sunlighten",
-      "category": "Premium infrared saunas",
-      "estimatedValue": "$3,000-5,000/month",
-      "approachStrategy": "Similar to Clearlight. Position as alternative for comparison content. May need exclusivity discussion with Clearlight.",
+      "company": "HigherDOSE",
+      "category": "Portable infrared",
+      "estimatedValue": "$1,500-3,000/month",
+      "approachStrategy": "Accessibility angle - bring warmth home for those without local saunas.",
+      "brandAlignment": "High - democratizing the practice",
       "status": "to_contact",
       "priority": 2
     },
     {
-      "company": "Plunge",
-      "category": "Cold plunge equipment",
-      "estimatedValue": "$2,000-4,000/month",
-      "approachStrategy": "Natural complement to sauna content. Propose 'contrast therapy' content series with their sponsorship.",
+      "company": "Visit Finland Tourism Board",
+      "category": "Destination partnership",
+      "estimatedValue": "Content partnership + travel perks",
+      "approachStrategy": "Pitch coverage of World Sauna Forum June 2026. Position as authentic cultural voice, not travel blogger.",
+      "brandAlignment": "Perfect - cultural depth is our lane",
       "status": "to_contact",
       "priority": 3
-    },
-    {
-      "company": "WHOOP",
-      "category": "Health wearables",
-      "estimatedValue": "$1,500-3,000/month",
-      "approachStrategy": "Pitch HRV tracking + sauna recovery content. They love performance-focused audiences.",
-      "status": "to_contact",
-      "priority": 4
     },
     {
       "company": "HUUM",
       "category": "Traditional sauna heaters",
       "estimatedValue": "$1,000-2,500/month",
-      "approachStrategy": "Premium Estonian brand - appeal to their desire for US market expansion.",
+      "approachStrategy": "Authentic Finnish/Estonian craft angle. Appeal to cultural positioning.",
+      "brandAlignment": "High - quality and tradition",
+      "status": "to_contact",
+      "priority": 4
+    },
+    {
+      "company": "Oura Ring",
+      "category": "Wellness wearables",
+      "estimatedValue": "$1,500-3,000/month",
+      "approachStrategy": "Sleep and recovery tracking + sauna. Gentle data, not optimization.",
+      "brandAlignment": "Medium - must frame as awareness tool, not optimization",
       "status": "to_contact",
       "priority": 5
-    },
-    {
-      "company": "Momentous",
-      "category": "Supplements",
-      "estimatedValue": "$1,000-2,000/month",
-      "approachStrategy": "Huberman-affiliated brand. Pitch heat stress supplement stack content.",
-      "status": "to_contact",
-      "priority": 6
-    },
-    {
-      "company": "Eight Sleep",
-      "category": "Sleep technology",
-      "estimatedValue": "$2,000-4,000/month",
-      "approachStrategy": "Sauna before bed = better sleep content. They sponsor most wellness newsletters.",
-      "status": "to_contact",
-      "priority": 7
     }
   ],
 
   "kpis": {
-    "growth": {
-      "weeklyNewSubscribers": { "target": null, "phase1Target": 150, "phase2Target": 500 },
-      "monthlyGrowthRate": { "target": 15, "unit": "percent", "current": null },
-      "referralRate": { "target": 35, "unit": "percent_of_new_subs", "current": null },
-      "organicVsPaid": { "target": "70/30", "current": null }
+    "phase1_foundation": {
+      "subscriberGrowth": {
+        "month1": 500,
+        "month3": 2500,
+        "month6": 8000,
+        "metric": "Total email subscribers"
+      },
+      "engagement": {
+        "openRate": { "target": 50, "benchmark": "Industry 39%", "unit": "percent" },
+        "clickRate": { "target": 5, "unit": "percent" },
+        "replyRate": { "target": 1, "note": "Replies indicate connection", "unit": "percent" },
+        "unsubscribeRate": { "max": 0.5, "unit": "percent" }
+      },
+      "content": {
+        "articlesPerWeek": 2,
+        "newsletterEditionsPerMonth": 4,
+        "leadMagnetsLive": 3
+      },
+      "traffic": {
+        "organicMonthly_month3": 5000,
+        "organicMonthly_month6": 15000
+      }
     },
-    "engagement": {
-      "openRate": { "target": 50, "unit": "percent", "current": null, "benchmark": "Industry average is 39% for B2B" },
-      "clickRate": { "target": 6, "unit": "percent", "current": null },
-      "unsubscribeRate": { "target": 0.3, "unit": "percent_max", "current": null },
-      "replyRate": { "target": 1, "unit": "percent", "current": null, "note": "Replies indicate deep engagement" }
-    },
-    "revenue": {
-      "revenuePerSubscriber": { "target": 3, "unit": "dollars/year", "current": null },
-      "affiliateConversionRate": { "target": 0.5, "unit": "percent_of_clicks", "current": null },
-      "averageAffiliateCommission": { "target": 1500, "unit": "dollars", "current": null },
-      "sponsorFillRate": { "target": 80, "unit": "percent", "current": null, "note": "4 of 5 editions sponsored" }
-    },
-    "content": {
-      "articlesPublished": { "target": 12, "unit": "per_month", "current": null },
-      "avgTimeOnPage": { "target": 4, "unit": "minutes", "current": null },
-      "organicTraffic": { "target": 50000, "unit": "visits/month_by_year1", "current": null }
-    },
-    "trackingCadence": {
-      "daily": ["New subscribers", "Unsubscribes", "Revenue"],
-      "weekly": ["Open rate", "Click rate", "Article performance", "Referral count"],
-      "monthly": ["Growth rate", "Revenue breakdown", "Content audit", "Sponsor pipeline"],
-      "quarterly": ["Subscriber quality audit", "Strategy review", "Pricing review"]
+    "tracking": {
+      "weekly": ["New subscribers", "Open rate", "Click rate", "Unsubscribes", "Replies"],
+      "monthly": ["Total subscribers", "Growth rate", "Traffic sources", "Content performance", "Affiliate clicks"],
+      "quarterly": ["Revenue", "Subscriber quality", "Engagement trends", "Strategy review"]
     }
   },
 
-  "immediateActions": [
+  "brandVoiceReminders": {
+    "coreBelief": "The sauna is not a hack. It's a practice.",
+    "weSell": ["Longing", "Permission", "Stillness", "Escape"],
+    "weNeverSell": ["Optimization", "Urgency", "FOMO", "Hustle"],
+    "ctaLanguage": {
+      "use": ["Step inside", "Enter the heat", "Get the Thursday letter"],
+      "avoid": ["Subscribe now", "Don't miss out", "Join free", "Sign up today"]
+    },
+    "toneChecklist": [
+      "Does this create longing or anxiety?",
+      "Does this give permission or create pressure?",
+      "Would someone feel invited or sold to?",
+      "Is this atmospheric or informational?",
+      "Could this line appear in a biohacking newsletter? (If yes, rewrite)"
+    ],
+    "softWellnessAlignment": "2026 is the year of soft wellness - rejection of optimization for gentle, mindful practices. We are perfectly positioned. Double down on practice over protocol, ritual over routine, permission over pressure."
+  },
+
+  "urgentActions": [
     {
-      "action": "Create Executive's Sauna Protocol lead magnet",
+      "action": "Create and publish Contrast Therapy Protocol guide + lead magnet",
       "priority": "critical",
-      "impact": "Foundation for all subscriber acquisition",
-      "effort": "3-5 days",
-      "deadline": "Week 1",
-      "details": "20-page PDF covering science, protocols, and equipment overview. Premium design."
+      "deadline": "January 20, 2026",
+      "impact": "Capture trending topic, build list foundation",
+      "effort": "6-8 hours"
     },
     {
-      "action": "Set up Beehiiv newsletter with branded template",
+      "action": "Publish Dry January + Sauna article",
       "priority": "critical",
-      "impact": "Enables all email marketing",
-      "effort": "1 day",
-      "deadline": "Week 1",
-      "details": "Clean template matching Sauna Guide visual identity. Test email deliverability."
+      "deadline": "January 20, 2026",
+      "impact": "Seasonal content before window closes",
+      "effort": "3-4 hours"
     },
     {
-      "action": "Write and schedule 7-email welcome sequence",
+      "action": "Contact HigherDOSE, Plunge, SereneLife for affiliate partnerships",
+      "priority": "critical",
+      "deadline": "January 22, 2026",
+      "impact": "Enable monetization during peak buying season",
+      "effort": "2-3 hours"
+    },
+    {
+      "action": "Publish World Sauna Forum destination article",
       "priority": "high",
-      "impact": "Onboards new subscribers, builds trust",
-      "effort": "2-3 days",
-      "deadline": "Week 2",
-      "details": "Follow sequence structure in this strategy. Focus on value delivery."
+      "deadline": "January 28, 2026",
+      "impact": "Before early bird deadline (Jan 31), position as insider voice",
+      "effort": "4 hours"
     },
     {
-      "action": "Publish 5 cornerstone SEO articles",
+      "action": "Register for World Sauna Forum + media partnership inquiry",
       "priority": "high",
-      "impact": "Organic traffic foundation",
-      "effort": "2 weeks",
-      "deadline": "Week 3",
-      "details": "Target: huberman sauna protocol, best infrared sauna, sauna health benefits, clearlight vs sunlighten, home sauna cost"
+      "deadline": "January 31, 2026",
+      "impact": "Early bird savings, partnership potential, content access",
+      "effort": "1 hour"
     },
     {
-      "action": "Launch first newsletter edition",
+      "action": "Launch first Thursday newsletter edition",
+      "priority": "critical",
+      "deadline": "January 23, 2026",
+      "impact": "Establish cadence, build habit",
+      "effort": "4-6 hours"
+    },
+    {
+      "action": "Begin daily Reddit engagement (r/sauna, r/coldshowers)",
       "priority": "high",
-      "impact": "Establishes publishing cadence",
-      "effort": "1 day",
-      "deadline": "Week 2",
-      "details": "Even with small list, start building the habit. Quality from day 1."
-    },
-    {
-      "action": "Set up affiliate accounts with Clearlight and Sunlighten",
-      "priority": "high",
-      "impact": "Enables monetization",
-      "effort": "1 week (approval process)",
-      "deadline": "Week 3",
-      "details": "Apply to affiliate programs. May need to show content quality for approval."
-    },
-    {
-      "action": "Begin Reddit engagement strategy",
-      "priority": "medium",
-      "impact": "Early subscriber acquisition",
-      "effort": "30 min/day ongoing",
-      "deadline": "Week 1 start",
-      "details": "Be genuinely helpful in r/sauna, r/biohacking. No self-promotion for first 2 weeks."
-    },
-    {
-      "action": "Set up Twitter/X account and content calendar",
-      "priority": "medium",
-      "impact": "Brand building, organic traffic",
-      "effort": "1 day setup, 30 min/day ongoing",
-      "deadline": "Week 2",
-      "details": "Focus on research snippets, protocol tips, industry commentary."
+      "deadline": "Ongoing from today",
+      "impact": "AI search citations, community authority",
+      "effort": "30 min daily"
     }
   ],
 
-  "90DayPlan": {
-    "month1": {
-      "theme": "Foundation",
-      "goals": ["500 subscribers", "Lead magnet live", "Welcome sequence active", "5 SEO articles published"],
-      "weeklyFocus": [
-        "Week 1: Lead magnet + Beehiiv setup + first 3 articles",
-        "Week 2: Welcome sequence + launch first newsletter + Reddit engagement",
-        "Week 3: 2 more articles + affiliate applications + Twitter strategy",
-        "Week 4: Content batch production + first newsletter analysis"
+  "90DayOutlook": {
+    "january2026": {
+      "theme": "Launch and Capture",
+      "goals": [
+        "First newsletter edition live",
+        "Contrast Therapy lead magnet launched",
+        "500 subscribers",
+        "3 core guides published",
+        "Affiliate partnerships active"
+      ],
+      "keyContent": [
+        "Contrast Therapy Protocol (guide + lead magnet)",
+        "Dry January + Sauna (seasonal)",
+        "World Sauna Forum Preview (destination)",
+        "First Sauna Guide for Beginners (permissive)"
       ]
     },
-    "month2": {
-      "theme": "Content Engine",
-      "goals": ["1,500 subscribers", "12 articles live", "First affiliate revenue", "2 newsletter editions sent"],
-      "weeklyFocus": [
-        "Week 5: 3 new articles + second lead magnet development",
-        "Week 6: Newsletter refinement + first podcast pitch outreach",
-        "Week 7: 3 new articles + SparkLoop setup + referral program design",
-        "Week 8: Launch referral program + content audit"
+    "february2026": {
+      "theme": "Science and Trust",
+      "goals": [
+        "1,500 subscribers",
+        "Myth-busting content cluster live",
+        "First affiliate revenue",
+        "30-Day Ritual Builder lead magnet"
+      ],
+      "keyContent": [
+        "Sauna Weight Loss Myth (brutal honesty)",
+        "Sauna Detox Myth (trust-building)",
+        "What Saunas Actually Do for Your Heart",
+        "Sauna Meditation Guide"
       ]
     },
-    "month3": {
-      "theme": "Growth Acceleration",
-      "goals": ["2,500 subscribers", "Referral program active", "First sponsor conversation", "$1K affiliate revenue"],
-      "weeklyFocus": [
-        "Week 9: Newsletter cross-promotion outreach + 3 articles",
-        "Week 10: First sponsor pitch deck + partnership outreach",
-        "Week 11: Content optimization based on data + guest posting",
-        "Week 12: Quarter review + phase 2 planning"
+    "march2026": {
+      "theme": "Destinations and Community",
+      "goals": [
+        "2,500 subscribers",
+        "TikTok launched",
+        "First sponsorship conversation",
+        "SparkLoop referral program live"
+      ],
+      "keyContent": [
+        "Best Saunas in NYC (local SEO)",
+        "Finnish Sauna Culture Deep-Dive",
+        "Urban Sauna Club Directory",
+        "Home Sauna Buying Guide"
       ]
     }
   },
 
-  "competitiveAnalysis": {
-    "directCompetitors": [
-      {
-        "name": "Sauna Times",
-        "strengths": "Established, product reviews",
-        "weaknesses": "Generic, not targeting premium audience",
-        "opportunity": "We serve the underserved 'performance' segment"
-      },
-      {
-        "name": "Saunatimes.com",
-        "strengths": "Active community, authentic voice",
-        "weaknesses": "Hobby focus, not premium positioning",
-        "opportunity": "Different audience entirely"
-      }
-    ],
-    "indirectCompetitors": [
-      {
-        "name": "Huberman Lab Newsletter",
-        "relevance": "Covers sauna occasionally",
-        "opportunity": "We go deeper on sauna specifically"
-      },
-      {
-        "name": "Peter Attia Newsletter",
-        "relevance": "Longevity focus, premium audience",
-        "opportunity": "Complementary - we're the sauna deep-dive"
-      }
-    ],
-    "differentiators": [
-      "Only newsletter focused exclusively on sauna for high performers",
-      "Evidence-based but actionable (not academic)",
-      "Premium positioning that matches audience expectations",
-      "Equipment guidance that saves thousands in research time"
-    ]
-  },
-
-  "riskMitigation": {
-    "risks": [
-      {
-        "risk": "Slow early growth discourages momentum",
-        "mitigation": "Set realistic phase 1 goals. Focus on engagement over growth initially. 500 engaged subscribers > 5,000 unengaged."
-      },
-      {
-        "risk": "Affiliate program rejections",
-        "mitigation": "Build content library first. Apply with strong pitch. Have backup affiliate networks (ShareASale, Impact)."
-      },
-      {
-        "risk": "Open rate decline over time",
-        "mitigation": "Regular list cleaning. Re-engagement sequences. Quality over frequency. Test subject lines constantly."
-      },
-      {
-        "risk": "Over-reliance on single affiliate partner",
-        "mitigation": "Diversify across 4-5 equipment brands. Add experience and accessory affiliates."
-      },
-      {
-        "risk": "Content quality degradation at scale",
-        "mitigation": "Maintain quality bar. Would rather publish 1 great piece than 3 mediocre ones. Build SOPs for content team."
-      }
-    ]
-  },
-
-  "successMetrics": {
-    "year1Success": {
-      "subscribers": "25,000+",
-      "revenue": "$75,000+",
-      "openRate": "45%+",
-      "affiliateSales": "100+ premium sauna sales attributed"
-    },
-    "year2Success": {
-      "subscribers": "75,000+",
-      "revenue": "$350,000+",
-      "sponsorshipRate": "$3,000+ per edition",
-      "communityMembers": "500+ premium members"
-    },
-    "year3Success": {
-      "subscribers": "150,000+",
-      "revenue": "$850,000+",
-      "industry": "Recognized as the definitive sauna authority",
-      "team": "2-3 full-time content creators"
-    }
+  "strategicNotes": {
+    "competitiveAdvantage": "Brand voice is our moat. The trends (contrast therapy, portable saunas, brain health) are shared. The way we make people FEEL about saunas - the longing, the permission, the ritual - is ours alone.",
+    "audienceEvolution": "Original strategy targeted 'Marcus the Founder' ($300K+ income, optimization-focused). Updated strategy broadens to include wellness-curious seeking practice over performance. Both audiences can coexist - ritualized recovery for performers, gentle practice for beginners.",
+    "marketTiming": "January 2026 is perfect storm: New Year wellness surge + contrast therapy explosion + soft wellness movement. We are launching at the ideal moment.",
+    "contentDifferentiation": "Competitors are either biohacking-focused (intimidating), product-focused (salesy), or surface-level (trend roundups). We go deep with atmospheric, permission-giving content that creates longing."
   }
 }
