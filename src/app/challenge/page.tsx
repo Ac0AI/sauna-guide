@@ -2,6 +2,7 @@
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
+import { CopyLinkButton } from '@/components/challenge/CopyLinkButton'
 import Image from 'next/image'
 
 export const metadata = {
@@ -43,11 +44,11 @@ export default function ChallengePage() {
 
             <p className="text-xl md:text-2xl text-sauna-paper/80 mb-10 leading-relaxed max-w-lg">
               Most of us have lost our baseline. <br />
-              We are chronically stressed, poorly rested, and overstimulated.
+              Chronically stressed. Poorly rested. Running on empty.
             </p>
 
             <p className="text-lg text-sauna-paper/60 mb-12 max-w-lg">
-              Heat is the antidote. In 4 weeks, we guide you back to equilibrium through heat, cold, and breath.
+              This free 4-week protocol uses heat, cold, and breath to restore what modern life takes away. No equipment required. Just you and the practice.
             </p>
 
             <div className="bg-sauna-charcoal/40 backdrop-blur-md p-1 rounded-xl border border-sauna-paper/10 inline-block w-full max-w-md">
@@ -114,9 +115,7 @@ export default function ChallengePage() {
             </p>
             
             <div className="inline-flex flex-col sm:flex-row gap-4 items-center justify-center">
-                <button className="px-8 py-4 bg-sauna-ink text-sauna-paper font-medium rounded-xl hover:bg-sauna-charcoal transition-all shadow-lg hover:shadow-xl w-full sm:w-auto">
-                    Copy Link to Share
-                </button>
+                <CopyLinkButton />
                 <p className="text-sm text-sauna-slate/60">
                     Or just forward the first email to a friend.
                 </p>
