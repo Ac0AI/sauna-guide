@@ -1,6 +1,6 @@
 {
   "lastUpdated": "2025-12-25",
-  "totalProducts": 53,
+  "totalProducts": 54,
   "categories": [
     {
       "id": "essentials",
@@ -848,6 +848,35 @@
       "name": "Portable Saunas",
       "description": "Take-anywhere sauna options",
       "products": [
+        {
+          "name": "Sauna Pod Bundle",
+          "brand": "Pod Company",
+          "price": "€749",
+          "description": "World's first patent pending pop-up hot air sauna delivering authentic Finnish heat up to 85°C",
+          "richDescription": "Unlike infrared or steam saunas, the Sauna Pod delivers true dry heat up to 85°C in 15-20 minutes. Made with 100% natural cotton canvas (no plastics), insulated with natural wax coating. Includes foldable chair and 1500W heater. Indoor/outdoor use, 2-year warranty.",
+          "why": "Only portable sauna reaching authentic Finnish temperatures (85°C), premium natural materials, proven sauna benefits",
+          "whyPeopleLikeIt": "True hot air sauna experience, no plastic smell/toxins, heats faster than wooden saunas at fraction of the cost, compact storage",
+          "redditSentiment": "Game-changing alternative to expensive wooden saunas",
+          "specs": {
+            "material": "100% natural cotton with wax coating",
+            "maxTemp": "85°C (185°F)",
+            "heatTime": "15-20 minutes",
+            "power": "1500W heater",
+            "warranty": "2 years",
+            "setup": "5-10 minutes"
+          },
+          "rating": 4.7,
+          "featured": true,
+          "slug": "sauna-pod-bundle",
+          "purchaseLinks": [
+            {
+              "name": "Pod Company EU",
+              "url": "https://eu.podcompany.com/products/sauna-pod-free-gifts",
+              "type": "manufacturer"
+            }
+          ],
+          "image": "/images/gear/products/sauna-pod-bundle.png"
+        },
         {
           "name": "Sweat Tent",
           "brand": "SweatTent",
