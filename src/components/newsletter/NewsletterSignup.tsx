@@ -76,7 +76,7 @@ export function NewsletterSignup({
             
             <button 
               onClick={() => {
-                  const url = typeof window !== 'undefined' ? window.location.href : 'https://saunaguide.se/challenge';
+                  const url = typeof window !== 'undefined' ? window.location.href : 'https://sauna.guide/challenge';
                   navigator.clipboard.writeText(`Join me for the 30-Day Sauna Reset: ${url}`);
                   setMessage("Link copied to clipboard!");
                   // Optional: Redirect after a delay or just let them stay
