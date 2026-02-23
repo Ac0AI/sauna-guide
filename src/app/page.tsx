@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: 'Sauna Guide - Discover the Art of Heat & Wellness',
     description: 'Science-backed protocols, curated destinations, and a weekly letter on why heat heals.',
     url: 'https://sauna.guide',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
 }
 

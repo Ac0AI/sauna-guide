@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description: 'Discover top-rated sauna accessories, from authentic Finnish buckets and ladles to infrared blankets and cold plunges. Expert reviews, specs, and buying guide.',
     url: 'https://sauna.guide/gear',
     type: 'website',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
 }
 

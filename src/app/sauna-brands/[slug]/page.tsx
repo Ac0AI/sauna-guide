@@ -32,6 +32,7 @@ export async function generateMetadata({ params }: Props) {
       title: `${manufacturer.name} Saunas | Sauna Guide`,
       description: `${manufacturer.unique_angle} Learn about ${manufacturer.name} saunas from ${manufacturer.country}.`,
       url: `https://sauna.guide/sauna-brands/${slug}`,
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
     },
   }
 }

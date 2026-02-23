@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: `${product.name} - ${product.brand}`,
       description: product.description,
       url: `https://sauna.guide/gear/${slug}`,
-      images: product.image ? [product.image] : undefined,
+      images: product.image ? [product.image] : [{ url: '/og-image.jpg', width: 1200, height: 630 }],
     },
   }
 }

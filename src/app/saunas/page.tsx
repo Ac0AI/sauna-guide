@@ -15,6 +15,7 @@ export const metadata = {
     title: 'Sauna Directory | The Best Saunas Worldwide',
     description: 'Discover the most authentic and iconic saunas across the globe. From Finnish smoke saunas to luxury thermal baths.',
     url: 'https://sauna.guide/saunas',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
 }
 

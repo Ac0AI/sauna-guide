@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       title: `${sauna.name} - ${sauna.location.city}, ${sauna.location.country}`,
       description: `Complete guide to ${sauna.name}. ${sauna.type} sauna in ${sauna.location.city}.`,
       url: `https://sauna.guide/saunas/${id}`,
-      images: sauna.images?.[0] ? [{ url: sauna.images[0].startsWith('/') ? sauna.images[0] : `/images/saunas-photos/${sauna.images[0]}` }] : undefined,
+      images: sauna.images?.[0] ? [{ url: sauna.images[0].startsWith('/') ? sauna.images[0] : `/images/saunas-photos/${sauna.images[0]}` }] : [{ url: '/og-image.jpg', width: 1200, height: 630 }],
     },
   }
 }

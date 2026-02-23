@@ -15,6 +15,7 @@ export const metadata = {
     title: 'Sauna Protocols & Guides | Sauna Guide',
     description: 'Evidence-based protocols, gear reviews, and deep dives into heat therapy culture.',
     url: 'https://sauna.guide/guides',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
 }
 

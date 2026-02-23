@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: guide.meta.description,
       type: 'article',
       url: `https://sauna.guide/guides/${slug}`,
-      images: guide.meta.image ? [{ url: guide.meta.image }] : undefined,
+      images: guide.meta.image ? [{ url: guide.meta.image }] : [{ url: '/og-image.jpg', width: 1200, height: 630 }],
       publishedTime: guide.meta.date,
       authors: guide.meta.author ? [guide.meta.author] : undefined,
     },
