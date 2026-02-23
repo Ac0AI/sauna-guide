@@ -20,8 +20,11 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
       : null
 
   return (
-    <div className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 overflow-hidden
-                    hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full">
+    <Link
+      href={`/saunas/${sauna.id}`}
+      className="group bg-sauna-paper rounded-2xl border border-sauna-ash/50 overflow-hidden
+                    hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full"
+    >
       {/* Image Container */}
       <div className="aspect-[16/10] bg-sauna-linen relative overflow-hidden">
         {imageSrc ? (
@@ -39,12 +42,12 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
         ) : (
           <div className="w-full h-full flex items-center justify-center text-sauna-ash">
             <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} 
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1}
                     d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>
           </div>
         )}
-        
+
       </div>
 
       {/* Content */}
@@ -69,7 +72,7 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
           {sauna.features.slice(0, 3).map((feature) => (
             <span
               key={feature}
-              className="text-[10px] uppercase font-bold tracking-widest bg-sauna-linen 
+              className="text-[10px] uppercase font-bold tracking-widest bg-sauna-linen
                          text-sauna-walnut/70 px-2 py-0.5 rounded border border-sauna-ash/30"
             >
               {feature}
@@ -83,17 +86,14 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
         </div>
 
         <div className="mt-auto pt-6 border-t border-sauna-ash/30 flex items-center justify-end">
-          <Link
-            href={`/saunas/${sauna.id}`}
-            className="flex items-center gap-1.5 text-sm font-medium text-sauna-walnut group-hover:gap-2 transition-all"
-          >
+          <span className="flex items-center gap-1.5 text-sm font-medium text-sauna-walnut group-hover:gap-2 transition-all">
             Explore
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </Link>
+          </span>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }

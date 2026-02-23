@@ -20,6 +20,24 @@ export interface Manufacturer {
   }
   partnership_status: string
   notes: string
+  logo?: string
+}
+
+const brandLogos: Record<string, string> = {
+  'harvia': '/images/brands/harvia.svg',
+  'huum': '/images/brands/huum.png',
+  'tyl': '/images/brands/tylo.webp',
+  'narvi': '/images/brands/narvi.svg',
+  'kirami': '/images/brands/kirami.png',
+  'almost-heaven-saunas': '/images/brands/almost-heaven.png',
+  'finnleo': '/images/brands/finnleo.svg',
+  'clearlight-saunas': '/images/brands/clearlight.png',
+  'sunlighten': '/images/brands/sunlighten.svg',
+  'saunaspace': '/images/brands/saunaspace.png',
+  'saunum': '/images/brands/saunum.png',
+  'klafs': '/images/brands/klafs.png',
+  'durasage': '/images/brands/durasage.png',
+  'health-mate': '/images/brands/health-mate.png',
 }
 
 function slugify(name: string): string {
@@ -30,11 +48,15 @@ function slugify(name: string): string {
 }
 
 export function getAllManufacturers(): Manufacturer[] {
-  return manufacturersData.manufacturers.map(m => ({
-    ...m,
-    slug: slugify(m.name),
-    type: m.type as Manufacturer['type'],
-  }))
+  return manufacturersData.manufacturers.map(m => {
+    const slug = slugify(m.name)
+    return {
+      ...m,
+      slug,
+      type: m.type as Manufacturer['type'],
+      logo: brandLogos[slug],
+    }
+  })
 }
 
 export function getManufacturerBySlug(slug: string): Manufacturer | undefined {
