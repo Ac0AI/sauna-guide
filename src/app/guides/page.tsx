@@ -25,12 +25,12 @@ export default function GuidesIndexPage() {
     <div className="min-h-screen bg-sauna-paper flex flex-col">
       <Navigation />
 
-      <main className="max-w-4xl mx-auto px-6 py-32 flex-grow">
-        <header className="mb-16 text-center">
-          <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-6">
+      <main className="max-w-7xl mx-auto px-6 py-32 flex-grow">
+        <header className="mb-16">
+          <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-4">
             Protocols & Perspectives
           </h1>
-          <p className="text-xl text-sauna-slate max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-sauna-slate max-w-2xl leading-relaxed">
             Deep dives into the science of heat, cultural traditions,
             and practical guides for your practice.
           </p>
@@ -50,7 +50,7 @@ export default function GuidesIndexPage() {
 
         <div className="mt-20 p-8 bg-sauna-linen rounded-2xl border border-sauna-ash/50 text-center">
             <h3 className="font-display text-2xl font-medium text-sauna-ink mb-4">Never miss a protocol</h3>
-            <p className="text-sauna-slate mb-8">Join 10,000+ others getting our weekly heat briefing.</p>
+            <p className="text-sauna-slate mb-8">Every Thursday: why heat heals, where to find it, and five minutes of stillness.</p>
             <NewsletterSignup variant="inline" />
         </div>
       </main>

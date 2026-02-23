@@ -5,6 +5,8 @@ import { getGuideBySlug, getAllGuides } from '@/lib/guides'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
+import { Navigation } from '@/components/layout/Navigation'
+import { Footer } from '@/components/layout/Footer'
 
 // This generates static pages at build time
 export async function generateStaticParams() {
@@ -82,28 +84,18 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   }
 
   return (
-    <article className="min-h-screen bg-sauna-paper pb-20">
+    <div className="min-h-screen bg-sauna-paper flex flex-col">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-       {/* Navigation */}
-       <nav className="bg-sauna-paper border-b border-sauna-ash/50 sticky top-0 z-50">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded bg-sauna-bark flex items-center justify-center">
-              <svg className="w-4 h-4 text-sauna-sand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                      d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-              </svg>
-            </div>
-            <span className="font-display text-lg font-medium text-sauna-ink">Sauna Guide</span>
-          </Link>
-          <Link href="/guides" className="text-sm font-medium text-sauna-walnut hover:text-sauna-ink">
-            ← Back to Guides
-          </Link>
-        </div>
-      </nav>
+      <Navigation />
 
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <article className="max-w-3xl mx-auto px-6 py-32 flex-grow">
+        {/* Breadcrumb */}
+        <nav className="mb-8 text-sm">
+          <Link href="/guides" className="text-sauna-slate hover:text-sauna-oak transition-colors">
+            ← All Guides
+          </Link>
+        </nav>
         <header className="mb-10 text-center">
             <div className="flex items-center justify-center gap-2 text-sm text-sauna-oak font-medium mb-4 uppercase tracking-wider">
                 <span>{guide.meta.date}</span>
@@ -153,7 +145,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
             </h3>
             <NewsletterSignup variant="inline" />
         </div>
-      </main>
-    </article>
+      </article>
+
+      <Footer />
+    </div>
   )
 }

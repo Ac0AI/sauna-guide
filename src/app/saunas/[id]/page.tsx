@@ -158,8 +158,12 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
             {/* Map Placeholder */}
             <div className="bg-sauna-linen p-6 rounded-xl border border-sauna-ash/50">
                 <h3 className="text-lg font-medium text-sauna-ink mb-4">Location</h3>
-                <div className="aspect-square bg-sauna-ash/20 rounded-lg mb-4 flex items-center justify-center">
-                    <span className="text-sauna-slate text-sm">Map Integration Coming Soon</span>
+                <div className="aspect-video bg-sauna-ash/10 rounded-lg mb-4 flex items-center justify-center">
+                    <svg className="w-8 h-8 text-sauna-oak/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
                 </div>
                 <p className="text-sauna-ink font-medium">{sauna.location.city}</p>
                 <p className="text-sauna-slate text-sm">{sauna.location.country}</p>
@@ -182,7 +186,7 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
                     Get our free weekly newsletter with sauna protocols and science.
                 </p>
                 <Link href="/#newsletter" className="text-sauna-heat font-bold text-sm hover:underline">
-                    Subscribe Free →
+                    Step inside →
                 </Link>
             </div>
         </div>

@@ -36,7 +36,7 @@ export default function WelcomePage() {
           {/* Guide Cards - Prominent */}
           <div className="grid md:grid-cols-3 gap-4 mb-10">
             <Link
-              href="/guides/sauna-health-benefits"
+              href="/guides/longevity-sauna-protocol"
               className="group bg-sauna-paper p-5 rounded-xl border border-sauna-sand/30 hover:border-sauna-oak/50 hover:shadow-lg transition-all"
             >
               <div className="text-3xl mb-3">🔬</div>
@@ -44,7 +44,7 @@ export default function WelcomePage() {
                 The Science of Heat
               </h3>
               <p className="text-sm text-sauna-slate">
-                What sauna does to your body
+                How sauna builds longevity
               </p>
             </Link>
 

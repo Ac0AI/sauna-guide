@@ -136,24 +136,28 @@ export default function HomePage() {
               name="Loyly"
               location="Helsinki"
               feature="Architectural icon on the Baltic"
+              href="/saunas/loyly-helsinki"
             />
             <SaunaCard
-              image="/images/saunas-photos/kok-oslo.jpg"
-              name="KOK"
+              image="/images/saunas-photos/salt-oslo.jpg"
+              name="SALT"
               location="Oslo"
-              feature="Floating saunas on the fjord"
+              feature="Art meets sauna on the fjord"
+              href="/saunas/salt-oslo"
             />
             <SaunaCard
               image="/images/saunas-photos/icebergs-pool.jpg"
               name="Icebergs"
               location="Sydney"
               feature="Waves crash over the pool"
+              href="/saunas/icebergs-pool"
             />
             <SaunaCard
               image="/images/saunas-photos/aqua-dome.jpg"
               name="Aqua Dome"
               location="Austria"
               feature="Floating bowls in the Alps"
+              href="/saunas/aqua-dome"
             />
           </div>
 
@@ -381,14 +385,16 @@ function SaunaCard({
   name,
   location,
   feature,
+  href,
 }: {
   image: string
   name: string
   location: string
   feature: string
+  href: string
 }) {
   return (
-    <div className="group relative aspect-[3/4] rounded-xl overflow-hidden cursor-pointer">
+    <Link href={href} className="group relative aspect-[3/4] rounded-xl overflow-hidden">
       <Image
         src={image}
         alt={`${name} in ${location}`}
@@ -403,6 +409,6 @@ function SaunaCard({
         <h3 className="text-sauna-paper font-display text-lg font-medium mb-1">{name}</h3>
         <p className="text-sauna-paper/70 text-sm leading-snug">{feature}</p>
       </div>
-    </div>
+    </Link>
   )
 }
