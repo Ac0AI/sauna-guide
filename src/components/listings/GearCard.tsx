@@ -86,7 +86,7 @@ export function GearCard({ product }: GearCardProps) {
                  transition-all duration-300 flex flex-col h-full"
     >
       {/* Image Container */}
-      <div className={`aspect-[4/3] relative overflow-hidden ${showFallback ? `bg-gradient-to-br ${style.gradient}` : 'bg-sauna-linen'}`}>
+      <div className={`aspect-4/3 relative overflow-hidden ${showFallback ? `bg-linear-to-br ${style.gradient}` : 'bg-sauna-linen'}`}>
         {imageSrc && !imageError ? (
           <Image
             src={imageSrc}
@@ -112,13 +112,13 @@ export function GearCard({ product }: GearCardProps) {
         )}
 
         {/* Price Badge */}
-        <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm font-bold text-sauna-ink shadow-lg">
+        <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-xs px-3 py-1.5 rounded-full text-sm font-bold text-sauna-ink shadow-lg">
           {product.price}
         </div>
 
         {/* Rating Badge */}
         {product.rating && (
-          <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-sm px-2 py-1 rounded-full flex items-center gap-1 shadow-lg">
+          <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-xs px-2 py-1 rounded-full flex items-center gap-1 shadow-lg">
             <span className="text-yellow-500 text-sm">★</span>
             <span className="text-xs font-bold text-sauna-ink">{product.rating}</span>
           </div>
@@ -128,15 +128,15 @@ export function GearCard({ product }: GearCardProps) {
       {/* Content */}
       <div className="p-5 flex flex-col flex-1">
         <div className="mb-3">
-          <span className="text-xs font-semibold text-sauna-oak uppercase tracking-wider">
+          <span className="text-xs font-semibold text-sauna-walnut uppercase tracking-wider">
             {product.brand}
           </span>
-          <h3 className="text-base font-semibold text-sauna-ink mt-1 group-hover:text-sauna-walnut transition-colors line-clamp-2">
+          <h2 className="text-base font-semibold text-sauna-ink mt-1 group-hover:text-sauna-walnut transition-colors line-clamp-2">
             {product.name}
-          </h3>
+          </h2>
         </div>
 
-        <p className="text-sauna-slate text-sm leading-relaxed line-clamp-2 flex-grow">
+        <p className="text-sauna-slate text-sm leading-relaxed line-clamp-2 grow">
           {product.description}
         </p>
 

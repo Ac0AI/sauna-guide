@@ -12,7 +12,7 @@ export function GuideCard({ guide }: { guide: GuideMeta }) {
     <article className="group relative grid md:grid-cols-12 gap-6 items-start border-b border-sauna-ash/50 pb-10 last:border-0">
       {guide.image && (
         <Link href={`/guides/${guide.slug}`} className="md:col-span-3">
-          <div className="aspect-[16/10] rounded-lg overflow-hidden bg-sauna-linen relative">
+          <div className="aspect-16/10 rounded-lg overflow-hidden bg-sauna-linen relative">
             <Image
               src={guide.image}
               alt={guide.title}
@@ -28,7 +28,7 @@ export function GuideCard({ guide }: { guide: GuideMeta }) {
         </Link>
       )}
       <div className={guide.image ? "md:col-span-9" : "md:col-span-12"}>
-        <div className="text-sm text-sauna-oak font-medium mb-2 uppercase tracking-wider">
+        <div className="text-sm text-sauna-walnut font-medium mb-2 uppercase tracking-wider">
           {guide.date}
         </div>
         <Link href={`/guides/${guide.slug}`}>
@@ -41,7 +41,7 @@ export function GuideCard({ guide }: { guide: GuideMeta }) {
         </p>
         <div className="flex flex-wrap gap-2">
           {guide.tags?.map(tag => (
-            <span key={tag} className="text-xs uppercase tracking-wider font-bold text-sauna-stone bg-sauna-linen px-2 py-1 rounded">
+            <span key={tag} className="text-xs uppercase tracking-wider font-bold text-sauna-stone bg-sauna-linen px-2 py-1 rounded-sm">
               {tag}
             </span>
           ))}

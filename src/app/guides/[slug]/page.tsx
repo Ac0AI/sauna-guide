@@ -89,7 +89,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navigation />
 
-      <article className="max-w-3xl mx-auto px-6 py-32 flex-grow">
+      <article className="max-w-3xl mx-auto px-6 py-32 grow">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm">
           <Link href="/guides" className="text-sauna-slate hover:text-sauna-oak transition-colors">
@@ -97,7 +97,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           </Link>
         </nav>
         <header className="mb-10 text-center">
-            <div className="flex items-center justify-center gap-2 text-sm text-sauna-oak font-medium mb-4 uppercase tracking-wider">
+            <div className="flex items-center justify-center gap-2 text-sm text-sauna-walnut font-medium mb-4 uppercase tracking-wider">
                 <span>{guide.meta.date}</span>
                 <span>•</span>
                 <span>{guide.meta.author}</span>
@@ -126,7 +126,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         <div className="prose prose-lg prose-stone mx-auto
                         prose-headings:font-display prose-headings:font-medium prose-headings:text-sauna-ink
                         prose-p:text-sauna-slate prose-p:leading-relaxed
-                        prose-a:text-sauna-heat prose-a:no-underline hover:prose-a:underline
+                        prose-a:text-sauna-walnut prose-a:underline prose-a:underline-offset-2 hover:prose-a:text-sauna-bark
                         prose-strong:text-sauna-dark
                         prose-li:text-sauna-slate
                         prose-table:w-full prose-table:border-collapse

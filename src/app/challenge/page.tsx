@@ -41,7 +41,7 @@ export default function ChallengePage() {
 
         <div className="relative z-20 max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-sauna-paper max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1 bg-sauna-sand/20 text-sauna-sand rounded-full text-xs font-medium tracking-wider uppercase mb-6 backdrop-blur-sm border border-sauna-sand/20">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-sauna-sand/20 text-sauna-sand rounded-full text-xs font-medium tracking-wider uppercase mb-6 backdrop-blur-xs border border-sauna-sand/20">
               <span className="w-1.5 h-1.5 rounded-full bg-sauna-sand animate-pulse" />
               Starts When You Are Ready
             </div>
@@ -78,7 +78,7 @@ export default function ChallengePage() {
               The Path.
             </h2>
             <p className="text-xl text-sauna-slate leading-relaxed">
-              We don't throw you into the deep end. We build capacity. <br/>
+              We don&apos;t throw you into the deep end. We build capacity. <br/>
               Week by week, we layer on intensity and complexity.
             </p>
           </div>
@@ -120,12 +120,12 @@ export default function ChallengePage() {
             </h2>
             <p className="text-lg text-sauna-slate mb-10 max-w-2xl mx-auto">
                 Research shows that accountability partners increase adherence by 80%. 
-                Don't do this alone.
+                Don&apos;t do this alone.
             </p>
             
             <div className="inline-flex flex-col sm:flex-row gap-4 items-center justify-center">
                 <CopyLinkButton />
-                <p className="text-sm text-sauna-slate/60">
+                <p className="text-sm text-sauna-slate">
                     Or just forward the first email to a friend.
                 </p>
             </div>
@@ -140,11 +140,11 @@ export default function ChallengePage() {
 function WeekCard({ number, title, theme, desc }: { number: string, title: string, theme: string, desc: string }) {
     return (
         <div className="border-t border-sauna-ink/20 pt-6 group hover:border-sauna-ink transition-colors duration-500">
-            <span className="text-6xl font-display text-sauna-ash/50 font-medium block mb-4 group-hover:text-sauna-oak/30 transition-colors">
+            <span aria-hidden="true" className="text-6xl font-display text-sauna-stone font-medium block mb-4 group-hover:text-sauna-fog transition-colors">
                 {number}
             </span>
             <h3 className="text-xl font-bold text-sauna-ink mb-1">{title}</h3>
-            <p className="text-xs uppercase tracking-widest text-sauna-oak mb-4">{theme}</p>
+            <p className="text-xs uppercase tracking-widest text-sauna-walnut mb-4">{theme}</p>
             <p className="text-sauna-slate text-sm leading-relaxed border-l-2 border-transparent pl-0 group-hover:pl-4 group-hover:border-sauna-sand transition-all duration-300">
                 {desc}
             </p>

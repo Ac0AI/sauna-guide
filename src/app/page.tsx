@@ -37,12 +37,12 @@ export default function HomePage() {
             className="object-cover"
             quality={85}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-sauna-charcoal/70 via-sauna-bark/40 to-transparent" />
+          <div className="absolute inset-0 bg-linear-to-r from-sauna-charcoal/70 via-sauna-bark/40 to-transparent" />
         </div>
 
         {/* Content */}
         <div className="relative z-10 max-w-3xl mx-auto px-6 text-center">
-          <div className="bg-sauna-charcoal/40 backdrop-blur-sm rounded-2xl p-8 md:p-12">
+          <div className="bg-sauna-charcoal/40 backdrop-blur-xs rounded-2xl p-8 md:p-12">
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-sauna-paper mb-6
                           leading-[1.1] tracking-tight animate-fade-up drop-shadow-lg">
               Restore your<br />
@@ -64,7 +64,7 @@ export default function HomePage() {
               </Link>
               <Link 
                 href="#newsletter" 
-                className="px-8 py-4 bg-sauna-paper/10 backdrop-blur-sm border border-sauna-paper/20 text-sauna-paper font-medium text-lg rounded-xl hover:bg-sauna-paper/20 transition-colors"
+                className="px-8 py-4 bg-sauna-paper/10 backdrop-blur-xs border border-sauna-paper/20 text-sauna-paper font-medium text-lg rounded-xl hover:bg-sauna-paper/20 transition-colors"
               >
                 Read the Newsletter
               </Link>
@@ -121,7 +121,7 @@ export default function HomePage() {
       <section className="py-20 md:py-28 bg-sauna-linen relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <p className="text-sm uppercase tracking-widest text-sauna-oak mb-3">From the archive</p>
+            <p className="text-sm uppercase tracking-widest text-sauna-walnut mb-3">From the archive</p>
             <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-4">
               Places worth the journey
             </h2>
@@ -267,7 +267,7 @@ export default function HomePage() {
 
           <NewsletterSignup variant="inline" />
 
-          <p className="text-sm text-sauna-slate/70 mt-6">
+          <p className="text-sm text-sauna-slate mt-6">
             Free. Every Thursday. 5-minute read.
           </p>
         </div>
@@ -282,7 +282,7 @@ export default function HomePage() {
 function ForWhomCard({ text }: { text: string }) {
   return (
     <div className="flex items-start gap-3 p-4 bg-sauna-charcoal/50 rounded-lg border border-sauna-paper/10">
-      <svg className="w-5 h-5 text-sauna-sand mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <svg className="w-5 h-5 text-sauna-sand mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
       </svg>
       <p className="text-sauna-paper/90 text-sm leading-relaxed">{text}</p>
@@ -371,7 +371,7 @@ function FeatureCard({
         {description}
       </p>
 
-      <div className="flex items-center text-sauna-oak text-sm font-medium group-hover:gap-2 gap-1.5 transition-all">
+      <div className="flex items-center text-sauna-walnut text-sm font-medium group-hover:gap-2 gap-1.5 transition-all">
         {cta}
         <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -395,7 +395,7 @@ function SaunaCard({
   href: string
 }) {
   return (
-    <Link href={href} className="group relative aspect-[3/4] rounded-xl overflow-hidden">
+    <Link href={href} className="group relative aspect-3/4 rounded-xl overflow-hidden">
       <Image
         src={image}
         alt={`${name} in ${location}`}
@@ -404,7 +404,7 @@ function SaunaCard({
         className="object-cover group-hover:scale-105 transition-transform duration-500"
         loading="lazy"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-sauna-charcoal/80 via-sauna-charcoal/20 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-t from-sauna-charcoal/80 via-sauna-charcoal/20 to-transparent" />
       <div className="absolute bottom-0 left-0 right-0 p-4">
         <p className="text-sauna-sand text-xs uppercase tracking-wider mb-1">{location}</p>
         <h3 className="text-sauna-paper font-display text-lg font-medium mb-1">{name}</h3>

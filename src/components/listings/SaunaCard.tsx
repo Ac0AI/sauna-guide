@@ -26,7 +26,7 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
                     hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full"
     >
       {/* Image Container */}
-      <div className="aspect-[16/10] bg-sauna-linen relative overflow-hidden">
+      <div className="aspect-16/10 bg-sauna-linen relative overflow-hidden">
         {imageSrc ? (
           <Image
             src={imageSrc}
@@ -53,14 +53,14 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
       {/* Content */}
       <div className="p-6 flex flex-col flex-1">
         <div className="mb-4">
-          <div className="flex items-center gap-2 text-xs font-medium text-sauna-oak uppercase tracking-wider mb-2">
+          <div className="flex items-center gap-2 text-xs font-medium text-sauna-walnut uppercase tracking-wider mb-2">
             <span>{sauna.type}</span>
             <span>•</span>
             <span>{sauna.location.city}, {sauna.location.country}</span>
           </div>
-          <h3 className="text-xl font-medium text-sauna-ink group-hover:text-sauna-walnut transition-colors duration-300">
+          <h2 className="text-xl font-medium text-sauna-ink group-hover:text-sauna-walnut transition-colors duration-300">
             {sauna.name}
-          </h3>
+          </h2>
         </div>
 
         <p className="text-sauna-slate text-sm leading-relaxed mb-6 line-clamp-3">
@@ -73,7 +73,7 @@ export function SaunaCard({ sauna }: SaunaCardProps) {
             <span
               key={feature}
               className="text-[10px] uppercase font-bold tracking-widest bg-sauna-linen
-                         text-sauna-walnut/70 px-2 py-0.5 rounded border border-sauna-ash/30"
+                         text-sauna-walnut px-2 py-0.5 rounded border border-sauna-ash/30"
             >
               {feature}
             </span>

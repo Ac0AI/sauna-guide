@@ -22,7 +22,7 @@ const products = [
   { slug: 'rento-pisara-bucket-and-ladle', prompt: 'Professional product photo of a premium Finnish biocomposite sauna bucket and ladle, dark elegant curved design, white background, studio lighting' },
   { slug: 'fischer-german-thermometer', prompt: 'Professional product photo of a classic round analog thermometer hygrometer combo, German precision brass and wood instrument, vintage elegant style, white background' },
   { slug: '15-minute-cedar-sand-timer', prompt: 'Professional product photo of a wooden hourglass sand timer, red cedar frame with glass tubes, white sand, wall mountable, white background' },
-  { slug: 'olivine-diabase-sauna-stones', prompt: 'Professional product photo of dark gray volcanic sauna stones pile, smooth rounded olivine diabase rocks, natural texture, white background' },
+  { slug: 'olivine-diabase-sauna-stones', prompt: 'Professional product photo of dark gray volcanic sauna stones pile, smooth rounded-sm olivine diabase rocks, natural texture, white background' },
 
   // Comfort
   { slug: 'by-itu-sauna-hat', prompt: 'Professional product photo of a handmade Finnish wool felt sauna hat, natural beige gray dome shape, artisan craft, white background' },
@@ -46,7 +46,7 @@ const products = [
   { slug: '100-gallon-stock-tank', prompt: 'Professional product photo of a galvanized steel stock tank, round metal tub, rustic farm style, white background' },
 
   // Tracking
-  { slug: 'oura-ring-4', prompt: 'Professional product photo of a smart ring wearable, sleek titanium band, modern health tracker, white background, tech gadget' },
+  { slug: 'oura-ring-4', prompt: 'Professional product photo of a smart ring-3 wearable, sleek titanium band, modern health tracker, white background, tech gadget' },
   { slug: 'whoop-4-0', prompt: 'Professional product photo of a fitness wearable band, black strap with sensor pod, health tracker device, white background' },
   { slug: 'apple-watch-ultra', prompt: 'Professional product photo of a premium titanium smartwatch, orange action button, rugged sports watch design, white background' },
   { slug: 'sauna-tracker-app', prompt: 'Professional product mockup of a smartphone showing fitness tracking app interface, sauna session data screen, white background' },

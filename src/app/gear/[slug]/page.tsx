@@ -102,7 +102,7 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navigation />
 
-      <main className="max-w-7xl mx-auto px-6 py-32 flex-grow">
+      <main className="max-w-7xl mx-auto px-6 py-32 grow">
         {/* Breadcrumbs */}
         <nav className="mb-8 text-sm">
           <ol className="flex items-center gap-2 text-sauna-slate">
@@ -133,7 +133,7 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
         {/* Product Hero */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           {/* Image */}
-          <div className="aspect-square bg-gradient-to-br from-sauna-linen to-sauna-ash/20 rounded-2xl relative overflow-hidden">
+          <div className="aspect-square bg-linear-to-br from-sauna-linen to-sauna-ash/20 rounded-2xl relative overflow-hidden">
             {imageSrc ? (
               <Image
                 src={imageSrc}
@@ -157,9 +157,9 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
           <div className="flex flex-col">
             <div className="mb-6">
               <div className="flex items-center gap-3 mb-3">
-                <span className="text-sm font-medium text-sauna-oak uppercase tracking-wider">{product.brand}</span>
+                <span className="text-sm font-medium text-sauna-walnut uppercase tracking-wider">{product.brand}</span>
                 {product.rating && (
-                  <div className="flex items-center gap-1 bg-sauna-linen px-2 py-1 rounded">
+                  <div className="flex items-center gap-1 bg-sauna-linen px-2 py-1 rounded-sm">
                     <span className="text-yellow-500">★</span>
                     <span className="text-sm font-medium text-sauna-ink">{product.rating}</span>
                   </div>
@@ -179,7 +179,7 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
 
             {/* Why We Recommend */}
             <div className="bg-sauna-linen/50 p-6 rounded-xl mb-8">
-              <h3 className="text-sm font-bold uppercase tracking-wider text-sauna-oak mb-2">
+              <h3 className="text-sm font-bold uppercase tracking-wider text-sauna-walnut mb-2">
                 Why We Recommend It
               </h3>
               <p className="text-sauna-bark">{product.why}</p>

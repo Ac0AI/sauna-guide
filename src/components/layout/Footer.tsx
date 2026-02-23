@@ -26,7 +26,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="font-medium mb-4 text-sauna-sand">Explore</h4>
+            <h2 className="font-medium mb-4 text-sauna-sand text-base">Explore</h2>
             <ul className="space-y-2 text-sauna-fog">
               <li><Link href="/saunas" className="hover:text-sauna-paper transition-colors">Sauna Directory</Link></li>
               <li><Link href="/guides" className="hover:text-sauna-paper transition-colors">Guides & Protocols</Link></li>

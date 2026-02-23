@@ -41,7 +41,7 @@ export function BrandCard({ manufacturer }: BrandCardProps) {
                     hover:border-sauna-oak/30 hover:shadow-xl transition-all duration-300 flex flex-col h-full"
     >
       {/* Decorative Header with Logo */}
-      <div className={`h-28 bg-gradient-to-br ${gradient} relative overflow-hidden`}>
+      <div className={`h-28 bg-linear-to-br ${gradient} relative overflow-hidden`}>
         <div className="absolute inset-0 opacity-10">
           <svg className="w-full h-full" viewBox="0 0 400 120" preserveAspectRatio="none">
             <path d="M0,60 Q100,20 200,60 T400,60 L400,120 L0,120 Z" fill="white" />
@@ -60,7 +60,7 @@ export function BrandCard({ manufacturer }: BrandCardProps) {
           </div>
         )}
         <div className="absolute bottom-3 left-5">
-          <span className="text-[10px] uppercase font-bold tracking-widest text-white/70 bg-white/15 px-2.5 py-1 rounded-full backdrop-blur-sm">
+          <span className="text-[10px] uppercase font-bold tracking-widest text-white/70 bg-white/15 px-2.5 py-1 rounded-full backdrop-blur-xs">
             {label}
           </span>
         </div>
@@ -69,7 +69,7 @@ export function BrandCard({ manufacturer }: BrandCardProps) {
       {/* Content */}
       <div className="p-6 flex flex-col flex-1">
         <div className="mb-4">
-          <div className="flex items-center gap-2 text-xs font-medium text-sauna-oak uppercase tracking-wider mb-2">
+          <div className="flex items-center gap-2 text-xs font-medium text-sauna-walnut uppercase tracking-wider mb-2">
             <span>{manufacturer.country}</span>
             {manufacturer.founded && (
               <>
@@ -78,9 +78,9 @@ export function BrandCard({ manufacturer }: BrandCardProps) {
               </>
             )}
           </div>
-          <h3 className="text-xl font-medium text-sauna-ink group-hover:text-sauna-walnut transition-colors duration-300">
+          <h2 className="text-xl font-medium text-sauna-ink group-hover:text-sauna-walnut transition-colors duration-300">
             {manufacturer.name}
-          </h3>
+          </h2>
         </div>
 
         <p className="text-sauna-slate text-sm leading-relaxed mb-6 line-clamp-2">
@@ -93,7 +93,7 @@ export function BrandCard({ manufacturer }: BrandCardProps) {
             <span
               key={product}
               className="text-[10px] uppercase font-bold tracking-widest bg-sauna-linen
-                         text-sauna-walnut/70 px-2 py-0.5 rounded border border-sauna-ash/30"
+                         text-sauna-walnut px-2 py-0.5 rounded border border-sauna-ash/30"
             >
               {product.replace(/-/g, ' ')}
             </span>

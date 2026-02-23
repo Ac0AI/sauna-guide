@@ -86,7 +86,7 @@ export default function WelcomePage() {
             <div className="space-y-2 text-sm text-sauna-paper/80">
               <p><strong className="text-sauna-paper">1.</strong> Check your inbox (and Promotions/Spam)</p>
               <p><strong className="text-sauna-paper">2.</strong> Add <span className="text-sauna-sand">saunaguide@mail.beehiiv.com</span> to contacts</p>
-              <p><strong className="text-sauna-paper">3.</strong> Reply <span className="inline-block bg-sauna-sand/20 text-sauna-sand px-1.5 py-0.5 rounded text-xs font-medium">Löyly</span> to your welcome email</p>
+              <p><strong className="text-sauna-paper">3.</strong> Reply <span className="inline-block bg-sauna-sand/20 text-sauna-sand px-1.5 py-0.5 rounded-sm text-xs font-medium">Löyly</span> to your welcome email</p>
             </div>
           </div>
 

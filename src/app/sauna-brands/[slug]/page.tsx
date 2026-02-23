@@ -86,7 +86,7 @@ export default async function BrandPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navigation />
 
-      <main className="max-w-4xl mx-auto px-6 py-32 flex-grow">
+      <main className="max-w-4xl mx-auto px-6 py-32 grow">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm">
           <Link href="/sauna-brands" className="text-sauna-slate hover:text-sauna-oak transition-colors">
@@ -212,7 +212,7 @@ export default async function BrandPage({ params }: Props) {
         </section>
 
         {/* Newsletter CTA */}
-        <section className="p-8 bg-gradient-to-br from-sauna-charcoal to-sauna-ink rounded-2xl text-sauna-paper">
+        <section className="p-8 bg-linear-to-br from-sauna-charcoal to-sauna-ink rounded-2xl text-sauna-paper">
           <h3 className="font-display text-2xl font-medium mb-4">
             Get Unbiased Sauna Guidance
           </h3>

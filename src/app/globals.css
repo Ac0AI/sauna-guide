@@ -1,8 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap')
+layer(base);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --color-sauna-paper: #fafaf8;
+  --color-sauna-linen: #f5f3ef;
+  --color-sauna-cream: #ebe8e2;
+  --color-sauna-ash: #e0ddd7;
+  --color-sauna-fog: #c5c2bc;
+  --color-sauna-stone: #8b8884;
+  --color-sauna-slate: #605c57;
+  --color-sauna-ink: #2b2926;
+  --color-sauna-charcoal: #1c1917;
+  --color-sauna-night: #0f0e0d;
+  --color-sauna-birch: #d4c9b8;
+  --color-sauna-cedar: #b8a68a;
+  --color-sauna-oak: #9d826b;
+  --color-sauna-walnut: #7a6655;
+  --color-sauna-bark: #4a403a;
+  --color-sauna-clay: #a68b6b;
+  --color-sauna-sand: #c4b5a0;
+  --color-sauna-brass: #9a8560;
+  --color-sauna-bronze: #7a6b55;
+  --color-sauna-ember: #b87b5a;
+  --color-sauna-glow: #d4a574;
+  --color-sauna-warm: #e8d5c4;
+  --color-sauna-wood: #9d826b;
+  --color-sauna-steam: #fafaf8;
+  --color-sauna-mist: #e0ddd7;
+  --color-sauna-heat: #b87b5a;
+  --color-sauna-copper: #a68b6b;
+  --color-sauna-honey: #c4b5a0;
+  --color-sauna-dark: #2b2926;
+
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', system-ui, sans-serif;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-delayed: float 6s ease-in-out 2s infinite;
+  --animate-float-slow: float 8s ease-in-out 1s infinite;
+  --animate-glow: glow 3s ease-in-out infinite;
+  --animate-steam: steam 4s ease-in-out infinite;
+  --animate-fade-up: fadeUp 0.8s ease-out forwards;
+  --animate-fade-up-delayed: fadeUp 0.8s ease-out 0.2s forwards;
+  --animate-scale-in: scaleIn 0.6s ease-out forwards;
+
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-wood-grain: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 50px,
+    rgba(157, 130, 107, 0.03) 50px,
+    rgba(157, 130, 107, 0.03) 51px
+  );
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  @keyframes glow {
+    0%,
+    100% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.8;
+    }
+  }
+  @keyframes steam {
+    0% {
+      opacity: 0;
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100px) scale(1.5);
+    }
+  }
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes scaleIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
 
 :root {
   --font-display: 'Cormorant Garamond', Georgia, serif;
@@ -172,7 +296,7 @@ img {
   --tw-prose-body: #605C57;
   --tw-prose-headings: #2B2926;
   --tw-prose-lead: #605C57;
-  --tw-prose-links: #7A6655;
+  --tw-prose-links: #5C4D3E;
   --tw-prose-bold: #2B2926;
   --tw-prose-counters: #8B8884;
   --tw-prose-bullets: #9D826B;

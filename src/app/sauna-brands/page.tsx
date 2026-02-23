@@ -26,7 +26,7 @@ export default function SaunaBrandsPage() {
     <div className="min-h-screen bg-sauna-paper flex flex-col">
       <Navigation />
 
-      <main className="max-w-7xl mx-auto px-6 py-32 flex-grow">
+      <main className="max-w-7xl mx-auto px-6 py-32 grow">
         <header className="mb-16">
           <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-4">
             Sauna Brands

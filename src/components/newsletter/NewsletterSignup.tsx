@@ -69,7 +69,7 @@ export function NewsletterSignup({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
             </div>
-            <h3 className="text-2xl font-display font-medium text-sauna-ink mb-3">You're on the list.</h3>
+            <h3 className="text-2xl font-display font-medium text-sauna-ink mb-3">You&apos;re on the list.</h3>
             <p className="text-sauna-slate mb-8 text-lg leading-relaxed">
                 Research shows you are <strong>80% more likely</strong> to finish the protocol if you do it with a friend.
             </p>
@@ -96,7 +96,7 @@ export function NewsletterSignup({
               onClick={() => router.push('/welcome')}
               className="text-sauna-slate/60 hover:text-sauna-ink transition-colors text-sm font-medium"
             >
-                I'll do it alone →
+                I&apos;ll do it alone →
             </button>
         </div>
     )
@@ -114,7 +114,7 @@ export function NewsletterSignup({
             required
             className="flex-1 px-5 py-3.5 bg-sauna-paper border border-sauna-ash
                        rounded-lg text-sauna-ink placeholder:text-sauna-stone
-                       focus:outline-none focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
+                       focus:outline-hidden focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
                        transition-all duration-300"
           />
           <button
@@ -156,7 +156,7 @@ export function NewsletterSignup({
             required
             className="flex-1 px-5 py-3.5 bg-sauna-paper border border-sauna-ash
                        rounded-lg text-sauna-ink placeholder:text-sauna-stone
-                       focus:outline-none focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
+                       focus:outline-hidden focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
                        transition-all duration-300"
           />
           <button
@@ -189,9 +189,9 @@ export function NewsletterSignup({
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
             required
-            className="w-full px-6 py-4 bg-sauna-paper/95 backdrop-blur-sm border border-sauna-paper/50
+            className="w-full px-6 py-4 bg-sauna-paper/95 backdrop-blur-xs border border-sauna-paper/50
                        rounded-xl text-sauna-ink placeholder:text-sauna-stone text-base
-                       focus:outline-none focus:ring-2 focus:ring-sauna-sand/50 focus:border-sauna-sand
+                       focus:outline-hidden focus:ring-2 focus:ring-sauna-sand/50 focus:border-sauna-sand
                        transition-all duration-300 shadow-lg"
           />
         </div>

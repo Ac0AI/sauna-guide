@@ -23,7 +23,7 @@ const products = [
   { slug: 'sensorpush-ht1-thermometer', prompt: 'Small wireless digital thermometer sensor, white square IoT device, modern tech gadget, product photography white background' },
   { slug: 'fischer-german-thermometer', prompt: 'Classic round analog thermometer hygrometer combo, German precision brass and wood instrument, vintage elegant style, product photo' },
   { slug: '15-minute-cedar-sand-timer', prompt: 'Wooden hourglass sand timer, red cedar frame with glass tubes, white sand, wall mountable, product photography white background' },
-  { slug: 'olivine-diabase-sauna-stones', prompt: 'Dark gray volcanic sauna stones pile, smooth rounded olivine diabase rocks, natural texture, product photography white background' },
+  { slug: 'olivine-diabase-sauna-stones', prompt: 'Dark gray volcanic sauna stones pile, smooth rounded-sm olivine diabase rocks, natural texture, product photography white background' },
 
   // Comfort
   { slug: 'by-itu-sauna-hat', prompt: 'Handmade Finnish wool felt sauna hat, natural beige gray dome shape, artisan craft, product photography white background' },
@@ -48,7 +48,7 @@ const products = [
   { slug: '100-gallon-stock-tank', prompt: 'Galvanized steel stock tank, round metal tub, rustic farm style, product photography white background' },
 
   // Tracking
-  { slug: 'oura-ring-4', prompt: 'Smart ring wearable, sleek titanium band, modern health tracker, product photography white background, tech gadget' },
+  { slug: 'oura-ring-4', prompt: 'Smart ring-3 wearable, sleek titanium band, modern health tracker, product photography white background, tech gadget' },
   { slug: 'whoop-4-0', prompt: 'Fitness wearable band, black strap with sensor pod, health tracker device, product photography white background' },
   { slug: 'apple-watch-ultra', prompt: 'Premium titanium smartwatch, orange action button, rugged sports watch design, product photography white background' },
   { slug: 'sauna-tracker-app', prompt: 'Smartphone showing fitness tracking app interface, sauna session data screen, product mockup photo' },

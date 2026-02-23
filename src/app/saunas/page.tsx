@@ -26,13 +26,13 @@ export default function SaunasPage() {
     <div className="min-h-screen bg-sauna-paper flex flex-col">
       <Navigation />
 
-      <main className="max-w-7xl mx-auto px-6 py-32 flex-grow">
+      <main className="max-w-7xl mx-auto px-6 py-32 grow">
         <header className="mb-16">
           <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-4">
             Sauna Directory
           </h1>
           <p className="text-xl text-sauna-slate max-w-2xl leading-relaxed">
-            A curated collection of the world's most exceptional saunas.
+            A curated collection of the world&apos;s most exceptional saunas.
             From ancient traditions to modern thermal sanctuaries.
           </p>
         </header>

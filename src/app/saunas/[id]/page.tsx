@@ -105,7 +105,7 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
             </svg>
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-sauna-charcoal via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-sauna-charcoal via-transparent to-transparent" />
         
         <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
             <div className="max-w-7xl mx-auto">
@@ -133,14 +133,14 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
         </div>
       </div>
 
-      <main className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12 flex-grow">
+      <main className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12 grow">
         {/* Main Content */}
         <div className="lg:col-span-2">
             <h2 className="text-2xl font-display text-sauna-ink mb-6">About this Sauna</h2>
             <div className="prose prose-lg prose-stone text-sauna-slate leading-relaxed">
                 <p>{sauna.description}</p>
                 <p>
-                    Experience the unique atmosphere of {sauna.name}, a standout destination in {sauna.location.city}'s wellness scene. 
+                    Experience the unique atmosphere of {sauna.name}, a standout destination in {sauna.location.city}&apos;s wellness scene. 
                     Whether you are a seasoned sauna enthusiast or a beginner, this location offers a curated heat experience 
                     reflecting the local traditions of {sauna.location.country}.
                 </p>
