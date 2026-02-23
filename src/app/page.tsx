@@ -279,17 +279,6 @@ export default function HomePage() {
   )
 }
 
-function ForWhomCard({ text }: { text: string }) {
-  return (
-    <div className="flex items-start gap-3 p-4 bg-sauna-charcoal/50 rounded-lg border border-sauna-paper/10">
-      <svg className="w-5 h-5 text-sauna-sand mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-      </svg>
-      <p className="text-sauna-paper/90 text-sm leading-relaxed">{text}</p>
-    </div>
-  )
-}
-
 function ValueCard({
   icon,
   title,

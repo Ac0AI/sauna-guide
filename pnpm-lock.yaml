@@ -11,9 +11,6 @@ importers:
       '@google/genai':
         specifier: ^1.42.0
         version: 1.42.0
-      '@google/generative-ai':
-        specifier: ^0.24.1
-        version: 0.24.1
       '@tailwindcss/typography':
         specifier: ^0.5.19
         version: 0.5.19(tailwindcss@4.2.1)
@@ -202,10 +199,6 @@ packages:
     peerDependenciesMeta:
       '@modelcontextprotocol/sdk':
         optional: true
-
-  '@google/generative-ai@0.24.1':
-    resolution: {integrity: sha512-MqO+MLfM6kjxcKoy0p1wRzG3b4ZZXtPI+z2IE26UogS2Cm/XHO+7gGRBh6gcJsOiIVoH93UwKvW4HdgiOZCy9Q==}
-    engines: {node: '>=18.0.0'}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2872,8 +2865,6 @@ snapshots:
       - bufferutil
       - supports-color
       - utf-8-validate
-
-  '@google/generative-ai@0.24.1': {}
 
   '@humanfs/core@0.19.1': {}
 
