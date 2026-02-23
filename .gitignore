@@ -37,6 +37,9 @@ next-env.d.ts
 .DS_Store
 Thumbs.db
 
+# Broken git
+.git.broken/
+
 # Claude Code local settings (contains API keys)
 .claude/settings.local.json
 

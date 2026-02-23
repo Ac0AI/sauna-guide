@@ -6,6 +6,14 @@ import { Footer } from '@/components/layout/Footer'
 export const metadata = {
   title: 'Sauna Brands & Manufacturers | Find Your Perfect Sauna',
   description: 'Explore the world\'s leading sauna manufacturers. From Finnish heritage brands like Harvia to innovative infrared makers like Sunlighten.',
+  alternates: {
+    canonical: 'https://sauna.guide/sauna-brands',
+  },
+  openGraph: {
+    title: 'Sauna Brands & Manufacturers | Find Your Perfect Sauna',
+    description: 'Explore the world\'s leading sauna manufacturers. From Finnish heritage brands like Harvia to innovative infrared makers like Sunlighten.',
+    url: 'https://sauna.guide/sauna-brands',
+  },
 }
 
 const typeColors: Record<string, string> = {

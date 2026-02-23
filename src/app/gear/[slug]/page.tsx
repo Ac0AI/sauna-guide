@@ -28,9 +28,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${product.name} Review | Best ${category?.name || 'Sauna'} Gear`,
     description: `${product.description} ${product.why}`,
+    alternates: {
+      canonical: `https://sauna.guide/gear/${slug}`,
+    },
     openGraph: {
       title: `${product.name} - ${product.brand}`,
       description: product.description,
+      url: `https://sauna.guide/gear/${slug}`,
       images: product.image ? [product.image] : undefined,
     },
   }
@@ -56,7 +60,7 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
     '@type': 'Product',
     name: product.name,
     description: product.description,
-    image: imageSrc ? `https://sauna-guide.com${imageSrc}` : undefined,
+    image: imageSrc ? `https://sauna.guide${imageSrc}` : undefined,
     brand: {
       '@type': 'Brand',
       name: product.brand
@@ -81,12 +85,21 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
     } : undefined
   }
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sauna.guide' },
+      { '@type': 'ListItem', position: 2, name: 'Gear', item: 'https://sauna.guide/gear' },
+      ...(category ? [{ '@type': 'ListItem', position: 3, name: category.name, item: `https://sauna.guide/gear#${category.id}` }] : []),
+      { '@type': 'ListItem', position: category ? 4 : 3, name: product.name, item: `https://sauna.guide/gear/${slug}` },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-sauna-paper flex flex-col">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navigation />
 
       <main className="max-w-7xl mx-auto px-6 py-32 flex-grow">

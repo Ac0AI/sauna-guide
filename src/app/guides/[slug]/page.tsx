@@ -21,8 +21,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!guide) return { title: 'Guide Not Found' }
 
   return {
-    title: `${guide.meta.title} | Sauna Guide`,
+    title: guide.meta.title,
     description: guide.meta.description,
+    alternates: {
+      canonical: `https://sauna.guide/guides/${slug}`,
+    },
+    openGraph: {
+      title: guide.meta.title,
+      description: guide.meta.description,
+      type: 'article',
+      url: `https://sauna.guide/guides/${slug}`,
+      images: guide.meta.image ? [{ url: guide.meta.image }] : undefined,
+      publishedTime: guide.meta.date,
+      authors: guide.meta.author ? [guide.meta.author] : undefined,
+    },
   }
 }
 
@@ -32,6 +44,38 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
   if (!guide) return notFound()
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: guide.meta.title,
+    description: guide.meta.description,
+    image: guide.meta.image ? `https://sauna.guide${guide.meta.image}` : undefined,
+    datePublished: guide.meta.date,
+    author: {
+      '@type': 'Person',
+      name: guide.meta.author || 'Sauna Guide',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Sauna Guide',
+      logo: { '@type': 'ImageObject', url: 'https://sauna.guide/images/logo.svg' },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://sauna.guide/guides/${slug}`,
+    },
+  }
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sauna.guide' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://sauna.guide/guides' },
+      { '@type': 'ListItem', position: 3, name: guide.meta.title, item: `https://sauna.guide/guides/${slug}` },
+    ],
+  }
+
   // Custom components for MDX
   const components = {
     // You can add custom components here (e.g. Callout, Image, etc)
@@ -39,6 +83,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
   return (
     <article className="min-h-screen bg-sauna-paper pb-20">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
        {/* Navigation */}
        <nav className="bg-sauna-paper border-b border-sauna-ash/50 sticky top-0 z-50">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">

@@ -3,6 +3,20 @@ import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Sauna Guide - Discover the Art of Heat & Wellness',
+  description: 'Your complete guide to saunas worldwide. Science-backed protocols, curated destinations, and a weekly letter on why heat heals. Step inside.',
+  alternates: {
+    canonical: 'https://sauna.guide',
+  },
+  openGraph: {
+    title: 'Sauna Guide - Discover the Art of Heat & Wellness',
+    description: 'Science-backed protocols, curated destinations, and a weekly letter on why heat heals.',
+    url: 'https://sauna.guide',
+  },
+}
 
 export default function HomePage() {
   return (

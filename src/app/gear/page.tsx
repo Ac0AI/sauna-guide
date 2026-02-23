@@ -5,12 +5,16 @@ import { GearCard } from '@/components/listings/GearCard'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Sauna Gear & Accessories 2025 | Reviews & Guide',
+  title: 'Best Sauna Gear & Accessories 2026 | Reviews & Guide',
   description: 'Discover top-rated sauna accessories, from authentic Finnish buckets and ladles to infrared blankets and cold plunges. Expert reviews, specs, and buying guide.',
   keywords: ['sauna gear', 'sauna accessories', 'best sauna thermometer', 'sauna hat', 'cold plunge', 'infrared sauna blanket', 'sauna heater', 'finnish sauna'],
+  alternates: {
+    canonical: 'https://sauna.guide/gear',
+  },
   openGraph: {
-    title: 'Best Sauna Gear & Accessories 2025 | Reviews & Guide',
+    title: 'Best Sauna Gear & Accessories 2026 | Reviews & Guide',
     description: 'Discover top-rated sauna accessories, from authentic Finnish buckets and ladles to infrared blankets and cold plunges. Expert reviews, specs, and buying guide.',
+    url: 'https://sauna.guide/gear',
     type: 'website',
   },
 }

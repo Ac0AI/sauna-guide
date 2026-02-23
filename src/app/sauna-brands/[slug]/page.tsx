@@ -23,8 +23,16 @@ export async function generateMetadata({ params }: Props) {
   }
 
   return {
-    title: `${manufacturer.name} Saunas | Sauna Guide`,
+    title: `${manufacturer.name} Saunas`,
     description: `${manufacturer.unique_angle} Learn about ${manufacturer.name} saunas from ${manufacturer.country}.`,
+    alternates: {
+      canonical: `https://sauna.guide/sauna-brands/${slug}`,
+    },
+    openGraph: {
+      title: `${manufacturer.name} Saunas | Sauna Guide`,
+      description: `${manufacturer.unique_angle} Learn about ${manufacturer.name} saunas from ${manufacturer.country}.`,
+      url: `https://sauna.guide/sauna-brands/${slug}`,
+    },
   }
 }
 
@@ -47,8 +55,34 @@ export default async function BrandPage({ params }: Props) {
     notFound()
   }
 
+  const brandJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: manufacturer.name,
+    url: manufacturer.website,
+    description: manufacturer.unique_angle,
+    ...(manufacturer.country && {
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: manufacturer.country,
+      },
+    }),
+  }
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sauna.guide' },
+      { '@type': 'ListItem', position: 2, name: 'Sauna Brands', item: 'https://sauna.guide/sauna-brands' },
+      { '@type': 'ListItem', position: 3, name: manufacturer.name, item: `https://sauna.guide/sauna-brands/${slug}` },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-sauna-paper flex flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(brandJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navigation />
 
       <main className="max-w-4xl mx-auto px-6 py-32 flex-grow">

@@ -8,6 +8,14 @@ import Image from 'next/image'
 export const metadata = {
   title: 'The 30-Day Sauna Reset | Guided Protocol',
   description: 'Restore your baseline in 4 weeks. A guided sauna protocol to reduce stress, improve sleep, and build resilience.',
+  alternates: {
+    canonical: 'https://sauna.guide/challenge',
+  },
+  openGraph: {
+    title: 'The 30-Day Sauna Reset | Guided Protocol',
+    description: 'Restore your baseline in 4 weeks. A guided sauna protocol to reduce stress, improve sleep, and build resilience.',
+    url: 'https://sauna.guide/challenge',
+  },
 }
 
 export default function ChallengePage() {

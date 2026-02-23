@@ -8,6 +8,14 @@ import { Footer } from '@/components/layout/Footer'
 export const metadata = {
   title: 'Sauna Directory | The Best Saunas Worldwide',
   description: 'Discover the most authentic and iconic saunas across the globe. From Finnish smoke saunas to luxury thermal baths.',
+  alternates: {
+    canonical: 'https://sauna.guide/saunas',
+  },
+  openGraph: {
+    title: 'Sauna Directory | The Best Saunas Worldwide',
+    description: 'Discover the most authentic and iconic saunas across the globe. From Finnish smoke saunas to luxury thermal baths.',
+    url: 'https://sauna.guide/saunas',
+  },
 }
 
 export default function SaunasPage() {

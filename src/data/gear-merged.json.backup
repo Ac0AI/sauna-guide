@@ -1,0 +1,1255 @@
+{
+  "lastUpdated": "2025-12-25",
+  "totalProducts": 53,
+  "categories": [
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "description": "Must-haves for any sauna",
+      "products": [
+        {
+          "name": "KOLO Bucket and Ladle Set",
+          "brand": "KOLO",
+          "price": "$70",
+          "description": "Finnish-designed aluminum and bamboo set where ladle serves as bucket handle",
+          "why": "Innovative design, leak-proof, modern aesthetic",
+          "richDescription": "Unique design where ladle serves as bucket handle",
+          "whyPeopleLikeIt": "Innovative design, guaranteed not to leak, modern aesthetic",
+          "redditSentiment": "Popular Finnish design",
+          "specs": {
+            "material": "Painted aluminum and bamboo"
+          },
+          "rating": 4.5,
+          "slug": "kolo-bucket-and-ladle-set",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=KOLO%20Bucket%20and%20Ladle%20Set%20KOLO",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/kolo-bucket-and-ladle-set.png"
+        },
+        {
+          "name": "Rento Pisara Bucket and Ladle",
+          "brand": "Rento",
+          "price": "$120",
+          "description": "Premium Finnish biocomposite bucket and ladle made from recycled wood",
+          "why": "Eco-friendly, handles heat without burning, Finnish quality",
+          "richDescription": "Durable Finnish-designed sauna bucket and ladle",
+          "whyPeopleLikeIt": "Made from recycled wood, handles heat well without burning skin",
+          "redditSentiment": "Premium Finnish choice",
+          "specs": {
+            "material": "Biocomposite"
+          },
+          "rating": 4.5,
+          "slug": "rento-pisara-bucket-and-ladle",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Rento%20Pisara%20Bucket%20and%20Ladle%20Rento",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/rento-pisara-bucket-and-ladle.png"
+        },
+        {
+          "name": "SensorPush HT1 Thermometer",
+          "brand": "SensorPush",
+          "price": "$50-90",
+          "description": "Bluetooth wireless thermometer with smartphone app for real-time monitoring",
+          "why": "Most accurate digital option, stores months of data, Reddit favorite",
+          "richDescription": "Bluetooth wireless thermometer with smartphone app for real-time monitoring",
+          "whyPeopleLikeIt": "Most accurate digital option, stores months of data, Reddit favorite",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "sensorpush-ht1-thermometer",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=SensorPush%20HT1%20Thermometer%20SensorPush",
+              "type": "amazon"
+            }
+          ],
+          "image": "sensorpush-ht1-thermometer.jpg"
+        },
+        {
+          "name": "Fischer German Thermometer",
+          "brand": "Fischer",
+          "price": "$40+",
+          "description": "Precision analog thermometer and hygrometer, German craftsmanship",
+          "why": "Beautiful design, durable, professional-grade accuracy",
+          "richDescription": "Precision analog thermometer and hygrometer, German craftsmanship",
+          "whyPeopleLikeIt": "Beautiful design, durable, professional-grade accuracy",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "fischer-german-thermometer",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Fischer%20German%20Thermometer%20Fischer",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/fischer-german-thermometer.png"
+        },
+        {
+          "name": "15-Minute Cedar Sand Timer",
+          "brand": "Various",
+          "price": "$20-55",
+          "description": "Traditional hourglass with 5-minute interval marks, wall-mountable",
+          "why": "Heat-proof, no batteries, classic aesthetic",
+          "richDescription": "Traditional 15-minute hourglass with 5-min interval marks",
+          "whyPeopleLikeIt": "Most common session length, wall-mountable, aromatic wood, heat-proof",
+          "specs": {
+            "material": "Red cedar/pine with glass"
+          },
+          "rating": 4,
+          "slug": "15-minute-cedar-sand-timer",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=15-Minute%20Cedar%20Sand%20Timer%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/15-minute-cedar-sand-timer.png"
+        },
+        {
+          "name": "Olivine Diabase Sauna Stones",
+          "brand": "HUUM/Harvia",
+          "price": "$50-100",
+          "description": "Premium Finnish volcanic stones with exceptional heat retention",
+          "why": "Best steam quality, lasts years, handles thermal shock",
+          "richDescription": "Premium Finnish volcanic stones with exceptional heat retention",
+          "whyPeopleLikeIt": "Best steam quality, lasts years, handles thermal shock",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "olivine-diabase-sauna-stones",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Olivine%20Diabase%20Sauna%20Stones%20HUUM%2FHarvia",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/olivine-diabase-sauna-stones.png"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "name": "Comfort & Relaxation",
+      "description": "Enhance your sauna experience",
+      "products": [
+        {
+          "name": "by itu Sauna Hat",
+          "brand": "by itu",
+          "price": "$30-50",
+          "description": "Hand-felted Finnish wool hat, 60+ designs available",
+          "why": "Authentic Finnish, protects head from heat, extends sessions",
+          "richDescription": "Protects head and hair from overheating, extends sauna session comfort",
+          "whyPeopleLikeIt": "60+ models, Finnish-made, seamless design prevents bacteria growth, antibacterial wool",
+          "redditSentiment": "Authentic Finnish option",
+          "specs": {
+            "material": "Hand-felted wool"
+          },
+          "rating": 4.5,
+          "slug": "by-itu-sauna-hat",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=by%20itu%20Sauna%20Hat%20by%20itu",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/by-itu-sauna-hat.png"
+        },
+        {
+          "name": "S-Shaped Cedar Backrest",
+          "brand": "Various",
+          "price": "$40-80",
+          "description": "Ergonomic lumbar support following natural spine curve",
+          "why": "Reduces back strain, aromatic cedar, withstands 200F+",
+          "richDescription": "Ergonomic lumbar support following natural spine curve",
+          "whyPeopleLikeIt": "Excellent lower back support, reduces restlessness, aromatic cedar scent",
+          "specs": {
+            "material": "Red cedar or hemlock"
+          },
+          "rating": 4,
+          "slug": "s-shaped-cedar-backrest",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=S-Shaped%20Cedar%20Backrest%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/s-shaped-cedar-backrest.png"
+        },
+        {
+          "name": "Cedar Headrest Pillow",
+          "brand": "Various",
+          "price": "$40-70",
+          "description": "Curved cedar headrest for neck and head support",
+          "why": "Comfortable for lying down, aromatic, durable",
+          "richDescription": "Curved headrest for neck and head support",
+          "whyPeopleLikeIt": "Elegant design, aromatic cedar, provides gentle neck support, 14x14 inches typical",
+          "specs": {
+            "material": "Red cedar"
+          },
+          "rating": 4,
+          "slug": "cedar-headrest-pillow",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Cedar%20Headrest%20Pillow%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/cedar-headrest-pillow.png"
+        },
+        {
+          "name": "Bamboo Floor Mat",
+          "brand": "SaunaBox",
+          "price": "$25-40",
+          "description": "Non-slip, quick-draining moso bamboo floor mat",
+          "why": "Safe footing, eco-friendly, rolls for storage",
+          "richDescription": "Non-slip, quick-draining moso bamboo floor mat",
+          "whyPeopleLikeIt": "Safe footing, eco-friendly, rolls for storage",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "bamboo-floor-mat",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Bamboo%20Floor%20Mat%20SaunaBox",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/bamboo-floor-mat.png"
+        },
+        {
+          "name": "Turkish Cotton Peshtemal",
+          "brand": "Various",
+          "price": "$20-40 each",
+          "description": "Lightweight, quick-drying traditional Turkish towel",
+          "why": "Gets softer with each wash, highly absorbent",
+          "richDescription": "Lightweight, quick-drying sauna towel",
+          "whyPeopleLikeIt": "Gets softer with each wash, highly absorbent, 25+ min dry time, luxury feel",
+          "redditSentiment": "Premium natural fiber choice",
+          "specs": {
+            "material": "Turkish cotton"
+          },
+          "rating": 4.5,
+          "slug": "turkish-cotton-peshtemal",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Turkish%20Cotton%20Peshtemal%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/turkish-cotton-peshtemal.png"
+        },
+        {
+          "name": "Waffle Weave Spa Robe",
+          "brand": "Various",
+          "price": "$50-90",
+          "description": "Lightweight cotton robe with air pockets for breathability",
+          "why": "Quick-drying, elegant, perfect post-sauna",
+          "richDescription": "Lightweight, breathable post-sauna robe",
+          "whyPeopleLikeIt": "Air pockets for breathability, quick-drying, classic elegant look",
+          "specs": {
+            "material": "Cotton waffle weave"
+          },
+          "rating": 4,
+          "slug": "waffle-weave-spa-robe",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Waffle%20Weave%20Spa%20Robe%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/waffle-weave-spa-robe.png"
+        }
+      ]
+    },
+    {
+      "id": "aromatherapy",
+      "name": "Aromatherapy",
+      "description": "Scents and steam enhancers",
+      "products": [
+        {
+          "name": "Eucalyptus Essential Oil",
+          "brand": "Stillpoint/Edens Garden",
+          "price": "$10-25 per bottle",
+          "description": "Refreshing oil that clears airways and sinuses",
+          "why": "Most popular sauna scent, stress-relieving, fresh",
+          "richDescription": "Refreshing aromatherapy oil that clears airways and sinuses",
+          "whyPeopleLikeIt": "Most popular sauna oil, stress-relieving, helps with colds, fresh penetrating scent",
+          "specs": null,
+          "rating": 4,
+          "slug": "eucalyptus-essential-oil",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Eucalyptus%20Essential%20Oil%20Stillpoint%2FEdens%20Garden",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/eucalyptus-essential-oil.png"
+        },
+        {
+          "name": "Birch Essential Oil",
+          "brand": "Rento/Harvia",
+          "price": "$15-30",
+          "description": "Traditional Finnish sauna scent with minty notes",
+          "why": "Detoxifying, improves circulation, authentic",
+          "richDescription": "Traditional Finnish sauna scent with minty notes",
+          "whyPeopleLikeIt": "Detoxifying, improves circulation, authentic",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "birch-essential-oil",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Birch%20Essential%20Oil%20Rento%2FHarvia",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/birch-essential-oil.png"
+        },
+        {
+          "name": "Lavender Essential Oil",
+          "brand": "Various",
+          "price": "$10-25 per bottle",
+          "description": "Calming aromatherapy for relaxation",
+          "why": "Reduces stress, helps sleep, soothes headaches",
+          "richDescription": "Calming aromatherapy for relaxation and stress relief",
+          "whyPeopleLikeIt": "Soothing properties, helps with sleep, reduces stress, calms headaches",
+          "specs": null,
+          "rating": 4,
+          "slug": "lavender-essential-oil",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Lavender%20Essential%20Oil%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/lavender-essential-oil.png"
+        },
+        {
+          "name": "Birch Vihta Whisk",
+          "brand": "Touch of Finland",
+          "price": "$20-25",
+          "description": "Traditional Finnish sauna whisk, 20-40 birch branches",
+          "why": "Stimulates circulation, anti-inflammatory, authentic ritual",
+          "richDescription": "Traditional Finnish sauna whisk, 20-40 birch branches",
+          "whyPeopleLikeIt": "Stimulates circulation, anti-inflammatory, authentic ritual",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "birch-vihta-whisk",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Birch%20Vihta%20Whisk%20Touch%20of%20Finland",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/birch-vihta-whisk.png"
+        },
+        {
+          "name": "Eucalyptus Vihta Whisk",
+          "brand": "Various",
+          "price": "$20-30 per whisk",
+          "description": "Aromatic whisk for respiratory benefits",
+          "why": "Clears sinuses, antiseptic, fresh scent",
+          "richDescription": "Aromatic whisk for circulation and respiratory benefits",
+          "whyPeopleLikeIt": "Anti-inflammatory, antiseptic, clears sinuses, fresh scent",
+          "specs": {
+            "material": "Eucalyptus branches"
+          },
+          "rating": 4,
+          "slug": "eucalyptus-vihta-whisk",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Eucalyptus%20Vihta%20Whisk%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/eucalyptus-vihta-whisk.png"
+        }
+      ]
+    },
+    {
+      "id": "cold-therapy",
+      "name": "Cold Therapy",
+      "description": "Ice baths and cold plunges",
+      "products": [
+        {
+          "name": "Plunge Cold Tub",
+          "brand": "Plunge",
+          "price": "$5,000-7,000",
+          "description": "Premium cold plunge with built-in chiller",
+          "why": "Best overall, spacious, reliable, stylish",
+          "richDescription": "High-end cold plunge tub with built-in chiller",
+          "whyPeopleLikeIt": "Spacious, durable, versatile, reliable performance, stylish design",
+          "redditSentiment": "Best overall (Garage Gym Reviews Nov 2025)",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "plunge-cold-tub",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Plunge%20Cold%20Tub%20Plunge",
+              "type": "amazon"
+            }
+          ],
+          "image": "plunge-cold-tub.jpg"
+        },
+        {
+          "name": "Ice Barrel",
+          "brand": "Ice Barrel",
+          "price": "$1,000-1,500",
+          "description": "Vertical ice bath, no chiller needed",
+          "why": "Space-efficient, portable, budget-friendly",
+          "richDescription": "Portable vertical ice bath",
+          "whyPeopleLikeIt": "Unique vertical design, space-efficient, no chiller needed",
+          "redditSentiment": "Popular budget-friendly option",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "ice-barrel",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Ice%20Barrel%20Ice%20Barrel",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/ice-barrel.png"
+        },
+        {
+          "name": "Penguin Chillers Setup",
+          "brand": "Penguin Chillers",
+          "price": "$1,500-2,500",
+          "description": "3/4HP chiller with insulated tub, cools to 37F",
+          "why": "Best value, made in USA, quiet operation",
+          "richDescription": "3/4HP chiller with insulated tub, cools to 37F",
+          "whyPeopleLikeIt": "Best value, made in USA, quiet operation",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "penguin-chillers-setup",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Penguin%20Chillers%20Setup%20Penguin%20Chillers",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/penguin-chillers-setup.png"
+        },
+        {
+          "name": "100-Gallon Stock Tank",
+          "brand": "Tractor Supply",
+          "price": "$150-300",
+          "description": "Galvanized tank for DIY ice bath",
+          "why": "Ultra budget-friendly, just add ice",
+          "richDescription": "Galvanized stock tank used as DIY ice bath",
+          "whyPeopleLikeIt": "Ultra budget-friendly, widely available, just add ice",
+          "redditSentiment": "Popular DIY hack on Reddit",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "100-gallon-stock-tank",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=100-Gallon%20Stock%20Tank%20Tractor%20Supply",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/100-gallon-stock-tank.png"
+        },
+        {
+          "name": "Morozko Forge",
+          "brand": "Morozko",
+          "price": "$7,000+",
+          "description": "Coldest available ice bath option",
+          "why": "Extreme cold capability, premium quality",
+          "richDescription": "Coldest available ice bath option",
+          "whyPeopleLikeIt": "Extreme cold capability, ideal for hardcore cold therapy",
+          "redditSentiment": "Premium choice for serious users",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "morozko-forge",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Morozko%20Forge%20Morozko",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/morozko-forge.png"
+        }
+      ]
+    },
+    {
+      "id": "tracking",
+      "name": "Tracking & Wearables",
+      "description": "Monitor your sessions",
+      "products": [
+        {
+          "name": "Oura Ring 4",
+          "brand": "Oura",
+          "price": "$350 + $6/month subscription",
+          "description": "Sleep and recovery ring, sauna-safe to 125F",
+          "why": "99.3% accurate HR, excellent sleep tracking, discreet",
+          "richDescription": "Sleep and recovery tracking ring, water/sauna-resistant",
+          "whyPeopleLikeIt": "99.3% accurate resting HR, excellent sleep tracking, sauna-safe",
+          "redditSentiment": "Premium choice for 24/7 tracking",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "oura-ring-4",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Oura%20Ring%204%20Oura",
+              "type": "amazon"
+            }
+          ],
+          "image": "oura-ring-4.jpg"
+        },
+        {
+          "name": "Whoop 4.0",
+          "brand": "Whoop",
+          "price": "$30/month (includes hardware)",
+          "description": "24/7 strain and recovery tracker, sauna-safe to 140F",
+          "why": "99.7% accurate HR, no removal needed, comprehensive data",
+          "richDescription": "24/7 strain, recovery, and sleep tracking wearable",
+          "whyPeopleLikeIt": "99.7% accurate HR, 99% accurate HRV, heat/water-resistant, no removal needed for sauna",
+          "redditSentiment": "Top tier for serious biohackers",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "whoop-4-0",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Whoop%204.0%20Whoop",
+              "type": "amazon"
+            }
+          ],
+          "image": "whoop-4-0.jpg"
+        },
+        {
+          "name": "Sauna Tracker App",
+          "brand": "Apple Watch",
+          "price": "Free-$10/mo",
+          "description": "Apple Watch app tracking HR, calories, and sauna zones",
+          "why": "#1 rated sauna app, real-time monitoring",
+          "richDescription": "Apple Watch app tracking HR, calories, and sauna zones",
+          "whyPeopleLikeIt": "#1 rated sauna app, real-time monitoring",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "sauna-tracker-app",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Sauna%20Tracker%20App%20Apple%20Watch",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/sauna-tracker-app.png"
+        },
+        {
+          "name": "Athlytic App",
+          "brand": "Apple Watch",
+          "price": "$10/month or $60/year",
+          "description": "Turns Apple Watch into Whoop-like tracker with sauna tags",
+          "why": "HRV tracking, recovery scores, sauna journaling",
+          "richDescription": "Turns Apple Watch into Whoop-like recovery tracker, includes sauna journaling",
+          "whyPeopleLikeIt": "Reads HRV, RHR, sleep, respiratory rate, wrist temp, blood O2; includes sauna tags",
+          "redditSentiment": "Popular Whoop alternative",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "athlytic-app",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Athlytic%20App%20Apple%20Watch",
+              "type": "amazon"
+            }
+          ],
+          "image": "athlytic-app.png"
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "name": "Recovery Tools",
+      "description": "Massage and recovery devices",
+      "products": [
+        {
+          "name": "Theragun Prime",
+          "brand": "Therabody",
+          "price": "$300",
+          "description": "Percussive therapy massage gun, 16mm depth",
+          "why": "Best overall massage gun, powerful relief",
+          "richDescription": "Percussive therapy massage gun for muscle recovery",
+          "whyPeopleLikeIt": "Best overall massage gun, powerful 16mm depth, 30 lbs force, deep-tissue relief",
+          "redditSentiment": "Top choice for serious recovery",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "theragun-prime",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Theragun%20Prime%20Therabody",
+              "type": "amazon"
+            }
+          ],
+          "image": "theragun-prime.png"
+        },
+        {
+          "name": "Theragun Pro Plus",
+          "brand": "Therabody",
+          "price": "$600+",
+          "description": "Professional-grade with heat and red light",
+          "why": "Combines heat, light, and percussion therapy",
+          "richDescription": "Professional-grade percussive therapy with heat and red light",
+          "whyPeopleLikeIt": "Combines heat, red light, and percussion, professional-level",
+          "specs": null,
+          "rating": 4,
+          "slug": "theragun-pro-plus",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Theragun%20Pro%20Plus%20Therabody",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/theragun-pro-plus.png"
+        },
+        {
+          "name": "Hypervolt",
+          "brand": "Hyperice",
+          "price": "$200-300",
+          "description": "Quiet percussion massage gun",
+          "why": "Quieter than Theragun, effective, good battery",
+          "richDescription": "Quiet percussion massage gun",
+          "whyPeopleLikeIt": "Quieter than Theragun, effective recovery, good battery life",
+          "specs": null,
+          "rating": 4,
+          "slug": "hypervolt",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Hypervolt%20Hyperice",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/hypervolt.png"
+        },
+        {
+          "name": "LMNT Electrolytes",
+          "brand": "LMNT",
+          "price": "$45/30 sticks",
+          "description": "Zero-sugar electrolyte mix with 1000mg sodium",
+          "why": "Replaces sweat loss, keto-friendly, Huberman-approved",
+          "richDescription": "Zero-sugar electrolyte mix with 1000mg sodium",
+          "whyPeopleLikeIt": "Replaces sweat loss, keto-friendly, Huberman-approved",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "lmnt-electrolytes",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=LMNT%20Electrolytes%20LMNT",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/lmnt-electrolytes.png"
+        },
+        {
+          "name": "Drip Drop",
+          "brand": "Drip Drop",
+          "price": "$36/32 packets",
+          "description": "Medical-grade oral rehydration solution",
+          "why": "Fastest rehydration, isotonic formula",
+          "richDescription": "Medical-grade oral rehydration solution",
+          "whyPeopleLikeIt": "Fastest rehydration, isotonic formula",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "drip-drop",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Drip%20Drop%20Drip%20Drop",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/drip-drop.png"
+        }
+      ]
+    },
+    {
+      "id": "red-light",
+      "name": "Red Light Therapy",
+      "description": "Light therapy panels",
+      "products": [
+        {
+          "name": "MitoPRO 1500+",
+          "brand": "Mito Red Light",
+          "price": "$1,200-1,800",
+          "description": "Full-spectrum panel with all 4 bioactive wavelengths",
+          "why": "#1 rated, best power output, 4 wavelengths vs competitors' 2",
+          "richDescription": "Full-spectrum red light therapy panel (all 4 bioactive wavelengths)",
+          "whyPeopleLikeIt": "#1 rated for power output and cost-effectiveness, 68+ mW/cm², 4 wavelengths vs Joovv's 2",
+          "redditSentiment": "Best value and performance",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "mitopro-1500",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=MitoPRO%201500%2B%20Mito%20Red%20Light",
+              "type": "amazon"
+            }
+          ],
+          "image": "mito-red-light-mitopro.jpg"
+        },
+        {
+          "name": "Joovv Solo",
+          "brand": "Joovv",
+          "price": "$1,000+ (Solo)",
+          "description": "Premium red light panel with mobile app",
+          "why": "Best app, Huberman-recommended, reliable brand",
+          "richDescription": "Premium red light therapy with mobile app control",
+          "whyPeopleLikeIt": "Best mobile app, recommended by Andrew Huberman, reliable brand",
+          "redditSentiment": "Premium brand but expensive with lower irradiance than competitors",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "joovv-solo",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Joovv%20Solo%20Joovv",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/joovv-solo.png"
+        },
+        {
+          "name": "Hooga HG300",
+          "brand": "Hooga",
+          "price": "$189",
+          "description": "Budget red light panel with near-identical specs to premium",
+          "why": "1/5th the price of Joovv Mini, great value",
+          "richDescription": "Budget red light therapy panel",
+          "whyPeopleLikeIt": "1/5 the price of Joovv Mini with nearly identical specs",
+          "redditSentiment": "Best budget option",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "hooga-hg300",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Hooga%20HG300%20Hooga",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/hooga-hg300.png"
+        }
+      ]
+    },
+    {
+      "id": "infrared",
+      "name": "Infrared Blankets",
+      "description": "Portable infrared saunas",
+      "products": [
+        {
+          "name": "HigherDOSE Infrared Blanket",
+          "brand": "HigherDOSE",
+          "price": "$699",
+          "description": "World's top infrared blanket with crystal layer",
+          "why": "Industry leader, celebrity-favorite, heats in 10 min",
+          "richDescription": "World's top infrared blanket with crystal layer",
+          "whyPeopleLikeIt": "Industry leader, celebrity-favorite, heats in 10 min",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "higherdose-infrared-blanket",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=HigherDOSE%20Infrared%20Blanket%20HigherDOSE",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/higherdose-infrared-blanket.png"
+        },
+        {
+          "name": "MiHigh Infrared Blanket",
+          "brand": "MiHigh",
+          "price": "$400-500",
+          "description": "Compact portable blanket reaching 167F",
+          "why": "Best value, 30-day trial, travel-friendly",
+          "richDescription": "Compact portable blanket reaching 167F",
+          "whyPeopleLikeIt": "Best value, 30-day trial, travel-friendly",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "mihigh-infrared-blanket",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=MiHigh%20Infrared%20Blanket%20MiHigh",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/mihigh-infrared-blanket.png"
+        },
+        {
+          "name": "Sunlighten Solo System",
+          "brand": "Sunlighten",
+          "price": "$2,500-3,500",
+          "description": "Portable collapsible infrared tent",
+          "why": "Same tech as Sunlighten cabins, lower EMF",
+          "richDescription": "Portable collapsible infrared sauna tent",
+          "whyPeopleLikeIt": "Same far-infrared tech as Sunlighten cabins, lightweight, collapsible, lower EMF than HigherDOSE",
+          "specs": null,
+          "rating": 4,
+          "slug": "sunlighten-solo-system",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Sunlighten%20Solo%20System%20Sunlighten",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/sunlighten-solo-system.png"
+        }
+      ]
+    },
+    {
+      "id": "portable-saunas",
+      "name": "Portable Saunas",
+      "description": "Take-anywhere sauna options",
+      "products": [
+        {
+          "name": "Sweat Tent",
+          "brand": "SweatTent",
+          "price": "$30-40",
+          "description": "Collapsible wood-burning sauna reaching 200F",
+          "why": "Real wood-burning experience, portable, 4.9/5 rating",
+          "richDescription": "Heat protection for ultimate sauna experience",
+          "whyPeopleLikeIt": "Quality construction, effective heat barrier",
+          "specs": {
+            "material": "Wool"
+          },
+          "rating": 4,
+          "slug": "sweat-tent",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Sweat%20Tent%20SweatTent",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/sweat-tent.png"
+        },
+        {
+          "name": "SereneLife Portable Sauna",
+          "brand": "SereneLife",
+          "price": "$400",
+          "description": "Pop-up infrared sauna tent reaching 140F",
+          "why": "Affordable, collapsible, easy setup",
+          "richDescription": "Pop-up infrared sauna tent reaching 140F",
+          "whyPeopleLikeIt": "Affordable, collapsible, easy setup",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "serenelife-portable-sauna",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=SereneLife%20Portable%20Sauna%20SereneLife",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/serenelife-portable-sauna.png"
+        },
+        {
+          "name": "SaunaBox SmartSteam Kit",
+          "brand": "SaunaBox",
+          "price": "$500",
+          "description": "Compact wet sauna option for home",
+          "why": "Steam sauna experience, folds down, one-person",
+          "richDescription": "Compact wet sauna option for home",
+          "whyPeopleLikeIt": "Steam sauna experience, folds down, one-person",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "saunabox-smartsteam-kit",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=SaunaBox%20SmartSteam%20Kit%20SaunaBox",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/saunabox-smartsteam-kit.png"
+        }
+      ]
+    },
+    {
+      "id": "barrel-saunas",
+      "name": "Barrel Saunas",
+      "description": "Pre-built sauna kits",
+      "products": [
+        {
+          "name": "Almost Heaven Barrel Sauna",
+          "brand": "Almost Heaven",
+          "price": "$3,000-8,000",
+          "description": "American-made barrel saunas, available at Costco",
+          "why": "Quality cedar, great heat retention, since 1977",
+          "richDescription": "Pre-fab barrel saunas in various sizes",
+          "whyPeopleLikeIt": "Excellent heat retention, unique barrel design, modern aesthetic, made in West Virginia since 1977",
+          "redditSentiment": "Popular at Costco, quality may have slipped slightly but still good cedar options",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "almost-heaven-barrel-sauna",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Almost%20Heaven%20Barrel%20Sauna%20Almost%20Heaven",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/almost-heaven-barrel-sauna.png"
+        },
+        {
+          "name": "Dundalk Leisurecraft",
+          "brand": "Dundalk",
+          "price": "$4,000-10,000",
+          "description": "Canadian cedar barrel saunas with 5-year warranty",
+          "why": "Sustainably sourced, premium quality, rustic aesthetic",
+          "richDescription": "Canadian cedar barrel saunas with eco-friendly materials",
+          "whyPeopleLikeIt": "Canadian cedar, sustainably managed forests, rustic aesthetic, 5-year warranty, acrylic bubble window",
+          "redditSentiment": "Premium Canadian option, some models criticized for ventilation",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "dundalk-leisurecraft",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Dundalk%20Leisurecraft%20Dundalk",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/dundalk-leisurecraft.png"
+        },
+        {
+          "name": "Dynamic Santiago Infrared",
+          "brand": "Dynamic",
+          "price": "$1,799",
+          "description": "2-person infrared sauna, Costco exclusive",
+          "why": "Affordable entry point, easy assembly",
+          "richDescription": "2-person infrared sauna, Costco exclusive",
+          "whyPeopleLikeIt": "Affordable entry point, easy assembly",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "dynamic-santiago-infrared",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Dynamic%20Santiago%20Infrared%20Dynamic",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/dynamic-santiago-infrared.png"
+        }
+      ]
+    },
+    {
+      "id": "heaters",
+      "name": "Sauna Heaters",
+      "description": "Electric and wood-burning heaters",
+      "products": [
+        {
+          "name": "Harvia Legend Wood-Burning",
+          "brand": "Harvia",
+          "price": "$1,500-3,000",
+          "description": "Traditional Finnish wood-fired heater with large stone capacity",
+          "why": "60+ years Finnish quality, best steam, works of art",
+          "richDescription": "Traditional Finnish wood-fired heater with large stone capacity",
+          "whyPeopleLikeIt": "60+ years Finnish quality, best steam, works of art",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "harvia-legend-wood-burning",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Harvia%20Legend%20Wood-Burning%20Harvia",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/harvia-legend-wood-burning.png"
+        },
+        {
+          "name": "Harvia Electric Heater",
+          "brand": "Harvia",
+          "price": "$500-2,000",
+          "description": "Efficient electric heating with remote control",
+          "why": "Best water vaporization in tests, reliable",
+          "richDescription": "Efficient electric sauna heating",
+          "whyPeopleLikeIt": "Best water vaporization in independent tests, user-friendly controls, remote control box stays outside hot room",
+          "redditSentiment": "Better value than Tylo",
+          "specs": null,
+          "rating": 4.5,
+          "slug": "harvia-electric-heater",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Harvia%20Electric%20Heater%20Harvia",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/harvia-electric-heater.png"
+        },
+        {
+          "name": "Tylo Pure Combi",
+          "brand": "Tylo",
+          "price": "$1,500-2,500",
+          "description": "Swedish electric heater with humidity control",
+          "why": "Fastest heating, lowest energy use, elegant design",
+          "richDescription": "Electric heater with humidity control",
+          "whyPeopleLikeIt": "Twin side chambers maximize airflow, minimizes heating time, saves energy, elegant design",
+          "specs": null,
+          "rating": 4,
+          "slug": "tylo-pure-combi",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Tylo%20Pure%20Combi%20Tylo",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/tylo-pure-combi.png"
+        }
+      ]
+    },
+    {
+      "id": "tech",
+      "name": "Tech & Audio",
+      "description": "Speakers and lighting",
+      "products": [
+        {
+          "name": "Ultimate Ears WONDERBOOM 2",
+          "brand": "Ultimate Ears",
+          "price": "$80-100",
+          "description": "360-degree waterproof Bluetooth speaker, IPX7",
+          "why": "Compact, powerful audio, sauna-safe placement",
+          "richDescription": "Portable 360-degree waterproof Bluetooth speaker",
+          "whyPeopleLikeIt": "IPX7 rating, 360-degree sound, compact, powerful audio, sauna-safe",
+          "specs": {
+            "details": "IPX7 waterproof"
+          },
+          "rating": 4,
+          "slug": "ultimate-ears-wonderboom-2",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Ultimate%20Ears%20WONDERBOOM%202%20Ultimate%20Ears",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/ultimate-ears-wonderboom-2.png"
+        },
+        {
+          "name": "Bose SoundLink Micro",
+          "brand": "Bose",
+          "price": "$100-120",
+          "description": "Compact Bluetooth speaker, IPX7 waterproof",
+          "why": "Bose sound quality, durable, portable",
+          "richDescription": "Compact Bluetooth speaker",
+          "whyPeopleLikeIt": "IPX7 rating, Bose sound quality, durable",
+          "specs": {
+            "details": "IPX7 waterproof"
+          },
+          "rating": 4,
+          "slug": "bose-soundlink-micro",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Bose%20SoundLink%20Micro%20Bose",
+              "type": "amazon"
+            }
+          ],
+          "image": "bose-soundlink-micro.jpg"
+        },
+        {
+          "name": "IP68 LED Strip Lights",
+          "brand": "Various",
+          "price": "$50-150 depending on length",
+          "description": "Waterproof, heat-resistant ambient lighting",
+          "why": "Creates atmosphere, warm 2700K color, dimmable",
+          "richDescription": "Waterproof, heat-resistant ambient lighting strips",
+          "whyPeopleLikeIt": "Fully submersible, high-grade housing, works in wet/hot environments",
+          "specs": null,
+          "rating": 4,
+          "slug": "ip68-led-strip-lights",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=IP68%20LED%20Strip%20Lights%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/ip68-led-strip-lights.png"
+        },
+        {
+          "name": "Himalayan Salt Lamp",
+          "brand": "Various",
+          "price": "$30-100",
+          "description": "Decorative salt lamp with color-changing option",
+          "why": "Atmospheric glow, claimed air quality benefits",
+          "richDescription": "Decorative lighting that purportedly improves air quality",
+          "whyPeopleLikeIt": "Aesthetic appeal, claimed health benefits, mood lighting",
+          "specs": null,
+          "rating": 4,
+          "slug": "himalayan-salt-lamp",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Himalayan%20Salt%20Lamp%20Various",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/himalayan-salt-lamp.png"
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "Care & Maintenance",
+      "description": "Keep your sauna pristine",
+      "products": [
+        {
+          "name": "BioZap Sauna Cleaner",
+          "brand": "RadonSeal",
+          "price": "$20-35 per bottle",
+          "description": "All-natural cleaner with tea tree oil",
+          "why": "Safe for all sauna types, preserves wood",
+          "richDescription": "All-natural cleaner with tea tree oil",
+          "whyPeopleLikeIt": "Tea tree oil formula, works on traditional/infrared/steam saunas, refreshes and preserves wood",
+          "specs": null,
+          "rating": 4,
+          "slug": "biozap-sauna-cleaner",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=BioZap%20Sauna%20Cleaner%20RadonSeal",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/biozap-sauna-cleaner.png"
+        },
+        {
+          "name": "Paraffin Wood Oil Treatment",
+          "brand": "Saunatec",
+          "price": "$110+",
+          "description": "Protective oil treatment for sauna wood",
+          "why": "Extends wood life, prevents staining, skin-safe",
+          "richDescription": "Protective oil treatment for sauna wood",
+          "whyPeopleLikeIt": "Extends wood life, prevents staining, skin-safe",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "paraffin-wood-oil-treatment",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Paraffin%20Wood%20Oil%20Treatment%20Saunatec",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/paraffin-wood-oil-treatment.png"
+        },
+        {
+          "name": "Rainleaf Microfiber Towel",
+          "brand": "Rainleaf",
+          "price": "$10-20",
+          "description": "Budget quick-dry towel, 10-min dry time",
+          "why": "90% of premium performance, Amazon favorite",
+          "richDescription": "Budget quick-dry towel, 10-min dry time",
+          "whyPeopleLikeIt": "90% of premium performance, Amazon favorite",
+          "redditSentiment": null,
+          "specs": null,
+          "rating": 4,
+          "slug": "rainleaf-microfiber-towel",
+          "purchaseLinks": [
+            {
+              "name": "Amazon",
+              "url": "https://www.amazon.com/s?k=Rainleaf%20Microfiber%20Towel%20Rainleaf",
+              "type": "amazon"
+            }
+          ],
+          "image": "/images/gear/products/rainleaf-microfiber-towel.png"
+        }
+      ]
+    }
+  ],
+  "starterKits": {
+    "budget": {
+      "name": "Budget Starter Kit",
+      "total": "$100-200",
+      "items": [
+        "TOPINCN Thermometer ($16)",
+        "Basic bucket/ladle set ($40)",
+        "Rainleaf microfiber towel ($15)",
+        "Sand timer ($10)",
+        "Bamboo floor mat ($30)"
+      ]
+    },
+    "enthusiast": {
+      "name": "Enthusiast Kit",
+      "total": "$500-1,000",
+      "items": [
+        "SensorPush HT1 ($70)",
+        "Rento Pisara bucket/ladle ($120)",
+        "by itu sauna hat ($40)",
+        "Cedar backrest ($60)",
+        "Turkish peshtemal towels x2 ($60)",
+        "Eucalyptus + Birch oils ($40)",
+        "Cedar sand timer ($40)"
+      ]
+    },
+    "biohacker": {
+      "name": "Biohacker Setup",
+      "total": "$5,000-15,000",
+      "items": [
+        "Harvia heater ($1,500)",
+        "Penguin cold plunge setup ($2,000)",
+        "MitoPRO 1500+ red light ($1,500)",
+        "Oura Ring 4 ($350)",
+        "Theragun Prime ($300)",
+        "All enthusiast accessories ($500)"
+      ]
+    }
+  }
+}

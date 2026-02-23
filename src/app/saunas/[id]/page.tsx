@@ -28,6 +28,15 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return {
     title: `${sauna.name} Review - Best Saunas in ${sauna.location.city}`,
     description: `Complete guide to ${sauna.name} in ${sauna.location.city}, ${sauna.location.country}. Pricing, features, and what to expect at this ${sauna.type} sauna.`,
+    alternates: {
+      canonical: `https://sauna.guide/saunas/${id}`,
+    },
+    openGraph: {
+      title: `${sauna.name} - ${sauna.location.city}, ${sauna.location.country}`,
+      description: `Complete guide to ${sauna.name}. ${sauna.type} sauna in ${sauna.location.city}.`,
+      url: `https://sauna.guide/saunas/${id}`,
+      images: sauna.images?.[0] ? [{ url: sauna.images[0].startsWith('/') ? sauna.images[0] : `/images/saunas-photos/${sauna.images[0]}` }] : undefined,
+    },
   }
 }
 
@@ -38,8 +47,43 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
 
   if (!sauna) return notFound()
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'TouristAttraction',
+    name: sauna.name,
+    description: sauna.description,
+    image: sauna.images?.[0]
+      ? (sauna.images[0].startsWith('http') ? sauna.images[0] : `https://sauna.guide/images/saunas-photos/${sauna.images[0]}`)
+      : undefined,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: sauna.location.city,
+      addressCountry: sauna.location.country,
+    },
+    url: sauna.website || `https://sauna.guide/saunas/${id}`,
+    ...(sauna.location.coordinates && {
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: sauna.location.coordinates.lat,
+        longitude: sauna.location.coordinates.lng,
+      },
+    }),
+  }
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sauna.guide' },
+      { '@type': 'ListItem', position: 2, name: 'Sauna Directory', item: 'https://sauna.guide/saunas' },
+      { '@type': 'ListItem', position: 3, name: sauna.name, item: `https://sauna.guide/saunas/${id}` },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-sauna-paper flex flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Navigation />
 
       {/* Hero Header */}

@@ -2,17 +2,23 @@ import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
+const baseUrl = 'https://sauna.guide'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: {
     default: 'Sauna Guide - Discover the Art of Heat & Wellness',
     template: '%s | Sauna Guide',
   },
   description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols for longevity and performance.',
   keywords: ['sauna', 'sauna guide', 'sauna directory', 'Finnish sauna', 'contrast therapy', 'cold plunge', 'wellness', 'heat therapy'],
+  alternates: {
+    canonical: baseUrl,
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://sauna.guide',
+    url: baseUrl,
     siteName: 'Sauna Guide',
     title: 'Sauna Guide - Discover the Art of Heat & Wellness',
     description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols.',
@@ -37,6 +43,16 @@ export const metadata: Metadata = {
   },
 }
 
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Sauna Guide',
+  url: baseUrl,
+  logo: `${baseUrl}/images/logo.svg`,
+  description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols.',
+  sameAs: [],
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -48,6 +64,10 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <meta name="theme-color" content="#2C1810" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
       </head>
       <body className="antialiased bg-sauna-steam text-sauna-dark">
         {children}

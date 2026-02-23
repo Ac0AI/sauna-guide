@@ -6,8 +6,16 @@ import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
 
 export const metadata = {
-  title: 'Sauna Protocols & Guides | Sauna Guide',
-  description: 'Evidence-based protocols, gear reviews, and deep dives into heat therapy culture.',
+  title: 'Sauna Protocols & Guides',
+  description: 'Evidence-based protocols, gear reviews, and deep dives into heat therapy culture. From contrast therapy to Finnish traditions.',
+  alternates: {
+    canonical: 'https://sauna.guide/guides',
+  },
+  openGraph: {
+    title: 'Sauna Protocols & Guides | Sauna Guide',
+    description: 'Evidence-based protocols, gear reviews, and deep dives into heat therapy culture.',
+    url: 'https://sauna.guide/guides',
+  },
 }
 
 export default function GuidesIndexPage() {

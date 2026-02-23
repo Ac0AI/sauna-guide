@@ -33,4 +33,4 @@ User-agent: cohere-ai
 Allow: /
 
 # Sitemap location
-Sitemap: https://saunaGuide.com/sitemap.xml
+Sitemap: https://sauna.guide/sitemap.xml
