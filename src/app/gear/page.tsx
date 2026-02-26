@@ -23,9 +23,22 @@ export const metadata: Metadata = {
 export default function GearPage() {
   const categories = getCategories()
   const totalProducts = categories.reduce((sum, cat) => sum + cat.products.length, 0)
+  const products = categories.flatMap((category) => category.products)
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Sauna Gear Directory',
+    itemListElement: products.map((product, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: `https://sauna.guide/gear/${product.slug}`,
+      name: product.name,
+    })),
+  }
 
   return (
     <div className="min-h-screen bg-sauna-paper flex flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
       <Navigation />
 
       <main className="max-w-7xl mx-auto px-6 py-32 grow">

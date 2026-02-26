@@ -40,17 +40,42 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-snippet': -1,
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+    },
   },
 }
 
-const organizationJsonLd = {
+const siteJsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Organization',
-  name: 'Sauna Guide',
-  url: baseUrl,
-  logo: `${baseUrl}/images/logo.svg`,
-  description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols.',
-  sameAs: [],
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': `${baseUrl}#organization`,
+      name: 'Sauna Guide',
+      url: baseUrl,
+      logo: `${baseUrl}/images/logo.svg`,
+      description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols.',
+      sameAs: [],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${baseUrl}#website`,
+      url: baseUrl,
+      name: 'Sauna Guide',
+      publisher: { '@id': `${baseUrl}#organization` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${baseUrl}/guides?q={search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+      inLanguage: 'en-US',
+    },
+  ],
 }
 
 export default function RootLayout({
@@ -66,7 +91,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#2C1810" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
       </head>
       <body className="antialiased bg-sauna-steam text-sauna-dark">

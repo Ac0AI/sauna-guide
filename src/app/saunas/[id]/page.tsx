@@ -25,16 +25,27 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     }
   }
 
+  const pageUrl = `https://sauna.guide/saunas/${id}`
+  const shortFeatures = sauna.features.slice(0, 3).join(', ')
+
   return {
     title: `${sauna.name} Review - Best Saunas in ${sauna.location.city}`,
-    description: `Complete guide to ${sauna.name} in ${sauna.location.city}, ${sauna.location.country}. Pricing, features, and what to expect at this ${sauna.type} sauna.`,
+    description: `${sauna.name} in ${sauna.location.city}, ${sauna.location.country}: ${sauna.description} Highlights: ${shortFeatures}.`,
+    keywords: [
+      'sauna',
+      sauna.name,
+      sauna.location.city,
+      sauna.location.country,
+      sauna.type,
+      ...sauna.features,
+    ],
     alternates: {
-      canonical: `https://sauna.guide/saunas/${id}`,
+      canonical: pageUrl,
     },
     openGraph: {
       title: `${sauna.name} - ${sauna.location.city}, ${sauna.location.country}`,
       description: `Complete guide to ${sauna.name}. ${sauna.type} sauna in ${sauna.location.city}.`,
-      url: `https://sauna.guide/saunas/${id}`,
+      url: pageUrl,
       images: sauna.images?.[0] ? [{ url: sauna.images[0].startsWith('/') ? sauna.images[0] : `/images/saunas-photos/${sauna.images[0]}` }] : [{ url: '/og-image.jpg', width: 1200, height: 630 }],
     },
   }
@@ -47,20 +58,42 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
 
   if (!sauna) return notFound()
 
+  const saunaPageUrl = `https://sauna.guide/saunas/${id}`
+  const primaryImage = sauna.images?.[0]
+  const absoluteImage = primaryImage
+    ? (primaryImage.startsWith('http') ? primaryImage : `https://sauna.guide${primaryImage.startsWith('/') ? primaryImage : `/images/saunas-photos/${primaryImage}`}`)
+    : undefined
+
+  const relatedSaunas = saunas
+    .filter((candidate) => candidate.id !== sauna.id && (candidate.location.country === sauna.location.country || candidate.type === sauna.type))
+    .slice(0, 3)
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'TouristAttraction',
     name: sauna.name,
     description: sauna.description,
-    image: sauna.images?.[0]
-      ? (sauna.images[0].startsWith('http') ? sauna.images[0] : `https://sauna.guide/images/saunas-photos/${sauna.images[0]}`)
-      : undefined,
+    image: absoluteImage,
     address: {
       '@type': 'PostalAddress',
       addressLocality: sauna.location.city,
       addressCountry: sauna.location.country,
     },
-    url: sauna.website || `https://sauna.guide/saunas/${id}`,
+    url: saunaPageUrl,
+    mainEntityOfPage: saunaPageUrl,
+    sameAs: sauna.website ? [sauna.website] : undefined,
+    aggregateRating: sauna.rating ? {
+      '@type': 'AggregateRating',
+      ratingValue: sauna.rating,
+      reviewCount: 1,
+      bestRating: 5,
+      worstRating: 1,
+    } : undefined,
+    amenityFeature: sauna.features.map((feature) => ({
+      '@type': 'LocationFeatureSpecification',
+      name: feature,
+      value: true,
+    })),
     ...(sauna.location.coordinates && {
       geo: {
         '@type': 'GeoCoordinates',
@@ -80,10 +113,44 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
     ],
   }
 
+  const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `Where is ${sauna.name} located?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${sauna.name} is located in ${sauna.location.city}, ${sauna.location.country}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What type of sauna experience is ${sauna.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${sauna.name} is categorized as a ${sauna.type} sauna and highlights ${sauna.features.slice(0, 3).join(', ')}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Is ${sauna.name} worth visiting?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: sauna.rating
+            ? `${sauna.name} currently carries a ${sauna.rating}/5 rating in our directory and is known for ${sauna.features.slice(0, 2).join(' and ')}.`
+            : `${sauna.name} is known for ${sauna.features.slice(0, 2).join(' and ')} and stands out in ${sauna.location.city}.`,
+        },
+      },
+    ],
+  }
+
   return (
     <div className="min-h-screen bg-sauna-paper flex flex-col">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navigation />
 
       {/* Hero Header */}
@@ -150,6 +217,13 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
                         <li key={feature}>{feature}</li>
                     ))}
                 </ul>
+                <h3>Quick facts</h3>
+                <ul>
+                    <li><strong>Type:</strong> {sauna.type}</li>
+                    <li><strong>Location:</strong> {sauna.location.city}, {sauna.location.country}</li>
+                    {sauna.rating && <li><strong>Rating:</strong> {sauna.rating}/5</li>}
+                    <li><strong>Top features:</strong> {sauna.features.slice(0, 3).join(', ')}</li>
+                </ul>
             </div>
         </div>
 
@@ -191,6 +265,23 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
             </div>
         </div>
       </main>
+
+      {relatedSaunas.length > 0 && (
+        <section className="max-w-7xl mx-auto px-6 pb-12">
+          <h2 className="text-2xl font-display text-sauna-ink mb-4">Related Saunas</h2>
+          <div className="flex flex-wrap gap-3">
+            {relatedSaunas.map((related) => (
+              <Link
+                key={related.id}
+                href={`/saunas/${related.id}`}
+                className="inline-flex items-center rounded-lg border border-sauna-ash/60 bg-sauna-linen px-4 py-2 text-sm text-sauna-ink hover:border-sauna-oak/40"
+              >
+                {related.name}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <Footer />
     </div>

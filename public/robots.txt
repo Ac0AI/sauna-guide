@@ -1,10 +1,19 @@
 # Sauna Guide - robots.txt
-# Allow all search engines and AI crawlers
+# Allow major search and AI crawlers while blocking low-value utility paths.
 
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /welcome
 
-# Explicitly allow AI crawlers for citation visibility
+# Explicit allow rules for mainstream search crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Explicit allow rules for AI crawlers (GEO)
 User-agent: GPTBot
 Allow: /
 

@@ -1,0 +1,32 @@
+# Sauna Guide
+
+Sauna Guide is an editorial resource about sauna practice, sauna destinations, protocols, and equipment.
+Primary language: English.
+Primary region: global.
+
+## Canonical domain
+https://sauna.guide
+
+## Core sections
+- Home: https://sauna.guide/
+- Sauna directory: https://sauna.guide/saunas
+- Guides: https://sauna.guide/guides
+- Gear guide: https://sauna.guide/gear
+- Sauna brands: https://sauna.guide/sauna-brands
+- 30-day challenge: https://sauna.guide/challenge
+
+## High-value guide examples
+- https://sauna.guide/guides/infrared-sauna-complete-guide
+- https://sauna.guide/guides/contrast-therapy-complete-guide
+- https://sauna.guide/guides/sauna-safety-guide
+- https://sauna.guide/guides/when-not-to-sauna
+- https://sauna.guide/guides/best-saunas-2026
+
+## Content policy
+- Educational and editorial content only.
+- Recommendations are informational, not medical advice.
+- Product pages include review rationale and structured product metadata.
+
+## Crawling
+Robots policy: https://sauna.guide/robots.txt
+Sitemap: https://sauna.guide/sitemap.xml

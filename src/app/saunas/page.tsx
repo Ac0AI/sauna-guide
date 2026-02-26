@@ -21,9 +21,21 @@ export const metadata = {
 
 export default function SaunasPage() {
   const saunas = saunasData.saunas as Sauna[]
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Sauna Directory',
+    itemListElement: saunas.map((sauna, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      url: `https://sauna.guide/saunas/${sauna.id}`,
+      name: sauna.name,
+    })),
+  }
 
   return (
     <div className="min-h-screen bg-sauna-paper flex flex-col">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
       <Navigation />
 
       <main className="max-w-7xl mx-auto px-6 py-32 grow">
