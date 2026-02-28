@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2025-12-25",
-  "totalProducts": 54,
+  "lastUpdated": "2026-02-28",
+  "totalProducts": 73,
   "categories": [
     {
       "id": "essentials",
@@ -944,141 +944,755 @@
       ]
     },
     {
-      "id": "barrel-saunas",
-      "name": "Barrel Saunas",
-      "description": "Pre-built sauna kits",
+      "id": "outdoor-saunas",
+      "name": "Outdoor Saunas",
+      "description": "Barrel and cabin saunas for your backyard",
       "products": [
         {
-          "name": "Almost Heaven Barrel Sauna",
-          "brand": "Almost Heaven",
-          "price": "$3,000-8,000",
-          "description": "American-made barrel saunas, available at Costco",
-          "why": "Quality cedar, great heat retention, since 1977",
-          "richDescription": "Pre-fab barrel saunas in various sizes",
-          "whyPeopleLikeIt": "Excellent heat retention, unique barrel design, modern aesthetic, made in West Virginia since 1977",
-          "redditSentiment": "Popular at Costco, quality may have slipped slightly but still good cedar options",
-          "specs": null,
+          "name": "SaunaLife Model E6 Barrel Sauna",
+          "brand": "SaunaLife",
+          "price": "$4,390",
+          "description": "Ergonomic barrel sauna for up to 3 bathers with curved benches, dual floor drains, and 6'5\" interior height. Thermo-Spruce construction lasts 2x longer than cedar.",
+          "why": "Ergonomic barrel design, Thermo-Spruce lasts 2x longer than cedar",
+          "whyPeopleLikeIt": "ERGO Series with curved benches and arched backrest, Dual floor drains prevent flooding, 6'5\" interior height, Thermo-Spruce lasts 2x longer than cedar, Tempered bronze glass door (5/16\" thick), Wi-Fi LED lighting with app control, Black shingle roof with drip edge, DIY installation: 1 day, 2 persons",
+          "redditSentiment": "Quality Thermo-Spruce, great DIY options",
+          "specs": {
+            "capacity": "3 persons",
+            "interiorDimensions": "51\" L x 77\" diameter",
+            "exteriorDimensions": "59\" L x 81\" diameter",
+            "weight": "1,103 lbs",
+            "material": "Thermo-Spruce barrel, Thermo-Aspen benches",
+            "staveThickness": "1.65\"",
+            "benchThickness": "1.1\""
+          },
           "rating": 4.5,
-          "slug": "almost-heaven-barrel-sauna",
+          "slug": "saunalife-model-e6",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Almost%20Heaven%20Barrel%20Sauna%20Almost%20Heaven",
-              "type": "amazon"
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/saunalife-model-e6-sauna-barrel",
+              "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/almost-heaven-barrel-sauna.png"
+          "image": "/images/gear/products/saunalife-model-e6.png"
         },
         {
-          "name": "Dundalk Leisurecraft",
-          "brand": "Dundalk",
-          "price": "$4,000-10,000",
-          "description": "Canadian cedar barrel saunas with 5-year warranty",
-          "why": "Sustainably sourced, premium quality, rustic aesthetic",
-          "richDescription": "Canadian cedar barrel saunas with eco-friendly materials",
-          "whyPeopleLikeIt": "Canadian cedar, sustainably managed forests, rustic aesthetic, 5-year warranty, acrylic bubble window",
-          "redditSentiment": "Premium Canadian option, some models criticized for ventilation",
-          "specs": null,
+          "name": "SaunaLife Model E8 Barrel Sauna",
+          "brand": "SaunaLife",
+          "price": "$5,990",
+          "description": "Large ERGO barrel sauna for up to 6 bathers. Premium Thermo-Spruce with panoramic glass options, dual floor drains, and Wi-Fi-controlled LED lighting.",
+          "why": "Spacious 6-person barrel, panoramic glass options, DIY-friendly",
+          "whyPeopleLikeIt": "ERGO Series with curved benches and arched backrest, Dual floor drains prevent flooding, 6'5\" interior height, Thermo-Spruce lasts 2x longer than cedar, Heavy-duty stainless steel barrel bands, Wi-Fi LED lighting with app control, DIY installation: 1 day, 2 persons, Handcrafted in Northern Europe",
+          "redditSentiment": "Quality Thermo-Spruce, great DIY options",
+          "specs": {
+            "capacity": "6 persons",
+            "interiorDimensions": "78.5\" L x 77\" diameter",
+            "exteriorDimensions": "87\" L x 81\" diameter",
+            "weight": "1,345 lbs",
+            "material": "Thermo-Spruce barrel, Thermo-Aspen benches",
+            "staveThickness": "1.65\"",
+            "benchThickness": "1.1\""
+          },
           "rating": 4.5,
-          "slug": "dundalk-leisurecraft",
+          "slug": "saunalife-model-e8",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Dundalk%20Leisurecraft%20Dundalk",
-              "type": "amazon"
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/saunalife-model-e8-sauna-barrel",
+              "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/dundalk-leisurecraft.png"
+          "image": "/images/gear/products/saunalife-model-e8.png"
         },
         {
-          "name": "Dynamic Santiago Infrared",
-          "brand": "Dynamic",
-          "price": "$1,799",
-          "description": "2-person infrared sauna, Costco exclusive",
-          "why": "Affordable entry point, easy assembly",
-          "richDescription": "2-person infrared sauna, Costco exclusive",
-          "whyPeopleLikeIt": "Affordable entry point, easy assembly",
-          "redditSentiment": null,
-          "specs": null,
-          "rating": 4,
-          "slug": "dynamic-santiago-infrared",
+          "name": "SaunaLife Model G2 DIY Sauna Kit",
+          "brand": "SaunaLife",
+          "price": "$4,990",
+          "description": "Compact outdoor cabin sauna kit for up to 4 people. Nordic Spruce with interlocking-beam construction, slanted roof, and dimmable Wi-Fi LED lighting.",
+          "why": "Compact cabin kit, affordable entry to outdoor saunas",
+          "whyPeopleLikeIt": "DIY installation: 2 days, 2 persons, Interlocking-beam construction, Clear tempered glass door (5/16\" thick), Dimmable white LED lighting with Wi-Fi app, Slanted roof with self-adhesive waterproofing, Knotless Grade-A Aspen benches, Handcrafted in Northern Europe",
+          "redditSentiment": "Quality Thermo-Spruce, great DIY options",
+          "specs": {
+            "capacity": "4 persons",
+            "interiorDimensions": "54.1\" D x 51.5\" W x 78.1\" H",
+            "exteriorDimensions": "64\" D x 72\" W x 92\" H (front), 85\" H (back)",
+            "weight": "1,200 lbs (shipping)",
+            "material": "Nordic Spruce walls (1.65\" thick), Grade-A Aspen benches"
+          },
+          "rating": 4.5,
+          "slug": "saunalife-model-g2",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Dynamic%20Santiago%20Infrared%20Dynamic",
-              "type": "amazon"
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/saunalife-model-g2",
+              "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/dynamic-santiago-infrared.png"
+          "image": "/images/gear/products/saunalife-model-g2.png"
+        },
+        {
+          "name": "SaunaLife Model GL4 Outdoor Sauna",
+          "brand": "SaunaLife",
+          "price": "$9,490",
+          "description": "Modern 4-person outdoor sauna cabin with full-height bronze tempered glass, integrated front porch, and 2-tier ergonomic seating. Clean architectural design.",
+          "why": "Modern glass-front design with integrated porch",
+          "whyPeopleLikeIt": "Full-height bronze tempered glass (5/16\" thick), Integrated front porch, 2-tier ergonomic hardwood seating, Interior + exterior LED lighting with Wi-Fi app, Modern horizontal eaves design, 1.57\" thick Nordic Thermo-Spruce walls, Reversible door with full-height pull, DIY installation: 2 persons",
+          "redditSentiment": "Quality Thermo-Spruce, great DIY options",
+          "specs": {
+            "capacity": "4 persons",
+            "interiorDimensions": "55.5\" W x 59.1\" D x 76\" H",
+            "exteriorDimensions": "58.9\" W x 79.5\" D x 85.1\" H",
+            "porchDimensions": "58.9\" W x 14.6\" D",
+            "weight": "1,650 lbs",
+            "material": "Nordic Thermo-Spruce (1.57\" thick)"
+          },
+          "rating": 4.5,
+          "slug": "saunalife-model-gl4",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/saunalife-model-gl4-outdoor-home-sauna-kit",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/saunalife-model-gl4.png"
+        },
+        {
+          "name": "SaunaLife Model GL6 Outdoor Sauna",
+          "brand": "SaunaLife",
+          "price": "$12,790",
+          "description": "Spacious 6-person contemporary sauna cabin with full-height bronze glass, side entry, integrated porch, and EPS insulation. DIY assembly in 2 days.",
+          "why": "Spacious 6-person cabin with full-height glass and EPS insulation",
+          "whyPeopleLikeIt": "Full-height tempered bronze glass windows and door, Integrated porch with recessed LED exterior lighting, 2-tier ergonomic hardwood seating, Wi-Fi app-controlled interior LED lighting, EPS insulation for weather resistance, 1.57\" thick Nordic Thermo-Spruce walls, Side entry door design, DIY installation: 2 persons, 2 days",
+          "redditSentiment": "Quality Thermo-Spruce, great DIY options",
+          "specs": {
+            "capacity": "6 persons",
+            "interiorDimensions": "69.7\" W x 69.7\" D x 79.1\" H",
+            "exteriorDimensions": "90.2\" W x 90.2\" D x 92.5\" H",
+            "weight": "2,200 lbs",
+            "shippingWeight": "2,425 lbs",
+            "material": "Nordic Thermo-Spruce (1.57\" thick)"
+          },
+          "rating": 4.5,
+          "slug": "saunalife-model-gl6",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/saunalife-model-gl6-outdoor-home-sauna-kit",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/saunalife-model-gl6.png"
+        },
+        {
+          "name": "Auroom Aura Outdoor Cabin Sauna",
+          "brand": "Auroom",
+          "price": "$17,990",
+          "description": "Modular Finnish sauna with full tempered glass front wall, contoured bench seating, and premium Thermo-Aspen interior. Elegant design with no visible fasteners.",
+          "why": "Architect-designed modular sauna, ergonomic contoured benches",
+          "whyPeopleLikeIt": "Full tempered glass front wall (8mm), Ergonomic contoured bench with footrest, LED strip lighting with backrest, No visible fasteners, EPDM rubber roofing included, Duckboard floor, Accessories included: bucket, ladle, thermometer, hygrometer, sand timer, aroma set, sauna hat, pillow",
+          "redditSentiment": "Premium Estonian quality, architect-designed",
+          "specs": {
+            "capacity": "2 persons",
+            "interiorDimensions": "58\" W x 58\" D x 79\" H",
+            "exteriorDimensions": "69\" W x 68\" D x 97\" H",
+            "weight": "3,000 lbs (1,360 kg)",
+            "material": "Thermo-Aspen interior, Black Thermo-Spruce exterior"
+          },
+          "rating": 4.7,
+          "slug": "auroom-aura",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/auroom-aura-outdoor-cabin-sauna-kit",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/auroom-aura.png"
+        },
+        {
+          "name": "Auroom Mira S Cabin Sauna Kit",
+          "brand": "Auroom",
+          "price": "$14,990",
+          "description": "Compact modern outdoor sauna with full tempered glass front, 2-tier seating, and satin-smooth Thermo-Aspen interior. Available in natural or black finish.",
+          "why": "Minimalist Estonian design, full glass front, premium materials",
+          "whyPeopleLikeIt": "Full tempered glass front wall (8mm), 2-tier bench seating, Remote-controlled LED lighting, No visible fasteners, Duckboard flooring, Available in natural or black thermo-spruce exterior, Assembly: ~8 hours, 2 persons",
+          "redditSentiment": "Premium Estonian quality, architect-designed",
+          "specs": {
+            "capacity": "1–2 persons",
+            "interiorDimensions": "52\" W x 53\" D x 79\" H",
+            "exteriorDimensions": "63\" W x 64\" D x 97\" H",
+            "weight": "2,165 lbs",
+            "material": "Thermo-Aspen interior, Thermo-Spruce exterior",
+            "glassDoor": "8mm tempered, clear, 24.2\" wide"
+          },
+          "rating": 4.7,
+          "slug": "auroom-mira-s",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/auroom-mira-s-cabin-sauna-kit",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/auroom-mira-s.png"
+        },
+        {
+          "name": "Auroom Garda Outdoor Cabin Sauna",
+          "brand": "Auroom",
+          "price": "$29,900",
+          "description": "Compact minimalist 4–6 person outdoor sauna with cross-laminated timber construction. Fully assembled — no assembly required. Clean modern design.",
+          "why": "Fully pre-assembled, cross-laminated timber, no DIY needed",
+          "whyPeopleLikeIt": "Fully assembled — no DIY required, Minimalistic, functional design, Cross-laminated timber construction, 8mm tempered glass window (rear or side placement), 8mm tempered glass door with aluminum frames, LED dimmable lighting strips, Accessories included: bucket, ladle, thermometer, hygrometer, sand timer, aroma set, sauna hat",
+          "redditSentiment": "Premium Estonian quality, architect-designed",
+          "specs": {
+            "capacity": "4–6 persons",
+            "exteriorDimensions": "90.55\" L x 90.55\" W x 98.82\" H (230 x 230 x 251 cm)",
+            "glassDoor": "8mm tempered glass with aluminum frames",
+            "material": "Thermo-Pine exterior, Thermo-Aspen interior, Duckboard floor"
+          },
+          "rating": 4.7,
+          "slug": "auroom-garda",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/auroom-garda-outdoor-cabin-sauna",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/auroom-garda.png"
         }
       ]
     },
     {
       "id": "heaters",
-      "name": "Sauna Heaters",
-      "description": "Electric and wood-burning heaters",
+      "name": "Electric Sauna Heaters",
+      "description": "Premium electric heaters from HUUM, Harvia, and Saunum",
       "products": [
         {
-          "name": "Harvia Legend Wood-Burning",
-          "brand": "Harvia",
-          "price": "$1,500-3,000",
-          "description": "Traditional Finnish wood-fired heater with large stone capacity",
-          "why": "60+ years Finnish quality, best steam, works of art",
-          "richDescription": "Traditional Finnish wood-fired heater with large stone capacity",
-          "whyPeopleLikeIt": "60+ years Finnish quality, best steam, works of art",
-          "redditSentiment": null,
-          "specs": null,
-          "rating": 4,
-          "slug": "harvia-legend-wood-burning",
+          "name": "HUUM Drop 6kW",
+          "brand": "HUUM",
+          "price": "$1,506",
+          "description": "Wall-mounted electric sauna heater delivering a classic Finnish sauna experience in a stunning natural design. The open-air cage promotes airflow for optimal heating and steam levels, built for water-pouring.",
+          "why": "Stunning open-cage design, authentic löyly, Estonian craftsmanship",
+          "whyPeopleLikeIt": "Open-air stainless steel cage design, Wall-mounted installation, Made for water-pouring (löyly), Handcrafted in Estonia, Stainless steel construction, Max temperature 230°F",
+          "redditSentiment": "Top-tier Estonian design, excellent löyly",
+          "specs": {
+            "kW": "6",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "25A",
+            "circuitBreaker": "30A",
+            "wireSize": "10 AWG",
+            "dimensions": "15.4\"W x 13.2\"D x 23.3\"H",
+            "weight": "24.3 lbs",
+            "stoneCapacity": "121 lbs",
+            "roomSize": "177–318 ft³",
+            "maxTemp": "230°F",
+            "mounting": "Wall"
+          },
+          "rating": 4.7,
+          "slug": "huum-drop-6kw",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Harvia%20Legend%20Wood-Burning%20Harvia",
-              "type": "amazon"
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/huum-drop-6",
+              "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-legend-wood-burning.png"
+          "image": "/images/gear/products/huum-drop-6kw.png"
         },
         {
-          "name": "Harvia Electric Heater",
+          "name": "HUUM Hive Mini 9kW",
+          "brand": "HUUM",
+          "price": "$2,657",
+          "description": "Floor-standing sauna heater with beehive-inspired cage design holding 331 lbs of stones. Air tunnel accelerates temperature reach and adjustable legs allow flexible installation.",
+          "why": "Iconic beehive design, massive stone capacity in compact size",
+          "whyPeopleLikeIt": "Beehive-inspired open-air design, Floor-standing with adjustable legs, Massive 331 lbs stone capacity, Included air tunnel for faster heating, Can be embedded in benches, Safe on wooden floors",
+          "redditSentiment": "Top-tier Estonian design, excellent löyly",
+          "specs": {
+            "kW": "9",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "37.5A",
+            "circuitBreaker": "50A",
+            "wireSize": "8 AWG",
+            "dimensions": "29.6\"H x 18.1\"D",
+            "weight": "35.3 lbs",
+            "stoneCapacity": "331 lbs",
+            "roomSize": "283–460 ft³",
+            "maxTemp": "230°F",
+            "mounting": "Floor"
+          },
+          "rating": 4.7,
+          "slug": "huum-hive-mini-9kw",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/huum-hive-mini-9",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/huum-hive-mini-9kw.png"
+        },
+        {
+          "name": "HUUM Hive 15kW",
+          "brand": "HUUM",
+          "price": "$3,088",
+          "description": "High-output floor-standing heater with beehive-inspired design for large commercial or residential sauna rooms. Massive stone capacity delivers exceptional steam quality.",
+          "why": "The original beehive heater, legendary steam quality",
+          "whyPeopleLikeIt": "Beehive-inspired open-air design, Floor-standing installation, Extraordinary stone capacity, Included air tunnel for faster heating, Can be embedded in benches, Suitable for large sauna rooms",
+          "redditSentiment": "Top-tier Estonian design, excellent löyly",
+          "specs": {
+            "kW": "15",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "stoneCapacity": "551 lbs",
+            "maxTemp": "230°F",
+            "mounting": "Floor"
+          },
+          "rating": 4.7,
+          "slug": "huum-hive-15kw",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/huum-hive-15",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/huum-hive-15kw.png"
+        },
+        {
+          "name": "HUUM Cliff 6kW",
+          "brand": "HUUM",
+          "price": "$2,347",
+          "description": "Minimalist floor-mounted heater with small safety distances for custom sauna layouts. Steel cage manufactured from recycled cutouts for zero-waste production.",
+          "why": "Sleek wall-mounted design, space-efficient, modern aesthetic",
+          "whyPeopleLikeIt": "Slim profile with small safety distances, Floor-mounted with wall anchor, Made from recycled steel cutouts, Fully exposed stones for water-pouring, Soft and soothing steam, Eco-friendly manufacturing",
+          "redditSentiment": "Top-tier Estonian design, excellent löyly",
+          "specs": {
+            "kW": "6",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "25A",
+            "circuitBreaker": "30A",
+            "wireSize": "10 AWG",
+            "dimensions": "38.4\"H x 10.6\"W x 10.6\"D",
+            "weight": "35.2 lbs",
+            "stoneCapacity": "165.4 lbs",
+            "roomSize": "177–318 ft³",
+            "maxTemp": "230°F",
+            "mounting": "Floor"
+          },
+          "rating": 4.7,
+          "slug": "huum-cliff-6kw",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/huum-cliff-6",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/huum-cliff-6kw.png"
+        },
+        {
+          "name": "HUUM Steel 6kW",
+          "brand": "HUUM",
+          "price": "$2,033",
+          "description": "Floor-standing heater with slim profile and integrated air tunnel supporting effective airflow through heating elements and stones. Welcomes water-pouring for traditional Finnish steam.",
+          "why": "Clean minimalist look, powerful performance, space-saving",
+          "whyPeopleLikeIt": "Slim profile with small safety distances, Integrated air tunnel for airflow, Floor-standing installation, Welcomes water-pouring, Stainless steel construction, 330 lbs stone capacity",
+          "redditSentiment": "Top-tier Estonian design, excellent löyly",
+          "specs": {
+            "kW": "6",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "25A",
+            "circuitBreaker": "30A",
+            "wireSize": "10 AWG",
+            "dimensions": "38.4\"H x 12.6\"W x 12.63\"D",
+            "weight": "33 lbs",
+            "stoneCapacity": "330 lbs",
+            "roomSize": "177–318 ft³",
+            "maxTemp": "230°F",
+            "mounting": "Floor"
+          },
+          "rating": 4.7,
+          "slug": "huum-steel-6kw",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/huum-steel-6",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/huum-steel-6kw.png"
+        },
+        {
+          "name": "Harvia Cilindro PC80E",
           "brand": "Harvia",
-          "price": "$500-2,000",
-          "description": "Efficient electric heating with remote control",
-          "why": "Best water vaporization in tests, reliable",
-          "richDescription": "Efficient electric sauna heating",
-          "whyPeopleLikeIt": "Best water vaporization in independent tests, user-friendly controls, remote control box stays outside hot room",
-          "redditSentiment": "Better value than Tylo",
-          "specs": null,
+          "price": "$1,233",
+          "description": "Cylindrical floor-standing heater with open-air section running from top to bottom of the stone cage, enabling users to adjust steam quality. Built-in heat shield for reduced safety clearances.",
+          "why": "Pillar design holds 220 lbs of stones, incredible steam",
+          "whyPeopleLikeIt": "Open-air cage design for steam adjustment, Built-in heat shield, 200 lbs stone capacity, Floor-standing installation, Water-pouring capable, Made in Finland",
+          "redditSentiment": "Reliable Finnish quality, trusted brand",
+          "specs": {
+            "kW": "8",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "33.4A (1-group) / 22.3A (2-group)",
+            "wireSize": "8 AWG (1-group) / 12 AWG (2-group)",
+            "dimensions": "40\"H x 14\"W x 13\"D",
+            "weight": "37.5 lbs",
+            "stoneCapacity": "200 lbs",
+            "roomSize": "212–431 ft³",
+            "maxTemp": "194°F",
+            "mounting": "Floor"
+          },
           "rating": 4.5,
-          "slug": "harvia-electric-heater",
+          "slug": "harvia-cilindro-pc80e",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Harvia%20Electric%20Heater%20Harvia",
-              "type": "amazon"
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-cilindro-pc80e",
+              "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-electric-heater.png"
+          "image": "/images/gear/products/harvia-cilindro-pc80e.png"
         },
         {
-          "name": "Tylo Pure Combi",
-          "brand": "Tylo",
-          "price": "$1,500-2,500",
-          "description": "Swedish electric heater with humidity control",
-          "why": "Fastest heating, lowest energy use, elegant design",
-          "richDescription": "Electric heater with humidity control",
-          "whyPeopleLikeIt": "Twin side chambers maximize airflow, minimizes heating time, saves energy, elegant design",
-          "specs": null,
-          "rating": 4,
-          "slug": "tylo-pure-combi",
+          "name": "Harvia Virta HL80",
+          "brand": "Harvia",
+          "price": "$2,080",
+          "description": "Premium wall-mounted heater with separated stone chambers producing soft, humid steam. Available in Standard and Combi (with built-in steamer) configurations. Made in Finland.",
+          "why": "Premium wall heater with stainless steel finish, WiFi-ready",
+          "whyPeopleLikeIt": "Separated stone chambers, Soft and humid steam, Short preheat times, Available in Combi version with steamer, Industrial-grade serviceable elements, Designed and made in Finland",
+          "redditSentiment": "Reliable Finnish quality, trusted brand",
+          "specs": {
+            "kW": "8",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "33.4A",
+            "dimensions": "16\"W x 13\"D x 33\"H",
+            "weight": "50.7 lbs",
+            "stoneCapacity": "100 lbs min",
+            "roomSize": "177–431 ft³",
+            "maxTemp": "194°F",
+            "mounting": "Wall"
+          },
+          "rating": 4.5,
+          "slug": "harvia-virta-hl80",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Tylo%20Pure%20Combi%20Tylo",
-              "type": "amazon"
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-virta-hl80e",
+              "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/tylo-pure-combi.png"
+          "image": "/images/gear/products/harvia-virta-hl80.png"
+        },
+        {
+          "name": "Harvia KIP 6kW (Built-In Controls)",
+          "brand": "Harvia",
+          "price": "$1,195",
+          "description": "Wall-mounted heater with integrated controls and dual-wall construction that stays cool to the touch. Mounts directly on wood with no heat shield needed.",
+          "why": "Built-in controls, affordable Finnish quality, easy install",
+          "whyPeopleLikeIt": "Built-in timer and temperature controls, Dual-wall cool-touch construction, Mounts directly on wooden walls, Schedule sessions up to 8 hours ahead, Stainless steel or black finish, No external controller needed",
+          "redditSentiment": "Reliable Finnish quality, trusted brand",
+          "specs": {
+            "kW": "6",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "25A",
+            "wireSize": "10 AWG",
+            "dimensions": "23.6\"H x 16.1\"W x 11\"D",
+            "weight": "30.8 lbs",
+            "stoneCapacity": "44 lbs",
+            "roomSize": "170–300 ft³",
+            "maxTemp": "194°F",
+            "mounting": "Wall"
+          },
+          "rating": 4.5,
+          "slug": "harvia-kip-6kw-built-in-controls",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-kip60b",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/harvia-kip-6kw-built-in-controls.png"
+        },
+        {
+          "name": "Harvia Club K12.5G",
+          "brand": "Harvia",
+          "price": "$2,086",
+          "description": "Mid-range Club model for larger group sauna sessions. Floor-mounted with open-air cage design for superior airflow and water-pouring capability.",
+          "why": "Commercial-grade reliability, large stone capacity",
+          "whyPeopleLikeIt": "Floor-mounted for group saunas, Integrated stone guard, Open-air cage for optimal airflow, Water-pouring capable, Available in residential and commercial voltage, 132 lbs stone capacity",
+          "redditSentiment": "Reliable Finnish quality, trusted brand",
+          "specs": {
+            "kW": "12.5",
+            "voltage": "240V/1PH or 208V/3PH",
+            "phase": "1-Phase or 3-Phase",
+            "dimensions": "27.5\"H x 19.9\"W x 16.9\"D",
+            "weight": "56 lbs",
+            "stoneCapacity": "132 lbs",
+            "roomSize": "460–750 ft³",
+            "maxTemp": "194°F",
+            "mounting": "Floor"
+          },
+          "rating": 4.5,
+          "slug": "harvia-club-k12-5g",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-club-k12-5g",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/harvia-club-k12-5g.png"
+        },
+        {
+          "name": "Harvia Spirit SP80E",
+          "brand": "Harvia",
+          "price": "$1,777",
+          "description": "Wall-mounted heater with cage-like body and integrated ventilation system for even heating. Cooling vents on the back allow safe mounting directly on wooden walls.",
+          "why": "Elegant glass panel design, modern Finnish engineering",
+          "whyPeopleLikeIt": "Integrated ventilation system, Open-air cage design, Wall-mountable on wood with cooling vents, 110 lbs stone capacity, Water-pouring capable, Made in Finland",
+          "redditSentiment": "Reliable Finnish quality, trusted brand",
+          "specs": {
+            "kW": "8",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "33.3A",
+            "wireSize": "8 AWG",
+            "dimensions": "29.5\"H x 15\"W x 13.1\"D",
+            "weight": "28.8 lbs",
+            "stoneCapacity": "110 lbs",
+            "roomSize": "177–431 ft³",
+            "maxTemp": "194°F",
+            "mounting": "Wall"
+          },
+          "rating": 4.5,
+          "slug": "harvia-spirit-sp80e",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-spirit-sp80e",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/harvia-spirit-sp80e.png"
+        },
+        {
+          "name": "Saunum Air 7",
+          "brand": "Saunum",
+          "price": "$3,095",
+          "description": "Floor-to-ceiling heater with patented air blending system creating even temperature distribution. Himalayan salt orbs release negative ions while 6 bathing modes offer diverse sauna experiences.",
+          "why": "Revolutionary climate equalizer, Himalayan salt, 6 sauna modes",
+          "whyPeopleLikeIt": "Patented Climate Equalizer air blending, 6 sauna modes (Finnish, Estonian, Russian Banya, Yoga, Salt, Aroma), Himalayan salt reservoir for negative ions, Wi-Fi controllable (AirIQ sold separately), 3-speed whisper-quiet fan, UL certified, Incoloy heating elements",
+          "redditSentiment": "Unique climate system, game-changer for steam quality",
+          "specs": {
+            "kW": "6.4",
+            "voltage": "240V",
+            "phase": "1-Phase",
+            "amperage": "26.67A",
+            "circuitBreaker": "40A",
+            "dimensions": "18.3\"W x 12.4\"D x 88.58–94.48\"H",
+            "weight": "115 lbs",
+            "stoneCapacity": "132–154 lbs",
+            "roomSize": "177–282 ft³",
+            "minCeilingHeight": "71.48\"",
+            "mounting": "Floor-to-ceiling"
+          },
+          "rating": 4.8,
+          "slug": "saunum-air-7",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/saunum-air-7-air-series-6-4kw-sauna-heater-w-climate-equalizer",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/saunum-air-7.png"
+        },
+        {
+          "name": "Saunum Air Perfect 10",
+          "brand": "Saunum",
+          "price": "$3,895",
+          "description": "Higher-output version of the Air Perfect with patented air mixing technology for even heat distribution. Himalayan salt spheres and 6 sauna modes in a compact floor-standing design.",
+          "why": "Premium climate system with salt therapy and smart controls",
+          "whyPeopleLikeIt": "Patented air mixing system, 6 sauna modes (Finnish, Estonian, Russian Banya, Yoga, Salt, Aroma), Himalayan salt spheres included, Built-in climate equalizer, Wi-Fi controllable (AirIQ sold separately), UL certified, 2-year limited warranty",
+          "redditSentiment": "Unique climate system, game-changer for steam quality",
+          "specs": {
+            "kW": "10",
+            "voltage": "240V",
+            "amperage": "41.25A",
+            "dimensions": "19.1\"W x 14.15\"D x 45.65\"H",
+            "stoneCapacity": "132 lbs",
+            "roomSize": "300–550 ft³",
+            "mounting": "Floor"
+          },
+          "rating": 4.8,
+          "slug": "saunum-air-perfect-10",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/saunum-air-perfect-10-sauna-heater-w-climate-equalizer",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/saunum-air-perfect-10.png"
+        }
+      ]
+    },
+    {
+      "id": "wood-stoves",
+      "name": "Wood-Burning Stoves",
+      "description": "Traditional wood-fired sauna heaters",
+      "products": [
+        {
+          "name": "Harvia Legend 150",
+          "brand": "Harvia",
+          "price": "$2,089",
+          "description": "Premium Finnish wood-burning sauna heater with patinated steel frame and cast-iron glass door. Designed to heat two rooms with clean, efficient burning.",
+          "why": "Iconic Finnish design, cast-iron glass door, heats two rooms",
+          "whyPeopleLikeIt": "Patinated steel frame with cast-iron glass door, Can heat two rooms simultaneously, Adjustable feet for floor installation, Flue connection: top and back, Designed, engineered, and made in Finland",
+          "redditSentiment": "Traditional Finnish quality, legendary steam",
+          "specs": {
+            "kW": "16",
+            "dimensions": "20.9\" x 20.9\" x 29.1–30.3\" (53 x 53 x 74–77 cm)",
+            "weight": "128 lbs (58 kg)",
+            "stoneCapacity": "Sold separately (Harvia Stone Package $360)",
+            "heatingVolume": "212–459 cu ft",
+            "firewoodLength": "15\" (39 cm) max",
+            "minRoomHeight": "69\" (175 cm)"
+          },
+          "rating": 4.6,
+          "slug": "harvia-legend-150",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-legend-150",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/harvia-legend-150.png"
+        },
+        {
+          "name": "Harvia Legend 240 GreenFlame",
+          "brand": "Harvia",
+          "price": "$2,859",
+          "description": "Eco-friendly wood-burning sauna stove with 70% lower CO emissions. Extra-large glass window for flame viewing with advanced combustion technology.",
+          "why": "70% lower emissions, eco-friendly, large viewing window",
+          "whyPeopleLikeIt": "70% lower carbon monoxide emissions vs comparable models, Extra-large glass window for flame viewing, Reduces wood particulate emissions by one-fifth, Steel construction with black finish, Adjustable feet, floor model, Made in Finland",
+          "redditSentiment": "Traditional Finnish quality, legendary steam",
+          "specs": {
+            "kW": "15.9",
+            "dimensions": "23.6\" x 23.6\" x 32.9\" (600 x 600 x 835 mm)",
+            "weight": "167 lbs",
+            "shippingWeight": "607 lbs (with stones)",
+            "stoneCapacity": "440 lbs minimum (10 boxes, sold separately)",
+            "heatingVolume": "353–848 cu ft",
+            "firewoodLength": "15\" (39 cm) max"
+          },
+          "rating": 4.6,
+          "slug": "harvia-legend-240-greenflame",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-legend-240-greenflame",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/harvia-legend-240-greenflame.png"
+        },
+        {
+          "name": "Harvia 20 Duo Steel",
+          "brand": "Harvia",
+          "price": "$2,871",
+          "description": "Dual-purpose wood-fired unit functioning as both sauna heater and fireplace. Load wood from an adjoining room — no need to bring cordwood into the sauna.",
+          "why": "Dual-purpose heater and fireplace, load wood from outside",
+          "whyPeopleLikeIt": "Dual-purpose: sauna heater + fireplace, Load wood from adjoining room, Premium stainless steel construction, Large glass door for flame viewing, Heats two rooms simultaneously",
+          "redditSentiment": "Traditional Finnish quality, legendary steam",
+          "specs": {
+            "kW": "24.1",
+            "dimensions": "17\" x 20\" x 30\"",
+            "weight": "169 lbs",
+            "stoneCapacity": "88 lbs minimum (2 boxes, sold separately)",
+            "safetyDistances": "12\" front, 4\" sides/back, 52\" ceiling",
+            "minRoomHeight": "82\"",
+            "modelNumber": "WK200SLUX"
+          },
+          "rating": 4.6,
+          "slug": "harvia-20-duo-steel",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/harvia-20-duo",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/harvia-20-duo-steel.png"
+        },
+        {
+          "name": "HUUM Hive Wood 17 Wood Burning",
+          "brand": "HUUM",
+          "price": "$2,350",
+          "description": "Powerful modern wood-burning heater with massive 287 lb stone capacity for authentic löyly. Available in standard and extended (LS) models for exterior wood loading.",
+          "why": "Modern Estonian design, massive stone capacity, clean burning",
+          "whyPeopleLikeIt": "Full stainless steel construction, Massive stone capacity for excellent löyly, Stainless steel furnace door and flame tamer, Clean burning technology, Natural oil finish only, Extended (LS) variant for through-wall wood loading, Designed, engineered, and crafted in Estonia",
+          "redditSentiment": "Modern wood-burning design, excellent craftsmanship",
+          "specs": {
+            "kW": "17",
+            "dimensions": "21.9\" x 23.2\" x 29.6\" (555 x 590 x 750 mm)",
+            "dimensionsLS": "21.9\" x 29.1\" x 29.6\" (555 x 740 x 750 mm)",
+            "weight": "143 lbs (65 kg)",
+            "weightLS": "170 lbs (77 kg)",
+            "stoneCapacity": "287 lbs (130 kg) — requires 9 boxes, sold separately",
+            "heatingVolume": "283–565 cu ft"
+          },
+          "rating": 4.6,
+          "slug": "huum-hive-wood-17",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/huum-hive-wood-17",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/huum-hive-wood-17.png"
+        },
+        {
+          "name": "HUUM Hive Flow Wood Burning",
+          "brand": "HUUM",
+          "price": "$3,129",
+          "description": "Patent-pending furnace design that directs 75% of heat into the sauna instead of up the chimney. Low emissions with extended steam production up to 30 minutes after fire extinguishes.",
+          "why": "Patent-pending 75% heat efficiency, extended steam production",
+          "whyPeopleLikeIt": "Patent-pending furnace: 75% heat efficiency, Low emissions: 346 mg/m³ CO, 25 mg/m³ particulate, Extended steam production up to 30 min after fire out, 5mm thick top, 3mm thick sides, 5-Year Warranty, Includes ash drawer, cleaning hatches, heat-resistant glove",
+          "redditSentiment": "Modern wood-burning design, excellent craftsmanship",
+          "specs": {
+            "kW": "9.8",
+            "dimensions": "20.75\" x 23.13\" x 34.8\" (527 x 586 x 885 mm)",
+            "dimensionsLS": "20.75\" x 27.88\" x 34.8\" (527 x 708 x 885 mm)",
+            "weight": "148 lbs",
+            "weightLS": "160 lbs",
+            "stoneCapacity": "330 lbs (150 kg)",
+            "heatingVolume": "282–635 cu ft (8–18 m³)",
+            "firewoodLength": "11.75\" (300 mm) max",
+            "flueDiameter": "4.5\" (115 mm)"
+          },
+          "rating": 4.6,
+          "slug": "huum-hive-flow",
+          "purchaseLinks": [
+            {
+              "name": "The Sauna Heater",
+              "url": "https://thesaunaheater.com/products/huum-hive-flow-wood-burning-sauna-stove",
+              "type": "retailer"
+            }
+          ],
+          "image": "/images/gear/products/huum-hive-flow.png"
         }
       ]
     },

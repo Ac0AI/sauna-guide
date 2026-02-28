@@ -51,9 +51,17 @@ const categoryStyles: Record<string, { gradient: string; icon: string }> = {
     gradient: 'from-amber-100 via-yellow-50 to-orange-50',
     icon: '🛖'
   },
+  'outdoor-saunas': {
+    gradient: 'from-amber-100 via-yellow-50 to-orange-50',
+    icon: '🛖'
+  },
   'heaters': {
     gradient: 'from-red-50 via-orange-50 to-amber-100',
     icon: '🔥'
+  },
+  'wood-stoves': {
+    gradient: 'from-orange-100 via-amber-50 to-red-50',
+    icon: '🪵'
   },
   'tech': {
     gradient: 'from-slate-100 via-gray-50 to-zinc-100',
