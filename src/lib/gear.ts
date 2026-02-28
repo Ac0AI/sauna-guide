@@ -1,5 +1,7 @@
 import gearData from '@/data/gear-merged.json'
 import type { GearProduct, GearCategory } from './types'
+import fs from 'fs'
+import path from 'path'
 
 interface RawProduct {
   name: string
@@ -24,6 +26,40 @@ interface RawCategory {
   name: string
   description: string
   products: RawProduct[]
+}
+
+const publicDir = path.join(process.cwd(), 'public')
+const defaultProductImageDir = '/images/gear/products'
+const knownImageExtensions = ['.png', '.jpg', '.jpeg', '.webp']
+
+function resolveProductImage(image?: string): string | undefined {
+  if (!image) return undefined
+
+  if (image.startsWith('http://') || image.startsWith('https://')) {
+    return image
+  }
+
+  const normalizedPath = image.startsWith('/') ? image : `${defaultProductImageDir}/${image}`
+  const absolutePath = path.join(publicDir, normalizedPath.replace(/^\//, ''))
+
+  if (fs.existsSync(absolutePath)) {
+    return normalizedPath
+  }
+
+  // If the exact file is missing, try common image extensions for the same basename.
+  const parsed = path.parse(normalizedPath)
+  if (parsed.ext) {
+    for (const ext of knownImageExtensions) {
+      if (ext === parsed.ext) continue
+      const candidatePath = `${parsed.dir}/${parsed.name}${ext}`
+      const candidateAbsolutePath = path.join(publicDir, candidatePath.replace(/^\//, ''))
+      if (fs.existsSync(candidateAbsolutePath)) {
+        return candidatePath
+      }
+    }
+  }
+
+  return undefined
 }
 
 function slugify(name: string): string {
@@ -57,7 +93,7 @@ function transformProduct(product: RawProduct, categoryId: string): GearProduct 
     whyPeopleLikeIt: product.whyPeopleLikeIt,
     redditSentiment: product.redditSentiment || undefined,
     specs: product.specs || undefined,
-    image: product.image,
+    image: resolveProductImage(product.image),
     purchaseLinks,
     rating: product.rating,
     featured: product.featured

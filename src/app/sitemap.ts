@@ -86,6 +86,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/newsletter`,
+      lastModified: buildDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
   ]
 
   // 2. Dynamiska Bastu-sidor
