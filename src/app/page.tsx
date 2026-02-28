@@ -238,18 +238,6 @@ export default function HomePage() {
           </blockquote>
           <p className="text-sauna-sand text-lg">— Finnish proverb</p>
 
-          <div className="mt-16 pt-16 border-t border-sauna-paper/10">
-            <p className="text-sauna-birch/80 text-lg mb-8 max-w-2xl mx-auto">
-              Some traditions survive for a reason.
-            </p>
-            <Link href="#newsletter" className="inline-flex items-center gap-2 px-6 py-3 bg-sauna-paper text-sauna-ink rounded-lg
-                                                   font-medium hover:bg-sauna-linen transition-colors">
-              Step inside
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
-            </Link>
-          </div>
         </div>
       </section>
 
