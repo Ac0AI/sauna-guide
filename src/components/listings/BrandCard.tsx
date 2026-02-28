@@ -30,9 +30,14 @@ const typeLabels: Record<string, string> = {
   'portable': 'Portable',
 }
 
+const preserveBrandColors = new Set(['harvia', 'huum', 'klafs', 'barrel-sauna-co'])
+
 export function BrandCard({ manufacturer }: BrandCardProps) {
   const gradient = typeGradients[manufacturer.type] || 'from-gray-600 to-gray-800'
   const label = typeLabels[manufacturer.type] || manufacturer.type
+  const preserveColors = preserveBrandColors.has(manufacturer.slug)
+  const logoWidth = preserveColors ? 160 : 120
+  const logoHeight = preserveColors ? 64 : 48
 
   return (
     <Link
@@ -49,14 +54,20 @@ export function BrandCard({ manufacturer }: BrandCardProps) {
         </div>
         {manufacturer.logo && (
           <div className="absolute inset-0 flex items-center justify-center p-6">
-            <Image
-              src={manufacturer.logo}
-              alt={`${manufacturer.name} logo`}
-              width={120}
-              height={48}
-              className="object-contain max-h-10 brightness-0 invert opacity-80 group-hover:opacity-100 transition-opacity"
-              unoptimized={manufacturer.logo.endsWith('.svg')}
-            />
+            <div className={preserveColors ? 'bg-white/92 rounded-md px-3 py-2 shadow-xs' : ''}>
+              <Image
+                src={manufacturer.logo}
+                alt={`${manufacturer.name} logo`}
+                width={logoWidth}
+                height={logoHeight}
+                className={`object-contain ${preserveColors ? 'max-h-12' : 'max-h-10'} transition-opacity ${
+                  preserveColors
+                    ? 'opacity-95 group-hover:opacity-100'
+                    : 'brightness-0 invert opacity-80 group-hover:opacity-100'
+                }`}
+                unoptimized={manufacturer.logo.endsWith('.svg')}
+              />
+            </div>
           </div>
         )}
         <div className="absolute bottom-3 left-5">

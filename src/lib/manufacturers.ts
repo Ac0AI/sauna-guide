@@ -25,7 +25,7 @@ export interface Manufacturer {
 
 const brandLogos: Record<string, string> = {
   'harvia': '/images/brands/harvia.svg',
-  'huum': '/images/brands/huum.png',
+  'huum': '/images/brands/huum.svg',
   'tyl': '/images/brands/tylo.webp',
   'narvi': '/images/brands/narvi.svg',
   'kirami': '/images/brands/kirami.png',
@@ -36,7 +36,7 @@ const brandLogos: Record<string, string> = {
   'sunlighten': '/images/brands/sunlighten.svg',
   'saunaspace': '/images/brands/saunaspace.png',
   'saunum': '/images/brands/saunum.png',
-  'klafs': '/images/brands/klafs.png',
+  'klafs': '/images/brands/klafs.svg',
   'polar-saunas': '/images/brands/polar-saunas.png',
   'durasage': '/images/brands/durasage.png',
   'health-mate': '/images/brands/health-mate.png',
