@@ -190,7 +190,7 @@
     {
       "name": "Barrel Sauna Co",
       "country": "USA",
-      "website": "https://www.barrelsaunaco.com/",
+      "website": "https://bastubarrel.com/",
       "type": "barrel",
       "products": ["barrel-saunas", "kits"],
       "market": "north-america",
@@ -239,7 +239,7 @@
     {
       "name": "Polar Saunas",
       "country": "Finland",
-      "website": "https://www.polarimetri.fi/",
+      "website": "https://www.polarsauna.com/",
       "type": "traditional",
       "products": ["saunas", "steam-rooms"],
       "market": "europe",
