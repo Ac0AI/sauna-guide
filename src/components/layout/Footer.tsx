@@ -20,8 +20,8 @@ export function Footer() {
               <span className="font-display text-xl font-medium">Sauna Guide</span>
             </div>
             <p className="text-sauna-fog max-w-sm leading-relaxed">
-              A weekly letter from the heat. Saunas worth visiting,
-              the science of warmth, and permission to slow down.
+              The independent sauna buying guide. Honest reviews,
+              real costs, and everything you need to get your first home sauna right.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ export function Footer() {
               <li><Link href="/guides" className="hover:text-sauna-paper transition-colors">Guides & Protocols</Link></li>
               <li><Link href="/gear" className="hover:text-sauna-paper transition-colors">Gear Guide</Link></li>
               <li><Link href="/sauna-brands" className="hover:text-sauna-paper transition-colors">Sauna Brands</Link></li>
-              <li><Link href="/challenge" className="hover:text-sauna-paper transition-colors">30-Day Reset</Link></li>
+              <li><Link href="/#guide" className="hover:text-sauna-paper transition-colors">Free Buying Guide</Link></li>
             </ul>
           </div>
         </div>
@@ -42,7 +42,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Sauna Guide. All rights reserved.
           </p>
           <p className="text-sauna-stone text-sm">
-            Every Thursday: why heat heals, where to find it, and five minutes of stillness.
+            We don&apos;t sell saunas. We help you buy the right one.
           </p>
         </div>
       </div>
