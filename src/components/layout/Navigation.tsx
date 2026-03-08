@@ -39,9 +39,9 @@ export function Navigation() {
           <Link href="/sauna-brands" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
             Brands
           </Link>
-          <Link href="/#newsletter" className="px-5 py-2.5 bg-sauna-ink text-sauna-paper rounded-lg text-sm font-medium
+          <Link href="/#guide" className="px-5 py-2.5 bg-sauna-ink text-sauna-paper rounded-lg text-sm font-medium
                                                hover:bg-sauna-charcoal transition-colors duration-300">
-            Get The Briefing
+            Get the Buying Guide
           </Link>
         </div>
 
@@ -96,12 +96,12 @@ export function Navigation() {
               Brands
             </Link>
             <Link
-              href="/#newsletter"
+              href="/#guide"
               onClick={() => setIsOpen(false)}
               className="block w-full text-center px-5 py-3 bg-sauna-ink text-sauna-paper rounded-lg font-medium
                          hover:bg-sauna-charcoal transition-colors duration-300"
             >
-              Get The Briefing
+              Get the Buying Guide
             </Link>
           </div>
         </div>

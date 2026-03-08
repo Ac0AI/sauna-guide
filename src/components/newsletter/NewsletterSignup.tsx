@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 interface NewsletterSignupProps {
-  variant?: 'hero' | 'inline' | 'minimal'
+  variant?: 'hero' | 'inline' | 'minimal' | 'buying-guide' | 'buying-guide-hero'
   className?: string
   redirectOnSuccess?: boolean
   source?: string
@@ -16,6 +16,8 @@ export function NewsletterSignup({
   redirectOnSuccess = true,
   source = 'newsletter'
 }: NewsletterSignupProps) {
+  const isBuyingGuide = variant === 'buying-guide' || variant === 'buying-guide-hero'
+  const effectiveSource = isBuyingGuide ? 'buying-guide' : source
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [message, setMessage] = useState('')
@@ -30,7 +32,7 @@ export function NewsletterSignup({
       const response = await fetch('/api/newsletter/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source }),
+        body: JSON.stringify({ email, source: effectiveSource }),
       })
 
       const data = await response.json()
@@ -99,6 +101,91 @@ export function NewsletterSignup({
                 I&apos;ll do it alone →
             </button>
         </div>
+    )
+  }
+
+  if (variant === 'buying-guide-hero') {
+    return (
+      <form onSubmit={handleSubmit} className={`max-w-xl mx-auto ${className}`}>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Enter your email"
+            required
+            className="flex-1 px-6 py-4 bg-sauna-paper/95 backdrop-blur-xs border border-sauna-paper/50
+                       rounded-xl text-sauna-ink placeholder:text-sauna-stone text-base
+                       focus:outline-hidden focus:ring-2 focus:ring-sauna-sand/50 focus:border-sauna-sand
+                       transition-all duration-300 shadow-lg"
+          />
+          <button
+            type="submit"
+            disabled={status === 'loading'}
+            className="px-8 py-4 bg-sauna-sand text-sauna-charcoal font-medium text-base rounded-xl
+                       hover:bg-sauna-sand/90 transition-colors duration-300
+                       disabled:opacity-50 disabled:cursor-not-allowed
+                       shadow-lg hover:shadow-xl whitespace-nowrap"
+          >
+            {status === 'loading' ? (
+              <span className="flex items-center justify-center gap-2">
+                <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                Sending...
+              </span>
+            ) : 'Send me the guide'}
+          </button>
+        </div>
+        {message && (
+          <p className={`mt-4 text-center text-sm ${status === 'success' ? 'text-green-300' : 'text-red-300'}`}>
+            {message}
+          </p>
+        )}
+      </form>
+    )
+  }
+
+  if (variant === 'buying-guide') {
+    return (
+      <form onSubmit={handleSubmit} className={`max-w-lg mx-auto ${className}`}>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Your email address"
+            required
+            className="flex-1 px-5 py-3.5 bg-sauna-paper border border-sauna-ash
+                       rounded-lg text-sauna-ink placeholder:text-sauna-stone
+                       focus:outline-hidden focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
+                       transition-all duration-300"
+          />
+          <button
+            type="submit"
+            disabled={status === 'loading'}
+            className="px-8 py-3.5 bg-sauna-sand text-sauna-charcoal font-medium rounded-lg
+                       hover:bg-sauna-sand/90 transition-colors duration-300
+                       disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
+          >
+            {status === 'loading' ? (
+              <span className="flex items-center justify-center gap-2">
+                <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                Sending...
+              </span>
+            ) : 'Send me the guide'}
+          </button>
+        </div>
+        {message && (
+          <p className={`mt-4 text-center text-sm ${status === 'success' ? 'text-green-600' : 'text-red-500'}`}>
+            {message}
+          </p>
+        )}
+      </form>
     )
   }
 

@@ -64,5 +64,25 @@
   "finnish_wisdom": {
     "proverb": "The sauna is the poor man's pharmacy.",
     "concept": "Löyly (the steam) originally meant 'spirit' or 'soul'"
+  },
+
+  "buyingGuide": {
+    "tone": ["Honest", "Conversational", "Practical", "Friend-over-coffee"],
+    "cta_primary": "Send me the guide",
+    "cta_alternatives": ["Get the buying guide", "Send me the free guide"],
+    "headline": "We don't sell saunas. We save you from buying the wrong one.",
+    "positioning": "The independent sauna buying guide. Honest reviews. No sales bias.",
+    "writing_rules": [
+      "No em-dashes",
+      "No 'leveraging' or 'curating'",
+      "Write like explaining to a friend over coffee",
+      "Short sentences. Real words.",
+      "If it sounds like a LinkedIn post, rewrite it"
+    ],
+    "email_series": {
+      "name": "3-Part Buying Guide",
+      "count": 3,
+      "post_series": "Subscribers roll into weekly newsletter"
+    }
   }
 }
