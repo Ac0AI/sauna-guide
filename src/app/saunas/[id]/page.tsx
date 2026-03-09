@@ -5,6 +5,7 @@ import saunasData from '@/data/saunas.json'
 import { Sauna } from '@/lib/types'
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
+import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 
 // This is required for static site generation (SSG) of dynamic routes
 export async function generateStaticParams() {
@@ -255,13 +256,11 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
 
             {/* CTA */}
              <div className="bg-sauna-oak/10 p-6 rounded-xl border border-sauna-oak/20">
-                <h3 className="text-lg font-medium text-sauna-ink mb-2">Weekly Protocols</h3>
+                <h3 className="text-lg font-medium text-sauna-ink mb-2">Planning a home sauna?</h3>
                 <p className="text-sauna-walnut text-sm mb-4">
-                    Get our free weekly newsletter with sauna protocols and science.
+                    Free 3-part guide: costs, types, and what everyone gets wrong.
                 </p>
-                <Link href="/#newsletter" className="text-sauna-heat font-bold text-sm hover:underline">
-                    Step inside →
-                </Link>
+                <NewsletterSignup variant="buying-guide" source="sauna-listing" />
             </div>
         </div>
       </main>

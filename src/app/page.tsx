@@ -168,7 +168,7 @@ export default function HomePage() {
       {/* 5. Social Proof */}
       <section className="py-20 md:py-28 bg-sauna-linen relative">
         <div className="max-w-4xl mx-auto px-6">
-          <p className="text-sm uppercase tracking-widest text-sauna-walnut mb-4 text-center">Real questions from real buyers</p>
+          <p className="text-sm uppercase tracking-widest text-sauna-walnut mb-4 text-center">Questions we see every week</p>
 
           <div className="grid md:grid-cols-3 gap-6 mb-10">
             <ForumQuote
@@ -367,20 +367,10 @@ function SaunaCard({
 function ForumQuote({ text }: { text: string }) {
   return (
     <div className="p-5 bg-sauna-paper rounded-xl border border-sauna-ash/50 shadow-sm">
-      <div className="flex items-center gap-2 mb-3">
-        <div className="w-7 h-7 rounded-full bg-sauna-oak/10 flex items-center justify-center">
-          <svg className="w-3.5 h-3.5 text-sauna-walnut" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-          </svg>
-        </div>
-        <div>
-          <span className="text-xs font-medium text-sauna-ink">Anonymous</span>
-          <span className="text-xs text-sauna-stone ml-1.5">sauna buyer</span>
-        </div>
-      </div>
-      <div className="pl-2 border-l-2 border-sauna-oak/20">
+      <div className="pl-2 border-l-2 border-sauna-oak/20 mb-3">
         <p className="text-sauna-slate text-sm leading-relaxed">&ldquo;{text}&rdquo;</p>
       </div>
+      <span className="text-xs text-sauna-stone italic">from real sauna buyers</span>
     </div>
   )
 }

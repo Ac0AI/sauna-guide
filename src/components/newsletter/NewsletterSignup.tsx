@@ -17,7 +17,7 @@ export function NewsletterSignup({
   source = 'newsletter'
 }: NewsletterSignupProps) {
   const isBuyingGuide = variant === 'buying-guide' || variant === 'buying-guide-hero'
-  const effectiveSource = isBuyingGuide ? 'buying-guide' : source
+  const effectiveSource = source !== 'newsletter' ? source : (isBuyingGuide ? 'buying-guide' : source)
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [message, setMessage] = useState('')

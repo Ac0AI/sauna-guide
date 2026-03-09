@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Welcome to Sauna Guide',
-  description: 'You\'re in. Check your inbox for your first letter.',
+  description: 'You\'re in. Your first email is on its way.',
   robots: 'noindex, nofollow',
 }
 
@@ -29,50 +29,47 @@ export default function WelcomePage() {
               You&apos;re in.
             </h1>
             <p className="text-xl text-sauna-slate">
-              Your first letter arrives Thursday.
+              Your first email is on its way.
             </p>
           </div>
 
-          {/* Guide Cards - Prominent */}
+          {/* What's Coming Cards */}
           <div className="grid md:grid-cols-3 gap-4 mb-10">
-            <Link
-              href="/guides/longevity-sauna-protocol"
-              className="group bg-sauna-paper p-5 rounded-xl border border-sauna-sand/30 hover:border-sauna-oak/50 hover:shadow-lg transition-all"
-            >
-              <div className="text-3xl mb-3">🔬</div>
-              <h3 className="font-medium text-sauna-ink mb-1 group-hover:text-sauna-bark transition-colors">
-                The Science of Heat
+            <div className="bg-sauna-paper p-5 rounded-xl border border-sauna-sand/30">
+              <div className="w-8 h-8 rounded-full bg-sauna-sand/20 flex items-center justify-center text-sauna-sand font-display font-medium mb-3 mx-auto">
+                1
+              </div>
+              <h3 className="font-medium text-sauna-ink mb-1">
+                What it actually costs
               </h3>
               <p className="text-sm text-sauna-slate">
-                How sauna builds longevity
+                The real numbers for every budget
               </p>
-            </Link>
+            </div>
 
-            <Link
-              href="/saunas"
-              className="group bg-sauna-paper p-5 rounded-xl border border-sauna-sand/30 hover:border-sauna-oak/50 hover:shadow-lg transition-all"
-            >
-              <div className="text-3xl mb-3">🗺️</div>
-              <h3 className="font-medium text-sauna-ink mb-1 group-hover:text-sauna-bark transition-colors">
-                Find a Sauna
+            <div className="bg-sauna-paper p-5 rounded-xl border border-sauna-sand/30">
+              <div className="w-8 h-8 rounded-full bg-sauna-sand/20 flex items-center justify-center text-sauna-sand font-display font-medium mb-3 mx-auto">
+                2
+              </div>
+              <h3 className="font-medium text-sauna-ink mb-1">
+                Which type fits your life
               </h3>
               <p className="text-sm text-sauna-slate">
-                40+ places worth the journey
+                Infrared vs traditional, indoor vs outdoor
               </p>
-            </Link>
+            </div>
 
-            <Link
-              href="/guides"
-              className="group bg-sauna-paper p-5 rounded-xl border border-sauna-sand/30 hover:border-sauna-oak/50 hover:shadow-lg transition-all"
-            >
-              <div className="text-3xl mb-3">📖</div>
-              <h3 className="font-medium text-sauna-ink mb-1 group-hover:text-sauna-bark transition-colors">
-                All Guides
+            <div className="bg-sauna-paper p-5 rounded-xl border border-sauna-sand/30">
+              <div className="w-8 h-8 rounded-full bg-sauna-sand/20 flex items-center justify-center text-sauna-sand font-display font-medium mb-3 mx-auto">
+                3
+              </div>
+              <h3 className="font-medium text-sauna-ink mb-1">
+                What everyone gets wrong
               </h3>
               <p className="text-sm text-sauna-slate">
-                Learn the practice
+                The 12 mistakes we see over and over
               </p>
-            </Link>
+            </div>
           </div>
 
           {/* Safelist - Compact */}
@@ -93,17 +90,35 @@ export default function WelcomePage() {
         </div>
       </section>
 
-      {/* Quote */}
+      {/* While You Wait */}
       <section className="py-12 md:py-16 bg-sauna-paper">
         <div className="max-w-2xl mx-auto px-6 text-center">
-          <blockquote className="font-display text-2xl md:text-3xl text-sauna-ink mb-4 italic">
-            &quot;In the sauna, one must conduct himself as one would in church.&quot;
-          </blockquote>
-          <cite className="text-sauna-slate not-italic">— Finnish proverb</cite>
+          <h2 className="font-display text-2xl md:text-3xl text-sauna-ink mb-6">
+            While you wait
+          </h2>
 
-          <p className="mt-10 text-sauna-slate">
-            See you Thursday.
-          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="/gear"
+              className="text-sauna-walnut hover:text-sauna-ink transition-colors font-medium"
+            >
+              Browse gear reviews →
+            </Link>
+            <span className="hidden sm:inline text-sauna-ash">·</span>
+            <Link
+              href="/guides"
+              className="text-sauna-walnut hover:text-sauna-ink transition-colors font-medium"
+            >
+              Read the guides →
+            </Link>
+            <span className="hidden sm:inline text-sauna-ash">·</span>
+            <Link
+              href="/saunas"
+              className="text-sauna-walnut hover:text-sauna-ink transition-colors font-medium"
+            >
+              Explore saunas →
+            </Link>
+          </div>
         </div>
       </section>
 

@@ -62,9 +62,9 @@ export default function GuidesIndexPage() {
         </div>
 
         <div className="mt-20 p-8 bg-sauna-linen rounded-2xl border border-sauna-ash/50 text-center">
-            <h3 className="font-display text-2xl font-medium text-sauna-ink mb-4">Never miss a protocol</h3>
-            <p className="text-sauna-slate mb-8">Every Thursday: why heat heals, where to find it, and five minutes of stillness.</p>
-            <NewsletterSignup variant="inline" />
+            <h3 className="font-display text-2xl font-medium text-sauna-ink mb-4">Want the full picture?</h3>
+            <p className="text-sauna-slate mb-8">Our free 3-part buying guide covers real costs, types, and the mistakes everyone makes. 5 min reads, zero sales pitch.</p>
+            <NewsletterSignup variant="buying-guide" source="guides-page" />
         </div>
       </main>
 

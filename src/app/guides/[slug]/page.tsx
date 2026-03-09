@@ -139,11 +139,14 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
            />
         </div>
 
-        <div className="mt-16 pt-10 border-t border-sauna-ash/50">
-             <h3 className="font-display text-2xl font-medium text-sauna-ink mb-6 text-center">
-                Get the briefing
+        <div className="mt-16 pt-10 border-t border-sauna-ash/50 text-center">
+             <h3 className="font-display text-2xl font-medium text-sauna-ink mb-3">
+                Thinking about a home sauna?
             </h3>
-            <NewsletterSignup variant="inline" />
+            <p className="text-sauna-slate mb-6">
+                Get our free 3-part guide. Real costs, real reviews, zero sales bias.
+            </p>
+            <NewsletterSignup variant="buying-guide" source="guide-article" />
         </div>
       </article>
 

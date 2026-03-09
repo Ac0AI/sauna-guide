@@ -5,6 +5,7 @@ import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
 import { getAllProducts, getProductBySlug, getRelatedProducts, getCategoryById } from '@/lib/gear'
 import { GearCard } from '@/components/listings/GearCard'
+import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 
 export async function generateStaticParams() {
   const products = getAllProducts()
@@ -359,17 +360,12 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
         {/* Newsletter CTA */}
         <section className="mt-16 bg-sauna-oak/10 p-8 md:p-12 rounded-2xl border border-sauna-oak/20 text-center">
           <h2 className="font-display text-2xl font-medium text-sauna-ink mb-4">
-            Weekly Sauna Protocols
+            Not sure which gear you need?
           </h2>
           <p className="text-sauna-walnut mb-6 max-w-xl mx-auto">
-            Every Thursday: why heat heals, where to find it, and five minutes of stillness.
+            Our free 3-part guide covers real costs, honest product picks, and the mistakes everyone makes.
           </p>
-          <Link
-            href="/#newsletter"
-            className="inline-block bg-sauna-ink text-white px-8 py-3 rounded-lg font-medium hover:bg-sauna-obsidian transition-colors"
-          >
-            Step Inside
-          </Link>
+          <NewsletterSignup variant="buying-guide" source="gear-product" />
         </section>
       </main>
 

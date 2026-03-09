@@ -5,14 +5,14 @@ import { Footer } from '@/components/layout/Footer'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 
 export const metadata: Metadata = {
-  title: 'Newsletter | Sauna Guide',
-  description: 'Every Thursday: why heat heals, where to find it, and five minutes of stillness.',
+  title: 'Free Home Sauna Buying Guide | Sauna Guide',
+  description: 'Three short emails. What it actually costs, which type fits your life, and the mistakes everyone makes. Independent. No BS.',
   alternates: {
     canonical: 'https://sauna.guide/newsletter',
   },
   openGraph: {
-    title: 'Newsletter | Sauna Guide',
-    description: 'Every Thursday: why heat heals, where to find it, and five minutes of stillness.',
+    title: 'Free Home Sauna Buying Guide | Sauna Guide',
+    description: 'Three short emails. What it actually costs, which type fits your life, and the mistakes everyone makes. Independent. No BS.',
     url: 'https://sauna.guide/newsletter',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
@@ -26,23 +26,23 @@ export default function NewsletterPage() {
       <section className="pt-32 pb-20 px-6 grow">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-sm uppercase tracking-widest text-sauna-walnut mb-4">
-            Weekly Letter
+            Free 3-Part Guide
           </p>
           <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-6 leading-tight">
-            Step inside.
+            The honest guide to getting a home sauna.
           </h1>
           <p className="text-lg text-sauna-slate mb-10">
-            Every Thursday: the science of heat, places worth the journey, and a few minutes of stillness.
+            Three short emails. What it actually costs, which type fits your life, and the mistakes everyone makes. Independent. No BS.
           </p>
 
           <NewsletterSignup
-            variant="inline"
+            variant="buying-guide"
             source="newsletter-page"
             className="mb-5"
           />
 
           <p className="text-sm text-sauna-slate">
-            Free forever. 5-minute read.
+            Free forever. 5-minute reads.
           </p>
 
           <div className="mt-10 text-sm">
@@ -57,4 +57,3 @@ export default function NewsletterPage() {
     </main>
   )
 }
-

@@ -214,13 +214,12 @@ export default async function BrandPage({ params }: Props) {
         {/* Newsletter CTA */}
         <section className="p-8 bg-linear-to-br from-sauna-charcoal to-sauna-ink rounded-2xl text-sauna-paper">
           <h3 className="font-display text-2xl font-medium mb-4">
-            Get Unbiased Sauna Guidance
+            Get the unbiased buying guide
           </h3>
           <p className="text-sauna-paper/70 mb-6 max-w-lg">
-            Every Thursday: honest reviews, buying advice, and the science of heat.
-            No brand partnerships influencing our recommendations.
+            Three short emails. Real costs, honest product picks, and the mistakes we see people make. Independent and free.
           </p>
-          <NewsletterSignup variant="minimal" className="max-w-md" />
+          <NewsletterSignup variant="buying-guide" source="brand-page" className="max-w-md" />
         </section>
       </main>
 
