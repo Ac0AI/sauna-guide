@@ -6,14 +6,14 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Home Sauna Buying Guide - Honest, Independent, Free | Sauna Guide',
-  description: 'Free 3-part email guide to buying your first home sauna. Real costs, real reviews, zero sales bias. We\'ve reviewed 73 products so you don\'t have to.',
+  title: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons | Sauna Guide',
+  description: 'Find the perfect home sauna with our honest, expert-tested buying guides. Compare infrared, barrel & traditional saunas. Unbiased reviews since 2025.',
   alternates: {
     canonical: 'https://sauna.guide',
   },
   openGraph: {
-    title: 'Home Sauna Buying Guide - Honest, Independent, Free | Sauna Guide',
-    description: 'Free 3-part email guide to buying your first home sauna. Real costs, real reviews, zero sales bias.',
+    title: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons | Sauna Guide',
+    description: 'Find the perfect home sauna with our honest, expert-tested buying guides. Compare infrared, barrel & traditional saunas. Unbiased reviews since 2025.',
     url: 'https://sauna.guide',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
@@ -128,7 +128,7 @@ export default function HomePage() {
             <GuideStep
               number={3}
               title="What everyone gets wrong (and what to buy)"
-              description="The 12 mistakes we see over and over in forums and Reddit threads. Plus honest product picks from the 73 heaters, kits, and saunas we've actually reviewed. Just what we'd tell a friend."
+              description="The 12 mistakes we see over and over in forums and Reddit threads. Plus honest product picks based on the heaters, kits, and saunas we've spent the most time comparing. Clear, practical, and buyer-first."
             />
           </div>
 
@@ -149,12 +149,12 @@ export default function HomePage() {
             <TrustCard
               icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>}
               title="No skin in the game"
-              body="We don't manufacture saunas. We're not backed by a sauna brand. When we say a $4,000 barrel sauna works better than a $12,000 custom build, it's because we actually tested both."
+              body="We don't manufacture saunas. We're not backed by a sauna brand. When we say a $4,000 barrel sauna may fit better than a $12,000 custom build, it's because we care more about fit, tradeoffs, and real-world use than price tags."
             />
             <TrustCard
               icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>}
               title="We did the homework"
-              body="24 in-depth guides. 73 products tested and reviewed. 46 saunas visited in person. We spent the hours so you don't have to."
+              body="In-depth guides, product comparisons, and real time spent studying how home sauna buyers get tripped up. We spent the hours so you don't have to."
             />
             <TrustCard
               icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" /></svg>}
@@ -183,11 +183,11 @@ export default function HomePage() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 md:gap-x-4 text-sauna-walnut text-sm font-medium mb-8">
-            <span>24 guides written</span>
+            <span>Independent</span>
             <span className="text-sauna-ash">·</span>
-            <span>73 products reviewed</span>
+            <span>Buyer-first</span>
             <span className="text-sauna-ash">·</span>
-            <span>46 saunas visited</span>
+            <span>No sales bias</span>
           </div>
 
           <p className="text-center text-lg text-sauna-slate">

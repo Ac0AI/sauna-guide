@@ -18,6 +18,12 @@ export const metadata: Metadata = {
     type: 'website',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Sauna Gear & Accessories 2026 | Reviews & Guide',
+    description: 'Discover top-rated sauna accessories, from authentic Finnish buckets and ladles to infrared blankets and cold plunges. Expert reviews, specs, and buying guide.',
+    images: ['/og-image.jpg'],
+  },
 }
 
 export default function GearPage() {

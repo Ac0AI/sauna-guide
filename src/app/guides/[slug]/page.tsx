@@ -1,12 +1,26 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getGuideBySlug, getAllGuides } from '@/lib/guides'
+import type { ComponentPropsWithoutRef } from 'react'
+import { formatGuideAuthorName, getGuideAuthorSchema, getGuideBySlug, getAllGuides } from '@/lib/guides'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
+
+function formatDisplayDate(value?: string) {
+  if (!value) return null
+
+  const parsed = new Date(value)
+  if (Number.isNaN(parsed.getTime())) return value
+
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  }).format(parsed)
+}
 
 // This generates static pages at build time
 export async function generateStaticParams() {
@@ -22,9 +36,15 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!guide) return { title: 'Guide Not Found' }
 
+  const authorName = formatGuideAuthorName(guide.meta.author)
+  const socialImage = guide.meta.image
+    ? [{ url: guide.meta.image }]
+    : [{ url: '/og-image.jpg', width: 1200, height: 630 }]
+
   return {
     title: guide.meta.title,
     description: guide.meta.description,
+    authors: [{ name: authorName }],
     alternates: {
       canonical: `https://sauna.guide/guides/${slug}`,
     },
@@ -33,9 +53,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: guide.meta.description,
       type: 'article',
       url: `https://sauna.guide/guides/${slug}`,
-      images: guide.meta.image ? [{ url: guide.meta.image }] : [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+      images: socialImage,
       publishedTime: guide.meta.date,
-      authors: guide.meta.author ? [guide.meta.author] : undefined,
+      modifiedTime: guide.meta.lastModified,
+      authors: [authorName],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: guide.meta.title,
+      description: guide.meta.description,
+      images: [guide.meta.image || '/og-image.jpg'],
     },
   }
 }
@@ -46,6 +73,11 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
   if (!guide) return notFound()
 
+  const authorName = formatGuideAuthorName(guide.meta.author)
+  const publishedDate = formatDisplayDate(guide.meta.date)
+  const updatedDate = formatDisplayDate(guide.meta.lastModified)
+  const showUpdatedDate = Boolean(updatedDate && updatedDate !== publishedDate)
+
   const articleJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -53,10 +85,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     description: guide.meta.description,
     image: guide.meta.image ? `https://sauna.guide${guide.meta.image}` : undefined,
     datePublished: guide.meta.date,
-    author: {
-      '@type': 'Person',
-      name: guide.meta.author || 'Sauna Guide',
-    },
+    dateModified: guide.meta.lastModified || guide.meta.date,
+    author: getGuideAuthorSchema(guide.meta.author),
     publisher: {
       '@type': 'Organization',
       name: 'Sauna Guide',
@@ -80,7 +110,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
 
   // Custom components for MDX
   const components = {
-    // You can add custom components here (e.g. Callout, Image, etc)
+    h1: (props: ComponentPropsWithoutRef<'h1'>) => <h2 {...props} />,
   }
 
   return (
@@ -98,9 +128,15 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         </nav>
         <header className="mb-10 text-center">
             <div className="flex items-center justify-center gap-2 text-sm text-sauna-walnut font-medium mb-4 uppercase tracking-wider">
-                <span>{guide.meta.date}</span>
+                <span>{publishedDate || guide.meta.date}</span>
+                {showUpdatedDate && (
+                  <>
+                    <span>•</span>
+                    <span>Updated {updatedDate}</span>
+                  </>
+                )}
                 <span>•</span>
-                <span>{guide.meta.author}</span>
+                <span>{authorName}</span>
             </div>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-sauna-ink mb-6 leading-tight">
                 {guide.meta.title}

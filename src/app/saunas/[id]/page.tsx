@@ -28,6 +28,9 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
   const pageUrl = `https://sauna.guide/saunas/${id}`
   const shortFeatures = sauna.features.slice(0, 3).join(', ')
+  const ogImage = sauna.images?.[0]
+    ? (sauna.images[0].startsWith('/') ? sauna.images[0] : `/images/saunas-photos/${sauna.images[0]}`)
+    : '/og-image.jpg'
 
   return {
     title: `${sauna.name} Review - Best Saunas in ${sauna.location.city}`,
@@ -47,7 +50,13 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       title: `${sauna.name} - ${sauna.location.city}, ${sauna.location.country}`,
       description: `Complete guide to ${sauna.name}. ${sauna.type} sauna in ${sauna.location.city}.`,
       url: pageUrl,
-      images: sauna.images?.[0] ? [{ url: sauna.images[0].startsWith('/') ? sauna.images[0] : `/images/saunas-photos/${sauna.images[0]}` }] : [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+      images: [{ url: ogImage, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${sauna.name} - ${sauna.location.city}, ${sauna.location.country}`,
+      description: `Complete guide to ${sauna.name}. ${sauna.type} sauna in ${sauna.location.city}.`,
+      images: [ogImage],
     },
   }
 }

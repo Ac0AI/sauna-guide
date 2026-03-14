@@ -51,6 +51,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url: pageUrl,
       images: [{ url: ogImage, width: 1200, height: 630 }],
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${product.name} - ${product.brand}`,
+      description: product.description,
+      images: [ogImage],
+    },
   }
 }
 

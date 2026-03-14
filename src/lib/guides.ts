@@ -12,11 +12,45 @@ export interface GuideMeta {
   author: string
   tags?: string[]
   image?: string
+  lastModified?: string
 }
 
 export interface GuidePost {
   meta: GuideMeta
   content: string // Raw content for serialization later or reading time calc
+}
+
+function getGuideLastModified(fullPath: string): string | undefined {
+  try {
+    return fs.statSync(fullPath).mtime.toISOString()
+  } catch {
+    return undefined
+  }
+}
+
+export function formatGuideAuthorName(author?: string) {
+  if (!author || /^Sauna Guide(?: Team)?$/i.test(author.trim())) {
+    return 'Sauna Guide Editorial Team'
+  }
+
+  return author.trim()
+}
+
+export function getGuideAuthorSchema(author?: string) {
+  const name = formatGuideAuthorName(author)
+  const isEditorialTeam = /Sauna Guide/i.test(name) || /Editorial Team/i.test(name)
+
+  if (isEditorialTeam) {
+    return {
+      '@type': 'Organization' as const,
+      name,
+    }
+  }
+
+  return {
+    '@type': 'Person' as const,
+    name,
+  }
 }
 
 export function getAllGuides(): GuideMeta[] {
@@ -33,6 +67,7 @@ export function getAllGuides(): GuideMeta[] {
       const fullPath = path.join(guidesDirectory, fileName)
       const fileContents = fs.readFileSync(fullPath, 'utf8')
       const { data } = matter(fileContents)
+      const lastModified = getGuideLastModified(fullPath)
 
       return {
         slug,
@@ -42,6 +77,7 @@ export function getAllGuides(): GuideMeta[] {
         author: data.author,
         tags: data.tags,
         image: data.image,
+        lastModified,
       } as GuideMeta
     })
 
@@ -58,11 +94,13 @@ export async function getGuideBySlug(slug: string) {
 
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
+  const lastModified = getGuideLastModified(fullPath)
   
   return {
     meta: {
       slug,
       ...data,
+      lastModified,
     } as GuideMeta,
     content,
   }

@@ -16,6 +16,12 @@ export const metadata = {
     url: 'https://sauna.guide/sauna-brands',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sauna Brands & Manufacturers | Find Your Perfect Sauna',
+    description: 'Explore the world\'s leading sauna manufacturers. From Finnish heritage brands like Harvia to innovative infrared makers like Sunlighten.',
+    images: ['/og-image.jpg'],
+  },
 }
 
 export default function SaunaBrandsPage() {

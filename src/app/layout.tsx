@@ -7,11 +7,11 @@ const baseUrl = 'https://sauna.guide'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Sauna Guide - Discover the Art of Heat & Wellness',
+    default: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons | Sauna Guide',
     template: '%s | Sauna Guide',
   },
-  description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols for longevity and performance.',
-  keywords: ['sauna', 'sauna guide', 'sauna directory', 'Finnish sauna', 'contrast therapy', 'cold plunge', 'wellness', 'heat therapy'],
+  description: 'Find the perfect home sauna with our honest, expert-tested buying guides. Compare infrared, barrel & traditional saunas. Unbiased reviews since 2025.',
+  keywords: ['home sauna', 'sauna buying guide', 'sauna reviews', 'home sauna cost', 'best home sauna 2026', 'sauna comparison', 'Finnish sauna', 'sauna guide'],
   alternates: {
     canonical: baseUrl,
   },
@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: baseUrl,
     siteName: 'Sauna Guide',
-    title: 'Sauna Guide - Discover the Art of Heat & Wellness',
-    description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols.',
+    title: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons | Sauna Guide',
+    description: 'Find the perfect home sauna with our honest, expert-tested buying guides. Compare infrared, barrel & traditional saunas. Unbiased reviews since 2025.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Sauna Guide - The Art of Heat & Wellness',
+        alt: 'Home Sauna Buying Guide 2026 - Honest Reviews & Comparisons',
       },
     ],
   },
@@ -68,11 +68,6 @@ const siteJsonLd = {
       url: baseUrl,
       name: 'Sauna Guide',
       publisher: { '@id': `${baseUrl}#organization` },
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: `${baseUrl}/guides?q={search_term_string}`,
-        'query-input': 'required name=search_term_string',
-      },
       inLanguage: 'en-US',
     },
   ],
