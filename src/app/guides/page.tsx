@@ -6,21 +6,21 @@ import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
 
 export const metadata = {
-  title: 'Sauna Protocols & Guides',
-  description: 'Evidence-based protocols, gear reviews, and deep dives into heat therapy culture. From contrast therapy to Finnish traditions.',
+  title: 'Sauna Guides: Safety, Protocols & Health Benefits',
+  description: 'Evidence-based sauna guides covering safety, contrast therapy, health benefits, and Finnish traditions. Free protocols for beginners and experienced users.',
   alternates: {
     canonical: 'https://sauna.guide/guides',
   },
   openGraph: {
-    title: 'Sauna Protocols & Guides | Sauna Guide',
-    description: 'Evidence-based protocols, gear reviews, and deep dives into heat therapy culture.',
+    title: 'Sauna Guides: Safety, Protocols & Health Benefits',
+    description: 'Evidence-based sauna guides covering safety, contrast therapy, health benefits, and Finnish traditions.',
     url: 'https://sauna.guide/guides',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sauna Protocols & Guides | Sauna Guide',
-    description: 'Evidence-based protocols, gear reviews, and deep dives into heat therapy culture.',
+    title: 'Sauna Guides: Safety, Protocols & Health Benefits',
+    description: 'Evidence-based sauna guides covering safety, contrast therapy, health benefits, and Finnish traditions.',
     images: ['/og-image.jpg'],
   },
 }

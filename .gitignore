@@ -43,6 +43,10 @@ Thumbs.db
 # Claude Code local settings (contains API keys)
 .claude/settings.local.json
 
+# Google Service Account keys
+google-service-account-key.json
+*-service-account*.json
+
 # Testing
 /coverage
 /test-results/

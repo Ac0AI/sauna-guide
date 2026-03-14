@@ -6,13 +6,13 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons | Sauna Guide',
+  title: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons',
   description: 'Find the perfect home sauna with our honest, expert-tested buying guides. Compare infrared, barrel & traditional saunas. Unbiased reviews since 2025.',
   alternates: {
     canonical: 'https://sauna.guide',
   },
   openGraph: {
-    title: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons | Sauna Guide',
+    title: 'Home Sauna Buying Guide 2026 | Honest Reviews & Comparisons',
     description: 'Find the perfect home sauna with our honest, expert-tested buying guides. Compare infrared, barrel & traditional saunas. Unbiased reviews since 2025.',
     url: 'https://sauna.guide',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],

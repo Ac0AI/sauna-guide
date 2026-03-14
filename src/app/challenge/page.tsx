@@ -6,14 +6,14 @@ import { CopyLinkButton } from '@/components/challenge/CopyLinkButton'
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'The 30-Day Sauna Reset | Guided Protocol',
-  description: 'Restore your baseline in 4 weeks. A guided sauna protocol to reduce stress, improve sleep, and build resilience.',
+  title: '30-Day Sauna Reset: A Guided Protocol for Beginners',
+  description: 'Reset your body in 4 weeks with this guided sauna protocol. Week-by-week plan to reduce stress, improve sleep, and build heat resilience. Free to follow.',
   alternates: {
     canonical: 'https://sauna.guide/challenge',
   },
   openGraph: {
-    title: 'The 30-Day Sauna Reset | Guided Protocol',
-    description: 'Restore your baseline in 4 weeks. A guided sauna protocol to reduce stress, improve sleep, and build resilience.',
+    title: '30-Day Sauna Reset: A Guided Protocol for Beginners',
+    description: 'Reset your body in 4 weeks with this guided sauna protocol. Week-by-week plan to reduce stress, improve sleep, and build heat resilience.',
     url: 'https://sauna.guide/challenge',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
