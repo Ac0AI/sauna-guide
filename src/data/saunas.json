@@ -95,7 +95,52 @@
       "images": [
         "/images/saunas-photos/the-well-oslo.jpg"
       ],
-      "rating": 4.9
+      "rating": 4.9,
+      "website": "https://thewell.no/en/",
+      "bookingUrl": "https://thewell.no/en/",
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "The largest spa in the Nordics, with a massive playground of 15 distinct themed saunas and world-class Aufguss rituals.",
+        "whatToExpect": "A luxurious spa experience with 10 unique pools, a cold plunge pool, and a range of invigorating sauna and Aufguss rituals.",
+        "whoItsFor": "Heat enthusiasts and those seeking a high-end wellness experience.",
+        "highlights": [
+          "15 Saunas",
+          "Japanese Onsen",
+          "Aufguss",
+          "Luxury"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://thewell.no/en/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:37.772Z"
+          },
+          {
+            "url": "https://thewell.no/en/conference-events/conference/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:37.773Z"
+          },
+          {
+            "url": "https://thewell.no/en/conference-events/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:37.773Z"
+          },
+          {
+            "url": "https://thewell.no/en/conference-events/bachelorette-party/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:37.773Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "id": "ribersborgs-kallbadhus",
@@ -116,7 +161,52 @@
       "images": [
         "/images/saunas-photos/ribersborgs-kallbadhus.jpg"
       ],
-      "rating": 4.7
+      "rating": 4.7,
+      "website": "https://www.ribersborgskallbadhus.se",
+      "bookingUrl": "https://www.ribersborgskallbadhus.se/cart",
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "admission": "€90 per visit, €750 for 10 visits, €1700 for 6 months, €3200 for 1 year",
+      "etiquette": {
+        "dresscode": "mixed",
+        "towelPolicy": "Sit on a towel, never directly on the bench"
+      },
+      "editorial": {
+        "whySpecial": "Iconic open-air bathhouse from 1898 with separate men's and women's sections, nude bathing, and direct ocean access.",
+        "whatToExpect": "Enjoy the warmth of the wood-burning saunas and the refreshing ocean swimming, with stunning views of the Malmö sunset.",
+        "highlights": [
+          "Ocean Swimming",
+          "Wood-Burning",
+          "Historic",
+          "Nude Bathing"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.ribersborgskallbadhus.se/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:59.584Z"
+          },
+          {
+            "url": "https://www.ribersborgskallbadhus.se/cart",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:59.584Z"
+          },
+          {
+            "url": "https://www.ribersborgskallbadhus.se/bad",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:59.584Z"
+          },
+          {
+            "url": "https://www.ribersborgskallbadhus.se/massage",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:18:59.584Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 51,
+        "status": "enriched"
+      }
     },
     {
       "id": "vabali-berlin",
@@ -214,7 +304,52 @@
       "images": [
         "/images/saunas-photos/therme-erding.jpg"
       ],
-      "rating": 4.9
+      "rating": 4.9,
+      "website": "https://www.therme-erding.de/en/",
+      "bookingUrl": "https://www.therme-erding.de/en/",
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "The world's largest thermal bath complex, with 27 saunas and various slides and attractions.",
+        "whatToExpect": "A textile-free sauna paradise with themes ranging from Roman to Russian, as well as a family-friendly thermal spa area with slides and a wave pool.",
+        "whoItsFor": "Sauna enthusiasts and families looking for a unique thermal spa experience.",
+        "highlights": [
+          "World's Largest",
+          "27 Saunas",
+          "Slides",
+          "Events"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.therme-erding.de/en/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:19:20.896Z"
+          },
+          {
+            "url": "https://www.therme-erding.de/en/therme-sauna/therme/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:19:20.896Z"
+          },
+          {
+            "url": "https://www.therme-erding.de/en/info/search/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:19:20.896Z"
+          },
+          {
+            "url": "https://www.therme-erding.de/en/therme-sauna/vital-oasis/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:19:20.896Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "id": "aqua-dome",
@@ -1219,7 +1354,37 @@
       "images": [
         "/images/saunas-photos/awana-spa.jpg"
       ],
-      "rating": 4.7
+      "rating": 4.7,
+      "website": "https://www.rwlasvegas.com/health-wellness/awana-spa/",
+      "bookingUrl": "https://www.rwlasvegas.com/health-wellness/awana-spa/",
+      "openingHours": "Sun-Sat 8:30-19:00",
+      "etiquette": {},
+      "editorial": {
+        "whySpecial": "Awana Spa is the first of its kind, complete with personalized treatments, immersive facilities and approachable wellness offerings. It draws upon the principles of the golden ratio with rounded rooms, curved walls and highly thought out designs to promote a transformative and holistic experience.",
+        "whatToExpect": "Guests can choose from a variety of treatments inspired by European and Eastern rituals with a unique social approach. A unique offering includes a Sauna-Meister-led journey that enhances your visit as they direct hot and scented steam towards you through the rhythmical movements of a towel.",
+        "highlights": [
+          "Sauna-Meister-led Aufguss experience",
+          "Personalized treatments inspired by European and Eastern rituals",
+          "Immersive facilities and holistic wellness offerings"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.rwlasvegas.com/health-wellness/awana-spa/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:19:31.954Z"
+          },
+          {
+            "url": "https://www.rwlasvegas.com/health-wellness/awana-spa/buyout-inquires/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:19:31.954Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 43,
+        "status": "enriched"
+      }
     },
     {
       "id": "banya-no-1-london",
@@ -1388,7 +1553,8 @@
       "images": [
         "/images/saunas-photos/haeckels-house.jpg"
       ],
-      "rating": 4.7
+      "rating": 4.7,
+      "website": "https://www.haeckels.house/"
     },
     {
       "id": "skyspa-quebec",
@@ -1435,16 +1601,16 @@
           {
             "url": "https://www.skyspa.ca/fr/quebec",
             "label": "Official website",
-            "fetchedAt": "2026-03-15T16:42:58.590Z"
+            "fetchedAt": "2026-03-15T18:19:59.044Z"
           },
           {
             "url": "https://www.google.com/maps/search/?api=1&query=SKYSPA%20Qu%C3%A9bec&query_place_id=ChIJffV1hjKRuEwRPtUI4AjLDeA",
             "label": "Google Places",
-            "fetchedAt": "2026-03-15T16:43:05.576Z"
+            "fetchedAt": "2026-03-15T18:20:15.589Z"
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 42,
+        "qualityScore": 53,
         "status": "enriched"
       }
     },
@@ -1842,7 +2008,48 @@
       "images": [
         "/images/saunas-photos/hellasgarden.jpg"
       ],
-      "rating": 4.4
+      "rating": 4.4,
+      "website": "https://hellasgarden.se/en/",
+      "bookingUrl": "https://hellasgarden.se/en/aktiviteter/tennis/",
+      "openingHours": "Every day 07.00-22.00 (when weather and sunshine hours allow)",
+      "etiquette": {},
+      "editorial": {
+        "whySpecial": "Located in a nature reserve just 15 mins from Stockholm city. The go-to place for a lake dip after sauna.",
+        "whatToExpect": "Hellasgården offers a variety of activities and facilities, including swimming, saunas, tennis, cycling, hiking, and more. It provides a balance between the comforts of the city and the tranquility of nature.",
+        "highlights": [
+          "Nature Reserve",
+          "Lake",
+          "Tennis courts",
+          "Sauna and cold bath"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://hellasgarden.se/en/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:20:37.469Z"
+          },
+          {
+            "url": "https://hellasgarden.se/en/aktiviteter/swimrun/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:20:37.469Z"
+          },
+          {
+            "url": "https://hellasgarden.se/en/aktiviteter/tennis/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:20:37.469Z"
+          },
+          {
+            "url": "https://hellasgarden.se/en/foretagsevent-stockholm/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:20:37.469Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 43,
+        "status": "enriched"
+      }
     },
     {
       "id": "yasuragi",
@@ -1863,7 +2070,54 @@
       "images": [
         "/images/saunas-photos/yasuragi.jpg"
       ],
-      "rating": 4.7
+      "rating": 4.7,
+      "website": "https://yasuragi.se/en/",
+      "bookingUrl": "https://yasuragi.se/en/",
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "textile"
+      },
+      "editorial": {
+        "whySpecial": "A massive Japanese ryokan-style spa in the Swedish archipelago, where everyone wears matching yukatas.",
+        "whatToExpect": "Relaxation in the Japanese bath, participation in beneficial activities, and exquisite meals inspired by Japanese cuisine in one of the three restaurants.",
+        "highlights": [
+          "Japanese",
+          "Yukata",
+          "Hot Springs",
+          "Architecture"
+        ],
+        "tips": [
+          "Take the boat from Strömkajen to Hasseludden's pier and enjoy the summer evening on the rooftop terrace."
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://yasuragi.se/en/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:00.386Z"
+          },
+          {
+            "url": "https://yasuragi.se/en/hotel",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:00.386Z"
+          },
+          {
+            "url": "https://yasuragi.se/en/rooms",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:00.386Z"
+          },
+          {
+            "url": "https://yasuragi.se/en/restaurant/rooftop-terrace",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:00.386Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 54,
+        "status": "enriched"
+      }
     },
     {
       "id": "copenhot",
@@ -2416,7 +2670,36 @@
       "images": [
         "/images/saunas-photos/skyspa-yokohama.webp"
       ],
-      "rating": 4.7
+      "rating": 4.7,
+      "website": "https://www.skyspa.co.jp/english/",
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "admission": "¥2,600 weekdays, ¥2,200+ weekends",
+      "etiquette": {
+        "dresscode": "mixed",
+        "sessionLength": "5 hours included, then ¥500/hr"
+      },
+      "editorial": {
+        "whySpecial": "Located on the 14th floor with stunning views of Yokohama Bay. A hub for modern Japanese sauna culture.",
+        "whatToExpect": "The spa offers a range of facilities including saunas, jacuzzis, and massage services. Guests can also use the coworking spaces.",
+        "highlights": [
+          "Skyline View",
+          "Aufguss",
+          "Coworking",
+          "Modern"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.skyspa.co.jp/english/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:09.906Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 48,
+        "status": "enriched"
+      }
     },
     {
       "id": "blue-lagoon",
@@ -2501,7 +2784,8 @@
       "name": "Secret Lagoon",
       "location": {
         "city": "Flúðir",
-        "country": "Iceland"
+        "country": "Iceland",
+        "address": "Hvammsvegur, 845 Flúðir, Iceland"
       },
       "type": "public",
       "features": [
@@ -2515,14 +2799,62 @@
       "images": [
         "/images/saunas-photos/secret-lagoon.webp"
       ],
-      "rating": 4.7
+      "rating": 4.7,
+      "website": "https://secretlagoon.is/",
+      "phone": "+354 553 3351, +354 853 3033",
+      "bookingUrl": "https://secretlagoon.is/booking/",
+      "openingHours": "Winter season: 1st of October to 31st of May, open daily 10:00 to 19:00 (closed 24th and 31st of December at 18:00); Summer season: 1st of June to 30th of September, open daily 10:00 to 20:00",
+      "admission": "Adults (15+): €35, Children (14-): €2, Seniors (67+) and people with disabilities: €26",
+      "etiquette": {
+        "dresscode": "textile",
+        "towelPolicy": "Towel rental available for purchase",
+        "sessionLength": "1.5-2 hours"
+      },
+      "editorial": {
+        "whySpecial": "The Secret Lagoon is the oldest swimming pool in Iceland, made in 1891, and features natural geothermal hot springs that provide the water supply.",
+        "whatToExpect": "A more authentic and less crowded alternative to the Blue Lagoon, with a relaxed atmosphere and the opportunity to see an active geyser.",
+        "highlights": [
+          "Oldest Pool",
+          "Geysir",
+          "Natural",
+          "Relaxed"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://secretlagoon.is/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:31.295Z"
+          },
+          {
+            "url": "https://secretlagoon.is/product/secret-lagoon-vouchers/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:31.295Z"
+          },
+          {
+            "url": "https://secretlagoon.is/booking/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:31.295Z"
+          },
+          {
+            "url": "https://secretlagoon.is/group-reservations/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:31.295Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 58,
+        "status": "enriched"
+      }
     },
     {
       "id": "iglu-park",
       "name": "Iglu Park",
       "location": {
         "city": "Tallinn",
-        "country": "Estonia"
+        "country": "Estonia",
+        "address": "Noblessner, Tallinn, Estonia"
       },
       "type": "public",
       "features": [
@@ -2536,7 +2868,54 @@
       "images": [
         "/images/saunas-photos/iglupark.jpg"
       ],
-      "rating": 4.8
+      "rating": 4.8,
+      "website": "https://iglupark.com/en/",
+      "phone": "+372 5678 2591",
+      "bookingUrl": "https://iglupark.com/en/",
+      "openingHours": "Mon-Fri 8:30-22:00, Sat-Sun 8:30-12:00",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed",
+        "towelPolicy": "Wear swimwear or a towel in the shared sauna"
+      },
+      "editorial": {
+        "whySpecial": "Iglupark is a unique concept that combines work, leisure, and health in a well-thought-out whole, offering the opportunity to take time for yourself by visiting the iguoffice, iglucabin, and iglusauna with stunning views of the Baltic Sea.",
+        "whatToExpect": "Visitors can enjoy the endless horizon, fresh air, comfortable terrace, and time for themselves, alone or with friends and loved ones. The iglusaunas offer a view of Tallinn Bay and have a spacious front room, private terrace, and access to a swimming area.",
+        "whoItsFor": "Iglupark is suitable for individuals, couples, and groups looking for a unique sauna experience with stunning sea views in Tallinn.",
+        "highlights": [
+          "Iglu Saunas",
+          "Sea Views",
+          "Design",
+          "Bar"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://iglupark.com/en/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:54.404Z"
+          },
+          {
+            "url": "https://iglupark.com/en/morning-sauna/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:54.404Z"
+          },
+          {
+            "url": "https://iglupark.com/en/iglusauna/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:54.404Z"
+          },
+          {
+            "url": "https://iglupark.com/en/iglucabin/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:21:54.404Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "kalma-saun",
@@ -2710,7 +3089,59 @@
       "images": [
         "/images/saunas-photos/peninsula-hot-springs.jpg"
       ],
-      "rating": 4.7
+      "rating": 4.7,
+      "website": "https://www.peninsulahotsprings.com/",
+      "bookingUrl": "https://www.peninsulahotsprings.com/",
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "admission": "€45-€80 weekdays, €95-€175 weekends",
+      "etiquette": {
+        "dresscode": "textile",
+        "towelPolicy": "Towel, robe and locker hire included",
+        "sessionLength": "Varies by package, up to 165 minutes"
+      },
+      "editorial": {
+        "whySpecial": "Award-winning natural geothermal mineral springs and day spa with over 70 bathing and wellness experiences, including a hilltop pool with 360-degree views.",
+        "whatToExpect": "Immerse yourself in nature as you journey through the geothermal bathing and wellness experiences. Relax in the Bath House or retreat to the adults-only Spa Dreaming Centre. Enjoy signature spa treatments and dining experiences.",
+        "whoItsFor": "Families, friends, couples, and first-time visitors looking for a rejuvenating spa experience in nature.",
+        "highlights": [
+          "Natural geothermal mineral springs",
+          "Hilltop pool with 360-degree views",
+          "Turkish Hamam",
+          "Over 70 bathing and wellness experiences"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.peninsulahotsprings.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:22:20.547Z"
+          },
+          {
+            "url": "https://www.peninsulahotsprings.com/bathe?hsLang=en-au",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:22:20.547Z"
+          },
+          {
+            "url": "https://www.peninsulahotsprings.com/bathe/bath-house?hsLang=en-au",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:22:20.547Z"
+          },
+          {
+            "url": "https://www.peninsulahotsprings.com/bathe/spa-dreaming-centre?hsLang=en-au",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:22:20.547Z"
+          },
+          {
+            "url": "https://www.peninsulahotsprings.com/bathe/private-bathing?hsLang=en-au",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:22:20.547Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     }
   ],
   "lastUpdated": "2024-12-19"

@@ -1,639 +1,16 @@
 {
-  "generatedAt": "2026-03-15T16:50:07.462Z",
+  "generatedAt": "2026-03-15T18:22:33.645Z",
   "reports": [
     {
       "label": "Sauna Pages",
       "totalItems": 46,
-      "avgScore": 54,
-      "publishReady": 31,
-      "needsWork": 14,
+      "avgScore": 66,
+      "publishReady": 38,
+      "needsWork": 4,
       "items": [
-        {
-          "id": "the-well-oslo",
-          "name": "The Well",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "ribersborgs-kallbadhus",
-          "name": "Ribersborgs Kallbadhus",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "therme-erding",
-          "name": "Therme Erding",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
         {
           "id": "archivolto",
           "name": "Archivolto",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "awana-spa",
-          "name": "Awana Spa",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "haeckels-house",
-          "name": "Haeckels House",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "hellasgarden",
-          "name": "Hellasgården",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "yasuragi",
-          "name": "Yasuragi",
           "score": 13,
           "missing": [
             {
@@ -899,9 +276,9 @@
           "earned": 12
         },
         {
-          "id": "skyspa-yokohama",
-          "name": "Skyspa Yokohama",
-          "score": 13,
+          "id": "haeckels-house",
+          "name": "Haeckels House",
+          "score": 16,
           "missing": [
             {
               "field": "editorial.whySpecial",
@@ -956,10 +333,6 @@
               "weight": 3
             },
             {
-              "field": "website",
-              "weight": 3
-            },
-            {
               "field": "editorial.tips",
               "weight": 3
             },
@@ -985,274 +358,7 @@
             }
           ],
           "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "secret-lagoon",
-          "name": "Secret Lagoon",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "iglu-park",
-          "name": "Iglu Park",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "peninsula-hot-springs",
-          "name": "Peninsula Hot Springs",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
+          "earned": 15
         },
         {
           "id": "skyspa-quebec",
@@ -1306,6 +412,222 @@
           ],
           "maxScore": 96,
           "earned": 51
+        },
+        {
+          "id": "awana-spa",
+          "name": "Awana Spa",
+          "score": 54,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.whoItsFor",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "admission",
+              "weight": 4
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "etiquette.dresscode",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 52
+        },
+        {
+          "id": "hellasgarden",
+          "name": "Hellasgården",
+          "score": 54,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.whoItsFor",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "admission",
+              "weight": 4
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "etiquette.dresscode",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 52
+        },
+        {
+          "id": "skyspa-yokohama",
+          "name": "Skyspa Yokohama",
+          "score": 59,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.whoItsFor",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "bookingUrl",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 57
+        },
+        {
+          "id": "ribersborgs-kallbadhus",
+          "name": "Ribersborgs Kallbadhus",
+          "score": 63,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.whoItsFor",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 60
         },
         {
           "id": "felsentherme-gastein",
@@ -1398,6 +720,51 @@
           "earned": 61
         },
         {
+          "id": "yasuragi",
+          "name": "Yasuragi",
+          "score": 66,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.whoItsFor",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 63
+        },
+        {
           "id": "hot-shop-oslo",
           "name": "Hot Shop",
           "score": 67,
@@ -1474,6 +841,96 @@
             {
               "field": "nearbyAlternatives",
               "weight": 3
+            }
+          ],
+          "maxScore": 96,
+          "earned": 65
+        },
+        {
+          "id": "the-well-oslo",
+          "name": "The Well",
+          "score": 68,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 65
+        },
+        {
+          "id": "therme-erding",
+          "name": "Therme Erding",
+          "score": 68,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
             }
           ],
           "maxScore": 96,
@@ -1642,6 +1099,92 @@
           ],
           "maxScore": 96,
           "earned": 65
+        },
+        {
+          "id": "peninsula-hot-springs",
+          "name": "Peninsula Hot Springs",
+          "score": 68,
+          "missing": [
+            {
+              "field": "location.address",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            },
+            {
+              "field": "phone",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 65
+        },
+        {
+          "id": "secret-lagoon",
+          "name": "Secret Lagoon",
+          "score": 70,
+          "missing": [
+            {
+              "field": "editorial.whoItsFor",
+              "weight": 5
+            },
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 67
         },
         {
           "id": "banya-no-1-london",
@@ -2216,6 +1759,43 @@
           "earned": 72
         },
         {
+          "id": "iglu-park",
+          "name": "Iglu Park",
+          "score": 75,
+          "missing": [
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
+            }
+          ],
+          "maxScore": 96,
+          "earned": 72
+        },
+        {
           "id": "qc-terme-milano",
           "name": "QC Termemilano",
           "score": 77,
@@ -2421,363 +2001,6 @@
           ],
           "maxScore": 96,
           "earned": 80
-        }
-      ]
-    },
-    {
-      "label": "Brand Pages",
-      "totalItems": 16,
-      "avgScore": 79,
-      "publishReady": 16,
-      "needsWork": 0,
-      "items": [
-        {
-          "id": "Narvi",
-          "name": "Narvi",
-          "score": 67,
-          "missing": [
-            {
-              "field": "priceTier",
-              "weight": 5
-            },
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            },
-            {
-              "field": "supportWarranty",
-              "weight": 3
-            }
-          ],
-          "maxScore": 63,
-          "earned": 42
-        },
-        {
-          "id": "Klafs",
-          "name": "Klafs",
-          "score": 68,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "keyModels",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            },
-            {
-              "field": "supportWarranty",
-              "weight": 3
-            }
-          ],
-          "maxScore": 63,
-          "earned": 43
-        },
-        {
-          "id": "Finnleo",
-          "name": "Finnleo",
-          "score": 73,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "keyModels",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 46
-        },
-        {
-          "id": "Polar Saunas",
-          "name": "Polar Saunas",
-          "score": 73,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "keyModels",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 46
-        },
-        {
-          "id": "Harvia",
-          "name": "Harvia",
-          "score": 75,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            },
-            {
-              "field": "supportWarranty",
-              "weight": 3
-            }
-          ],
-          "maxScore": 63,
-          "earned": 47
-        },
-        {
-          "id": "Kirami",
-          "name": "Kirami",
-          "score": 75,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            },
-            {
-              "field": "supportWarranty",
-              "weight": 3
-            }
-          ],
-          "maxScore": 63,
-          "earned": 47
-        },
-        {
-          "id": "Saunum",
-          "name": "Saunum",
-          "score": 75,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            },
-            {
-              "field": "supportWarranty",
-              "weight": 3
-            }
-          ],
-          "maxScore": 63,
-          "earned": 47
-        },
-        {
-          "id": "Durasage",
-          "name": "Durasage",
-          "score": 75,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            },
-            {
-              "field": "supportWarranty",
-              "weight": 3
-            }
-          ],
-          "maxScore": 63,
-          "earned": 47
-        },
-        {
-          "id": "Huum",
-          "name": "Huum",
-          "score": 79,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 50
-        },
-        {
-          "id": "Tylö",
-          "name": "Tylö",
-          "score": 79,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 50
-        },
-        {
-          "id": "Almost Heaven Saunas",
-          "name": "Almost Heaven Saunas",
-          "score": 79,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "cautionPoints",
-              "weight": 4
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 50
-        },
-        {
-          "id": "Sunlighten",
-          "name": "Sunlighten",
-          "score": 86,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 54
-        },
-        {
-          "id": "SaunaSpace",
-          "name": "SaunaSpace",
-          "score": 86,
-          "missing": [
-            {
-              "field": "weaknesses",
-              "weight": 5
-            },
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 54
-        },
-        {
-          "id": "Barrel Sauna Co",
-          "name": "Barrel Sauna Co",
-          "score": 89,
-          "missing": [
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            },
-            {
-              "field": "supportWarranty",
-              "weight": 3
-            }
-          ],
-          "maxScore": 63,
-          "earned": 56
-        },
-        {
-          "id": "Clearlight Saunas",
-          "name": "Clearlight Saunas",
-          "score": 94,
-          "missing": [
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 59
-        },
-        {
-          "id": "Health Mate",
-          "name": "Health Mate",
-          "score": 94,
-          "missing": [
-            {
-              "field": "mainAlternatives",
-              "weight": 4
-            }
-          ],
-          "maxScore": 63,
-          "earned": 59
         }
       ]
     }

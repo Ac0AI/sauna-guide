@@ -1,119 +1,29 @@
 {
-  "runAt": "2026-03-15T16:49:53.864Z",
+  "runAt": "2026-03-15T18:22:23.690Z",
   "log": [
     {
       "id": "the-well-oslo",
       "name": "The Well",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "ribersborgs-kallbadhus",
-      "name": "Ribersborgs Kallbadhus",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "vabali-berlin",
-      "name": "Vabali Spa Berlin",
       "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 72,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "therme-erding",
-      "name": "Therme Erding",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "aqua-dome",
-      "name": "Aqua Dome",
-      "status": "enriched",
-      "scoreBefore": 28,
-      "scoreAfter": 75,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "bathhouse-williamsburg",
-      "name": "Bathhouse Williamsburg",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 72,
-      "sourcesUsed": 2
-    },
-    {
-      "id": "community-sauna-london",
-      "name": "Community Sauna Baths",
-      "status": "enriched",
-      "scoreBefore": 30,
-      "scoreAfter": 75,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "mediterana-cologne",
-      "name": "Mediterana",
-      "status": "enriched",
-      "scoreBefore": 32,
+      "scoreBefore": 16,
       "scoreAfter": 68,
       "sourcesUsed": 4
     },
     {
-      "id": "satama-sauna",
-      "name": "SATAMA Sauna Resort",
+      "id": "ribersborgs-kallbadhus",
+      "name": "Ribersborgs Kallbadhus",
       "status": "enriched",
-      "scoreBefore": 28,
-      "scoreAfter": 72,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "kristall-therme-kochel",
-      "name": "Kristall Therme Kochel",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 72,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "liquidrom-berlin",
-      "name": "Liquidrom",
-      "status": "enriched",
-      "scoreBefore": 30,
-      "scoreAfter": 73,
+      "scoreBefore": 16,
+      "scoreAfter": 63,
       "sourcesUsed": 4
     },
     {
-      "id": "friedrichsbad",
-      "name": "Friedrichsbad",
+      "id": "therme-erding",
+      "name": "Therme Erding",
       "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 80,
-      "sourcesUsed": 6
-    },
-    {
-      "id": "felsentherme-gastein",
-      "name": "Felsentherme",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 64,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "7132-therme",
-      "name": "7132 Therme vals",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 64,
-      "sourcesUsed": 2
-    },
-    {
-      "id": "qc-terme-milano",
-      "name": "QC Termemilano",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 77,
-      "sourcesUsed": 5
+      "scoreBefore": 16,
+      "scoreAfter": 68,
+      "sourcesUsed": 4
     },
     {
       "id": "archivolto",
@@ -122,148 +32,42 @@
       "reason": "no_sources"
     },
     {
-      "id": "othership-toronto",
-      "name": "Othership",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 73,
-      "sourcesUsed": 3
-    },
-    {
-      "id": "scandinave-spa-whistler",
-      "name": "Scandinave Spa Whistler",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 79,
-      "sourcesUsed": 5
-    },
-    {
       "id": "awana-spa",
       "name": "Awana Spa",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "banya-no-1-london",
-      "name": "Banya No.1",
       "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 71,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "beach-box-brighton",
-      "name": "Beach Box Brighton",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 68,
-      "sourcesUsed": 4
+      "scoreBefore": 16,
+      "scoreAfter": 54,
+      "sourcesUsed": 2
     },
     {
       "id": "haeckels-house",
       "name": "Haeckels House",
-      "status": "skipped",
-      "reason": "no_sources"
+      "status": "llm_error",
+      "error": "Failed to parse LLM response as JSON: Unexpected token 'U', \"Unfortunat\"... is not valid JSON"
     },
     {
       "id": "skyspa-quebec",
       "name": "SkySpa",
       "status": "enriched",
-      "scoreBefore": 28,
+      "scoreBefore": 53,
       "scoreAfter": 53,
       "sourcesUsed": 2
     },
     {
-      "id": "nordik-spa-nature",
-      "name": "Nordik Spa-Nature",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 68,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "hot-shop-oslo",
-      "name": "Hot Shop",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 67,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "salt-oslo",
-      "name": "SALT",
-      "status": "enriched",
-      "scoreBefore": 30,
-      "scoreAfter": 78,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "koks-sauna",
-      "name": "KOK Oslo",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 71,
-      "sourcesUsed": 3
-    },
-    {
-      "id": "centralbadet",
-      "name": "Centralbadet",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 75,
-      "sourcesUsed": 5
-    },
-    {
       "id": "hellasgarden",
       "name": "Hellasgården",
-      "status": "skipped",
-      "reason": "no_sources"
+      "status": "enriched",
+      "scoreBefore": 16,
+      "scoreAfter": 54,
+      "sourcesUsed": 4
     },
     {
       "id": "yasuragi",
       "name": "Yasuragi",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "copenhot",
-      "name": "CopenHot",
       "status": "enriched",
-      "scoreBefore": 28,
-      "scoreAfter": 79,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "la-source-bains-nordiques",
-      "name": "La Source Bains Nordiques",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 75,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "h2o-adventure-spa",
-      "name": "H2O Adventure Spa",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 80,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "thermae-bath-spa",
-      "name": "Thermae Bath Spa",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 83,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "rudding-park",
-      "name": "Rudding Park Spa",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 75,
-      "sourcesUsed": 5
+      "scoreBefore": 16,
+      "scoreAfter": 66,
+      "sourcesUsed": 4
     },
     {
       "id": "sauna-dek",
@@ -278,60 +82,36 @@
       "reason": "no_sources"
     },
     {
-      "id": "sauna-shikiji",
-      "name": "Sauna Shikiji",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 72,
-      "sourcesUsed": 6
-    },
-    {
       "id": "skyspa-yokohama",
       "name": "Skyspa Yokohama",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "blue-lagoon",
-      "name": "Blue Lagoon",
       "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 75,
-      "sourcesUsed": 5
+      "scoreBefore": 16,
+      "scoreAfter": 59,
+      "sourcesUsed": 1
     },
     {
       "id": "secret-lagoon",
       "name": "Secret Lagoon",
-      "status": "skipped",
-      "reason": "no_sources"
+      "status": "enriched",
+      "scoreBefore": 16,
+      "scoreAfter": 70,
+      "sourcesUsed": 4
     },
     {
       "id": "iglu-park",
       "name": "Iglu Park",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "kalma-saun",
-      "name": "Kalma Saun",
       "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 72,
-      "sourcesUsed": 5
-    },
-    {
-      "id": "icebergs-pool",
-      "name": "Bondi Icebergs",
-      "status": "enriched",
-      "scoreBefore": 32,
-      "scoreAfter": 68,
-      "sourcesUsed": 5
+      "scoreBefore": 16,
+      "scoreAfter": 75,
+      "sourcesUsed": 4
     },
     {
       "id": "peninsula-hot-springs",
       "name": "Peninsula Hot Springs",
-      "status": "skipped",
-      "reason": "no_sources"
+      "status": "enriched",
+      "scoreBefore": 16,
+      "scoreAfter": 68,
+      "sourcesUsed": 5
     }
   ]
 }
