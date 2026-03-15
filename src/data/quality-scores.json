@@ -1,280 +1,13 @@
 {
-  "generatedAt": "2026-03-15T18:22:33.645Z",
+  "generatedAt": "2026-03-15T18:55:07.688Z",
   "reports": [
     {
       "label": "Sauna Pages",
-      "totalItems": 46,
-      "avgScore": 66,
-      "publishReady": 38,
-      "needsWork": 4,
+      "totalItems": 44,
+      "avgScore": 69,
+      "publishReady": 39,
+      "needsWork": 1,
       "items": [
-        {
-          "id": "archivolto",
-          "name": "Archivolto",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "sauna-dek",
-          "name": "Sauna Dek",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
-        {
-          "id": "zuiver",
-          "name": "Spa Zuiver",
-          "score": 13,
-          "missing": [
-            {
-              "field": "editorial.whySpecial",
-              "weight": 8
-            },
-            {
-              "field": "enrichment.sources",
-              "weight": 8
-            },
-            {
-              "field": "editorial.whatToExpect",
-              "weight": 6
-            },
-            {
-              "field": "location.address",
-              "weight": 5
-            },
-            {
-              "field": "editorial.whoItsFor",
-              "weight": 5
-            },
-            {
-              "field": "editorial.highlights",
-              "weight": 5
-            },
-            {
-              "field": "editorial.drawbacks",
-              "weight": 5
-            },
-            {
-              "field": "openingHours",
-              "weight": 4
-            },
-            {
-              "field": "admission",
-              "weight": 4
-            },
-            {
-              "field": "editorial.bestTimeToGo",
-              "weight": 4
-            },
-            {
-              "field": "editorial.whoShouldSkip",
-              "weight": 4
-            },
-            {
-              "field": "etiquette.dresscode",
-              "weight": 4
-            },
-            {
-              "field": "location.coordinates",
-              "weight": 3
-            },
-            {
-              "field": "website",
-              "weight": 3
-            },
-            {
-              "field": "editorial.tips",
-              "weight": 3
-            },
-            {
-              "field": "bookingUrl",
-              "weight": 3
-            },
-            {
-              "field": "enrichment.lastVerified",
-              "weight": 3
-            },
-            {
-              "field": "nearbyAlternatives",
-              "weight": 3
-            },
-            {
-              "field": "reviewCount",
-              "weight": 2
-            },
-            {
-              "field": "phone",
-              "weight": 2
-            }
-          ],
-          "maxScore": 96,
-          "earned": 12
-        },
         {
           "id": "haeckels-house",
           "name": "Haeckels House",
@@ -1720,6 +1453,43 @@
             {
               "field": "nearbyAlternatives",
               "weight": 3
+            }
+          ],
+          "maxScore": 96,
+          "earned": 72
+        },
+        {
+          "id": "zuiver",
+          "name": "Spa Zuiver",
+          "score": 75,
+          "missing": [
+            {
+              "field": "editorial.drawbacks",
+              "weight": 5
+            },
+            {
+              "field": "editorial.bestTimeToGo",
+              "weight": 4
+            },
+            {
+              "field": "editorial.whoShouldSkip",
+              "weight": 4
+            },
+            {
+              "field": "location.coordinates",
+              "weight": 3
+            },
+            {
+              "field": "editorial.tips",
+              "weight": 3
+            },
+            {
+              "field": "nearbyAlternatives",
+              "weight": 3
+            },
+            {
+              "field": "reviewCount",
+              "weight": 2
             }
           ],
           "maxScore": 96,

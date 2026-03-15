@@ -1165,27 +1165,6 @@
       }
     },
     {
-      "id": "archivolto",
-      "name": "Archivolto",
-      "location": {
-        "city": "New York",
-        "country": "USA"
-      },
-      "type": "spa",
-      "features": [
-        "Private Suites",
-        "Russian Banya",
-        "Plunge",
-        "Design"
-      ],
-      "priceRange": "$$$",
-      "description": "Bringing the Russian Banya tradition to a modern, design-forward setting in NYC.",
-      "images": [
-        "/images/saunas-photos/archivolto.jpg"
-      ],
-      "rating": 4.6
-    },
-    {
       "id": "othership-toronto",
       "name": "Othership",
       "location": {
@@ -2527,32 +2506,12 @@
       }
     },
     {
-      "id": "sauna-dek",
-      "name": "Sauna Dek",
-      "location": {
-        "city": "Antwerp",
-        "country": "Belgium"
-      },
-      "type": "public",
-      "features": [
-        "Urban",
-        "Design",
-        "Private Options",
-        "Modern"
-      ],
-      "priceRange": "$$",
-      "description": "A hidden gem in Antwerp offering a sleek, modern take on the traditional bathhouse.",
-      "images": [
-        "/images/saunas-photos/sauna-dek.webp"
-      ],
-      "rating": 4.5
-    },
-    {
       "id": "zuiver",
       "name": "Spa Zuiver",
       "location": {
         "city": "Amsterdam",
-        "country": "Netherlands"
+        "country": "Netherlands",
+        "address": "Amstelveenseweg, Amsterdam, Netherlands"
       },
       "type": "spa",
       "features": [
@@ -2566,7 +2525,52 @@
       "images": [
         "/images/saunas-photos/zuiver.jpg"
       ],
-      "rating": 4.6
+      "rating": 4.6,
+      "website": "https://zuiveramsterdam.nl/",
+      "phone": "020 30 10 700",
+      "bookingUrl": "https://zuiveramsterdam.nl/",
+      "openingHours": "Mon-Sun 24 hours",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "A massive wellness complex on the edge of the Amsterdam forest with high standards and textile-free days.",
+        "whatToExpect": "Relax in the sauna, heated pools, and serene relaxation areas. Enjoy daily rituals, soundjourneys, and professional treatments.",
+        "whoItsFor": "Anyone looking for a wellness retreat with a balance of relaxation and activity.",
+        "highlights": [
+          "Large complex with sauna, pools, and relaxation areas",
+          "Textile-free days",
+          "Located in the Amsterdam forest"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://zuiveramsterdam.nl/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:54:44.286Z"
+          },
+          {
+            "url": "https://zuiveramsterdam.nl/hotel/openingstijden-hotel/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:54:44.287Z"
+          },
+          {
+            "url": "https://zuiveramsterdam.nl/hotel/contact-hotel/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:54:44.287Z"
+          },
+          {
+            "url": "https://zuiveramsterdam.nl/hotel/route-hotel/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T18:54:44.287Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "sauna-shikiji",

@@ -1,117 +1,11 @@
 {
-  "runAt": "2026-03-15T18:22:23.690Z",
+  "runAt": "2026-03-15T18:55:02.747Z",
   "log": [
-    {
-      "id": "the-well-oslo",
-      "name": "The Well",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 68,
-      "sourcesUsed": 4
-    },
-    {
-      "id": "ribersborgs-kallbadhus",
-      "name": "Ribersborgs Kallbadhus",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 63,
-      "sourcesUsed": 4
-    },
-    {
-      "id": "therme-erding",
-      "name": "Therme Erding",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 68,
-      "sourcesUsed": 4
-    },
-    {
-      "id": "archivolto",
-      "name": "Archivolto",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "awana-spa",
-      "name": "Awana Spa",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 54,
-      "sourcesUsed": 2
-    },
     {
       "id": "haeckels-house",
       "name": "Haeckels House",
       "status": "llm_error",
       "error": "Failed to parse LLM response as JSON: Unexpected token 'U', \"Unfortunat\"... is not valid JSON"
-    },
-    {
-      "id": "skyspa-quebec",
-      "name": "SkySpa",
-      "status": "enriched",
-      "scoreBefore": 53,
-      "scoreAfter": 53,
-      "sourcesUsed": 2
-    },
-    {
-      "id": "hellasgarden",
-      "name": "Hellasgården",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 54,
-      "sourcesUsed": 4
-    },
-    {
-      "id": "yasuragi",
-      "name": "Yasuragi",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 66,
-      "sourcesUsed": 4
-    },
-    {
-      "id": "sauna-dek",
-      "name": "Sauna Dek",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "zuiver",
-      "name": "Spa Zuiver",
-      "status": "skipped",
-      "reason": "no_sources"
-    },
-    {
-      "id": "skyspa-yokohama",
-      "name": "Skyspa Yokohama",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 59,
-      "sourcesUsed": 1
-    },
-    {
-      "id": "secret-lagoon",
-      "name": "Secret Lagoon",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 70,
-      "sourcesUsed": 4
-    },
-    {
-      "id": "iglu-park",
-      "name": "Iglu Park",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 75,
-      "sourcesUsed": 4
-    },
-    {
-      "id": "peninsula-hot-springs",
-      "name": "Peninsula Hot Springs",
-      "status": "enriched",
-      "scoreBefore": 16,
-      "scoreAfter": 68,
-      "sourcesUsed": 5
     }
   ]
 }

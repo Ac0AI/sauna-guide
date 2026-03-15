@@ -63,14 +63,14 @@ function slugify(name: string): string {
 }
 
 export function getAllManufacturers(): Manufacturer[] {
-  return manufacturersData.manufacturers.map(m => {
-    const slug = slugify(m.name)
+  return (manufacturersData.manufacturers as Record<string, unknown>[]).map(m => {
+    const slug = slugify(m.name as string)
     return {
       ...m,
       slug,
       type: m.type as Manufacturer['type'],
       logo: brandLogos[slug],
-    }
+    } as Manufacturer
   })
 }
 
