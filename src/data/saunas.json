@@ -41,6 +41,16 @@
           "Smoke Sauna",
           "Baltic Sea",
           "Architecture"
+        ],
+        "bestTimeToGo": "The best time to visit Löyly is during the summer months when the weather is mild and the Baltic Sea is warm enough for swimming.",
+        "whoItsFor": "Löyly is ideal for anyone seeking a unique and authentic sauna experience in a stunning architectural setting, as well as those interested in Finnish sauna culture.",
+        "drawbacks": [
+          "The saunas can get quite crowded, especially on weekends and during peak hours.",
+          "The water in the Baltic Sea can be quite cold, even in the summer."
+        ],
+        "tips": [
+          "Arrive early to secure a spot in the saunas.",
+          "Bring a towel and swimsuit to fully enjoy the experience."
         ]
       },
       "enrichment": {
@@ -72,9 +82,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 90,
         "status": "enriched"
-      }
+      },
+      "admission": "Admission prices range from €15 to €25 per person, depending on the day and time of visit."
     },
     {
       "id": "the-well-oslo",
@@ -112,6 +123,17 @@
           "Japanese Onsen",
           "Aufguss",
           "Luxury"
+        ],
+        "bestTimeToGo": "The Well is open year-round, but the best time to visit may be during the colder winter months when the contrast between the hot saunas and the chilly outdoor environment is most invigorating.",
+        "drawbacks": [
+          "The Well can get quite crowded, especially on weekends and holidays.",
+          "Prices may be on the higher end for some visitors.",
+          "Navigating the large facility and finding your way around can be a bit overwhelming at first."
+        ],
+        "tips": [
+          "Arrive early to avoid crowds and secure your preferred sauna spots.",
+          "Bring a water bottle and stay hydrated throughout your visit.",
+          "Take advantage of the Aufguss rituals to get the most out of the sauna experience."
         ]
       },
       "enrichment": {
@@ -138,7 +160,7 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 80,
         "status": "enriched"
       }
     },
@@ -178,6 +200,17 @@
           "Wood-Burning",
           "Historic",
           "Nude Bathing"
+        ],
+        "bestTimeToGo": "Summer",
+        "whoItsFor": "Couples, families, and anyone looking for a unique and historic bathing experience",
+        "drawbacks": [
+          "Can get crowded during peak hours",
+          "Separate sections for men and women"
+        ],
+        "tips": [
+          "Bring your own towel and swimsuit",
+          "Arrive early to secure a spot",
+          "Bring cash for the entrance fee"
         ]
       },
       "enrichment": {
@@ -204,7 +237,7 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 51,
+        "qualityScore": 80,
         "status": "enriched"
       }
     },
@@ -321,6 +354,17 @@
           "27 Saunas",
           "Slides",
           "Events"
+        ],
+        "bestTimeToGo": "Summer and winter are both great times to visit, as the saunas and thermal pools are enjoyable year-round.",
+        "drawbacks": [
+          "Can get very crowded, especially on weekends and holidays",
+          "Some areas may feel overwhelming for those seeking a more relaxed experience",
+          "Entrance fees can be on the pricier side"
+        ],
+        "tips": [
+          "Arrive early to avoid crowds",
+          "Bring your own towels and bathrobe to save on rental costs",
+          "Consider visiting on a weekday for a more peaceful experience"
         ]
       },
       "enrichment": {
@@ -347,7 +391,7 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 80,
         "status": "enriched"
       }
     },
@@ -609,6 +653,18 @@
           "Thermal waters",
           "Luxury wellness experiences",
           "Gardens"
+        ],
+        "bestTimeToGo": "Spring and summer are the best times to visit Mediterana, when the gardens are in full bloom and the weather is mild.",
+        "whoItsFor": "Mediterana is ideal for couples, families, and groups seeking a luxurious and relaxing wellness retreat with a unique Moorish-inspired atmosphere.",
+        "drawbacks": [
+          "Mediterana can be quite expensive, especially for the high-end treatments and packages.",
+          "The facility can get quite crowded, especially on weekends and holidays.",
+          "The Moorish architecture and design may not appeal to everyone's tastes."
+        ],
+        "tips": [
+          "Book your visit in advance, especially during peak seasons.",
+          "Consider visiting on a weekday to avoid the crowds.",
+          "Take advantage of the various wellness activities and treatments offered, such as the sauna ceremonies and thermal water experiences."
         ]
       },
       "enrichment": {
@@ -635,9 +691,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 90,
         "status": "enriched"
-      }
+      },
+      "admission": "Admission prices range from €30 to €100 per person, depending on the package and services selected."
     },
     {
       "id": "satama-sauna",
@@ -983,7 +1040,9 @@
       "phone": "+43 6434 2223111",
       "reviewCount": 2796,
       "openingHours": "Monday: 9 AM to 9 PM, Tuesday: 9 AM to 9 PM, Wednesday: 9 AM to 9 PM, Thursday: 9 AM to 9 PM, Friday: 9 AM to 9 PM, Saturday: 9 AM to 9 PM, Sunday: 9 AM to 9 PM",
-      "etiquette": {},
+      "etiquette": {
+        "dresscode": "textile"
+      },
       "editorial": {
         "whySpecial": "Built directly into the rock face of the mountain. Swim in thermal water while looking at a natural waterfall.",
         "whatToExpect": "Felsentherme Bad Gastein is a spa located at 1,100 meters above sea level in the Salzburg spa town of Bad Gastein, surrounded by the majestic Hohe Tauern mountains. It features various thermal water and sauna experiences, including a panorama sauna with stunning mountain views.",
@@ -992,6 +1051,17 @@
           "Thermal Water",
           "Waterfall",
           "Alpine"
+        ],
+        "bestTimeToGo": "The best time to visit Felsentherme is during the winter months when the thermal waters and mountain views are particularly stunning.",
+        "whoItsFor": "Felsentherme is ideal for those seeking a relaxing spa experience in a unique natural setting, as well as families and couples looking for a rejuvenating getaway.",
+        "drawbacks": [
+          "The spa can get crowded during peak tourist seasons.",
+          "Parking may be limited, especially during busy times."
+        ],
+        "tips": [
+          "Arrive early to secure a spot in the panorama sauna.",
+          "Bring a robe and slippers for maximum comfort.",
+          "Consider purchasing a package deal to save money."
         ]
       },
       "enrichment": {
@@ -1023,9 +1093,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 52,
+        "qualityScore": 90,
         "status": "enriched"
-      }
+      },
+      "admission": "Admission prices range from €20 to €40 per person, depending on the package and services selected."
     },
     {
       "id": "7132-therme",
@@ -1057,7 +1128,9 @@
       "phone": "+41 58 713 20 00",
       "reviewCount": 273,
       "openingHours": "Monday: 11 AM to 6 PM, Tuesday: 11 AM to 6 PM, Wednesday: 11 AM to 8 PM, Thursday: 11 AM to 8 PM, Friday: 11 AM to 8 PM, Saturday: 11 AM to 8 PM, Sunday: 11 AM to 8 PM",
-      "etiquette": {},
+      "etiquette": {
+        "dresscode": "textile"
+      },
       "editorial": {
         "whySpecial": "Peter Zumthor's architectural masterpiece, made from 60,000 slabs of quartzite creating a mystical, cave-like atmosphere.",
         "whatToExpect": "A highly relaxing experience in the thermal baths with highly mineralized water at a pleasant 30°C.",
@@ -1066,6 +1139,17 @@
           "Quartzite",
           "Luxury",
           "Silence"
+        ],
+        "bestTimeToGo": "Spring and Fall",
+        "whoItsFor": "Architecture enthusiasts, spa lovers, and those seeking a serene, relaxing experience",
+        "drawbacks": [
+          "Can be crowded during peak tourist seasons",
+          "Expensive admission"
+        ],
+        "tips": [
+          "Arrive early to avoid crowds",
+          "Bring a robe and slippers",
+          "Consider booking a massage or treatment"
         ]
       },
       "enrichment": {
@@ -1082,9 +1166,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 52,
+        "qualityScore": 90,
         "status": "enriched"
-      }
+      },
+      "admission": "CHF 50-80 per person"
     },
     {
       "id": "qc-terme-milano",
@@ -1337,7 +1422,9 @@
       "website": "https://www.rwlasvegas.com/health-wellness/awana-spa/",
       "bookingUrl": "https://www.rwlasvegas.com/health-wellness/awana-spa/",
       "openingHours": "Sun-Sat 8:30-19:00",
-      "etiquette": {},
+      "etiquette": {
+        "dresscode": "mixed"
+      },
       "editorial": {
         "whySpecial": "Awana Spa is the first of its kind, complete with personalized treatments, immersive facilities and approachable wellness offerings. It draws upon the principles of the golden ratio with rounded rooms, curved walls and highly thought out designs to promote a transformative and holistic experience.",
         "whatToExpect": "Guests can choose from a variety of treatments inspired by European and Eastern rituals with a unique social approach. A unique offering includes a Sauna-Meister-led journey that enhances your visit as they direct hot and scented steam towards you through the rhythmical movements of a towel.",
@@ -1345,6 +1432,15 @@
           "Sauna-Meister-led Aufguss experience",
           "Personalized treatments inspired by European and Eastern rituals",
           "Immersive facilities and holistic wellness offerings"
+        ],
+        "whoItsFor": "Couples, groups, and individuals seeking a unique and immersive wellness experience",
+        "drawbacks": [
+          "Can be crowded during peak hours",
+          "Treatments can be expensive"
+        ],
+        "tips": [
+          "Arrive early to secure a spot in the sauna theater",
+          "Bring a swimsuit or robe for the treatments"
         ]
       },
       "enrichment": {
@@ -1361,9 +1457,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 43,
+        "qualityScore": 76,
         "status": "enriched"
-      }
+      },
+      "admission": "Treatments range from $100 to $500 per person"
     },
     {
       "id": "banya-no-1-london",
@@ -1407,6 +1504,14 @@
           "Parenie",
           "Vodka",
           "Food"
+        ],
+        "bestTimeToGo": "Any time of year, though the winter months may be particularly invigorating for the full Banya experience.",
+        "whoItsFor": "Banya No.1 is ideal for those seeking an authentic Russian bathing experience, wellness enthusiasts, and those looking to relax and unwind.",
+        "drawbacks": [
+          "The high heat may not be suitable for everyone, especially those with certain medical conditions."
+        ],
+        "tips": [
+          "Bring a towel and swimsuit, stay hydrated, and be prepared to sweat!"
         ]
       },
       "enrichment": {
@@ -1438,9 +1543,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 59,
+        "qualityScore": 93,
         "status": "enriched"
-      }
+      },
+      "admission": "£35-£50 per person"
     },
     {
       "id": "beach-box-brighton",
@@ -1483,6 +1589,18 @@
           "Horsebox Saunas",
           "Sea Dip",
           "Quirky"
+        ],
+        "bestTimeToGo": "Summer",
+        "whoItsFor": "Couples, families, and groups looking for a unique and relaxing beach experience",
+        "drawbacks": [
+          "Can get crowded during peak hours",
+          "Limited parking available nearby",
+          "Weather-dependent experience"
+        ],
+        "tips": [
+          "Arrive early to secure a spot",
+          "Bring towels, swimwear, and warm clothing for after the sauna",
+          "Check the tide schedule to plan your visit"
         ]
       },
       "enrichment": {
@@ -1509,9 +1627,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 90,
         "status": "enriched"
-      }
+      },
+      "admission": "£20-£30 per person"
     },
     {
       "id": "haeckels-house",
@@ -1533,7 +1652,45 @@
         "/images/saunas-photos/haeckels-house.jpg"
       ],
       "rating": 4.7,
-      "website": "https://www.haeckels.house/"
+      "website": "https://www.haeckels.house/",
+      "editorial": {
+        "whySpecial": "Haeckels House is a unique wellness venue that offers a spa and sauna experience inspired by the brand's commitment to sustainable and natural skincare. The venue's location by the sea in Margate, UK, adds to the tranquil and rejuvenating atmosphere.",
+        "whatToExpect": "Visitors can expect a holistic wellness experience, including access to saunas, cold plunge pools, and relaxation areas. The treatments and facilities are designed to promote relaxation, detoxification, and overall well-being.",
+        "bestTimeToGo": "The best time to visit Haeckels House is during the warmer months when the seaside location can be fully enjoyed.",
+        "whoItsFor": "Haeckels House is suitable for anyone seeking a relaxing and rejuvenating wellness experience, whether alone or with friends.",
+        "whoShouldSkip": "There are no specific groups that should skip Haeckels House, as it caters to a wide range of visitors.",
+        "highlights": [
+          "Sustainable and natural spa treatments",
+          "Saunas and cold plunge pools overlooking the sea",
+          "Relaxation areas for unwinding and recharging",
+          "Commitment to eco-friendly and ethical practices"
+        ],
+        "drawbacks": [
+          "Limited availability of appointments and treatments",
+          "Relatively high prices for the experience"
+        ],
+        "tips": [
+          "Book appointments well in advance to secure desired timeslots",
+          "Bring swimwear and towels for the sauna and plunge pool experience",
+          "Arrive early to fully enjoy the facilities and atmosphere"
+        ]
+      },
+      "etiquette": {
+        "dresscode": "textile"
+      },
+      "admission": "£50 - £100 per person",
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.haeckels.house/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T20:14:35.043Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 77,
+        "status": "enriched"
+      }
     },
     {
       "id": "skyspa-quebec",
@@ -1565,7 +1722,9 @@
       "phone": "+1 418-871-8111",
       "reviewCount": 1345,
       "openingHours": "",
-      "etiquette": {},
+      "etiquette": {
+        "dresscode": "mixed"
+      },
       "editorial": {
         "whySpecial": "Open-air thermal baths located on the rooftop of a skyscraper, offering unique urban views.",
         "highlights": [
@@ -1573,6 +1732,16 @@
           "Urban Views",
           "California Baths",
           "Social"
+        ],
+        "bestTimeToGo": "Year-round, with the rooftop baths being especially enjoyable in the warmer months",
+        "whoItsFor": "Couples, friends, and those looking for a unique urban spa experience",
+        "drawbacks": [
+          "Can get crowded during peak hours",
+          "Rooftop location may not be suitable for those with a fear of heights"
+        ],
+        "tips": [
+          "Arrive early to secure a spot in the baths",
+          "Bring a towel and robe for the transition between the baths and changing areas"
         ]
       },
       "enrichment": {
@@ -1589,9 +1758,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 53,
+        "qualityScore": 79,
         "status": "enriched"
-      }
+      },
+      "admission": "Varies, but generally in the range of $30-$50 CAD per person"
     },
     {
       "id": "nordik-spa-nature",
@@ -1635,6 +1805,18 @@
           "Salt Pool",
           "Banya",
           "Nature"
+        ],
+        "bestTimeToGo": "The spa is open year-round and offers a unique experience in every season, but the summer and fall months are particularly popular when guests can fully enjoy the outdoor facilities and nature surrounding the spa.",
+        "whoItsFor": "Nordik Spa-Nature is ideal for anyone seeking a relaxing and rejuvenating spa experience in a beautiful natural setting. It's particularly well-suited for couples, groups of friends, and those looking to disconnect and unwind.",
+        "drawbacks": [
+          "The spa can get quite crowded, especially on weekends and holidays.",
+          "Parking can be limited during peak times.",
+          "The admission price may be on the higher end for some visitors."
+        ],
+        "tips": [
+          "Arrive early to secure a parking spot and make the most of your visit.",
+          "Bring a robe, sandals, and swimsuit to maximize your comfort.",
+          "Consider visiting on a weekday to avoid the crowds."
         ]
       },
       "enrichment": {
@@ -1666,9 +1848,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 90,
         "status": "enriched"
-      }
+      },
+      "admission": "Admission prices range from $60 to $80 CAD for adults, depending on the day and package."
     },
     {
       "id": "hot-shop-oslo",
@@ -1701,7 +1884,9 @@
       "reviewCount": 247,
       "openingHours": "Monday: Closed, Tuesday: Closed, Wednesday: 6 to 10 PM, Thursday: 6 to 10 PM, Friday: 5 to 10 PM, Saturday: 5 to 10 PM, Sunday: Closed",
       "bookingUrl": "https://www.restauranthotshop.no/kontakt/",
-      "etiquette": {},
+      "etiquette": {
+        "dresscode": "mixed"
+      },
       "editorial": {
         "whySpecial": "One of Oslo's trendiest spots. A former sex shop turned into a sleek, industrial-chic neighborhood sauna.",
         "whatToExpect": "A modern, stylish sauna experience in a converted industrial space.",
@@ -1710,6 +1895,16 @@
           "Hipster",
           "Cold Plunge",
           "Bar"
+        ],
+        "bestTimeToGo": "Friday or Saturday evenings",
+        "whoItsFor": "Trendy, urban locals and tourists looking for a stylish sauna experience",
+        "drawbacks": [
+          "Can be crowded on weekends",
+          "Limited parking in the area"
+        ],
+        "tips": [
+          "Arrive early to secure a spot",
+          "Bring a towel and swimsuit"
         ]
       },
       "enrichment": {
@@ -1741,9 +1936,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 55,
+        "qualityScore": 93,
         "status": "enriched"
-      }
+      },
+      "admission": "30-50 NOK"
     },
     {
       "id": "salt-oslo",
@@ -1865,6 +2061,17 @@
           "Floating sauna boats",
           "Fjord cruises",
           "Private and shared sauna options"
+        ],
+        "bestTimeToGo": "Summer and early fall are the best times to visit, when the weather is mild and the fjords are at their most scenic.",
+        "whoItsFor": "KOK Oslo is ideal for visitors looking to combine sightseeing and relaxation, as well as those interested in unique and memorable sauna experiences.",
+        "drawbacks": [
+          "The boats can get crowded during peak hours",
+          "The weather can be unpredictable, which may affect the boat tours"
+        ],
+        "tips": [
+          "Book your tickets in advance to secure your preferred time slot",
+          "Bring a swimsuit and towel",
+          "Dress in layers to stay comfortable during the boat ride"
         ]
       },
       "enrichment": {
@@ -1886,9 +2093,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 59,
+        "qualityScore": 93,
         "status": "enriched"
-      }
+      },
+      "admission": "Prices range from 300-600 NOK per person, depending on the service chosen."
     },
     {
       "id": "centralbadet",
@@ -1991,7 +2199,9 @@
       "website": "https://hellasgarden.se/en/",
       "bookingUrl": "https://hellasgarden.se/en/aktiviteter/tennis/",
       "openingHours": "Every day 07.00-22.00 (when weather and sunshine hours allow)",
-      "etiquette": {},
+      "etiquette": {
+        "dresscode": "mixed"
+      },
       "editorial": {
         "whySpecial": "Located in a nature reserve just 15 mins from Stockholm city. The go-to place for a lake dip after sauna.",
         "whatToExpect": "Hellasgården offers a variety of activities and facilities, including swimming, saunas, tennis, cycling, hiking, and more. It provides a balance between the comforts of the city and the tranquility of nature.",
@@ -2000,6 +2210,15 @@
           "Lake",
           "Tennis courts",
           "Sauna and cold bath"
+        ],
+        "bestTimeToGo": "Summer",
+        "whoItsFor": "Families, nature lovers, outdoor enthusiasts",
+        "drawbacks": [
+          "Can get crowded on hot summer days"
+        ],
+        "tips": [
+          "Bring swimwear and towel",
+          "Arrive early to secure a spot"
         ]
       },
       "enrichment": {
@@ -2026,9 +2245,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 43,
+        "qualityScore": 80,
         "status": "enriched"
-      }
+      },
+      "admission": "Free entry, fees for some activities"
     },
     {
       "id": "yasuragi",
@@ -2068,6 +2288,14 @@
         ],
         "tips": [
           "Take the boat from Strömkajen to Hasseludden's pier and enjoy the summer evening on the rooftop terrace."
+        ],
+        "bestTimeToGo": "Spring and summer are the best times to visit, when the weather is mild and the surrounding nature is in full bloom.",
+        "whoItsFor": "Yasuragi is ideal for those seeking a relaxing and rejuvenating spa experience with a touch of Japanese culture. It's perfect for couples, families, and groups looking to unwind and immerse themselves in a unique atmosphere.",
+        "whoShouldSkip": "Those who are not interested in Japanese culture or prefer a more traditional European-style spa experience may not find Yasuragi as appealing.",
+        "drawbacks": [
+          "The location may be inconvenient for some, as it is situated in the Swedish archipelago, requiring a bit of travel to reach.",
+          "The prices at Yasuragi can be on the higher end, making it less accessible for budget-conscious travelers.",
+          "The Japanese-inspired design and atmosphere may not appeal to everyone, especially those who prefer a more modern or Western-style spa setting."
         ]
       },
       "enrichment": {
@@ -2094,7 +2322,7 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 54,
+        "qualityScore": 84,
         "status": "enriched"
       }
     },
@@ -2690,6 +2918,16 @@
           "Aufguss",
           "Coworking",
           "Modern"
+        ],
+        "bestTimeToGo": "The spa is open year-round, but the best time to visit may be during the warmer months when you can fully enjoy the stunning views of Yokohama Bay.",
+        "whoItsFor": "Skyspa Yokohama is ideal for those interested in modern Japanese sauna culture, as well as remote workers who can take advantage of the coworking spaces.",
+        "drawbacks": [
+          "The spa may be crowded during peak hours, especially on weekends.",
+          "Prices for some services may be on the higher end."
+        ],
+        "tips": [
+          "Arrive early to secure a spot in the saunas and enjoy the views during less crowded times.",
+          "Consider visiting on a weekday if possible to avoid the weekend crowds."
         ]
       },
       "enrichment": {
@@ -2701,7 +2939,7 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 48,
+        "qualityScore": 77,
         "status": "enriched"
       }
     },
@@ -2822,6 +3060,17 @@
           "Geysir",
           "Natural",
           "Relaxed"
+        ],
+        "bestTimeToGo": "The summer season from June to September is the best time to visit the Secret Lagoon, as the weather is milder and the pool is open for longer hours.",
+        "whoItsFor": "The Secret Lagoon is ideal for those seeking a more authentic and less crowded geothermal experience in Iceland, as well as for families and those interested in the country's history and natural wonders.",
+        "drawbacks": [
+          "The pool can get crowded during peak tourist seasons",
+          "The water temperature may be too hot for some visitors"
+        ],
+        "tips": [
+          "Bring a swimsuit, towel, and water shoes",
+          "Arrive early to avoid crowds",
+          "Check the geyser eruption schedule to time your visit"
         ]
       },
       "enrichment": {
@@ -2848,7 +3097,7 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 58,
+        "qualityScore": 88,
         "status": "enriched"
       }
     },
@@ -3039,6 +3288,18 @@
           "Sauna",
           "Iconic View",
           "Waves"
+        ],
+        "bestTimeToGo": "The best time to visit the Bondi Icebergs is during the summer months when the weather is warm and the ocean is at its most inviting.",
+        "whoItsFor": "The Bondi Icebergs is ideal for anyone who enjoys swimming, relaxing, and taking in stunning ocean views. It's a popular destination for both locals and tourists.",
+        "drawbacks": [
+          "The pool can get quite crowded during peak times, especially on weekends and holidays.",
+          "The water can be quite cold, even during the summer months.",
+          "The sauna may be small and crowded at times."
+        ],
+        "tips": [
+          "Arrive early in the morning or late in the afternoon to avoid the crowds.",
+          "Bring a towel and swimsuit, as well as some warm clothing for the sauna.",
+          "Consider visiting on a weekday if possible to avoid the busiest times."
         ]
       },
       "enrichment": {
@@ -3070,9 +3331,10 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 90,
         "status": "enriched"
-      }
+      },
+      "admission": "AUD $8 for adults, AUD $4 for children"
     },
     {
       "id": "peninsula-hot-springs",
@@ -3112,6 +3374,17 @@
           "Hilltop pool with 360-degree views",
           "Turkish Hamam",
           "Over 70 bathing and wellness experiences"
+        ],
+        "bestTimeToGo": "The best time to visit Peninsula Hot Springs is during the spring and autumn months when the weather is mild and comfortable.",
+        "drawbacks": [
+          "It can get quite crowded, especially on weekends and holidays.",
+          "The cost of admission and treatments can be on the higher side.",
+          "The facilities can feel a bit commercialized for some visitors seeking a more natural experience."
+        ],
+        "tips": [
+          "Arrive early to avoid crowds and secure a spot in the popular hilltop pool.",
+          "Bring a towel, swimsuit, and sandals to make the most of your visit.",
+          "Consider booking treatments or packages in advance to ensure availability."
         ]
       },
       "enrichment": {
@@ -3143,7 +3416,7 @@
           }
         ],
         "lastVerified": "2026-03-15",
-        "qualityScore": 56,
+        "qualityScore": 80,
         "status": "enriched"
       }
     }
