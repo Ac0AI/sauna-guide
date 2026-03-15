@@ -1,4 +1,5 @@
 import manufacturersData from '@/data/manufacturers.json'
+import type { EnrichmentMeta } from './types'
 
 export interface Manufacturer {
   name: string
@@ -21,6 +22,18 @@ export interface Manufacturer {
   partnership_status: string
   notes: string
   logo?: string
+
+  // Enriched fields
+  priceTier?: 'budget' | 'mid-range' | 'premium' | 'luxury'
+  bestFor?: string
+  cautionPoints?: string[]
+  strengths?: string[]
+  weaknesses?: string[]
+  mainAlternatives?: string[]
+  supportWarranty?: string
+  keyModels?: string[]
+  buyerVerdict?: string
+  enrichment?: EnrichmentMeta
 }
 
 const brandLogos: Record<string, string> = {

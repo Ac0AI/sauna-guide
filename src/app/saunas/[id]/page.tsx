@@ -212,59 +212,213 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
 
       <main className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-12 grow">
         {/* Main Content */}
-        <div className="lg:col-span-2">
-            <h2 className="text-2xl font-display text-sauna-ink mb-6">About this Sauna</h2>
-            <div className="prose prose-lg prose-stone text-sauna-slate leading-relaxed">
-                <p>{sauna.description}</p>
-                <p>
-                    Experience the unique atmosphere of {sauna.name}, a standout destination in {sauna.location.city}&apos;s wellness scene. 
-                    Whether you are a seasoned sauna enthusiast or a beginner, this location offers a curated heat experience 
-                    reflecting the local traditions of {sauna.location.country}.
-                </p>
-                <h3>What to expect</h3>
-                <ul>
-                    {sauna.features.map(feature => (
-                        <li key={feature}>{feature}</li>
+        <div className="lg:col-span-2 space-y-10">
+            {/* About / Why Special */}
+            <section>
+                <h2 className="text-2xl font-display text-sauna-ink mb-6">
+                    {sauna.editorial?.whySpecial ? 'What Makes It Special' : 'About this Sauna'}
+                </h2>
+                <div className="prose prose-lg prose-stone text-sauna-slate leading-relaxed">
+                    {sauna.editorial?.whySpecial && <p>{sauna.editorial.whySpecial}</p>}
+                    <p>{sauna.description}</p>
+                    {sauna.editorial?.whatToExpect && (
+                        <>
+                            <h3>What to Expect</h3>
+                            <p>{sauna.editorial.whatToExpect}</p>
+                        </>
+                    )}
+                </div>
+            </section>
+
+            {/* Highlights & Drawbacks */}
+            {(sauna.editorial?.highlights?.length || sauna.editorial?.drawbacks?.length) ? (
+                <section className="grid md:grid-cols-2 gap-6">
+                    {sauna.editorial?.highlights && sauna.editorial.highlights.length > 0 && (
+                        <div className="p-6 bg-emerald-50 rounded-xl border border-emerald-200">
+                            <h3 className="font-medium text-emerald-900 mb-3">Highlights</h3>
+                            <ul className="space-y-2">
+                                {sauna.editorial.highlights.map((h, i) => (
+                                    <li key={i} className="flex items-start gap-2 text-emerald-800 text-sm">
+                                        <span className="mt-0.5">+</span>{h}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+                    {sauna.editorial?.drawbacks && sauna.editorial.drawbacks.length > 0 && (
+                        <div className="p-6 bg-amber-50 rounded-xl border border-amber-200">
+                            <h3 className="font-medium text-amber-900 mb-3">Good to Know</h3>
+                            <ul className="space-y-2">
+                                {sauna.editorial.drawbacks.map((d, i) => (
+                                    <li key={i} className="flex items-start gap-2 text-amber-800 text-sm">
+                                        <span className="mt-0.5">-</span>{d}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+                </section>
+            ) : null}
+
+            {/* Practical Info */}
+            <section className="p-6 bg-sauna-linen rounded-xl border border-sauna-ash/30">
+                <h3 className="font-display text-xl font-medium text-sauna-ink mb-4">Practical Information</h3>
+                <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 text-sm">
+                    <div>
+                        <dt className="font-medium text-sauna-slate">Type</dt>
+                        <dd className="text-sauna-ink capitalize">{sauna.type}</dd>
+                    </div>
+                    <div>
+                        <dt className="font-medium text-sauna-slate">Location</dt>
+                        <dd className="text-sauna-ink">{sauna.location.city}, {sauna.location.country}</dd>
+                    </div>
+                    {sauna.admission && (
+                        <div>
+                            <dt className="font-medium text-sauna-slate">Admission</dt>
+                            <dd className="text-sauna-ink">{sauna.admission}</dd>
+                        </div>
+                    )}
+                    {sauna.openingHours && (
+                        <div>
+                            <dt className="font-medium text-sauna-slate">Opening Hours</dt>
+                            <dd className="text-sauna-ink">{sauna.openingHours}</dd>
+                        </div>
+                    )}
+                    {sauna.etiquette?.dresscode && (
+                        <div>
+                            <dt className="font-medium text-sauna-slate">Dress Code</dt>
+                            <dd className="text-sauna-ink capitalize">{sauna.etiquette.dresscode}</dd>
+                        </div>
+                    )}
+                    {sauna.etiquette?.towelPolicy && (
+                        <div>
+                            <dt className="font-medium text-sauna-slate">Towel Policy</dt>
+                            <dd className="text-sauna-ink">{sauna.etiquette.towelPolicy}</dd>
+                        </div>
+                    )}
+                    {sauna.rating && (
+                        <div>
+                            <dt className="font-medium text-sauna-slate">Rating</dt>
+                            <dd className="text-sauna-ink">{sauna.rating}/5{sauna.reviewCount ? ` (${sauna.reviewCount} reviews)` : ''}</dd>
+                        </div>
+                    )}
+                    {sauna.phone && (
+                        <div>
+                            <dt className="font-medium text-sauna-slate">Phone</dt>
+                            <dd className="text-sauna-ink">{sauna.phone}</dd>
+                        </div>
+                    )}
+                </dl>
+                <div className="flex flex-wrap gap-2 mt-4">
+                    {sauna.features.map(f => (
+                        <span key={f} className="px-3 py-1 rounded-full bg-sauna-paper text-sauna-ink text-sm border border-sauna-ash/30">
+                            {f}
+                        </span>
                     ))}
-                </ul>
-                <h3>Quick facts</h3>
-                <ul>
-                    <li><strong>Type:</strong> {sauna.type}</li>
-                    <li><strong>Location:</strong> {sauna.location.city}, {sauna.location.country}</li>
-                    {sauna.rating && <li><strong>Rating:</strong> {sauna.rating}/5</li>}
-                    <li><strong>Top features:</strong> {sauna.features.slice(0, 3).join(', ')}</li>
-                </ul>
-            </div>
+                </div>
+            </section>
+
+            {/* Who It's For */}
+            {(sauna.editorial?.whoItsFor || sauna.editorial?.whoShouldSkip) ? (
+                <section className="grid md:grid-cols-2 gap-6">
+                    {sauna.editorial?.whoItsFor && (
+                        <div className="p-6 bg-white rounded-xl border border-sauna-ash/30">
+                            <h3 className="font-medium text-sauna-ink mb-2">Best For</h3>
+                            <p className="text-sauna-slate text-sm">{sauna.editorial.whoItsFor}</p>
+                        </div>
+                    )}
+                    {sauna.editorial?.whoShouldSkip && (
+                        <div className="p-6 bg-white rounded-xl border border-sauna-ash/30">
+                            <h3 className="font-medium text-sauna-ink mb-2">Maybe Skip If</h3>
+                            <p className="text-sauna-slate text-sm">{sauna.editorial.whoShouldSkip}</p>
+                        </div>
+                    )}
+                </section>
+            ) : null}
+
+            {/* Tips */}
+            {sauna.editorial?.tips && sauna.editorial.tips.length > 0 && (
+                <section className="p-6 bg-blue-50 rounded-xl border border-blue-200">
+                    <h3 className="font-medium text-blue-900 mb-3">Insider Tips</h3>
+                    <ul className="space-y-2">
+                        {sauna.editorial.tips.map((tip, i) => (
+                            <li key={i} className="text-blue-800 text-sm">{tip}</li>
+                        ))}
+                    </ul>
+                </section>
+            )}
+
+            {/* Sources */}
+            {sauna.enrichment?.sources && sauna.enrichment.sources.length > 0 && (
+                <section className="text-xs text-sauna-slate/60 border-t border-sauna-ash/20 pt-4">
+                    <p className="font-medium mb-1">Sources &amp; verification</p>
+                    <ul className="space-y-0.5">
+                        {sauna.enrichment.sources.map((s, i) => (
+                            <li key={i}>
+                                <a href={s.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                    {s.label}
+                                </a>
+                                {s.fetchedAt && ` — verified ${s.fetchedAt.split('T')[0]}`}
+                            </li>
+                        ))}
+                    </ul>
+                    {sauna.enrichment.lastVerified && (
+                        <p className="mt-1">Last updated: {sauna.enrichment.lastVerified}</p>
+                    )}
+                </section>
+            )}
         </div>
 
         {/* Sidebar */}
         <div className="lg:col-span-1 space-y-8">
-            {/* Map Placeholder */}
+            {/* Location */}
             <div className="bg-sauna-linen p-6 rounded-xl border border-sauna-ash/50">
                 <h3 className="text-lg font-medium text-sauna-ink mb-4">Location</h3>
-                <div className="aspect-video bg-sauna-ash/10 rounded-lg mb-4 flex items-center justify-center">
-                    <svg className="w-8 h-8 text-sauna-oak/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                </div>
+                {sauna.location.coordinates ? (
+                    <div className="aspect-video rounded-lg mb-4 overflow-hidden bg-sauna-ash/10">
+                        <iframe
+                            src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || ''}&q=${sauna.location.coordinates.lat},${sauna.location.coordinates.lng}&zoom=15`}
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title={`Map of ${sauna.name}`}
+                        />
+                    </div>
+                ) : (
+                    <div className="aspect-video bg-sauna-ash/10 rounded-lg mb-4 flex items-center justify-center">
+                        <svg className="w-8 h-8 text-sauna-oak/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
+                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                )}
+                {sauna.location.address && (
+                    <p className="text-sauna-ink text-sm mb-1">{sauna.location.address}</p>
+                )}
                 <p className="text-sauna-ink font-medium">{sauna.location.city}</p>
                 <p className="text-sauna-slate text-sm">{sauna.location.country}</p>
-                {sauna.website && (
-                     <a 
-                        href={sauna.website} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="mt-4 block w-full py-3 bg-sauna-ink text-sauna-paper text-center rounded-lg font-medium hover:bg-sauna-charcoal transition-colors"
-                     >
-                        Visit Website
-                     </a>
-                )}
+                <div className="flex flex-col gap-2 mt-4">
+                    {sauna.website && (
+                        <a href={sauna.website} target="_blank" rel="noopener noreferrer"
+                            className="block w-full py-3 bg-sauna-ink text-sauna-paper text-center rounded-lg font-medium hover:bg-sauna-charcoal transition-colors">
+                            Visit Website
+                        </a>
+                    )}
+                    {sauna.bookingUrl && (
+                        <a href={sauna.bookingUrl} target="_blank" rel="noopener noreferrer"
+                            className="block w-full py-3 bg-sauna-oak text-sauna-paper text-center rounded-lg font-medium hover:bg-sauna-oak/90 transition-colors">
+                            Book Now
+                        </a>
+                    )}
+                </div>
             </div>
 
             {/* CTA */}
-             <div className="bg-sauna-oak/10 p-6 rounded-xl border border-sauna-oak/20">
+            <div className="bg-sauna-oak/10 p-6 rounded-xl border border-sauna-oak/20">
                 <h3 className="text-lg font-medium text-sauna-ink mb-2">Planning a home sauna?</h3>
                 <p className="text-sauna-walnut text-sm mb-4">
                     Free 3-part guide: costs, types, and what everyone gets wrong.

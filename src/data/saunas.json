@@ -3,507 +3,2713 @@
     {
       "id": "loyly-helsinki",
       "name": "Löyly Helsinki",
-      "location": { "city": "Helsinki", "country": "Finland" },
+      "location": {
+        "city": "Helsinki",
+        "country": "Finland",
+        "googlePlaceId": "ChIJ7WWs57ELkkYRJJRbVu2rgfo",
+        "coordinates": {
+          "lat": 60.1520656,
+          "lng": 24.9302737
+        },
+        "address": "Hernesaarenranta 4, 00150 Helsinki, Finland"
+      },
       "type": "public",
-      "features": ["Wood-Burning", "Smoke Sauna", "Baltic Sea", "Architecture"],
+      "features": [
+        "Wood-Burning",
+        "Smoke Sauna",
+        "Baltic Sea",
+        "Architecture"
+      ],
       "priceRange": "$$",
       "description": "An architectural masterpiece on the Helsinki waterfront. Löyly offers exceptional wood-burning and smoke saunas with direct access to the Baltic Sea.",
-      "images": ["/images/saunas-photos/loyly-helsinki.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/loyly-helsinki.jpg"
+      ],
+      "rating": 4.4,
+      "website": "http://www.loylyhelsinki.fi/",
+      "phone": "+358 9 61286550",
+      "reviewCount": 7434,
+      "openingHours": "Monday: 11 AM to 11 PM, Tuesday: 11 AM to 11 PM, Wednesday: 11 AM to 11 PM, Thursday: 11 AM to 11 PM, Friday: 11 AM to 12 AM, Saturday: 11 AM to 12 AM, Sunday: 11 AM to 10 PM",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "An architectural masterpiece on the Helsinki waterfront. Löyly offers exceptional wood-burning and smoke saunas with direct access to the Baltic Sea.",
+        "whatToExpect": "Löyly provides a unique sauna experience with its wood-burning and smoke saunas, as well as direct access to the Baltic Sea.",
+        "highlights": [
+          "Wood-Burning",
+          "Smoke Sauna",
+          "Baltic Sea",
+          "Architecture"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.loylyhelsinki.fi/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T15:05:27.272Z"
+          },
+          {
+            "url": "https://www.loylyhelsinki.fi/vastuullisuus",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T15:05:27.272Z"
+          },
+          {
+            "url": "https://www.loylyhelsinki.fi/selosteet/yksityisyys",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T15:05:27.272Z"
+          },
+          {
+            "url": "https://www.loylyhelsinki.fi/uutiskirje",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T15:05:27.272Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=L%C3%B6yly%20Helsinki&query_place_id=ChIJ7WWs57ELkkYRJJRbVu2rgfo",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T15:05:37.156Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "id": "the-well-oslo",
       "name": "The Well",
-      "location": { "city": "Oslo", "country": "Norway" },
+      "location": {
+        "city": "Oslo",
+        "country": "Norway"
+      },
       "type": "spa",
-      "features": ["15 Saunas", "Japanese Onsen", "Aufguss", "Luxury"],
+      "features": [
+        "15 Saunas",
+        "Japanese Onsen",
+        "Aufguss",
+        "Luxury"
+      ],
       "priceRange": "$$$",
       "description": "The largest spa in the Nordics. A massive playground for heat enthusiasts with distinct themed saunas and world-class Aufguss rituals.",
-      "images": ["/images/saunas-photos/the-well-oslo.jpg"],
+      "images": [
+        "/images/saunas-photos/the-well-oslo.jpg"
+      ],
       "rating": 4.9
     },
     {
       "id": "ribersborgs-kallbadhus",
       "name": "Ribersborgs Kallbadhus",
-      "location": { "city": "Malmö", "country": "Sweden" },
+      "location": {
+        "city": "Malmö",
+        "country": "Sweden"
+      },
       "type": "public",
-      "features": ["Ocean Swimming", "Wood-Burning", "Historic", "Nude Bathing"],
+      "features": [
+        "Ocean Swimming",
+        "Wood-Burning",
+        "Historic",
+        "Nude Bathing"
+      ],
       "priceRange": "$",
       "description": "Iconic open-air bathhouse from 1898. Separate men's and women's sections with nude bathing and direct ocean access.",
-      "images": ["/images/saunas-photos/ribersborgs-kallbadhus.jpg"],
+      "images": [
+        "/images/saunas-photos/ribersborgs-kallbadhus.jpg"
+      ],
       "rating": 4.7
     },
     {
       "id": "vabali-berlin",
       "name": "Vabali Spa Berlin",
-      "location": { "city": "Berlin", "country": "Germany" },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "googlePlaceId": "ChIJjfrdZphRqEcRT6O7Rn8rVLI",
+        "coordinates": {
+          "lat": 52.5286101,
+          "lng": 13.3595874
+        },
+        "address": "Seydlitzstraße 6, 10557 Berlin, Germany"
+      },
       "type": "spa",
-      "features": ["Balinese Village", "Textile-Free", "Silence", "Urban Oasis"],
+      "features": [
+        "Balinese Village",
+        "Textile-Free",
+        "Silence",
+        "Urban Oasis"
+      ],
       "priceRange": "$$",
       "description": "A Balinese-style wellness resort in central Berlin. Textile-free paradise with vast grounds and numerous saunas.",
-      "images": ["/images/saunas-photos/vabali-berlin.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/vabali-berlin.jpg"
+      ],
+      "rating": 4.5,
+      "website": "https://www.vabali.de/berlin/",
+      "phone": "+49 30 9114860",
+      "reviewCount": 14221,
+      "openingHours": "Monday: 8 AM to 12 AM, Tuesday: 8 AM to 12 AM, Wednesday: 8 AM to 12 AM, Thursday: 8 AM to 12 AM, Friday: 8 AM to 12 AM, Saturday: 8 AM to 12 AM, Sunday: 8 AM to 12 AM",
+      "admission": "€27.50 weekdays, €29.50 weekends",
+      "etiquette": {
+        "dresscode": "nude"
+      },
+      "editorial": {
+        "whySpecial": "A Balinese-style wellness resort in central Berlin, offering a textile-free paradise with vast grounds and numerous saunas.",
+        "whatToExpect": "Guests can enjoy Indonesian-inspired ambiance in the expansive wellness area with 13 saunas and steam baths, various pools and relaxation areas, a large sauna garden, rest rooms, and sun decks.",
+        "highlights": [
+          "Balinese Village",
+          "Textile-Free",
+          "Silence",
+          "Urban Oasis"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.vabali.de/berlin/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.551Z"
+          },
+          {
+            "url": "https://www.vabali.de/berlin/reservierung/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.552Z"
+          },
+          {
+            "url": "https://www.vabali.de/berlin/massage-reservierung/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.552Z"
+          },
+          {
+            "url": "https://www.vabali.de/berlin/gutscheinshop/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.552Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Vabali&query_place_id=ChIJjfrdZphRqEcRT6O7Rn8rVLI",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:32:50.565Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 60,
+        "status": "enriched"
+      }
     },
     {
       "id": "therme-erding",
       "name": "Therme Erding",
-      "location": { "city": "Erding", "country": "Germany" },
+      "location": {
+        "city": "Erding",
+        "country": "Germany"
+      },
       "type": "spa",
-      "features": ["World's Largest", "27 Saunas", "Slides", "Events"],
+      "features": [
+        "World's Largest",
+        "27 Saunas",
+        "Slides",
+        "Events"
+      ],
       "priceRange": "$$$",
       "description": "The world's largest thermal bath complex. The sauna area is a textile-free paradise with themes ranging from Roman to Russian.",
-      "images": ["/images/saunas-photos/therme-erding.jpg"],
+      "images": [
+        "/images/saunas-photos/therme-erding.jpg"
+      ],
       "rating": 4.9
     },
     {
       "id": "aqua-dome",
       "name": "Aqua Dome",
-      "location": { "city": "Längenfeld", "country": "Austria" },
+      "location": {
+        "city": "Längenfeld",
+        "country": "Austria",
+        "googlePlaceId": "ChIJf2dehHcvnUcRnEmBuNnDVg4",
+        "coordinates": {
+          "lat": 47.0696684,
+          "lng": 10.9647169
+        },
+        "address": "Oberlängenfeld 140, 6444 Oberlängenfeld, Austria"
+      },
       "type": "spa",
-      "features": ["Floating Pools", "Alpine Views", "Thermal Water", "Futuristic"],
+      "features": [
+        "Floating Pools",
+        "Alpine Views",
+        "Thermal Water",
+        "Futuristic"
+      ],
       "priceRange": "$$$",
       "description": "Famous for its three levitating bowl-shaped pools suspended in the air with panoramic views of the Ötztal Alps.",
-      "images": ["/images/saunas-photos/aqua-dome.jpg"],
-      "rating": 4.9
+      "images": [
+        "/images/saunas-photos/aqua-dome.jpg"
+      ],
+      "rating": 4.4,
+      "website": "https://www.aqua-dome.at/#gbp",
+      "phone": "+43 5253 6400",
+      "reviewCount": 12895,
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "bookingUrl": "https://www.aqua-dome.at/#gbp",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "Famous for its three levitating bowl-shaped pools suspended in the air with panoramic views of the Ötztal Alps.",
+        "whatToExpect": "The Aqua Dome offers a premium wellness and spa experience, with soothing massages, baths, beauty treatments, and panoramic saunas in a cozy, alpine setting.",
+        "highlights": [
+          "Floating Pools",
+          "Alpine Views",
+          "Thermal Water",
+          "Futuristic"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.aqua-dome.at/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:11.528Z"
+          },
+          {
+            "url": "https://www.aqua-dome.at/en/offers/zero-gravity/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:11.528Z"
+          },
+          {
+            "url": "https://www.aqua-dome.at/en/offers/back-in-balance/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:11.528Z"
+          },
+          {
+            "url": "https://www.aqua-dome.at/en/offers/wednesday-at-the-thermal-baths/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:11.528Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Aqua%20Dome&query_place_id=ChIJf2dehHcvnUcRnEmBuNnDVg4",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:34:59.321Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "bathhouse-williamsburg",
       "name": "Bathhouse Williamsburg",
-      "location": { "city": "New York", "country": "USA" },
+      "location": {
+        "city": "New York",
+        "country": "USA",
+        "googlePlaceId": "ChIJBTF_ACxZwokRk8y1ICME3F4",
+        "coordinates": {
+          "lat": 40.7205873,
+          "lng": -73.9575054
+        },
+        "address": "103 N 10th St, Brooklyn, NY 11249"
+      },
       "type": "spa",
-      "features": ["Urban", "Cryotherapy", "Social", "Design"],
+      "features": [
+        "Urban",
+        "Cryotherapy",
+        "Social",
+        "Design"
+      ],
       "priceRange": "$$$",
       "description": "A former soda factory turned high-performance bathhouse. Features starlight saunas and cold plunges for the modern biohacker.",
-      "images": ["/images/saunas-photos/bathhouse-williamsburg.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/bathhouse-williamsburg.jpg"
+      ],
+      "rating": 4.3,
+      "website": "https://www.abathhouse.com/williamsburg?utm_source=google&utm_medium=organic&utm_campaign=gbp-website-williamsburg",
+      "phone": "(929) 489-2284",
+      "reviewCount": 3701,
+      "openingHours": "Monday: 7 AM to 11 PM, Tuesday: 7 AM to 11 PM, Wednesday: 7 AM to 11 PM, Thursday: 7 AM to 11 PM, Friday: 7 AM to 12 AM, Saturday: 9 AM to 12 AM, Sunday: 9 AM to 11 PM",
+      "admission": "Day pass starts at $39, prices vary by day and time",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "A former soda factory turned high-performance bathhouse featuring starlight saunas and cold plunges for the modern biohacker.",
+        "whatToExpect": "Bathhouse Williamsburg features eight thermal pools, an event sauna, a rooftop pool, a banya, dry sauna, tropical sauna, and a starlight steam room. Visitors can also enjoy massages, body scrubs, and a rooftop pool bar.",
+        "highlights": [
+          "8 thermal pools",
+          "Guided sauna sessions",
+          "Rooftop pool",
+          "Massages and body scrubs"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.abathhouse.com/williamsburg?utm_source=google&utm_medium=organic&utm_campaign=gbp-website-williamsburg",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:35:09.927Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Bathhouse%20Williamsburg&query_place_id=ChIJBTF_ACxZwokRk8y1ICME3F4",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:35:18.239Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 60,
+        "status": "enriched"
+      }
     },
     {
       "id": "community-sauna-london",
       "name": "Community Sauna Baths",
-      "location": { "city": "London", "country": "UK" },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "googlePlaceId": "ChIJwXJhTIYddkgRAQNwF1vtOdY",
+        "coordinates": {
+          "lat": 51.5471462,
+          "lng": -0.029312
+        },
+        "address": "The Bath House, The Baths 80, 80 Eastway, London E9 5JH, United Kingdom"
+      },
       "type": "public",
-      "features": ["Wood-Fired", "Community", "Affordable", "Authentic"],
+      "features": [
+        "Wood-Fired",
+        "Community",
+        "Affordable",
+        "Authentic"
+      ],
       "priceRange": "$",
       "description": "A pioneer in the UK's Sauna Renaissance in Hackney Wick. Authentic, wood-fired, and community-focused.",
-      "images": ["/images/saunas-photos/community-sauna-london.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/community-sauna-london.jpg"
+      ],
+      "rating": 4.8,
+      "website": "http://www.community-sauna.co.uk/",
+      "reviewCount": 655,
+      "openingHours": "Monday: 6 to 9:30 PM, Tuesday: 2 to 9:30 PM, Wednesday: 7 AM to 9:30 PM, Thursday: 7 AM to 9:30 PM, Friday: 7 AM to 9:30 PM, Saturday: 7 AM to 9:30 PM, Sunday: 7 AM to 9:30 PM",
+      "admission": "£5 off-peak, £10.50 peak for Stratford locals",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "A pioneer in the UK's Sauna Renaissance in Hackney Wick, offering authentic, wood-fired, and community-focused saunas.",
+        "whatToExpect": "Community-focused sauna experience with saunas, cold plunges, change areas, showers, and garden areas for resting and community. Hosts a variety of events like Aufguss, storytelling, sound baths, and more.",
+        "whoItsFor": "The sauna is designed to serve the whole community, with a focus on affordability, inclusivity, and accessibility.",
+        "highlights": [
+          "Wood-Fired",
+          "Community",
+          "Affordable",
+          "Authentic"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.community-sauna.co.uk/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:35:43.134Z"
+          },
+          {
+            "url": "https://www.community-sauna.co.uk/info",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:35:43.134Z"
+          },
+          {
+            "url": "https://www.community-sauna.co.uk/lunar-lodge",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:35:43.134Z"
+          },
+          {
+            "url": "https://www.community-sauna.co.uk/contact-1",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:35:43.134Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Community%20Sauna%20Baths%20-%20Hackney%20Wick&query_place_id=ChIJwXJhTIYddkgRAQNwF1vtOdY",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:35:51.491Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "mediterana-cologne",
       "name": "Mediterana",
-      "location": { "city": "Bergisch Gladbach", "country": "Germany" },
+      "location": {
+        "city": "Bergisch Gladbach",
+        "country": "Germany",
+        "googlePlaceId": "ChIJrUfZPIvXvkcRsXfqP3XpbqI",
+        "coordinates": {
+          "lat": 50.9649948,
+          "lng": 7.1365385
+        },
+        "address": "Saaler Mühle 1, 51429 Bergisch Gladbach, Germany"
+      },
       "type": "spa",
-      "features": ["Moorish Style", "Thermal Water", "Luxury", "Gardens"],
+      "features": [
+        "Moorish Style",
+        "Thermal Water",
+        "Luxury",
+        "Gardens"
+      ],
       "priceRange": "$$$",
       "description": "A piece of Marrakech in Germany. Stunning Moorish architecture and high-end sauna ceremonies.",
-      "images": ["/images/saunas-photos/mediterana.jpg"],
-      "rating": 4.7
+      "images": [
+        "/images/saunas-photos/mediterana.jpg"
+      ],
+      "rating": 4.3,
+      "website": "https://www.mediterana.de/",
+      "phone": "+49 2204 2020",
+      "reviewCount": 9354,
+      "openingHours": "Monday: 10 AM to 10:30 PM, Tuesday: 10 AM to 10:30 PM, Wednesday: 10 AM to 10:30 PM, Thursday: 10 AM to 10:30 PM, Friday: 10 AM to 12 AM, Saturday: 10 AM to 12 AM, Sunday: 10 AM to 10:30 PM",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "Mediterana is a unique wellness retreat with stunning Moorish architecture and high-end sauna ceremonies, offering a piece of Marrakech in Germany.",
+        "whatToExpect": "Visitors can expect a luxurious and relaxing experience, with access to thermal waters, saunas, and a range of signature treatments and wellness activities.",
+        "highlights": [
+          "Moorish-style architecture",
+          "Thermal waters",
+          "Luxury wellness experiences",
+          "Gardens"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.mediterana.de/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:12.106Z"
+          },
+          {
+            "url": "https://www.mediterana.de/hinweisgeberschutzgesetz",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:12.106Z"
+          },
+          {
+            "url": "https://www.mediterana.de/barrierefreiheit",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:12.106Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Mediterana&query_place_id=ChIJrUfZPIvXvkcRsXfqP3XpbqI",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:36:19.046Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "id": "satama-sauna",
       "name": "SATAMA Sauna Resort",
-      "location": { "city": "Wendisch Rietz", "country": "Germany" },
+      "location": {
+        "city": "Wendisch Rietz",
+        "country": "Germany",
+        "googlePlaceId": "ChIJQ6PWk62KB0cRJ2yp3DJgZSc",
+        "coordinates": {
+          "lat": 52.21502,
+          "lng": 14.01027
+        },
+        "address": "Strandstraße 12, 15864 Wendisch Rietz, Germany"
+      },
       "type": "spa",
-      "features": ["Lakeside", "Theater Sauna", "Show Aufguss", "Nature"],
+      "features": [
+        "Lakeside",
+        "Theater Sauna",
+        "Show Aufguss",
+        "Nature"
+      ],
       "priceRange": "$$",
       "description": "Famous for its massive 'Theater Sauna' where world-class Aufguss masters perform elaborate shows.",
-      "images": ["/images/saunas-photos/satama-sauna.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/satama-sauna.jpg"
+      ],
+      "rating": 4.4,
+      "website": "https://www.satama-saunapark.de/",
+      "phone": "+49 33679 7589900",
+      "reviewCount": 2673,
+      "openingHours": "Mon-Fri 10-22, Sat-Sun 8-22",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "Famous for its massive 'Theater Sauna' where world-class Aufguss masters perform elaborate shows.",
+        "whatToExpect": "SATAMA is more than just a sauna, offering a variety of experiences like cocktails at the theater bar, light cuisine, and relaxing rituals in the Banja. Guests can also enjoy massages, a library, and the beautiful lakeside setting.",
+        "highlights": [
+          "Lakeside location",
+          "Theater Sauna",
+          "Show Aufguss",
+          "Nature"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.satama-saunapark.de/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:39.187Z"
+          },
+          {
+            "url": "https://www.satama-saunapark.de/events/calendar/satamas-hollywood-meets-sauna-2026",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:39.187Z"
+          },
+          {
+            "url": "https://www.satama-saunapark.de/sauna-resort",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:39.187Z"
+          },
+          {
+            "url": "https://www.satama-saunapark.de/downloads/aufgussplan",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:39.187Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=SATAMA%20SAUNA%20RESORT%20%26%20SPA&query_place_id=ChIJQ6PWk62KB0cRJ2yp3DJgZSc",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:36:46.679Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 60,
+        "status": "enriched"
+      }
     },
     {
       "id": "kristall-therme-kochel",
       "name": "Kristall Therme Kochel",
-      "location": { "city": "Kochel am See", "country": "Germany" },
+      "location": {
+        "city": "Kochel am See",
+        "country": "Germany",
+        "googlePlaceId": "ChIJPQggcmCjnUcRg6Q701REf0s",
+        "coordinates": {
+          "lat": 47.6559476,
+          "lng": 11.3542863
+        },
+        "address": "Seeweg 2, 82431 Kochel am See, Germany"
+      },
       "type": "spa",
-      "features": ["Lake Views", "Alpine", "Textile-Free", "Relaxed"],
+      "features": [
+        "Lake Views",
+        "Alpine",
+        "Textile-Free",
+        "Relaxed"
+      ],
       "priceRange": "$$",
       "description": "Offers stunning views of Lake Kochelsee and the Alps directly from the sauna benches.",
-      "images": ["/images/saunas-photos/kristall-therme-kochel.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/kristall-therme-kochel.jpg"
+      ],
+      "rating": 4.3,
+      "website": "http://www.kristall-trimini.de/",
+      "phone": "+49 8851 5300",
+      "reviewCount": 5582,
+      "openingHours": "Monday: 10 AM to 10 PM, Tuesday: 10 AM to 10 PM, Wednesday: 10 AM to 10 PM, Thursday: 10 AM to 10 PM, Friday: 10 AM to 11 PM, Saturday: 9 AM to 11 PM, Sunday: 9 AM to 10 PM",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "Offers stunning views of Lake Kochelsee and the Alps directly from the sauna benches.",
+        "whatToExpect": "A relaxing spa experience with a variety of saunas, pools, and amenities like a restaurant and bar.",
+        "highlights": [
+          "Lake Views",
+          "Alpine",
+          "Textile-Free",
+          "Relaxed"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.kristall-trimini.de/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:08.398Z"
+          },
+          {
+            "url": "https://kristall-trimini.de/kontakt-anfahrt",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:08.398Z"
+          },
+          {
+            "url": "https://kristall-trimini.de/therme/vital-freizeitbad/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:08.398Z"
+          },
+          {
+            "url": "https://kristall-trimini.de/therme/schwimmkurse/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:08.398Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Kristall%20Therme%20trimini%20Kochel%20am%20See&query_place_id=ChIJPQggcmCjnUcRg6Q701REf0s",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:37:14.789Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 60,
+        "status": "enriched"
+      }
     },
     {
       "id": "liquidrom-berlin",
       "name": "Liquidrom",
-      "location": { "city": "Berlin", "country": "Germany" },
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "googlePlaceId": "ChIJM60oqdJRqEcRy8_3DSb5_JI",
+        "coordinates": {
+          "lat": 52.5015803,
+          "lng": 13.3811599
+        },
+        "address": "Möckernstraße 10, 10963 Berlin, Germany"
+      },
       "type": "spa",
-      "features": ["Underwater Music", "Salt Water", "Dark Aesthetic", "Urban"],
+      "features": [
+        "Underwater Music",
+        "Salt Water",
+        "Dark Aesthetic",
+        "Urban"
+      ],
       "priceRange": "$$",
       "description": "Known for its saltwater floating pool with underwater techno/classical music and dim, atmospheric lighting.",
-      "images": ["/images/saunas-photos/liquidrom-berlin.jpg"],
-      "rating": 4.5
+      "images": [
+        "/images/saunas-photos/liquidrom-berlin.jpg"
+      ],
+      "rating": 4,
+      "website": "https://www.liquidrom-berlin.de/",
+      "reviewCount": 4546,
+      "openingHours": "Monday: 9 AM to 12 AM, Tuesday: 9 AM to 12 AM, Wednesday: 9 AM to 12 AM, Thursday: 9 AM to 12 AM, Friday: 9 AM to 1 AM, Saturday: 9 AM to 1 AM, Sunday: 9 AM to 12 AM",
+      "bookingUrl": "https://www.liquidrom-berlin.de/de/umbuchen.php",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed",
+        "towelPolicy": "Towels and bathrobes can be rented"
+      },
+      "editorial": {
+        "whySpecial": "Known for its saltwater floating pool with underwater techno/classical music and dim, atmospheric lighting.",
+        "whatToExpect": "A unique urban spa lounge with a 36°C saltwater pool, underwater music, and a relaxing atmosphere.",
+        "highlights": [
+          "Saltwater pool with underwater music",
+          "Outdoor hot spring pool",
+          "Minimalist saunas"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.liquidrom-berlin.de/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:35.674Z"
+          },
+          {
+            "url": "https://www.liquidrom-berlin.de/de/faq.php",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:35.674Z"
+          },
+          {
+            "url": "https://www.liquidrom-berlin.de/de/umbuchen.php",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:35.674Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Liquidrom&query_place_id=ChIJM60oqdJRqEcRy8_3DSb5_JI",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:37:42.196Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 61,
+        "status": "enriched"
+      }
     },
     {
       "id": "friedrichsbad",
       "name": "Friedrichsbad",
-      "location": { "city": "Baden-Baden", "country": "Germany" },
+      "location": {
+        "city": "Baden-Baden",
+        "country": "Germany",
+        "googlePlaceId": "ChIJkS-PNUEfl0cRrGzALrZ1qUI",
+        "coordinates": {
+          "lat": 48.7629938,
+          "lng": 8.2420786
+        },
+        "address": "Römerpl. 1, 76530 Baden-Baden, Germany"
+      },
       "type": "public",
-      "features": ["Historic", "Roman-Irish", "No Phones", "Tradition"],
+      "features": [
+        "Historic",
+        "Roman-Irish",
+        "No Phones",
+        "Tradition"
+      ],
       "priceRange": "$$",
       "description": "A temple of bathing culture since 1877. A strict 17-step ritual in a stunning historic building.",
-      "images": ["/images/saunas-photos/friedrichsbad.jpg"],
-      "rating": 4.7
+      "images": [
+        "/images/saunas-photos/friedrichsbad.jpg"
+      ],
+      "rating": 4.2,
+      "website": "http://www.friedrichsbad.eu/",
+      "phone": "+49 7221 275920",
+      "reviewCount": 1740,
+      "openingHours": "Monday: 9 AM to 10 PM, Tuesday: 9 AM to 10 PM, Wednesday: 9 AM to 10 PM, Thursday: 9 AM to 10 PM, Friday: 9 AM to 10 PM, Saturday: 9 AM to 10 PM, Sunday: 9 AM to 10 PM",
+      "admission": "€38 including bathrobe, towels, shampoo, and tea",
+      "etiquette": {
+        "dresscode": "mixed",
+        "towelPolicy": "Towels provided",
+        "sessionLength": "No time limit, recommended 3 hours"
+      },
+      "editorial": {
+        "whySpecial": "A historic Roman-Irish bathing complex in a stunning building, part of the UNESCO-listed Great Spa Towns of Europe.",
+        "whatToExpect": "A strict 17-step bathing ritual in a grand, traditional setting.",
+        "whoItsFor": "Those interested in historic bathing culture and traditions",
+        "highlights": [
+          "Historic building",
+          "Roman-Irish bathing ritual",
+          "Tradition and culture"
+        ],
+        "tips": [
+          "Arrive early to experience the full ritual",
+          "Bring your own bathrobe if you prefer"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.friedrichsbad.eu/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:11.103Z"
+          },
+          {
+            "url": "https://friedrichsbad.eu/oeffnungszeiten-and-preise/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:11.103Z"
+          },
+          {
+            "url": "https://friedrichsbad.eu/anreise-and-parken/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:11.103Z"
+          },
+          {
+            "url": "https://friedrichsbad.eu/kontakt-2/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:11.103Z"
+          },
+          {
+            "url": "https://friedrichsbad.eu/vip-chip-2/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:11.103Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Friedrichsbad%20Baden-Baden&query_place_id=ChIJkS-PNUEfl0cRrGzALrZ1qUI",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:38:29.505Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 69,
+        "status": "enriched"
+      }
     },
     {
       "id": "felsentherme-gastein",
       "name": "Felsentherme",
-      "location": { "city": "Bad Gastein", "country": "Austria" },
+      "location": {
+        "city": "Bad Gastein",
+        "country": "Austria",
+        "googlePlaceId": "ChIJqR2qru4wd0cRHX1jiQBZ44s",
+        "coordinates": {
+          "lat": 47.1112861,
+          "lng": 13.1330347
+        },
+        "address": "Bahnhofpl. 5, 5640 Bad Gastein, Austria"
+      },
       "type": "spa",
-      "features": ["Built in Rock", "Thermal Water", "Waterfall", "Alpine"],
+      "features": [
+        "Built in Rock",
+        "Thermal Water",
+        "Waterfall",
+        "Alpine"
+      ],
       "priceRange": "$$",
       "description": "Built directly into the rock face of the mountain. Swim in thermal water while looking at a natural waterfall.",
-      "images": ["/images/saunas-photos/felsentherme.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/felsentherme.jpg"
+      ],
+      "rating": 4.4,
+      "website": "https://www.felsentherme.com/",
+      "phone": "+43 6434 2223111",
+      "reviewCount": 2796,
+      "openingHours": "Monday: 9 AM to 9 PM, Tuesday: 9 AM to 9 PM, Wednesday: 9 AM to 9 PM, Thursday: 9 AM to 9 PM, Friday: 9 AM to 9 PM, Saturday: 9 AM to 9 PM, Sunday: 9 AM to 9 PM",
+      "etiquette": {},
+      "editorial": {
+        "whySpecial": "Built directly into the rock face of the mountain. Swim in thermal water while looking at a natural waterfall.",
+        "whatToExpect": "Felsentherme Bad Gastein is a spa located at 1,100 meters above sea level in the Salzburg spa town of Bad Gastein, surrounded by the majestic Hohe Tauern mountains. It features various thermal water and sauna experiences, including a panorama sauna with stunning mountain views.",
+        "highlights": [
+          "Built in Rock",
+          "Thermal Water",
+          "Waterfall",
+          "Alpine"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.felsentherme.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:50.119Z"
+          },
+          {
+            "url": "https://www.felsentherme.com/felsentherme/neuigkeiten/aktuelles/detail/sauna-winterplan",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:50.119Z"
+          },
+          {
+            "url": "https://www.felsentherme.com/felsentherme/neuigkeiten/aktuelles/detail/revisionen-april-2026",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:50.119Z"
+          },
+          {
+            "url": "https://www.felsentherme.com/therme-sauna/sauna-dampfbaeder/uebersicht-sauna-/wellnessbereich/finnische-sauna",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:50.119Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Felsentherme%20Bad%20Gastein&query_place_id=ChIJqR2qru4wd0cRHX1jiQBZ44s",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:38:58.606Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 52,
+        "status": "enriched"
+      }
     },
     {
       "id": "7132-therme",
       "name": "7132 Therme vals",
-      "location": { "city": "Vals", "country": "Switzerland" },
+      "location": {
+        "city": "Vals",
+        "country": "Switzerland",
+        "googlePlaceId": "ChIJe4lkeKjkhEcR3n3fWXQzx4A",
+        "coordinates": {
+          "lat": 46.6216484,
+          "lng": 9.1817063
+        },
+        "address": "Poststraße 560 7132 Hotel, Poststrasse 560, 7132 Vals, Switzerland"
+      },
       "type": "spa",
-      "features": ["Architectural Icon", "Quartzite", "Luxury", "Silence"],
+      "features": [
+        "Architectural Icon",
+        "Quartzite",
+        "Luxury",
+        "Silence"
+      ],
       "priceRange": "$$$$",
       "description": "Peter Zumthor's architectural masterpiece. 60,000 slabs of quartzite creating a mystical, cave-like atmosphere.",
-      "images": ["/images/saunas-photos/7132-therme.jpg"],
-      "rating": 4.9
+      "images": [
+        "/images/saunas-photos/7132-therme.jpg"
+      ],
+      "rating": 4.2,
+      "website": "https://7132.com/en/therme/thermal-baths/",
+      "phone": "+41 58 713 20 00",
+      "reviewCount": 273,
+      "openingHours": "Monday: 11 AM to 6 PM, Tuesday: 11 AM to 6 PM, Wednesday: 11 AM to 8 PM, Thursday: 11 AM to 8 PM, Friday: 11 AM to 8 PM, Saturday: 11 AM to 8 PM, Sunday: 11 AM to 8 PM",
+      "etiquette": {},
+      "editorial": {
+        "whySpecial": "Peter Zumthor's architectural masterpiece, made from 60,000 slabs of quartzite creating a mystical, cave-like atmosphere.",
+        "whatToExpect": "A highly relaxing experience in the thermal baths with highly mineralized water at a pleasant 30°C.",
+        "highlights": [
+          "Architectural Icon",
+          "Quartzite",
+          "Luxury",
+          "Silence"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://7132.com/en/therme/thermal-baths/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:39:10.702Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=7132%20Therme&query_place_id=ChIJe4lkeKjkhEcR3n3fWXQzx4A",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:39:17.842Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 52,
+        "status": "enriched"
+      }
     },
     {
       "id": "qc-terme-milano",
       "name": "QC Termemilano",
-      "location": { "city": "Milan", "country": "Italy" },
+      "location": {
+        "city": "Milan",
+        "country": "Italy",
+        "googlePlaceId": "ChIJt1qMtBjEhkcRxC2IoFgjwSY",
+        "coordinates": {
+          "lat": 45.4517364,
+          "lng": 9.2017142
+        },
+        "address": "P.le Medaglie D'Oro, 2, 20135 Milano MI, Italy"
+      },
       "type": "spa",
-      "features": ["Tram Sauna", "Roman Ruins", "Aperitivo", "Urban"],
+      "features": [
+        "Tram Sauna",
+        "Roman Ruins",
+        "Aperitivo",
+        "Urban"
+      ],
       "priceRange": "$$",
       "description": "A wellness oasis in the center of Milan, featuring a sauna built inside a vintage tram carriage.",
-      "images": ["/images/saunas-photos/qc-terme-milano.jpg"],
-      "rating": 4.5
+      "images": [
+        "/images/saunas-photos/qc-terme-milano.jpg"
+      ],
+      "rating": 4.1,
+      "website": "https://www.qcterme.com/it/destinazioni/milano/qc-spa-milano",
+      "phone": "+39 02 8974 7205",
+      "reviewCount": 13578,
+      "openingHours": "Monday: 8:30 AM to 11 PM, Tuesday: 8:30 AM to 11 PM, Wednesday: 8:30 AM to 11 PM, Thursday: 8:30 AM to 11 PM, Friday: 8:30 AM to 12 AM, Saturday: 8 AM to 12 AM, Sunday: 8 AM to 11 PM",
+      "admission": "€30 weekdays, €35 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "A wellness oasis in the center of Milan, featuring a sauna built inside a vintage tram carriage and other unique facilities like an 'Underwater Museum' pool.",
+        "whatToExpect": "A sensory journey through various relaxing and rejuvenating experiences, from hot tubs and saunas to an aperitif in the garden.",
+        "whoItsFor": "Anyone looking for a luxurious spa day in the heart of Milan.",
+        "highlights": [
+          "Tram Sauna",
+          "Roman Ruins",
+          "Aperitivo",
+          "Urban Setting"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.qcterme.com/it/destinazioni/milano/qc-spa-milano",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:39:39.903Z"
+          },
+          {
+            "url": "https://www.qcterme.com/it/destinazioni/milano/qc-spa-milano/experience-milano",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:39:39.903Z"
+          },
+          {
+            "url": "https://www.qcterme.com/it/destinazioni/milano/qc-spa-milano/massages-treatments-milano",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:39:39.903Z"
+          },
+          {
+            "url": "https://www.qcterme.com/it/destinazioni/milano/qc-spa-milano/percorso-benessere-milano",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:39:39.903Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=QC%20Termemilano&query_place_id=ChIJt1qMtBjEhkcRxC2IoFgjwSY",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:39:47.083Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 66,
+        "status": "enriched"
+      }
     },
     {
       "id": "archivolto",
       "name": "Archivolto",
-      "location": { "city": "New York", "country": "USA" },
+      "location": {
+        "city": "New York",
+        "country": "USA"
+      },
       "type": "spa",
-      "features": ["Private Suites", "Russian Banya", "Plunge", "Design"],
+      "features": [
+        "Private Suites",
+        "Russian Banya",
+        "Plunge",
+        "Design"
+      ],
       "priceRange": "$$$",
       "description": "Bringing the Russian Banya tradition to a modern, design-forward setting in NYC.",
-      "images": ["/images/saunas-photos/archivolto.jpg"],
+      "images": [
+        "/images/saunas-photos/archivolto.jpg"
+      ],
       "rating": 4.6
     },
     {
       "id": "othership-toronto",
       "name": "Othership",
-      "location": { "city": "Toronto", "country": "Canada" },
+      "location": {
+        "city": "Toronto",
+        "country": "Canada",
+        "googlePlaceId": "ChIJbyKxum41K4gRenoEfdsHrqo",
+        "coordinates": {
+          "lat": 43.6460984,
+          "lng": -79.3977406
+        },
+        "address": "425 Adelaide St W, Toronto, ON M5V 3C1, Canada"
+      },
       "type": "spa",
-      "features": ["Guided Sessions", "Breathwork", "Ice Baths", "Social"],
+      "features": [
+        "Guided Sessions",
+        "Breathwork",
+        "Ice Baths",
+        "Social"
+      ],
       "priceRange": "$$",
       "description": "Redefining social wellness with guided emotional regulation classes using heat and cold.",
-      "images": ["/images/saunas-photos/othership-toronto.jpg"],
-      "rating": 4.9
+      "images": [
+        "/images/saunas-photos/othership-toronto.jpg"
+      ],
+      "rating": 4.9,
+      "website": "http://www.othership.us/adelaide",
+      "phone": "+1 416-361-0101",
+      "reviewCount": 1347,
+      "openingHours": "Monday: 7 AM to 10:30 PM, Tuesday: 7 AM to 11:30 PM, Wednesday: 7 AM to 11:30 PM, Thursday: 7 AM to 12 AM, Friday: 7 AM to 12 AM, Saturday: 8 AM to 12 AM, Sunday: 7 AM to 11:45 PM",
+      "etiquette": {
+        "dresscode": "mixed",
+        "towelPolicy": "Towels provided (up to 2 per visit)"
+      },
+      "editorial": {
+        "whySpecial": "Othership blends sauna, cold plunge, and guided breathwork in a multi-sensory environment to help visitors reset, recharge, and reconnect.",
+        "whatToExpect": "A warm welcome and a wellness experience designed to rejuvenate the body and mind, with others. The space includes awe-inspiring performance saunas, icy-cold ice baths, and a social commons for the healthy community to gather.",
+        "whoItsFor": "Wellness seekers, downtown professionals, and first-timers alike",
+        "highlights": [
+          "Guided Sessions",
+          "Breathwork",
+          "Ice Baths",
+          "Social"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.othership.us/adelaide",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:40:01.426Z"
+          },
+          {
+            "url": "https://www.othership.us/adelaide",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:40:01.426Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Othership%20Adelaide&query_place_id=ChIJbyKxum41K4gRenoEfdsHrqo",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:40:09.730Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 61,
+        "status": "enriched"
+      }
     },
     {
       "id": "scandinave-spa-whistler",
       "name": "Scandinave Spa Whistler",
-      "location": { "city": "Whistler", "country": "Canada" },
+      "location": {
+        "city": "Whistler",
+        "country": "Canada",
+        "googlePlaceId": "ChIJb_V5Mqc8h1QRDyVq7z7ZwZc",
+        "coordinates": {
+          "lat": 50.1370351,
+          "lng": -122.9475424
+        },
+        "address": "8010 Mons Rd, Whistler, BC V8E 1K7, Canada"
+      },
       "type": "spa",
-      "features": ["Silence Policy", "Forest Setting", "Outdoor", "Hydrotherapy"],
+      "features": [
+        "Silence Policy",
+        "Forest Setting",
+        "Outdoor",
+        "Hydrotherapy"
+      ],
       "priceRange": "$$$",
       "description": "A silent hydrotherapy cycle nestled in the ancient cedar forests of Whistler.",
-      "images": ["/images/saunas-photos/scandinave-spa-whistler.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/scandinave-spa-whistler.jpg"
+      ],
+      "rating": 4.5,
+      "website": "https://www.scandinave.com/whistler?utm_source=gmb&utm_medium=organic&utm_term=&utm_content=&utm_campaign=",
+      "phone": "(888) 935-2423",
+      "reviewCount": 5450,
+      "openingHours": "Monday: 9 AM to 10 PM, Tuesday: 9 AM to 10 PM, Wednesday: 9 AM to 10 PM, Thursday: 9 AM to 10 PM, Friday: 9 AM to 10 PM, Saturday: 9 AM to 10 PM, Sunday: 9 AM to 10 PM",
+      "bookingUrl": "https://www.scandinave.com/whistler/thermal-journey/",
+      "etiquette": {
+        "dresscode": "textile",
+        "towelPolicy": "Towels provided"
+      },
+      "editorial": {
+        "whySpecial": "Scandinave Spa Whistler is a silent hydrotherapy cycle nestled in the ancient cedar forests of Whistler, offering a unique relaxation experience.",
+        "whatToExpect": "Visitors can expect to disconnect from digital devices and immerse themselves in a peaceful, nature-inspired setting while enjoying hot, cold, and relaxation installations as part of the Thermal Journey.",
+        "whoItsFor": "The spa is suitable for anyone seeking a relaxing and rejuvenating experience, including those looking to recover after outdoor activities.",
+        "highlights": [
+          "Outdoor thermal spa",
+          "Massage therapy available",
+          "Digital detox and silent environment"
+        ],
+        "tips": [
+          "Leave digital devices behind to fully disconnect",
+          "Embrace the silence and peaceful atmosphere"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.scandinave.com/whistler?utm_source=gmb&utm_medium=organic&utm_term=&utm_content=&utm_campaign=",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:40:31.991Z"
+          },
+          {
+            "url": "https://www.scandinave.com/whistler/thermal-journey/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:40:31.991Z"
+          },
+          {
+            "url": "https://www.scandinave.com/whistler/massages/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:40:31.991Z"
+          },
+          {
+            "url": "https://www.scandinave.com/whistler/corporate-groups/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:40:31.991Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Scandinave%20Spa%20Whistler&query_place_id=ChIJb_V5Mqc8h1QRDyVq7z7ZwZc",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:40:38.498Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 68,
+        "status": "enriched"
+      }
     },
     {
       "id": "awana-spa",
       "name": "Awana Spa",
-      "location": { "city": "Las Vegas", "country": "USA" },
+      "location": {
+        "city": "Las Vegas",
+        "country": "USA"
+      },
       "type": "spa",
-      "features": ["Theater Sauna", "Event Pouring", "Luxury", "Social"],
+      "features": [
+        "Theater Sauna",
+        "Event Pouring",
+        "Luxury",
+        "Social"
+      ],
       "priceRange": "$$$",
       "description": "Bringing European-style sauna theater and Aufguss to the Las Vegas strip.",
-      "images": ["/images/saunas-photos/awana-spa.jpg"],
+      "images": [
+        "/images/saunas-photos/awana-spa.jpg"
+      ],
       "rating": 4.7
     },
     {
       "id": "banya-no-1-london",
       "name": "Banya No.1",
-      "location": { "city": "London", "country": "UK" },
+      "location": {
+        "city": "London",
+        "country": "UK",
+        "googlePlaceId": "ChIJscLxT6ccdkgR4JQC5l_JcD8",
+        "coordinates": {
+          "lat": 51.53015,
+          "lng": -0.094344
+        },
+        "address": "17 Micawber St, London N1 7TB, United Kingdom"
+      },
       "type": "spa",
-      "features": ["Authentic Banya", "Parenie", "Vodka", "Food"],
+      "features": [
+        "Authentic Banya",
+        "Parenie",
+        "Vodka",
+        "Food"
+      ],
       "priceRange": "$$",
       "description": "London's first authentic Russian Banya. Expect high heat, oak leaf beatings (Parenie), and cold plunges.",
-      "images": ["/images/saunas-photos/banya-no-1-london.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/banya-no-1-london.jpg"
+      ],
+      "rating": 4.8,
+      "website": "https://gobanya.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "phone": "+44 20 7253 6723",
+      "reviewCount": 789,
+      "openingHours": "Monday: 9:30 AM to 10:30 PM, Tuesday: 9:30 AM to 10:30 PM, Wednesday: 9:30 AM to 10:30 PM, Thursday: 9:30 AM to 10:30 PM, Friday: 9:30 AM to 10:30 PM, Saturday: 9:30 AM to 10:30 PM, Sunday: 9:30 AM to 10:30 PM",
+      "bookingUrl": "https://gobanya.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "London's first authentic Russian Banya, offering high heat, oak leaf beatings (Parenie), and cold plunges.",
+        "whatToExpect": "An exhilarating thermal experience that combines ancient wellness rituals and authentic Russian Banya facilities, leaving you feeling de-stressed and reborn.",
+        "highlights": [
+          "Authentic Banya",
+          "Parenie",
+          "Vodka",
+          "Food"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://gobanya.co.uk/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:41:00.808Z"
+          },
+          {
+            "url": "https://gobanya.co.uk/offers/mothers-day-offer/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:41:00.808Z"
+          },
+          {
+            "url": "https://gobanya.co.uk/packages/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:41:00.808Z"
+          },
+          {
+            "url": "https://gobanya.co.uk/vouchers/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:41:00.808Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Banya%20No.1%20-%20Hoxton&query_place_id=ChIJscLxT6ccdkgR4JQC5l_JcD8",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:41:08.725Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 59,
+        "status": "enriched"
+      }
     },
     {
       "id": "beach-box-brighton",
       "name": "Beach Box Brighton",
-      "location": { "city": "Brighton", "country": "UK" },
+      "location": {
+        "city": "Brighton",
+        "country": "UK",
+        "googlePlaceId": "ChIJ-6LmbDeFdUgRRXYn9C0u3P4",
+        "coordinates": {
+          "lat": 50.8161171,
+          "lng": -0.1203229
+        },
+        "address": "Behind Volks Railway Workshop, Banjo Groyne, 285 Madeira Dr, Brighton BN2 1EN, United Kingdom"
+      },
       "type": "public",
-      "features": ["On The Beach", "Horsebox Saunas", "Sea Dip", "Quirky"],
+      "features": [
+        "On The Beach",
+        "Horsebox Saunas",
+        "Sea Dip",
+        "Quirky"
+      ],
       "priceRange": "$",
       "description": "Wood-fired saunas located directly on Brighton Beach. Run straight into the English Channel to cool off.",
-      "images": ["/images/saunas-photos/beach-box-brighton.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/beach-box-brighton.jpg"
+      ],
+      "rating": 4.9,
+      "website": "http://www.beachboxspa.co.uk/",
+      "phone": "+44 7399 881274",
+      "reviewCount": 737,
+      "openingHours": "Monday: 7:15 AM to 9 PM, Tuesday: Closed, Wednesday: 7:15 AM to 9 PM, Thursday: 7:15 AM to 9 PM, Friday: 7:30 AM to 9 PM, Saturday: 7:30 AM to 9 PM, Sunday: 7:30 AM to 9 PM",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "Wood-fired saunas located directly on Brighton Beach. Run straight into the English Channel to cool off.",
+        "whatToExpect": "The sauna experience gives you space for relaxation, body care, digital detox and socialising. Visitors can enjoy changing rooms, outdoor seating areas, a cozy fire pit, cold water, cold showers, a chilled ice bath, cool plunge pool, and a chilly slipper bath to cool off between sauna rounds.",
+        "highlights": [
+          "On The Beach",
+          "Horsebox Saunas",
+          "Sea Dip",
+          "Quirky"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.beachboxspa.co.uk/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:42:30.055Z"
+          },
+          {
+            "url": "https://beachboxspa.co.uk/members-club-2026/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:42:30.055Z"
+          },
+          {
+            "url": "https://beachboxspa.co.uk/treatments/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:42:30.055Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Beach%20Box%20Spa&query_place_id=ChIJ-6LmbDeFdUgRRXYn9C0u3P4",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:42:45.823Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "id": "haeckels-house",
       "name": "Haeckels House",
-      "location": { "city": "Margate", "country": "UK" },
+      "location": {
+        "city": "Margate",
+        "country": "UK"
+      },
       "type": "spa",
-      "features": ["Seaweed", "Design", "Thalassotherapy", "Boutique"],
+      "features": [
+        "Seaweed",
+        "Design",
+        "Thalassotherapy",
+        "Boutique"
+      ],
       "priceRange": "$$",
       "description": "A design-forward spa focusing on locally harvested seaweed and thalassotherapy treatments.",
-      "images": ["/images/saunas-photos/haeckels-house.jpg"],
+      "images": [
+        "/images/saunas-photos/haeckels-house.jpg"
+      ],
       "rating": 4.7
     },
     {
       "id": "skyspa-quebec",
       "name": "SkySpa",
-      "location": { "city": "Quebec City", "country": "Canada" },
+      "location": {
+        "city": "Quebec City",
+        "country": "Canada",
+        "googlePlaceId": "ChIJffV1hjKRuEwRPtUI4AjLDeA",
+        "coordinates": {
+          "lat": 46.7679008,
+          "lng": -71.2890817
+        },
+        "address": "Complexe Jules Dallaire T1, 2828 Boul Laurier #17, Québec, Quebec G1V 0B9, Canada"
+      },
       "type": "spa",
-      "features": ["Rooftop", "Urban Views", "California Baths", "Social"],
+      "features": [
+        "Rooftop",
+        "Urban Views",
+        "California Baths",
+        "Social"
+      ],
       "priceRange": "$$",
       "description": "Open-air thermal baths located on the rooftop of a skyscraper, offering unique urban views.",
-      "images": ["/images/saunas-photos/skyspa-quebec.jpg"],
-      "rating": 4.4
+      "images": [
+        "/images/saunas-photos/skyspa-quebec.jpg"
+      ],
+      "rating": 4.4,
+      "website": "https://www.skyspa.ca/fr/quebec",
+      "phone": "+1 418-871-8111",
+      "reviewCount": 1345,
+      "openingHours": "",
+      "etiquette": {},
+      "editorial": {
+        "whySpecial": "Open-air thermal baths located on the rooftop of a skyscraper, offering unique urban views.",
+        "highlights": [
+          "Rooftop",
+          "Urban Views",
+          "California Baths",
+          "Social"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.skyspa.ca/fr/quebec",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:42:58.590Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=SKYSPA%20Qu%C3%A9bec&query_place_id=ChIJffV1hjKRuEwRPtUI4AjLDeA",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:43:05.576Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 42,
+        "status": "enriched"
+      }
     },
     {
       "id": "nordik-spa-nature",
       "name": "Nordik Spa-Nature",
-      "location": { "city": "Chelsea", "country": "Canada" },
+      "location": {
+        "city": "Chelsea",
+        "country": "Canada",
+        "googlePlaceId": "ChIJo6Q5ZXwdzkwRA8UKDzT3r64",
+        "coordinates": {
+          "lat": 45.5049506,
+          "lng": -75.8026866
+        },
+        "address": "16 Chem. Nordik, Chelsea, QC J9B 2P7, Canada"
+      },
       "type": "spa",
-      "features": ["Largest in NA", "Salt Pool", "Banya", "Nature"],
+      "features": [
+        "Largest in NA",
+        "Salt Pool",
+        "Banya",
+        "Nature"
+      ],
       "priceRange": "$$$",
       "description": "The largest spa in North America. Features a floating salt water pool and countless relaxation areas.",
-      "images": ["/images/saunas-photos/nordik-spa.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/nordik-spa.jpg"
+      ],
+      "rating": 4.4,
+      "website": "https://chelsea.lenordik.com/",
+      "phone": "+1 819-827-1111",
+      "reviewCount": 12604,
+      "openingHours": "Monday: 9 AM to 11 PM, Tuesday: 9 AM to 11 PM, Wednesday: 9 AM to 11 PM, Thursday: 9 AM to 11 PM, Friday: 8:30 AM to 12 AM, Saturday: 8:30 AM to 12 AM, Sunday: 8:30 AM to 11 PM",
+      "etiquette": {
+        "dresscode": "textile",
+        "towelPolicy": "Bathing suits must be worn throughout the Spa Village. Sandals are required at all times, except in the saunas, where you must remove them. Bathrobes are worn at your discretion, except in restaurants, where you must cover your shoulders."
+      },
+      "editorial": {
+        "whySpecial": "The largest spa in North America, featuring a floating salt water pool and countless relaxation areas.",
+        "whatToExpect": "A thermal journey that changes with the seasons, offering moments of relaxation in a four-seasons village. Guests can enjoy the conviviality of the village's restaurants and reconnect with nature, their inner smile, and the joy of being together.",
+        "highlights": [
+          "Largest in NA",
+          "Salt Pool",
+          "Banya",
+          "Nature"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://chelsea.lenordik.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:28.353Z"
+          },
+          {
+            "url": "https://chelsea.lenordik.com/faq",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:28.353Z"
+          },
+          {
+            "url": "https://chelsea.lenordik.com/village-code",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:28.353Z"
+          },
+          {
+            "url": "https://chelsea.lenordik.com/about-us",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:28.353Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Nordik%20Spa-Nature%20-%20Chelsea&query_place_id=ChIJo6Q5ZXwdzkwRA8UKDzT3r64",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:43:36.886Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "id": "hot-shop-oslo",
       "name": "Hot Shop",
-      "location": { "city": "Oslo", "country": "Norway" },
+      "location": {
+        "city": "Oslo",
+        "country": "Norway",
+        "googlePlaceId": "ChIJqcqB90FuQUYRuY-l67sYke0",
+        "coordinates": {
+          "lat": 59.9281831,
+          "lng": 10.7685814
+        },
+        "address": "Københavngata 18, 0566 Oslo, Norway"
+      },
       "type": "public",
-      "features": ["Urban", "Hipster", "Cold Plunge", "Bar"],
+      "features": [
+        "Urban",
+        "Hipster",
+        "Cold Plunge",
+        "Bar"
+      ],
       "priceRange": "$$",
       "description": "One of Oslo's trendiest spots. A former sex shop turned into a sleek, industrial-chic neighborhood sauna.",
-      "images": ["/images/saunas-photos/hot-shop-oslo.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/hot-shop-oslo.jpg"
+      ],
+      "rating": 4.6,
+      "website": "https://www.restauranthotshop.no/",
+      "phone": "+47 46 67 37 18",
+      "reviewCount": 247,
+      "openingHours": "Monday: Closed, Tuesday: Closed, Wednesday: 6 to 10 PM, Thursday: 6 to 10 PM, Friday: 5 to 10 PM, Saturday: 5 to 10 PM, Sunday: Closed",
+      "bookingUrl": "https://www.restauranthotshop.no/kontakt/",
+      "etiquette": {},
+      "editorial": {
+        "whySpecial": "One of Oslo's trendiest spots. A former sex shop turned into a sleek, industrial-chic neighborhood sauna.",
+        "whatToExpect": "A modern, stylish sauna experience in a converted industrial space.",
+        "highlights": [
+          "Urban",
+          "Hipster",
+          "Cold Plunge",
+          "Bar"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.restauranthotshop.no/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:59.071Z"
+          },
+          {
+            "url": "https://www.restauranthotshop.no/meny/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:59.071Z"
+          },
+          {
+            "url": "https://www.restauranthotshop.no/kontakt/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:59.071Z"
+          },
+          {
+            "url": "https://www.restauranthotshop.no/en/home/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:43:59.071Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Hot%20Shop&query_place_id=ChIJqcqB90FuQUYRuY-l67sYke0",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:44:10.589Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 55,
+        "status": "enriched"
+      }
     },
     {
       "id": "salt-oslo",
       "name": "SALT",
-      "location": { "city": "Oslo", "country": "Norway" },
+      "location": {
+        "city": "Oslo",
+        "country": "Norway",
+        "googlePlaceId": "ChIJLQhlS4luQUYR-f6D2jF1byw",
+        "coordinates": {
+          "lat": 59.9064438,
+          "lng": 10.7463797
+        },
+        "address": "Langkaia 1, 0150 Oslo, Norway"
+      },
       "type": "public",
-      "features": ["Art Project", "Giant Sauna", "DJ Events", "Fjord"],
+      "features": [
+        "Art Project",
+        "Giant Sauna",
+        "DJ Events",
+        "Fjord"
+      ],
       "priceRange": "$$",
       "description": "A nomadic art project with massive pyramid-shaped saunas, often hosting DJs, talks, and concerts.",
-      "images": ["/images/saunas-photos/salt-oslo.jpg"],
-      "rating": 4.5
+      "images": [
+        "/images/saunas-photos/salt-oslo.jpg"
+      ],
+      "rating": 4.1,
+      "website": "http://www.salted.no/",
+      "reviewCount": 955,
+      "openingHours": "Monday: 11 AM to 11 PM, Tuesday: 11 AM to 11 PM, Wednesday: 11 AM to 11 PM, Thursday: 11 AM to 11 PM, Friday: 11 AM to 12 AM, Saturday: 11 AM to 12 AM, Sunday: 11 AM to 10 PM",
+      "bookingUrl": "http://www.salted.no/",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed",
+        "sessionLength": "2.5 hours"
+      },
+      "editorial": {
+        "whySpecial": "A nomadic art project with massive pyramid-shaped saunas, often hosting DJs, talks, and concerts.",
+        "whatToExpect": "A lively sauna village with 12 saunas, 21 cold plunge pools, and a large sauna called Árdna that can hold 80-90 people. There are also more intimate private saunas available.",
+        "whoItsFor": "Locals and visitors looking for a unique sauna experience with cultural events and activities.",
+        "highlights": [
+          "Art Project",
+          "Giant Sauna",
+          "DJ Events",
+          "Fjord"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.salted.no/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:44:29.914Z"
+          },
+          {
+            "url": "https://www.salted.no/sauna",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:44:29.914Z"
+          },
+          {
+            "url": "https://www.salted.no/cart",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:44:29.914Z"
+          },
+          {
+            "url": "https://www.salted.no/program",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:44:29.914Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=SALT%20-%20Art%20%26%20Music&query_place_id=ChIJLQhlS4luQUYR-f6D2jF1byw",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:44:36.361Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 67,
+        "status": "enriched"
+      }
     },
     {
       "id": "koks-sauna",
       "name": "KOK Oslo",
-      "location": { "city": "Oslo", "country": "Norway" },
+      "location": {
+        "city": "Oslo",
+        "country": "Norway",
+        "googlePlaceId": "ChIJ1cp1pnxvQUYRkN-D9Ipj0OQ",
+        "coordinates": {
+          "lat": 59.9078465,
+          "lng": 10.7489329
+        },
+        "address": "Langkaia 1, 0150 Oslo, Norway"
+      },
       "type": "public",
-      "features": ["Floating", "Electric Boat", "Fjord Cruise", "Private"],
+      "features": [
+        "Floating",
+        "Electric Boat",
+        "Fjord Cruise",
+        "Private"
+      ],
       "priceRange": "$$$",
       "description": "Floating sauna boats that can take you out on the fjord. Combine sightseeing with sweating.",
-      "images": ["/images/saunas-photos/kok-oslo.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/kok-oslo.jpg"
+      ],
+      "rating": 4.8,
+      "website": "https://koknorge.no/leie-badstue-oslo/",
+      "phone": "+47 93 40 05 22",
+      "reviewCount": 462,
+      "openingHours": "Monday: 7 AM to 10:45 PM, Tuesday: 7 AM to 10:45 PM, Wednesday: 7 AM to 10:45 PM, Thursday: 7 AM to 10:45 PM, Friday: 7 AM to 10:45 PM, Saturday: 8:45 AM to 10:45 PM, Sunday: 8:45 AM to 8:45 PM",
+      "bookingUrl": "https://koknorge.no/leie-badstue-oslo/",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "Floating sauna boats that can take you out on the fjord. Combine sightseeing with sweating.",
+        "whatToExpect": "Visitors can choose from three services: PRIVATKOK (private sauna by the dock), KOKCRUISE (private sauna boat that travels out on the fjord), and FELLESKOK (shared sauna with other guests).",
+        "highlights": [
+          "Floating sauna boats",
+          "Fjord cruises",
+          "Private and shared sauna options"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://koknorge.no/leie-badstue-oslo/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:44:47.434Z"
+          },
+          {
+            "url": "https://koknorge.no/leie-badstue-oslo/gavekort-badstue/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:44:47.434Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=KOK%20Oslo%20Badstue%2C%20Langkaia&query_place_id=ChIJ1cp1pnxvQUYRkN-D9Ipj0OQ",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:44:54.087Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 59,
+        "status": "enriched"
+      }
     },
     {
       "id": "centralbadet",
       "name": "Centralbadet",
-      "location": { "city": "Stockholm", "country": "Sweden" },
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "googlePlaceId": "ChIJzRAG_2adX0YRhyc1Fve-_9U",
+        "coordinates": {
+          "lat": 59.3365393,
+          "lng": 18.0598458
+        },
+        "address": "Drottninggatan 88, Engelbrektsgatan 5, 111 36 Stockholm, Sweden"
+      },
       "type": "spa",
-      "features": ["Art Nouveau", "Historic 1904", "City Center", "Pool"],
+      "features": [
+        "Art Nouveau",
+        "Historic 1904",
+        "City Center",
+        "Pool"
+      ],
       "priceRange": "$$",
       "description": "A stunning Art Nouveau bathhouse in the heart of Stockholm, operating since 1904. Features a beautiful indoor pool, Turkish baths, and classic Swedish saunas.",
-      "images": ["/images/saunas-photos/centralbadet.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/centralbadet.jpg"
+      ],
+      "rating": 4.1,
+      "website": "https://centralbadet.se/",
+      "phone": "+46 8 21 88 21",
+      "reviewCount": 1725,
+      "openingHours": "Monday: 9 AM to 8 PM, Tuesday: 9 AM to 8 PM, Wednesday: 9 AM to 8 PM, Thursday: 9 AM to 8 PM, Friday: 9 AM to 8 PM, Saturday: 10 AM to 6 PM, Sunday: 10 AM to 6 PM",
+      "bookingUrl": "https://centralbadet.se/",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "A stunning Art Nouveau bathhouse in the heart of Stockholm, operating since 1904. Features a beautiful indoor pool, Turkish baths, and classic Swedish saunas.",
+        "whatToExpect": "Visitors can enjoy the historic and elegant facilities, including pools, saunas, and a range of spa treatments and services.",
+        "highlights": [
+          "Art Nouveau",
+          "Historic 1904",
+          "City Center",
+          "Pool"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://centralbadet.se/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:17.247Z"
+          },
+          {
+            "url": "https://centralbadet.se/faq",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:17.247Z"
+          },
+          {
+            "url": "https://centralbadet.se/var-historia",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:17.247Z"
+          },
+          {
+            "url": "https://centralbadet.se/om-oss",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:17.247Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Centralbadet&query_place_id=ChIJzRAG_2adX0YRhyc1Fve-_9U",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:45:23.956Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "hellasgarden",
       "name": "Hellasgården",
-      "location": { "city": "Stockholm", "country": "Sweden" },
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden"
+      },
       "type": "public",
-      "features": ["Nature Reserve", "Lake", "Budget", "Traditional"],
+      "features": [
+        "Nature Reserve",
+        "Lake",
+        "Budget",
+        "Traditional"
+      ],
       "priceRange": "$",
       "description": "Located in a nature reserve just 15 mins from Stockholm city. The go-to place for a lake dip after sauna.",
-      "images": ["/images/saunas-photos/hellasgarden.jpg"],
+      "images": [
+        "/images/saunas-photos/hellasgarden.jpg"
+      ],
       "rating": 4.4
     },
     {
       "id": "yasuragi",
       "name": "Yasuragi",
-      "location": { "city": "Stockholm", "country": "Sweden" },
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden"
+      },
       "type": "spa",
-      "features": ["Japanese", "Yukata", "Hot Springs", "Architecture"],
+      "features": [
+        "Japanese",
+        "Yukata",
+        "Hot Springs",
+        "Architecture"
+      ],
       "priceRange": "$$$",
       "description": "A massive Japanese ryokan-style spa in the Swedish archipelago. Everyone wears matching yukatas.",
-      "images": ["/images/saunas-photos/yasuragi.jpg"],
+      "images": [
+        "/images/saunas-photos/yasuragi.jpg"
+      ],
       "rating": 4.7
     },
     {
       "id": "copenhot",
       "name": "CopenHot",
-      "location": { "city": "Copenhagen", "country": "Denmark" },
+      "location": {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "googlePlaceId": "ChIJTzwCPiNTUkYRfyuSSB5RcWw",
+        "coordinates": {
+          "lat": 55.6907941,
+          "lng": 12.6236846
+        },
+        "address": "Refshalevej 195, 1432 København, Denmark"
+      },
       "type": "public",
-      "features": ["Hot Tubs", "Harbor Views", "Social", "Outdoor"],
+      "features": [
+        "Hot Tubs",
+        "Harbor Views",
+        "Social",
+        "Outdoor"
+      ],
       "priceRange": "$$$",
       "description": "Wood-fired hot tubs and saunas right on the Copenhagen harbor front. Very social and lively.",
-      "images": ["/images/saunas-photos/copenhot.jpg"],
-      "rating": 4.5
+      "images": [
+        "/images/saunas-photos/copenhot.jpg"
+      ],
+      "rating": 4.7,
+      "website": "http://copenhot.com/",
+      "phone": "+45 31 32 78 08",
+      "reviewCount": 622,
+      "openingHours": "",
+      "bookingUrl": "http://copenhot.com/",
+      "admission": "€130 per hot tub, €130 per sauna, €35 per person for HotDays",
+      "etiquette": {
+        "dresscode": "mixed",
+        "towelPolicy": "Towel provided",
+        "sessionLength": "1.5 hours for hot tubs and saunas, 1.5 hours for HotDays"
+      },
+      "editorial": {
+        "whySpecial": "Wood-fired hot tubs and saunas right on the Copenhagen harbor front with great views. Very social and lively atmosphere.",
+        "whatToExpect": "Relax in hot tubs and saunas, enjoy cold plunge tubs, and socialize with other guests. Drinks can be purchased from the bar.",
+        "whoItsFor": "Anyone looking for a unique and social sauna/hot tub experience in Copenhagen",
+        "highlights": [
+          "Wood-fired hot tubs and saunas",
+          "Harbor views",
+          "Social atmosphere"
+        ],
+        "tips": [
+          "Bring your own beer or wine (no outside food allowed)",
+          "Arrive early to secure a spot during busy times"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://copenhot.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:46.130Z"
+          },
+          {
+            "url": "https://copenhot.com/en/little-siberia",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:46.130Z"
+          },
+          {
+            "url": "https://copenhot.com/da/lille-sibirien",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:46.130Z"
+          },
+          {
+            "url": "https://copenhot.com/en/getting-there-and-away",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:45:46.130Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=CopenHot&query_place_id=ChIJTzwCPiNTUkYRfyuSSB5RcWw",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:45:54.428Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 68,
+        "status": "enriched"
+      }
     },
     {
       "id": "la-source-bains-nordiques",
       "name": "La Source Bains Nordiques",
-      "location": { "city": "Rawdon", "country": "Canada" },
+      "location": {
+        "city": "Rawdon",
+        "country": "Canada",
+        "googlePlaceId": "ChIJh5XjO-yzyEwR-zFfq3nGSTg",
+        "coordinates": {
+          "lat": 46.0604254,
+          "lng": -73.7318765
+        },
+        "address": "4200 Rue Forest Hill, Rawdon, QC J0K 1S0, Canada"
+      },
       "type": "spa",
-      "features": ["Mountain Side", "Architecture", "Silence", "Nature"],
+      "features": [
+        "Mountain Side",
+        "Architecture",
+        "Silence",
+        "Nature"
+      ],
       "priceRange": "$$",
       "description": "Carved into the side of a mountain, this spa uses modern architecture to frame the raw Canadian wilderness.",
-      "images": ["/images/saunas-photos/la-source.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/la-source.jpg"
+      ],
+      "rating": 4.6,
+      "website": "http://www.lasourcespa.com/",
+      "phone": "+1 450-834-7727",
+      "reviewCount": 2768,
+      "openingHours": "Monday: 10 AM to 8 PM, Tuesday: 10 AM to 8 PM, Wednesday: 10 AM to 8 PM, Thursday: 10 AM to 8 PM, Friday: 10 AM to 9 PM, Saturday: 10 AM to 9 PM, Sunday: 10 AM to 9 PM",
+      "bookingUrl": "http://www.lasourcespa.com/",
+      "admission": "€70 for 5 hours, €100 for full day",
+      "etiquette": {
+        "dresscode": "textile",
+        "towelPolicy": "Towels included",
+        "sessionLength": "5 hours or full day"
+      },
+      "editorial": {
+        "whySpecial": "Carved into the side of a mountain, this spa uses modern architecture to frame the raw Canadian wilderness.",
+        "whatToExpect": "Visitors can enjoy therapeutic massages, Nordic baths, relaxation areas, and a bistro featuring local products, all in the lush forest of Rawdon.",
+        "highlights": [
+          "Mountain Side",
+          "Architecture",
+          "Silence",
+          "Nature"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.lasourcespa.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:15.909Z"
+          },
+          {
+            "url": "https://www.lasourcespa.com/fr/reservations/services",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:15.909Z"
+          },
+          {
+            "url": "https://www.lasourcespa.com/fr/services/1/bains-nordiques",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:15.909Z"
+          },
+          {
+            "url": "https://www.lasourcespa.com/fr",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:15.909Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=La%20Source%20Bains%20Nordiques&query_place_id=ChIJh5XjO-yzyEwR-zFfq3nGSTg",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:46:23.595Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "h2o-adventure-spa",
       "name": "H2O Adventure Spa",
-      "location": { "city": "Kelowna", "country": "Canada" },
+      "location": {
+        "city": "Kelowna",
+        "country": "Canada",
+        "googlePlaceId": "ChIJq77B8gmLfVMR6Gw6JnZL-8c",
+        "coordinates": {
+          "lat": 49.8378932,
+          "lng": -119.4812449
+        },
+        "address": "4075 Gordon Dr, Kelowna, BC V1W 5J2, Canada"
+      },
       "type": "public",
-      "features": ["Family Friendly", "Water Park", "Fitness", "Large"],
+      "features": [
+        "Family Friendly",
+        "Water Park",
+        "Fitness",
+        "Large"
+      ],
       "priceRange": "$",
       "description": "A massive aquatic centre that includes significant wellness facilities, making it accessible for families.",
-      "images": ["/images/saunas-photos/h2o-adventure-spa.jpg"],
-      "rating": 4.3
+      "images": [
+        "/images/saunas-photos/h2o-adventure-spa.jpg"
+      ],
+      "rating": 4.4,
+      "website": "https://www.ymcasibc.ca/Locations/H2O",
+      "phone": "+1 250-491-9622",
+      "reviewCount": 1581,
+      "openingHours": "Monday: 5:30 AM to 9 PM, Tuesday: 5:30 AM to 9 PM, Wednesday: 5:30 AM to 9 PM, Thursday: 5:30 AM to 9 PM, Friday: 5:30 AM to 9 PM, Saturday: 8 AM to 8 PM, Sunday: 8 AM to 8 PM",
+      "admission": "€13.35 adults, €10.25 seniors/youth, €7.10 children, free under 3",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "A massive aquatic centre that includes significant wellness facilities, making it accessible for families.",
+        "whatToExpect": "The facility includes waterslides, a wave pool, lazy river, splash park, cardio and conditioning areas, and functional training equipment. Members can access YMCA programming like health coaching and fitness classes.",
+        "whoItsFor": "Families, fitness enthusiasts",
+        "highlights": [
+          "Water park",
+          "Fitness facilities",
+          "YMCA programming"
+        ],
+        "tips": [
+          "Respect facility rules and etiquette",
+          "Check schedules before visiting",
+          "Children under 8 must be within arm's reach of an adult"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.ymcasibc.ca/Locations/H2O",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:47.298Z"
+          },
+          {
+            "url": "https://www.ymcasibc.ca/Locations/H2O/Drop-In",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:47.298Z"
+          },
+          {
+            "url": "https://www.ymcasibc.ca/Locations/H2O/Hours",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:47.298Z"
+          },
+          {
+            "url": "https://www.ymcasibc.ca/Locations/H2O/FAQ",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:46:47.298Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=H2O%20Adventure%20%2B%20Fitness%20Centre&query_place_id=ChIJq77B8gmLfVMR6Gw6JnZL-8c",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:46:52.948Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 69,
+        "status": "enriched"
+      }
     },
     {
       "id": "thermae-bath-spa",
       "name": "Thermae Bath Spa",
-      "location": { "city": "Bath", "country": "UK" },
+      "location": {
+        "city": "Bath",
+        "country": "UK",
+        "googlePlaceId": "ChIJ7b7VUBGBcUgRI-5CyCMdPsM",
+        "coordinates": {
+          "lat": 51.3803643,
+          "lng": -2.3615092
+        },
+        "address": "The Hetling Pump Room, Hot Bath St, Bath BA1 1SJ, United Kingdom"
+      },
       "type": "spa",
-      "features": ["Historic Spring", "Rooftop Pool", "City Views", "Modern"],
+      "features": [
+        "Historic Spring",
+        "Rooftop Pool",
+        "City Views",
+        "Modern"
+      ],
       "priceRange": "$$$",
       "description": "Britain's only natural thermal spa. The rooftop pool offers incredible views over the historic city of Bath.",
-      "images": ["/images/saunas-photos/thermae-bath-spa.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/thermae-bath-spa.jpg"
+      ],
+      "rating": 4.2,
+      "website": "https://www.thermaebathspa.com/",
+      "phone": "+44 1225 331234",
+      "reviewCount": 10251,
+      "openingHours": "Monday: 9 AM to 9 PM, Tuesday: 9 AM to 9 PM, Wednesday: 9 AM to 9 PM, Thursday: 9 AM to 9 PM, Friday: 9 AM to 9 PM, Saturday: 9 AM to 9 PM, Sunday: 9 AM to 9 PM",
+      "bookingUrl": "https://www.thermaebathspa.com/",
+      "admission": "£15 weekdays, £19 weekends",
+      "etiquette": {
+        "dresscode": "textile",
+        "towelPolicy": "Towels provided",
+        "sessionLength": "No time limit"
+      },
+      "editorial": {
+        "whySpecial": "Britain's only natural thermal spa, with a rooftop pool offering incredible views over the historic city of Bath.",
+        "whatToExpect": "Relax in the mineral-rich thermal waters, enjoy treatments, and take in the stunning views from the rooftop pool.",
+        "whoItsFor": "Anyone looking for a relaxing spa experience in a historic setting.",
+        "highlights": [
+          "Historic thermal springs",
+          "Rooftop pool with city views",
+          "Wide range of treatments available"
+        ],
+        "tips": [
+          "Arrive early to make the most of the facilities",
+          "Consider booking a treatment package for the full experience"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.thermaebathspa.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:12.980Z"
+          },
+          {
+            "url": "https://www.thermaebathspa.com/about-us/sustainability",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:12.980Z"
+          },
+          {
+            "url": "https://www.thermaebathspa.com/opening-times",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:12.980Z"
+          },
+          {
+            "url": "https://www.thermaebathspa.com/about-us/the-waters-of-bath",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:12.980Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Thermae%20Bath%20Spa&query_place_id=ChIJ7b7VUBGBcUgRI-5CyCMdPsM",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:47:18.998Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 72,
+        "status": "enriched"
+      }
     },
     {
       "id": "rudding-park",
       "name": "Rudding Park Spa",
-      "location": { "city": "Harrogate", "country": "UK" },
+      "location": {
+        "city": "Harrogate",
+        "country": "UK",
+        "googlePlaceId": "ChIJM6pC6pBReUgRZOdJkayGwI0",
+        "coordinates": {
+          "lat": 53.9740061,
+          "lng": -1.4941301
+        },
+        "address": "1JH, Rudding Ln, Harrogate HG3 1LL, United Kingdom"
+      },
       "type": "spa",
-      "features": ["Luxury Hotel", "Roof Top", "Hydrotherapy", "Garden"],
+      "features": [
+        "Luxury Hotel",
+        "Roof Top",
+        "Hydrotherapy",
+        "Garden"
+      ],
       "priceRange": "$$$",
       "description": "Award-winning luxury spa with a focus on bringing the outdoors in. Known for its rooftop spa garden.",
-      "images": ["/images/saunas-photos/rudding-park.jpg"],
-      "rating": 4.9
+      "images": [
+        "/images/saunas-photos/rudding-park.jpg"
+      ],
+      "rating": 4.7,
+      "website": "https://www.ruddingpark.co.uk/spa/",
+      "phone": "+44 1423 871350",
+      "reviewCount": 708,
+      "openingHours": "Monday: 6:30 AM to 10:30 PM, Tuesday: 6:30 AM to 10:30 PM, Wednesday: 6:30 AM to 10:30 PM, Thursday: 6:30 AM to 10:30 PM, Friday: 6:30 AM to 10:30 PM, Saturday: 6:30 AM to 10:30 PM, Sunday: 6:30 AM to 10:30 PM",
+      "bookingUrl": "https://www.ruddingpark.co.uk/spa/spa-days-experiences/",
+      "admission": "From £66 per person for Roof Top Spa experiences, from £148 per person for spa days with treatments",
+      "etiquette": {
+        "dresscode": "textile"
+      },
+      "editorial": {
+        "whySpecial": "Award-winning luxury spa with a focus on bringing the outdoors in. Known for its rooftop spa garden.",
+        "whatToExpect": "The Roof Top Spa is a social space with a range of hydrotherapy & thermal experiences and the Escape Zone, a peaceful, serene space for guests having a treatment. Guests can also maintain their beauty routine in the Nail & Beauty Studio, eat, drink & shop.",
+        "highlights": [
+          "Roof Top Spa",
+          "Hydrotherapy experiences",
+          "Nail & Beauty Studio"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.ruddingpark.co.uk/spa/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:41.749Z"
+          },
+          {
+            "url": "https://www.ruddingpark.co.uk/spa/spa-days-experiences/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:41.749Z"
+          },
+          {
+            "url": "https://www.ruddingpark.co.uk/spa/exclusive-roof-top-spa-use/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:41.749Z"
+          },
+          {
+            "url": "https://www.ruddingpark.co.uk/spa/the-spa-collection/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:47:41.749Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Rudding%20Park%20Spa&query_place_id=ChIJM6pC6pBReUgRZOdJkayGwI0",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:47:49.016Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "sauna-dek",
       "name": "Sauna Dek",
-      "location": { "city": "Antwerp", "country": "Belgium" },
+      "location": {
+        "city": "Antwerp",
+        "country": "Belgium"
+      },
       "type": "public",
-      "features": ["Urban", "Design", "Private Options", "Modern"],
+      "features": [
+        "Urban",
+        "Design",
+        "Private Options",
+        "Modern"
+      ],
       "priceRange": "$$",
       "description": "A hidden gem in Antwerp offering a sleek, modern take on the traditional bathhouse.",
-      "images": ["/images/saunas-photos/sauna-dek.webp"],
+      "images": [
+        "/images/saunas-photos/sauna-dek.webp"
+      ],
       "rating": 4.5
     },
     {
       "id": "zuiver",
       "name": "Spa Zuiver",
-      "location": { "city": "Amsterdam", "country": "Netherlands" },
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands"
+      },
       "type": "spa",
-      "features": ["Large Complex", "Textile-Free", "Hotel", "Forest"],
+      "features": [
+        "Large Complex",
+        "Textile-Free",
+        "Hotel",
+        "Forest"
+      ],
       "priceRange": "$$",
       "description": "A massive wellness complex on the edge of the Amsterdam forest. High standards and textile-free days.",
-      "images": ["/images/saunas-photos/zuiver.jpg"],
+      "images": [
+        "/images/saunas-photos/zuiver.jpg"
+      ],
       "rating": 4.6
     },
     {
       "id": "sauna-shikiji",
       "name": "Sauna Shikiji",
-      "location": { "city": "Shizuoka", "country": "Japan" },
+      "location": {
+        "city": "Shizuoka",
+        "country": "Japan",
+        "googlePlaceId": "ChIJbTNXpjQ2GmAR8i8fdDtpZuw",
+        "coordinates": {
+          "lat": 34.950765,
+          "lng": 138.413977
+        },
+        "address": "2 Chome-25-1 Shikiji, Suruga Ward, Shizuoka, 422-8036, Japan"
+      },
       "type": "public",
-      "features": ["Sacred Water", "Pilgrimage Site", "High Heat", "Authentic"],
+      "features": [
+        "Sacred Water",
+        "Pilgrimage Site",
+        "High Heat",
+        "Authentic"
+      ],
       "priceRange": "$",
       "description": "Known as the 'Holy Land' for saunners in Japan. Famous for its natural groundwater cold plunge which is drinkable.",
-      "images": ["/images/saunas-photos/sauna-shikiji.jpg"],
-      "rating": 4.9
+      "images": [
+        "/images/saunas-photos/sauna-shikiji.jpg"
+      ],
+      "rating": 4.4,
+      "website": "https://saunashikiji.jp/",
+      "phone": "+81 54-237-5537",
+      "reviewCount": 2564,
+      "openingHours": "Monday: Open 24 hours, Tuesday: Open 24 hours, Wednesday: Open 24 hours, Thursday: Open 24 hours, Friday: Open 24 hours, Saturday: Open 24 hours, Sunday: Open 24 hours",
+      "admission": "€15 weekdays, €19 weekends",
+      "etiquette": {
+        "dresscode": "nude",
+        "towelPolicy": "Towels and robes should not be taken home."
+      },
+      "editorial": {
+        "whySpecial": "Known as the 'Holy Land' for saunners in Japan. Famous for its natural groundwater cold plunge which is drinkable.",
+        "whatToExpect": "The sauna features a sacred natural spring water cold plunge that is drinkable. It is said to have various health benefits such as improving skin conditions, circulation, and digestion.",
+        "highlights": [
+          "Sacred Water",
+          "Pilgrimage Site",
+          "High Heat",
+          "Authentic"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://saunashikiji.jp/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:17.333Z"
+          },
+          {
+            "url": "https://www.saunashikiji.jp/naturalwater/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:17.333Z"
+          },
+          {
+            "url": "https://www.saunashikiji.jp/waterdetail/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:17.333Z"
+          },
+          {
+            "url": "https://www.saunashikiji.jp/bath/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:17.333Z"
+          },
+          {
+            "url": "https://www.saunashikiji.jp/priceinfo/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:17.333Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Sauna%20Shikiji&query_place_id=ChIJbTNXpjQ2GmAR8i8fdDtpZuw",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:48:23.840Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 60,
+        "status": "enriched"
+      }
     },
     {
       "id": "skyspa-yokohama",
       "name": "Skyspa Yokohama",
-      "location": { "city": "Yokohama", "country": "Japan" },
+      "location": {
+        "city": "Yokohama",
+        "country": "Japan"
+      },
       "type": "spa",
-      "features": ["Skyline View", "Aufguss", "Coworking", "Modern"],
+      "features": [
+        "Skyline View",
+        "Aufguss",
+        "Coworking",
+        "Modern"
+      ],
       "priceRange": "$$",
       "description": "Located on the 14th floor with stunning views of Yokohama Bay. A hub for modern Japanese sauna culture.",
-      "images": ["/images/saunas-photos/skyspa-yokohama.webp"],
+      "images": [
+        "/images/saunas-photos/skyspa-yokohama.webp"
+      ],
       "rating": 4.7
     },
     {
       "id": "blue-lagoon",
       "name": "Blue Lagoon",
-      "location": { "city": "Grindavík", "country": "Iceland" },
+      "location": {
+        "city": "Grindavík",
+        "country": "Iceland",
+        "googlePlaceId": "ChIJDd_3r2Yd1kgRbvAWRIl6dPM",
+        "coordinates": {
+          "lat": 63.8807176,
+          "lng": -22.4472964
+        },
+        "address": "Norðurljósavegur 9, 240 Grindavík, Iceland"
+      },
       "type": "spa",
-      "features": ["Geothermal", "Silica Mud", "Luxury", "Iconic"],
+      "features": [
+        "Geothermal",
+        "Silica Mud",
+        "Luxury",
+        "Iconic"
+      ],
       "priceRange": "$$$",
       "description": "World-famous geothermal spa located in a lava field. The milky blue water is rich in minerals like silica and sulfur.",
-      "images": ["/images/saunas-photos/blue-lagoon.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/blue-lagoon.jpg"
+      ],
+      "rating": 4.6,
+      "website": "https://www.bluelagoon.com/is?utm_medium=gmb&utm_content=cta",
+      "phone": "+354 420 8800",
+      "reviewCount": 31565,
+      "openingHours": "Monday: 8 AM to 8 PM, Tuesday: 8 AM to 8 PM, Wednesday: 8 AM to 8 PM, Thursday: 8 AM to 8 PM, Friday: 8 AM to 8 PM, Saturday: 8 AM to 8 PM, Sunday: 8 AM to 8 PM",
+      "bookingUrl": "https://www.bluelagoon.com/is?utm_medium=gmb&utm_content=cta",
+      "admission": "From ISK 11,990",
+      "etiquette": {
+        "dresscode": "textile"
+      },
+      "editorial": {
+        "whySpecial": "World-famous geothermal spa located in a lava field. The milky blue water is rich in minerals like silica and sulfur.",
+        "whatToExpect": "Visitors can enjoy the healing geothermal waters, relax in the spa, and experience the unique natural environment.",
+        "highlights": [
+          "Geothermal",
+          "Silica Mud",
+          "Luxury",
+          "Iconic"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.bluelagoon.com/is?utm_medium=gmb&utm_content=cta",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:45.333Z"
+          },
+          {
+            "url": "https://www.bluelagoon.com/is/heimsokn",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:45.333Z"
+          },
+          {
+            "url": "https://www.bluelagoon.com/is/gisting",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:45.333Z"
+          },
+          {
+            "url": "https://www.bluelagoon.com/is/matur",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:48:45.333Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Blue%20Lagoon&query_place_id=ChIJDd_3r2Yd1kgRbvAWRIl6dPM",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:48:52.606Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 64,
+        "status": "enriched"
+      }
     },
     {
       "id": "secret-lagoon",
       "name": "Secret Lagoon",
-      "location": { "city": "Flúðir", "country": "Iceland" },
+      "location": {
+        "city": "Flúðir",
+        "country": "Iceland"
+      },
       "type": "public",
-      "features": ["Oldest Pool", "Geysir", "Natural", "Relaxed"],
+      "features": [
+        "Oldest Pool",
+        "Geysir",
+        "Natural",
+        "Relaxed"
+      ],
       "priceRange": "$$",
       "description": "Iceland's oldest swimming pool, made in 1891. A more authentic and less crowded alternative to the Blue Lagoon.",
-      "images": ["/images/saunas-photos/secret-lagoon.webp"],
+      "images": [
+        "/images/saunas-photos/secret-lagoon.webp"
+      ],
       "rating": 4.7
     },
     {
       "id": "iglu-park",
       "name": "Iglu Park",
-      "location": { "city": "Tallinn", "country": "Estonia" },
+      "location": {
+        "city": "Tallinn",
+        "country": "Estonia"
+      },
       "type": "public",
-      "features": ["Iglu Saunas", "Sea Views", "Design", "Bar"],
+      "features": [
+        "Iglu Saunas",
+        "Sea Views",
+        "Design",
+        "Bar"
+      ],
       "priceRange": "$$",
       "description": "A cool village of Iglucraft saunas right on the Baltic Sea in the Noblessner district.",
-      "images": ["/images/saunas-photos/iglupark.jpg"],
+      "images": [
+        "/images/saunas-photos/iglupark.jpg"
+      ],
       "rating": 4.8
     },
     {
       "id": "kalma-saun",
       "name": "Kalma Saun",
-      "location": { "city": "Tallinn", "country": "Estonia" },
+      "location": {
+        "city": "Tallinn",
+        "country": "Estonia",
+        "googlePlaceId": "ChIJvztCf3uTkkYRBg4C6_5-TJo",
+        "coordinates": {
+          "lat": 59.4438698,
+          "lng": 24.7376442
+        },
+        "address": "Vana-Kalamaja tn 9A, 10414 Tallinn, Estonia"
+      },
       "type": "public",
-      "features": ["Historic 1928", "Wood-Burning", "Authentic", "No Frills"],
+      "features": [
+        "Historic 1928",
+        "Wood-Burning",
+        "Authentic",
+        "No Frills"
+      ],
       "priceRange": "$",
       "description": "One of Tallinn's oldest public saunas. A truly authentic experience with massive wood-burning ovens.",
-      "images": ["/images/saunas-photos/kalma-saun.jpg"],
-      "rating": 4.6
+      "images": [
+        "/images/saunas-photos/kalma-saun.jpg"
+      ],
+      "rating": 4.6,
+      "website": "http://www.kalmasaun.ee/",
+      "phone": "+372 627 1811",
+      "reviewCount": 589,
+      "openingHours": "Monday: 11 AM to 10 PM, Tuesday: 11 AM to 10 PM, Wednesday: 11 AM to 10 PM, Thursday: 11 AM to 10 PM, Friday: 11 AM to 10 PM, Saturday: 10 AM to 11 PM, Sunday: 10 AM to 11 PM",
+      "admission": "€17 weekdays, €20 weekends",
+      "etiquette": {
+        "dresscode": "nude"
+      },
+      "editorial": {
+        "whySpecial": "One of Tallinn's oldest public saunas with a truly authentic experience and massive wood-burning ovens.",
+        "whatToExpect": "A stately sauna with a dignified atmosphere and history dating back to 1928, despite several renovations over the years.",
+        "highlights": [
+          "Historic 1928",
+          "Wood-Burning",
+          "Authentic",
+          "No Frills"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://www.kalmasaun.ee/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:16.779Z"
+          },
+          {
+            "url": "https://www.kalmasaun.ee/eng-uldsaunad/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:16.779Z"
+          },
+          {
+            "url": "https://www.kalmasaun.ee/eng-meeste_uldsaun/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:16.779Z"
+          },
+          {
+            "url": "https://www.kalmasaun.ee/eng-naiste_uldsaun/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:16.779Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Kalma%20Saun&query_place_id=ChIJvztCf3uTkkYRBg4C6_5-TJo",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:49:23.131Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 60,
+        "status": "enriched"
+      }
     },
     {
       "id": "icebergs-pool",
       "name": "Bondi Icebergs",
-      "location": { "city": "Sydney", "country": "Australia" },
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "googlePlaceId": "ChIJUe0dVputEmsRvvpUhmPaCVM",
+        "coordinates": {
+          "lat": -33.8950891,
+          "lng": 151.2743049
+        },
+        "address": "1 Notts Ave, Bondi Beach NSW 2026, Australia"
+      },
       "type": "public",
-      "features": ["Ocean Pool", "Sauna", "Iconic View", "Waves"],
+      "features": [
+        "Ocean Pool",
+        "Sauna",
+        "Iconic View",
+        "Waves"
+      ],
       "priceRange": "$",
       "description": "The most famous pool in Australia. The sauna overlooks the pool where waves crash over the side.",
-      "images": ["/images/saunas-photos/icebergs-pool.jpg"],
-      "rating": 4.8
+      "images": [
+        "/images/saunas-photos/icebergs-pool.jpg"
+      ],
+      "rating": 4.4,
+      "website": "http://icebergs.com.au/",
+      "phone": "+61 2 9130 3120",
+      "reviewCount": 2340,
+      "openingHours": "Monday: 6 AM to 6:30 PM, Tuesday: 6 AM to 6:30 PM, Wednesday: 6 AM to 6:30 PM, Thursday: Closed, Friday: 6 AM to 6:30 PM, Saturday: 6 AM to 6:30 PM, Sunday: 6 AM to 6:30 PM",
+      "etiquette": {
+        "dresscode": "mixed"
+      },
+      "editorial": {
+        "whySpecial": "The Bondi Icebergs is the most famous pool in Australia, with a sauna that overlooks the pool where waves crash over the side.",
+        "whatToExpect": "Visitors can enjoy a casual bistro, two licensed bars, and dedicated function facilities at the Bondi Icebergs Club, which overlooks the sparkling blue waters of the Bondi Icebergs pool and North Bondi headland.",
+        "highlights": [
+          "Ocean Pool",
+          "Sauna",
+          "Iconic View",
+          "Waves"
+        ]
+      },
+      "enrichment": {
+        "sources": [
+          {
+            "url": "http://icebergs.com.au/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:44.104Z"
+          },
+          {
+            "url": "http://icebergs.com.au/icebergs-club",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:44.104Z"
+          },
+          {
+            "url": "http://icebergs.com.au/swim-school",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:44.104Z"
+          },
+          {
+            "url": "http://icebergs.com.au/organisation/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:49:44.104Z"
+          },
+          {
+            "url": "https://www.google.com/maps/search/?api=1&query=Bondi%20Icebergs%20Swimming%20CLUB&query_place_id=ChIJUe0dVputEmsRvvpUhmPaCVM",
+            "label": "Google Places",
+            "fetchedAt": "2026-03-15T16:49:50.828Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "id": "peninsula-hot-springs",
       "name": "Peninsula Hot Springs",
-      "location": { "city": "Melbourne", "country": "Australia" },
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia"
+      },
       "type": "spa",
-      "features": ["Natural Springs", "Hilltop View", "Turkish Hamam", "Huge"],
+      "features": [
+        "Natural Springs",
+        "Hilltop View",
+        "Turkish Hamam",
+        "Huge"
+      ],
       "priceRange": "$$$",
       "description": "Award-winning natural geothermal mineral springs and day spa. The hilltop pool offers 360-degree views.",
-      "images": ["/images/saunas-photos/peninsula-hot-springs.jpg"],
+      "images": [
+        "/images/saunas-photos/peninsula-hot-springs.jpg"
+      ],
       "rating": 4.7
     }
   ],

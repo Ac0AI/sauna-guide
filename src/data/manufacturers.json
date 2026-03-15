@@ -1,7 +1,6 @@
 {
   "updated": "2024-12-20",
   "version": "1.0",
-
   "manufacturers": [
     {
       "name": "Harvia",
@@ -9,7 +8,12 @@
       "founded": 1950,
       "website": "https://harvia.com/",
       "type": "traditional",
-      "products": ["heaters", "saunas", "steam-rooms", "accessories"],
+      "products": [
+        "heaters",
+        "saunas",
+        "steam-rooms",
+        "accessories"
+      ],
       "market": "global",
       "public": true,
       "stock": "HARVIA (Helsinki)",
@@ -24,7 +28,62 @@
         "linkedin": "harvia-oyj"
       },
       "partnership_status": "not_contacted",
-      "notes": "Gold standard Finnish brand."
+      "notes": "Gold standard Finnish brand.",
+      "priceTier": "premium",
+      "bestFor": "Harvia is a global brand that caters to a wide range of sauna and steam room needs, from residential to commercial applications.",
+      "buyerVerdict": "Harvia is the global market leader in saunas and steam rooms, offering a wide range of premium, high-quality products backed by 75 years of Finnish expertise. As a public company, Harvia provides financial transparency and is committed to sustainability in its operations and product development.",
+      "strengths": [
+        "Largest sauna company in the world with 75 years of experience",
+        "Public company providing financial transparency",
+        "Wide range of products including heaters, saunas, steam rooms, and accessories",
+        "Presence in over 90 countries globally",
+        "Commitment to sustainability and clean combustion in their products"
+      ],
+      "keyModels": [
+        "Harvia Fenix (intelligent sauna control)",
+        "Harvia Cilindro (wood-burning heater)",
+        "Harvia Spirit (compact electric heater)",
+        "Harvia Frosty (cold plunge)",
+        "Harvia Olympus (modern indoor sauna cabin)",
+        "Harvia GreenFlame (low emission heaters)"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://harvia.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.779Z"
+          },
+          {
+            "url": "https://www.harvia.com/en/products/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.780Z"
+          },
+          {
+            "url": "https://www.harvia.com/en/sauna/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.780Z"
+          },
+          {
+            "url": "https://www.harvia.com/en/steam-and-spa/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.780Z"
+          },
+          {
+            "url": "https://www.harvia.com/en/ideas-and-trends/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.780Z"
+          },
+          {
+            "url": "https://www.harvia.com/en/infrared/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:32:43.780Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 57,
+        "status": "enriched"
+      }
     },
     {
       "name": "Huum",
@@ -32,7 +91,11 @@
       "founded": 2011,
       "website": "https://huum.eu/",
       "type": "traditional",
-      "products": ["heaters", "controllers", "smart-tech"],
+      "products": [
+        "heaters",
+        "controllers",
+        "smart-tech"
+      ],
       "market": "europe-focused",
       "unique_angle": "Design-forward, smart controllers, modern aesthetic.",
       "content_opportunities": [
@@ -44,7 +107,64 @@
         "instagram": "@huumsauna"
       },
       "partnership_status": "not_contacted",
-      "notes": "Beautiful design. Tech-forward. Great for modern sauna content."
+      "notes": "Beautiful design. Tech-forward. Great for modern sauna content.",
+      "priceTier": "premium",
+      "bestFor": "Sauna enthusiasts who value design, smart technology, and an authentic sauna experience",
+      "supportWarranty": "Huum provides a 2-year warranty on their sauna heaters and controllers",
+      "buyerVerdict": "Huum is a premium Estonian brand that offers design-forward, smart sauna solutions with a focus on quality, sustainability, and an authentic sauna experience. Their range of electric and wood-burning heaters, along with innovative controllers and accessories, make them a top choice for sauna enthusiasts seeking a modern, high-tech sauna setup.",
+      "strengths": [
+        "Design-forward, award-winning aesthetic that enhances the natural beauty of sauna stones",
+        "Innovative smart controllers and mobile app for convenient sauna control",
+        "Durable, high-quality construction with a focus on sustainability and eco-friendliness",
+        "Offers both electric and wood-burning sauna heater options to suit different preferences",
+        "Provides a range of accessories to customize and enhance the sauna experience"
+      ],
+      "keyModels": [
+        "DROP",
+        "STEEL",
+        "CLIFF",
+        "CORE",
+        "HIVE",
+        "HIVE Wood",
+        "HIVE Flow"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://huum.eu/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:07.437Z"
+          },
+          {
+            "url": "https://huum.eu/sauna-heaters-and-sauna-controllers/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:07.438Z"
+          },
+          {
+            "url": "https://huum.eu/product-category/electric-sauna-heaters/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:07.438Z"
+          },
+          {
+            "url": "https://huum.eu/product-category/wood-burning-sauna-stoves/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:07.438Z"
+          },
+          {
+            "url": "https://huum.eu/product-category/sauna-controllers/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:07.438Z"
+          },
+          {
+            "url": "https://huum.eu/product-category/heater-accessories/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:07.438Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 62,
+        "status": "enriched"
+      }
     },
     {
       "name": "Tylö",
@@ -52,7 +172,11 @@
       "founded": 1950,
       "website": "https://www.tylo.com/",
       "type": "traditional",
-      "products": ["heaters", "saunas", "steam-generators"],
+      "products": [
+        "heaters",
+        "saunas",
+        "steam-generators"
+      ],
       "market": "global",
       "unique_angle": "Swedish quality. B2B focus. Commercial installations.",
       "content_opportunities": [
@@ -61,7 +185,54 @@
         "Quality engineering stories"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Swedish heritage brand. Strong B2B presence."
+      "notes": "Swedish heritage brand. Strong B2B presence.",
+      "priceTier": "premium",
+      "bestFor": "Tylö is best suited for commercial and high-end residential sauna installations, as well as consumers seeking a premium, Swedish-designed sauna experience.",
+      "supportWarranty": "Tylö provides a warranty, but the specific details are not clearly stated on their website.",
+      "buyerVerdict": "Tylö is a premium, Swedish sauna brand with a strong heritage and focus on quality engineering and design. They offer a range of traditional, infrared, and hybrid sauna options, making them a good choice for commercial and high-end residential installations.",
+      "strengths": [
+        "75 years of Scandinavian sauna tradition and expertise",
+        "Focus on quality engineering and design",
+        "Offers a range of traditional, infrared, and hybrid sauna options",
+        "Strong B2B presence and experience with commercial/spa installations"
+      ],
+      "keyModels": [
+        "Traditional saunas",
+        "Infrared saunas",
+        "Hybrid saunas"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.tylo.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:28.906Z"
+          },
+          {
+            "url": "https://tylo.com/terms-of-use/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:28.906Z"
+          },
+          {
+            "url": "https://tylo.com/privacy-policy/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:28.906Z"
+          },
+          {
+            "url": "https://tylo.com/products/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:28.906Z"
+          },
+          {
+            "url": "https://tylo.com/traditional-saunas/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:28.906Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 62,
+        "status": "enriched"
+      }
     },
     {
       "name": "Narvi",
@@ -69,7 +240,10 @@
       "founded": 1937,
       "website": "https://www.narvi.fi/",
       "type": "traditional",
-      "products": ["wood-burning-heaters", "electric-heaters"],
+      "products": [
+        "wood-burning-heaters",
+        "electric-heaters"
+      ],
       "market": "finland-focused",
       "unique_angle": "Family-owned. Wood-burning specialist. Authentic.",
       "content_opportunities": [
@@ -78,7 +252,61 @@
         "Craftsmanship angle"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Authentic Finnish. Wood-burning experts."
+      "notes": "Authentic Finnish. Wood-burning experts.",
+      "bestFor": "Traditional sauna enthusiasts in Finland",
+      "buyerVerdict": "Narvi is a well-established, family-owned Finnish brand that specializes in traditional wood-burning sauna heaters. They are known for their focus on authentic Finnish sauna culture and craftsmanship.",
+      "strengths": [
+        "Family-owned business with a long history since 1937",
+        "Specializes in wood-burning sauna heaters",
+        "Focuses on authentic Finnish sauna culture and craftsmanship"
+      ],
+      "keyModels": [
+        "Narvi Kaamos",
+        "Narvi Velvet 35",
+        "Narvi Flow controller"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.narvi.fi/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:53.545Z"
+          },
+          {
+            "url": "https://narvi.fi/lauteilla/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:53.545Z"
+          },
+          {
+            "url": "https://narvi.fi/toihin-meille/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:53.545Z"
+          },
+          {
+            "url": "https://narvi.fi/tuotetuki/asennus-ja-kayttoohjeet/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:53.545Z"
+          },
+          {
+            "url": "https://narvi.fi/asennus-ja-kayttoohjeet/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:53.545Z"
+          },
+          {
+            "url": "https://narvi.fi/kiukaan-asennus-kaytto-ja-hoito/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:53.545Z"
+          },
+          {
+            "url": "https://narvi.fi/ohjevideot/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:33:53.545Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 49,
+        "status": "enriched"
+      }
     },
     {
       "name": "Kirami",
@@ -86,7 +314,11 @@
       "founded": 2001,
       "website": "https://kirami.com/",
       "type": "outdoor",
-      "products": ["hot-tubs", "saunas", "outdoor-wellness"],
+      "products": [
+        "hot-tubs",
+        "saunas",
+        "outdoor-wellness"
+      ],
       "market": "europe",
       "unique_angle": "Outdoor focus. Hot tubs + sauna combo.",
       "content_opportunities": [
@@ -95,7 +327,59 @@
         "Nordic outdoor culture"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Great for outdoor/cabin content."
+      "notes": "Great for outdoor/cabin content.",
+      "priceTier": "premium",
+      "bestFor": "Outdoor enthusiasts, cabin/retreat owners, and those seeking a Nordic wellness lifestyle",
+      "buyerVerdict": "Kirami is a premium Finnish brand focused on high-end outdoor saunas, hot tubs, and wellness products for the cabin/retreat lifestyle. They offer unique designs, sustainable features, and a strong emphasis on the Nordic outdoor experience.",
+      "strengths": [
+        "Specializes in outdoor saunas and hot tubs",
+        "Offers unique sauna and outdoor wellness products like the FinVision sauna with large windows",
+        "Uses high-quality materials like Corten steel",
+        "Provides off-grid solar-powered sauna options",
+        "Focuses on environmental sustainability and efficiency"
+      ],
+      "keyModels": [
+        "FinVision sauna",
+        "FinVision Annex (sauna, lounge, terrace, changing room combo)",
+        "FinVision Zero off-grid solar sauna"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://kirami.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:14.355Z"
+          },
+          {
+            "url": "https://www.kirami.com/blog/valtteri-bottas-enjoys-kirami-finvision-sauna",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:14.355Z"
+          },
+          {
+            "url": "https://www.kirami.com/data-protection-statement",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:14.355Z"
+          },
+          {
+            "url": "https://www.kirami.com/user/login",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:14.355Z"
+          },
+          {
+            "url": "https://www.kirami.com/retailers",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:14.355Z"
+          },
+          {
+            "url": "https://www.kirami.com/blog",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:14.355Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 57,
+        "status": "enriched"
+      }
     },
     {
       "name": "Almost Heaven Saunas",
@@ -103,7 +387,11 @@
       "founded": 1979,
       "website": "https://almostheaven.com/",
       "type": "barrel-cabin",
-      "products": ["barrel-saunas", "cabin-saunas", "outdoor"],
+      "products": [
+        "barrel-saunas",
+        "cabin-saunas",
+        "outdoor"
+      ],
       "market": "north-america",
       "unique_angle": "DTC leader. Barrel saunas. Active community.",
       "content_opportunities": [
@@ -115,7 +403,58 @@
         "instagram": "@almostheavensaunas"
       },
       "partnership_status": "not_contacted",
-      "notes": "Great for buyer community content. Active reviews."
+      "notes": "Great for buyer community content. Active reviews.",
+      "priceTier": "premium",
+      "bestFor": "Homeowners looking for high-quality, customizable barrel and cabin saunas with a focus on community and customer experience",
+      "supportWarranty": "Limited Lifetime Warranty covering manufacturing defects, with 1-year warranty on heating elements and 5 years on other components",
+      "buyerVerdict": "Almost Heaven Saunas is a leading brand in the direct-to-consumer barrel and cabin sauna market, known for its high-quality products, strong community focus, and excellent customer support. The brand offers a wide range of customizable saunas made with premium materials and backed by a comprehensive warranty.",
+      "strengths": [
+        "Leader in direct-to-consumer (DTC) barrel and cabin saunas",
+        "Offers a wide range of products including barrel saunas, cabin saunas, and outdoor saunas",
+        "Strong focus on community engagement and customer support",
+        "Uses high-quality materials like thermally modified Nordic Pine and Linden wood"
+      ],
+      "keyModels": [
+        "Kuuma Barrel Sauna",
+        "Heritage Barrel Sauna Series"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://almostheaven.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:39.262Z"
+          },
+          {
+            "url": "https://almostheaven.com/policies/terms-of-service",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:39.262Z"
+          },
+          {
+            "url": "https://almostheaven.com/pages/perfect-heater-quiz",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:39.262Z"
+          },
+          {
+            "url": "https://almostheaven.com/products/barrel-sauna-rain-jacket",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:39.262Z"
+          },
+          {
+            "url": "https://almostheaven.com/policies/privacy-policy",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:39.262Z"
+          },
+          {
+            "url": "https://almostheaven.com/products/kuuma-barrel-sauna",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:39.262Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 62,
+        "status": "enriched"
+      }
     },
     {
       "name": "Finnleo",
@@ -123,7 +462,11 @@
       "founded": 1919,
       "website": "https://www.finnleo.com/",
       "type": "traditional",
-      "products": ["saunas", "heaters", "infrared"],
+      "products": [
+        "saunas",
+        "heaters",
+        "infrared"
+      ],
       "market": "north-america",
       "owned_by": "TylöHelo Group",
       "unique_angle": "Premium US market. Hybrid (traditional + infrared).",
@@ -133,14 +476,64 @@
         "Dealer network stories"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Premium positioning. Part of TylöHelo."
+      "notes": "Premium positioning. Part of TylöHelo.",
+      "priceTier": "premium",
+      "bestFor": "Finnleo is ideal for consumers seeking a premium, authentic Finnish sauna experience for their home.",
+      "supportWarranty": "Finnleo provides a documented warranty when purchased from an authorized dealer and the product is properly installed and maintained.",
+      "buyerVerdict": "Finnleo is a premium sauna brand with a focus on authentic Finnish design and engineering. They offer a wide range of traditional, infrared, and hybrid sauna options for the North American market.",
+      "strengths": [
+        "Quality construction built to last and perform well",
+        "Scandinavian design with clean lines and natural wood tones",
+        "Uses genuine Finnish heaters designed and built in Finland",
+        "Offers traditional, infrared, and hybrid sauna options"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.finnleo.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:59.803Z"
+          },
+          {
+            "url": "https://www.finnleo.com/warranty-registration",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:59.803Z"
+          },
+          {
+            "url": "https://www.finnleo.com/about",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:59.803Z"
+          },
+          {
+            "url": "https://www.finnleo.com/become-a-dealer",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:59.803Z"
+          },
+          {
+            "url": "https://www.finnleo.com/saunalogic2",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:59.803Z"
+          },
+          {
+            "url": "https://www.finnleo.com/privacy-policy",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:34:59.803Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "name": "Clearlight Saunas",
       "country": "USA",
       "website": "https://www.clearlight-saunas.com/",
       "type": "infrared",
-      "products": ["infrared-saunas", "full-spectrum"],
+      "products": [
+        "infrared-saunas",
+        "full-spectrum"
+      ],
       "market": "north-america",
       "unique_angle": "Infrared leader. Health claims. Celebrity endorsements.",
       "content_opportunities": [
@@ -149,7 +542,40 @@
         "Celebrity/influencer usage"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Infrared market leader. Strong health marketing."
+      "notes": "Infrared market leader. Strong health marketing.",
+      "priceTier": "premium",
+      "bestFor": "Consumers seeking high-quality, health-focused infrared saunas with a premium brand experience",
+      "supportWarranty": "Clearlight offers a lifetime warranty on their saunas, which is one of the most comprehensive warranties in the industry",
+      "buyerVerdict": "Clearlight Saunas is a premium infrared sauna brand that is highly regarded for its focus on health and wellness benefits, high-quality construction, and extensive warranty coverage. While their saunas are on the more expensive end of the market, they offer a premium brand experience that may be worth the investment for consumers seeking a top-of-the-line infrared sauna.",
+      "cautionPoints": [
+        "Clearlight saunas are on the more expensive end of the infrared sauna market"
+      ],
+      "strengths": [
+        "Clearlight is a leading brand in the infrared sauna industry with a strong focus on health and wellness benefits",
+        "Clearlight saunas use high-quality materials and construction",
+        "Clearlight offers a wide range of infrared and full-spectrum sauna models to choose from",
+        "Clearlight saunas come with extensive warranty coverage"
+      ],
+      "weaknesses": [
+        "Clearlight saunas are more expensive compared to some other infrared sauna brands"
+      ],
+      "keyModels": [
+        "Sanctuary 2-person infrared sauna",
+        "Jacuzzi infrared sauna",
+        "Clearlight Sauna Premier IS-2 full-spectrum sauna"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.clearlight-saunas.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:11.475Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 76,
+        "status": "enriched"
+      }
     },
     {
       "name": "Sunlighten",
@@ -157,7 +583,10 @@
       "founded": 1999,
       "website": "https://www.sunlighten.com/",
       "type": "infrared",
-      "products": ["infrared-saunas", "portable"],
+      "products": [
+        "infrared-saunas",
+        "portable"
+      ],
       "market": "north-america",
       "unique_angle": "Full-spectrum infrared. Medical research partnerships.",
       "content_opportunities": [
@@ -166,14 +595,47 @@
         "Health practitioner angle"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Research-focused infrared brand."
+      "notes": "Research-focused infrared brand.",
+      "priceTier": "premium",
+      "bestFor": "Health-conscious consumers seeking medical-grade infrared saunas",
+      "supportWarranty": "Lifetime warranty on heaters and 5-year warranty on structure",
+      "buyerVerdict": "Sunlighten is a premium infrared sauna brand focused on medical research and partnerships with healthcare providers. Their saunas may be more expensive but offer advanced full-spectrum infrared technology and strong warranties.",
+      "cautionPoints": [
+        "Sunlighten saunas may be more expensive than some other brands"
+      ],
+      "strengths": [
+        "Offers full-spectrum infrared technology backed by medical research",
+        "Partners with healthcare providers and medical institutions",
+        "Provides detailed information on health benefits of infrared saunas"
+      ],
+      "keyModels": [
+        "Signature Collection",
+        "Solo System",
+        "Portable Saunas"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.sunlighten.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:21.754Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 68,
+        "status": "enriched"
+      }
     },
     {
       "name": "SaunaSpace",
       "country": "USA",
       "website": "https://sauna.space/",
       "type": "red-light",
-      "products": ["near-infrared", "red-light", "portable"],
+      "products": [
+        "near-infrared",
+        "red-light",
+        "portable"
+      ],
       "market": "biohacker",
       "unique_angle": "Biohacker niche. Near-infrared. Red light therapy combo.",
       "content_opportunities": [
@@ -185,14 +647,73 @@
         "instagram": "@saunaspace"
       },
       "partnership_status": "not_contacted",
-      "notes": "Biohacker-focused. Unique positioning."
+      "notes": "Biohacker-focused. Unique positioning.",
+      "priceTier": "premium",
+      "bestFor": "biohackers",
+      "supportWarranty": "10-year warranty on most products, 5-year warranty on SilverLining and FireLight bulb",
+      "buyerVerdict": "SaunaSpace is a premium brand focused on the biohacking market, offering infrared saunas and red light therapy products made with high-quality, non-toxic materials and backed by positive testimonials from health experts.",
+      "cautionPoints": [
+        "Signature-required shipping for orders over $200 may be inconvenient for some buyers"
+      ],
+      "strengths": [
+        "Combines near-infrared light therapy with zero EMF, zero flicker technology for deep cellular repair",
+        "Made with non-toxic materials like organic cotton and sustainable wood",
+        "Portable design allows users to take their sauna anywhere",
+        "Incandescent bulb is preferred by some over LED lights",
+        "Provides grounding and red light therapy benefits",
+        "Backed by positive testimonials from health experts and influencers"
+      ],
+      "keyModels": [
+        "FireLight Infrared Sauna",
+        "Glow Infrared Therapy Light"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://sauna.space/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:42.906Z"
+          },
+          {
+            "url": "https://sauna.space/sitemap.xml",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:42.906Z"
+          },
+          {
+            "url": "https://sauna.space/policies/shipping-policy",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:42.906Z"
+          },
+          {
+            "url": "https://sauna.space/policies/refund-policy",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:42.906Z"
+          },
+          {
+            "url": "https://sauna.space/pages/trademarks",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:42.906Z"
+          },
+          {
+            "url": "https://sauna.space/pages/warranty",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:36:42.906Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 68,
+        "status": "enriched"
+      }
     },
     {
       "name": "Barrel Sauna Co",
       "country": "USA",
       "website": "https://bastubarrel.com/",
       "type": "barrel",
-      "products": ["barrel-saunas", "kits"],
+      "products": [
+        "barrel-saunas",
+        "kits"
+      ],
       "market": "north-america",
       "unique_angle": "DIY kits. Budget-friendly. Hands-on community.",
       "content_opportunities": [
@@ -201,14 +722,77 @@
         "Builder community"
       ],
       "partnership_status": "not_contacted",
-      "notes": "DIY angle. Great for build content."
+      "notes": "DIY angle. Great for build content.",
+      "priceTier": "budget",
+      "bestFor": "DIY enthusiasts and those looking for a budget-friendly sauna option",
+      "buyerVerdict": "Barrel Sauna Co is a budget-friendly brand that caters to DIY enthusiasts, offering barrel sauna kits and a focus on the hands-on building experience. While details on product quality are limited, the brand's community-driven approach and affordable pricing make it an appealing option for those looking to build their own sauna on a budget.",
+      "cautionPoints": [
+        "No information on specific product quality or durability"
+      ],
+      "strengths": [
+        "Offers DIY sauna kits for a hands-on building experience",
+        "Focuses on budget-friendly sauna solutions",
+        "Builds a sense of community around the sauna building process"
+      ],
+      "weaknesses": [
+        "Limited information on product specifications and features"
+      ],
+      "keyModels": [
+        "Barrel saunas",
+        "Sauna kits"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://bastubarrel.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:05.047Z"
+          },
+          {
+            "url": "https://bastubarrel.com/faq/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:05.047Z"
+          },
+          {
+            "url": "https://bastubarrel.com/about/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:05.047Z"
+          },
+          {
+            "url": "https://bastubarrel.com/contact/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:05.047Z"
+          },
+          {
+            "url": "https://bastubarrel.com/custom-saunas/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:05.047Z"
+          },
+          {
+            "url": "https://bastubarrel.com/privacy-policy/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:05.047Z"
+          },
+          {
+            "url": "https://bastubarrel.com/terms-of-use/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:05.047Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 71,
+        "status": "enriched"
+      }
     },
     {
       "name": "Saunum",
       "country": "Estonia",
       "website": "https://saunum.com/",
       "type": "traditional",
-      "products": ["air-purification-heaters", "aromatherapy"],
+      "products": [
+        "air-purification-heaters",
+        "aromatherapy"
+      ],
       "market": "global",
       "unique_angle": "Air purification tech. Aromatherapy integration.",
       "content_opportunities": [
@@ -217,7 +801,56 @@
         "Wellness integration"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Innovative tech. Air purification unique angle."
+      "notes": "Innovative tech. Air purification unique angle.",
+      "priceTier": "premium",
+      "bestFor": "Saunum's air purification and aromatherapy features make it well-suited for those seeking a high-end, wellness-focused sauna experience for the whole family.",
+      "buyerVerdict": "Saunum offers a premium sauna experience with innovative air purification and aromatherapy features, making it a compelling choice for those seeking a high-end, wellness-focused sauna.",
+      "strengths": [
+        "Patented air-blending system that traps and mixes hot steam with cooler air for a more even and comfortable sauna experience",
+        "Integrates air purification and aromatherapy features for enhanced wellness benefits",
+        "Positive customer feedback, with over 7,000 satisfied customers"
+      ],
+      "keyModels": [
+        "Saunum Experience",
+        "Saunum Luxury"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://saunum.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:27.031Z"
+          },
+          {
+            "url": "https://saunum.com/en/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:27.031Z"
+          },
+          {
+            "url": "https://saunum.com/de/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:27.031Z"
+          },
+          {
+            "url": "https://saunum.com/technology-page/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:27.031Z"
+          },
+          {
+            "url": "https://saunum.com/saunakerise-kalkulaator/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:27.031Z"
+          },
+          {
+            "url": "https://saunum.com/contact-us/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:27.031Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 57,
+        "status": "enriched"
+      }
     },
     {
       "name": "Klafs",
@@ -225,7 +858,11 @@
       "founded": 1928,
       "website": "https://www.klafs.com/",
       "type": "luxury",
-      "products": ["saunas", "spa-systems", "steam-baths"],
+      "products": [
+        "saunas",
+        "spa-systems",
+        "steam-baths"
+      ],
       "market": "europe",
       "unique_angle": "Luxury segment. Retractable saunas. Hotel installations.",
       "content_opportunities": [
@@ -234,14 +871,37 @@
         "Hotel spa features"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Premium German engineering. Famous for retractable sauna."
+      "notes": "Premium German engineering. Famous for retractable sauna.",
+      "priceTier": "luxury",
+      "bestFor": "Luxury home and hotel sauna buyers seeking premium German engineering and design",
+      "buyerVerdict": "Klafs is a premium German sauna brand known for its luxury home and hotel installations, including innovative retractable sauna designs. They offer top-tier engineering and design for discerning buyers seeking a high-end sauna experience.",
+      "strengths": [
+        "Premium German engineering and design",
+        "Offers retractable saunas for space-saving installations",
+        "Specializes in high-end hotel and spa sauna systems"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.klafs.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:37:43.042Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 51,
+        "status": "enriched"
+      }
     },
     {
       "name": "Polar Saunas",
       "country": "Finland",
       "website": "https://www.polarsauna.com/",
       "type": "traditional",
-      "products": ["saunas", "steam-rooms"],
+      "products": [
+        "saunas",
+        "steam-rooms"
+      ],
       "market": "europe",
       "unique_angle": "Finnish craftsmanship. Mid-market.",
       "content_opportunities": [
@@ -249,14 +909,64 @@
         "Value positioning"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Solid Finnish brand."
+      "notes": "Solid Finnish brand.",
+      "priceTier": "mid-range",
+      "bestFor": "Polar Saunas are ideal for those seeking high-quality, Finnish-crafted saunas at a mid-market price point.",
+      "supportWarranty": "Polar Sauna offers an industry-leading warranty.",
+      "buyerVerdict": "Polar Saunas is a solid, mid-range Finnish sauna brand that offers high-quality craftsmanship, customization options, and excellent customer support.",
+      "strengths": [
+        "Uses the finest vertical grain cedar",
+        "Offers pre-hung doors, pre-assembled benches and backrests for easier installation",
+        "Provides custom design and sizing options",
+        "Offers world-class customer support and an industry-leading warranty"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.polarsauna.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:04.526Z"
+          },
+          {
+            "url": "https://www.polarsauna.com/privacy-policy-cookie-restriction-mode",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:04.526Z"
+          },
+          {
+            "url": "https://www.polarsauna.com/sauna-accessories/other-sauna-accessories.html",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:04.526Z"
+          },
+          {
+            "url": "https://www.polarsauna.com/polar-replacement-parts.html",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:04.526Z"
+          },
+          {
+            "url": "https://www.polarsauna.com/health-benefits",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:04.526Z"
+          },
+          {
+            "url": "https://www.polarsauna.com/polar-about-us",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:04.526Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 56,
+        "status": "enriched"
+      }
     },
     {
       "name": "Durasage",
       "country": "USA",
       "website": "https://www.durasage.com/",
       "type": "portable",
-      "products": ["portable-saunas", "steam-saunas"],
+      "products": [
+        "portable-saunas",
+        "steam-saunas"
+      ],
       "market": "budget",
       "unique_angle": "Budget portable. Entry-level market.",
       "content_opportunities": [
@@ -264,7 +974,54 @@
         "Apartment/rental solutions"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Budget segment. Good for beginner content."
+      "notes": "Budget segment. Good for beginner content.",
+      "priceTier": "budget",
+      "bestFor": "Beginner sauna buyers, apartment/rental dwellers",
+      "buyerVerdict": "Durasage offers a range of budget-friendly portable and steam saunas, making them a good option for first-time sauna buyers or those with limited space. Their products provide an affordable entry point into the sauna market.",
+      "strengths": [
+        "Budget-friendly pricing",
+        "Portable and compact design"
+      ],
+      "keyModels": [
+        "Portable steam saunas"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.durasage.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:26.847Z"
+          },
+          {
+            "url": "https://durasagehealth.com/products/10-oz-kids-cup-with-straw-lid",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:26.847Z"
+          },
+          {
+            "url": "https://durasagehealth.com/products/10-oz-rise-food-box-snack",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:26.847Z"
+          },
+          {
+            "url": "https://durasagehealth.com/products/10oz-rise-lowball-tumbler-mossy-oak",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:26.847Z"
+          },
+          {
+            "url": "https://durasagehealth.com/products/10-oz-rise-lowball-tumbler",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:26.847Z"
+          },
+          {
+            "url": "https://durasagehealth.com/products/10-oz-rise-wine-tumbler",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:26.847Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 57,
+        "status": "enriched"
+      }
     },
     {
       "name": "Health Mate",
@@ -272,7 +1029,9 @@
       "founded": 1979,
       "website": "https://www.healthmatesauna.com/",
       "type": "infrared",
-      "products": ["infrared-saunas"],
+      "products": [
+        "infrared-saunas"
+      ],
       "market": "north-america",
       "unique_angle": "Long history in infrared. EMF-focused.",
       "content_opportunities": [
@@ -280,10 +1039,69 @@
         "Infrared heritage"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Established infrared brand."
+      "notes": "Established infrared brand.",
+      "priceTier": "premium",
+      "bestFor": "Individuals seeking a high-quality, full-spectrum infrared sauna experience for home use",
+      "supportWarranty": "Lifetime warranty on heaters, 5-year warranty on sauna structure",
+      "buyerVerdict": "Health Mate is a well-established brand in the infrared sauna market, offering high-quality, full-spectrum infrared saunas with advanced features like app control and red light therapy. Their saunas are built to last with eco-friendly materials, but buyers should be aware of important safety precautions for certain medical conditions and age groups.",
+      "cautionPoints": [
+        "Not recommended for individuals with certain medical conditions like cardiovascular issues, obesity, or diabetes without consulting a physician first",
+        "Not recommended for use by children or the elderly without close supervision and lower temperature/duration settings",
+        "Not recommended for use by individuals under the influence of alcohol or drugs"
+      ],
+      "strengths": [
+        "Long history in the infrared sauna market since 1979",
+        "Uses patented Tecoloy heating technology for full-spectrum infrared heat",
+        "Saunas are made with eco-friendly, antimicrobial mahogany",
+        "Offers models with advanced features like app control and red light therapy"
+      ],
+      "weaknesses": [
+        null
+      ],
+      "keyModels": [
+        "Smart Infrared Series",
+        "Classic Design Series",
+        "Commercial Saunas"
+      ],
+      "enrichment": {
+        "sources": [
+          {
+            "url": "https://www.healthmatesauna.com/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:47.937Z"
+          },
+          {
+            "url": "https://healthmatesauna.com/privacy/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:47.937Z"
+          },
+          {
+            "url": "https://healthmatesauna.com/fda-disclaimer/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:47.937Z"
+          },
+          {
+            "url": "https://healthmatesauna.com/contraindications/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:47.937Z"
+          },
+          {
+            "url": "https://healthmatesauna.com/catalog/",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:47.937Z"
+          },
+          {
+            "url": "https://healthmatesauna.com/cart",
+            "label": "Official website",
+            "fetchedAt": "2026-03-15T16:38:47.937Z"
+          }
+        ],
+        "lastVerified": "2026-03-15",
+        "qualityScore": 76,
+        "status": "enriched"
+      }
     }
   ],
-
   "aggregators_and_retailers": [
     {
       "name": "Costco Saunas",
@@ -304,27 +1122,67 @@
       "notes": "Trending products, reviews, new entries."
     }
   ],
-
   "content_angles": {
     "by_type": {
-      "traditional": ["Harvia", "Huum", "Tylö", "Narvi"],
-      "infrared": ["Clearlight", "Sunlighten", "Health Mate"],
-      "barrel": ["Almost Heaven", "Barrel Sauna Co"],
-      "luxury": ["Klafs", "Finnleo"],
-      "biohacker": ["SaunaSpace"],
-      "portable": ["Durasage"]
+      "traditional": [
+        "Harvia",
+        "Huum",
+        "Tylö",
+        "Narvi"
+      ],
+      "infrared": [
+        "Clearlight",
+        "Sunlighten",
+        "Health Mate"
+      ],
+      "barrel": [
+        "Almost Heaven",
+        "Barrel Sauna Co"
+      ],
+      "luxury": [
+        "Klafs",
+        "Finnleo"
+      ],
+      "biohacker": [
+        "SaunaSpace"
+      ],
+      "portable": [
+        "Durasage"
+      ]
     },
     "by_price": {
-      "budget": ["Durasage", "Barrel Sauna Co"],
-      "mid": ["Almost Heaven", "Polar"],
-      "premium": ["Harvia", "Huum", "Tylö"],
-      "luxury": ["Klafs", "Finnleo"]
+      "budget": [
+        "Durasage",
+        "Barrel Sauna Co"
+      ],
+      "mid": [
+        "Almost Heaven",
+        "Polar"
+      ],
+      "premium": [
+        "Harvia",
+        "Huum",
+        "Tylö"
+      ],
+      "luxury": [
+        "Klafs",
+        "Finnleo"
+      ]
     },
     "by_innovation": {
-      "smart_tech": ["Huum", "Harvia"],
-      "air_purification": ["Saunum"],
-      "red_light": ["SaunaSpace"],
-      "space_saving": ["Klafs"]
+      "smart_tech": [
+        "Huum",
+        "Harvia"
+      ],
+      "air_purification": [
+        "Saunum"
+      ],
+      "red_light": [
+        "SaunaSpace"
+      ],
+      "space_saving": [
+        "Klafs"
+      ]
     }
   }
 }

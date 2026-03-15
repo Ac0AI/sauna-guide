@@ -176,11 +176,72 @@ export default async function BrandPage({ params }: Props) {
           )}
         </section>
 
+        {/* Strengths & Weaknesses */}
+        {(manufacturer.strengths?.length || manufacturer.weaknesses?.length) ? (
+            <section className="mb-12 grid md:grid-cols-2 gap-6">
+                {manufacturer.strengths && manufacturer.strengths.length > 0 && (
+                    <div className="p-6 bg-emerald-50 rounded-xl border border-emerald-200">
+                        <h3 className="font-medium text-emerald-900 mb-3">Strengths</h3>
+                        <ul className="space-y-2">
+                            {manufacturer.strengths.map((s, i) => (
+                                <li key={i} className="text-emerald-800 text-sm flex items-start gap-2">
+                                    <span className="mt-0.5">+</span>{s}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
+                {manufacturer.weaknesses && manufacturer.weaknesses.length > 0 && (
+                    <div className="p-6 bg-amber-50 rounded-xl border border-amber-200">
+                        <h3 className="font-medium text-amber-900 mb-3">Watch Out For</h3>
+                        <ul className="space-y-2">
+                            {manufacturer.weaknesses.map((w, i) => (
+                                <li key={i} className="text-amber-800 text-sm flex items-start gap-2">
+                                    <span className="mt-0.5">-</span>{w}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
+            </section>
+        ) : null}
+
+        {/* Buyer Verdict */}
+        {manufacturer.buyerVerdict && (
+            <section className="mb-12 p-6 bg-white rounded-xl border-2 border-sauna-oak/30">
+                <h2 className="font-display text-xl font-medium text-sauna-ink mb-3">Our Verdict</h2>
+                <p className="text-sauna-slate leading-relaxed">{manufacturer.buyerVerdict}</p>
+                {manufacturer.priceTier && (
+                    <p className="mt-3 text-sm text-sauna-slate">
+                        Price tier: <span className="font-medium text-sauna-ink capitalize">{manufacturer.priceTier}</span>
+                    </p>
+                )}
+                {manufacturer.bestFor && (
+                    <p className="text-sm text-sauna-slate">
+                        Best for: <span className="font-medium text-sauna-ink">{manufacturer.bestFor}</span>
+                    </p>
+                )}
+            </section>
+        )}
+
+        {/* Key Models */}
+        {manufacturer.keyModels && manufacturer.keyModels.length > 0 && (
+            <section className="mb-12">
+                <h2 className="font-display text-2xl font-medium text-sauna-ink mb-4">Key Models</h2>
+                <div className="flex flex-wrap gap-3">
+                    {manufacturer.keyModels.map((model, i) => (
+                        <span key={i} className="px-4 py-2 bg-sauna-linen rounded-lg text-sauna-ink text-sm border border-sauna-ash/30">
+                            {model}
+                        </span>
+                    ))}
+                </div>
+            </section>
+        )}
+
         {/* Public company info */}
         {manufacturer.public && manufacturer.stock && (
           <section className="mb-12 p-6 bg-white rounded-xl border border-sauna-ash/30">
             <div className="flex items-center gap-3 mb-2">
-              <span className="text-2xl">📈</span>
               <h3 className="font-medium text-sauna-ink">Publicly Traded</h3>
             </div>
             <p className="text-sauna-slate">
@@ -188,6 +249,23 @@ export default async function BrandPage({ params }: Props) {
               This means financial transparency and regular market updates.
             </p>
           </section>
+        )}
+
+        {/* Sources */}
+        {manufacturer.enrichment?.sources && manufacturer.enrichment.sources.length > 0 && (
+            <section className="mb-12 text-xs text-sauna-slate/60 border-t border-sauna-ash/20 pt-4">
+                <p className="font-medium mb-1">Sources</p>
+                <ul className="space-y-0.5">
+                    {manufacturer.enrichment.sources.map((s, i) => (
+                        <li key={i}>
+                            <a href={s.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                {s.label}
+                            </a>
+                            {s.fetchedAt && ` — ${s.fetchedAt.split('T')[0]}`}
+                        </li>
+                    ))}
+                </ul>
+            </section>
         )}
 
         {/* External links */}

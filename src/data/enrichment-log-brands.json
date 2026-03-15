@@ -1,0 +1,117 @@
+{
+  "runAt": "2026-03-15T16:38:51.045Z",
+  "log": [
+    {
+      "slug": "harvia",
+      "name": "Harvia",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 75
+    },
+    {
+      "slug": "huum",
+      "name": "Huum",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 79
+    },
+    {
+      "slug": "tyl",
+      "name": "Tylö",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 79
+    },
+    {
+      "slug": "narvi",
+      "name": "Narvi",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 67
+    },
+    {
+      "slug": "kirami",
+      "name": "Kirami",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 75
+    },
+    {
+      "slug": "almost-heaven-saunas",
+      "name": "Almost Heaven Saunas",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 79
+    },
+    {
+      "slug": "finnleo",
+      "name": "Finnleo",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 73
+    },
+    {
+      "slug": "clearlight-saunas",
+      "name": "Clearlight Saunas",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 94
+    },
+    {
+      "slug": "sunlighten",
+      "name": "Sunlighten",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 86
+    },
+    {
+      "slug": "saunaspace",
+      "name": "SaunaSpace",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 86
+    },
+    {
+      "slug": "barrel-sauna-co",
+      "name": "Barrel Sauna Co",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 89
+    },
+    {
+      "slug": "saunum",
+      "name": "Saunum",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 75
+    },
+    {
+      "slug": "klafs",
+      "name": "Klafs",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 68
+    },
+    {
+      "slug": "polar-saunas",
+      "name": "Polar Saunas",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 73
+    },
+    {
+      "slug": "durasage",
+      "name": "Durasage",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 75
+    },
+    {
+      "slug": "health-mate",
+      "name": "Health Mate",
+      "status": "enriched",
+      "scoreBefore": 13,
+      "scoreAfter": 94
+    }
+  ]
+}
