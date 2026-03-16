@@ -375,26 +375,38 @@ export default async function SaunaPage({ params }: { params: Promise<{ id: stri
             <div className="bg-sauna-linen p-6 rounded-xl border border-sauna-ash/50">
                 <h3 className="text-lg font-medium text-sauna-ink mb-4">Location</h3>
                 {sauna.location.coordinates ? (
-                    <div className="aspect-video rounded-lg mb-4 overflow-hidden bg-sauna-ash/10">
-                        <iframe
-                            src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || ''}&q=${sauna.location.coordinates.lat},${sauna.location.coordinates.lng}&zoom=15`}
-                            width="100%"
-                            height="100%"
-                            style={{ border: 0 }}
-                            allowFullScreen
+                    <a
+                        href={`https://www.google.com/maps/search/?api=1&query=${sauna.location.coordinates.lat},${sauna.location.coordinates.lng}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block aspect-video rounded-lg mb-4 overflow-hidden bg-sauna-ash/10 relative group"
+                    >
+                        <img
+                            src={`https://maps.googleapis.com/maps/api/staticmap?center=${sauna.location.coordinates.lat},${sauna.location.coordinates.lng}&zoom=14&size=600x300&scale=2&markers=color:red%7C${sauna.location.coordinates.lat},${sauna.location.coordinates.lng}&key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY || ''}`}
+                            alt={`Map of ${sauna.name}`}
+                            className="w-full h-full object-cover"
                             loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            title={`Map of ${sauna.name}`}
                         />
-                    </div>
+                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                            <span className="opacity-0 group-hover:opacity-100 transition-opacity text-white text-sm font-medium bg-black/50 px-3 py-1 rounded-full">
+                                Open in Google Maps
+                            </span>
+                        </div>
+                    </a>
                 ) : (
-                    <div className="aspect-video bg-sauna-ash/10 rounded-lg mb-4 flex items-center justify-center">
-                        <svg className="w-8 h-8 text-sauna-oak/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5}
-                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                    </div>
+                    <a
+                        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(sauna.name + ' ' + sauna.location.city)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block aspect-video bg-sauna-ash/10 rounded-lg mb-4 flex items-center justify-center hover:bg-sauna-ash/20 transition-colors"
+                    >
+                        <div className="text-center">
+                            <svg className="w-8 h-8 text-sauna-oak/40 mx-auto mb-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z" />
+                            </svg>
+                            <span className="text-xs text-sauna-slate">View on Google Maps</span>
+                        </div>
+                    </a>
                 )}
                 {sauna.location.address && (
                     <p className="text-sauna-ink text-sm mb-1">{sauna.location.address}</p>

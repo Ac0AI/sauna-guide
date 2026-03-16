@@ -149,15 +149,15 @@ export function NewsletterSignup({
 
   if (variant === 'buying-guide') {
     return (
-      <form onSubmit={handleSubmit} className={`max-w-lg mx-auto ${className}`}>
-        <div className="flex flex-col sm:flex-row gap-3">
+      <form onSubmit={handleSubmit} className={`w-full ${className}`}>
+        <div className="flex flex-col gap-3">
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Your email address"
             required
-            className="flex-1 px-5 py-3.5 bg-sauna-paper border border-sauna-ash
+            className="w-full px-5 py-3.5 bg-sauna-paper border border-sauna-ash
                        rounded-lg text-sauna-ink placeholder:text-sauna-stone
                        focus:outline-hidden focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
                        transition-all duration-300"
@@ -165,7 +165,7 @@ export function NewsletterSignup({
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="px-8 py-3.5 bg-sauna-sand text-sauna-charcoal font-medium rounded-lg
+            className="w-full px-8 py-3.5 bg-sauna-sand text-sauna-charcoal font-medium rounded-lg
                        hover:bg-sauna-sand/90 transition-colors duration-300
                        disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
           >
