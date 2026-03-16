@@ -18,6 +18,11 @@ const nextConfig: NextConfig = {
         destination: '/accessories/:slug',
         permanent: true,
       },
+      {
+        source: '/guides/which-home-sauna',
+        destination: '/quiz',
+        permanent: true,
+      },
     ]
   },
   turbopack: {

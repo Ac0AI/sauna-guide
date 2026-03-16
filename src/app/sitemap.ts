@@ -153,6 +153,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/quiz`,
+      lastModified: buildDate,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+    },
+    {
       url: `${baseUrl}/challenge`,
       lastModified: challengeLastModified,
       changeFrequency: 'monthly',

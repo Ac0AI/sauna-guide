@@ -67,7 +67,9 @@ export async function subscribeToNewsletter(subscriber: BeehiivSubscriber): Prom
         send_welcome_email: true,
         utm_source: subscriber.utm_source || 'website',
         utm_medium: subscriber.utm_medium || 'organic',
-        custom_fields: subscriber.custom_fields,
+        custom_fields: subscriber.custom_fields
+          ? Object.entries(subscriber.custom_fields).map(([name, value]) => ({ name, value }))
+          : undefined,
       }),
     }
   )

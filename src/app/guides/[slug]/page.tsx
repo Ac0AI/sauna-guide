@@ -8,6 +8,7 @@ import remarkGfm from 'remark-gfm'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
+import QuizCTA from '@/components/quiz/QuizCTA'
 
 function formatDisplayDate(value?: string) {
   if (!value) return null
@@ -111,6 +112,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   // Custom components for MDX
   const components = {
     h1: (props: ComponentPropsWithoutRef<'h1'>) => <h2 {...props} />,
+    QuizCTA,
   }
 
   return (
