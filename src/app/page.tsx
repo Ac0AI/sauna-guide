@@ -24,7 +24,7 @@ export default function HomePage() {
     <main className="min-h-screen overflow-hidden">
       <Navigation />
 
-      {/* 1. Hero Section */}
+      {/* 1. Hero */}
       <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
         <div className="absolute inset-0">
           <Image
@@ -48,7 +48,7 @@ export default function HomePage() {
 
           <p className="text-lg md:text-xl text-sauna-paper/90 mb-10 animate-fade-up max-w-2xl mx-auto leading-relaxed"
              style={{ animationDelay: '0.1s' }}>
-            The honest guide to getting a home sauna. What it actually costs, what actually matters, and what everyone gets wrong. Free. Independent. No BS.
+            The honest guide to getting a home sauna. What it actually costs, what actually matters, and what everyone gets wrong.
           </p>
 
           <div className="animate-fade-up" style={{ animationDelay: '0.2s' }}>
@@ -67,7 +67,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 2. Problem Section */}
+      {/* 2. Problem */}
       <section className="py-20 md:py-28 bg-sauna-linen relative">
         <div className="max-w-3xl mx-auto px-6">
           <p className="text-sm uppercase tracking-widest text-sauna-walnut mb-4">Sound familiar?</p>
@@ -104,14 +104,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3. The Guide Preview */}
+      {/* 3. The Guide - what you get */}
       <section id="guide" className="py-20 md:py-28 bg-sauna-ink text-sauna-paper relative">
         <div className="max-w-3xl mx-auto px-6">
+          <p className="text-sm uppercase tracking-widest text-sauna-sand/70 mb-4">Close the other tabs</p>
           <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-paper mb-4">
-            Three emails. That&apos;s it.
+            Three emails. Everything you need.
           </h2>
           <p className="text-lg text-sauna-paper/70 mb-14">
-            Everything you need to make a confident decision. No fluff, no upsells.
+            We spent the hours so you don&apos;t have to. No fluff, no upsells, no brand sponsorships.
           </p>
 
           <div className="space-y-8 mb-14">
@@ -123,12 +124,12 @@ export default function HomePage() {
             <GuideStep
               number={2}
               title="Which type fits your life"
-              description="Infrared or traditional? Indoor or outdoor? Build it yourself or buy a kit? There's no &quot;best&quot; sauna. There's the right one for your space, your climate, and how you'll actually use it. We'll help you figure that out."
+              description="Infrared or traditional? Indoor or outdoor? Build it yourself or buy a kit? There's no &quot;best&quot; sauna. There's the right one for your space, your climate, and how you'll actually use it."
             />
             <GuideStep
               number={3}
-              title="What everyone gets wrong (and what to buy)"
-              description="The 12 mistakes we see over and over in forums and Reddit threads. Plus honest product picks based on the heaters, kits, and saunas we've spent the most time comparing. Clear, practical, and buyer-first."
+              title="What everyone gets wrong"
+              description="The 12 mistakes we see over and over. Plus honest product picks based on the heaters, kits, and saunas we've spent the most time comparing. Clear, practical, and buyer-first."
             />
           </div>
 
@@ -138,7 +139,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. Authority Section */}
+      {/* 4. Authority */}
       <section className="py-20 md:py-28 bg-sauna-charcoal text-sauna-paper relative">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-paper mb-10 text-center">
@@ -149,17 +150,17 @@ export default function HomePage() {
             <TrustCard
               icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>}
               title="No skin in the game"
-              body="We don't manufacture saunas. We're not backed by a sauna brand. When we say a $4,000 barrel sauna may fit better than a $12,000 custom build, it's because we care more about fit, tradeoffs, and real-world use than price tags."
+              body="We don't manufacture saunas. We're not backed by a sauna brand. When we say a $4,000 barrel sauna fits better than a $12,000 custom build, it's because we mean it."
             />
             <TrustCard
               icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>}
               title="We did the homework"
-              body="In-depth guides, product comparisons, and real time spent studying how home sauna buyers get tripped up. We spent the hours so you don't have to."
+              body="In-depth guides, product comparisons, and real time studying how home sauna buyers get tripped up. We spent the hours so you don't have to."
             />
             <TrustCard
               icon={<svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" /></svg>}
-              title="We're the Reddit thread you wish existed"
-              body="We cite our sources. When we're not sure about something, we say so. When a product is good but overpriced, we say that too. If you've been reading r/sauna at midnight trying to figure this out, you're our people."
+              title="The Reddit thread you wish existed"
+              body="We cite our sources. When we're not sure, we say so. When a product is good but overpriced, we say that too. If you've been reading r/sauna at midnight, you're our people."
             />
           </div>
         </div>
@@ -184,23 +185,72 @@ export default function HomePage() {
 
           <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 md:gap-x-4 text-sauna-walnut text-sm font-medium mb-8">
             <span>Independent</span>
-            <span className="text-sauna-ash">·</span>
+            <span className="text-sauna-ash">&middot;</span>
             <span>Buyer-first</span>
-            <span className="text-sauna-ash">·</span>
+            <span className="text-sauna-ash">&middot;</span>
             <span>No sales bias</span>
           </div>
 
           <p className="text-center text-lg text-sauna-slate">
-            Sound familiar? That&apos;s exactly why we made this guide.
+            Sound familiar? That&apos;s exactly why we made this.
           </p>
         </div>
       </section>
 
-      {/* 6. Places Worth The Journey */}
-      <section className="py-20 md:py-28 bg-sauna-paper relative overflow-hidden">
+      {/* 6. Closing Quote */}
+      <section className="py-20 md:py-28 bg-sauna-ink text-sauna-paper">
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <blockquote className="font-display text-2xl md:text-3xl lg:text-4xl font-medium mb-4 leading-relaxed">
+            &ldquo;The sauna is the poor man&apos;s pharmacy.&rdquo;
+          </blockquote>
+          <p className="text-sauna-sand text-lg mb-10">Finnish proverb</p>
+
+          <p className="text-xl text-sauna-paper/80 leading-relaxed">
+            The best sauna is the one you actually build.<br />
+            We&apos;ll help you pick the right one.
+          </p>
+        </div>
+      </section>
+
+      {/* 7. Final CTA */}
+      <section id="newsletter" className="py-20 md:py-28 bg-sauna-paper relative">
+        <div className="max-w-2xl mx-auto px-6 text-center">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-medium text-sauna-ink mb-6 leading-tight">
+            Your sauna starts with one email.
+          </h2>
+
+          <p className="text-lg text-sauna-slate mb-10 max-w-xl mx-auto leading-relaxed">
+            Three short reads. No selling. No spam. Just the stuff you actually need to know before you spend $5,000 to $25,000 on a box that gets really hot.
+          </p>
+
+          <NewsletterSignup variant="buying-guide" />
+
+          <p className="text-sm text-sauna-slate mt-6">
+            Free forever. Unsubscribe whenever. First email in a few minutes.
+          </p>
+
+          <div className="mt-10 pt-8 border-t border-sauna-ash/50">
+            <p className="text-sm text-sauna-slate mb-3">
+              Already know your budget and space?
+            </p>
+            <Link
+              href="/quiz?utm_source=homepage&utm_content=final-cta"
+              className="inline-flex items-center gap-2 text-sm font-medium text-sauna-oak hover:text-sauna-walnut transition-colors"
+            >
+              Take the 2-minute quiz for a specific recommendation
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 8. Destinations - post-conversion inspiration */}
+      <section className="py-20 md:py-28 bg-sauna-linen relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="text-center mb-12">
-            <p className="text-sm uppercase tracking-widest text-sauna-walnut mb-3">While you decide</p>
+            <p className="text-sm uppercase tracking-widest text-sauna-walnut mb-3">While you wait for email one</p>
             <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-4">
               Places worth the journey
             </h2>
@@ -249,40 +299,6 @@ export default function HomePage() {
               </svg>
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* 7. Closing Quote */}
-      <section className="py-20 md:py-28 bg-sauna-ink text-sauna-paper">
-        <div className="max-w-3xl mx-auto px-6 text-center">
-          <blockquote className="font-display text-2xl md:text-3xl lg:text-4xl font-medium mb-4 leading-relaxed">
-            &ldquo;The sauna is the poor man&apos;s pharmacy.&rdquo;
-          </blockquote>
-          <p className="text-sauna-sand text-lg mb-10">Finnish proverb</p>
-
-          <p className="text-xl text-sauna-paper/80 leading-relaxed">
-            The best sauna is the one you actually build.<br />
-            We&apos;ll help you pick the right one.
-          </p>
-        </div>
-      </section>
-
-      {/* 7. Final CTA */}
-      <section id="newsletter" className="py-20 md:py-28 bg-sauna-paper relative">
-        <div className="max-w-2xl mx-auto px-6 text-center">
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-medium text-sauna-ink mb-6 leading-tight">
-            Your sauna starts with one email.
-          </h2>
-
-          <p className="text-lg text-sauna-slate mb-10 max-w-xl mx-auto leading-relaxed">
-            Three short reads. No selling. No spam. Just the stuff you actually need to know before you spend $5,000 to $25,000 on a box that gets really hot.
-          </p>
-
-          <NewsletterSignup variant="buying-guide" />
-
-          <p className="text-sm text-sauna-slate mt-6">
-            Free forever. Unsubscribe whenever. First email shows up in a few minutes.
-          </p>
         </div>
       </section>
 
