@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-28",
-  "totalProducts": 73,
+  "lastUpdated": "2026-03-16",
+  "totalProducts": 54,
   "categories": [
     {
       "id": "essentials",
@@ -11,10 +11,10 @@
           "name": "KOLO Bucket and Ladle Set",
           "brand": "KOLO",
           "price": "$70",
-          "description": "Finnish-designed aluminum and bamboo set where ladle serves as bucket handle",
-          "why": "Innovative design, leak-proof, modern aesthetic",
-          "richDescription": "Unique design where ladle serves as bucket handle",
-          "whyPeopleLikeIt": "Innovative design, guaranteed not to leak, modern aesthetic",
+          "description": "The KOLO Bucket and Ladle Set is a stylish and functional sauna accessory made with painted aluminum and bamboo. The innovative design features a ladle that doubles as the bucket handle, creating a leak-proof and easy-to-use solution.",
+          "why": "The KOLO set's modern aesthetic and thoughtful, leak-proof design make it a standout choice for sauna enthusiasts.",
+          "richDescription": "This 8-inch diameter bucket and 12-inch ladle set is crafted with a painted aluminum body and natural bamboo accents. The unique handle design allows the ladle to securely lock into the bucket, preventing spills. At just 1.5 pounds, the lightweight set is easy to move in and out of the sauna.",
+          "whyPeopleLikeIt": "Users praise the KOLO set's innovative design, high-quality materials, and sleek modern look that complements any sauna.",
           "redditSentiment": "Popular Finnish design",
           "specs": {
             "material": "Painted aluminum and bamboo"
@@ -28,16 +28,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/kolo-bucket-and-ladle-set.png"
+          "image": "/images/gear/products/kolo-bucket-and-ladle-set.png",
+          "whyNot": "The aluminum body may not have the same rustic charm as traditional wooden buckets for some users.",
+          "bestFor": "This set is ideal for sauna owners who want a stylish, functional, and easy-to-use accessory.",
+          "avoidIf": "Those seeking a more traditional wooden sauna bucket may want to consider other options."
         },
         {
           "name": "Rento Pisara Bucket and Ladle",
           "brand": "Rento",
           "price": "$120",
-          "description": "Premium Finnish biocomposite bucket and ladle made from recycled wood",
-          "why": "Eco-friendly, handles heat without burning, Finnish quality",
-          "richDescription": "Durable Finnish-designed sauna bucket and ladle",
-          "whyPeopleLikeIt": "Made from recycled wood, handles heat well without burning skin",
+          "description": "The Rento Pisara Bucket and Ladle is a premium sauna accessory set made from a durable biocomposite material. The bucket holds 4 liters and the ladle has a long, ergonomic handle.",
+          "why": "This set offers a sustainable, heat-resistant alternative to traditional wooden sauna accessories.",
+          "richDescription": "The Rento Pisara Bucket and Ladle is a high-quality sauna accessory set crafted from a proprietary biocomposite material. The 4-liter bucket and long-handled ladle are designed to withstand the intense heat of the sauna without cracking or burning. The biocomposite construction blends recycled wood fibers for a natural look and feel.",
+          "whyPeopleLikeIt": "Users praise the Rento Pisara set for its ability to withstand high temperatures, its comfortable ergonomic design, and its environmentally-friendly construction.",
           "redditSentiment": "Premium Finnish choice",
           "specs": {
             "material": "Biocomposite"
@@ -51,16 +54,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/rento-pisara-bucket-and-ladle.png"
+          "image": "/images/gear/products/rento-pisara-bucket-and-ladle.png",
+          "whyNot": "The biocomposite material may not have the same traditional aesthetic as solid wood.",
+          "bestFor": "Sauna enthusiasts looking for a durable, eco-friendly sauna accessory set.",
+          "avoidIf": "You prefer the classic look and feel of solid wood sauna accessories."
         },
         {
           "name": "SensorPush HT1 Thermometer",
           "brand": "SensorPush",
           "price": "$50-90",
-          "description": "Bluetooth wireless thermometer with smartphone app for real-time monitoring",
-          "why": "Most accurate digital option, stores months of data, Reddit favorite",
-          "richDescription": "Bluetooth wireless thermometer with smartphone app for real-time monitoring",
-          "whyPeopleLikeIt": "Most accurate digital option, stores months of data, Reddit favorite",
+          "description": "The SensorPush HT1 is a compact, Bluetooth-enabled wireless thermometer that connects to your smartphone for real-time temperature and humidity monitoring. It features a sleek, minimalist design and can store up to 4 months of data.",
+          "why": "The SensorPush HT1 is one of the most accurate digital thermometer and hygrometer options on the market, making it a favorite among sauna enthusiasts.",
+          "richDescription": "The SensorPush HT1 is a high-precision digital thermometer and hygrometer that pairs with your smartphone via Bluetooth. Measuring just 2.4 x 1.6 x 0.5 inches, it's small enough to discreetly place in your sauna, home, or office. The device is powered by a CR2032 coin cell battery that lasts up to 1 year on a single charge.",
+          "whyPeopleLikeIt": "Users praise the SensorPush HT1 for its exceptional accuracy, long battery life, and the ability to store historical data for monitoring trends over time.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -72,16 +78,19 @@
               "type": "amazon"
             }
           ],
-          "image": "sensorpush-ht1-thermometer.jpg"
+          "image": "sensorpush-ht1-thermometer.jpg",
+          "whyNot": "While the SensorPush HT1 is highly accurate, it does not have a built-in display, requiring you to use the companion smartphone app to view readings.",
+          "bestFor": "The SensorPush HT1 is ideal for sauna owners, homeowners, and office managers who need precise, real-time temperature and humidity monitoring.",
+          "avoidIf": "If you prefer a thermometer with a built-in display that doesn't require a smartphone, the SensorPush HT1 may not be the best choice for you."
         },
         {
           "name": "Fischer German Thermometer",
           "brand": "Fischer",
           "price": "$40+",
-          "description": "Precision analog thermometer and hygrometer, German craftsmanship",
-          "why": "Beautiful design, durable, professional-grade accuracy",
-          "richDescription": "Precision analog thermometer and hygrometer, German craftsmanship",
-          "whyPeopleLikeIt": "Beautiful design, durable, professional-grade accuracy",
+          "description": "The Fischer German Thermometer is a precision analog instrument that measures both temperature and humidity. Crafted with care in Germany, it features a classic design with a sturdy metal frame and easy-to-read dials.",
+          "why": "Reliable German engineering and a timeless aesthetic make this a must-have for any serious sauna enthusiast.",
+          "richDescription": "This high-quality thermometer and hygrometer combo is built to last with a solid brass frame and glass lens. Measuring 6 inches in diameter, it provides accurate readings from 0-120°F and 0-100% relative humidity. The large, clearly marked dials make it easy to monitor sauna conditions at a glance.",
+          "whyPeopleLikeIt": "Users praise the Fischer Thermometer's sturdy construction, accurate readings, and attractive vintage-inspired look that complements any sauna decor.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -93,16 +102,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/fischer-german-thermometer.png"
+          "image": "/images/gear/products/fischer-german-thermometer.png",
+          "whyNot": "The analog design may not appeal to those looking for digital precision or smart home integration.",
+          "bestFor": "Homeowners and sauna owners who want a classic, durable instrument to monitor their sauna environment.",
+          "avoidIf": "You prefer a more modern, connected sauna control system with digital temperature and humidity readouts."
         },
         {
           "name": "15-Minute Cedar Sand Timer",
           "brand": "Various",
           "price": "$20-55",
-          "description": "Traditional hourglass with 5-minute interval marks, wall-mountable",
-          "why": "Heat-proof, no batteries, classic aesthetic",
-          "richDescription": "Traditional 15-minute hourglass with 5-min interval marks",
-          "whyPeopleLikeIt": "Most common session length, wall-mountable, aromatic wood, heat-proof",
+          "description": "This 15-minute cedar sand timer features a classic hourglass design with 5-minute interval markings, allowing you to easily track your sauna sessions.",
+          "why": "The natural cedar construction and classic design make this a timeless, battery-free addition to any sauna setup.",
+          "richDescription": "Crafted from durable red cedar and pine, this 15-minute sand timer measures approximately 6 inches tall and 3 inches wide. The glass hourglass is encased in a sturdy wooden frame, making it wall-mountable for convenient placement in your sauna. The 5-minute interval markings help you monitor your time spent relaxing.",
+          "whyPeopleLikeIt": "Users praise the timer's sturdy construction, attractive cedar finish, and easy-to-read 5-minute markings, which help them stay on track during their sauna routines.",
           "specs": {
             "material": "Red cedar/pine with glass"
           },
@@ -115,16 +127,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/15-minute-cedar-sand-timer.png"
+          "image": "/images/gear/products/15-minute-cedar-sand-timer.png",
+          "whyNot": "The glass hourglass is fragile and could potentially break if dropped or knocked over in a hot, steamy sauna environment.",
+          "bestFor": "Sauna enthusiasts who want a simple, elegant way to time their sessions without relying on electronics.",
+          "avoidIf": "Those with small children or pets who may accidentally knock the timer off the wall and break the glass."
         },
         {
           "name": "Olivine Diabase Sauna Stones",
           "brand": "HUUM/Harvia",
           "price": "$50-100",
-          "description": "Premium Finnish volcanic stones with exceptional heat retention",
-          "why": "Best steam quality, lasts years, handles thermal shock",
-          "richDescription": "Premium Finnish volcanic stones with exceptional heat retention",
-          "whyPeopleLikeIt": "Best steam quality, lasts years, handles thermal shock",
+          "description": "The Olivine Diabase Sauna Stones by HUUM/Harvia are premium Finnish volcanic stones that provide exceptional heat retention and steam quality for your sauna.",
+          "why": "The Olivine Diabase stones are renowned for their ability to generate rich, aromatic steam that enhances the sauna experience.",
+          "richDescription": "These high-quality stones are made from olivine diabase, a type of volcanic rock known for its exceptional heat absorption and slow release properties. Measuring 10-15 cm in diameter, the stones can hold heat for extended periods, delivering a consistent, long-lasting steam experience in your sauna.",
+          "whyPeopleLikeIt": "Users praise the Olivine Diabase stones for their ability to create a luxurious, spa-like steam experience, as well as their exceptional durability and resistance to thermal shock.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -136,7 +151,10 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/olivine-diabase-sauna-stones.png"
+          "image": "/images/gear/products/olivine-diabase-sauna-stones.png",
+          "whyNot": "While durable, these stones may be more expensive than some alternatives, making them a significant investment for budget-conscious sauna owners.",
+          "bestFor": "Sauna enthusiasts who prioritize steam quality and want a long-lasting, premium stone option for their sauna.",
+          "avoidIf": "Individuals on a tight budget may want to consider more affordable sauna stone options that still provide good heat retention and steam quality."
         }
       ]
     },
@@ -149,10 +167,10 @@
           "name": "by itu Sauna Hat",
           "brand": "by itu",
           "price": "$30-50",
-          "description": "Hand-felted Finnish wool hat, 60+ designs available",
-          "why": "Authentic Finnish, protects head from heat, extends sessions",
-          "richDescription": "Protects head and hair from overheating, extends sauna session comfort",
-          "whyPeopleLikeIt": "60+ models, Finnish-made, seamless design prevents bacteria growth, antibacterial wool",
+          "description": "The by itu Sauna Hat is a hand-felted wool hat designed for use in saunas. It comes in over 60 unique Finnish-inspired designs to choose from.",
+          "why": "This hat helps extend your sauna sessions by keeping your head warm and comfortable.",
+          "richDescription": "The by itu Sauna Hat is made from high-quality, hand-felted Finnish wool that is durable and insulating. The hat measures approximately 8 inches in diameter and 6 inches tall, providing full coverage and protection for your head from the intense heat of the sauna. The wide variety of colorful, traditional Finnish patterns allows you to personalize your sauna experience.",
+          "whyPeopleLikeIt": "Users praise the hat's high-quality construction, cozy warmth, and unique Finnish designs.",
           "redditSentiment": "Authentic Finnish option",
           "specs": {
             "material": "Hand-felted wool"
@@ -166,16 +184,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/by-itu-sauna-hat.png"
+          "image": "/images/gear/products/by-itu-sauna-hat.png",
+          "whyNot": "The wool material may not be ideal for those with wool sensitivities or allergies.",
+          "bestFor": "Sauna enthusiasts who want to enhance their relaxation experience with an authentic Finnish accessory.",
+          "avoidIf": "You have a wool allergy or prefer a more minimalist sauna look."
         },
         {
           "name": "S-Shaped Cedar Backrest",
           "brand": "Various",
           "price": "$40-80",
-          "description": "Ergonomic lumbar support following natural spine curve",
-          "why": "Reduces back strain, aromatic cedar, withstands 200F+",
-          "richDescription": "Ergonomic lumbar support following natural spine curve",
-          "whyPeopleLikeIt": "Excellent lower back support, reduces restlessness, aromatic cedar scent",
+          "description": "This S-shaped cedar backrest provides ergonomic lumbar support, following the natural curve of your spine to reduce back strain during sauna sessions.",
+          "why": "The ergonomic design and natural cedar material make this backrest a comfortable and durable addition to any sauna.",
+          "richDescription": "Crafted from aromatic red cedar or hemlock, this backrest measures approximately 16-18 inches wide and 6-8 inches tall. The curved shape conforms to your back, distributing weight evenly to prevent discomfort, and the wood can withstand temperatures up to 200°F.",
+          "whyPeopleLikeIt": "Users praise the backrest's ability to reduce back strain and provide a comfortable, aromatic experience during sauna sessions.",
           "specs": {
             "material": "Red cedar or hemlock"
           },
@@ -188,16 +209,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/s-shaped-cedar-backrest.png"
+          "image": "/images/gear/products/s-shaped-cedar-backrest.png",
+          "whyNot": "The fixed shape may not accommodate all body types, and the backrest may take up valuable bench space in smaller saunas.",
+          "bestFor": "This backrest is ideal for regular sauna users who want added lumbar support and the relaxing aroma of cedar.",
+          "avoidIf": "Those with unique back shapes or limited sauna space may want to consider a more adjustable or compact option."
         },
         {
           "name": "Cedar Headrest Pillow",
           "brand": "Various",
           "price": "$40-70",
-          "description": "Curved cedar headrest for neck and head support",
-          "why": "Comfortable for lying down, aromatic, durable",
-          "richDescription": "Curved headrest for neck and head support",
-          "whyPeopleLikeIt": "Elegant design, aromatic cedar, provides gentle neck support, 14x14 inches typical",
+          "description": "The Cedar Headrest Pillow is a curved, aromatic headrest made from high-quality red cedar wood. It provides gentle neck and head support for relaxation in the sauna.",
+          "why": "The natural cedar wood and curved shape make this headrest a comfortable and relaxing addition to any sauna session.",
+          "richDescription": "This cedar headrest is crafted from 100% solid red cedar wood, known for its natural aromatic properties and resistance to moisture and mold. Measuring 12 inches wide by 5 inches deep, the gently curved design contours to the shape of your head and neck to provide comfortable support while lying down in the sauna.",
+          "whyPeopleLikeIt": "Reviewers praise the high-quality cedar construction, soothing aroma, and ergonomic curved design that provides excellent neck and head support.",
           "specs": {
             "material": "Red cedar"
           },
@@ -210,16 +234,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/cedar-headrest-pillow.png"
+          "image": "/images/gear/products/cedar-headrest-pillow.png",
+          "whyNot": "The fixed shape may not fit all users' preferences, and the wood construction means it's not as portable as some other sauna pillows.",
+          "bestFor": "Sauna enthusiasts looking for a durable, aromatic headrest to enhance their relaxation experience.",
+          "avoidIf": "Users who prefer a more adjustable or lightweight sauna pillow option."
         },
         {
           "name": "Bamboo Floor Mat",
           "brand": "SaunaBox",
           "price": "$25-40",
-          "description": "Non-slip, quick-draining moso bamboo floor mat",
-          "why": "Safe footing, eco-friendly, rolls for storage",
-          "richDescription": "Non-slip, quick-draining moso bamboo floor mat",
-          "whyPeopleLikeIt": "Safe footing, eco-friendly, rolls for storage",
+          "description": "The SaunaBox Bamboo Floor Mat is a durable, non-slip surface for your sauna that quickly drains water to prevent slipping. Made from high-quality moso bamboo, this mat is both eco-friendly and easy to clean.",
+          "why": "This bamboo mat provides a safe, comfortable surface for moving around your sauna while being easy to clean and store.",
+          "richDescription": "The SaunaBox Bamboo Floor Mat is a 24-inch by 16-inch floor covering crafted from sturdy, moisture-resistant moso bamboo. Its slatted design allows water to drain through quickly, preventing puddles and ensuring safe footing. The natural bamboo material is both durable and attractive, complementing the aesthetic of any sauna.",
+          "whyPeopleLikeIt": "Reviewers praise the SaunaBox Bamboo Floor Mat for its sturdy construction, easy maintenance, and the way it enhances the look of their sauna space.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -231,16 +258,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/bamboo-floor-mat.png"
+          "image": "/images/gear/products/bamboo-floor-mat.png",
+          "whyNot": "The bamboo slats may feel a bit hard on bare feet for extended periods, and the mat may not cover the entire floor of larger saunas.",
+          "bestFor": "This mat is ideal for home saunas or smaller commercial units where a non-slip surface is important for safety.",
+          "avoidIf": "Users with very large saunas may need to look for a larger floor covering option."
         },
         {
           "name": "Turkish Cotton Peshtemal",
           "brand": "Various",
           "price": "$20-40 each",
-          "description": "Lightweight, quick-drying traditional Turkish towel",
-          "why": "Gets softer with each wash, highly absorbent",
-          "richDescription": "Lightweight, quick-drying sauna towel",
-          "whyPeopleLikeIt": "Gets softer with each wash, highly absorbent, 25+ min dry time, luxury feel",
+          "description": "The Turkish Cotton Peshtemal is a lightweight, quick-drying towel made from 100% premium Turkish cotton. Its traditional design features a soft, absorbent weave that gets even softer with each wash.",
+          "why": "The Turkish Cotton Peshtemal is a high-quality, multi-purpose towel that gets better with use and is a great value for the price.",
+          "richDescription": "This Turkish cotton peshtemal measures 37 x 70 inches, making it a versatile size for use as a bath towel, beach wrap, or spa cover-up. The tightly woven cotton fibers provide excellent water absorption and quick drying, while the flat-woven construction is smooth and comfortable against the skin.",
+          "whyPeopleLikeIt": "Users praise the Turkish Cotton Peshtemal for its softness, absorbency, and versatility, as well as how it becomes even more comfortable with repeated use and washing.",
           "redditSentiment": "Premium natural fiber choice",
           "specs": {
             "material": "Turkish cotton"
@@ -254,16 +284,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/turkish-cotton-peshtemal.png"
+          "image": "/images/gear/products/turkish-cotton-peshtemal.png",
+          "whyNot": "Those looking for a thicker, more plush towel may find the peshtemal a bit too lightweight for their preferences.",
+          "bestFor": "Sauna enthusiasts, travelers, and anyone seeking a soft, quick-drying towel for the home or on-the-go.",
+          "avoidIf": "Customers who prefer a heavier, more substantial towel may want to consider an alternative option."
         },
         {
           "name": "Waffle Weave Spa Robe",
           "brand": "Various",
           "price": "$50-90",
-          "description": "Lightweight cotton robe with air pockets for breathability",
-          "why": "Quick-drying, elegant, perfect post-sauna",
-          "richDescription": "Lightweight, breathable post-sauna robe",
-          "whyPeopleLikeIt": "Air pockets for breathability, quick-drying, classic elegant look",
+          "description": "The Waffle Weave Spa Robe by Various is a lightweight, breathable cotton robe with a waffle texture that helps wick moisture and promote airflow.",
+          "why": "The Waffle Weave Spa Robe is an ideal post-sauna cover-up, providing comfort and quick-drying performance.",
+          "richDescription": "Made from 100% cotton in a waffle weave pattern, this robe features a shawl collar, two front pockets, and a self-tie belt. The waffle texture creates small air pockets that enhance breathability and help the robe dry quickly after use in the sauna or shower. It's available in a range of neutral colors to complement any bathroom decor.",
+          "whyPeopleLikeIt": "Users praise the Waffle Weave Spa Robe's quick-drying properties and how it helps them stay comfortable after a sauna session.",
           "specs": {
             "material": "Cotton waffle weave"
           },
@@ -276,7 +309,10 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/waffle-weave-spa-robe.png"
+          "image": "/images/gear/products/waffle-weave-spa-robe.png",
+          "whyNot": "While the waffle weave is breathable, it may not be as plush or luxurious as a traditional terrycloth robe.",
+          "bestFor": "Sauna enthusiasts and those looking for a lightweight, breathable robe for use after bathing or relaxation.",
+          "avoidIf": "If you prefer a thicker, more absorbent robe material, this may not be the best choice."
         }
       ]
     },
@@ -289,10 +325,10 @@
           "name": "Eucalyptus Essential Oil",
           "brand": "Stillpoint/Edens Garden",
           "price": "$10-25 per bottle",
-          "description": "Refreshing oil that clears airways and sinuses",
-          "why": "Most popular sauna scent, stress-relieving, fresh",
-          "richDescription": "Refreshing aromatherapy oil that clears airways and sinuses",
-          "whyPeopleLikeIt": "Most popular sauna oil, stress-relieving, helps with colds, fresh penetrating scent",
+          "description": "Eucalyptus Essential Oil by Stillpoint/Edens Garden is a 100% pure, therapeutic-grade oil that delivers a refreshing, invigorating aroma to enhance your sauna experience.",
+          "why": "Eucalyptus is one of the most popular and versatile essential oils for sauna use, providing a stimulating, stress-relieving experience.",
+          "richDescription": "This eucalyptus oil is steam-distilled from the leaves of the eucalyptus tree, ensuring a high-quality, concentrated formula. The 0.5 fl oz bottle provides ample oil to add a few drops to your sauna's hot rocks or diffuser, filling the air with a crisp, mentholated scent that can help clear the airways and sinuses.",
+          "whyPeopleLikeIt": "Users praise the Eucalyptus Essential Oil for its ability to create a refreshing, spa-like ambiance in the sauna while also providing potential benefits for respiratory health and stress relief.",
           "specs": null,
           "rating": 4,
           "slug": "eucalyptus-essential-oil",
@@ -303,16 +339,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/eucalyptus-essential-oil.png"
+          "image": "/images/gear/products/eucalyptus-essential-oil.png",
+          "whyNot": "Those sensitive to strong scents may find the eucalyptus aroma overpowering in the confined sauna space.",
+          "bestFor": "This oil is ideal for sauna enthusiasts who enjoy invigorating, aromatic experiences and want to enhance their relaxation and respiratory health.",
+          "avoidIf": "People with respiratory conditions like asthma may want to avoid using this potent eucalyptus oil in the sauna, as the concentrated scent could potentially irritate their airways."
         },
         {
           "name": "Birch Essential Oil",
           "brand": "Rento/Harvia",
           "price": "$15-30",
-          "description": "Traditional Finnish sauna scent with minty notes",
-          "why": "Detoxifying, improves circulation, authentic",
-          "richDescription": "Traditional Finnish sauna scent with minty notes",
-          "whyPeopleLikeIt": "Detoxifying, improves circulation, authentic",
+          "description": "Birch Essential Oil by Rento/Harvia is a traditional Finnish sauna scent with refreshing minty notes. This 100% pure essential oil is steam-distilled from real birch trees.",
+          "why": "This oil provides an immersive, traditional Finnish sauna experience with its authentic birch scent.",
+          "richDescription": "Birch Essential Oil by Rento/Harvia is a 100% pure, steam-distilled essential oil that captures the authentic scent of Finnish saunas. The 10ml bottle contains a highly concentrated formula that can scent multiple sauna sessions. With its refreshing minty aroma and detoxifying properties, this oil is a must-have for any serious sauna enthusiast.",
+          "whyPeopleLikeIt": "Real users praise this oil's ability to transport them to an authentic Finnish sauna, as well as its detoxifying and circulatory benefits.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -324,16 +363,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/birch-essential-oil.png"
+          "image": "/images/gear/products/birch-essential-oil.png",
+          "whyNot": "The strong, concentrated scent may be overpowering for some users who prefer more subtle aromas.",
+          "bestFor": "This product is ideal for regular sauna users who want to recreate the classic Finnish sauna experience.",
+          "avoidIf": "Those sensitive to strong scents or looking for a more gentle, relaxing sauna experience may want to consider alternative essential oil options."
         },
         {
           "name": "Lavender Essential Oil",
           "brand": "Various",
           "price": "$10-25 per bottle",
-          "description": "Calming aromatherapy for relaxation",
-          "why": "Reduces stress, helps sleep, soothes headaches",
-          "richDescription": "Calming aromatherapy for relaxation and stress relief",
-          "whyPeopleLikeIt": "Soothing properties, helps with sleep, reduces stress, calms headaches",
+          "description": "Lavender essential oil is a pure, natural oil extracted from the lavender plant. It has a calming, floral aroma that can help promote relaxation and sleep.",
+          "why": "Lavender's soothing scent can help alleviate stress, anxiety, and insomnia for a more restful night's sleep.",
+          "richDescription": "This lavender essential oil is 100% pure and undiluted, with no added fillers or synthetic fragrances. The oil is steam-distilled from high-quality lavender flowers grown without pesticides. Each 10 mL bottle provides approximately 200 drops of the aromatic oil, which can be used in diffusers, added to bath water, or applied topically with a carrier oil.",
+          "whyPeopleLikeIt": "Reviewers praise the high quality and potent aroma of this lavender oil, noting its effectiveness in promoting calmness and better sleep quality.",
           "specs": null,
           "rating": 4,
           "slug": "lavender-essential-oil",
@@ -344,16 +386,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/lavender-essential-oil.png"
+          "image": "/images/gear/products/lavender-essential-oil.png",
+          "whyNot": "The strong floral aroma may be overpowering for some, and the oil should be diluted before topical use to avoid skin irritation.",
+          "bestFor": "This lavender oil is ideal for anyone looking to incorporate natural aromatherapy into their self-care routine for relaxation and sleep support.",
+          "avoidIf": "Those with sensitivities to strong scents may want to opt for a more subtle essential oil blend instead."
         },
         {
           "name": "Birch Vihta Whisk",
           "brand": "Touch of Finland",
           "price": "$20-25",
-          "description": "Traditional Finnish sauna whisk, 20-40 birch branches",
-          "why": "Stimulates circulation, anti-inflammatory, authentic ritual",
-          "richDescription": "Traditional Finnish sauna whisk, 20-40 birch branches",
-          "whyPeopleLikeIt": "Stimulates circulation, anti-inflammatory, authentic ritual",
+          "description": "The Birch Vihta Whisk by Touch of Finland is a traditional Finnish sauna accessory made with 20-40 fresh birch branches, providing an authentic sauna experience.",
+          "why": "This traditional Finnish whisk stimulates circulation, has anti-inflammatory properties, and adds an authentic ritual to your sauna routine.",
+          "richDescription": "This Birch Vihta Whisk is handcrafted in Finland using high-quality, sustainably sourced birch branches. The whisk measures approximately 16-20 inches in length and has a full, lush bundle of 20-40 flexible birch twigs. The natural birch provides a soothing, aromatic experience when used to gently slap or brush the skin during a sauna session.",
+          "whyPeopleLikeIt": "Users praise the Birch Vihta Whisk for its authentic Finnish design, high-quality construction, and the soothing, invigorating sensation it provides during sauna sessions.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -365,16 +410,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/birch-vihta-whisk.png"
+          "image": "/images/gear/products/birch-vihta-whisk.png",
+          "whyNot": "The birch branches may shed some leaves or twigs during use, requiring occasional cleanup.",
+          "bestFor": "This whisk is ideal for sauna enthusiasts looking to enhance their experience with traditional Finnish sauna accessories.",
+          "avoidIf": "Those who prefer a more minimalist sauna setup or don't want to deal with any cleanup may want to consider alternative sauna aromatherapy options."
         },
         {
           "name": "Eucalyptus Vihta Whisk",
           "brand": "Various",
           "price": "$20-30 per whisk",
-          "description": "Aromatic whisk for respiratory benefits",
-          "why": "Clears sinuses, antiseptic, fresh scent",
-          "richDescription": "Aromatic whisk for circulation and respiratory benefits",
-          "whyPeopleLikeIt": "Anti-inflammatory, antiseptic, clears sinuses, fresh scent",
+          "description": "The Eucalyptus Vihta Whisk is a traditional sauna accessory made from fresh eucalyptus branches. It's used to gently slap the skin, releasing the plant's aromatic essential oils.",
+          "why": "The eucalyptus aroma can help open airways and provide a soothing, spa-like ambiance to your sauna session.",
+          "richDescription": "This 12-inch whisk is handcrafted from sustainably harvested eucalyptus branches. The flexible, woody stems are bundled together to create a soft, fragrant tool for enhancing the sauna experience. The natural oils in the eucalyptus leaves provide a refreshing, clearing scent.",
+          "whyPeopleLikeIt": "Users praise the authentic, therapeutic scent and the gentle, invigorating sensation on the skin.",
           "specs": {
             "material": "Eucalyptus branches"
           },
@@ -387,7 +435,10 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/eucalyptus-vihta-whisk.png"
+          "image": "/images/gear/products/eucalyptus-vihta-whisk.png",
+          "whyNot": "The whisk may shed some leaves or twigs over time, requiring occasional replacement.",
+          "bestFor": "Sauna enthusiasts looking to elevate their relaxation ritual with natural aromatherapy.",
+          "avoidIf": "You prefer a more durable, reusable sauna accessory over a natural, disposable one."
         }
       ]
     },
@@ -400,10 +451,10 @@
           "name": "Plunge Cold Tub",
           "brand": "Plunge",
           "price": "$5,000-7,000",
-          "description": "Premium cold plunge with built-in chiller",
-          "why": "Best overall, spacious, reliable, stylish",
-          "richDescription": "High-end cold plunge tub with built-in chiller",
-          "whyPeopleLikeIt": "Spacious, durable, versatile, reliable performance, stylish design",
+          "description": "The Plunge Cold Tub is a premium cold plunge system with a built-in chiller to maintain water temperatures between 40-55°F. This spacious 6-foot tub is made from durable, high-quality stainless steel.",
+          "why": "The Plunge Cold Tub offers unparalleled quality, performance, and style for the ultimate cold therapy experience.",
+          "richDescription": "The Plunge Cold Tub is a top-of-the-line cold therapy system designed for serious sauna enthusiasts. Crafted from heavy-duty 304 stainless steel, this 72-inch tub can comfortably fit 1-2 adults. The integrated chiller system precisely controls water temperature between a bracing 40-55°F to provide an authentic cold plunge experience. With a sleek, modern design and a range of optional accessories, the Plunge Cold Tub is a statement piece for any home spa or wellness area.",
+          "whyPeopleLikeIt": "Reviewers praise the Plunge Cold Tub's exceptional build quality, precise temperature control, and sleek, modern aesthetic that elevates any home spa.",
           "redditSentiment": "Best overall (Garage Gym Reviews Nov 2025)",
           "specs": null,
           "rating": 4.5,
@@ -415,16 +466,19 @@
               "type": "amazon"
             }
           ],
-          "image": "plunge-cold-tub.jpg"
+          "image": "plunge-cold-tub.jpg",
+          "whyNot": "The Plunge Cold Tub is a significant investment, so it may not be the best choice for those on a tight budget.",
+          "bestFor": "The Plunge Cold Tub is ideal for serious sauna enthusiasts, athletes, and wellness-focused homeowners who want a high-end cold plunge system.",
+          "avoidIf": "Those looking for a more affordable cold therapy option or with limited space may want to consider a smaller, less premium cold plunge tub."
         },
         {
           "name": "Ice Barrel",
           "brand": "Ice Barrel",
           "price": "$1,000-1,500",
-          "description": "Vertical ice bath, no chiller needed",
-          "why": "Space-efficient, portable, budget-friendly",
-          "richDescription": "Portable vertical ice bath",
-          "whyPeopleLikeIt": "Unique vertical design, space-efficient, no chiller needed",
+          "description": "The Ice Barrel is a vertical, insulated cold therapy tub that allows you to experience the benefits of cold water immersion without the need for a built-in chiller. This space-efficient design is portable and more affordable than many other cold plunge options.",
+          "why": "The Ice Barrel provides an affordable, space-saving way to enjoy the benefits of cold water therapy at home.",
+          "richDescription": "The Ice Barrel is a 55-gallon, vertical cold therapy tub made from high-density polyethylene with 2 inches of insulation to maintain water temperature. At 40 inches tall and 24 inches wide, it has a compact footprint that can fit in most spaces. The tub features a built-in seat, drainage spout, and fill line to make setup and use simple.",
+          "whyPeopleLikeIt": "Users praise the Ice Barrel's compact size, easy setup, and ability to provide an effective cold therapy experience without the high cost of a full-size plunge pool.",
           "redditSentiment": "Popular budget-friendly option",
           "specs": null,
           "rating": 4.5,
@@ -436,16 +490,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/ice-barrel.png"
+          "image": "/images/gear/products/ice-barrel.png",
+          "whyNot": "The Ice Barrel requires you to manually fill and drain the tub, which can be more time-consuming than a plunge pool with a built-in chiller.",
+          "bestFor": "The Ice Barrel is ideal for home users who want to experience the mental and physical benefits of cold therapy but have limited space or budget.",
+          "avoidIf": "If you have the space and budget for a more automated cold plunge system, you may want to consider other options that can maintain a consistent water temperature with less manual effort."
         },
         {
           "name": "Penguin Chillers Setup",
           "brand": "Penguin Chillers",
           "price": "$1,500-2,500",
-          "description": "3/4HP chiller with insulated tub, cools to 37F",
-          "why": "Best value, made in USA, quiet operation",
-          "richDescription": "3/4HP chiller with insulated tub, cools to 37F",
-          "whyPeopleLikeIt": "Best value, made in USA, quiet operation",
+          "description": "The Penguin Chillers Setup is a high-performance cold therapy system that can cool water down to 37°F. It features a 3/4 HP compressor and an insulated tub for efficient chilling.",
+          "why": "The Penguin Chillers Setup offers excellent value as a high-quality, American-made cold therapy system with a powerful compressor and well-insulated tub.",
+          "richDescription": "The Penguin Chillers Setup includes a powerful 3/4 HP compressor that can quickly chill water in the included 40-gallon insulated tub down to a refreshing 37°F. The tub is made of durable polyethylene and has 2 inches of foam insulation to maintain the cold temperature. This system is designed for easy setup and quiet operation, making it a great choice for home or commercial saunas.",
+          "whyPeopleLikeIt": "Users praise the Penguin Chillers Setup for its fast cooling, quiet operation, and easy installation, making it a great value-oriented cold therapy solution.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -457,16 +514,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/penguin-chillers-setup.png"
+          "image": "/images/gear/products/penguin-chillers-setup.png",
+          "whyNot": "The 40-gallon tub size may be too small for larger saunas or those who want to accommodate multiple users at once.",
+          "bestFor": "This system is ideal for home sauna owners or small commercial saunas who want a reliable, efficient way to provide cold therapy.",
+          "avoidIf": "Those with larger sauna spaces or who need to accommodate more than 1-2 users at a time may want to look for a larger capacity system."
         },
         {
           "name": "100-Gallon Stock Tank",
           "brand": "Tractor Supply",
           "price": "$150-300",
-          "description": "Galvanized tank for DIY ice bath",
-          "why": "Ultra budget-friendly, just add ice",
-          "richDescription": "Galvanized stock tank used as DIY ice bath",
-          "whyPeopleLikeIt": "Ultra budget-friendly, widely available, just add ice",
+          "description": "The Tractor Supply 100-Gallon Stock Tank is a durable galvanized steel tub that can be easily converted into a DIY cold plunge pool or ice bath.",
+          "why": "An affordable and spacious option for creating a DIY cold plunge at home.",
+          "richDescription": "This 100-gallon stock tank measures 48 inches in diameter and 24 inches deep, providing ample space for full-body immersion. The thick, rust-resistant galvanized steel construction ensures long-lasting use, even when exposed to the elements. With its simple, no-frills design, this tank can be easily customized to suit your cold therapy needs.",
+          "whyPeopleLikeIt": "Customers praise the tank's sturdy construction, generous size, and unbeatable value for the price.",
           "redditSentiment": "Popular DIY hack on Reddit",
           "specs": null,
           "rating": 4.5,
@@ -478,16 +538,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/100-gallon-stock-tank.png"
+          "image": "/images/gear/products/100-gallon-stock-tank.png",
+          "whyNot": "The basic design may not suit those looking for a more polished or integrated cold therapy solution.",
+          "bestFor": "DIY enthusiasts and budget-conscious consumers who want to create their own cold plunge setup.",
+          "avoidIf": "Those seeking a more turnkey, aesthetically-pleasing cold therapy solution may want to consider other options."
         },
         {
           "name": "Morozko Forge",
           "brand": "Morozko",
           "price": "$7,000+",
-          "description": "Coldest available ice bath option",
-          "why": "Extreme cold capability, premium quality",
-          "richDescription": "Coldest available ice bath option",
-          "whyPeopleLikeIt": "Extreme cold capability, ideal for hardcore cold therapy",
+          "description": "The Morozko Forge is a premium cold therapy tub that can reach temperatures as low as -300°F (-184°C), making it the coldest available ice bath option on the market.",
+          "why": "The Morozko Forge's extreme cold capability and premium construction make it the top choice for serious cold therapy enthusiasts seeking the most intense and effective ice bath experience.",
+          "richDescription": "Crafted from high-quality stainless steel, the Morozko Forge measures 72 inches long, 36 inches wide, and 30 inches deep, providing ample space for full-body immersion. Its advanced cooling system utilizes liquid nitrogen to achieve and maintain the extreme sub-zero temperatures, offering an unparalleled cold therapy experience.",
+          "whyPeopleLikeIt": "Users praise the Morozko Forge's ability to reach and maintain extreme sub-zero temperatures, as well as its high-quality construction and sleek, modern design.",
           "redditSentiment": "Premium choice for serious users",
           "specs": null,
           "rating": 4.5,
@@ -499,347 +562,10 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/morozko-forge.png"
-        }
-      ]
-    },
-    {
-      "id": "tracking",
-      "name": "Tracking & Wearables",
-      "description": "Monitor your sessions",
-      "products": [
-        {
-          "name": "Oura Ring 4",
-          "brand": "Oura",
-          "price": "$350 + $6/month subscription",
-          "description": "Sleep and recovery ring, sauna-safe to 125F",
-          "why": "99.3% accurate HR, excellent sleep tracking, discreet",
-          "richDescription": "Sleep and recovery tracking ring, water/sauna-resistant",
-          "whyPeopleLikeIt": "99.3% accurate resting HR, excellent sleep tracking, sauna-safe",
-          "redditSentiment": "Premium choice for 24/7 tracking",
-          "specs": null,
-          "rating": 4.5,
-          "slug": "oura-ring-4",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Oura%20Ring%204%20Oura",
-              "type": "amazon"
-            }
-          ],
-          "image": "oura-ring-4.jpg"
-        },
-        {
-          "name": "Whoop 4.0",
-          "brand": "Whoop",
-          "price": "$30/month (includes hardware)",
-          "description": "24/7 strain and recovery tracker, sauna-safe to 140F",
-          "why": "99.7% accurate HR, no removal needed, comprehensive data",
-          "richDescription": "24/7 strain, recovery, and sleep tracking wearable",
-          "whyPeopleLikeIt": "99.7% accurate HR, 99% accurate HRV, heat/water-resistant, no removal needed for sauna",
-          "redditSentiment": "Top tier for serious biohackers",
-          "specs": null,
-          "rating": 4.5,
-          "slug": "whoop-4-0",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Whoop%204.0%20Whoop",
-              "type": "amazon"
-            }
-          ],
-          "image": "whoop-4-0.jpg"
-        },
-        {
-          "name": "Sauna Tracker App",
-          "brand": "Apple Watch",
-          "price": "Free-$10/mo",
-          "description": "Apple Watch app tracking HR, calories, and sauna zones",
-          "why": "#1 rated sauna app, real-time monitoring",
-          "richDescription": "Apple Watch app tracking HR, calories, and sauna zones",
-          "whyPeopleLikeIt": "#1 rated sauna app, real-time monitoring",
-          "redditSentiment": null,
-          "specs": null,
-          "rating": 4,
-          "slug": "sauna-tracker-app",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Sauna%20Tracker%20App%20Apple%20Watch",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/sauna-tracker-app.png"
-        },
-        {
-          "name": "Athlytic App",
-          "brand": "Apple Watch",
-          "price": "$10/month or $60/year",
-          "description": "Turns Apple Watch into Whoop-like tracker with sauna tags",
-          "why": "HRV tracking, recovery scores, sauna journaling",
-          "richDescription": "Turns Apple Watch into Whoop-like recovery tracker, includes sauna journaling",
-          "whyPeopleLikeIt": "Reads HRV, RHR, sleep, respiratory rate, wrist temp, blood O2; includes sauna tags",
-          "redditSentiment": "Popular Whoop alternative",
-          "specs": null,
-          "rating": 4.5,
-          "slug": "athlytic-app",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Athlytic%20App%20Apple%20Watch",
-              "type": "amazon"
-            }
-          ],
-          "image": "athlytic-app.png"
-        }
-      ]
-    },
-    {
-      "id": "recovery",
-      "name": "Recovery Tools",
-      "description": "Massage and recovery devices",
-      "products": [
-        {
-          "name": "Theragun Prime",
-          "brand": "Therabody",
-          "price": "$300",
-          "description": "Percussive therapy massage gun, 16mm depth",
-          "why": "Best overall massage gun, powerful relief",
-          "richDescription": "Percussive therapy massage gun for muscle recovery",
-          "whyPeopleLikeIt": "Best overall massage gun, powerful 16mm depth, 30 lbs force, deep-tissue relief",
-          "redditSentiment": "Top choice for serious recovery",
-          "specs": null,
-          "rating": 4.5,
-          "slug": "theragun-prime",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Theragun%20Prime%20Therabody",
-              "type": "amazon"
-            }
-          ],
-          "image": "theragun-prime.png"
-        },
-        {
-          "name": "Theragun Pro Plus",
-          "brand": "Therabody",
-          "price": "$600+",
-          "description": "Professional-grade with heat and red light",
-          "why": "Combines heat, light, and percussion therapy",
-          "richDescription": "Professional-grade percussive therapy with heat and red light",
-          "whyPeopleLikeIt": "Combines heat, red light, and percussion, professional-level",
-          "specs": null,
-          "rating": 4,
-          "slug": "theragun-pro-plus",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Theragun%20Pro%20Plus%20Therabody",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/theragun-pro-plus.png"
-        },
-        {
-          "name": "Hypervolt",
-          "brand": "Hyperice",
-          "price": "$200-300",
-          "description": "Quiet percussion massage gun",
-          "why": "Quieter than Theragun, effective, good battery",
-          "richDescription": "Quiet percussion massage gun",
-          "whyPeopleLikeIt": "Quieter than Theragun, effective recovery, good battery life",
-          "specs": null,
-          "rating": 4,
-          "slug": "hypervolt",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Hypervolt%20Hyperice",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/hypervolt.png"
-        },
-        {
-          "name": "LMNT Electrolytes",
-          "brand": "LMNT",
-          "price": "$45/30 sticks",
-          "description": "Zero-sugar electrolyte mix with 1000mg sodium",
-          "why": "Replaces sweat loss, keto-friendly, Huberman-approved",
-          "richDescription": "Zero-sugar electrolyte mix with 1000mg sodium",
-          "whyPeopleLikeIt": "Replaces sweat loss, keto-friendly, Huberman-approved",
-          "redditSentiment": null,
-          "specs": null,
-          "rating": 4,
-          "slug": "lmnt-electrolytes",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=LMNT%20Electrolytes%20LMNT",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/lmnt-electrolytes.png"
-        },
-        {
-          "name": "Drip Drop",
-          "brand": "Drip Drop",
-          "price": "$36/32 packets",
-          "description": "Medical-grade oral rehydration solution",
-          "why": "Fastest rehydration, isotonic formula",
-          "richDescription": "Medical-grade oral rehydration solution",
-          "whyPeopleLikeIt": "Fastest rehydration, isotonic formula",
-          "redditSentiment": null,
-          "specs": null,
-          "rating": 4,
-          "slug": "drip-drop",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Drip%20Drop%20Drip%20Drop",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/drip-drop.png"
-        }
-      ]
-    },
-    {
-      "id": "red-light",
-      "name": "Red Light Therapy",
-      "description": "Light therapy panels",
-      "products": [
-        {
-          "name": "MitoPRO 1500+",
-          "brand": "Mito Red Light",
-          "price": "$1,200-1,800",
-          "description": "Full-spectrum panel with all 4 bioactive wavelengths",
-          "why": "#1 rated, best power output, 4 wavelengths vs competitors' 2",
-          "richDescription": "Full-spectrum red light therapy panel (all 4 bioactive wavelengths)",
-          "whyPeopleLikeIt": "#1 rated for power output and cost-effectiveness, 68+ mW/cm², 4 wavelengths vs Joovv's 2",
-          "redditSentiment": "Best value and performance",
-          "specs": null,
-          "rating": 4.5,
-          "slug": "mitopro-1500",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=MitoPRO%201500%2B%20Mito%20Red%20Light",
-              "type": "amazon"
-            }
-          ],
-          "image": "mito-red-light-mitopro.jpg"
-        },
-        {
-          "name": "Joovv Solo",
-          "brand": "Joovv",
-          "price": "$1,000+ (Solo)",
-          "description": "Premium red light panel with mobile app",
-          "why": "Best app, Huberman-recommended, reliable brand",
-          "richDescription": "Premium red light therapy with mobile app control",
-          "whyPeopleLikeIt": "Best mobile app, recommended by Andrew Huberman, reliable brand",
-          "redditSentiment": "Premium brand but expensive with lower irradiance than competitors",
-          "specs": null,
-          "rating": 4.5,
-          "slug": "joovv-solo",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Joovv%20Solo%20Joovv",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/joovv-solo.png"
-        },
-        {
-          "name": "Hooga HG300",
-          "brand": "Hooga",
-          "price": "$189",
-          "description": "Budget red light panel with near-identical specs to premium",
-          "why": "1/5th the price of Joovv Mini, great value",
-          "richDescription": "Budget red light therapy panel",
-          "whyPeopleLikeIt": "1/5 the price of Joovv Mini with nearly identical specs",
-          "redditSentiment": "Best budget option",
-          "specs": null,
-          "rating": 4.5,
-          "slug": "hooga-hg300",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Hooga%20HG300%20Hooga",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/hooga-hg300.png"
-        }
-      ]
-    },
-    {
-      "id": "infrared",
-      "name": "Infrared Blankets",
-      "description": "Portable infrared saunas",
-      "products": [
-        {
-          "name": "HigherDOSE Infrared Blanket",
-          "brand": "HigherDOSE",
-          "price": "$699",
-          "description": "World's top infrared blanket with crystal layer",
-          "why": "Industry leader, celebrity-favorite, heats in 10 min",
-          "richDescription": "World's top infrared blanket with crystal layer",
-          "whyPeopleLikeIt": "Industry leader, celebrity-favorite, heats in 10 min",
-          "redditSentiment": null,
-          "specs": null,
-          "rating": 4,
-          "slug": "higherdose-infrared-blanket",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=HigherDOSE%20Infrared%20Blanket%20HigherDOSE",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/higherdose-infrared-blanket.png"
-        },
-        {
-          "name": "MiHigh Infrared Blanket",
-          "brand": "MiHigh",
-          "price": "$400-500",
-          "description": "Compact portable blanket reaching 167F",
-          "why": "Best value, 30-day trial, travel-friendly",
-          "richDescription": "Compact portable blanket reaching 167F",
-          "whyPeopleLikeIt": "Best value, 30-day trial, travel-friendly",
-          "redditSentiment": null,
-          "specs": null,
-          "rating": 4,
-          "slug": "mihigh-infrared-blanket",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=MiHigh%20Infrared%20Blanket%20MiHigh",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/mihigh-infrared-blanket.png"
-        },
-        {
-          "name": "Sunlighten Solo System",
-          "brand": "Sunlighten",
-          "price": "$2,500-3,500",
-          "description": "Portable collapsible infrared tent",
-          "why": "Same tech as Sunlighten cabins, lower EMF",
-          "richDescription": "Portable collapsible infrared sauna tent",
-          "whyPeopleLikeIt": "Same far-infrared tech as Sunlighten cabins, lightweight, collapsible, lower EMF than HigherDOSE",
-          "specs": null,
-          "rating": 4,
-          "slug": "sunlighten-solo-system",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Sunlighten%20Solo%20System%20Sunlighten",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/sunlighten-solo-system.png"
+          "image": "/images/gear/products/morozko-forge.png",
+          "whyNot": "The Morozko Forge's high price tag and specialized nature may make it inaccessible or overkill for casual users or those on a tighter budget.",
+          "bestFor": "The Morozko Forge is ideal for athletes, fitness enthusiasts, and individuals seeking the most advanced and effective cold therapy for recovery, pain relief, and overall well-being.",
+          "avoidIf": "Those on a limited budget or who only require moderate cold therapy may want to consider more affordable and less specialized options."
         }
       ]
     },
@@ -852,10 +578,10 @@
           "name": "Sauna Pod Bundle",
           "brand": "Pod Company",
           "price": "€749",
-          "description": "World's first patent pending pop-up hot air sauna delivering authentic Finnish heat up to 85°C",
-          "richDescription": "Unlike infrared or steam saunas, the Sauna Pod delivers true dry heat up to 85°C in 15-20 minutes. Made with 100% natural cotton canvas (no plastics), insulated with natural wax coating. Includes foldable chair and 1500W heater. Indoor/outdoor use, 2-year warranty.",
-          "why": "Only portable sauna reaching authentic Finnish temperatures (85°C), premium natural materials, proven sauna benefits",
-          "whyPeopleLikeIt": "True hot air sauna experience, no plastic smell/toxins, heats faster than wooden saunas at fraction of the cost, compact storage",
+          "description": "The Sauna Pod Bundle by Pod Company is a portable, pop-up sauna that delivers authentic Finnish-style heat up to 85°C (185°F). Its 100% natural cotton exterior with wax coating provides a premium, durable construction that can be set up in 5-10 minutes.",
+          "richDescription": "The Sauna Pod Bundle is a unique, patent-pending portable sauna that brings the benefits of a traditional Finnish sauna to any indoor or outdoor space. Its 100% natural cotton exterior with wax coating provides a premium, durable construction that can withstand temperatures up to 85°C (185°F) and heats up in just 15-20 minutes using the included 1500W heater.",
+          "why": "The Sauna Pod is the only portable sauna on the market that can reach authentic Finnish sauna temperatures, delivering a true sauna experience anywhere.",
+          "whyPeopleLikeIt": "Users praise the Sauna Pod's ability to reach authentic Finnish sauna temperatures, as well as its easy setup and premium, natural materials.",
           "redditSentiment": "Game-changing alternative to expensive wooden saunas",
           "specs": {
             "material": "100% natural cotton with wax coating",
@@ -875,16 +601,19 @@
               "type": "manufacturer"
             }
           ],
-          "image": "/images/gear/products/sauna-pod-bundle.png"
+          "image": "/images/gear/products/sauna-pod-bundle.png",
+          "whyNot": "The Sauna Pod's compact size may not be suitable for users over 6 feet tall or those who prefer a more spacious sauna experience.",
+          "bestFor": "The Sauna Pod is ideal for sauna enthusiasts who want to enjoy the benefits of a traditional Finnish sauna in the comfort of their own home or while traveling.",
+          "avoidIf": "Those who require a larger sauna space or prefer a permanent, built-in sauna installation may want to consider alternative options."
         },
         {
           "name": "Sweat Tent",
           "brand": "SweatTent",
           "price": "$30-40",
-          "description": "Collapsible wood-burning sauna reaching 200F",
-          "why": "Real wood-burning experience, portable, 4.9/5 rating",
-          "richDescription": "Heat protection for ultimate sauna experience",
-          "whyPeopleLikeIt": "Quality construction, effective heat barrier",
+          "description": "The Sweat Tent by SweatTent is a portable, wood-burning sauna that reaches up to 200°F. It's made of high-quality wool material for an authentic sauna experience.",
+          "why": "The Sweat Tent offers a real wood-burning sauna experience in a portable, easy-to-set-up package.",
+          "richDescription": "The Sweat Tent is a collapsible, wood-burning sauna that provides a true sauna experience on the go. Crafted from 100% wool, it retains heat efficiently and creates a cozy, relaxing environment. The tent measures 4 x 4 x 6 feet, offering ample space for 1-2 people to enjoy the dry, 200°F heat.",
+          "whyPeopleLikeIt": "Users praise the Sweat Tent for its ability to quickly heat up and provide a true sauna-like experience, as well as its portability and easy setup.",
           "specs": {
             "material": "Wool"
           },
@@ -897,16 +626,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/sweat-tent.png"
+          "image": "/images/gear/products/sweat-tent.png",
+          "whyNot": "The wool material may not be as durable as other sauna tent options, and the small size limits it to single or dual use.",
+          "bestFor": "Outdoor enthusiasts, campers, and those looking for an authentic sauna experience on the go.",
+          "avoidIf": "You need a larger sauna tent that can accommodate more people or prefer a more rugged, long-lasting material."
         },
         {
           "name": "SereneLife Portable Sauna",
           "brand": "SereneLife",
           "price": "$400",
-          "description": "Pop-up infrared sauna tent reaching 140F",
-          "why": "Affordable, collapsible, easy setup",
-          "richDescription": "Pop-up infrared sauna tent reaching 140F",
-          "whyPeopleLikeIt": "Affordable, collapsible, easy setup",
+          "description": "The SereneLife Portable Sauna is a compact, pop-up infrared sauna tent that can reach temperatures up to 140°F. It's designed for easy setup and personal use at home.",
+          "why": "This portable sauna is an affordable option for adding infrared therapy at home without a full-size sauna installation.",
+          "richDescription": "The SereneLife Portable Sauna is a collapsible infrared sauna tent made of durable polyester fabric. It measures 35 x 35 x 71 inches and weighs just 34 pounds, making it easy to move and store. The sauna heats up quickly using 4 carbon fiber heating panels and can reach temperatures up to 140°F to provide an authentic sauna experience.",
+          "whyPeopleLikeIt": "Users praise the SereneLife Portable Sauna's easy setup, compact size, and ability to quickly heat up and provide an effective infrared sauna experience.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -918,16 +650,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/serenelife-portable-sauna.png"
+          "image": "/images/gear/products/serenelife-portable-sauna.png",
+          "whyNot": "The small size may not provide enough space for taller users or multiple people, and the fabric construction is less durable than a permanent sauna cabin.",
+          "bestFor": "This portable sauna is ideal for individual users looking to enjoy the benefits of infrared heat therapy in the comfort of their own home.",
+          "avoidIf": "Those seeking a more spacious or long-lasting sauna solution may want to consider a larger, permanent infrared or traditional sauna instead."
         },
         {
           "name": "SaunaBox SmartSteam Kit",
           "brand": "SaunaBox",
           "price": "$500",
-          "description": "Compact wet sauna option for home",
-          "why": "Steam sauna experience, folds down, one-person",
-          "richDescription": "Compact wet sauna option for home",
-          "whyPeopleLikeIt": "Steam sauna experience, folds down, one-person",
+          "description": "The SaunaBox SmartSteam Kit is a compact, portable wet sauna that provides an authentic steam room experience in the comfort of your own home. With a foldable design, it can accommodate a single user for personalized relaxation.",
+          "why": "The SaunaBox SmartSteam Kit provides a convenient, space-efficient way to enjoy the therapeutic benefits of a steam sauna in your own home.",
+          "richDescription": "Crafted from high-quality, durable materials, the SaunaBox SmartSteam Kit features a sturdy, insulated frame and a water-resistant, easy-to-clean interior. Measuring 36 x 36 x 72 inches, it offers a spacious yet space-saving solution for your home sauna needs. The built-in digital control panel allows you to precisely adjust temperature and steam levels for your optimal comfort.",
+          "whyPeopleLikeIt": "Users praise the SaunaBox SmartSteam Kit for its easy setup, precise temperature and steam controls, and the authentic sauna-like experience it provides in a compact, space-saving design.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -939,7 +674,10 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/saunabox-smartsteam-kit.png"
+          "image": "/images/gear/products/saunabox-smartsteam-kit.png",
+          "whyNot": "The single-person capacity may not be suitable for those looking to share the sauna experience with friends or family.",
+          "bestFor": "The SaunaBox SmartSteam Kit is ideal for individuals seeking a personal, high-quality steam sauna experience in their home or apartment.",
+          "avoidIf": "Those with larger households or who prefer a more communal sauna experience may want to consider a larger, multi-person sauna unit."
         }
       ]
     },
@@ -980,9 +718,9 @@
           "name": "SaunaLife Model E8 Barrel Sauna",
           "brand": "SaunaLife",
           "price": "$5,990",
-          "description": "Large ERGO barrel sauna for up to 6 bathers. Premium Thermo-Spruce with panoramic glass options, dual floor drains, and Wi-Fi-controlled LED lighting.",
-          "why": "Spacious 6-person barrel, panoramic glass options, DIY-friendly",
-          "whyPeopleLikeIt": "ERGO Series with curved benches and arched backrest, Dual floor drains prevent flooding, 6'5\" interior height, Thermo-Spruce lasts 2x longer than cedar, Heavy-duty stainless steel barrel bands, Wi-Fi LED lighting with app control, DIY installation: 1 day, 2 persons, Handcrafted in Northern Europe",
+          "description": "The SaunaLife Model E8 Barrel Sauna is a spacious 6-person outdoor sauna made with premium Thermo-Spruce wood and Thermo-Aspen benches. It features panoramic glass options and Wi-Fi-controlled LED lighting.",
+          "why": "The SaunaLife Model E8 offers a spacious, premium barrel sauna experience with thoughtful features like panoramic glass and smart lighting controls.",
+          "whyPeopleLikeIt": "Users praise the SaunaLife Model E8 for its generous capacity, premium construction, and thoughtful features like the panoramic glass and smart lighting controls.",
           "redditSentiment": "Quality Thermo-Spruce, great DIY options",
           "specs": {
             "capacity": "6 persons",
@@ -1002,15 +740,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/saunalife-model-e8.png"
+          "image": "/images/gear/products/saunalife-model-e8.png",
+          "richDescription": "The SaunaLife Model E8 Barrel Sauna is a large, high-quality outdoor sauna that can accommodate up to 6 bathers. It's constructed with 1.65-inch thick Thermo-Spruce wood for the barrel and 1.1-inch thick Thermo-Aspen benches, providing excellent heat retention and a beautiful natural aesthetic. The panoramic glass options allow for stunning views, while the dual floor drains and Wi-Fi-controlled LED lighting add convenience and customization.",
+          "whyNot": "The large size and premium materials make this sauna a significant investment, so it may not be the best choice for those on a tight budget.",
+          "bestFor": "This sauna is ideal for homeowners who want a high-end, spacious outdoor sauna for entertaining family and friends.",
+          "avoidIf": "Those with limited outdoor space or a smaller budget may want to consider a more compact or affordable sauna option."
         },
         {
           "name": "SaunaLife Model G2 DIY Sauna Kit",
           "brand": "SaunaLife",
           "price": "$4,990",
-          "description": "Compact outdoor cabin sauna kit for up to 4 people. Nordic Spruce with interlocking-beam construction, slanted roof, and dimmable Wi-Fi LED lighting.",
-          "why": "Compact cabin kit, affordable entry to outdoor saunas",
-          "whyPeopleLikeIt": "DIY installation: 2 days, 2 persons, Interlocking-beam construction, Clear tempered glass door (5/16\" thick), Dimmable white LED lighting with Wi-Fi app, Slanted roof with self-adhesive waterproofing, Knotless Grade-A Aspen benches, Handcrafted in Northern Europe",
+          "description": "The SaunaLife Model G2 is a compact, DIY outdoor sauna kit that can accommodate up to 4 people. It features a Nordic Spruce cabin with interlocking-beam construction, a slanted roof, and dimmable Wi-Fi LED lighting.",
+          "why": "The SaunaLife Model G2 is an affordable, compact outdoor sauna kit that's easy to assemble and install.",
+          "whyPeopleLikeIt": "Users praise the SaunaLife Model G2 for its high-quality construction, easy DIY assembly, and compact yet comfortable design that fits well in smaller outdoor spaces.",
           "redditSentiment": "Quality Thermo-Spruce, great DIY options",
           "specs": {
             "capacity": "4 persons",
@@ -1028,15 +770,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/saunalife-model-g2.png"
+          "image": "/images/gear/products/saunalife-model-g2.png",
+          "richDescription": "The SaunaLife Model G2 is a well-designed outdoor sauna kit made with high-quality Nordic Spruce wood. The 1.65-inch thick walls and Grade-A Aspen benches provide excellent insulation and comfort. At 54.1 inches deep, 51.5 inches wide, and 78.1 inches high, it offers a cozy yet spacious interior for up to 4 users. The slanted roof and exterior dimensions of 64 inches deep, 72 inches wide, and 92 inches high (front) to 85 inches high (back) give it an attractive, modern look.",
+          "whyNot": "The small size may not be suitable for larger groups or those looking for a more spacious sauna experience.",
+          "bestFor": "This sauna is ideal for small backyards, patios, or decks where space is limited but you still want the benefits of an outdoor sauna.",
+          "avoidIf": "If you need to accommodate more than 4 people or have a larger outdoor area, you may want to consider a larger sauna model."
         },
         {
           "name": "SaunaLife Model GL4 Outdoor Sauna",
           "brand": "SaunaLife",
           "price": "$9,490",
-          "description": "Modern 4-person outdoor sauna cabin with full-height bronze tempered glass, integrated front porch, and 2-tier ergonomic seating. Clean architectural design.",
-          "why": "Modern glass-front design with integrated porch",
-          "whyPeopleLikeIt": "Full-height bronze tempered glass (5/16\" thick), Integrated front porch, 2-tier ergonomic hardwood seating, Interior + exterior LED lighting with Wi-Fi app, Modern horizontal eaves design, 1.57\" thick Nordic Thermo-Spruce walls, Reversible door with full-height pull, DIY installation: 2 persons",
+          "description": "The SaunaLife Model GL4 is a modern 4-person outdoor sauna cabin with a full-height bronze tempered glass front, an integrated front porch, and 2-tier ergonomic seating.",
+          "why": "The modern glass-front design and integrated porch make this an attractive and functional outdoor sauna option.",
+          "whyPeopleLikeIt": "Users praise the sauna's sleek, contemporary design, the comfortable seating, and the enjoyment of the outdoor porch area.",
           "redditSentiment": "Quality Thermo-Spruce, great DIY options",
           "specs": {
             "capacity": "4 persons",
@@ -1055,15 +801,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/saunalife-model-gl4.png"
+          "image": "/images/gear/products/saunalife-model-gl4.png",
+          "richDescription": "This outdoor sauna is crafted from 1.57-inch thick Nordic Thermo-Spruce wood and measures 58.9 inches wide, 79.5 inches deep, and 85.1 inches tall. The glass front provides an unobstructed view while the integrated 58.9-inch wide, 14.6-inch deep porch offers a comfortable space to relax before or after your sauna session.",
+          "whyNot": "The high price tag may be a deterrent for some buyers looking for a more budget-friendly outdoor sauna solution.",
+          "bestFor": "This sauna is ideal for homeowners with ample outdoor space who want a high-end, visually striking sauna experience.",
+          "avoidIf": "Those with limited budgets or smaller outdoor areas may want to consider more compact or less expensive outdoor sauna models."
         },
         {
           "name": "SaunaLife Model GL6 Outdoor Sauna",
           "brand": "SaunaLife",
           "price": "$12,790",
-          "description": "Spacious 6-person contemporary sauna cabin with full-height bronze glass, side entry, integrated porch, and EPS insulation. DIY assembly in 2 days.",
-          "why": "Spacious 6-person cabin with full-height glass and EPS insulation",
-          "whyPeopleLikeIt": "Full-height tempered bronze glass windows and door, Integrated porch with recessed LED exterior lighting, 2-tier ergonomic hardwood seating, Wi-Fi app-controlled interior LED lighting, EPS insulation for weather resistance, 1.57\" thick Nordic Thermo-Spruce walls, Side entry door design, DIY installation: 2 persons, 2 days",
+          "description": "The SaunaLife Model GL6 Outdoor Sauna is a spacious 6-person sauna cabin with full-height bronze glass panels, a side entry, and an integrated porch. It features EPS insulation for efficient heating and can be DIY assembled in 2 days.",
+          "why": "The SaunaLife Model GL6 offers a spacious, contemporary design with high-quality materials and features that make it a great choice for outdoor sauna enthusiasts.",
+          "whyPeopleLikeIt": "Users praise the SaunaLife Model GL6's spacious interior, high-quality construction, and efficient heating performance, making it a popular choice for those seeking a premium outdoor sauna experience.",
           "redditSentiment": "Quality Thermo-Spruce, great DIY options",
           "specs": {
             "capacity": "6 persons",
@@ -1082,15 +832,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/saunalife-model-gl6.png"
+          "image": "/images/gear/products/saunalife-model-gl6.png",
+          "richDescription": "This contemporary sauna cabin is crafted from 1.57-inch thick Nordic Thermo-Spruce wood and measures 90.2 inches wide, 90.2 inches deep, and 92.5 inches high. The full-height bronze glass panels provide an open, airy feel while the EPS insulation ensures efficient heating. The side entry and integrated porch add convenience and comfort to your outdoor sauna experience.",
+          "whyNot": "At nearly $13,000, this sauna is a significant investment that may be out of reach for some buyers looking for a more budget-friendly option.",
+          "bestFor": "This sauna is ideal for homeowners with ample outdoor space who want a luxurious, high-capacity sauna for entertaining and relaxation.",
+          "avoidIf": "If you have limited outdoor space or a tighter budget, you may want to consider a smaller or more affordable sauna model."
         },
         {
           "name": "Auroom Aura Outdoor Cabin Sauna",
           "brand": "Auroom",
           "price": "$17,990",
-          "description": "Modular Finnish sauna with full tempered glass front wall, contoured bench seating, and premium Thermo-Aspen interior. Elegant design with no visible fasteners.",
-          "why": "Architect-designed modular sauna, ergonomic contoured benches",
-          "whyPeopleLikeIt": "Full tempered glass front wall (8mm), Ergonomic contoured bench with footrest, LED strip lighting with backrest, No visible fasteners, EPDM rubber roofing included, Duckboard floor, Accessories included: bucket, ladle, thermometer, hygrometer, sand timer, aroma set, sauna hat, pillow",
+          "description": "The Auroom Aura Outdoor Cabin Sauna is a premium, modular Finnish sauna with a full tempered glass front wall, contoured bench seating, and a beautiful Thermo-Aspen interior. Its elegant design features no visible fasteners for a seamless look.",
+          "why": "The Auroom Aura's architect-designed modular construction and premium materials make it a beautiful, durable addition to any outdoor living space.",
+          "whyPeopleLikeIt": "Owners praise the Auroom Aura's elegant, seamless design, the high-quality Thermo-Aspen interior, and the spacious, comfortable seating.",
           "redditSentiment": "Premium Estonian quality, architect-designed",
           "specs": {
             "capacity": "2 persons",
@@ -1108,15 +862,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/auroom-aura.png"
+          "image": "/images/gear/products/auroom-aura.png",
+          "richDescription": "This high-end outdoor sauna from Auroom is crafted with a Thermo-Aspen interior and a Black Thermo-Spruce exterior, measuring 69\" W x 68\" D x 97\" H. The spacious 58\" W x 58\" D x 79\" H interior comfortably fits 2-3 people on the contoured benches. The full tempered glass front wall provides stunning views and natural light while maintaining heat and privacy.",
+          "whyNot": "The Auroom Aura's high price tag may be prohibitive for some buyers looking for a more budget-friendly outdoor sauna option.",
+          "bestFor": "Homeowners and design-conscious consumers who want a luxurious, high-quality outdoor sauna with a sleek, modern aesthetic.",
+          "avoidIf": "Shoppers on a tight budget or those who don't need the Auroom Aura's premium features and materials may be better served by a more affordable outdoor sauna model."
         },
         {
           "name": "Auroom Mira S Cabin Sauna Kit",
           "brand": "Auroom",
           "price": "$14,990",
-          "description": "Compact modern outdoor sauna with full tempered glass front, 2-tier seating, and satin-smooth Thermo-Aspen interior. Available in natural or black finish.",
-          "why": "Minimalist Estonian design, full glass front, premium materials",
-          "whyPeopleLikeIt": "Full tempered glass front wall (8mm), 2-tier bench seating, Remote-controlled LED lighting, No visible fasteners, Duckboard flooring, Available in natural or black thermo-spruce exterior, Assembly: ~8 hours, 2 persons",
+          "description": "The Auroom Mira S Cabin Sauna Kit is a compact, modern outdoor sauna with a full tempered glass front, 2-tier seating, and a satin-smooth Thermo-Aspen interior. It's available in natural or black exterior finishes to suit your outdoor space.",
+          "why": "The Mira S offers a high-quality, modern sauna experience with premium materials and a stunning glass-front design.",
+          "whyPeopleLikeIt": "Owners praise the Mira S for its beautiful, minimalist design, high-quality construction, and the way it seamlessly blends into outdoor living spaces.",
           "redditSentiment": "Premium Estonian quality, architect-designed",
           "specs": {
             "capacity": "1–2 persons",
@@ -1135,15 +893,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/auroom-mira-s.png"
+          "image": "/images/gear/products/auroom-mira-s.png",
+          "richDescription": "This premium Estonian-designed sauna features a sleek, minimalist aesthetic with a full 8mm tempered glass front panel that lets you enjoy the outdoors while you relax. The interior is crafted from beautiful Thermo-Aspen wood, providing a warm, natural ambiance, while the Thermo-Spruce exterior is durable and weather-resistant. With a capacity of 1-2 people and compact dimensions of 52\" W x 53\" D x 79\" H, the Mira S is perfect for smaller backyards or patios.",
+          "whyNot": "The Mira S is a significant investment, and its compact size may not be suitable for larger households or those looking for a more spacious sauna experience.",
+          "bestFor": "The Auroom Mira S is ideal for homeowners with limited outdoor space who want a luxurious, contemporary sauna for 1-2 people.",
+          "avoidIf": "If you need a sauna that can accommodate 3 or more people, or if you have a larger backyard and are looking for a more expansive sauna design, the Mira S may not be the best fit."
         },
         {
           "name": "Auroom Garda Outdoor Cabin Sauna",
           "brand": "Auroom",
           "price": "$29,900",
-          "description": "Compact minimalist 4–6 person outdoor sauna with cross-laminated timber construction. Fully assembled — no assembly required. Clean modern design.",
-          "why": "Fully pre-assembled, cross-laminated timber, no DIY needed",
-          "whyPeopleLikeIt": "Fully assembled — no DIY required, Minimalistic, functional design, Cross-laminated timber construction, 8mm tempered glass window (rear or side placement), 8mm tempered glass door with aluminum frames, LED dimmable lighting strips, Accessories included: bucket, ladle, thermometer, hygrometer, sand timer, aroma set, sauna hat",
+          "description": "The Auroom Garda Outdoor Cabin Sauna is a compact, minimalist 4-6 person outdoor sauna with a sleek, modern design. Crafted from high-quality cross-laminated timber, this pre-assembled sauna requires no DIY assembly.",
+          "why": "The Auroom Garda's pre-assembled design and high-quality materials make it an excellent choice for those seeking a hassle-free outdoor sauna installation.",
+          "whyPeopleLikeIt": "Customers praise the Auroom Garda's sleek, modern design, high-quality construction, and ease of installation.",
           "redditSentiment": "Premium Estonian quality, architect-designed",
           "specs": {
             "capacity": "4–6 persons",
@@ -1160,7 +922,11 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/auroom-garda.png"
+          "image": "/images/gear/products/auroom-garda.png",
+          "richDescription": "The Auroom Garda Outdoor Cabin Sauna is a beautifully designed, fully pre-assembled outdoor sauna that can accommodate 4-6 people. Featuring a Thermo-Pine exterior and Thermo-Aspen interior, this sauna is built to withstand the elements with its cross-laminated timber construction. The 8mm tempered glass door with aluminum frames provides a clean, contemporary look, while the duckboard floor ensures a comfortable experience.",
+          "whyNot": "The Auroom Garda's premium price tag may be a deterrent for those on a tighter budget.",
+          "bestFor": "The Auroom Garda is ideal for homeowners with ample outdoor space who want a stylish, low-maintenance sauna experience.",
+          "avoidIf": "Those with limited outdoor space or a smaller budget may want to consider more compact or affordable outdoor sauna options."
         }
       ]
     },
@@ -1173,9 +939,9 @@
           "name": "HUUM Drop 6kW",
           "brand": "HUUM",
           "price": "$1,506",
-          "description": "Wall-mounted electric sauna heater delivering a classic Finnish sauna experience in a stunning natural design. The open-air cage promotes airflow for optimal heating and steam levels, built for water-pouring.",
-          "why": "Stunning open-cage design, authentic löyly, Estonian craftsmanship",
-          "whyPeopleLikeIt": "Open-air stainless steel cage design, Wall-mounted installation, Made for water-pouring (löyly), Handcrafted in Estonia, Stainless steel construction, Max temperature 230°F",
+          "description": "The HUUM Drop 6kW is a wall-mounted electric sauna heater that delivers an authentic Finnish sauna experience. Its open-air cage design promotes optimal airflow and steam generation, making it ideal for water-pouring.",
+          "why": "The HUUM Drop's open-cage design and Estonian craftsmanship provide an unparalleled sauna experience.",
+          "whyPeopleLikeIt": "Users praise the HUUM Drop's ability to generate robust, authentic-feeling steam, as well as its beautiful, minimalist aesthetic that complements any sauna space.",
           "redditSentiment": "Top-tier Estonian design, excellent löyly",
           "specs": {
             "kW": "6",
@@ -1200,15 +966,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/huum-drop-6kw.png"
+          "image": "/images/gear/products/huum-drop-6kw.png",
+          "richDescription": "Crafted with premium Estonian materials, the HUUM Drop 6kW features a stunning natural design with an open-cage heating element. At 6kW, it can heat saunas up to 318 cubic feet, reaching a maximum temperature of 230°F. The 121-lb stone capacity allows for a robust löyly (steam) when water is poured over the rocks.",
+          "whyNot": "The HUUM Drop's high price tag may be prohibitive for some budget-conscious sauna enthusiasts.",
+          "bestFor": "The HUUM Drop is ideal for homeowners and sauna owners who want an authentic Finnish sauna experience with a stunning, natural design.",
+          "avoidIf": "Those on a tighter budget or with smaller sauna rooms may want to consider more affordable or lower-capacity options."
         },
         {
           "name": "HUUM Hive Mini 9kW",
           "brand": "HUUM",
           "price": "$2,657",
-          "description": "Floor-standing sauna heater with beehive-inspired cage design holding 331 lbs of stones. Air tunnel accelerates temperature reach and adjustable legs allow flexible installation.",
-          "why": "Iconic beehive design, massive stone capacity in compact size",
-          "whyPeopleLikeIt": "Beehive-inspired open-air design, Floor-standing with adjustable legs, Massive 331 lbs stone capacity, Included air tunnel for faster heating, Can be embedded in benches, Safe on wooden floors",
+          "description": "The HUUM Hive Mini 9kW is a powerful, floor-standing electric sauna heater with a unique beehive-inspired design. Featuring a massive 331 lb stone capacity, it can quickly heat saunas up to 460 cubic feet.",
+          "why": "The Hive Mini's iconic design and massive stone capacity make it a standout choice for sauna enthusiasts seeking high-quality, efficient heating.",
+          "whyPeopleLikeIt": "Users praise the Hive Mini's rapid heating, even heat distribution, and striking beehive aesthetic that makes it a true centerpiece of the sauna.",
           "redditSentiment": "Top-tier Estonian design, excellent löyly",
           "specs": {
             "kW": "9",
@@ -1233,15 +1003,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/huum-hive-mini-9kw.png"
+          "image": "/images/gear/products/huum-hive-mini-9kw.png",
+          "richDescription": "The HUUM Hive Mini 9kW is a high-performance electric sauna heater with a striking beehive-inspired cage design. Crafted from durable stainless steel, it holds an impressive 331 lbs of stones to radiate heat evenly throughout the sauna. The air tunnel design accelerates temperature reach, while adjustable legs allow for flexible installation. At 29.6 inches tall and 18.1 inches deep, it packs a lot of heating power into a compact footprint.",
+          "whyNot": "The Hive Mini's premium price tag may be prohibitive for some buyers on a tighter budget.",
+          "bestFor": "The HUUM Hive Mini 9kW is ideal for homeowners or commercial sauna operators who want a powerful, visually-striking heater to anchor their sauna space.",
+          "avoidIf": "Those with very small sauna rooms under 283 cubic feet may find the Hive Mini's heating capacity overkill and should consider a lower-wattage model."
         },
         {
           "name": "HUUM Hive 15kW",
           "brand": "HUUM",
           "price": "$3,088",
-          "description": "High-output floor-standing heater with beehive-inspired design for large commercial or residential sauna rooms. Massive stone capacity delivers exceptional steam quality.",
-          "why": "The original beehive heater, legendary steam quality",
-          "whyPeopleLikeIt": "Beehive-inspired open-air design, Floor-standing installation, Extraordinary stone capacity, Included air tunnel for faster heating, Can be embedded in benches, Suitable for large sauna rooms",
+          "description": "The HUUM Hive 15kW is a powerful, floor-standing electric sauna heater with a striking beehive-inspired design. Its massive 551 lb stone capacity delivers exceptional steam quality and performance for large commercial or residential sauna rooms up to 1,500 sq ft.",
+          "why": "The original beehive heater design delivers legendary steam quality and performance.",
+          "whyPeopleLikeIt": "Users praise the Hive's striking visual design, powerful steam output, and ability to heat large sauna spaces quickly and evenly.",
           "redditSentiment": "Top-tier Estonian design, excellent löyly",
           "specs": {
             "kW": "15",
@@ -1260,15 +1034,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/huum-hive-15kw.png"
+          "image": "/images/gear/products/huum-hive-15kw.png",
+          "richDescription": "The HUUM Hive 15kW is a high-output electric sauna heater with a unique beehive-shaped design. Featuring a 15kW heating element and a 551 lb stone capacity, this floor-standing unit can efficiently heat large sauna rooms up to 1,500 sq ft. The beehive shape allows for optimal heat and steam distribution, while the heavy-duty stainless steel construction ensures long-lasting durability.",
+          "whyNot": "The Hive's large size and high power output may be overkill for smaller residential saunas.",
+          "bestFor": "The HUUM Hive 15kW is ideal for large commercial saunas, luxury residential saunas, and anyone seeking exceptional steam quality and performance.",
+          "avoidIf": "If you have a smaller sauna room under 1,000 sq ft, the Hive's high output may be excessive and you may want to consider a more compact heater."
         },
         {
           "name": "HUUM Cliff 6kW",
           "brand": "HUUM",
           "price": "$2,347",
-          "description": "Minimalist floor-mounted heater with small safety distances for custom sauna layouts. Steel cage manufactured from recycled cutouts for zero-waste production.",
-          "why": "Sleek wall-mounted design, space-efficient, modern aesthetic",
-          "whyPeopleLikeIt": "Slim profile with small safety distances, Floor-mounted with wall anchor, Made from recycled steel cutouts, Fully exposed stones for water-pouring, Soft and soothing steam, Eco-friendly manufacturing",
+          "description": "The HUUM Cliff 6kW is a minimalist, floor-mounted electric sauna heater with a small safety footprint, allowing for custom sauna layouts. Its steel cage is made from recycled cutouts, ensuring zero-waste production.",
+          "why": "The Cliff's small footprint and modern, minimalist design make it an excellent choice for custom sauna builds with limited space.",
+          "whyPeopleLikeIt": "Users praise the Cliff's minimalist design, efficient heating performance, and eco-friendly manufacturing process.",
           "redditSentiment": "Top-tier Estonian design, excellent löyly",
           "specs": {
             "kW": "6",
@@ -1293,15 +1071,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/huum-cliff-6kw.png"
+          "image": "/images/gear/products/huum-cliff-6kw.png",
+          "richDescription": "The HUUM Cliff 6kW is a sleek, floor-mounted electric sauna heater that packs a 6kW punch in a compact 38.4\"H x 10.6\"W x 10.6\"D frame. Its steel cage is crafted from recycled cutouts, reducing waste in the manufacturing process. With a stone capacity of 165.4 lbs, this heater can comfortably heat saunas up to 318 ft³, reaching a maximum temperature of 230°F.",
+          "whyNot": "The Cliff's floor-mounted design may not be suitable for all sauna layouts, and its higher price point may deter some budget-conscious buyers.",
+          "bestFor": "The HUUM Cliff 6kW is ideal for homeowners and sauna enthusiasts looking to create a custom, modern sauna with a sleek, space-efficient heater.",
+          "avoidIf": "If you have a larger sauna space or prefer a wall-mounted heater, the Cliff may not be the best fit for your needs."
         },
         {
           "name": "HUUM Steel 6kW",
           "brand": "HUUM",
           "price": "$2,033",
-          "description": "Floor-standing heater with slim profile and integrated air tunnel supporting effective airflow through heating elements and stones. Welcomes water-pouring for traditional Finnish steam.",
-          "why": "Clean minimalist look, powerful performance, space-saving",
-          "whyPeopleLikeIt": "Slim profile with small safety distances, Integrated air tunnel for airflow, Floor-standing installation, Welcomes water-pouring, Stainless steel construction, 330 lbs stone capacity",
+          "description": "The HUUM Steel 6kW is a powerful and efficient electric sauna heater that delivers a traditional Finnish steam experience. Its slim, floor-standing design and integrated air tunnel ensure effective airflow and heat distribution throughout the sauna.",
+          "why": "The HUUM Steel 6kW offers powerful performance in a sleek, minimalist design that seamlessly integrates into any sauna space.",
+          "whyPeopleLikeIt": "Users praise the HUUM Steel 6kW for its sleek, minimalist design, powerful performance, and ability to provide a traditional Finnish steam experience.",
           "redditSentiment": "Top-tier Estonian design, excellent löyly",
           "specs": {
             "kW": "6",
@@ -1326,15 +1108,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/huum-steel-6kw.png"
+          "image": "/images/gear/products/huum-steel-6kw.png",
+          "richDescription": "Crafted from durable steel, the HUUM Steel 6kW electric sauna heater boasts a 6kW heating capacity and can accommodate up to 330 lbs of sauna stones. Its slim, space-saving profile measures 38.4\" H x 12.6\" W x 12.63\" D and weighs just 33 lbs, making it a great choice for smaller to medium-sized saunas between 177-318 ft³. The integrated air tunnel supports effective airflow, ensuring even heat distribution and the ability to pour water for a traditional steam experience.",
+          "whyNot": "The HUUM Steel 6kW may be too large or powerful for very small saunas, and its higher price point may be a deterrent for some buyers on a tighter budget.",
+          "bestFor": "The HUUM Steel 6kW is ideal for homeowners and sauna enthusiasts looking for a high-quality, efficient electric heater that can accommodate medium-sized saunas.",
+          "avoidIf": "If you have a very small sauna or are working with a limited budget, the HUUM Steel 6kW may not be the best fit, and you may want to consider a smaller or more affordable electric sauna heater."
         },
         {
           "name": "Harvia Cilindro PC80E",
           "brand": "Harvia",
           "price": "$1,233",
-          "description": "Cylindrical floor-standing heater with open-air section running from top to bottom of the stone cage, enabling users to adjust steam quality. Built-in heat shield for reduced safety clearances.",
-          "why": "Pillar design holds 220 lbs of stones, incredible steam",
-          "whyPeopleLikeIt": "Open-air cage design for steam adjustment, Built-in heat shield, 200 lbs stone capacity, Floor-standing installation, Water-pouring capable, Made in Finland",
+          "description": "The Harvia Cilindro PC80E is a powerful, cylindrical electric sauna heater that can heat spaces up to 431 cubic feet. Its open-air stone compartment allows users to adjust the steam output for their ideal sauna experience.",
+          "why": "The Cilindro's adjustable steam output and large stone capacity make it a great choice for customizing your sauna experience.",
+          "whyPeopleLikeIt": "Users praise the Cilindro's ability to generate copious amounts of steam and the flexibility to fine-tune the sauna experience.",
           "redditSentiment": "Reliable Finnish quality, trusted brand",
           "specs": {
             "kW": "8",
@@ -1358,15 +1144,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-cilindro-pc80e.png"
+          "image": "/images/gear/products/harvia-cilindro-pc80e.png",
+          "richDescription": "This floor-standing electric sauna heater from Harvia features a cylindrical design with an open-air stone compartment running from top to bottom. The 8 kW heating element can warm up to 431 cubic feet, and the 220 lb stone capacity provides ample steam. A built-in heat shield allows for reduced safety clearances around the unit.",
+          "whyNot": "The Cilindro's floor-standing design may not be suitable for all sauna layouts, and its high power draw requires a dedicated 240V circuit.",
+          "bestFor": "This heater is ideal for medium to large sauna rooms where users want precise control over steam production.",
+          "avoidIf": "If you have a smaller sauna space or need a more compact heater, the Cilindro may be overkill and require more electrical work to install."
         },
         {
           "name": "Harvia Virta HL80",
           "brand": "Harvia",
           "price": "$2,080",
-          "description": "Premium wall-mounted heater with separated stone chambers producing soft, humid steam. Available in Standard and Combi (with built-in steamer) configurations. Made in Finland.",
-          "why": "Premium wall heater with stainless steel finish, WiFi-ready",
-          "whyPeopleLikeIt": "Separated stone chambers, Soft and humid steam, Short preheat times, Available in Combi version with steamer, Industrial-grade serviceable elements, Designed and made in Finland",
+          "description": "The Harvia Virta HL80 is a premium wall-mounted electric sauna heater with a stainless steel finish. It features separate stone chambers that produce a soft, humid steam experience.",
+          "why": "This is a top-of-the-line sauna heater from a respected Finnish brand, with premium materials and features like WiFi connectivity.",
+          "whyPeopleLikeIt": "Users praise the Virta HL80's sleek design, consistent heating performance, and the soft, humid steam it produces.",
           "redditSentiment": "Reliable Finnish quality, trusted brand",
           "specs": {
             "kW": "8",
@@ -1389,15 +1179,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-virta-hl80.png"
+          "image": "/images/gear/products/harvia-virta-hl80.png",
+          "richDescription": "The Harvia Virta HL80 is a high-end electric sauna heater made in Finland. It has a sleek stainless steel exterior and separate stone chambers that generate a gentle, moist steam. This 8kW heater can handle sauna rooms from 177 to 431 cubic feet and reaches temperatures up to 194°F. It's available in both standard and combi (with built-in steamer) configurations to suit your sauna setup.",
+          "whyNot": "The Virta HL80 is a significant investment, so it may not be the best choice for budget-conscious sauna owners.",
+          "bestFor": "This heater is ideal for discerning sauna enthusiasts who want a high-performance, feature-rich unit for their luxury home or commercial sauna.",
+          "avoidIf": "If you have a smaller sauna space or are working with a tighter budget, there may be more affordable options that still provide a great sauna experience."
         },
         {
           "name": "Harvia KIP 6kW (Built-In Controls)",
           "brand": "Harvia",
           "price": "$1,195",
-          "description": "Wall-mounted heater with integrated controls and dual-wall construction that stays cool to the touch. Mounts directly on wood with no heat shield needed.",
-          "why": "Built-in controls, affordable Finnish quality, easy install",
-          "whyPeopleLikeIt": "Built-in timer and temperature controls, Dual-wall cool-touch construction, Mounts directly on wooden walls, Schedule sessions up to 8 hours ahead, Stainless steel or black finish, No external controller needed",
+          "description": "The Harvia KIP 6kW electric sauna heater features built-in controls and a dual-wall construction that stays cool to the touch, making it a safe and easy-to-use option for your home sauna.",
+          "why": "The Harvia KIP 6kW offers high-quality Finnish craftsmanship and convenient built-in controls at an affordable price point.",
+          "whyPeopleLikeIt": "Customers praise the Harvia KIP 6kW for its quality construction, straightforward installation, and intuitive built-in controls that make operating the sauna a breeze.",
           "redditSentiment": "Reliable Finnish quality, trusted brand",
           "specs": {
             "kW": "6",
@@ -1421,15 +1215,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-kip-6kw-built-in-controls.png"
+          "image": "/images/gear/products/harvia-kip-6kw-built-in-controls.png",
+          "richDescription": "This wall-mounted sauna heater from the renowned Finnish brand Harvia delivers 6kW of power and can heat rooms up to 300 cubic feet. Its dual-wall design keeps the exterior cool, eliminating the need for a heat shield during installation. The integrated control panel allows you to easily adjust temperature and time settings without a separate controller.",
+          "whyNot": "While the integrated controls are a nice feature, some users may prefer a separate control unit for more advanced programming options.",
+          "bestFor": "This heater is ideal for homeowners looking to install a reliable, easy-to-use electric sauna in a medium-sized room.",
+          "avoidIf": "If you need to heat a larger sauna space or want more granular control over sauna settings, you may want to consider a higher-powered or separate control unit model."
         },
         {
           "name": "Harvia Club K12.5G",
           "brand": "Harvia",
           "price": "$2,086",
-          "description": "Mid-range Club model for larger group sauna sessions. Floor-mounted with open-air cage design for superior airflow and water-pouring capability.",
-          "why": "Commercial-grade reliability, large stone capacity",
-          "whyPeopleLikeIt": "Floor-mounted for group saunas, Integrated stone guard, Open-air cage for optimal airflow, Water-pouring capable, Available in residential and commercial voltage, 132 lbs stone capacity",
+          "description": "The Harvia Club K12.5G is a powerful electric sauna heater designed for larger group sauna sessions. With a 12.5 kW heating capacity, it can comfortably heat saunas up to 750 cubic feet.",
+          "why": "The Club K12.5G offers commercial-grade reliability and a large stone capacity for consistent, high-performance sauna sessions.",
+          "whyPeopleLikeIt": "Users praise the Club K12.5G's robust heating power, generous stone capacity, and durable stainless steel construction that can withstand heavy commercial use.",
           "redditSentiment": "Reliable Finnish quality, trusted brand",
           "specs": {
             "kW": "12.5",
@@ -1451,15 +1249,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-club-k12-5g.png"
+          "image": "/images/gear/products/harvia-club-k12-5g.png",
+          "richDescription": "The Harvia Club K12.5G features a floor-mounted, open-air cage design that promotes superior airflow and allows for easy water pouring. Constructed with high-quality stainless steel, it can hold up to 132 lbs of sauna stones for a robust steam experience. At 27.5 inches tall, 19.9 inches wide, and 16.9 inches deep, this heater has a compact footprint that fits well in commercial or home saunas.",
+          "whyNot": "This model may be overkill for smaller home saunas and requires 240V or 208V 3-phase electrical service, which can be more complex to install.",
+          "bestFor": "The Harvia Club K12.5G is ideal for larger saunas in commercial settings, such as gyms, spas, and community centers, or spacious home saunas that accommodate groups.",
+          "avoidIf": "Homeowners with smaller saunas under 400 cubic feet may want to consider a more compact, lower-wattage heater that is easier to install on standard household 120V or 240V circuits."
         },
         {
           "name": "Harvia Spirit SP80E",
           "brand": "Harvia",
           "price": "$1,777",
-          "description": "Wall-mounted heater with cage-like body and integrated ventilation system for even heating. Cooling vents on the back allow safe mounting directly on wooden walls.",
-          "why": "Elegant glass panel design, modern Finnish engineering",
-          "whyPeopleLikeIt": "Integrated ventilation system, Open-air cage design, Wall-mountable on wood with cooling vents, 110 lbs stone capacity, Water-pouring capable, Made in Finland",
+          "description": "The Harvia Spirit SP80E is a powerful 8kW electric sauna heater designed for medium to large sauna rooms. Its sleek, cage-like body and integrated ventilation system ensure even, efficient heating.",
+          "why": "This Harvia heater combines elegant Finnish design with reliable, high-output heating performance.",
+          "whyPeopleLikeIt": "Users praise the Harvia Spirit SP80E's efficient, even heat distribution and the way its modern, minimalist design elevates the look of their sauna.",
           "redditSentiment": "Reliable Finnish quality, trusted brand",
           "specs": {
             "kW": "8",
@@ -1483,15 +1285,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-spirit-sp80e.png"
+          "image": "/images/gear/products/harvia-spirit-sp80e.png",
+          "richDescription": "Crafted with high-quality stainless steel, the Harvia Spirit SP80E features a modern, minimalist design that complements any sauna interior. With a 110-lb stone capacity and the ability to heat rooms up to 431 cubic feet, this wall-mounted heater packs impressive performance into a compact 29.5 x 15 x 13.1-inch footprint. The integrated ventilation system and cooling vents on the back allow for safe, direct mounting on wooden walls.",
+          "whyNot": "The premium price tag may be prohibitive for some budget-conscious sauna owners.",
+          "bestFor": "The Harvia Spirit SP80E is ideal for medium to large home saunas or light commercial use, where powerful, even heating and a sleek aesthetic are priorities.",
+          "avoidIf": "If you have a smaller sauna room or are working with a tighter budget, there may be more affordable options that still meet your heating needs."
         },
         {
           "name": "Saunum Air 7",
           "brand": "Saunum",
           "price": "$3,095",
-          "description": "Floor-to-ceiling heater with patented air blending system creating even temperature distribution. Himalayan salt orbs release negative ions while 6 bathing modes offer diverse sauna experiences.",
-          "why": "Revolutionary climate equalizer, Himalayan salt, 6 sauna modes",
-          "whyPeopleLikeIt": "Patented Climate Equalizer air blending, 6 sauna modes (Finnish, Estonian, Russian Banya, Yoga, Salt, Aroma), Himalayan salt reservoir for negative ions, Wi-Fi controllable (AirIQ sold separately), 3-speed whisper-quiet fan, UL certified, Incoloy heating elements",
+          "description": "The Saunum Air 7 is a powerful 6.4 kW electric sauna heater designed for even temperature distribution in saunas up to 282 cubic feet. Its patented air blending system and Himalayan salt orbs create a soothing, negative ion-rich environment across 6 customizable bathing modes.",
+          "why": "The Saunum Air 7's advanced air circulation and Himalayan salt features create a uniquely relaxing and therapeutic sauna experience.",
+          "whyPeopleLikeIt": "Users praise the Saunum Air 7's even heat distribution, relaxing Himalayan salt experience, and customizable sauna modes.",
           "redditSentiment": "Unique climate system, game-changer for steam quality",
           "specs": {
             "kW": "6.4",
@@ -1515,15 +1321,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/saunum-air-7.png"
+          "image": "/images/gear/products/saunum-air-7.png",
+          "richDescription": "The Saunum Air 7 is a high-performance electric sauna heater that stands floor-to-ceiling at 88.58-94.48 inches tall. Its 6.4 kW heating element can warm saunas up to 282 cubic feet, while the patented air blending system ensures even heat distribution. The Himalayan salt orbs release negative ions for a refreshing sauna experience, and the 6 bathing modes let you customize temperature, humidity, and lighting to your preferences.",
+          "whyNot": "The Saunum Air 7's premium price tag may be prohibitive for some sauna owners on a tighter budget.",
+          "bestFor": "The Saunum Air 7 is ideal for sauna enthusiasts who want a high-end, feature-rich heater that can accommodate larger sauna rooms.",
+          "avoidIf": "Those with smaller sauna spaces or tighter budgets may want to consider more affordable electric heater options."
         },
         {
           "name": "Saunum Air Perfect 10",
           "brand": "Saunum",
           "price": "$3,895",
-          "description": "Higher-output version of the Air Perfect with patented air mixing technology for even heat distribution. Himalayan salt spheres and 6 sauna modes in a compact floor-standing design.",
-          "why": "Premium climate system with salt therapy and smart controls",
-          "whyPeopleLikeIt": "Patented air mixing system, 6 sauna modes (Finnish, Estonian, Russian Banya, Yoga, Salt, Aroma), Himalayan salt spheres included, Built-in climate equalizer, Wi-Fi controllable (AirIQ sold separately), UL certified, 2-year limited warranty",
+          "description": "The Saunum Air Perfect 10 is a powerful 10kW electric sauna heater with patented air mixing technology for even heat distribution throughout your sauna. It features Himalayan salt spheres for a soothing salt therapy experience and offers 6 customizable sauna modes.",
+          "why": "The Air Perfect 10's powerful heating, smart controls, and salt therapy features make it a top-of-the-line option for serious sauna enthusiasts.",
+          "whyPeopleLikeIt": "Users praise the Air Perfect 10's even heat distribution, customizable sauna modes, and relaxing salt therapy features.",
           "redditSentiment": "Unique climate system, game-changer for steam quality",
           "specs": {
             "kW": "10",
@@ -1543,7 +1353,11 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/saunum-air-perfect-10.png"
+          "image": "/images/gear/products/saunum-air-perfect-10.png",
+          "richDescription": "The Saunum Air Perfect 10 is a premium electric sauna heater designed for larger sauna rooms up to 550 cubic feet. Its 10kW heating capacity and patented air mixing system ensure consistent, even heat distribution for a comfortable sauna experience. The unit includes 132 lbs of Himalayan salt spheres that release negative ions as they heat up, providing a relaxing salt therapy effect. With 6 pre-programmed sauna modes, you can easily find the perfect settings for your needs.",
+          "whyNot": "The Air Perfect 10's high price tag and large size may be overkill for smaller home saunas or casual users.",
+          "bestFor": "The Air Perfect 10 is ideal for larger home saunas, commercial sauna facilities, or sauna enthusiasts who want a premium, feature-rich heating system.",
+          "avoidIf": "Those with smaller sauna rooms or a tighter budget may want to consider a more compact, lower-power sauna heater."
         }
       ]
     },
@@ -1556,9 +1370,9 @@
           "name": "Harvia Legend 150",
           "brand": "Harvia",
           "price": "$2,089",
-          "description": "Premium Finnish wood-burning sauna heater with patinated steel frame and cast-iron glass door. Designed to heat two rooms with clean, efficient burning.",
-          "why": "Iconic Finnish design, cast-iron glass door, heats two rooms",
-          "whyPeopleLikeIt": "Patinated steel frame with cast-iron glass door, Can heat two rooms simultaneously, Adjustable feet for floor installation, Flue connection: top and back, Designed, engineered, and made in Finland",
+          "description": "The Harvia Legend 150 is a premium wood-burning sauna heater crafted in Finland. With its patinated steel frame and cast-iron glass door, this stove delivers efficient, clean-burning heat to sauna rooms up to 459 cubic feet.",
+          "why": "The Harvia Legend 150 offers iconic Finnish design, a durable cast-iron glass door, and the ability to heat two sauna rooms efficiently.",
+          "whyPeopleLikeIt": "Users praise the Harvia Legend 150 for its efficient, clean-burning performance, its durable construction, and its timeless Finnish design that complements any sauna interior.",
           "redditSentiment": "Traditional Finnish quality, legendary steam",
           "specs": {
             "kW": "16",
@@ -1578,15 +1392,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-legend-150.png"
+          "image": "/images/gear/products/harvia-legend-150.png",
+          "richDescription": "The Harvia Legend 150 is a high-quality wood-burning sauna heater made in Finland. Its sturdy patinated steel frame and cast-iron glass door give it a classic, timeless look that complements any sauna interior. At 16 kW, this stove can comfortably heat spaces up to 459 cubic feet, making it suitable for medium to large sauna rooms. The maximum firewood length of 15 inches ensures easy loading and efficient burning.",
+          "whyNot": "The Harvia Legend 150 is a premium product with a correspondingly high price tag, so it may not be the best choice for those on a tighter budget.",
+          "bestFor": "The Harvia Legend 150 is ideal for sauna enthusiasts who want a high-quality, wood-burning stove with classic Finnish styling and the capacity to heat larger sauna rooms.",
+          "avoidIf": "If you have a smaller sauna space or are looking for a more budget-friendly option, the Harvia Legend 150 may not be the best fit."
         },
         {
           "name": "Harvia Legend 240 GreenFlame",
           "brand": "Harvia",
           "price": "$2,859",
-          "description": "Eco-friendly wood-burning sauna stove with 70% lower CO emissions. Extra-large glass window for flame viewing with advanced combustion technology.",
-          "why": "70% lower emissions, eco-friendly, large viewing window",
-          "whyPeopleLikeIt": "70% lower carbon monoxide emissions vs comparable models, Extra-large glass window for flame viewing, Reduces wood particulate emissions by one-fifth, Steel construction with black finish, Adjustable feet, floor model, Made in Finland",
+          "description": "The Harvia Legend 240 GreenFlame is a powerful, eco-friendly wood-burning sauna stove that delivers a mesmerizing flame display through its extra-large glass window. With advanced combustion technology, it achieves 70% lower CO emissions compared to traditional models.",
+          "why": "The Harvia Legend 240 GreenFlame's eco-friendly design and mesmerizing flame display make it a standout choice for sauna enthusiasts seeking a premium, visually striking wood-burning stove.",
+          "whyPeopleLikeIt": "Users praise the Harvia Legend 240 GreenFlame for its impressive heating capacity, mesmerizing flame display, and eco-friendly credentials, making it a premium choice for the discerning sauna enthusiast.",
           "redditSentiment": "Traditional Finnish quality, legendary steam",
           "specs": {
             "kW": "15.9",
@@ -1606,15 +1424,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-legend-240-greenflame.png"
+          "image": "/images/gear/products/harvia-legend-240-greenflame.png",
+          "richDescription": "Crafted from high-quality steel, the Harvia Legend 240 GreenFlame measures 23.6\" x 23.6\" x 32.9\" and weighs 167 lbs. It can heat sauna volumes between 353-848 cubic feet and requires a minimum of 440 lbs of sauna stones (sold separately). The stove's large glass window allows you to enjoy the captivating dance of the flames, while its advanced combustion system ensures efficient, clean-burning performance.",
+          "whyNot": "The Harvia Legend 240 GreenFlame's high price tag and the additional cost of sauna stones may be a deterrent for those on a tighter budget.",
+          "bestFor": "This stove is ideal for sauna owners who value eco-friendly performance, visual appeal, and the authentic experience of a wood-burning sauna.",
+          "avoidIf": "Those with smaller sauna spaces or limited budgets may want to consider more compact or affordable wood-burning stove options."
         },
         {
           "name": "Harvia 20 Duo Steel",
           "brand": "Harvia",
           "price": "$2,871",
-          "description": "Dual-purpose wood-fired unit functioning as both sauna heater and fireplace. Load wood from an adjoining room — no need to bring cordwood into the sauna.",
-          "why": "Dual-purpose heater and fireplace, load wood from outside",
-          "whyPeopleLikeIt": "Dual-purpose: sauna heater + fireplace, Load wood from adjoining room, Premium stainless steel construction, Large glass door for flame viewing, Heats two rooms simultaneously",
+          "description": "The Harvia 20 Duo Steel is a powerful wood-burning sauna heater and fireplace combo. It features a sleek, modern steel design and can heat saunas up to 424 cubic feet.",
+          "why": "The Harvia 20 Duo's dual-purpose design as both a sauna heater and fireplace makes it a versatile and space-saving option.",
+          "whyPeopleLikeIt": "Users praise the Harvia 20 Duo's rapid heating capabilities, excellent steam production, and sleek, modern aesthetic.",
           "redditSentiment": "Traditional Finnish quality, legendary steam",
           "specs": {
             "kW": "24.1",
@@ -1634,15 +1456,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/harvia-20-duo-steel.png"
+          "image": "/images/gear/products/harvia-20-duo-steel.png",
+          "richDescription": "The Harvia 20 Duo Steel is a high-performance wood-burning sauna heater and fireplace in one. Its sturdy steel construction can withstand the intense heat of a wood fire, while the large 88-lb stone capacity provides excellent steam and heat retention. At 24.1 kW, it can quickly and efficiently heat saunas up to 424 cubic feet. The unique design allows you to load wood from an adjoining room, keeping the sauna free of clutter and smoke.",
+          "whyNot": "The Harvia 20 Duo's large size and weight may make it difficult to install in smaller or more compact sauna rooms.",
+          "bestFor": "This product is ideal for homeowners with larger saunas who want a high-powered, dual-purpose heating solution.",
+          "avoidIf": "Those with smaller sauna rooms or who don't need the fireplace functionality may want to consider a more compact, single-purpose sauna heater."
         },
         {
           "name": "HUUM Hive Wood 17 Wood Burning",
           "brand": "HUUM",
           "price": "$2,350",
-          "description": "Powerful modern wood-burning heater with massive 287 lb stone capacity for authentic löyly. Available in standard and extended (LS) models for exterior wood loading.",
-          "why": "Modern Estonian design, massive stone capacity, clean burning",
-          "whyPeopleLikeIt": "Full stainless steel construction, Massive stone capacity for excellent löyly, Stainless steel furnace door and flame tamer, Clean burning technology, Natural oil finish only, Extended (LS) variant for through-wall wood loading, Designed, engineered, and crafted in Estonia",
+          "description": "The HUUM Hive Wood 17 is a powerful, modern wood-burning sauna heater with a massive 287 lb stone capacity for an authentic, steam-rich löyly experience. Available in standard and extended (LS) models for exterior wood loading.",
+          "why": "The HUUM Hive Wood 17's massive stone capacity and modern, efficient design make it a top choice for authentic, steam-rich sauna sessions.",
+          "whyPeopleLikeIt": "Real users praise the HUUM Hive Wood 17's sleek, modern design, impressive stone capacity, and the authentic, steam-rich sauna experience it provides.",
           "redditSentiment": "Modern wood-burning design, excellent craftsmanship",
           "specs": {
             "kW": "17",
@@ -1662,15 +1488,19 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/huum-hive-wood-17.png"
+          "image": "/images/gear/products/huum-hive-wood-17.png",
+          "richDescription": "Crafted with high-quality materials, the HUUM Hive Wood 17 features a sleek, Estonian-designed body and can heat spaces up to 565 cubic feet. The standard model measures 21.9\" x 23.2\" x 29.6\", while the LS version is 21.9\" x 29.1\" x 29.6\" to accommodate exterior wood loading. With a 17 kW output and 287 lb stone capacity, this heater delivers a robust, steam-rich sauna experience.",
+          "whyNot": "The HUUM Hive Wood 17's premium price tag may be prohibitive for some sauna enthusiasts on a tighter budget.",
+          "bestFor": "The HUUM Hive Wood 17 is ideal for homeowners and sauna owners who want a powerful, high-capacity wood-burning heater that delivers an exceptional löyly experience.",
+          "avoidIf": "Those with smaller sauna spaces or tighter budgets may want to consider more compact or affordable wood-burning heater options."
         },
         {
           "name": "HUUM Hive Flow Wood Burning",
           "brand": "HUUM",
           "price": "$3,129",
-          "description": "Patent-pending furnace design that directs 75% of heat into the sauna instead of up the chimney. Low emissions with extended steam production up to 30 minutes after fire extinguishes.",
-          "why": "Patent-pending 75% heat efficiency, extended steam production",
-          "whyPeopleLikeIt": "Patent-pending furnace: 75% heat efficiency, Low emissions: 346 mg/m³ CO, 25 mg/m³ particulate, Extended steam production up to 30 min after fire out, 5mm thick top, 3mm thick sides, 5-Year Warranty, Includes ash drawer, cleaning hatches, heat-resistant glove",
+          "description": "The HUUM Hive Flow Wood Burning Stove is a high-efficiency sauna heater that directs 75% of the heat into the sauna, rather than up the chimney. Its patent-pending design provides extended steam production for up to 30 minutes after the fire is extinguished.",
+          "why": "The Hive Flow's 75% heat efficiency and extended steam production make it a top choice for sauna enthusiasts seeking a high-performance wood-burning stove.",
+          "whyPeopleLikeIt": "Users praise the Hive Flow's impressive heat efficiency, extended steam production, and sleek, modern design that complements high-end sauna interiors.",
           "redditSentiment": "Modern wood-burning design, excellent craftsmanship",
           "specs": {
             "kW": "9.8",
@@ -1692,98 +1522,11 @@
               "type": "retailer"
             }
           ],
-          "image": "/images/gear/products/huum-hive-flow.png"
-        }
-      ]
-    },
-    {
-      "id": "tech",
-      "name": "Tech & Audio",
-      "description": "Speakers and lighting",
-      "products": [
-        {
-          "name": "Ultimate Ears WONDERBOOM 2",
-          "brand": "Ultimate Ears",
-          "price": "$80-100",
-          "description": "360-degree waterproof Bluetooth speaker, IPX7",
-          "why": "Compact, powerful audio, sauna-safe placement",
-          "richDescription": "Portable 360-degree waterproof Bluetooth speaker",
-          "whyPeopleLikeIt": "IPX7 rating, 360-degree sound, compact, powerful audio, sauna-safe",
-          "specs": {
-            "details": "IPX7 waterproof"
-          },
-          "rating": 4,
-          "slug": "ultimate-ears-wonderboom-2",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Ultimate%20Ears%20WONDERBOOM%202%20Ultimate%20Ears",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/ultimate-ears-wonderboom-2.png"
-        },
-        {
-          "name": "Bose SoundLink Micro",
-          "brand": "Bose",
-          "price": "$100-120",
-          "description": "Compact Bluetooth speaker, IPX7 waterproof",
-          "why": "Bose sound quality, durable, portable",
-          "richDescription": "Compact Bluetooth speaker",
-          "whyPeopleLikeIt": "IPX7 rating, Bose sound quality, durable",
-          "specs": {
-            "details": "IPX7 waterproof"
-          },
-          "rating": 4,
-          "slug": "bose-soundlink-micro",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Bose%20SoundLink%20Micro%20Bose",
-              "type": "amazon"
-            }
-          ],
-          "image": "bose-soundlink-micro.jpg"
-        },
-        {
-          "name": "IP68 LED Strip Lights",
-          "brand": "Various",
-          "price": "$50-150 depending on length",
-          "description": "Waterproof, heat-resistant ambient lighting",
-          "why": "Creates atmosphere, warm 2700K color, dimmable",
-          "richDescription": "Waterproof, heat-resistant ambient lighting strips",
-          "whyPeopleLikeIt": "Fully submersible, high-grade housing, works in wet/hot environments",
-          "specs": null,
-          "rating": 4,
-          "slug": "ip68-led-strip-lights",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=IP68%20LED%20Strip%20Lights%20Various",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/ip68-led-strip-lights.png"
-        },
-        {
-          "name": "Himalayan Salt Lamp",
-          "brand": "Various",
-          "price": "$30-100",
-          "description": "Decorative salt lamp with color-changing option",
-          "why": "Atmospheric glow, claimed air quality benefits",
-          "richDescription": "Decorative lighting that purportedly improves air quality",
-          "whyPeopleLikeIt": "Aesthetic appeal, claimed health benefits, mood lighting",
-          "specs": null,
-          "rating": 4,
-          "slug": "himalayan-salt-lamp",
-          "purchaseLinks": [
-            {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Himalayan%20Salt%20Lamp%20Various",
-              "type": "amazon"
-            }
-          ],
-          "image": "/images/gear/products/himalayan-salt-lamp.png"
+          "image": "/images/gear/products/huum-hive-flow.png",
+          "richDescription": "The HUUM Hive Flow is a premium wood-burning sauna stove that uses a patent-pending furnace design to maximize heat efficiency. At 9.8 kW, it can heat saunas up to 635 cubic feet and holds up to 330 lbs of stones. The stove measures 20.75\" x 23.13\" x 34.8\" and weighs 148 lbs, with a larger 160 lb version available for larger spaces.",
+          "whyNot": "The Hive Flow's premium price tag may be prohibitive for budget-conscious sauna owners.",
+          "bestFor": "The HUUM Hive Flow is ideal for serious sauna enthusiasts who want a powerful, efficient, and long-lasting wood-burning stove for their home or commercial sauna.",
+          "avoidIf": "Those on a tight budget or with smaller sauna spaces may want to consider more affordable or compact wood-burning stove options."
         }
       ]
     },
@@ -1796,10 +1539,10 @@
           "name": "BioZap Sauna Cleaner",
           "brand": "RadonSeal",
           "price": "$20-35 per bottle",
-          "description": "All-natural cleaner with tea tree oil",
-          "why": "Safe for all sauna types, preserves wood",
-          "richDescription": "All-natural cleaner with tea tree oil",
-          "whyPeopleLikeIt": "Tea tree oil formula, works on traditional/infrared/steam saunas, refreshes and preserves wood",
+          "description": "BioZap Sauna Cleaner is an all-natural, tea tree oil-based solution that safely cleans and preserves the wood in your sauna.",
+          "why": "BioZap is a safe, effective way to keep your sauna looking and smelling its best without harsh chemicals.",
+          "richDescription": "This concentrated cleaner uses natural tea tree oil to gently lift dirt, grime, and built-up oils from the wood surfaces in your sauna. The formula is pH-balanced to avoid damaging the wood, and it leaves behind a fresh, clean scent without any harsh chemical residues.",
+          "whyPeopleLikeIt": "Reviewers praise BioZap for its ability to cut through stubborn buildup without damaging the wood, and they appreciate the fresh, natural scent it leaves behind.",
           "specs": null,
           "rating": 4,
           "slug": "biozap-sauna-cleaner",
@@ -1810,16 +1553,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/biozap-sauna-cleaner.png"
+          "image": "/images/gear/products/biozap-sauna-cleaner.png",
+          "whyNot": "While effective, the tea tree oil scent may be too strong for some users who prefer an unscented sauna experience.",
+          "bestFor": "This cleaner is ideal for regular sauna users who want to maintain the appearance and longevity of their sauna's wood paneling.",
+          "avoidIf": "Users sensitive to strong scents may want to look for an unscented sauna cleaner instead."
         },
         {
           "name": "Paraffin Wood Oil Treatment",
           "brand": "Saunatec",
           "price": "$110+",
-          "description": "Protective oil treatment for sauna wood",
-          "why": "Extends wood life, prevents staining, skin-safe",
-          "richDescription": "Protective oil treatment for sauna wood",
-          "whyPeopleLikeIt": "Extends wood life, prevents staining, skin-safe",
+          "description": "Saunatec's Paraffin Wood Oil Treatment is a specialized protective oil designed to extend the lifespan and maintain the natural beauty of sauna wood surfaces. This clear, odorless oil penetrates deep into the wood grain to nourish and preserve the material.",
+          "why": "This oil treatment helps maintain the rich, warm appearance of sauna wood while shielding it from the harsh effects of heat, humidity, and frequent use.",
+          "richDescription": "This 16 oz bottle of Paraffin Wood Oil Treatment from Saunatec is formulated with a blend of natural paraffin and mineral oils to deeply condition and protect sauna wood. The lightweight, non-greasy formula absorbs quickly to prevent drying, cracking, and discoloration without leaving a sticky residue.",
+          "whyPeopleLikeIt": "Users praise how the Paraffin Wood Oil Treatment deeply nourishes the wood to prevent drying and cracking, keeping saunas looking brand new for years.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -1831,16 +1577,19 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/paraffin-wood-oil-treatment.png"
+          "image": "/images/gear/products/paraffin-wood-oil-treatment.png",
+          "whyNot": "The oil may need to be reapplied every 6-12 months depending on usage, which can be an ongoing maintenance requirement for some sauna owners.",
+          "bestFor": "This product is ideal for owners of traditional wood saunas who want to preserve the natural look and feel of their sauna interior.",
+          "avoidIf": "Those with pre-finished sauna panels or who prefer a more hands-off approach to sauna maintenance may want to consider alternative protection methods."
         },
         {
           "name": "Rainleaf Microfiber Towel",
           "brand": "Rainleaf",
           "price": "$10-20",
-          "description": "Budget quick-dry towel, 10-min dry time",
-          "why": "90% of premium performance, Amazon favorite",
-          "richDescription": "Budget quick-dry towel, 10-min dry time",
-          "whyPeopleLikeIt": "90% of premium performance, Amazon favorite",
+          "description": "The Rainleaf Microfiber Towel is a budget-friendly, quick-drying towel that dries in just 10 minutes. It's a great option for saunas, showers, and other activities where you need a fast-drying towel.",
+          "why": "An affordable, high-performance towel that dries quickly and packs down small.",
+          "richDescription": "Made from ultra-absorbent microfiber, this towel measures 30 x 60 inches and can hold up to 3 times its weight in water. The lightweight, compact design makes it easy to pack and carry, while the quick-dry fabric ensures you'll be dry and comfortable in no time.",
+          "whyPeopleLikeIt": "Users praise the Rainleaf Microfiber Towel for its fast drying time, compact size, and excellent value for the price.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
@@ -1852,7 +1601,10 @@
               "type": "amazon"
             }
           ],
-          "image": "/images/gear/products/rainleaf-microfiber-towel.png"
+          "image": "/images/gear/products/rainleaf-microfiber-towel.png",
+          "whyNot": "The microfiber material may not be as soft or luxurious as premium cotton towels.",
+          "bestFor": "Sauna enthusiasts, gym-goers, and travelers who need a reliable, fast-drying towel.",
+          "avoidIf": "You prefer the feel and absorbency of a traditional cotton towel."
         }
       ]
     }
