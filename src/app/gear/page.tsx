@@ -105,15 +105,6 @@ export default function GearPage() {
             </div>
           </div>
 
-          <div className="rounded-2xl border border-sauna-ash/40 bg-white p-7">
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-sauna-walnut mb-4">
-              What We Left Out
-            </p>
-            <p className="text-sauna-slate leading-relaxed">
-              Wearables, speakers, massage guns, red light panels, and other broad biohacking gear.
-              Some of it may be useful, but it does not belong on a tightly curated sauna gear page.
-            </p>
-          </div>
         </section>
 
         <div className="mb-10 flex flex-wrap items-center gap-3 text-sm">
