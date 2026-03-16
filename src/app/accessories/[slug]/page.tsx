@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   const category = getCategoryById(product.category)
-  const pageUrl = `https://sauna.guide/gear/${slug}`
+  const pageUrl = `https://sauna.guide/accessories/${slug}`
   const rawDescription = `${product.description} ${product.why}`.replace(/\s+/g, ' ').trim()
   const description = rawDescription.length > 160 ? `${rawDescription.slice(0, 157).trimEnd()}...` : rawDescription
   const ogImage = product.image
@@ -33,13 +33,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     : '/og-image.jpg'
 
   return {
-    title: `${product.name} Review | Best ${category?.name || 'Sauna'} Gear`,
+    title: `${product.name} Review | Best ${category?.name || 'Sauna'} Accessories`,
     description,
     keywords: [
       product.name,
       product.brand,
-      'sauna gear',
-      'sauna accessory',
+      'sauna accessories',
+      'sauna essentials',
       category?.name || 'sauna',
     ],
     alternates: {
@@ -75,7 +75,7 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
       ? `/images/gear/products/${product.image}`
       : null
 
-  const pageUrl = `https://sauna.guide/gear/${slug}`
+  const pageUrl = `https://sauna.guide/accessories/${slug}`
   const plainTextSummary = `${product.richDescription || product.description} ${product.why}`.replace(/\s+/g, ' ').trim()
   const normalizedPrice = product.price.replace(/[^0-9.]/g, '').split('-')[0]
 
@@ -132,9 +132,9 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://sauna.guide' },
-      { '@type': 'ListItem', position: 2, name: 'Gear', item: 'https://sauna.guide/gear' },
-      ...(category ? [{ '@type': 'ListItem', position: 3, name: category.name, item: `https://sauna.guide/gear#${category.id}` }] : []),
-      { '@type': 'ListItem', position: category ? 4 : 3, name: product.name, item: `https://sauna.guide/gear/${slug}` },
+      { '@type': 'ListItem', position: 2, name: 'Accessories', item: 'https://sauna.guide/accessories' },
+      ...(category ? [{ '@type': 'ListItem', position: 3, name: category.name, item: `https://sauna.guide/accessories#${category.id}` }] : []),
+      { '@type': 'ListItem', position: category ? 4 : 3, name: product.name, item: `https://sauna.guide/accessories/${slug}` },
     ],
   }
 
@@ -181,7 +181,7 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
         <nav className="mb-8 text-sm">
           <ol className="flex items-center gap-2 text-sauna-slate">
             <li>
-              <Link href="/gear" className="hover:text-sauna-ink transition-colors">
+              <Link href="/accessories" className="hover:text-sauna-ink transition-colors">
                 Gear
               </Link>
             </li>
@@ -191,7 +191,7 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
             {category && (
               <>
                 <li>
-                  <Link href={`/gear#${category.id}`} className="hover:text-sauna-ink transition-colors">
+                  <Link href={`/accessories#${category.id}`} className="hover:text-sauna-ink transition-colors">
                     {category.name}
                   </Link>
                 </li>

@@ -33,8 +33,8 @@ export function Navigation() {
           <Link href="/guides" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
             Guides
           </Link>
-          <Link href="/gear" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
-            Gear
+          <Link href="/accessories" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
+            Accessories
           </Link>
           <Link href="/sauna-brands" className="text-sauna-slate hover:text-sauna-ink transition-colors text-sm font-medium tracking-wide uppercase">
             Brands
@@ -82,11 +82,11 @@ export function Navigation() {
               Guides
             </Link>
             <Link
-              href="/gear"
+              href="/accessories"
               onClick={() => setIsOpen(false)}
               className="block text-sauna-ink font-medium py-2 hover:text-sauna-walnut transition-colors"
             >
-              Gear
+              Accessories
             </Link>
             <Link
               href="/sauna-brands"

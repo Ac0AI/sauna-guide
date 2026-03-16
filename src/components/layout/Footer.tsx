@@ -30,7 +30,7 @@ export function Footer() {
             <ul className="space-y-2 text-sauna-fog">
               <li><Link href="/saunas" className="hover:text-sauna-paper transition-colors">Sauna Directory</Link></li>
               <li><Link href="/guides" className="hover:text-sauna-paper transition-colors">Guides & Protocols</Link></li>
-              <li><Link href="/gear" className="hover:text-sauna-paper transition-colors">Gear Guide</Link></li>
+              <li><Link href="/accessories" className="hover:text-sauna-paper transition-colors">Accessories</Link></li>
               <li><Link href="/sauna-brands" className="hover:text-sauna-paper transition-colors">Sauna Brands</Link></li>
               <li><Link href="/#guide" className="hover:text-sauna-paper transition-colors">Free Buying Guide</Link></li>
             </ul>

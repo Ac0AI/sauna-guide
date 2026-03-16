@@ -59,7 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     getLatestDirectoryModifiedTime('src/content/guides', '.mdx')
   )
   const gearIndexLastModified = getLastModified(
-    getFileModifiedTime('src/app/gear/page.tsx'),
+    getFileModifiedTime('src/app/accessories/page.tsx'),
     getFileModifiedTime('src/data/gear-merged.json')
   )
   const brandsIndexLastModified = getLastModified(
@@ -73,7 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     getFileModifiedTime('src/data/saunas.json')
   )
   const gearDetailLastModified = getLastModified(
-    getFileModifiedTime('src/app/gear/[slug]/page.tsx'),
+    getFileModifiedTime('src/app/accessories/[slug]/page.tsx'),
     getFileModifiedTime('src/data/gear-merged.json')
   )
   const brandDetailLastModified = getLastModified(
@@ -141,7 +141,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/gear`,
+      url: `${baseUrl}/accessories`,
       lastModified: gearIndexLastModified,
       changeFrequency: 'weekly',
       priority: 0.8,
@@ -217,7 +217,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         const score = scoreGearProduct(product)
         const changeFrequency: MetadataRoute.Sitemap[number]['changeFrequency'] = score >= 4 ? 'monthly' : 'yearly'
         return {
-          url: `${baseUrl}/gear/${product.slug}`,
+          url: `${baseUrl}/accessories/${product.slug}`,
           lastModified: gearDetailLastModified,
           changeFrequency,
           priority: score >= 4 ? 0.75 : score >= 2 ? 0.65 : 0.55,

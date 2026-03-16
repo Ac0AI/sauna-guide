@@ -88,7 +88,7 @@ export function GearCard({ product }: GearCardProps) {
 
   return (
     <Link
-      href={`/gear/${product.slug}`}
+      href={`/accessories/${product.slug}`}
       className="group bg-white rounded-2xl border border-sauna-ash/40 overflow-hidden
                  hover:border-sauna-oak/40 hover:shadow-2xl hover:-translate-y-1
                  transition-all duration-300 flex flex-col h-full"

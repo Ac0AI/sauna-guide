@@ -99,10 +99,10 @@ export default function WelcomePage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/gear"
+              href="/accessories"
               className="text-sauna-walnut hover:text-sauna-ink transition-colors font-medium"
             >
-              Browse gear reviews →
+              Browse accessories →
             </Link>
             <span className="hidden sm:inline text-sauna-ash">·</span>
             <Link

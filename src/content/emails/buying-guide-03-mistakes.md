@@ -69,7 +69,7 @@ We've reviewed 73 products. Here's what we'd actually recommend at each budget l
 
 **Best electric heater (standalone)**: Harvia and HUUM consistently perform best in our testing. For a home sauna under 300 cubic feet, you're looking at 6-9kW. Budget $600-$1,500 for the heater alone.
 
-Browse all 73 reviewed products: [Sauna Gear Reviews](/gear)
+Browse all 73 reviewed products: [Sauna Accessories](/accessories)
 
 Read the full mistakes guide: [Sauna Mistakes to Avoid](/guides/sauna-mistakes-to-avoid)
 

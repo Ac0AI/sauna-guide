@@ -6,23 +6,23 @@ import type { GearCategory } from '@/lib/types'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Curated Sauna Gear 2026 | Heaters, Essentials & Cold Therapy',
-  description: 'A curated sauna gear guide focused on the products that actually matter: heaters, stones, thermometers, sauna hats, maintenance, and cold therapy essentials.',
-  keywords: ['sauna gear', 'sauna accessories', 'sauna heater', 'sauna thermometer', 'sauna stones', 'cold plunge', 'sauna hat', 'finnish sauna'],
+  title: 'Sauna Accessories 2026 | Heaters, Essentials & Cold Therapy',
+  description: 'Curated sauna accessories guide: heaters, stones, thermometers, sauna hats, maintenance, and cold therapy essentials. Only products that belong in a real sauna setup.',
+  keywords: ['sauna accessories', 'sauna essentials', 'sauna heater', 'sauna thermometer', 'sauna stones', 'cold plunge', 'sauna hat', 'finnish sauna'],
   alternates: {
-    canonical: 'https://sauna.guide/gear',
+    canonical: 'https://sauna.guide/accessories',
   },
   openGraph: {
-    title: 'Curated Sauna Gear 2026 | Heaters, Essentials & Cold Therapy',
-    description: 'A tighter, more useful sauna gear guide covering the products that actually belong in a real sauna setup.',
-    url: 'https://sauna.guide/gear',
+    title: 'Sauna Accessories 2026 | Heaters, Essentials & Cold Therapy',
+    description: 'Curated sauna accessories: heaters, stones, thermometers, sauna hats, maintenance, and cold therapy essentials.',
+    url: 'https://sauna.guide/accessories',
     type: 'website',
     images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Curated Sauna Gear 2026 | Heaters, Essentials & Cold Therapy',
-    description: 'A tighter, more useful sauna gear guide covering the products that actually belong in a real sauna setup.',
+    title: 'Sauna Accessories 2026 | Heaters, Essentials & Cold Therapy',
+    description: 'Curated sauna accessories: heaters, stones, thermometers, sauna hats, maintenance, and cold therapy essentials.',
     images: ['/og-image.jpg'],
   },
 }
@@ -68,11 +68,11 @@ export default function GearPage() {
   const itemListJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Curated Sauna Gear Guide',
+    name: 'Curated Sauna Accessories Guide',
     itemListElement: products.map((product, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      url: `https://sauna.guide/gear/${product.slug}`,
+      url: `https://sauna.guide/accessories/${product.slug}`,
       name: product.name,
     })),
   }
@@ -85,7 +85,7 @@ export default function GearPage() {
       <main className="max-w-7xl mx-auto px-6 py-32 grow">
         <header className="mb-14">
           <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-4">
-            Curated Sauna Gear
+            Sauna Accessories
           </h1>
           <p className="text-xl text-sauna-slate max-w-2xl leading-relaxed">
             We trimmed this page down to the products that are actually relevant to sauna use:
