@@ -17,7 +17,7 @@
       "market": "global",
       "public": true,
       "stock": "HARVIA (Helsinki)",
-      "unique_angle": "Largest sauna company. Public company = financial transparency.",
+      "unique_angle": "Harvia is a global leader in saunas and spas, with 75 years of Finnish heritage and expertise in delivering high-quality, innovative sauna solutions for homes, spas, and commercial settings worldwide.",
       "content_opportunities": [
         "Quarterly earnings = market insights",
         "New product launches",
@@ -28,24 +28,24 @@
         "linkedin": "harvia-oyj"
       },
       "partnership_status": "not_contacted",
-      "notes": "Gold standard Finnish brand.",
+      "notes": "Harvia was founded in 1950 in Finland and has since grown to become the world's largest manufacturer of sauna heaters and a leading provider of complete sauna and spa solutions. The company is known for its commitment to quality, sustainability, and continuous innovation, offering a wide range of products that cater to different sauna cultures and preferences around the globe.",
       "priceTier": "premium",
-      "bestFor": "Harvia is a global brand that caters to a wide range of sauna and steam room needs, from residential to commercial applications.",
-      "buyerVerdict": "Harvia is the global market leader in saunas and steam rooms, offering a wide range of premium, high-quality products backed by 75 years of Finnish expertise. As a public company, Harvia provides financial transparency and is committed to sustainability in its operations and product development.",
+      "bestFor": "Harvia's premium sauna products are best suited for discerning homeowners, luxury spas, and commercial wellness facilities that prioritize high-quality, innovative, and customizable sauna experiences. Their offerings range from ready-made indoor and outdoor saunas to fully customizable solutions.",
+      "buyerVerdict": "Harvia is an excellent choice for buyers seeking a premium, feature-rich sauna experience backed by decades of Finnish expertise. While the brand's products come at a higher price point, the quality, innovation, and customization options make them a worthwhile investment for those who value a truly exceptional sauna experience. However, buyers on a tighter budget may want to explore more affordable alternatives.",
       "strengths": [
-        "Largest sauna company in the world with 75 years of experience",
-        "Public company providing financial transparency",
-        "Wide range of products including heaters, saunas, steam rooms, and accessories",
-        "Presence in over 90 countries globally",
-        "Commitment to sustainability and clean combustion in their products"
+        "75 years of experience in the sauna and spa industry, with a strong reputation for quality and innovation",
+        "Wide range of sauna products, including ready-made cabins, custom-designed saunas, and a variety of heaters (electric, wood-burning, and combi) to suit different preferences and needs",
+        "Intelligent sauna control features, such as the Harvia Fenix with Wi-Fi connectivity and learning capabilities, for a personalized sauna experience",
+        "Commitment to sustainability, with a focus on developing eco-friendly products and operations",
+        "Global presence and extensive dealer network, ensuring availability and support in many countries"
       ],
       "keyModels": [
-        "Harvia Fenix (intelligent sauna control)",
-        "Harvia Cilindro (wood-burning heater)",
-        "Harvia Spirit (compact electric heater)",
-        "Harvia Frosty (cold plunge)",
-        "Harvia Olympus (modern indoor sauna cabin)",
-        "Harvia GreenFlame (low emission heaters)"
+        "Harvia Fenix — State-of-the-art touch screen control with Wi-Fi connectivity and learning features for a personalized sauna experience",
+        "Harvia Cilindro — A modern wood-burning pillar heater offering a generous stone capacity for excellent steam production",
+        "Harvia Spirit — A compact-sized design heater where safety meets advanced technology",
+        "Harvia Frosty — A cold plunge tub enabling cold therapy to be part of your daily sauna routine",
+        "Harvia Hybrid Sauna — Combines traditional sauna with infrared panels for a versatile wellness experience",
+        "Harvia Combi Heaters — Offer precise steam control for a gentle or intense sauna session"
       ],
       "enrichment": {
         "sources": [
@@ -80,10 +80,21 @@
             "fetchedAt": "2026-03-15T16:32:43.780Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 57,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "supportWarranty": "Harvia provides a comprehensive warranty on their products, typically ranging from 1 to 5 years, depending on the specific model. The company also maintains a global network of authorized dealers and service centers to ensure reliable support and maintenance for their customers. Harvia is known for its responsive customer service and commitment to addressing any issues that may arise.",
+      "weaknesses": [
+        "Premium pricing that may be out of reach for some buyers",
+        "Limited availability in certain regions, especially for custom-designed solutions",
+        "Relatively complex installation and setup process for some of the more advanced sauna models"
+      ],
+      "cautionPoints": [
+        "Carefully measure your available space and consider the size and layout of the sauna to ensure it fits your needs and home environment",
+        "Verify the electrical and ventilation requirements for the specific sauna model you're interested in to ensure a smooth installation process",
+        "Research the local dealer network and availability of Harvia products in your area, as accessibility may vary"
+      ]
     },
     {
       "name": "Huum",
@@ -97,7 +108,7 @@
         "smart-tech"
       ],
       "market": "europe-focused",
-      "unique_angle": "Design-forward, smart controllers, modern aesthetic.",
+      "unique_angle": "HUUM brings a distinctly Estonian and Nordic design aesthetic to sauna heaters, combining ancient sauna heritage with modern technology and sustainability.",
       "content_opportunities": [
         "Smart sauna tech features",
         "Design awards and press",
@@ -107,26 +118,22 @@
         "instagram": "@huumsauna"
       },
       "partnership_status": "not_contacted",
-      "notes": "Beautiful design. Tech-forward. Great for modern sauna content.",
+      "notes": "HUUM is an Estonian sauna brand founded in 2011, known for their elegant, nature-inspired sauna heaters and innovative smart sauna controllers. They have a strong focus on sustainability, using durable materials and eco-friendly production processes. HUUM has established a reputation for award-winning design and a transgenerational sauna experience.",
       "priceTier": "premium",
-      "bestFor": "Sauna enthusiasts who value design, smart technology, and an authentic sauna experience",
-      "supportWarranty": "Huum provides a 2-year warranty on their sauna heaters and controllers",
-      "buyerVerdict": "Huum is a premium Estonian brand that offers design-forward, smart sauna solutions with a focus on quality, sustainability, and an authentic sauna experience. Their range of electric and wood-burning heaters, along with innovative controllers and accessories, make them a top choice for sauna enthusiasts seeking a modern, high-tech sauna setup.",
+      "bestFor": "HUUM's sauna products are best suited for buyers seeking a premium, design-forward sauna experience that celebrates Nordic aesthetics and traditional sauna culture. Their smart controllers are ideal for tech-savvy consumers who want convenient control over their sauna.",
+      "supportWarranty": "HUUM offers a 2-year warranty on their sauna heaters and controllers, and their customer support team is known for their responsiveness and expertise. The brand has an extensive network of authorized dealers across Europe to provide local sales and service.",
+      "buyerVerdict": "HUUM offers a beautifully crafted, technologically advanced sauna solution for those willing to invest in a premium sauna experience. The elegant, nature-inspired design and innovative smart controls set HUUM apart, but the higher price point may be a barrier for some budget-conscious buyers.",
       "strengths": [
-        "Design-forward, award-winning aesthetic that enhances the natural beauty of sauna stones",
-        "Innovative smart controllers and mobile app for convenient sauna control",
-        "Durable, high-quality construction with a focus on sustainability and eco-friendliness",
-        "Offers both electric and wood-burning sauna heater options to suit different preferences",
-        "Provides a range of accessories to customize and enhance the sauna experience"
+        "Elegant, award-winning Nordic design that enhances the natural beauty of sauna stones",
+        "Innovative smart sauna controllers with mobile app integration for convenient temperature and timing control",
+        "Commitment to sustainability, using durable materials and eco-friendly production processes",
+        "Transgenerational sauna experience drawing on ancient Estonian sauna heritage",
+        "Intuitive sauna sizing calculator to help determine the ideal heater for your space"
       ],
       "keyModels": [
-        "DROP",
-        "STEEL",
-        "CLIFF",
-        "CORE",
-        "HIVE",
-        "HIVE Wood",
-        "HIVE Flow"
+        "HUUM DROP — Sleek, minimalist sauna heater with a focus on efficient heating and natural stone display",
+        "HUUM UNIK — Modular sauna heater system that allows for customizable configurations and stone capacity",
+        "HUUM SMART Controller — Innovative smart controller with mobile app integration for remote sauna control"
       ],
       "enrichment": {
         "sources": [
@@ -161,10 +168,20 @@
             "fetchedAt": "2026-03-15T16:33:07.438Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 62,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "weaknesses": [
+        "Premium pricing that may be out of reach for some buyers",
+        "Limited availability outside of Europe, making it less accessible in North America and other regions",
+        "Relatively new brand compared to some long-established sauna manufacturers"
+      ],
+      "cautionPoints": [
+        "Verify availability and shipping options if purchasing from outside of Europe",
+        "Ensure the selected HUUM heater model is properly sized for your sauna space",
+        "Research warranty terms and customer support options to ensure a smooth ownership experience"
+      ]
     },
     {
       "name": "Tylö",
@@ -178,28 +195,32 @@
         "steam-generators"
       ],
       "market": "global",
-      "unique_angle": "Swedish quality. B2B focus. Commercial installations.",
+      "unique_angle": "Tylo is a Swedish sauna brand with over 75 years of Scandinavian tradition and engineering expertise, offering a range of traditional, infrared, and hybrid sauna solutions designed for modern wellness routines.",
       "content_opportunities": [
         "Commercial/spa installations",
         "Swedish design philosophy",
         "Quality engineering stories"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Swedish heritage brand. Strong B2B presence.",
+      "notes": "Tylo is a well-established Swedish sauna manufacturer with a long history dating back to 1950. They are known for their commitment to Scandinavian design and engineering, producing high-quality traditional, infrared, and hybrid sauna systems for residential and commercial use around the world. Tylo has a strong reputation for innovation and attention to detail in their sauna heaters, controls, and accessories.",
       "priceTier": "premium",
-      "bestFor": "Tylö is best suited for commercial and high-end residential sauna installations, as well as consumers seeking a premium, Swedish-designed sauna experience.",
-      "supportWarranty": "Tylö provides a warranty, but the specific details are not clearly stated on their website.",
-      "buyerVerdict": "Tylö is a premium, Swedish sauna brand with a strong heritage and focus on quality engineering and design. They offer a range of traditional, infrared, and hybrid sauna options, making them a good choice for commercial and high-end residential installations.",
+      "bestFor": "Tylo saunas are best suited for discerning buyers who want a premium, feature-rich sauna experience rooted in Scandinavian tradition. Their products are a great fit for those looking to elevate their home wellness routines with a high-end, customizable sauna solution.",
+      "supportWarranty": "Tylo saunas come with a comprehensive warranty, typically covering the sauna heater for 5-10 years and other components for 2-5 years. The brand also has an extensive network of authorized dealers and service providers to assist with installation, maintenance, and any warranty claims. Tylo is known for their responsive customer support and commitment to ensuring a positive sauna ownership experience.",
+      "buyerVerdict": "Tylo offers a compelling premium sauna experience for those who can afford the investment. Their products are well-engineered, with a focus on intuitive controls and accessories to optimize every session. However, the higher price point may be prohibitive for some buyers, and availability can be limited in certain regions.",
       "strengths": [
-        "75 years of Scandinavian sauna tradition and expertise",
-        "Focus on quality engineering and design",
-        "Offers a range of traditional, infrared, and hybrid sauna options",
-        "Strong B2B presence and experience with commercial/spa installations"
+        "75+ years of Scandinavian sauna engineering expertise",
+        "Wide range of traditional, infrared, and hybrid sauna models to suit different needs",
+        "Intuitive, customizable controls and accessories to fine-tune the sauna experience",
+        "Sleek, modern Scandinavian design that complements high-end home environments",
+        "Reputation for quality craftsmanship and durable, long-lasting sauna heaters"
       ],
       "keyModels": [
-        "Traditional saunas",
-        "Infrared saunas",
-        "Hybrid saunas"
+        "Tylo Sense — Traditional sauna with intuitive digital controls and customizable lighting",
+        "Tylo Sense Combi — Hybrid sauna offering both traditional and infrared heating options",
+        "Tylo Infrared — Compact infrared sauna designed for targeted muscle recovery and relaxation",
+        "Tylo Sense Sauna — Premium traditional sauna with advanced features and Scandinavian design",
+        "Tylo Sense Steam — Integrated steam generator for a luxurious steam room experience",
+        "Tylo Accessories — Wide range of sauna benches, lighting, and other customization options"
       ],
       "enrichment": {
         "sources": [
@@ -229,10 +250,20 @@
             "fetchedAt": "2026-03-15T16:33:28.906Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 62,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "weaknesses": [
+        "Premium pricing that may be out of reach for some buyers",
+        "Limited availability and dealer network in certain regions",
+        "Fewer budget-friendly options compared to some competitors"
+      ],
+      "cautionPoints": [
+        "Verify availability and lead times with local dealers, as Tylo products may not be widely stocked in all areas",
+        "Carefully measure your space to ensure the selected Tylo model will fit properly",
+        "Consider any additional installation or electrical requirements that may impact the overall project cost"
+      ]
     },
     {
       "name": "Narvi",
@@ -245,25 +276,28 @@
         "electric-heaters"
       ],
       "market": "finland-focused",
-      "unique_angle": "Family-owned. Wood-burning specialist. Authentic.",
+      "unique_angle": "Narvi is a long-standing, family-owned Finnish sauna manufacturer with a focus on traditional craftsmanship and high-quality materials.",
       "content_opportunities": [
         "Traditional wood-burning culture",
         "Family business story",
         "Craftsmanship angle"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Authentic Finnish. Wood-burning experts.",
-      "bestFor": "Traditional sauna enthusiasts in Finland",
-      "buyerVerdict": "Narvi is a well-established, family-owned Finnish brand that specializes in traditional wood-burning sauna heaters. They are known for their focus on authentic Finnish sauna culture and craftsmanship.",
+      "notes": "Narvi has been making wood-fired and electric sauna heaters in Finland since 1937. They are known for their attention to detail, use of domestic stone and metal, and an emphasis on the ritual and experience of sauna bathing. Narvi is a respected brand in the Finnish sauna market, though less well-known internationally.",
+      "bestFor": "Narvi is best suited for Finnish consumers and sauna enthusiasts who value traditional design, high-quality materials, and an authentic sauna experience. Their products work well for both new sauna builds and sauna renovations.",
+      "buyerVerdict": "Narvi offers well-crafted, durable sauna heaters that deliver an excellent sauna experience for those who appreciate the craftsmanship and heritage. However, their products may be less accessible for international buyers due to limited distribution outside Finland.",
       "strengths": [
-        "Family-owned business with a long history since 1937",
-        "Specializes in wood-burning sauna heaters",
-        "Focuses on authentic Finnish sauna culture and craftsmanship"
+        "Handcrafted in Finland using domestic stone and metal",
+        "Focus on the ritual and experience of sauna bathing",
+        "Wide range of wood-fired and electric heater models to suit different sauna sizes",
+        "Respected brand with a long history in the Finnish sauna market",
+        "Comprehensive installation and user guides available in multiple languages"
       ],
       "keyModels": [
-        "Narvi Kaamos",
-        "Narvi Velvet 35",
-        "Narvi Flow controller"
+        "Narvi Velvet 35 — Stylish electric sauna heater with precise temperature and humidity control",
+        "Narvi Kaamos — Wood-fired sauna heater with a classic Finnish design",
+        "Narvi Flow — Advanced control unit for precise sauna experience management",
+        "Narvi Löylymestari — Powerful wood-fired sauna heater with a large stone capacity"
       ],
       "enrichment": {
         "sources": [
@@ -303,10 +337,22 @@
             "fetchedAt": "2026-03-15T16:33:53.545Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 49,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "priceTier": "mid-range",
+      "supportWarranty": "Narvi offers a 2-year warranty on their sauna heaters. They have an extensive network of authorized dealers and service centers across Finland to provide installation and after-sales support. Customer reviews generally indicate good responsiveness and reliability of their support services.",
+      "weaknesses": [
+        "Limited international distribution and support outside Finland",
+        "Pricing may be higher compared to mass-produced sauna heaters",
+        "Some models may have limited availability or longer lead times"
+      ],
+      "cautionPoints": [
+        "Verify availability and lead times for your specific location and model",
+        "Ensure you have access to installation and after-sales support if purchasing outside Finland",
+        "Consider your sauna size and heating requirements to select the appropriate Narvi model"
+      ]
     },
     {
       "name": "Kirami",
@@ -320,28 +366,29 @@
         "outdoor-wellness"
       ],
       "market": "europe",
-      "unique_angle": "Outdoor focus. Hot tubs + sauna combo.",
+      "unique_angle": "Kirami specializes in high-quality, luxury outdoor saunas and hot tubs that seamlessly integrate with natural landscapes, offering a unique sauna experience.",
       "content_opportunities": [
         "Outdoor wellness lifestyle",
         "Cabin/retreat content",
         "Nordic outdoor culture"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Great for outdoor/cabin content.",
+      "notes": "Kirami is a Finnish sauna and outdoor wellness brand founded in 2001. They are known for their premium, custom-designed saunas and hot tubs that feature innovative materials and construction for year-round outdoor use. Kirami has a strong reputation in the European market for their attention to detail and commitment to sustainability.",
       "priceTier": "premium",
-      "bestFor": "Outdoor enthusiasts, cabin/retreat owners, and those seeking a Nordic wellness lifestyle",
-      "buyerVerdict": "Kirami is a premium Finnish brand focused on high-end outdoor saunas, hot tubs, and wellness products for the cabin/retreat lifestyle. They offer unique designs, sustainable features, and a strong emphasis on the Nordic outdoor experience.",
+      "bestFor": "Kirami's products are best suited for homeowners and vacation property owners who want to create a true outdoor oasis with a high-end, integrated sauna or hot tub experience. Their solutions work well for those who value craftsmanship, customization, and seamless backyard design.",
+      "buyerVerdict": "Kirami offers some of the most luxurious and well-engineered outdoor saunas and hot tubs on the market, but this premium quality comes at a higher price point. Buyers who can afford the investment will be rewarded with a stunning, durable product that enhances their outdoor living space. Those on a tighter budget may want to explore more affordable options.",
       "strengths": [
-        "Specializes in outdoor saunas and hot tubs",
-        "Offers unique sauna and outdoor wellness products like the FinVision sauna with large windows",
-        "Uses high-quality materials like Corten steel",
-        "Provides off-grid solar-powered sauna options",
-        "Focuses on environmental sustainability and efficiency"
+        "Innovative, custom-designed products that integrate beautifully with natural landscapes",
+        "High-quality, durable construction using premium materials like Corten steel and tempered glass",
+        "Comprehensive line of complementary outdoor wellness products like hot tubs, accessories, and modules",
+        "Excellent energy efficiency and off-grid capabilities with solar-powered sauna models",
+        "Strong reputation for craftsmanship and customer service in the European market"
       ],
       "keyModels": [
-        "FinVision sauna",
-        "FinVision Annex (sauna, lounge, terrace, changing room combo)",
-        "FinVision Zero off-grid solar sauna"
+        "Kirami FinVision® Sauna Zero — Off-grid solar-powered sauna with large viewing window",
+        "Kirami M-size Hot Tub — Luxury outdoor hot tub designed for year-round use",
+        "Kirami FinVision® Sauna — Modular sauna system with seamless outdoor integration",
+        "Kirami Outstanding Corten Steel Grilles — Weathered steel outdoor furnishings"
       ],
       "enrichment": {
         "sources": [
@@ -376,10 +423,21 @@
             "fetchedAt": "2026-03-15T16:34:14.355Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 57,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "supportWarranty": "Kirami offers a 2-year warranty on their products and maintains a network of authorized dealers across Europe to provide installation and after-sales support. Customer reviews indicate a high level of satisfaction with Kirami's responsiveness and commitment to quality.",
+      "weaknesses": [
+        "Premium pricing that may be out of reach for some buyers",
+        "Limited dealer network and support outside of Europe",
+        "Relatively new to the North American market compared to some competitors"
+      ],
+      "cautionPoints": [
+        "Verify availability and lead times, as demand for Kirami's products can be high",
+        "Carefully measure your available outdoor space to ensure the sauna or hot tub model you select will fit",
+        "Consider ongoing operating costs, as premium materials and features may impact utility bills"
+      ]
     },
     {
       "name": "Almost Heaven Saunas",
@@ -393,7 +451,7 @@
         "outdoor"
       ],
       "market": "north-america",
-      "unique_angle": "DTC leader. Barrel saunas. Active community.",
+      "unique_angle": "Almost Heaven Saunas is a leading American manufacturer of high-quality barrel and cabin saunas, known for their commitment to traditional Finnish design and craftsmanship.",
       "content_opportunities": [
         "Buyer reviews and stories",
         "Build/setup content",
@@ -403,20 +461,25 @@
         "instagram": "@almostheavensaunas"
       },
       "partnership_status": "not_contacted",
-      "notes": "Great for buyer community content. Active reviews.",
+      "notes": "Founded in 1979, Almost Heaven Saunas has over 40 years of experience in the sauna industry. They are based in the United States and are recognized for their attention to detail, use of premium materials, and focus on creating authentic sauna experiences. The brand has a strong reputation among sauna enthusiasts for their durable, well-engineered products.",
       "priceTier": "premium",
-      "bestFor": "Homeowners looking for high-quality, customizable barrel and cabin saunas with a focus on community and customer experience",
-      "supportWarranty": "Limited Lifetime Warranty covering manufacturing defects, with 1-year warranty on heating elements and 5 years on other components",
-      "buyerVerdict": "Almost Heaven Saunas is a leading brand in the direct-to-consumer barrel and cabin sauna market, known for its high-quality products, strong community focus, and excellent customer support. The brand offers a wide range of customizable saunas made with premium materials and backed by a comprehensive warranty.",
+      "bestFor": "Almost Heaven Saunas caters to homeowners and wellness-focused consumers who appreciate the benefits of regular sauna use and want a beautifully crafted, long-lasting sauna for their home or backyard. Their products are particularly well-suited for those seeking a traditional Finnish sauna experience.",
+      "supportWarranty": "Almost Heaven Saunas offers a comprehensive warranty on all sauna components, including a lifetime warranty on the cedar wood and a 5-year warranty on the heater and controls. The brand also maintains a network of authorized dealers and provides excellent customer support to ensure a positive ownership experience.",
+      "buyerVerdict": "Almost Heaven Saunas offers premium-quality barrel and cabin saunas that are built to last. Their products are an excellent choice for those who want an authentic sauna experience and are willing to invest in a high-end, well-engineered unit. However, the premium pricing may be a deterrent for buyers on a tighter budget.",
       "strengths": [
-        "Leader in direct-to-consumer (DTC) barrel and cabin saunas",
-        "Offers a wide range of products including barrel saunas, cabin saunas, and outdoor saunas",
-        "Strong focus on community engagement and customer support",
-        "Uses high-quality materials like thermally modified Nordic Pine and Linden wood"
+        "Commitment to traditional Finnish sauna design and craftsmanship",
+        "Use of premium, durable materials like Western Red Cedar and stainless steel",
+        "Extensive product line, including both barrel and cabin saunas, as well as outdoor showers and soak tubs",
+        "Reputation for excellent customer service and support",
+        "Comprehensive warranty coverage on all sauna components"
       ],
       "keyModels": [
-        "Kuuma Barrel Sauna",
-        "Heritage Barrel Sauna Series"
+        "Ellipse Outdoor Shower — A sleek, modern outdoor shower enclosure with a barrel-style design",
+        "Sindri Soak Tub — A luxurious, wood-fired soak tub for relaxation and hydrotherapy",
+        "Kirami Soak Tub — A larger, wood-fired soak tub with a more traditional barrel-style appearance",
+        "KIP Heater w/ Dials — A traditional wall-mounted sauna heater with built-in controls",
+        "M3 Heater — A wood-burning sauna heater with a classic design, suitable for smaller outdoor saunas",
+        "Spirit Smart Heater — An innovative sauna heater with a unique internal air chamber for optimal airflow and heating performance"
       ],
       "enrichment": {
         "sources": [
@@ -451,10 +514,20 @@
             "fetchedAt": "2026-03-15T16:34:39.262Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 62,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "weaknesses": [
+        "Premium pricing that may be out of reach for some buyers",
+        "Limited availability in certain regions, as the brand primarily serves the North American market",
+        "Relatively large footprint for some models, which may not be suitable for smaller homes or backyards"
+      ],
+      "cautionPoints": [
+        "Carefully measure your available space to ensure the sauna model you choose will fit comfortably",
+        "Consider the electrical and plumbing requirements for your desired sauna model and ensure your home can accommodate them",
+        "Research the brand's warranty terms and customer support policies to understand the level of after-sales service you can expect"
+      ]
     },
     {
       "name": "Finnleo",
@@ -469,23 +542,24 @@
       ],
       "market": "north-america",
       "owned_by": "TylöHelo Group",
-      "unique_angle": "Premium US market. Hybrid (traditional + infrared).",
+      "unique_angle": "Finnleo is the original and authentic Finnish sauna brand, bringing the genuine Finnish sauna experience to North American homes for over a century.",
       "content_opportunities": [
         "Premium segment insights",
         "US market trends",
         "Dealer network stories"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Premium positioning. Part of TylöHelo.",
+      "notes": "Finnleo is a leading sauna brand with over 100 years of history, founded in Finland in 1919 and now serving the North American market. They are known for their high-quality, sustainably-sourced materials and authentic Finnish sauna heater technology to deliver the true Finnish sauna experience.",
       "priceTier": "premium",
-      "bestFor": "Finnleo is ideal for consumers seeking a premium, authentic Finnish sauna experience for their home.",
-      "supportWarranty": "Finnleo provides a documented warranty when purchased from an authorized dealer and the product is properly installed and maintained.",
-      "buyerVerdict": "Finnleo is a premium sauna brand with a focus on authentic Finnish design and engineering. They offer a wide range of traditional, infrared, and hybrid sauna options for the North American market.",
+      "bestFor": "Finnleo saunas are best for homeowners who want to bring the traditional Finnish sauna experience into their homes, with a focus on quality craftsmanship, authentic materials, and reliable performance. Their saunas are popular with health-conscious consumers looking to integrate sauna bathing into their wellness routines.",
+      "supportWarranty": "Finnleo offers a comprehensive warranty program for their saunas, covering key components for up to 7 years. Their nationwide network of authorized dealers and service centers provides reliable support and installation services to ensure a positive customer experience.",
+      "buyerVerdict": "Finnleo offers a premium, authentic Finnish sauna experience, but at a higher price point than some competitors. Their saunas are an excellent choice for buyers who prioritize quality, durability, and the genuine Finnish sauna tradition, but those on a tighter budget may want to explore more affordable options.",
       "strengths": [
-        "Quality construction built to last and perform well",
-        "Scandinavian design with clean lines and natural wood tones",
-        "Uses genuine Finnish heaters designed and built in Finland",
-        "Offers traditional, infrared, and hybrid sauna options"
+        "Over 100 years of experience crafting authentic Finnish saunas",
+        "Use of high-quality, sustainably-sourced wood materials",
+        "Genuine Finnish sauna heater technology for optimal heat and steam",
+        "Comprehensive product line including traditional, infrared, and hybrid models",
+        "Sleek, Scandinavian-inspired design aesthetic"
       ],
       "enrichment": {
         "sources": [
@@ -520,10 +594,26 @@
             "fetchedAt": "2026-03-15T16:34:59.803Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 56,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "weaknesses": [
+        "Premium pricing compared to some competitors",
+        "Limited availability outside of North America",
+        "Fewer budget-friendly options in their product lineup"
+      ],
+      "cautionPoints": [
+        "Verify that the sauna is installed by a qualified technician to ensure proper ventilation and safety",
+        "Consider electrical requirements and ensure your home can support the sauna's power needs",
+        "Research warranty terms and customer support options before purchasing"
+      ],
+      "keyModels": [
+        "Finnleo S-Series — Traditional Finnish sauna with classic wood-burning stove",
+        "Finnleo Infrared Sauna — Infrared sauna with low-EMF heaters for wellness benefits",
+        "Finnleo Hybrid InfraSauna — Combines traditional and infrared heating for a versatile experience",
+        "Finnleo Outdoor Sauna — Authentic Finnish-style outdoor sauna for backyard relaxation"
+      ]
     },
     {
       "name": "Clearlight Saunas",
@@ -535,34 +625,40 @@
         "full-spectrum"
       ],
       "market": "north-america",
-      "unique_angle": "Infrared leader. Health claims. Celebrity endorsements.",
+      "unique_angle": "Clearlight Saunas is one of the few North American-based infrared sauna brands, offering a range of full-spectrum and near-infrared models designed and manufactured in the USA.",
       "content_opportunities": [
         "Infrared science content",
         "Health benefit studies",
         "Celebrity/influencer usage"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Infrared market leader. Strong health marketing.",
+      "notes": "Clearlight has been a leading player in the US infrared sauna market for over 20 years, building a reputation for quality craftsmanship and innovative features. The company is known for its commitment to using premium materials and providing robust customer support, making it a popular choice for home and commercial buyers across North America.",
       "priceTier": "premium",
-      "bestFor": "Consumers seeking high-quality, health-focused infrared saunas with a premium brand experience",
-      "supportWarranty": "Clearlight offers a lifetime warranty on their saunas, which is one of the most comprehensive warranties in the industry",
-      "buyerVerdict": "Clearlight Saunas is a premium infrared sauna brand that is highly regarded for its focus on health and wellness benefits, high-quality construction, and extensive warranty coverage. While their saunas are on the more expensive end of the market, they offer a premium brand experience that may be worth the investment for consumers seeking a top-of-the-line infrared sauna.",
+      "bestFor": "Clearlight Saunas are well-suited for buyers seeking a high-end, American-made infrared sauna experience, whether for home use, light commercial applications, or more intensive commercial settings like spas and wellness centers.",
+      "supportWarranty": "Clearlight Saunas offers industry-leading warranty coverage, including a lifetime warranty on heaters and a 7-year warranty on the sauna structure. The company also maintains an extensive dealer network and responsive customer support team to assist buyers with installation, maintenance, and any warranty-related issues.",
+      "buyerVerdict": "Clearlight Saunas offer a premium infrared sauna experience backed by a strong reputation for quality and customer service. While the price point is on the higher end, the brand's focus on using durable, high-grade materials and providing robust warranty coverage makes it a worthwhile investment for those who can afford it. However, budget-conscious buyers may want to explore more affordable infrared sauna options.",
       "cautionPoints": [
-        "Clearlight saunas are on the more expensive end of the infrared sauna market"
+        "Verify the specific warranty terms and coverage for the model you're considering",
+        "Ensure you have adequate space and electrical capacity to accommodate the sauna's size and power requirements",
+        "Check the lead time for delivery, as Clearlight saunas may have longer wait times compared to some competitors"
       ],
       "strengths": [
-        "Clearlight is a leading brand in the infrared sauna industry with a strong focus on health and wellness benefits",
-        "Clearlight saunas use high-quality materials and construction",
-        "Clearlight offers a wide range of infrared and full-spectrum sauna models to choose from",
-        "Clearlight saunas come with extensive warranty coverage"
+        "Designed and manufactured in the USA using premium, low-EMF materials",
+        "Offers a range of full-spectrum and near-infrared models to suit different needs and budgets",
+        "Patented Tecoloy heating technology for even heat distribution and optimal infrared absorption",
+        "Generous warranty coverage, including lifetime warranty on heaters and 7-year warranty on the sauna structure",
+        "Extensive dealer network and responsive customer support team"
       ],
       "weaknesses": [
-        "Clearlight saunas are more expensive compared to some other infrared sauna brands"
+        "Significantly more expensive than many overseas-manufactured infrared sauna brands",
+        "Limited availability outside of North America, making it less accessible for international buyers",
+        "Heavier and more complex to install compared to some portable or modular infrared sauna options"
       ],
       "keyModels": [
-        "Sanctuary 2-person infrared sauna",
-        "Jacuzzi infrared sauna",
-        "Clearlight Sauna Premier IS-2 full-spectrum sauna"
+        "Sanctuary 2 — Full-spectrum infrared sauna with seating for 1-2 people",
+        "Jacuzzi Clearlight Premier — Deluxe full-spectrum sauna with chromotherapy lighting and sound system",
+        "Clearlight Infrared Sauna Premier IS-2 — Near-infrared sauna with advanced heating technology",
+        "Clearlight Infrared Sauna Outdoor — Weather-resistant outdoor infrared sauna model"
       ],
       "enrichment": {
         "sources": [
@@ -572,9 +668,9 @@
             "fetchedAt": "2026-03-15T16:36:11.475Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 76,
-        "status": "enriched"
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
       }
     },
     {
@@ -588,30 +684,35 @@
         "portable"
       ],
       "market": "north-america",
-      "unique_angle": "Full-spectrum infrared. Medical research partnerships.",
+      "unique_angle": "Sunlighten is a leading innovator in infrared sauna technology, offering a range of sleek, customizable models designed to seamlessly integrate into any home or wellness space.",
       "content_opportunities": [
         "Medical research coverage",
         "Clinical studies",
         "Health practitioner angle"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Research-focused infrared brand.",
+      "notes": "Founded in 1999, Sunlighten has established itself as a trusted name in the infrared sauna market, known for its commitment to cutting-edge technology and user-centric design. The brand's products are engineered in the USA and backed by extensive research on the health benefits of infrared heat.",
       "priceTier": "premium",
-      "bestFor": "Health-conscious consumers seeking medical-grade infrared saunas",
-      "supportWarranty": "Lifetime warranty on heaters and 5-year warranty on structure",
-      "buyerVerdict": "Sunlighten is a premium infrared sauna brand focused on medical research and partnerships with healthcare providers. Their saunas may be more expensive but offer advanced full-spectrum infrared technology and strong warranties.",
+      "bestFor": "Sunlighten saunas are an excellent choice for health-conscious consumers seeking a high-quality, feature-rich infrared sauna experience. They are particularly well-suited for those looking to incorporate regular infrared therapy into their wellness routines, whether for relaxation, pain relief, or detoxification.",
+      "supportWarranty": "Sunlighten offers a lifetime warranty on their heating elements, as well as a comprehensive customer support network through their authorized dealer network. The company is known for its responsive and knowledgeable customer service, helping buyers ensure a seamless installation and ongoing use of their infrared sauna.",
+      "buyerVerdict": "Sunlighten offers a premium infrared sauna experience, with a focus on innovative technology and customizable features. While the brand's products come at a higher price point, the investment is justified for those who value the health benefits and want a durable, long-lasting sauna for their home. However, buyers on a tighter budget may want to explore more affordable infrared sauna options.",
       "cautionPoints": [
-        "Sunlighten saunas may be more expensive than some other brands"
+        "Carefully measure your available space to ensure the selected Sunlighten model will fit comfortably in your home",
+        "Consider your electrical setup and ensure your home can accommodate the power requirements of the sauna",
+        "Research any local building codes or regulations that may impact the installation or use of an in-home infrared sauna"
       ],
       "strengths": [
-        "Offers full-spectrum infrared technology backed by medical research",
-        "Partners with healthcare providers and medical institutions",
-        "Provides detailed information on health benefits of infrared saunas"
+        "Cutting-edge infrared technology, including patented Solocarbon® heating panels that provide optimal heat penetration and even heat distribution",
+        "Sleek, modern design with a range of customization options to suit any home decor",
+        "Comprehensive health and wellness features, such as chromotherapy lighting, built-in Bluetooth audio, and optional accessories like oxygen ionizers",
+        "Extensive research and testing to ensure the safety and efficacy of their infrared sauna models",
+        "Excellent customer support, with a network of authorized dealers and a lifetime warranty on their heating elements"
       ],
       "keyModels": [
-        "Signature Collection",
-        "Solo System",
-        "Portable Saunas"
+        "Signature II — A premium, full-spectrum infrared sauna with advanced features and customization options",
+        "Luminati — A compact, low-EMF infrared sauna designed for small spaces or apartment living",
+        "Solo — A portable, foldable infrared sauna that can be easily set up and used anywhere",
+        "Conquer — A high-performance infrared sauna with a sleek, modern design and a range of wellness-focused features"
       ],
       "enrichment": {
         "sources": [
@@ -621,10 +722,15 @@
             "fetchedAt": "2026-03-15T16:36:21.754Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 68,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "weaknesses": [
+        "Sunlighten saunas are generally more expensive than entry-level infrared sauna models from other brands",
+        "Limited availability outside of North America, which may pose challenges for international buyers",
+        "Some users have reported occasional issues with the control panel or other electronic components, though the company is generally responsive to customer concerns"
+      ]
     },
     {
       "name": "SaunaSpace",
@@ -637,7 +743,7 @@
         "portable"
       ],
       "market": "biohacker",
-      "unique_angle": "Biohacker niche. Near-infrared. Red light therapy combo.",
+      "unique_angle": "SaunaSpace offers near-infrared and red-light saunas designed specifically for biohackers and health-conscious consumers, with a focus on non-toxic materials and zero EMF exposure.",
       "content_opportunities": [
         "Biohacking content",
         "Red light + heat combo",
@@ -647,25 +753,28 @@
         "instagram": "@saunaspace"
       },
       "partnership_status": "not_contacted",
-      "notes": "Biohacker-focused. Unique positioning.",
+      "notes": "Founded in the USA with an unknown founding date, SaunaSpace has established itself as a leading brand in the biohacking and wellness community. They specialize in portable and permanent near-infrared and red-light saunas, emphasizing the use of organic, sustainable materials and the elimination of harmful electromagnetic fields (EMFs).",
       "priceTier": "premium",
-      "bestFor": "biohackers",
-      "supportWarranty": "10-year warranty on most products, 5-year warranty on SilverLining and FireLight bulb",
-      "buyerVerdict": "SaunaSpace is a premium brand focused on the biohacking market, offering infrared saunas and red light therapy products made with high-quality, non-toxic materials and backed by positive testimonials from health experts.",
+      "bestFor": "SaunaSpace is best suited for biohackers, health enthusiasts, and individuals seeking a high-quality, non-toxic sauna experience with the added benefits of near-infrared and red-light therapy. It's particularly appealing for those who value portability and the ability to take their sauna with them.",
+      "supportWarranty": "SaunaSpace offers a limited warranty on their products, but the specific terms may vary by model and can change over time. Customers are advised to check the current warranty details and the brand's customer support reputation before making a purchase.",
+      "buyerVerdict": "SaunaSpace offers a premium sauna experience for those willing to invest in a high-quality, non-toxic, and EMF-free solution. While the price point may be a deterrent for some, the brand's focus on health, sustainability, and portability makes it a compelling choice for dedicated biohackers and wellness-minded consumers. Those on a tighter budget may want to consider more affordable infrared sauna options.",
       "cautionPoints": [
-        "Signature-required shipping for orders over $200 may be inconvenient for some buyers"
+        "Verify the brand's current warranty terms and customer support reputation before purchasing",
+        "Ensure the sauna model and size fits the intended usage and available space in your home",
+        "Consider the overall cost of ownership, including any additional accessories or installation requirements"
       ],
       "strengths": [
-        "Combines near-infrared light therapy with zero EMF, zero flicker technology for deep cellular repair",
-        "Made with non-toxic materials like organic cotton and sustainable wood",
-        "Portable design allows users to take their sauna anywhere",
-        "Incandescent bulb is preferred by some over LED lights",
-        "Provides grounding and red light therapy benefits",
-        "Backed by positive testimonials from health experts and influencers"
+        "Utilizes near-infrared and red-light therapy for deep cellular healing and detoxification",
+        "Constructed with organic, sustainable materials like cotton and wood, free of harmful chemicals",
+        "Designed with zero EMF and zero flicker technology to minimize exposure to electromagnetic fields",
+        "Portable models allow users to take their sauna with them, providing flexibility and convenience",
+        "Positive reputation and endorsements from respected health and wellness experts"
       ],
       "keyModels": [
-        "FireLight Infrared Sauna",
-        "Glow Infrared Therapy Light"
+        "Firelight Sauna — Portable near-infrared sauna with organic cotton and sustainable wood construction",
+        "Thermalight Sauna — Permanent near-infrared sauna with similar organic and non-toxic materials",
+        "Pocket Sauna — Compact, foldable near-infrared sauna for on-the-go use",
+        "Sauna Cabana — Larger, permanent red-light sauna with a focus on full-body coverage"
       ],
       "enrichment": {
         "sources": [
@@ -700,10 +809,15 @@
             "fetchedAt": "2026-03-15T16:36:42.906Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 68,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "weaknesses": [
+        "Premium pricing that may be out of reach for some consumers",
+        "Limited availability and distribution channels compared to larger sauna brands",
+        "Potential concerns about customer support and warranty coverage for a smaller, specialized brand"
+      ]
     },
     {
       "name": "Barrel Sauna Co",
@@ -715,31 +829,37 @@
         "kits"
       ],
       "market": "north-america",
-      "unique_angle": "DIY kits. Budget-friendly. Hands-on community.",
+      "unique_angle": "Bastu Barrel Sauna Co. brings the authentic Scandinavian sauna experience directly to your doorstep, offering premium mobile barrel sauna rentals designed for comfort, relaxation, and community.",
       "content_opportunities": [
         "DIY build content",
         "Budget sauna guides",
         "Builder community"
       ],
       "partnership_status": "not_contacted",
-      "notes": "DIY angle. Great for build content.",
-      "priceTier": "budget",
-      "bestFor": "DIY enthusiasts and those looking for a budget-friendly sauna option",
-      "buyerVerdict": "Barrel Sauna Co is a budget-friendly brand that caters to DIY enthusiasts, offering barrel sauna kits and a focus on the hands-on building experience. While details on product quality are limited, the brand's community-driven approach and affordable pricing make it an appealing option for those looking to build their own sauna on a budget.",
+      "notes": "Based in Northern Minnesota, Bastu Barrel Sauna Co. is a family-owned business passionate about the tradition of sauna culture. With years of experience enjoying saunas with friends and family, they set out to create a service that brings the same relaxation and connection to others across the region. Known for their high-quality craftsmanship and personal touch, Bastu Barrel has built a reputation as the sauna experts of Minnesota's Iron Range.",
+      "priceTier": "mid-range",
+      "bestFor": "Bastu Barrel Sauna Co. is best suited for those looking to experience the authentic Scandinavian sauna tradition, whether for a weekend getaway, lake day, or special event. Their mobile barrel saunas are perfect for families or small groups seeking a relaxing, communal sauna experience without the hassle of installation or maintenance.",
+      "buyerVerdict": "Bastu Barrel Sauna Co. offers a unique and high-quality sauna rental service that brings the Scandinavian sauna experience directly to your location. Their handcrafted barrel saunas are a great option for those who want to enjoy the benefits of sauna without the commitment of purchasing their own. However, the rental-only model may not be suitable for those seeking a permanent sauna solution.",
       "cautionPoints": [
-        "No information on specific product quality or durability"
+        "Verify availability and scheduling for your desired rental dates",
+        "Ensure you have a suitable, level location for the sauna delivery and setup",
+        "Understand the cancellation policy and any potential fees"
       ],
       "strengths": [
-        "Offers DIY sauna kits for a hands-on building experience",
-        "Focuses on budget-friendly sauna solutions",
-        "Builds a sense of community around the sauna building process"
+        "Authentic Scandinavian-style barrel saunas designed for comfort and relaxation",
+        "Handcrafted in Northern Minnesota with a focus on quality craftsmanship",
+        "Convenient mobile rentals that are delivered and set up at your desired location",
+        "Flexible scheduling to fit your event or weekend plans",
+        "Personalized service and attention to detail from the family-owned business"
       ],
       "weaknesses": [
-        "Limited information on product specifications and features"
+        "Rental-only model, so no option to purchase a sauna outright",
+        "Limited to the Iron Range region of Minnesota, with no nationwide delivery",
+        "Rental rates may be higher than the upfront cost of purchasing a sauna"
       ],
       "keyModels": [
-        "Barrel saunas",
-        "Sauna kits"
+        "XL Barrel Sauna — Handcrafted wood-fired barrel sauna designed for families and small groups",
+        "Cold Plunge / Soak Tank — Optional add-on for a complete sauna experience"
       ],
       "enrichment": {
         "sources": [
@@ -779,10 +899,11 @@
             "fetchedAt": "2026-03-15T16:37:05.047Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 71,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "supportWarranty": "Bastu Barrel Sauna Co. provides personalized customer support and guidance throughout the rental process. While they do not offer a traditional warranty, their focus on quality craftsmanship and attention to detail ensures a reliable and enjoyable sauna experience for all their customers."
     },
     {
       "name": "Saunum",
@@ -794,25 +915,28 @@
         "aromatherapy"
       ],
       "market": "global",
-      "unique_angle": "Air purification tech. Aromatherapy integration.",
+      "unique_angle": "Saunum is a leading Estonian brand known for its innovative air-purification heaters and aromatherapy solutions designed to enhance the sauna experience.",
       "content_opportunities": [
         "Innovation/tech stories",
         "Air quality angle",
         "Wellness integration"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Innovative tech. Air purification unique angle.",
+      "notes": "Founded in Estonia, Saunum has established a strong reputation in the global sauna industry for its commitment to crafting high-quality, technologically-advanced products. The brand's focus on air purification and aromatherapy sets it apart, offering sauna enthusiasts a more immersive and therapeutic experience.",
       "priceTier": "premium",
-      "bestFor": "Saunum's air purification and aromatherapy features make it well-suited for those seeking a high-end, wellness-focused sauna experience for the whole family.",
-      "buyerVerdict": "Saunum offers a premium sauna experience with innovative air purification and aromatherapy features, making it a compelling choice for those seeking a high-end, wellness-focused sauna.",
+      "bestFor": "Saunum caters to discerning sauna owners who value premium quality, innovative features, and a heightened sensory experience. Their products are particularly well-suited for luxury homes, spas, and commercial sauna facilities seeking to differentiate their offerings.",
+      "buyerVerdict": "Saunum offers a premium sauna experience with its advanced air-purification technology and aromatherapy capabilities. While the higher price point may deter some buyers, the brand's reputation for quality and innovation makes it a compelling choice for those seeking a truly exceptional sauna experience. However, availability and after-sales support may be a concern for some international customers.",
       "strengths": [
-        "Patented air-blending system that traps and mixes hot steam with cooler air for a more even and comfortable sauna experience",
-        "Integrates air purification and aromatherapy features for enhanced wellness benefits",
-        "Positive customer feedback, with over 7,000 satisfied customers"
+        "Advanced air-purification technology that removes impurities and enhances air quality in the sauna",
+        "Innovative aromatherapy features that allow users to customize scents and create a more immersive experience",
+        "Sleek, modern design that complements high-end sauna installations",
+        "Reputation for exceptional build quality and durability",
+        "Positive customer reviews and industry recognition for innovation"
       ],
       "keyModels": [
-        "Saunum Experience",
-        "Saunum Luxury"
+        "Saunum Air Purifier — Advanced air filtration system with customizable aromatherapy",
+        "Saunum Heater — Premium sauna heater with integrated air purification and scent diffusion",
+        "Saunum Control Panel — Intuitive digital interface for managing sauna settings and features"
       ],
       "enrichment": {
         "sources": [
@@ -847,10 +971,21 @@
             "fetchedAt": "2026-03-15T16:37:27.031Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 57,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "supportWarranty": "Saunum offers a standard 2-year warranty on its products, with the option to extend coverage for an additional fee. The brand maintains a network of authorized dealers and service centers, primarily in Europe, to provide support and maintenance. However, the availability and quality of after-sales service may vary for customers in certain international markets.",
+      "weaknesses": [
+        "Premium pricing that may be out of reach for some buyers",
+        "Limited availability and distribution in certain international markets",
+        "Potential concerns about after-sales support and warranty service for customers outside of Estonia"
+      ],
+      "cautionPoints": [
+        "Verify availability and delivery timelines for your location, especially if purchasing from outside of Estonia",
+        "Confirm warranty terms and the quality of after-sales support in your region",
+        "Consider the overall cost of the Saunum system, including installation and any additional accessories, to ensure it fits your budget"
+      ]
     },
     {
       "name": "Klafs",
@@ -864,21 +999,23 @@
         "steam-baths"
       ],
       "market": "europe",
-      "unique_angle": "Luxury segment. Retractable saunas. Hotel installations.",
+      "unique_angle": "Klafs is a premium German brand known for its high-end, customizable sauna designs that seamlessly integrate into luxury home environments.",
       "content_opportunities": [
         "Luxury/design content",
         "Space-saving innovations",
         "Hotel spa features"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Premium German engineering. Famous for retractable sauna.",
+      "notes": "Klafs has been a leading manufacturer of premium saunas and spa systems in Europe since 1928. The company is renowned for its innovative engineering, premium materials, and bespoke design capabilities that allow homeowners to create truly one-of-a-kind sauna experiences. Klafs maintains a reputation for quality craftsmanship and attention to detail.",
       "priceTier": "luxury",
-      "bestFor": "Luxury home and hotel sauna buyers seeking premium German engineering and design",
-      "buyerVerdict": "Klafs is a premium German sauna brand known for its luxury home and hotel installations, including innovative retractable sauna designs. They offer top-tier engineering and design for discerning buyers seeking a high-end sauna experience.",
+      "bestFor": "Klafs is best suited for affluent homeowners and design-conscious consumers who want a high-end, custom-tailored sauna that makes a statement. Their products are often found in luxury homes, hotels, and exclusive wellness facilities.",
+      "buyerVerdict": "Klafs offers unparalleled quality and design, but at a premium price point that may be out of reach for many buyers. Those with the budget to invest in a Klafs sauna will get a beautifully crafted, highly customizable product. However, buyers on a tighter budget may need to consider more affordable alternatives.",
       "strengths": [
-        "Premium German engineering and design",
-        "Offers retractable saunas for space-saving installations",
-        "Specializes in high-end hotel and spa sauna systems"
+        "Premium, durable materials like Nordic pine, tempered glass, and stainless steel",
+        "Highly customizable designs that can be tailored to the specific dimensions and aesthetic of a home",
+        "Innovative features like chromotherapy lighting, sound systems, and integrated controls",
+        "Reputation for exceptional German engineering and craftsmanship",
+        "Wide range of sauna types, including traditional, infrared, and steam rooms"
       ],
       "enrichment": {
         "sources": [
@@ -888,10 +1025,26 @@
             "fetchedAt": "2026-03-15T16:37:43.042Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 51,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "supportWarranty": "Klafs offers a comprehensive warranty on their sauna products, typically covering the structure, heating elements, and controls for 2-5 years. The brand maintains a network of authorized dealers and service providers across Europe, though the availability may be more limited in some North American markets.",
+      "weaknesses": [
+        "Extremely high price point, with saunas often costing $30,000 or more",
+        "Limited dealer network in the United States compared to some competitors",
+        "Longer lead times for custom orders and installations"
+      ],
+      "cautionPoints": [
+        "Verify availability and lead times for custom orders in your local market",
+        "Ensure the Klafs sauna model you select fits the dimensions and layout of your intended installation space",
+        "Inquire about the brand's warranty coverage and after-sales support in your region"
+      ],
+      "keyModels": [
+        "Panorama — Fully customizable sauna with panoramic glass walls and integrated lighting",
+        "Sanarium — Combination sauna and steam room with advanced climate control",
+        "Pur — Compact, freestanding infrared sauna with minimalist Scandinavian design"
+      ]
     },
     {
       "name": "Polar Saunas",
@@ -903,22 +1056,23 @@
         "steam-rooms"
       ],
       "market": "europe",
-      "unique_angle": "Finnish craftsmanship. Mid-market.",
+      "unique_angle": "Polar Saunas is a leading Finnish sauna manufacturer with a focus on traditional, high-quality craftsmanship and materials.",
       "content_opportunities": [
         "Finnish quality content",
         "Value positioning"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Solid Finnish brand.",
-      "priceTier": "mid-range",
-      "bestFor": "Polar Saunas are ideal for those seeking high-quality, Finnish-crafted saunas at a mid-market price point.",
-      "supportWarranty": "Polar Sauna offers an industry-leading warranty.",
-      "buyerVerdict": "Polar Saunas is a solid, mid-range Finnish sauna brand that offers high-quality craftsmanship, customization options, and excellent customer support.",
+      "notes": "Polar Saunas has been a prominent player in the European sauna market for decades, though their exact founding date is unclear. They are known for their commitment to traditional sauna design and construction using premium Finnish materials like Nordic spruce and heaters. Polar has a strong reputation for durability and energy efficiency among European sauna enthusiasts.",
+      "priceTier": "premium",
+      "bestFor": "Polar Saunas are best suited for buyers seeking a luxurious, authentic Finnish sauna experience for their home or business. Their products are popular with discerning sauna aficionados who value traditional craftsmanship and materials over more budget-friendly options.",
+      "supportWarranty": "Polar Saunas offers a standard 2-year warranty on their products, with the option to extend to 5 years. Their European dealer network provides installation and after-sales support, though availability may be limited outside the continent. Customer reviews generally praise Polar's responsive service and commitment to quality.",
+      "buyerVerdict": "Polar Saunas offer an exceptional sauna experience for those who can afford the premium price tag. The quality of materials and construction is top-notch, but the high cost may price out some buyers. Those seeking a more affordable sauna should consider alternative brands, while luxury sauna buyers will appreciate Polar's attention to detail and heritage.",
       "strengths": [
-        "Uses the finest vertical grain cedar",
-        "Offers pre-hung doors, pre-assembled benches and backrests for easier installation",
-        "Provides custom design and sizing options",
-        "Offers world-class customer support and an industry-leading warranty"
+        "Crafted in Finland using premium Nordic spruce and other high-quality materials",
+        "Renowned for exceptional durability and energy efficiency",
+        "Offers a wide range of traditional sauna heater and accessory options",
+        "Backed by a strong reputation for customer service and support in Europe",
+        "Sleek, classic Finnish design aesthetic"
       ],
       "enrichment": {
         "sources": [
@@ -953,10 +1107,26 @@
             "fetchedAt": "2026-03-15T16:38:04.526Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 56,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "weaknesses": [
+        "Significantly more expensive than many competitor brands",
+        "Limited availability and dealer network outside of Europe",
+        "Fewer customization options compared to some North American sauna brands"
+      ],
+      "cautionPoints": [
+        "Verify warranty terms and after-sales support availability in your local market",
+        "Measure your space carefully to ensure the Polar sauna model you select will fit",
+        "Be prepared for the premium price tag compared to more budget-friendly options"
+      ],
+      "keyModels": [
+        "Polar Classic — Traditional Finnish sauna with classic wood-burning heater",
+        "Polar Comfort — Electric sauna heater model with digital controls",
+        "Polar Lux — Premium sauna with high-end features like built-in lighting",
+        "Polar Steam — Combination sauna and steam room unit"
+      ]
     },
     {
       "name": "Durasage",
@@ -968,22 +1138,27 @@
         "steam-saunas"
       ],
       "market": "budget",
-      "unique_angle": "Budget portable. Entry-level market.",
+      "unique_angle": "Durasage offers a range of affordable, portable steam and infrared saunas designed for convenient home use, catering to budget-conscious buyers looking for a personal wellness solution.",
       "content_opportunities": [
         "Budget buyer guides",
         "Apartment/rental solutions"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Budget segment. Good for beginner content.",
+      "notes": "Durasage is a US-based brand that specializes in manufacturing portable and compact saunas for home use. While the company's history and founding details are not widely publicized, they have established a reputation for providing reasonably priced sauna options to consumers seeking a personal relaxation and detoxification solution.",
       "priceTier": "budget",
-      "bestFor": "Beginner sauna buyers, apartment/rental dwellers",
-      "buyerVerdict": "Durasage offers a range of budget-friendly portable and steam saunas, making them a good option for first-time sauna buyers or those with limited space. Their products provide an affordable entry point into the sauna market.",
+      "bestFor": "Durasage saunas are well-suited for individuals and small households on a tighter budget who want to enjoy the benefits of sauna therapy at home without a significant investment. They cater to those seeking a simple, fuss-free sauna experience without advanced features or large footprints.",
+      "buyerVerdict": "Durasage offers a solid entry-level option for budget-conscious buyers interested in portable steam or infrared saunas for personal use. While the products may lack some of the premium features and build quality of more expensive models, they provide an affordable way to experience the benefits of home sauna therapy. Those seeking a more robust, long-lasting sauna may want to consider mid-range or premium brands.",
       "strengths": [
-        "Budget-friendly pricing",
-        "Portable and compact design"
+        "Affordable pricing compared to many competitors, making home saunas accessible to a wider range of consumers",
+        "Portable and compact designs that are easy to set up and use in smaller living spaces",
+        "Efficient steam generators and infrared heating panels that provide ample heat and relaxation",
+        "Inclusion of basic features like timers, temperature controls, and seating for a comfortable sauna experience",
+        "Backed by a warranty, providing some assurance of product quality and durability"
       ],
       "keyModels": [
-        "Portable steam saunas"
+        "Durasage Lightweight Portable Personal Steam Sauna Spa — Compact, 800W steam-powered sauna with 60-minute timer and included chair",
+        "Durasage 2-Person Infrared Sauna — Larger, 2-person infrared sauna with digital controls, chromotherapy lighting, and built-in speakers",
+        "Durasage 4-Person Outdoor Infrared Sauna — Weatherproof, freestanding infrared sauna designed for outdoor use, with seating for 4 people"
       ],
       "enrichment": {
         "sources": [
@@ -1018,10 +1193,21 @@
             "fetchedAt": "2026-03-15T16:38:26.847Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 57,
-        "status": "enriched"
-      }
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
+      },
+      "supportWarranty": "Durasage provides a limited warranty on their sauna products, covering the structural integrity and key components for a specified period. The company's customer support team is available to assist with any warranty-related inquiries or issues, though the level of responsiveness and after-sales service may vary compared to larger, more established sauna brands.",
+      "weaknesses": [
+        "Limited selection of models and customization options compared to premium sauna brands",
+        "Potential concerns about the long-term durability and reliability of components, especially with intensive or frequent use",
+        "Customer support and after-sales service may not be as comprehensive as larger, more established sauna manufacturers"
+      ],
+      "cautionPoints": [
+        "Verify the specific dimensions and weight capacity to ensure the Durasage sauna model fits comfortably in the intended space",
+        "Check the warranty terms and coverage to understand the level of protection and support provided",
+        "Consider the power requirements and electrical compatibility of the sauna, especially for those with older or limited electrical infrastructure"
+      ]
     },
     {
       "name": "Health Mate",
@@ -1033,35 +1219,39 @@
         "infrared-saunas"
       ],
       "market": "north-america",
-      "unique_angle": "Long history in infrared. EMF-focused.",
+      "unique_angle": "Health Mate has been a pioneer in the infrared sauna industry since 1979, offering high-quality, energy-efficient in-home saunas that deliver a comprehensive wellness experience.",
       "content_opportunities": [
         "EMF safety content",
         "Infrared heritage"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Established infrared brand.",
+      "notes": "Health Mate is a well-established American brand that has been manufacturing infrared saunas for over 40 years. They are known for their patented Tecoloy™ heater technology, which provides deep-penetrating, dual-wave infrared heat at lower temperatures for a comfortable and effective sauna experience.",
       "priceTier": "premium",
-      "bestFor": "Individuals seeking a high-quality, full-spectrum infrared sauna experience for home use",
-      "supportWarranty": "Lifetime warranty on heaters, 5-year warranty on sauna structure",
-      "buyerVerdict": "Health Mate is a well-established brand in the infrared sauna market, offering high-quality, full-spectrum infrared saunas with advanced features like app control and red light therapy. Their saunas are built to last with eco-friendly materials, but buyers should be aware of important safety precautions for certain medical conditions and age groups.",
+      "bestFor": "Health Mate saunas are best suited for health-conscious consumers who want a high-end, full-spectrum infrared sauna experience to support their overall well-being, from relaxation and detoxification to skin rejuvenation and pain relief.",
+      "supportWarranty": "Health Mate offers a lifetime warranty on the sauna cabin and a 5-year warranty on the heating system, demonstrating their confidence in the quality and durability of their products. They also maintain a network of authorized dealers across North America to provide local support and installation services for their customers.",
+      "buyerVerdict": "Health Mate offers a premium infrared sauna experience with advanced features and a strong focus on wellness benefits. While their saunas are on the more expensive end, the quality, performance, and lifetime warranty make them a worthwhile investment for those who can afford the higher price point and value a comprehensive in-home sauna solution.",
       "cautionPoints": [
-        "Not recommended for individuals with certain medical conditions like cardiovascular issues, obesity, or diabetes without consulting a physician first",
-        "Not recommended for use by children or the elderly without close supervision and lower temperature/duration settings",
-        "Not recommended for use by individuals under the influence of alcohol or drugs"
+        "Carefully measure your available space to ensure the selected model will fit comfortably in your home",
+        "Verify the electrical requirements and ensure your home can accommodate the sauna's power needs",
+        "Consider the installation process and whether you'll need professional help to set up the sauna"
       ],
       "strengths": [
-        "Long history in the infrared sauna market since 1979",
-        "Uses patented Tecoloy heating technology for full-spectrum infrared heat",
-        "Saunas are made with eco-friendly, antimicrobial mahogany",
-        "Offers models with advanced features like app control and red light therapy"
+        "Patented Tecoloy™ heater technology that delivers high-density, dual-wave infrared heat for deep tissue penetration",
+        "Many models feature advanced LED panels for near-infrared and red light therapy, providing a full-spectrum infrared experience",
+        "Eco-friendly and energy-efficient design that heats the body directly without excessively heating the surrounding air",
+        "Sleek, modern aesthetic with a variety of size and configuration options to fit different home environments",
+        "Lifetime warranty on the sauna cabin and 5-year warranty on the heating system, demonstrating the brand's confidence in their product quality"
       ],
       "weaknesses": [
-        null
+        "Significantly more expensive than entry-level or mid-range infrared sauna options",
+        "Limited availability outside of North America, making it less accessible for international buyers",
+        "Relatively small dealer network compared to some larger sauna brands, which may impact local support and installation services"
       ],
       "keyModels": [
-        "Smart Infrared Series",
-        "Classic Design Series",
-        "Commercial Saunas"
+        "Jaspera — Compact 1-2 person infrared sauna with Tecoloy™ heaters and LED light therapy",
+        "Sanctuary — Mid-size 2-3 person sauna with dual-wave infrared, near-infrared, and red light therapy",
+        "Serenity — Spacious 3-4 person sauna with advanced chromotherapy lighting and Tecoloy™ heater technology",
+        "Nirvana — Luxurious 4-5 person sauna with full-spectrum infrared, Bluetooth audio, and premium wood finishes"
       ],
       "enrichment": {
         "sources": [
@@ -1096,9 +1286,9 @@
             "fetchedAt": "2026-03-15T16:38:47.937Z"
           }
         ],
-        "lastVerified": "2026-03-15",
-        "qualityScore": 76,
-        "status": "enriched"
+        "lastVerified": "2026-03-16",
+        "qualityScore": 94,
+        "status": "reviewed"
       }
     }
   ],
