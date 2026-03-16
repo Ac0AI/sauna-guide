@@ -166,10 +166,9 @@ function GatedContent({ result }: { result: QuizResult }) {
           What most people get wrong
         </h3>
         <ul className="space-y-1.5 text-sm text-sauna-slate">
-          <li>- Undersizing the heater for the room volume</li>
-          <li>- Skipping the vapor barrier (leads to moisture damage)</li>
-          <li>- Not planning ventilation before building</li>
-          <li>- Buying before getting an electrician quote</li>
+          {getCommonMistakes(result.type).map((mistake, i) => (
+            <li key={i}>- {mistake}</li>
+          ))}
         </ul>
       </div>
 
@@ -195,6 +194,31 @@ function GatedContent({ result }: { result: QuizResult }) {
       </div>
     </div>
   )
+}
+
+function getCommonMistakes(type: string): string[] {
+  if (type.includes('infrared')) {
+    return [
+      'Choosing the cheapest panel (low-EMF certification matters)',
+      'Putting it in a room with no airflow at all',
+      'Expecting traditional sauna temperatures (infrared runs cooler)',
+      'Not checking the warranty covers both panels and wood',
+    ]
+  }
+  if (type.includes('barrel') || type.includes('outdoor')) {
+    return [
+      'Skipping the foundation (settling cracks the barrel)',
+      'Not treating the exterior wood before first use',
+      'Placing it too close to fences or structures',
+      'Forgetting drainage planning for rain and snowmelt',
+    ]
+  }
+  return [
+    'Undersizing the heater for the room volume',
+    'Skipping the vapor barrier (leads to moisture damage)',
+    'Not planning ventilation before building',
+    'Buying before getting an electrician quote',
+  ]
 }
 
 function SoftNewsletterNote() {

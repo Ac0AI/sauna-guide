@@ -12,6 +12,32 @@ import QuizResults from '@/components/quiz/QuizResults'
 const STEPS: QuizStep[] = ['intro', 'q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'results']
 const STORAGE_KEY = 'sauna-quiz-answers'
 
+const VALID_VALUES: Record<keyof QuizAnswers, string[]> = {
+  motivation: ['health', 'relaxation', 'social', 'cold-contrast'],
+  placement: ['indoor', 'outdoor'],
+  capacity: ['1-2', '3-4', '5+'],
+  heatType: ['traditional', 'infrared', 'open-to-both'],
+  budget: ['3k-5k', '5k-10k', '10k-15k', '15k+'],
+  timeline: ['researching', 'within-3-months', 'ready-now'],
+  priority: ['design', 'performance', 'value', 'trust'],
+}
+
+function sanitizeAnswers(raw: unknown): QuizAnswers | null {
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return null
+
+  const answers: QuizAnswers = {}
+  const obj = raw as Record<string, unknown>
+
+  for (const [key, validOptions] of Object.entries(VALID_VALUES)) {
+    const val = obj[key]
+    if (typeof val === 'string' && validOptions.includes(val)) {
+      (answers as Record<string, string>)[key] = val
+    }
+  }
+
+  return Object.keys(answers).length > 0 ? answers : null
+}
+
 interface QuizState {
   step: QuizStep
   answers: QuizAnswers
@@ -25,6 +51,7 @@ type QuizAction =
   | { type: 'GO_BACK' }
   | { type: 'START' }
   | { type: 'UNLOCK' }
+  | { type: 'RESTORE'; answers: QuizAnswers; step: QuizStep }
   | { type: 'LOAD_RESULTS'; answers: QuizAnswers; unlocked: boolean }
 
 function reducer(state: QuizState, action: QuizAction): QuizState {
@@ -49,11 +76,14 @@ function reducer(state: QuizState, action: QuizAction): QuizState {
       const currentIndex = STEPS.indexOf(state.step)
       if (currentIndex <= 1) return state
       const prevStep = STEPS[currentIndex - 1]
-      return { ...state, step: prevStep as QuizStep, direction: 'backward' }
+      return { ...state, step: prevStep as QuizStep, result: null, direction: 'backward' }
     }
 
     case 'UNLOCK':
       return { ...state, isUnlocked: true }
+
+    case 'RESTORE':
+      return { ...state, step: action.step, answers: action.answers, direction: 'forward' }
 
     case 'LOAD_RESULTS': {
       const result = getQuizResult(action.answers)
@@ -88,9 +118,12 @@ export default function QuizClient() {
     const encoded = searchParams.get('r')
     if (encoded) {
       try {
-        const answers = JSON.parse(atob(encoded)) as QuizAnswers
-        dispatch({ type: 'LOAD_RESULTS', answers, unlocked: true })
-        return
+        const parsed = JSON.parse(atob(encoded))
+        const answers = sanitizeAnswers(parsed)
+        if (answers) {
+          dispatch({ type: 'LOAD_RESULTS', answers, unlocked: true })
+          return
+        }
       } catch {
         // Invalid encoded data, ignore
       }
@@ -99,23 +132,14 @@ export default function QuizClient() {
     const saved = sessionStorage.getItem(STORAGE_KEY)
     if (saved) {
       try {
-        const answers = JSON.parse(saved) as QuizAnswers
-        const filledKeys = Object.keys(answers).filter(
-          (k) => answers[k as keyof QuizAnswers] !== undefined
-        )
-        if (filledKeys.length > 0 && filledKeys.length < 7) {
-          // Resume from where they left off
-          const resumeStep = `q${filledKeys.length + 1}` as QuizStep
-          dispatch({ type: 'START' })
-          // Set answers without advancing
-          for (const key of filledKeys) {
-            const val = answers[key as keyof QuizAnswers]
-            if (val) {
-              dispatch({ type: 'ANSWER', key: key as keyof QuizAnswers, value: val })
-            }
+        const parsed = JSON.parse(saved)
+        const answers = sanitizeAnswers(parsed)
+        if (answers) {
+          const filledCount = Object.keys(answers).length
+          if (filledCount > 0 && filledCount < 7) {
+            const resumeStep = `q${filledCount + 1}` as QuizStep
+            dispatch({ type: 'RESTORE', answers, step: resumeStep })
           }
-          // This will naturally end up at the right step
-          void resumeStep
         }
       } catch {
         // Invalid saved data, ignore
@@ -149,7 +173,7 @@ export default function QuizClient() {
       {/* Slide container */}
       <div
         key={state.step}
-        className={`animate-fade-up`}
+        className="animate-fade-up"
         style={{ animationDuration: '200ms' }}
       >
         {/* Intro */}
@@ -208,7 +232,7 @@ export default function QuizClient() {
       </div>
 
       {/* Back button */}
-      {currentStepIndex > 1 && state.step !== 'results' && (
+      {currentStepIndex > 1 && (
         <div className="mt-8 text-center">
           <button
             onClick={() => dispatch({ type: 'GO_BACK' })}

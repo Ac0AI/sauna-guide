@@ -10,7 +10,7 @@ interface QuizQuestionProps {
 }
 
 export default function QuizQuestion({ question, selected, onSelect }: QuizQuestionProps) {
-  const columns = question.options.length === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-2'
+  const columns = question.options.length <= 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-2 lg:grid-cols-2'
 
   return (
     <div className="flex flex-col gap-6">

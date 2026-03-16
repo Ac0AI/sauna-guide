@@ -28,9 +28,14 @@ export default function QuizShareButton({ answers }: QuizShareButtonProps) {
       }
     }
 
-    await navigator.clipboard.writeText(shareUrl)
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
+    try {
+      await navigator.clipboard.writeText(shareUrl)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      // Clipboard API not available, prompt manual copy
+      prompt('Copy this link:', shareUrl)
+    }
   }
 
   return (
