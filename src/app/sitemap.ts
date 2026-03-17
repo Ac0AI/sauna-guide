@@ -4,6 +4,7 @@ import { getAllProducts } from '@/lib/gear'
 import { getAllManufacturers } from '@/lib/manufacturers'
 import fs from 'fs'
 import path from 'path'
+import matter from 'gray-matter'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://sauna.guide'
@@ -192,8 +193,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const guidesDirectory = path.join(process.cwd(), 'src/content/guides')
     if (fs.existsSync(guidesDirectory)) {
       const guideFiles = fs.readdirSync(guidesDirectory)
+      const today = new Date().toISOString().split('T')[0]
       guideRoutes = guideFiles
-        .filter((file) => file.endsWith('.mdx'))
+        .filter((file) => {
+          if (!file.endsWith('.mdx')) return false
+          const fullPath = path.join(guidesDirectory, file)
+          const fileContents = fs.readFileSync(fullPath, 'utf8')
+          const { data } = matter(fileContents)
+          return !data.date || data.date <= today
+        })
         .map((file) => {
           const fullPath = path.join(guidesDirectory, file)
           const stats = fs.statSync(fullPath)

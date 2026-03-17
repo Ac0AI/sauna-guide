@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "created": "2026-03-16",
+    "purpose": "Landing page copy and structure research for sauna.guide buying guide funnel",
+    "icp": "Home sauna buyers ($3K-$15K+), active research phase, 47 tabs open, reading Reddit at 11pm"
+  },
+
+  "copy_frameworks": {
+    "recommendation": "Hybrid StoryBrand + PAS",
+    "why": "StoryBrand positions the buyer as hero and us as the trusted guide. PAS opens with the emotional pain of research hell. Together they match our brand voice perfectly: empathetic, warm, decisive.",
+    "frameworks_ranked": [
+      {
+        "name": "StoryBrand (SB7)",
+        "best_for": "Overall page structure and positioning",
+        "conversion_lift": "28-44% documented lifts in lead-to-opportunity",
+        "how_we_use_it": "Page skeleton. Customer is hero lost in sauna research. We are the guide who already did the work. Clear plan (quiz > results > email series). Call to action. Paint the success (warm sauna in your backyard) vs failure (another $8K mistake).",
+        "section_order": [
+          "Hero: aspirational identity + primary CTA",
+          "Value stack: 3 quick-hit benefits with icons",
+          "Problem: show we understand their pain",
+          "Guide: our credibility (tested X saunas, no brand deals)",
+          "Plan: simple 3-step path (Take quiz > Get your match > Buy with confidence)",
+          "CTA repeat",
+          "Success vs Failure: what life looks like with/without our help",
+          "Social proof: testimonials, trust signals",
+          "Final CTA"
+        ]
+      },
+      {
+        "name": "PAS (Problem-Agitate-Solve)",
+        "best_for": "Hero section and email subject lines",
+        "how_we_use_it": "Opening hook only. Problem: You have 47 browser tabs open. Agitate: Every brand says they are the best. You are no closer to deciding than you were two weeks ago. Solve: We tested them. Take our 2-minute quiz.",
+        "sauna_guide_example": {
+          "problem": "You have been researching home saunas for weeks.",
+          "agitate": "Every brand says they are the best. Reddit threads contradict each other. You are further from a decision than when you started.",
+          "solve": "We spent 200+ hours so you do not have to. Take a 2-minute quiz. Get your personal shortlist."
+        }
+      },
+      {
+        "name": "AIDA (Attention-Interest-Desire-Action)",
+        "best_for": "Ad copy and short-form content",
+        "note": "Less effective for long-form landing pages in 2025-2026. Works for paid social ads driving to the quiz."
+      }
+    ]
+  },
+
+  "quiz_funnel_structure": {
+    "why_quiz": "Quiz funnels convert at 30-50%, vs 5-10% for traditional lead magnets. Completion rates of 70-80%.",
+    "our_quiz_concept": "Find Your Perfect Home Sauna",
+    "key_findings": [
+      "Place email capture at question 3-4, not at the start. Increases completion by 40%.",
+      "Specific CTAs convert 52% better than generic ones. 'Discover your ideal sauna' beats 'Take our quiz'.",
+      "State the duration: '2 minutes to clarity' outperforms uncertain time by 31%.",
+      "Each answered question is a micro-commitment (Cialdini's consistency principle). By the email gate, giving their address feels natural, not forced.",
+      "Quiz-segmented email lists see 3x higher open rates.",
+      "Gating full results behind email is standard and accepted when the quiz delivers genuine personalized value."
+    ],
+    "recommended_structure": {
+      "landing_section": {
+        "headline": "Find your perfect home sauna in 2 minutes.",
+        "subheadline": "Answer 5 questions. Get a shortlist built around your space, your budget, and how you actually want to use it.",
+        "cta": "Find my sauna"
+      },
+      "quiz_flow": [
+        { "q": 1, "topic": "Primary use", "example": "Relaxation, recovery, health, social" },
+        { "q": 2, "topic": "Space", "example": "Indoor/outdoor, available dimensions" },
+        { "q": 3, "topic": "Budget range", "example": "$3K-$5K / $5K-$8K / $8K-$15K / $15K+" },
+        { "q": 4, "topic": "Heat preference", "example": "Traditional (high heat), infrared (gentle), both" },
+        { "q": 5, "topic": "Must-haves", "example": "Easy install, wood-fired, barrel style, etc." },
+        { "gate": "email", "copy": "Where should we send your results?", "note": "After Q5, before results. Frame as delivery, not capture." },
+        { "results": "Personalized top 3 recommendations with links to detailed reviews" }
+      ],
+      "post_quiz_email_series": {
+        "email_1": "Your results + why these 3 match",
+        "email_2": "The 5 mistakes first-time sauna buyers make",
+        "email_3": "Our honest take: what we would buy with your budget",
+        "then": "Roll into weekly Thursday newsletter"
+      }
+    }
+  },
+
+  "cta_strategy": {
+    "optimal_count": "One CTA, repeated 3-4 times on the page",
+    "key_stats": [
+      "Pages with 1 CTA convert at 13.5%, vs 10.5% for 5+ CTAs.",
+      "Multiple competing offers decrease conversions by up to 266%.",
+      "CTAs above the fold outperform below-fold by 304%.",
+      "AI-personalized CTAs boost conversions by 44%."
+    ],
+    "our_approach": {
+      "single_action": "Take the quiz / Find my sauna",
+      "placements": [
+        "Hero section (above fold, most critical)",
+        "After problem/agitate section",
+        "After social proof section",
+        "Final section (with reinforcing copy)"
+      ],
+      "cta_copy_options": [
+        "Find my sauna",
+        "Take the 2-minute quiz",
+        "Get my personal shortlist",
+        "Show me my matches"
+      ],
+      "never": ["Subscribe now", "Sign up free", "Join our list", "Don't miss out"]
+    }
+  },
+
+  "analysis_paralysis_relief": {
+    "the_insight": "Our ICP is drowning. They have 47 tabs open. Every Reddit thread contradicts the last one. They do not need more information. They need someone to say: here is what to buy.",
+    "copywriting_techniques": [
+      {
+        "name": "Decision simplification",
+        "how": "Reduce the universe of options to 3. Not 10. Not 'it depends.' Three. With clear reasoning.",
+        "example_copy": "There are 200+ home saunas on the market. You need to see three.",
+        "research": "Jam study: 6 options = 30% purchase rate. 24 options = 3%. Fewer choices, more action."
+      },
+      {
+        "name": "The trusted friend voice",
+        "how": "Write like someone who already went through this. Not an expert lecturing, a friend who bought one last year.",
+        "example_copy": "I spent three weeks doing exactly what you are doing right now. Here is what I wish someone had told me on day one."
+      },
+      {
+        "name": "The recommended default",
+        "how": "Always highlight one option as 'our pick' or 'best for most people.' Defaults reduce cognitive load dramatically.",
+        "example_copy": "If you are not sure where to start, start here. This is the sauna we recommend to most people."
+      },
+      {
+        "name": "Progressive disclosure",
+        "how": "Show essential info first. Hide specs behind expandable sections. Do not dump everything at once.",
+        "application": "Product cards show: name, price, one-line verdict, photo. Click to expand for specs, full review, comparison."
+      },
+      {
+        "name": "Permission to stop researching",
+        "how": "Explicitly give them permission to close the other tabs. This is emotional, not logical.",
+        "example_copy": "You have done enough research. Seriously. Close the other tabs. We will take it from here."
+      },
+      {
+        "name": "Risk reversal",
+        "how": "Make the next step feel safe. Not 'buy now' but 'get the free shortlist' or 'see your results.'",
+        "example_copy": "No credit card. No sales call. Just your top 3 matches, delivered to your inbox in 60 seconds."
+      }
+    ],
+    "page_copy_approach": {
+      "headline": "Stop researching. Start deciding.",
+      "alternative_headlines": [
+        "You have read enough Reddit threads.",
+        "200+ saunas. You need to see three.",
+        "The honest home sauna guide. No brand deals. No BS.",
+        "We tested them so you do not have to."
+      ],
+      "opening_paragraph": "You have been at this for weeks. You have read every Reddit thread. Watched the YouTube reviews. Compared spec sheets until your eyes glazed over. And you are no closer to buying a sauna than when you started. That ends here."
+    }
+  },
+
+  "high_ticket_landing_page_patterns": {
+    "what_works": [
+      {
+        "pattern": "Casper model: simplify the category",
+        "description": "Casper succeeded by reducing mattress choice from hundreds to one. Simple copy, action-oriented CTAs ('try' not 'buy'), heavy social proof, free trial to remove risk.",
+        "application": "We are not selling saunas. We are simplifying the decision. Our quiz narrows 200+ options to 3."
+      },
+      {
+        "pattern": "Qualification before conversion",
+        "description": "High-ticket home improvement pages use budget and property-type filters to qualify leads. This removes tire-kickers and makes serious buyers feel the experience is tailored to them.",
+        "application": "Quiz questions about budget and space serve double duty: they qualify AND personalize."
+      },
+      {
+        "pattern": "Wellness atmosphere",
+        "description": "Successful wellness landing pages use soothing colors (greens, blues, earth tones), nature imagery, generous white space, and calming micro-interactions.",
+        "application": "Our design should feel like stepping into a sauna. Warm tones, wood textures, breathing room. Not a comparison spreadsheet."
+      },
+      {
+        "pattern": "Authority through content",
+        "description": "Casper positioned themselves not as a mattress company but as a 'sleep company.' They built authority through educational content first, then converted readers to buyers.",
+        "application": "We are not a sauna store. We are the independent sauna guide. This positions us as the trusted advisor, not another vendor."
+      }
+    ]
+  },
+
+  "recommended_page_structure": {
+    "name": "The Sauna Guide Buying Quiz Landing Page",
+    "sections_in_order": [
+      {
+        "section": 1,
+        "name": "Hero",
+        "purpose": "Acknowledge their pain. Promise relief. Primary CTA.",
+        "copy_direction": {
+          "headline": "You have read enough Reddit threads.",
+          "subheadline": "Take a 2-minute quiz. Get a personal shortlist of the 3 home saunas that actually fit your space, budget, and lifestyle.",
+          "cta": "Find my sauna",
+          "trust_line": "Free. No sales pitch. Based on 200+ hours of independent research."
+        }
+      },
+      {
+        "section": 2,
+        "name": "Problem (Agitate)",
+        "purpose": "Mirror their exact situation. Build empathy.",
+        "copy_direction": "Three short paragraphs about the research rabbit hole: contradicting Reddit advice, every brand claiming to be best, spec sheets that all look the same. End with: 'Sound familiar?'"
+      },
+      {
+        "section": 3,
+        "name": "Guide credentials",
+        "purpose": "Establish why we can solve this. Not bragging, just facts.",
+        "copy_direction": "We are not a sauna brand. We do not sell saunas. We spent 200+ hours testing, comparing, and talking to owners so you get honest answers. Icons: X saunas reviewed, X brands compared, 0 brand sponsorships."
+      },
+      {
+        "section": 4,
+        "name": "The plan (3 steps)",
+        "purpose": "Make the path simple and clear.",
+        "copy_direction": {
+          "step_1": "Take the quiz (2 minutes)",
+          "step_2": "Get your personal top 3",
+          "step_3": "Buy with confidence"
+        }
+      },
+      {
+        "section": 5,
+        "name": "CTA repeat",
+        "purpose": "Second chance to convert before social proof.",
+        "cta": "Find my sauna"
+      },
+      {
+        "section": 6,
+        "name": "Social proof",
+        "purpose": "Testimonials from people who used the guide to buy.",
+        "copy_direction": "Short quotes. Real names if possible. Focus on the relief: 'I had been going back and forth for months. This quiz gave me clarity in 2 minutes.'"
+      },
+      {
+        "section": 7,
+        "name": "Success vs Failure",
+        "purpose": "Paint two futures. Emotional, not logical.",
+        "copy_direction": {
+          "with_us": "Saturday morning. Steam rising. Your own sauna, 20 steps from your back door. You chose well.",
+          "without_us": "Three more weeks of Reddit threads. Or worse: an $8,000 impulse buy you regret by spring."
+        }
+      },
+      {
+        "section": 8,
+        "name": "FAQ",
+        "purpose": "Handle objections. Keep them on page.",
+        "questions": [
+          "Is this really free?",
+          "Do you sell saunas?",
+          "How do you make money?",
+          "What brands do you cover?",
+          "How accurate is the quiz?"
+        ]
+      },
+      {
+        "section": 9,
+        "name": "Final CTA",
+        "purpose": "Last chance. Strongest emotional copy.",
+        "copy_direction": {
+          "headline": "Close the other tabs.",
+          "subheadline": "You have done enough research. Let us help you decide.",
+          "cta": "Find my sauna"
+        }
+      }
+    ]
+  },
+
+  "brand_voice_alignment": {
+    "adaptations": [
+      "Our newsletter voice sells longing and stillness. The buying guide voice sells relief and clarity. Both are warm. Both are honest. The difference is the emotion: one invites you to slow down, the other gives you permission to stop overthinking.",
+      "Same rules apply: no em-dashes, no 'leveraging', no 'curating', short sentences, friend-over-coffee tone.",
+      "CTA language shifts slightly: newsletter uses 'Step inside.' Buying guide uses 'Find my sauna.' Both are invitations, not commands.",
+      "The buying guide can be more direct than the newsletter. People in buying mode want answers, not poetry. But we stay human."
+    ]
+  },
+
+  "sources": [
+    "https://medium.com/@drishtisethi8/2025-copywriting-frameworks-that-are-outperforming-aida-and-how-to-use-them-bf161f6c45a4",
+    "https://rutkinmarketing.com/blog/featured/how-to-apply-the-storybrand-framework-to-your-website-for-higher-conversions/",
+    "https://emailconversionlab.com/2025/09/03/how-to-build-a-high-converting-quiz-to-email-funnel/",
+    "https://www.perspective.co/article/quiz-funnel-software",
+    "https://kyliekelly.com/quizzes-still-work-2025/",
+    "https://heyflow.com/blog/10-quiz-funnel-examples/",
+    "https://playerence.com/advanced-quiz-funnel-strategy/",
+    "https://keywordseverywhere.com/blog/landing-page-stats/",
+    "https://fibr.ai/landing-page/landing-page-statistics",
+    "https://landingi.com/landing-page/statistics/",
+    "https://www.convertcart.com/blog/how-to-overcome-choice-paralysis-and-increase-conversions",
+    "https://learningloop.io/plays/psychology/analysis-paralysis",
+    "https://instapage.com/blog/casper-landing-pages/",
+    "https://moosend.com/blog/casper-landing-pages-case-study/",
+    "https://www.chatterbuzzmedia.com/blog/storybrand-framework-landing-page/",
+    "https://smashed-avo.com/the-complete-guide-to-using-storybrand-framework-for-web-design/",
+    "https://www.optimonk.com/quiz-funnel-examples/",
+    "https://www.amraandelma.com/high-converting-cta-statistics/"
+  ]
+}

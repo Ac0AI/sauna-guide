@@ -81,8 +81,12 @@ export function getAllGuides(): GuideMeta[] {
       } as GuideMeta
     })
 
+  // Filter out guides with future dates (scheduled publishing)
+  const today = new Date().toISOString().split('T')[0]
+  const published = guides.filter((g) => g.date <= today)
+
   // Sort guides by date (newest first)
-  return guides.sort((a, b) => (a.date < b.date ? 1 : -1))
+  return published.sort((a, b) => (a.date < b.date ? 1 : -1))
 }
 
 export async function getGuideBySlug(slug: string) {
@@ -94,8 +98,15 @@ export async function getGuideBySlug(slug: string) {
 
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
+
+  // Block access to scheduled (future-dated) guides
+  const today = new Date().toISOString().split('T')[0]
+  if (data.date && data.date > today) {
+    return null
+  }
+
   const lastModified = getGuideLastModified(fullPath)
-  
+
   return {
     meta: {
       slug,
