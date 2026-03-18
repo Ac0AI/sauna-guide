@@ -4,10 +4,10 @@ import { test, expect } from '@playwright/test'
 
 test.describe('All pages load correctly', () => {
   const pages = [
-    ['/', 'Sauna Guide'],
+    ['/', 'Home Sauna Buying Guide'],
     ['/saunas', 'Sauna Directory'],
     ['/guides', 'Protocols'],
-    ['/gear', 'Gear'],
+    ['/accessories', 'Accessories'],
     ['/sauna-brands', 'Sauna Brands'],
     ['/challenge', 'Reset'],
     ['/welcome', 'Welcome'],
@@ -37,9 +37,9 @@ test.describe('Dynamic pages load', () => {
     await expect(page.locator('h1').first()).toBeVisible()
   })
 
-  test('/gear/[slug] loads a product', async ({ page }) => {
-    await page.goto('/gear')
-    const firstLink = page.locator('a[href^="/gear/"]').first()
+  test('/accessories/[slug] loads a product', async ({ page }) => {
+    await page.goto('/accessories')
+    const firstLink = page.locator('a[href^="/accessories/"]').first()
     const href = await firstLink.getAttribute('href')
     expect(href).toBeTruthy()
     const response = await page.goto(href!)
@@ -81,7 +81,7 @@ test.describe('Navigation works', () => {
     await expect(footer).toBeVisible()
     await expect(footer.locator('a[href="/saunas"]')).toBeVisible()
     await expect(footer.locator('a[href="/guides"]')).toBeVisible()
-    await expect(footer.locator('a[href="/gear"]')).toBeVisible()
+    await expect(footer.locator('a[href="/accessories"]')).toBeVisible()
   })
 })
 
@@ -132,7 +132,7 @@ test.describe('Images', () => {
 // ─── SEO Meta Tags ──────────────────────────────────────────────
 
 test.describe('SEO meta tags', () => {
-  const pages = ['/', '/saunas', '/guides', '/gear', '/sauna-brands', '/challenge']
+  const pages = ['/', '/saunas', '/guides', '/accessories', '/sauna-brands', '/challenge']
 
   for (const path of pages) {
     test(`${path} has meta description`, async ({ page }) => {
@@ -159,7 +159,8 @@ test.describe('Structured data', () => {
     expect(count).toBeGreaterThan(0)
     const content = await jsonLd.first().textContent()
     const data = JSON.parse(content!)
-    expect(data['@type']).toBeTruthy()
+    const types = data['@graph']?.map((item: { ['@type']?: string }) => item['@type']) || [data['@type']]
+    expect(types).toContain('Organization')
   })
 
   test('guide page has Article JSON-LD', async ({ page }) => {
@@ -222,7 +223,7 @@ test('404 page renders for unknown routes', async ({ page }) => {
 // ─── Console Errors ─────────────────────────────────────────────
 
 test.describe('No console errors on key pages', () => {
-  const pages = ['/', '/saunas', '/guides', '/gear']
+  const pages = ['/', '/saunas', '/guides', '/accessories']
 
   for (const path of pages) {
     test(`${path} has no JS errors`, async ({ page }) => {

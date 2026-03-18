@@ -1,6 +1,6 @@
 {
-  "updated": "2024-12-20",
-  "version": "1.0",
+  "updated": "2026-03-18",
+  "version": "1.1",
   "manufacturers": [
     {
       "name": "Harvia",
@@ -820,90 +820,483 @@
       ]
     },
     {
-      "name": "Barrel Sauna Co",
-      "country": "USA",
-      "website": "https://bastubarrel.com/",
-      "type": "barrel",
+      "name": "IKI",
+      "country": "Finland",
+      "website": "https://www.ikisauna.net/",
+      "type": "traditional",
       "products": [
-        "barrel-saunas",
-        "kits"
+        "electric-heaters",
+        "wood-stoves",
+        "chimneys"
       ],
-      "market": "north-america",
-      "unique_angle": "Bastu Barrel Sauna Co. brings the authentic Scandinavian sauna experience directly to your doorstep, offering premium mobile barrel sauna rentals designed for comfort, relaxation, and community.",
+      "market": "europe-focused",
+      "unique_angle": "IKI builds open pillar heaters with huge stone mass and a cult following among serious sauna builders who care more about löyly quality than convenience features.",
       "content_opportunities": [
-        "DIY build content",
-        "Budget sauna guides",
-        "Builder community"
+        "High-stone-mass heater explainers",
+        "Finnish authenticity angle",
+        "r/sauna favorite brand comparisons"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Based in Northern Minnesota, Bastu Barrel Sauna Co. is a family-owned business passionate about the tradition of sauna culture. With years of experience enjoying saunas with friends and family, they set out to create a service that brings the same relaxation and connection to others across the region. Known for their high-quality craftsmanship and personal touch, Bastu Barrel has built a reputation as the sauna experts of Minnesota's Iron Range.",
-      "priceTier": "mid-range",
-      "bestFor": "Bastu Barrel Sauna Co. is best suited for those looking to experience the authentic Scandinavian sauna tradition, whether for a weekend getaway, lake day, or special event. Their mobile barrel saunas are perfect for families or small groups seeking a relaxing, communal sauna experience without the hassle of installation or maintenance.",
-      "buyerVerdict": "Bastu Barrel Sauna Co. offers a unique and high-quality sauna rental service that brings the Scandinavian sauna experience directly to your location. Their handcrafted barrel saunas are a great option for those who want to enjoy the benefits of sauna without the commitment of purchasing their own. However, the rental-only model may not be suitable for those seeking a permanent sauna solution.",
-      "cautionPoints": [
-        "Verify availability and scheduling for your desired rental dates",
-        "Ensure you have a suitable, level location for the sauna delivery and setup",
-        "Understand the cancellation policy and any potential fees"
-      ],
+      "notes": "IKI is one of the most respected Finnish heater makers in enthusiast circles. The brand is best known for tall steel mesh pillar heaters that stack stones vertically for softer, longer steam and a more forgiving heat profile than many compact electric heaters.",
+      "priceTier": "premium",
+      "bestFor": "Pillar heater enthusiasts who want Finnish engineering, large stone capacity, and excellent löyly.",
+      "buyerVerdict": "IKI is the kind of brand people graduate to after learning what actually makes a sauna feel good. Serious Finnish heat, serious price, and still not the easiest brand to source outside Europe and select North American dealers.",
       "strengths": [
-        "Authentic Scandinavian-style barrel saunas designed for comfort and relaxation",
-        "Handcrafted in Northern Minnesota with a focus on quality craftsmanship",
-        "Convenient mobile rentals that are delivered and set up at your desired location",
-        "Flexible scheduling to fit your event or weekend plans",
-        "Personalized service and attention to detail from the family-owned business"
+        "Huge stone capacity relative to size",
+        "Excellent reputation in enthusiast communities",
+        "Distinctive pillar format that promotes strong but softer löyly",
+        "Made in Finland and closely associated with authentic sauna design"
       ],
       "weaknesses": [
-        "Rental-only model, so no option to purchase a sauna outright",
-        "Limited to the Iron Range region of Minnesota, with no nationwide delivery",
-        "Rental rates may be higher than the upfront cost of purchasing a sauna"
+        "Harder to source than mainstream brands in some markets",
+        "Higher pricing than entry-level electric heaters",
+        "Pillar format is not ideal for every small-room layout"
+      ],
+      "cautionPoints": [
+        "Verify local code approval and dealer support before planning around IKI in North America",
+        "Double-check clearances and bench layout because pillar heaters need thoughtful placement",
+        "Budget for a premium heater, premium stone load, and premium freight"
       ],
       "keyModels": [
-        "XL Barrel Sauna — Handcrafted wood-fired barrel sauna designed for families and small groups",
-        "Cold Plunge / Soak Tank — Optional add-on for a complete sauna experience"
+        "IKI Pillar — Signature electric pillar heater with large visible stone mass",
+        "Monolith — Design-led electric tower heater for premium builds",
+        "Original wood-burning models — High-stone-mass Finnish wood stoves"
       ],
-      "enrichment": {
-        "sources": [
-          {
-            "url": "https://bastubarrel.com/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:05.047Z"
-          },
-          {
-            "url": "https://bastubarrel.com/faq/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:05.047Z"
-          },
-          {
-            "url": "https://bastubarrel.com/about/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:05.047Z"
-          },
-          {
-            "url": "https://bastubarrel.com/contact/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:05.047Z"
-          },
-          {
-            "url": "https://bastubarrel.com/custom-saunas/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:05.047Z"
-          },
-          {
-            "url": "https://bastubarrel.com/privacy-policy/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:05.047Z"
-          },
-          {
-            "url": "https://bastubarrel.com/terms-of-use/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:05.047Z"
-          }
-        ],
-        "lastVerified": "2026-03-16",
-        "qualityScore": 94,
-        "status": "reviewed"
-      },
-      "supportWarranty": "Bastu Barrel Sauna Co. provides personalized customer support and guidance throughout the rental process. While they do not offer a traditional warranty, their focus on quality craftsmanship and attention to detail ensures a reliable and enjoyable sauna experience for all their customers."
+      "supportWarranty": "Warranty and dealer support depend heavily on market and distributor. In Europe the support path is straightforward; outside Europe, buyers should confirm parts and service before purchase."
+    },
+    {
+      "name": "Tulikivi",
+      "country": "Finland",
+      "website": "https://www.tulikivi.com/en_gb/",
+      "type": "traditional",
+      "products": [
+        "soapstone-heaters",
+        "wood-stoves",
+        "electric-heaters"
+      ],
+      "market": "europe",
+      "unique_angle": "Tulikivi wraps sauna heaters in Finnish soapstone, combining premium aesthetics, thermal mass, and a softer surface temperature than exposed metal heaters.",
+      "content_opportunities": [
+        "Soapstone heater buying guides",
+        "Premium sauna design content",
+        "Heat-retention comparisons"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Tulikivi is a premium Finnish stone and heating brand best known for soapstone craftsmanship. In sauna, the draw is obvious: excellent heat retention, visually distinctive heaters, and a quieter luxury aesthetic than many all-metal competitors.",
+      "priceTier": "luxury",
+      "bestFor": "Buyers who want soapstone cladding, premium aesthetics, and higher thermal mass in a design-conscious sauna.",
+      "buyerVerdict": "Tulikivi is not the rational budget pick. It is the high-taste pick. If you want a heater that feels architectural rather than utilitarian, Tulikivi is one of the clearest premium choices in the category.",
+      "strengths": [
+        "Distinctive soapstone construction",
+        "Strong heat retention and premium tactile feel",
+        "Looks materially different from mass-market heaters",
+        "Finnish heritage brand with strong design credibility"
+      ],
+      "weaknesses": [
+        "Expensive compared to metal electric heaters",
+        "Dealer access is thinner outside Europe",
+        "Heavy units can complicate install planning"
+      ],
+      "cautionPoints": [
+        "Confirm floor loading and installation requirements before choosing a soapstone heater",
+        "Expect dealer availability to be stronger in Europe than in the US",
+        "Budget for premium pricing both on the heater and the shipping"
+      ],
+      "keyModels": [
+        "Kaarna — Premium soapstone-clad electric heater",
+        "Soapstone wood-fired heaters — Natural stone exterior with strong retained heat"
+      ],
+      "supportWarranty": "Tulikivi publishes service and support documentation for sauna heaters, but buyers outside core markets should verify local warranty handling through the dealer before ordering."
+    },
+    {
+      "name": "Helo / Kastor",
+      "country": "Finland",
+      "website": "https://helosauna.com/en-us/",
+      "type": "traditional",
+      "products": [
+        "electric-heaters",
+        "wood-stoves",
+        "controllers"
+      ],
+      "market": "global",
+      "owned_by": "Sauna360",
+      "unique_angle": "Helo and Kastor are classic Finnish workhorse brands under the Sauna360 umbrella, offering dependable heater lines with better global availability than many niche Nordic makers.",
+      "content_opportunities": [
+        "Safe-pick heater roundups",
+        "Sauna360 portfolio comparisons",
+        "Traditional vs modern Finnish heater positioning"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Helo and Kastor sit in the reliable middle of the Finnish heater market: not boutique-status like IKI, not as design-forward as HUUM, but broadly respected and widely distributed. Kastor carries wood-heater heritage; Helo covers a broad electric lineup.",
+      "priceTier": "premium",
+      "bestFor": "Buyers who want reliable Finnish heaters from a major portfolio brand with broad availability.",
+      "buyerVerdict": "Helo / Kastor is a low-drama choice. Dependable, not flashy, and easier to buy in the US than smaller Nordic brands. If you care more about getting a solid heater installed than chasing a cult favorite, this is a good lane.",
+      "strengths": [
+        "Broad range of electric and wood options",
+        "Backed by Sauna360 distribution",
+        "Longstanding Finnish heater heritage",
+        "Generally easier to source than smaller specialty brands"
+      ],
+      "weaknesses": [
+        "Less distinctive brand identity than boutique competitors",
+        "Some lineups feel utilitarian rather than aspirational",
+        "Model complexity varies across regions and distributors"
+      ],
+      "cautionPoints": [
+        "Check the exact regional lineup because Helo and Kastor availability varies by market",
+        "Make sure the dealer is clear on spare parts and controller compatibility",
+        "Do not assume every European model is available in North America"
+      ],
+      "keyModels": [
+        "Helo Laava — Floor-standing electric heater for larger rooms",
+        "Helo Rondo — Rounded electric tower-style heater",
+        "Kastor wood-burning heaters — Traditional Finnish wood-stove line"
+      ],
+      "supportWarranty": "Support flows through the Sauna360 dealer network, which is a major advantage versus smaller imported brands."
+    },
+    {
+      "name": "EOS",
+      "country": "Germany",
+      "website": "https://www.eos-sauna.com/en/",
+      "type": "traditional",
+      "products": [
+        "electric-heaters",
+        "commercial-heaters",
+        "controllers"
+      ],
+      "market": "europe",
+      "unique_angle": "EOS focuses on German-engineered sauna heaters with a strong commercial and high-use reputation, making it a natural fit for buyers who want robustness over trendiness.",
+      "content_opportunities": [
+        "Commercial-grade home sauna angle",
+        "German vs Finnish heater comparisons",
+        "Hotel-quality build positioning"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "EOS is one of the more serious European heater brands for people who care about durable hardware and heavier-duty use cases. The aesthetic is less romantic than Finnish boutique brands, but the engineering reputation is strong.",
+      "priceTier": "premium",
+      "bestFor": "Commercial projects and home buyers who want German precision and high-use durability.",
+      "buyerVerdict": "EOS is not the sexy pick. It is the 'this should just work for a long time' pick. That makes it appealing for large home builds, boutique hospitality, and anyone who values hardware credibility over marketing.",
+      "strengths": [
+        "Strong commercial reputation",
+        "Robust engineering and fit-and-finish",
+        "Wide range of heater capacities and control options",
+        "Made-in-Germany credibility"
+      ],
+      "weaknesses": [
+        "Thinner dealer footprint outside Europe",
+        "Less emotional brand pull than Finnish enthusiast favorites",
+        "Premium pricing"
+      ],
+      "cautionPoints": [
+        "Confirm local distributor support before specing EOS in North America",
+        "Check controller compatibility and electrical requirements early",
+        "Expect this to be more common in specialist sauna installs than mass-market kits"
+      ],
+      "keyModels": [
+        "EOS Majesty — Premium design heater line",
+        "EOS Structure — Commercial-grade heater platform",
+        "EOS control systems — Advanced European sauna controls"
+      ],
+      "supportWarranty": "EOS publishes detailed product documentation, but outside Germany and core EU markets, support quality depends heavily on the local specialist dealer."
+    },
+    {
+      "name": "Sentiotec",
+      "country": "Austria",
+      "website": "https://www.sentiotec.com/en",
+      "type": "traditional",
+      "products": [
+        "heaters",
+        "infrared",
+        "steam",
+        "controllers"
+      ],
+      "market": "europe",
+      "owned_by": "Harvia Austria",
+      "unique_angle": "Sentiotec has been a design-forward Austrian sauna systems brand, but it is now being folded into Harvia's Austrian operation and losing its standalone identity.",
+      "content_opportunities": [
+        "Harvia portfolio content",
+        "European systems integration angle",
+        "Brand transition explainers"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Sentiotec built a reputation in Europe for modern sauna systems, controls, and clean design. The important current context is that the standalone brand is being fully merged into Harvia, so it matters less as a long-term independent brand bet than it used to.",
+      "priceTier": "premium",
+      "bestFor": "European buyers who want Harvia-backed systems and are comfortable buying through a transitioning brand.",
+      "buyerVerdict": "Useful to know, less useful to obsess over. In 2026, Sentiotec is more important as a signpost within the Harvia ecosystem than as a distinct brand story of its own.",
+      "strengths": [
+        "Good European product breadth across sauna, steam, and infrared",
+        "Backed by Harvia infrastructure",
+        "Modern controls and systems orientation"
+      ],
+      "weaknesses": [
+        "Standalone brand identity is fading",
+        "Less relevant outside Europe",
+        "Can create confusion for buyers comparing old and new branding"
+      ],
+      "cautionPoints": [
+        "Flagged for brand-transition risk: verify whether the exact product line is now sold under Sentiotec or Harvia",
+        "Expect stronger support in Austria/Germany than in export markets",
+        "If you are outside Europe, go straight to the Harvia lineup first"
+      ],
+      "keyModels": [
+        "Sentiotec heater and control families — now increasingly folded into Harvia Austria offerings"
+      ],
+      "supportWarranty": "Support should remain intact through Harvia Austria, but buyers should expect the Sentiotec name to matter less over time."
+    },
+    {
+      "name": "Mondex",
+      "country": "Finland",
+      "website": "https://www.mondex.fi/en/",
+      "type": "traditional",
+      "products": [
+        "soapstone-heaters",
+        "electric-heaters",
+        "wood-stoves"
+      ],
+      "market": "finland",
+      "unique_angle": "Mondex is a smaller Finnish heater maker focused on soapstone and stone-forward sauna heating, with stronger local credibility than international distribution.",
+      "content_opportunities": [
+        "Smaller Finnish maker spotlights",
+        "Soapstone heater comparisons",
+        "Nordic hidden-gem brand content"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Mondex has more than 30 years of Finnish heater experience and a clear point of view: stone matters. The brand is interesting because it offers a more niche alternative to bigger Finnish names, especially for buyers drawn to soapstone aesthetics and local craft.",
+      "priceTier": "premium",
+      "bestFor": "Buyers seeking soapstone heaters and stone radiators from a smaller Finnish maker.",
+      "buyerVerdict": "Mondex looks like a local-expert brand more than a global export machine. If you are in Finland or buying through a Nordic dealer, that can be a feature. If you are in the US, it is mostly a sourcing problem.",
+      "strengths": [
+        "Stone-forward product philosophy",
+        "Finnish manufacturing base",
+        "More distinctive than generic mid-market heater brands"
+      ],
+      "weaknesses": [
+        "Sparse international presence",
+        "Much less name recognition outside Finland",
+        "Fewer obvious dealer paths for North American buyers"
+      ],
+      "cautionPoints": [
+        "Confirm export and dealer support before specing Mondex outside Finland",
+        "Expect better pricing and service domestically than internationally",
+        "Check whether spare parts and warranty support exist in your country"
+      ],
+      "keyModels": [
+        "Classic soapstone heaters",
+        "Stone radiator product line"
+      ],
+      "supportWarranty": "Mondex support is strongest in Finland and nearby markets. Outside that footprint, verify dealer support before you buy."
+    },
+    {
+      "name": "Redwood Outdoors",
+      "country": "USA",
+      "website": "https://www.redwoodoutdoors.com/",
+      "type": "outdoor",
+      "products": [
+        "barrel-saunas",
+        "cabin-saunas",
+        "prefab-kits"
+      ],
+      "market": "north-america",
+      "unique_angle": "Redwood Outdoors sells backyard-ready outdoor sauna kits for American buyers who want something shippable, understandable, and installable this season.",
+      "content_opportunities": [
+        "Backyard sauna kit comparisons",
+        "Thermowood vs cedar content",
+        "DTC outdoor sauna reviews"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Redwood Outdoors sits squarely in the US prefab outdoor sauna market with barrels, cabins, and garden-style kits. The appeal is convenience and decent value, not old-world craftsmanship or best-in-class heater tech.",
+      "priceTier": "mid-range",
+      "bestFor": "American buyers who want backyard barrel or cabin saunas without a custom-build process.",
+      "buyerVerdict": "Redwood works for the buyer who wants a sauna in the yard this summer and is willing to accept some kit-brand compromises to get there. Good category fit, not a purist's dream.",
+      "strengths": [
+        "Strong US DTC presence",
+        "Accessible outdoor kit price band",
+        "Clear backyard-use positioning",
+        "Broad mix of barrel and cabin formats"
+      ],
+      "weaknesses": [
+        "Not artisan-level build quality",
+        "Kit assembly and service experience can vary",
+        "Less compelling for buyers chasing top-tier heater performance"
+      ],
+      "cautionPoints": [
+        "Review current customer-service reputation before ordering",
+        "Inspect heater specs carefully because the wood shell is only half the sauna story",
+        "Confirm roof, base, and electrical scope before assuming the sticker price is the full project price"
+      ],
+      "keyModels": [
+        "Outdoor barrel saunas",
+        "Garden and cabin sauna kits"
+      ],
+      "supportWarranty": "Redwood publishes dealer and assembly material, but support quality should be verified through recent owner feedback before buying."
+    },
+    {
+      "name": "Sun Home Saunas",
+      "country": "USA",
+      "website": "https://sunhomesaunas.com/",
+      "type": "infrared",
+      "products": [
+        "infrared-saunas",
+        "traditional-saunas",
+        "cold-plunges"
+      ],
+      "market": "north-america",
+      "unique_angle": "Sun Home sells a full wellness stack for the biohacking crowd, spanning infrared, traditional sauna, and cold plunge bundles with heavy direct-response marketing.",
+      "content_opportunities": [
+        "Wellness bundle breakdowns",
+        "Infrared vs traditional DTC comparisons",
+        "Biohacker-targeted buying guides"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Sun Home grew from infrared into a broader contrast-therapy brand. The positioning is very American DTC wellness: attractive product pages, bundle logic, and strong marketing around recovery and optimization.",
+      "priceTier": "mid-range",
+      "bestFor": "Infrared buyers and contrast-therapy shoppers who want one brand to cover sauna plus cold plunge.",
+      "buyerVerdict": "Sun Home is a useful mid-market benchmark, not a category-defining sauna maker. The value is convenience and packaging. The risk is buying more marketing than craftsmanship.",
+      "strengths": [
+        "Strong consumer-facing presentation",
+        "Broad lineup across sauna and cold plunge",
+        "Easy fit for wellness-oriented home buyers"
+      ],
+      "weaknesses": [
+        "Brand leans harder on marketing than on deep sauna credibility",
+        "Less trusted by traditional sauna purists",
+        "Quality ceiling appears mid-market rather than premium"
+      ],
+      "cautionPoints": [
+        "Verify the exact heater tech and max temperature rather than buying the lifestyle pitch",
+        "Compare Sun Home pricing against better-established heater and cabin brands before committing",
+        "Check current support and delivery feedback, especially for larger-ticket bundles"
+      ],
+      "keyModels": [
+        "Equinox and Luminar infrared lines",
+        "Traditional sauna and contrast-therapy bundles"
+      ],
+      "supportWarranty": "Warranty terms exist, but this is still a brand where recent customer experience matters more than the brochure."
+    },
+    {
+      "name": "Plunge",
+      "country": "USA",
+      "website": "https://plunge.com/",
+      "type": "outdoor",
+      "products": [
+        "outdoor-saunas",
+        "cold-plunges"
+      ],
+      "market": "north-america",
+      "unique_angle": "Plunge is the cold plunge category leader extending into premium outdoor saunas for buyers who want one polished brand across the full contrast setup.",
+      "content_opportunities": [
+        "Contrast-system ecosystem content",
+        "Luxury DTC brand comparisons",
+        "Cold plunge audience crossover"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Plunge is still primarily known for ice baths, but it now uses that customer base to sell premium outdoor saunas with app control and clean industrial design. The value is ecosystem convenience; the question is whether the sauna itself beats specialist brands on merit.",
+      "priceTier": "luxury",
+      "bestFor": "Cold plunge buyers who also want a high-end outdoor sauna from the same brand ecosystem.",
+      "buyerVerdict": "Plunge is attractive, convenient, and expensive. It makes the most sense if you already buy into the Plunge ecosystem. If you are purely shopping for the best sauna per dollar, it is harder to justify.",
+      "strengths": [
+        "Strong brand recognition in contrast therapy",
+        "Premium packaging and industrial design",
+        "Easy ecosystem story for buyers combining plunge plus sauna"
+      ],
+      "weaknesses": [
+        "Luxury pricing",
+        "Brand is still better known for cold than heat",
+        "Specialist sauna brands may offer better value"
+      ],
+      "cautionPoints": [
+        "Price-check against specialist outdoor sauna brands before buying for the logo",
+        "Review recent service feedback because ecosystem brands can lag on support at scale",
+        "Make sure the sauna performance itself justifies the premium, not just the app and aesthetics"
+      ],
+      "keyModels": [
+        "Standard and XL outdoor sauna formats"
+      ],
+      "supportWarranty": "Plunge has a clear support funnel, but buyers should verify recent owner experience before treating it like a no-risk premium purchase."
+    },
+    {
+      "name": "SweatTent",
+      "country": "USA",
+      "website": "https://www.sweattent.com/",
+      "type": "portable",
+      "products": [
+        "tent-saunas",
+        "wood-stoves"
+      ],
+      "market": "north-america",
+      "unique_angle": "SweatTent solves the portable sauna use case cleanly: quick setup, real wood-fired heat, and a low-commitment path into sauna life.",
+      "content_opportunities": [
+        "Portable sauna use cases",
+        "Renter and off-grid guides",
+        "Test-before-you-build content"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "SweatTent is one of the more credible portable sauna tent brands because it leans into actual heat performance rather than soft wellness aesthetics. It is still a tent sauna, but that is exactly the point for many buyers.",
+      "priceTier": "budget",
+      "bestFor": "Portable or temporary sauna users, renters, campers, and backyard experimenters.",
+      "buyerVerdict": "For the right buyer, SweatTent is brilliant. For the wrong buyer, it is obviously the wrong product. It belongs in the catalog because portability is a real use case, not because it replaces a proper cabin sauna.",
+      "strengths": [
+        "Fast heat-up relative to the category",
+        "Portable and flexible",
+        "Strong fit for testing sauna life before committing to a build"
+      ],
+      "weaknesses": [
+        "Not a permanent structure",
+        "Compromises on durability and aesthetics",
+        "Wood-stove management is not for everyone"
+      ],
+      "cautionPoints": [
+        "Buy it as a portable sauna, not as a cabin-sauna substitute",
+        "Understand local fire, flooring, and ventilation safety before use",
+        "Expect a different ownership experience than a traditional built sauna"
+      ],
+      "keyModels": [
+        "SweatTent wood-fired portable sauna kit"
+      ],
+      "supportWarranty": "Portable tent systems live or die on replacement parts, stove support, and shipping responsiveness. Verify those before ordering."
+    },
+    {
+      "name": "Dynamic Saunas",
+      "country": "USA",
+      "website": "https://goldendesigninc.com/collections/dynamic-saunas",
+      "type": "infrared",
+      "products": [
+        "infrared-saunas"
+      ],
+      "market": "north-america",
+      "owned_by": "Golden Designs",
+      "unique_angle": "Dynamic is the budget-forward infrared line under Golden Designs, widely distributed online and often discovered through Costco, Amazon, and retailer marketplaces.",
+      "content_opportunities": [
+        "Budget infrared comparisons",
+        "Marketplace-brand explainers",
+        "First infrared sauna buyer content"
+      ],
+      "partnership_status": "not_contacted",
+      "notes": "Dynamic is one of the most visible low-to-mid priced infrared brands in the US because it shows up across big-box and marketplace channels. The appeal is simple: low friction, low price, easy buying. The downside is that it feels like a marketplace brand because it is one.",
+      "priceTier": "budget",
+      "bestFor": "Budget-conscious infrared buyers who want a simple cabin and are not chasing premium craftsmanship.",
+      "buyerVerdict": "Dynamic is fine as an entry point. It is not the brand you buy to impress sauna people. It is the brand you buy when price and convenience are the main filters.",
+      "strengths": [
+        "Easy to buy through mainstream channels",
+        "Affordable relative to premium infrared brands",
+        "Wide lineup of small-home models"
+      ],
+      "weaknesses": [
+        "Less premium fit-and-finish",
+        "Heavier retailer/marketplace feel than true brand authority",
+        "Not built for buyers expecting long-life premium ownership"
+      ],
+      "cautionPoints": [
+        "Check the exact parent brand and seller before purchase because listings vary by retailer",
+        "Expect tradeoffs in materials, service, and longevity at this price tier",
+        "Do not confuse 'widely sold' with 'widely respected' in traditional sauna circles"
+      ],
+      "keyModels": [
+        "Dynamic San Marino",
+        "Dynamic Barcelona",
+        "Dynamic Toscana"
+      ],
+      "supportWarranty": "Support is tied to Golden Designs and the retailer channel you buy through, so the seller matters almost as much as the product."
     },
     {
       "name": "Saunum",
@@ -911,81 +1304,42 @@
       "website": "https://saunum.com/",
       "type": "traditional",
       "products": [
-        "air-purification-heaters",
+        "air-mixing-heaters",
+        "controllers",
         "aromatherapy"
       ],
       "market": "global",
-      "unique_angle": "Saunum is a leading Estonian brand known for its innovative air-purification heaters and aromatherapy solutions designed to enhance the sauna experience.",
+      "unique_angle": "Saunum stands out for air-mixing heater systems that try to even out temperature stratification and make the sauna feel less top-bench dependent.",
       "content_opportunities": [
+        "Air-mixing education",
         "Innovation/tech stories",
-        "Air quality angle",
-        "Wellness integration"
+        "Modern vs traditional sauna experience debates"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Founded in Estonia, Saunum has established a strong reputation in the global sauna industry for its commitment to crafting high-quality, technologically-advanced products. The brand's focus on air purification and aromatherapy sets it apart, offering sauna enthusiasts a more immersive and therapeutic experience.",
+      "notes": "Saunum is one of the more interesting modern heater brands because it tackles a real sauna problem: uneven heat and oxygen-poor upper benches. The concept is compelling. The caveat is that buyers still need to verify distribution, support, and real-world ownership quality in their region.",
       "priceTier": "premium",
-      "bestFor": "Saunum caters to discerning sauna owners who value premium quality, innovative features, and a heightened sensory experience. Their products are particularly well-suited for luxury homes, spas, and commercial sauna facilities seeking to differentiate their offerings.",
-      "buyerVerdict": "Saunum offers a premium sauna experience with its advanced air-purification technology and aromatherapy capabilities. While the higher price point may deter some buyers, the brand's reputation for quality and innovation makes it a compelling choice for those seeking a truly exceptional sauna experience. However, availability and after-sales support may be a concern for some international customers.",
+      "bestFor": "Buyers intrigued by air-mixing technology and willing to pay for a less conventional premium heater setup.",
+      "buyerVerdict": "Saunum is worth watching and worth understanding, but not a blind buy. It belongs in the catalog with a yellow flag, not a green one.",
       "strengths": [
-        "Advanced air-purification technology that removes impurities and enhances air quality in the sauna",
-        "Innovative aromatherapy features that allow users to customize scents and create a more immersive experience",
-        "Sleek, modern design that complements high-end sauna installations",
-        "Reputation for exceptional build quality and durability",
-        "Positive customer reviews and industry recognition for innovation"
+        "Genuinely differentiated heater concept",
+        "Potentially more comfortable heat distribution",
+        "Strong conversation starter in premium sauna builds"
       ],
-      "keyModels": [
-        "Saunum Air Purifier — Advanced air filtration system with customizable aromatherapy",
-        "Saunum Heater — Premium sauna heater with integrated air purification and scent diffusion",
-        "Saunum Control Panel — Intuitive digital interface for managing sauna settings and features"
-      ],
-      "enrichment": {
-        "sources": [
-          {
-            "url": "https://saunum.com/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:27.031Z"
-          },
-          {
-            "url": "https://saunum.com/en/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:27.031Z"
-          },
-          {
-            "url": "https://saunum.com/de/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:27.031Z"
-          },
-          {
-            "url": "https://saunum.com/technology-page/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:27.031Z"
-          },
-          {
-            "url": "https://saunum.com/saunakerise-kalkulaator/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:27.031Z"
-          },
-          {
-            "url": "https://saunum.com/contact-us/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:37:27.031Z"
-          }
-        ],
-        "lastVerified": "2026-03-16",
-        "qualityScore": 94,
-        "status": "reviewed"
-      },
-      "supportWarranty": "Saunum offers a standard 2-year warranty on its products, with the option to extend coverage for an additional fee. The brand maintains a network of authorized dealers and service centers, primarily in Europe, to provide support and maintenance. However, the availability and quality of after-sales service may vary for customers in certain international markets.",
       "weaknesses": [
-        "Premium pricing that may be out of reach for some buyers",
-        "Limited availability and distribution in certain international markets",
-        "Potential concerns about after-sales support and warranty service for customers outside of Estonia"
+        "Premium pricing",
+        "Thinner support footprint than legacy heater brands",
+        "More moving parts and system complexity than simpler heaters"
       ],
       "cautionPoints": [
-        "Verify availability and delivery timelines for your location, especially if purchasing from outside of Estonia",
-        "Confirm warranty terms and the quality of after-sales support in your region",
-        "Consider the overall cost of the Saunum system, including installation and any additional accessories, to ensure it fits your budget"
-      ]
+        "Flagged for support-risk review: verify dealer competence and post-sale support before ordering",
+        "Make sure you want the air-mixing concept specifically, not just the novelty",
+        "Confirm spare parts and controller support in your market"
+      ],
+      "keyModels": [
+        "Saunum Air series",
+        "AirSolo control and mixing accessories"
+      ],
+      "supportWarranty": "Saunum offers warranty coverage, but practical support quality still depends on the strength of the local dealer and installer network."
     },
     {
       "name": "Klafs",
@@ -1044,88 +1398,6 @@
         "Panorama — Fully customizable sauna with panoramic glass walls and integrated lighting",
         "Sanarium — Combination sauna and steam room with advanced climate control",
         "Pur — Compact, freestanding infrared sauna with minimalist Scandinavian design"
-      ]
-    },
-    {
-      "name": "Polar Saunas",
-      "country": "Finland",
-      "website": "https://www.polarsauna.com/",
-      "type": "traditional",
-      "products": [
-        "saunas",
-        "steam-rooms"
-      ],
-      "market": "europe",
-      "unique_angle": "Polar Saunas is a leading Finnish sauna manufacturer with a focus on traditional, high-quality craftsmanship and materials.",
-      "content_opportunities": [
-        "Finnish quality content",
-        "Value positioning"
-      ],
-      "partnership_status": "not_contacted",
-      "notes": "Polar Saunas has been a prominent player in the European sauna market for decades, though their exact founding date is unclear. They are known for their commitment to traditional sauna design and construction using premium Finnish materials like Nordic spruce and heaters. Polar has a strong reputation for durability and energy efficiency among European sauna enthusiasts.",
-      "priceTier": "premium",
-      "bestFor": "Polar Saunas are best suited for buyers seeking a luxurious, authentic Finnish sauna experience for their home or business. Their products are popular with discerning sauna aficionados who value traditional craftsmanship and materials over more budget-friendly options.",
-      "supportWarranty": "Polar Saunas offers a standard 2-year warranty on their products, with the option to extend to 5 years. Their European dealer network provides installation and after-sales support, though availability may be limited outside the continent. Customer reviews generally praise Polar's responsive service and commitment to quality.",
-      "buyerVerdict": "Polar Saunas offer an exceptional sauna experience for those who can afford the premium price tag. The quality of materials and construction is top-notch, but the high cost may price out some buyers. Those seeking a more affordable sauna should consider alternative brands, while luxury sauna buyers will appreciate Polar's attention to detail and heritage.",
-      "strengths": [
-        "Crafted in Finland using premium Nordic spruce and other high-quality materials",
-        "Renowned for exceptional durability and energy efficiency",
-        "Offers a wide range of traditional sauna heater and accessory options",
-        "Backed by a strong reputation for customer service and support in Europe",
-        "Sleek, classic Finnish design aesthetic"
-      ],
-      "enrichment": {
-        "sources": [
-          {
-            "url": "https://www.polarsauna.com/",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:38:04.526Z"
-          },
-          {
-            "url": "https://www.polarsauna.com/privacy-policy-cookie-restriction-mode",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:38:04.526Z"
-          },
-          {
-            "url": "https://www.polarsauna.com/sauna-accessories/other-sauna-accessories.html",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:38:04.526Z"
-          },
-          {
-            "url": "https://www.polarsauna.com/polar-replacement-parts.html",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:38:04.526Z"
-          },
-          {
-            "url": "https://www.polarsauna.com/health-benefits",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:38:04.526Z"
-          },
-          {
-            "url": "https://www.polarsauna.com/polar-about-us",
-            "label": "Official website",
-            "fetchedAt": "2026-03-15T16:38:04.526Z"
-          }
-        ],
-        "lastVerified": "2026-03-16",
-        "qualityScore": 94,
-        "status": "reviewed"
-      },
-      "weaknesses": [
-        "Significantly more expensive than many competitor brands",
-        "Limited availability and dealer network outside of Europe",
-        "Fewer customization options compared to some North American sauna brands"
-      ],
-      "cautionPoints": [
-        "Verify warranty terms and after-sales support availability in your local market",
-        "Measure your space carefully to ensure the Polar sauna model you select will fit",
-        "Be prepared for the premium price tag compared to more budget-friendly options"
-      ],
-      "keyModels": [
-        "Polar Classic — Traditional Finnish sauna with classic wood-burning heater",
-        "Polar Comfort — Electric sauna heater model with digital controls",
-        "Polar Lux — Premium sauna with high-end features like built-in lighting",
-        "Polar Steam — Combination sauna and steam room unit"
       ]
     },
     {
@@ -1225,15 +1497,15 @@
         "Infrared heritage"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Health Mate is a well-established American brand that has been manufacturing infrared saunas for over 40 years. They are known for their patented Tecoloy™ heater technology, which provides deep-penetrating, dual-wave infrared heat at lower temperatures for a comfortable and effective sauna experience.",
+      "notes": "Health Mate is a long-running American infrared brand with real category history, but it is currently flagged internally for website and support-path concerns. Buyers should treat it as a verify-before-you-buy brand rather than assuming the heritage alone makes the ownership experience safe.",
       "priceTier": "premium",
       "bestFor": "Health Mate saunas are best suited for health-conscious consumers who want a high-end, full-spectrum infrared sauna experience to support their overall well-being, from relaxation and detoxification to skin rejuvenation and pain relief.",
       "supportWarranty": "Health Mate offers a lifetime warranty on the sauna cabin and a 5-year warranty on the heating system, demonstrating their confidence in the quality and durability of their products. They also maintain a network of authorized dealers across North America to provide local support and installation services for their customers.",
-      "buyerVerdict": "Health Mate offers a premium infrared sauna experience with advanced features and a strong focus on wellness benefits. While their saunas are on the more expensive end, the quality, performance, and lifetime warranty make them a worthwhile investment for those who can afford the higher price point and value a comprehensive in-home sauna solution.",
+      "buyerVerdict": "Health Mate still has heritage value in infrared, but it no longer feels like an automatic safe pick. Keep it in comparisons, but with a caution flag until the buying and support experience looks cleaner.",
       "cautionPoints": [
+        "Flagged for site/support concerns: verify the live buying path, support contacts, and warranty response before ordering",
         "Carefully measure your available space to ensure the selected model will fit comfortably in your home",
-        "Verify the electrical requirements and ensure your home can accommodate the sauna's power needs",
-        "Consider the installation process and whether you'll need professional help to set up the sauna"
+        "Verify the electrical requirements and ensure your home can accommodate the sauna's power needs"
       ],
       "strengths": [
         "Patented Tecoloy™ heater technology that delivers high-density, dual-wave infrared heat for deep tissue penetration",
@@ -1245,7 +1517,7 @@
       "weaknesses": [
         "Significantly more expensive than entry-level or mid-range infrared sauna options",
         "Limited availability outside of North America, making it less accessible for international buyers",
-        "Relatively small dealer network compared to some larger sauna brands, which may impact local support and installation services"
+        "Current buyer confidence is weakened by site/support questions despite the brand's long history"
       ],
       "keyModels": [
         "Jaspera — Compact 1-2 person infrared sauna with Tecoloy™ heaters and LED light therapy",
@@ -1317,46 +1589,68 @@
       "traditional": [
         "Harvia",
         "Huum",
+        "IKI",
+        "Tulikivi",
+        "Helo / Kastor",
+        "EOS",
+        "Sentiotec",
+        "Mondex",
         "Tylö",
-        "Narvi"
+        "Narvi",
+        "Saunum"
       ],
       "infrared": [
         "Clearlight",
         "Sunlighten",
-        "Health Mate"
+        "Health Mate",
+        "Sun Home Saunas",
+        "Dynamic Saunas"
       ],
-      "barrel": [
+      "outdoor": [
         "Almost Heaven",
-        "Barrel Sauna Co"
+        "Redwood Outdoors",
+        "Plunge"
       ],
       "luxury": [
         "Klafs",
-        "Finnleo"
+        "Finnleo",
+        "Tulikivi"
       ],
       "biohacker": [
-        "SaunaSpace"
+        "SaunaSpace",
+        "Sun Home Saunas"
       ],
       "portable": [
-        "Durasage"
+        "Durasage",
+        "SweatTent"
       ]
     },
     "by_price": {
       "budget": [
         "Durasage",
-        "Barrel Sauna Co"
+        "Dynamic Saunas",
+        "SweatTent"
       ],
       "mid": [
         "Almost Heaven",
-        "Polar"
+        "Redwood Outdoors",
+        "Sun Home Saunas"
       ],
       "premium": [
         "Harvia",
         "Huum",
-        "Tylö"
+        "Tylö",
+        "IKI",
+        "Helo / Kastor",
+        "EOS",
+        "Saunum",
+        "Mondex"
       ],
       "luxury": [
         "Klafs",
-        "Finnleo"
+        "Finnleo",
+        "Tulikivi",
+        "Plunge"
       ]
     },
     "by_innovation": {
@@ -1367,11 +1661,18 @@
       "air_purification": [
         "Saunum"
       ],
+      "soapstone": [
+        "Tulikivi",
+        "Mondex"
+      ],
       "red_light": [
         "SaunaSpace"
       ],
       "space_saving": [
         "Klafs"
+      ],
+      "portable": [
+        "SweatTent"
       ]
     }
   }

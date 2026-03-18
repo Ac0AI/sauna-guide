@@ -8,6 +8,10 @@ import Image from 'next/image'
 export const metadata = {
   title: '30-Day Sauna Reset: A Guided Protocol for Beginners',
   description: 'Reset your body in 4 weeks with this guided sauna protocol. Week-by-week plan to reduce stress, improve sleep, and build heat resilience. Free to follow.',
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
     canonical: 'https://sauna.guide/challenge',
   },

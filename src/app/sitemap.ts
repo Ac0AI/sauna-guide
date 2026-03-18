@@ -67,8 +67,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     getFileModifiedTime('src/app/sauna-brands/page.tsx'),
     getFileModifiedTime('src/data/manufacturers.json')
   )
-  const challengeLastModified = getLastModified(getFileModifiedTime('src/app/challenge/page.tsx'))
-  const newsletterLastModified = getLastModified(getFileModifiedTime('src/app/newsletter/page.tsx'))
+  const aboutLastModified = getLastModified(getFileModifiedTime('src/app/about/page.tsx'))
+  const editorialPolicyLastModified = getLastModified(getFileModifiedTime('src/app/editorial-policy/page.tsx'))
+  const affiliateDisclosureLastModified = getLastModified(getFileModifiedTime('src/app/affiliate-disclosure/page.tsx'))
+  const contactLastModified = getLastModified(getFileModifiedTime('src/app/contact/page.tsx'))
   const saunaDetailLastModified = getLastModified(
     getFileModifiedTime('src/app/saunas/[id]/page.tsx'),
     getFileModifiedTime('src/data/saunas.json')
@@ -160,16 +162,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
-      url: `${baseUrl}/challenge`,
-      lastModified: challengeLastModified,
-      changeFrequency: 'monthly',
-      priority: 0.7,
+      url: `${baseUrl}/about`,
+      lastModified: aboutLastModified,
+      changeFrequency: 'yearly',
+      priority: 0.4,
     },
     {
-      url: `${baseUrl}/newsletter`,
-      lastModified: newsletterLastModified,
-      changeFrequency: 'weekly',
-      priority: 0.8,
+      url: `${baseUrl}/editorial-policy`,
+      lastModified: editorialPolicyLastModified,
+      changeFrequency: 'yearly',
+      priority: 0.4,
+    },
+    {
+      url: `${baseUrl}/affiliate-disclosure`,
+      lastModified: affiliateDisclosureLastModified,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: contactLastModified,
+      changeFrequency: 'yearly',
+      priority: 0.3,
     },
   ]
 

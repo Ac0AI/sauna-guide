@@ -59,8 +59,16 @@ const siteJsonLd = {
       name: 'Sauna Guide',
       url: baseUrl,
       logo: `${baseUrl}/images/logo.svg`,
+      email: 'mailto:saunaguide@mail.beehiiv.com',
       description: 'Your complete guide to saunas worldwide. Discover authentic sauna experiences and science-backed protocols.',
-      sameAs: [],
+      contactPoint: [
+        {
+          '@type': 'ContactPoint',
+          contactType: 'editorial',
+          email: 'saunaguide@mail.beehiiv.com',
+          url: `${baseUrl}/contact`,
+        },
+      ],
     },
     {
       '@type': 'WebSite',
@@ -69,6 +77,7 @@ const siteJsonLd = {
       name: 'Sauna Guide',
       publisher: { '@id': `${baseUrl}#organization` },
       inLanguage: 'en-US',
+      publishingPrinciples: `${baseUrl}/editorial-policy`,
     },
   ],
 }

@@ -2,7 +2,14 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import type { ComponentPropsWithoutRef } from 'react'
-import { formatGuideAuthorName, getGuideAuthorSchema, getGuideBySlug, getAllGuides } from '@/lib/guides'
+import {
+  extractGuideFaqs,
+  formatGuideAuthorName,
+  getGuideAuthorSchema,
+  getGuideBySlug,
+  getAllGuides,
+  getRelatedGuides,
+} from '@/lib/guides'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import remarkGfm from 'remark-gfm'
 import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
@@ -78,6 +85,11 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   const publishedDate = formatDisplayDate(guide.meta.date)
   const updatedDate = formatDisplayDate(guide.meta.lastModified)
   const showUpdatedDate = Boolean(updatedDate && updatedDate !== publishedDate)
+  const faqs = extractGuideFaqs(guide.content)
+  const relatedGuides = getRelatedGuides(guide.meta.slug)
+  const isHealthGuide = (guide.meta.tags || []).some((tag) =>
+    ['health', 'medical', 'safety', 'pregnancy', 'kids', 'seniors'].includes(tag.toLowerCase())
+  )
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
@@ -109,6 +121,21 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     ],
   }
 
+  const faqJsonLd = faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((faq) => ({
+          '@type': 'Question',
+          name: faq.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.answer,
+          },
+        })),
+      }
+    : null
+
   // Custom components for MDX
   const components = {
     h1: (props: ComponentPropsWithoutRef<'h1'>) => <h2 {...props} />,
@@ -119,6 +146,9 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     <div className="min-h-screen bg-sauna-paper flex flex-col">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      {faqJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      )}
       <Navigation />
 
       <article className="max-w-3xl mx-auto px-6 py-32 grow">
@@ -176,6 +206,59 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
              options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
            />
         </div>
+
+        <section className="mt-12 rounded-2xl border border-sauna-ash/40 bg-sauna-linen/40 p-6">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-sauna-walnut mb-3">
+            Editorial Note
+          </p>
+          <p className="text-sauna-slate leading-relaxed mb-3">
+            This guide was written by the Sauna Guide Editorial Team and last reviewed on {updatedDate || publishedDate || guide.meta.date}.
+            We prioritize primary sources, manufacturer documentation, and transparent buyer-first recommendations.
+          </p>
+          {isHealthGuide && (
+            <p className="text-sauna-slate leading-relaxed mb-3">
+              This is educational content, not personal medical advice. Health and safety guides are written to be conservative and citation-first, especially when the answer affects whether someone should skip the heat entirely.
+            </p>
+          )}
+          <div className="flex flex-wrap gap-4 text-sm font-medium">
+            <Link href="/about" className="text-sauna-walnut hover:text-sauna-ink transition-colors">
+              About Sauna Guide
+            </Link>
+            <Link href="/editorial-policy" className="text-sauna-walnut hover:text-sauna-ink transition-colors">
+              Editorial policy
+            </Link>
+            <Link href="/affiliate-disclosure" className="text-sauna-walnut hover:text-sauna-ink transition-colors">
+              Affiliate disclosure
+            </Link>
+          </div>
+        </section>
+
+        {relatedGuides.length > 0 && (
+          <section className="mt-16">
+            <h2 className="font-display text-2xl font-medium text-sauna-ink mb-6">
+              Related Guides
+            </h2>
+            <div className="grid gap-4 md:grid-cols-3">
+              {relatedGuides.map((relatedGuide) => (
+                <Link
+                  key={relatedGuide.slug}
+                  href={`/guides/${relatedGuide.slug}`}
+                  className="rounded-2xl border border-sauna-ash/40 bg-white p-5 transition-colors hover:border-sauna-oak/50"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-sauna-walnut mb-2">
+                    {(relatedGuide.tags || []).slice(0, 2).join(' • ') || 'Guide'}
+                  </p>
+                  <h3 className="font-display text-xl font-medium text-sauna-ink mb-2">
+                    {relatedGuide.title}
+                  </h3>
+                  <p className="text-sm text-sauna-slate leading-relaxed">
+                    {relatedGuide.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         <div className="mt-16 pt-10 border-t border-sauna-ash/50 text-center">
              <h3 className="font-display text-2xl font-medium text-sauna-ink mb-3">

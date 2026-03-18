@@ -11,9 +11,11 @@ https://sauna.guide
 - Home: https://sauna.guide/
 - Sauna directory: https://sauna.guide/saunas
 - Guides: https://sauna.guide/guides
-- Gear guide: https://sauna.guide/gear
+- Accessories guide: https://sauna.guide/accessories
 - Sauna brands: https://sauna.guide/sauna-brands
 - 30-day challenge: https://sauna.guide/challenge
+- About: https://sauna.guide/about
+- Editorial policy: https://sauna.guide/editorial-policy
 
 ## High-value guide examples
 - https://sauna.guide/guides/infrared-sauna-complete-guide
@@ -26,6 +28,7 @@ https://sauna.guide
 - Educational and editorial content only.
 - Recommendations are informational, not medical advice.
 - Product pages include review rationale and structured product metadata.
+- Lead magnet landing pages may be intentionally excluded from search indexing.
 
 ## Crawling
 Robots policy: https://sauna.guide/robots.txt

@@ -20,6 +20,11 @@ export interface GuidePost {
   content: string // Raw content for serialization later or reading time calc
 }
 
+export interface GuideFaq {
+  question: string
+  answer: string
+}
+
 function getGuideLastModified(fullPath: string): string | undefined {
   try {
     return fs.statSync(fullPath).mtime.toISOString()
@@ -51,6 +56,72 @@ export function getGuideAuthorSchema(author?: string) {
     '@type': 'Person' as const,
     name,
   }
+}
+
+function markdownToPlainText(markdown: string) {
+  return markdown
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1')
+    .replace(/^[-*+]\s+/gm, '')
+    .replace(/^\d+\.\s+/gm, '')
+    .replace(/\n+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+export function extractGuideFaqs(content: string): GuideFaq[] {
+  const faqSectionMatch = content.match(
+    /##\s+(?:Frequently Asked Questions|FAQ)\s*\n([\s\S]*?)(?=\n##\s+|$)/
+  )
+
+  if (!faqSectionMatch) {
+    return []
+  }
+
+  const section = faqSectionMatch[1]
+  const questionPattern = /###\s+(.+)\n([\s\S]*?)(?=\n###\s+|$)/g
+  const faqs: GuideFaq[] = []
+
+  for (const match of section.matchAll(questionPattern)) {
+    const question = match[1]?.trim()
+    const answer = markdownToPlainText(match[2] || '')
+
+    if (!question || !answer) {
+      continue
+    }
+
+    faqs.push({ question, answer })
+  }
+
+  return faqs
+}
+
+export function getRelatedGuides(currentSlug: string, count = 3): GuideMeta[] {
+  const guides = getAllGuides()
+  const currentGuide = guides.find((guide) => guide.slug === currentSlug)
+
+  if (!currentGuide) {
+    return guides.filter((guide) => guide.slug !== currentSlug).slice(0, count)
+  }
+
+  const currentTags = new Set((currentGuide.tags || []).map((tag) => tag.toLowerCase()))
+
+  return guides
+    .filter((guide) => guide.slug !== currentSlug)
+    .map((guide) => {
+      const overlap = (guide.tags || []).filter((tag) => currentTags.has(tag.toLowerCase())).length
+      return { guide, overlap }
+    })
+    .sort((a, b) => {
+      if (b.overlap !== a.overlap) return b.overlap - a.overlap
+      if (a.guide.date < b.guide.date) return 1
+      if (a.guide.date > b.guide.date) return -1
+      return 0
+    })
+    .slice(0, count)
+    .map(({ guide }) => guide)
 }
 
 export function getAllGuides(): GuideMeta[] {

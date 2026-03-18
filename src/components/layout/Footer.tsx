@@ -37,6 +37,24 @@ export function Footer() {
           </div>
         </div>
 
+        <div className="grid gap-12 md:grid-cols-2 mb-12">
+          <div>
+            <h2 className="font-medium mb-4 text-sauna-sand text-base">Trust</h2>
+            <ul className="space-y-2 text-sauna-fog">
+              <li><Link href="/about" className="hover:text-sauna-paper transition-colors">About</Link></li>
+              <li><Link href="/editorial-policy" className="hover:text-sauna-paper transition-colors">Editorial Policy</Link></li>
+              <li><Link href="/affiliate-disclosure" className="hover:text-sauna-paper transition-colors">Affiliate Disclosure</Link></li>
+              <li><Link href="/contact" className="hover:text-sauna-paper transition-colors">Contact</Link></li>
+            </ul>
+          </div>
+          <div className="text-sauna-fog leading-relaxed">
+            <h2 className="font-medium mb-4 text-sauna-sand text-base">How We Work</h2>
+            <p className="text-sm">
+              Sauna Guide is an editorial site. We compare products, cite primary sources where possible, and prefer a clear downside over a fake five-star verdict.
+            </p>
+          </div>
+        </div>
+
         <div className="pt-8 border-t border-sauna-bark flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sauna-stone text-sm">
             &copy; {new Date().getFullYear()} Sauna Guide. All rights reserved.

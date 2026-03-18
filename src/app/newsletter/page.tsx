@@ -7,6 +7,10 @@ import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 export const metadata: Metadata = {
   title: 'Free Home Sauna Buying Guide | Sauna Guide',
   description: 'Three short emails. What it actually costs, which type fits your life, and the mistakes everyone makes. Independent. No BS.',
+  robots: {
+    index: false,
+    follow: true,
+  },
   alternates: {
     canonical: 'https://sauna.guide/newsletter',
   },

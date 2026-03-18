@@ -77,7 +77,6 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
 
   const pageUrl = `https://sauna.guide/accessories/${slug}`
   const plainTextSummary = `${product.richDescription || product.description} ${product.why}`.replace(/\s+/g, ' ').trim()
-  const normalizedPrice = product.price.replace(/[^0-9.]/g, '').split('-')[0]
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -94,17 +93,6 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
     brand: {
       '@type': 'Brand',
       name: product.brand
-    },
-    offers: {
-      '@type': 'Offer',
-      url: pageUrl,
-      price: normalizedPrice, // Handle ranges like "$50-100" by taking the first number
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/InStock',
-      seller: {
-        '@type': 'Organization',
-        name: 'Sauna Guide',
-      },
     },
     aggregateRating: product.rating ? {
       '@type': 'AggregateRating',
@@ -123,7 +111,8 @@ export default async function GearProductPage({ params }: { params: Promise<{ sl
       author: {
         '@type': 'Organization',
         name: 'Sauna Guide'
-      }
+      },
+      reviewBody: product.why,
     } : undefined
   }
 
