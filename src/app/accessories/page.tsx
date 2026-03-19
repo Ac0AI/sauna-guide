@@ -1,5 +1,6 @@
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
+import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 import { getCategories } from '@/lib/gear'
 import { GearCard } from '@/components/listings/GearCard'
 import type { GearCategory } from '@/lib/types'
@@ -31,19 +32,22 @@ const CURATED_GEAR_SECTIONS = [
   {
     id: 'start-here',
     title: 'Start Here',
+    subtitle: 'The Essentials',
     description: 'The practical basics that improve almost every sauna setup, whether you use a public sauna, a home kit, or a cabin build.',
     categoryIds: ['essentials', 'comfort', 'aromatherapy', 'maintenance'],
   },
   {
     id: 'build-and-heat',
     title: 'Build & Heat',
+    subtitle: 'Hardware',
     description: 'The hardware side of the practice: heaters, stoves, and the sauna formats worth considering if you are buying or building.',
     categoryIds: ['heaters', 'wood-stoves', 'outdoor-saunas', 'portable-saunas'],
   },
   {
     id: 'contrast',
     title: 'Contrast Companions',
-    description: 'Cold exposure is a real adjacent use case for this site, so we keep a focused set of cold therapy products and nothing broader.',
+    subtitle: 'Cold Therapy',
+    description: 'Cold exposure after heat. We keep a focused set of cold therapy products and nothing broader.',
     categoryIds: ['cold-therapy'],
   },
 ] as const
@@ -82,79 +86,77 @@ export default function GearPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
       <Navigation />
 
-      <main className="max-w-7xl mx-auto px-6 py-32 grow">
-        <header className="mb-14">
-          <h1 className="font-display text-4xl md:text-5xl font-medium text-sauna-ink mb-4">
+      {/* Hero */}
+      <section className="relative bg-sauna-charcoal overflow-hidden">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWx0ZXI9InVybCgjYSkiIG9wYWNpdHk9Ii4wNSIvPjwvc3ZnPg==')] opacity-50" />
+        <div className="max-w-6xl mx-auto px-6 pt-28 pb-14 md:pt-36 md:pb-18 relative">
+          <p className="text-sauna-sand/50 text-xs tracking-[0.25em] uppercase mb-4 font-medium">
+            Curated Collection
+          </p>
+          <h1 className="font-display text-4xl md:text-6xl font-medium text-sauna-paper tracking-tight mb-5">
             Sauna Accessories
           </h1>
-          <p className="text-xl text-sauna-slate max-w-2xl leading-relaxed">
-            We trimmed this page down to the products that are actually relevant to sauna use:
-            heaters, stones, thermometers, comfort upgrades, maintenance, and a focused cold therapy layer.
+          <p className="text-lg md:text-xl text-sauna-fog leading-relaxed max-w-2xl">
+            {totalProducts} products across {curatedCategories.length} categories. Only things that belong in a real sauna setup.
           </p>
-        </header>
-
-        <section className="mb-16 grid gap-6 lg:grid-cols-[1.6fr_1fr]">
-          <div className="rounded-2xl border border-sauna-ash/40 bg-sauna-linen/60 p-7">
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-sauna-walnut mb-4">
-              What Made The Cut
-            </p>
-            <div className="grid gap-3 text-sauna-slate md:grid-cols-3">
-              <p>Directly useful in a real sauna session</p>
-              <p>Relevant if you are buying or building your own setup</p>
-              <p>Strongly adjacent to contrast therapy, not generic wellness clutter</p>
-            </div>
-          </div>
-
-        </section>
-
-        <div className="mb-10 flex flex-wrap items-center gap-3 text-sm">
-          <span className="rounded-full bg-sauna-linen px-4 py-2 font-medium text-sauna-ink">
-            {curatedCategories.length} categories
-          </span>
-          <span className="rounded-full bg-sauna-linen px-4 py-2 font-medium text-sauna-ink">
-            {totalProducts} curated picks
-          </span>
-          <span className="rounded-full bg-sauna-linen px-4 py-2 font-medium text-sauna-ink">
-            buyer-first, not gadget-first
-          </span>
         </div>
+      </section>
 
-        <nav className="mb-16 pb-8 border-b border-sauna-ash/30">
-          <div className="flex flex-wrap gap-2">
+      {/* Section nav */}
+      <div className="sticky top-[64px] z-30 bg-sauna-paper/95 backdrop-blur-sm border-b border-sauna-ash/30">
+        <div className="max-w-6xl mx-auto px-6">
+          <nav className="flex gap-1 overflow-x-auto py-3 -mx-2 scrollbar-none">
             {sections.map((section) => (
               <a
                 key={section.id}
                 href={`#${section.id}`}
-                className="px-4 py-2 text-sm font-medium text-sauna-slate
-                         hover:text-sauna-ink hover:bg-sauna-linen rounded-lg transition-colors"
+                className="px-4 py-2 text-sm font-medium text-sauna-slate whitespace-nowrap
+                         hover:text-sauna-ink hover:bg-sauna-linen rounded-lg transition-colors shrink-0"
               >
                 {section.title}
               </a>
             ))}
-          </div>
-        </nav>
+          </nav>
+        </div>
+      </div>
 
-        {sections.map((section) => (
-          <section key={section.id} id={section.id} className="mb-24 scroll-mt-32">
-            <div className="mb-10 max-w-3xl">
-              <h2 className="font-display text-3xl font-medium text-sauna-ink mb-3">
-                {section.title}
-              </h2>
-              <p className="text-lg text-sauna-slate leading-relaxed">
-                {section.description}
-              </p>
+      <main className="max-w-6xl mx-auto px-6 py-12 md:py-16 grow w-full">
+
+        {sections.map((section, sectionIndex) => (
+          <section key={section.id} id={section.id} className="mb-20 last:mb-8 scroll-mt-32">
+            {/* Section header */}
+            <div className="mb-10 flex items-start gap-6">
+              <div className="hidden md:flex w-12 h-12 rounded-xl bg-sauna-charcoal items-center justify-center shrink-0 mt-1">
+                <span className="text-sauna-paper font-display text-xl font-medium">{sectionIndex + 1}</span>
+              </div>
+              <div>
+                <p className="text-xs tracking-[0.2em] uppercase text-sauna-oak font-medium mb-2 md:hidden">
+                  Part {sectionIndex + 1}
+                </p>
+                <h2 className="font-display text-3xl md:text-4xl font-medium text-sauna-ink mb-2">
+                  {section.title}
+                </h2>
+                <p className="text-base md:text-lg text-sauna-slate leading-relaxed max-w-2xl">
+                  {section.description}
+                </p>
+              </div>
             </div>
 
             {section.categories.map((category) => (
-              <div key={category.id} id={category.id} className="mb-20 last:mb-0 scroll-mt-32">
-                <div className="mb-8">
-                  <h3 className="font-display text-2xl font-medium text-sauna-ink mb-2">
+              <div key={category.id} id={category.id} className="mb-16 last:mb-0 scroll-mt-32">
+                <div className="mb-6 flex items-baseline gap-3">
+                  <h3 className="font-display text-xl md:text-2xl font-medium text-sauna-ink">
                     {category.name}
                   </h3>
-                  <p className="text-sauna-slate">{category.description}</p>
+                  <span className="text-xs text-sauna-stone font-medium">
+                    {category.products.length} {category.products.length === 1 ? 'pick' : 'picks'}
+                  </span>
                 </div>
+                {category.description && (
+                  <p className="text-sauna-slate text-sm mb-6 max-w-2xl leading-relaxed">{category.description}</p>
+                )}
 
-                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
                   {category.products.map((product) => (
                     <GearCard key={product.slug} product={product} />
                   ))}
@@ -164,13 +166,18 @@ export default function GearPage() {
           </section>
         ))}
 
-        <section className="rounded-2xl border border-sauna-ash/40 bg-sauna-linen/50 p-8 text-center">
-          <h2 className="font-display text-2xl font-medium text-sauna-ink mb-3">
-            Looking for something missing?
-          </h2>
-          <p className="max-w-2xl mx-auto text-sauna-slate leading-relaxed">
-            That is probably intentional. We would rather keep this page tight and useful than turn it into a dumping ground for every wellness gadget with a sauna angle.
-          </p>
+        {/* Newsletter CTA */}
+        <section className="relative p-8 md:p-12 bg-sauna-charcoal rounded-2xl text-sauna-paper overflow-hidden">
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWx0ZXI9InVybCgjYSkiIG9wYWNpdHk9Ii4wNSIvPjwvc3ZnPg==')] opacity-40" />
+          <div className="relative">
+            <h3 className="font-display text-2xl md:text-3xl font-medium mb-3">
+              Get the unbiased buying guide
+            </h3>
+            <p className="text-sauna-fog mb-8 max-w-lg">
+              Three short emails. Real costs, honest product picks, and the mistakes we see people make. Independent and free.
+            </p>
+            <NewsletterSignup variant="buying-guide" source="accessories-page" className="max-w-md" />
+          </div>
         </section>
       </main>
 

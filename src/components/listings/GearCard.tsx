@@ -9,68 +9,22 @@ interface GearCardProps {
   product: GearProduct
 }
 
-// Category-based styling for visual variety
-const categoryStyles: Record<string, { gradient: string; icon: string }> = {
-  'essentials': {
-    gradient: 'from-amber-100 via-orange-50 to-yellow-100',
-    icon: '🪣'
-  },
-  'comfort': {
-    gradient: 'from-rose-50 via-pink-50 to-fuchsia-50',
-    icon: '🧘'
-  },
-  'aromatherapy': {
-    gradient: 'from-emerald-50 via-green-50 to-teal-50',
-    icon: '🌿'
-  },
-  'cold-therapy': {
-    gradient: 'from-cyan-100 via-sky-50 to-blue-100',
-    icon: '❄️'
-  },
-  'tracking': {
-    gradient: 'from-violet-50 via-purple-50 to-indigo-50',
-    icon: '📊'
-  },
-  'recovery': {
-    gradient: 'from-orange-50 via-amber-50 to-yellow-50',
-    icon: '💪'
-  },
-  'red-light': {
-    gradient: 'from-red-100 via-rose-50 to-orange-50',
-    icon: '🔴'
-  },
-  'infrared': {
-    gradient: 'from-orange-100 via-red-50 to-amber-50',
-    icon: '🔥'
-  },
-  'portable-saunas': {
-    gradient: 'from-stone-100 via-neutral-50 to-zinc-100',
-    icon: '🏕️'
-  },
-  'barrel-saunas': {
-    gradient: 'from-amber-100 via-yellow-50 to-orange-50',
-    icon: '🛖'
-  },
-  'outdoor-saunas': {
-    gradient: 'from-amber-100 via-yellow-50 to-orange-50',
-    icon: '🛖'
-  },
-  'heaters': {
-    gradient: 'from-red-50 via-orange-50 to-amber-100',
-    icon: '🔥'
-  },
-  'wood-stoves': {
-    gradient: 'from-orange-100 via-amber-50 to-red-50',
-    icon: '🪵'
-  },
-  'tech': {
-    gradient: 'from-slate-100 via-gray-50 to-zinc-100',
-    icon: '🎵'
-  },
-  'maintenance': {
-    gradient: 'from-lime-50 via-green-50 to-emerald-50',
-    icon: '🧹'
-  },
+const categoryIcons: Record<string, string> = {
+  'essentials': '🪣',
+  'comfort': '🧘',
+  'aromatherapy': '🌿',
+  'cold-therapy': '❄️',
+  'tracking': '📊',
+  'recovery': '💪',
+  'red-light': '🔴',
+  'infrared': '🔥',
+  'portable-saunas': '🏕️',
+  'barrel-saunas': '🛖',
+  'outdoor-saunas': '🛖',
+  'heaters': '🔥',
+  'wood-stoves': '🪵',
+  'tech': '🎵',
+  'maintenance': '🧹',
 }
 
 export function GearCard({ product }: GearCardProps) {
@@ -83,25 +37,25 @@ export function GearCard({ product }: GearCardProps) {
       ? `/images/gear/products/${product.image}`
       : null
 
-  const style = categoryStyles[product.category] || categoryStyles['essentials']
+  const icon = categoryIcons[product.category] || '🔥'
   const showFallback = !imageSrc || imageError
 
   return (
     <Link
       href={`/accessories/${product.slug}`}
-      className="group bg-white rounded-2xl border border-sauna-ash/40 overflow-hidden
-                 hover:border-sauna-oak/40 hover:shadow-2xl hover:-translate-y-1
+      className="group bg-white rounded-2xl border border-sauna-ash/30 overflow-hidden
+                 hover:border-sauna-oak/30 hover:shadow-lg
                  transition-all duration-300 flex flex-col h-full"
     >
-      {/* Image Container */}
-      <div className={`aspect-4/3 relative overflow-hidden ${showFallback ? `bg-linear-to-br ${style.gradient}` : 'bg-sauna-linen'}`}>
+      {/* Image */}
+      <div className={`aspect-[4/3] relative overflow-hidden ${showFallback ? 'bg-sauna-charcoal' : 'bg-sauna-linen'}`}>
         {imageSrc && !imageError ? (
           <Image
             src={imageSrc}
             alt={product.name}
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className={`object-contain p-6 transition-all duration-500 group-hover:scale-110 ${
+            className={`object-contain p-6 transition-all duration-500 group-hover:scale-105 ${
               isLoading ? 'opacity-0' : 'opacity-100'
             }`}
             onLoad={() => setIsLoading(false)}
@@ -109,25 +63,24 @@ export function GearCard({ product }: GearCardProps) {
             loading="lazy"
           />
         ) : (
-          <div className="w-full h-full flex flex-col items-center justify-center p-6">
-            <span className="text-5xl mb-3 group-hover:scale-110 transition-transform duration-300">
-              {style.icon}
-            </span>
-            <span className="text-sm font-medium text-sauna-walnut/70 text-center line-clamp-2 px-4">
-              {product.name}
+          <div className="w-full h-full flex flex-col items-center justify-center p-6 relative">
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj48ZmlsdGVyIGlkPSJhIiB4PSIwIiB5PSIwIj48ZmVUdXJidWxlbmNlIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIgdHlwZT0iZnJhY3RhbE5vaXNlIi8+PGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIvPjwvZmlsdGVyPjxyZWN0IHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIiBmaWx0ZXI9InVybCgjYSkiIG9wYWNpdHk9Ii4wNSIvPjwvc3ZnPg==')] opacity-40" />
+            <span className="text-4xl mb-2 opacity-60">{icon}</span>
+            <span className="text-xs font-medium text-sauna-fog/70 text-center line-clamp-2 px-4 uppercase tracking-wider">
+              {product.brand}
             </span>
           </div>
         )}
 
-        {/* Price Badge */}
-        <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-xs px-3 py-1.5 rounded-full text-sm font-bold text-sauna-ink shadow-lg">
+        {/* Price */}
+        <div className="absolute top-3 right-3 bg-white/95 backdrop-blur-xs px-3 py-1.5 rounded-full text-sm font-bold text-sauna-ink shadow-sm">
           {product.price}
         </div>
 
-        {/* Rating Badge */}
+        {/* Rating */}
         {product.rating && (
-          <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-xs px-2 py-1 rounded-full flex items-center gap-1 shadow-lg">
-            <span className="text-yellow-500 text-sm">★</span>
+          <div className="absolute top-3 left-3 bg-white/95 backdrop-blur-xs px-2 py-1 rounded-full flex items-center gap-1 shadow-sm">
+            <span className="text-amber-500 text-xs">★</span>
             <span className="text-xs font-bold text-sauna-ink">{product.rating}</span>
           </div>
         )}
@@ -135,33 +88,25 @@ export function GearCard({ product }: GearCardProps) {
 
       {/* Content */}
       <div className="p-5 flex flex-col flex-1">
-        <div className="mb-3">
-          <span className="text-xs font-semibold text-sauna-walnut uppercase tracking-wider">
-            {product.brand}
-          </span>
-          <h2 className="text-base font-semibold text-sauna-ink mt-1 group-hover:text-sauna-walnut transition-colors line-clamp-2">
-            {product.name}
-          </h2>
-        </div>
+        <span className="text-[11px] font-semibold text-sauna-oak uppercase tracking-widest mb-1">
+          {product.brand}
+        </span>
+        <h2 className="text-[15px] font-semibold text-sauna-ink leading-snug group-hover:text-sauna-walnut transition-colors line-clamp-2 mb-2">
+          {product.name}
+        </h2>
 
         <p className="text-sauna-slate text-sm leading-relaxed line-clamp-2 grow">
           {product.description}
         </p>
 
-        {/* Why badge */}
-        <div className="mt-4 pt-4 border-t border-sauna-ash/30">
-          <p className="text-xs text-sauna-bark leading-relaxed line-clamp-2">
-            <span className="font-semibold">Why:</span> {product.why}
-          </p>
-        </div>
-
-        {/* View indicator */}
-        <div className="mt-4 flex items-center justify-end text-sauna-walnut text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-          View details
-          <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </div>
+        {/* Why */}
+        {product.why && (
+          <div className="mt-4 pt-3 border-t border-sauna-ash/20">
+            <p className="text-xs text-sauna-slate leading-relaxed line-clamp-2">
+              <span className="font-semibold text-sauna-walnut">Why: </span>{product.why}
+            </p>
+          </div>
+        )}
       </div>
     </Link>
   )
