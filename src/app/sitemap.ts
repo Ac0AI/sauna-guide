@@ -59,6 +59,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     getFileModifiedTime('src/app/guides/page.tsx'),
     getLatestDirectoryModifiedTime('src/content/guides', '.mdx')
   )
+  const newsIndexLastModified = getLastModified(
+    getFileModifiedTime('src/app/news/page.tsx'),
+    getLatestDirectoryModifiedTime('src/content/news', '.mdx')
+  )
   const gearIndexLastModified = getLastModified(
     getFileModifiedTime('src/app/accessories/page.tsx'),
     getFileModifiedTime('src/data/gear-merged.json')
@@ -142,6 +146,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: guidesIndexLastModified,
       changeFrequency: 'weekly',
       priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/news`,
+      lastModified: newsIndexLastModified,
+      changeFrequency: 'weekly',
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/accessories`,
@@ -236,7 +246,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
     console.error('Sitemap error: Could not read guides directory', e)
   }
 
-  // 4. Dynamiska Gear-sidor
+  // 4. Dynamiska News-sidor
+  let newsRoutes: MetadataRoute.Sitemap = []
+  try {
+    const newsDirectory = path.join(process.cwd(), 'src/content/news')
+    if (fs.existsSync(newsDirectory)) {
+      const newsFiles = fs.readdirSync(newsDirectory)
+      const today = new Date().toISOString().split('T')[0]
+      newsRoutes = newsFiles
+        .filter((file) => {
+          if (!file.endsWith('.mdx')) return false
+          const fullPath = path.join(newsDirectory, file)
+          const fileContents = fs.readFileSync(fullPath, 'utf8')
+          const { data } = matter(fileContents)
+          return !data.date || data.date <= today
+        })
+        .map((file) => {
+          const fullPath = path.join(newsDirectory, file)
+          const stats = fs.statSync(fullPath)
+          return {
+            url: `${baseUrl}/news/${file.replace('.mdx', '')}`,
+            lastModified: stats.mtime,
+            changeFrequency: 'weekly' as const,
+            priority: 0.75,
+          }
+        })
+        .sort((a, b) => {
+          const aDate = new Date(a.lastModified || 0).getTime()
+          const bDate = new Date(b.lastModified || 0).getTime()
+          return bDate - aDate
+        })
+    }
+  } catch (e) {
+    console.error('Sitemap error: Could not read news directory', e)
+  }
+
+  // 5. Dynamiska Gear-sidor
   let gearRoutes: MetadataRoute.Sitemap = []
   try {
     const products = getAllProducts()
@@ -256,7 +301,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     console.error('Sitemap error: Could not read gear data', e)
   }
 
-  // 5. Dynamiska Brand-sidor
+  // 6. Dynamiska Brand-sidor
   let brandRoutes: MetadataRoute.Sitemap = []
   try {
     const manufacturers = getAllManufacturers()
@@ -270,5 +315,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     console.error('Sitemap error: Could not read manufacturers data', e)
   }
 
-  return [...staticRoutes, ...saunaRoutes, ...guideRoutes, ...gearRoutes, ...brandRoutes]
+  return [...staticRoutes, ...saunaRoutes, ...guideRoutes, ...newsRoutes, ...gearRoutes, ...brandRoutes]
 }

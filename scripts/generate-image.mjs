@@ -12,21 +12,12 @@
  * Images are saved to public/images/<output>.
  */
 
-import { GoogleGenAI } from '@google/genai'
 import * as fs from 'node:fs'
 import * as path from 'node:path'
+import { generateGeminiImage } from './lib/gemini-image.mjs'
 
 const MODEL = 'gemini-2.5-flash-image'
 const DELAY_MS = 3000 // delay between requests to avoid rate limiting
-
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY
-if (!GEMINI_API_KEY) {
-  console.error('Missing GEMINI_API_KEY. Set it in .env.local and run with:')
-  console.error('  node --env-file=.env.local scripts/generate-image.mjs "prompt" output.jpg')
-  process.exit(1)
-}
-
-const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY })
 
 async function generateImage(prompt, outputName) {
   const outputPath = path.join('public', 'images', outputName)
@@ -35,27 +26,14 @@ async function generateImage(prompt, outputName) {
 
   console.log(`  Generating: ${outputName}...`)
 
-  const response = await ai.models.generateContent({
+  const result = await generateGeminiImage({
+    prompt,
+    outputPath,
     model: MODEL,
-    contents: prompt,
-    config: { responseModalities: ['IMAGE', 'TEXT'] },
   })
-
-  for (const part of response.candidates[0].content.parts) {
-    if (part.inlineData) {
-      const buffer = Buffer.from(part.inlineData.data, 'base64')
-      fs.writeFileSync(outputPath, buffer)
-      const sizeKB = (buffer.length / 1024).toFixed(1)
-      console.log(`  ✓ Saved: ${outputPath} (${sizeKB} KB)`)
-      return true
-    }
-    if (part.text) {
-      console.log(`  Text response: ${part.text.substring(0, 200)}`)
-    }
-  }
-
-  console.log(`  ✗ No image in response`)
-  return false
+  const sizeKB = (result.sizeBytes / 1024).toFixed(1)
+  console.log(`  ✓ Saved: ${outputPath} (${sizeKB} KB)`)
+  return true
 }
 
 async function main() {

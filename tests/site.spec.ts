@@ -7,6 +7,7 @@ test.describe('All pages load correctly', () => {
     ['/', 'Home Sauna Buying Guide'],
     ['/saunas', 'Sauna Directory'],
     ['/guides', 'Protocols'],
+    ['/news', 'Sauna News'],
     ['/accessories', 'Accessories'],
     ['/sauna-brands', 'Sauna Brands'],
     ['/challenge', 'Reset'],
@@ -37,6 +38,12 @@ test.describe('Dynamic pages load', () => {
     await expect(page.locator('h1').first()).toBeVisible()
   })
 
+  test('/news/[slug] loads a news edition', async ({ page }) => {
+    const response = await page.goto('/news/sauna-news-2026-03-19')
+    expect(response?.status()).toBe(200)
+    await expect(page.locator('h1').first()).toContainText(/sauna news/i)
+  })
+
   test('/accessories/[slug] loads a product', async ({ page }) => {
     await page.goto('/accessories')
     const firstLink = page.locator('a[href^="/accessories/"]').first()
@@ -62,6 +69,7 @@ test.describe('Navigation works', () => {
     await expect(nav).toBeVisible()
     await expect(nav.locator('a[href="/saunas"]')).toBeVisible()
     await expect(nav.locator('a[href="/guides"]')).toBeVisible()
+    await expect(nav.locator('a[href="/accessories"]')).toBeVisible()
   })
 
   test('mobile menu opens and closes', async ({ page }) => {
@@ -81,6 +89,7 @@ test.describe('Navigation works', () => {
     await expect(footer).toBeVisible()
     await expect(footer.locator('a[href="/saunas"]')).toBeVisible()
     await expect(footer.locator('a[href="/guides"]')).toBeVisible()
+    await expect(footer.locator('a[href="/news"]')).toBeVisible()
     await expect(footer.locator('a[href="/accessories"]')).toBeVisible()
   })
 })
@@ -132,7 +141,7 @@ test.describe('Images', () => {
 // ─── SEO Meta Tags ──────────────────────────────────────────────
 
 test.describe('SEO meta tags', () => {
-  const pages = ['/', '/saunas', '/guides', '/accessories', '/sauna-brands', '/challenge']
+  const pages = ['/', '/saunas', '/guides', '/news', '/accessories', '/sauna-brands', '/challenge']
 
   for (const path of pages) {
     test(`${path} has meta description`, async ({ page }) => {
@@ -223,7 +232,7 @@ test('404 page renders for unknown routes', async ({ page }) => {
 // ─── Console Errors ─────────────────────────────────────────────
 
 test.describe('No console errors on key pages', () => {
-  const pages = ['/', '/saunas', '/guides', '/accessories']
+  const pages = ['/', '/saunas', '/guides', '/news', '/accessories']
 
   for (const path of pages) {
     test(`${path} has no JS errors`, async ({ page }) => {

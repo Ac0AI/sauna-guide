@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16",
+  "lastUpdated": "2026-03-19",
   "totalProducts": 54,
   "categories": [
     {
@@ -23,9 +23,9 @@
           "slug": "kolo-bucket-and-ladle-set",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=KOLO%20Bucket%20and%20Ladle%20Set%20KOLO",
-              "type": "amazon"
+              "name": "Bathing Brands",
+              "url": "https://www.bathingbrands.com/59370/kolo/sauna-set-1/buckets-ladles",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/kolo-bucket-and-ladle-set.png",
@@ -36,7 +36,7 @@
         {
           "name": "Rento Pisara Bucket and Ladle",
           "brand": "Rento",
-          "price": "$120",
+          "price": "$75-150",
           "description": "The Rento Pisara Bucket and Ladle is a premium sauna accessory set made from a durable biocomposite material. The bucket holds 4 liters and the ladle has a long, ergonomic handle.",
           "why": "This set offers a sustainable, heat-resistant alternative to traditional wooden sauna accessories.",
           "richDescription": "The Rento Pisara Bucket and Ladle is a high-quality sauna accessory set crafted from a proprietary biocomposite material. The 4-liter bucket and long-handled ladle are designed to withstand the intense heat of the sauna without cracking or burning. The biocomposite construction blends recycled wood fibers for a natural look and feel.",
@@ -49,9 +49,9 @@
           "slug": "rento-pisara-bucket-and-ladle",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Rento%20Pisara%20Bucket%20and%20Ladle%20Rento",
-              "type": "amazon"
+              "name": "FinnStyle",
+              "url": "https://www.finnstyle.com/rento-pisara-peat-sauna-bucket-ladle.html",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/rento-pisara-bucket-and-ladle.png",
@@ -73,9 +73,9 @@
           "slug": "sensorpush-ht1-thermometer",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=SensorPush%20HT1%20Thermometer%20SensorPush",
-              "type": "amazon"
+              "name": "SensorPush",
+              "url": "https://www.sensorpush.com/products/p/ht1",
+              "type": "manufacturer"
             }
           ],
           "image": "sensorpush-ht1-thermometer.jpg",
@@ -97,9 +97,9 @@
           "slug": "fischer-german-thermometer",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Fischer%20German%20Thermometer%20Fischer",
-              "type": "amazon"
+              "name": "Fischer",
+              "url": "https://fischer-barometer.de/en/shop/wellness/709/195.01-06-sauna-thermohygrometer-160-mm",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/fischer-german-thermometer.png",
@@ -109,7 +109,7 @@
         },
         {
           "name": "15-Minute Cedar Sand Timer",
-          "brand": "Various",
+          "brand": "Scandia",
           "price": "$20-55",
           "description": "This 15-minute cedar sand timer features a classic hourglass design with 5-minute interval markings, allowing you to easily track your sauna sessions.",
           "why": "The natural cedar construction and classic design make this a timeless, battery-free addition to any sauna setup.",
@@ -122,9 +122,9 @@
           "slug": "15-minute-cedar-sand-timer",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=15-Minute%20Cedar%20Sand%20Timer%20Various",
-              "type": "amazon"
+              "name": "Sauna Luxuries",
+              "url": "https://saunaluxuries.com/products/scandia-wall-mounted-sand-timer-15-minute-cycle",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/15-minute-cedar-sand-timer.png",
@@ -146,9 +146,9 @@
           "slug": "olivine-diabase-sauna-stones",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Olivine%20Diabase%20Sauna%20Stones%20HUUM%2FHarvia",
-              "type": "amazon"
+              "name": "The Sauna Place",
+              "url": "https://www.saunaplace.com/products/harvia-sauna-heater-stones-10-15-cm-20-kg",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/olivine-diabase-sauna-stones.png",
@@ -164,13 +164,13 @@
       "description": "Enhance your sauna experience",
       "products": [
         {
-          "name": "by itu Sauna Hat",
-          "brand": "by itu",
+          "name": "Merino Wool Sauna Hat",
+          "brand": "PortaSauna",
           "price": "$30-50",
-          "description": "The by itu Sauna Hat is a hand-felted wool hat designed for use in saunas. It comes in over 60 unique Finnish-inspired designs to choose from.",
+          "description": "This merino wool sauna hat is designed to protect your head from the hottest air in the room, helping you stay comfortable for longer sessions.",
           "why": "This hat helps extend your sauna sessions by keeping your head warm and comfortable.",
-          "richDescription": "The by itu Sauna Hat is made from high-quality, hand-felted Finnish wool that is durable and insulating. The hat measures approximately 8 inches in diameter and 6 inches tall, providing full coverage and protection for your head from the intense heat of the sauna. The wide variety of colorful, traditional Finnish patterns allows you to personalize your sauna experience.",
-          "whyPeopleLikeIt": "Users praise the hat's high-quality construction, cozy warmth, and unique Finnish designs.",
+          "richDescription": "Made from felted merino wool, this classic sauna hat adds a simple but noticeable layer of heat protection for your hair, ears, and scalp. It is the kind of accessory people dismiss until they try one in a properly hot room.",
+          "whyPeopleLikeIt": "Users praise the hat's heat protection, soft wool feel, and the way it makes longer sessions more comfortable.",
           "redditSentiment": "Authentic Finnish option",
           "specs": {
             "material": "Hand-felted wool"
@@ -179,9 +179,9 @@
           "slug": "by-itu-sauna-hat",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=by%20itu%20Sauna%20Hat%20by%20itu",
-              "type": "amazon"
+              "name": "PortaSauna",
+              "url": "https://portasauna.com/products/the-sauna-hat",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/by-itu-sauna-hat.png",
@@ -204,9 +204,9 @@
           "slug": "s-shaped-cedar-backrest",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=S-Shaped%20Cedar%20Backrest%20Various",
-              "type": "amazon"
+              "name": "The Sauna Place",
+              "url": "https://www.saunaplace.com/products/cedar-wave-sauna-backrest-15-11-32-x-33-17-64",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/s-shaped-cedar-backrest.png",
@@ -229,9 +229,9 @@
           "slug": "cedar-headrest-pillow",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Cedar%20Headrest%20Pillow%20Various",
-              "type": "amazon"
+              "name": "The Sauna Place",
+              "url": "https://www.saunaplace.com/products/curved-cedar-headrest-14-1-2-x-10-3-4",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/cedar-headrest-pillow.png",
@@ -241,21 +241,21 @@
         },
         {
           "name": "Bamboo Floor Mat",
-          "brand": "SaunaBox",
+          "brand": "PortaSauna",
           "price": "$25-40",
-          "description": "The SaunaBox Bamboo Floor Mat is a durable, non-slip surface for your sauna that quickly drains water to prevent slipping. Made from high-quality moso bamboo, this mat is both eco-friendly and easy to clean.",
+          "description": "The PortaSauna Bamboo Floor Mat is a durable, non-slip surface for your sauna that quickly drains water to prevent slipping. Made from high-quality bamboo, this mat is both eco-friendly and easy to clean.",
           "why": "This bamboo mat provides a safe, comfortable surface for moving around your sauna while being easy to clean and store.",
-          "richDescription": "The SaunaBox Bamboo Floor Mat is a 24-inch by 16-inch floor covering crafted from sturdy, moisture-resistant moso bamboo. Its slatted design allows water to drain through quickly, preventing puddles and ensuring safe footing. The natural bamboo material is both durable and attractive, complementing the aesthetic of any sauna.",
-          "whyPeopleLikeIt": "Reviewers praise the SaunaBox Bamboo Floor Mat for its sturdy construction, easy maintenance, and the way it enhances the look of their sauna space.",
+          "richDescription": "This foldable bamboo floor mat is crafted from sturdy, moisture-resistant bamboo with a slatted design that drains water quickly and helps keep footing secure around the sauna or shower. The natural finish feels cleaner and more considered than a bare concrete or tile step-out area.",
+          "whyPeopleLikeIt": "Reviewers praise the bamboo mat's sturdy construction, easy maintenance, and the way it makes the sauna threshold feel cleaner and more intentional.",
           "redditSentiment": null,
           "specs": null,
           "rating": 4,
           "slug": "bamboo-floor-mat",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Bamboo%20Floor%20Mat%20SaunaBox",
-              "type": "amazon"
+              "name": "PortaSauna",
+              "url": "https://portasauna.com/products/portasauna-wooden-floor-mat-foldable-bamboo-sauna-shower-mat-non-slip-pack-of-4",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/bamboo-floor-mat.png",
@@ -265,7 +265,7 @@
         },
         {
           "name": "Turkish Cotton Peshtemal",
-          "brand": "Various",
+          "brand": "Peshtemal Collection",
           "price": "$20-40 each",
           "description": "The Turkish Cotton Peshtemal is a lightweight, quick-drying towel made from 100% premium Turkish cotton. Its traditional design features a soft, absorbent weave that gets even softer with each wash.",
           "why": "The Turkish Cotton Peshtemal is a high-quality, multi-purpose towel that gets better with use and is a great value for the price.",
@@ -279,9 +279,9 @@
           "slug": "turkish-cotton-peshtemal",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Turkish%20Cotton%20Peshtemal%20Various",
-              "type": "amazon"
+              "name": "Peshtemal Collection",
+              "url": "https://www.peshtemalcollection.com/products/classic-turkish-bath-beach-towel",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/turkish-cotton-peshtemal.png",
@@ -291,9 +291,9 @@
         },
         {
           "name": "Waffle Weave Spa Robe",
-          "brand": "Various",
+          "brand": "Onsen",
           "price": "$50-90",
-          "description": "The Waffle Weave Spa Robe by Various is a lightweight, breathable cotton robe with a waffle texture that helps wick moisture and promote airflow.",
+          "description": "The Waffle Weave Spa Robe is a lightweight, breathable cotton robe with a waffle texture that helps wick moisture and promote airflow.",
           "why": "The Waffle Weave Spa Robe is an ideal post-sauna cover-up, providing comfort and quick-drying performance.",
           "richDescription": "Made from 100% cotton in a waffle weave pattern, this robe features a shawl collar, two front pockets, and a self-tie belt. The waffle texture creates small air pockets that enhance breathability and help the robe dry quickly after use in the sauna or shower. It's available in a range of neutral colors to complement any bathroom decor.",
           "whyPeopleLikeIt": "Users praise the Waffle Weave Spa Robe's quick-drying properties and how it helps them stay comfortable after a sauna session.",
@@ -304,9 +304,9 @@
           "slug": "waffle-weave-spa-robe",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Waffle%20Weave%20Spa%20Robe%20Various",
-              "type": "amazon"
+              "name": "Onsen",
+              "url": "https://onsentowel.com/products/supima-waffle-bath-robe",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/waffle-weave-spa-robe.png",
@@ -323,9 +323,9 @@
       "products": [
         {
           "name": "Eucalyptus Essential Oil",
-          "brand": "Stillpoint/Edens Garden",
+          "brand": "Edens Garden",
           "price": "$10-25 per bottle",
-          "description": "Eucalyptus Essential Oil by Stillpoint/Edens Garden is a 100% pure, therapeutic-grade oil that delivers a refreshing, invigorating aroma to enhance your sauna experience.",
+          "description": "Eucalyptus Essential Oil is a 100% pure, therapeutic-grade oil that delivers a refreshing, invigorating aroma to enhance your sauna experience.",
           "why": "Eucalyptus is one of the most popular and versatile essential oils for sauna use, providing a stimulating, stress-relieving experience.",
           "richDescription": "This eucalyptus oil is steam-distilled from the leaves of the eucalyptus tree, ensuring a high-quality, concentrated formula. The 0.5 fl oz bottle provides ample oil to add a few drops to your sauna's hot rocks or diffuser, filling the air with a crisp, mentholated scent that can help clear the airways and sinuses.",
           "whyPeopleLikeIt": "Users praise the Eucalyptus Essential Oil for its ability to create a refreshing, spa-like ambiance in the sauna while also providing potential benefits for respiratory health and stress relief.",
@@ -334,9 +334,9 @@
           "slug": "eucalyptus-essential-oil",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Eucalyptus%20Essential%20Oil%20Stillpoint%2FEdens%20Garden",
-              "type": "amazon"
+              "name": "Edens Garden",
+              "url": "https://www.edensgarden.com/collections/single-oils/products/eucalyptus",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/eucalyptus-essential-oil.png",
@@ -346,11 +346,11 @@
         },
         {
           "name": "Birch Essential Oil",
-          "brand": "Rento/Harvia",
+          "brand": "Rento",
           "price": "$15-30",
-          "description": "Birch Essential Oil by Rento/Harvia is a traditional Finnish sauna scent with refreshing minty notes. This 100% pure essential oil is steam-distilled from real birch trees.",
+          "description": "Birch Essential Oil is a traditional Finnish sauna scent with refreshing, forest-like notes that feel immediately at home in a sauna room.",
           "why": "This oil provides an immersive, traditional Finnish sauna experience with its authentic birch scent.",
-          "richDescription": "Birch Essential Oil by Rento/Harvia is a 100% pure, steam-distilled essential oil that captures the authentic scent of Finnish saunas. The 10ml bottle contains a highly concentrated formula that can scent multiple sauna sessions. With its refreshing minty aroma and detoxifying properties, this oil is a must-have for any serious sauna enthusiast.",
+          "richDescription": "This birch sauna oil is built for loyly rather than general diffuser use. A small amount goes a long way, giving the room a clean, green scent that feels closer to a real Finnish sauna than generic spa fragrances.",
           "whyPeopleLikeIt": "Real users praise this oil's ability to transport them to an authentic Finnish sauna, as well as its detoxifying and circulatory benefits.",
           "redditSentiment": null,
           "specs": null,
@@ -358,9 +358,9 @@
           "slug": "birch-essential-oil",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Birch%20Essential%20Oil%20Rento%2FHarvia",
-              "type": "amazon"
+              "name": "FinnStyle",
+              "url": "https://finnstyle.com/products/rento-midsummer-birch-sauna-oil",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/birch-essential-oil.png",
@@ -370,7 +370,7 @@
         },
         {
           "name": "Lavender Essential Oil",
-          "brand": "Various",
+          "brand": "Edens Garden",
           "price": "$10-25 per bottle",
           "description": "Lavender essential oil is a pure, natural oil extracted from the lavender plant. It has a calming, floral aroma that can help promote relaxation and sleep.",
           "why": "Lavender's soothing scent can help alleviate stress, anxiety, and insomnia for a more restful night's sleep.",
@@ -381,9 +381,9 @@
           "slug": "lavender-essential-oil",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Lavender%20Essential%20Oil%20Various",
-              "type": "amazon"
+              "name": "Edens Garden",
+              "url": "https://www.edensgarden.com/products/fine-lavender-essential-oil",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/lavender-essential-oil.png",
@@ -393,9 +393,9 @@
         },
         {
           "name": "Birch Vihta Whisk",
-          "brand": "Touch of Finland",
+          "brand": "Rento",
           "price": "$20-25",
-          "description": "The Birch Vihta Whisk by Touch of Finland is a traditional Finnish sauna accessory made with 20-40 fresh birch branches, providing an authentic sauna experience.",
+          "description": "The Birch Vihta Whisk is a traditional Finnish sauna accessory made with fresh birch branches, providing an authentic sauna experience.",
           "why": "This traditional Finnish whisk stimulates circulation, has anti-inflammatory properties, and adds an authentic ritual to your sauna routine.",
           "richDescription": "This Birch Vihta Whisk is handcrafted in Finland using high-quality, sustainably sourced birch branches. The whisk measures approximately 16-20 inches in length and has a full, lush bundle of 20-40 flexible birch twigs. The natural birch provides a soothing, aromatic experience when used to gently slap or brush the skin during a sauna session.",
           "whyPeopleLikeIt": "Users praise the Birch Vihta Whisk for its authentic Finnish design, high-quality construction, and the soothing, invigorating sensation it provides during sauna sessions.",
@@ -405,9 +405,9 @@
           "slug": "birch-vihta-whisk",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Birch%20Vihta%20Whisk%20Touch%20of%20Finland",
-              "type": "amazon"
+              "name": "Touch of Finland",
+              "url": "https://www.touchoffinland.com/products/rento-birch-vihta",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/birch-vihta-whisk.png",
@@ -417,7 +417,7 @@
         },
         {
           "name": "Eucalyptus Vihta Whisk",
-          "brand": "Various",
+          "brand": "Rento",
           "price": "$20-30 per whisk",
           "description": "The Eucalyptus Vihta Whisk is a traditional sauna accessory made from fresh eucalyptus branches. It's used to gently slap the skin, releasing the plant's aromatic essential oils.",
           "why": "The eucalyptus aroma can help open airways and provide a soothing, spa-like ambiance to your sauna session.",
@@ -430,9 +430,9 @@
           "slug": "eucalyptus-vihta-whisk",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Eucalyptus%20Vihta%20Whisk%20Various",
-              "type": "amazon"
+              "name": "Touch of Finland",
+              "url": "https://www.touchoffinland.com/products/rento-eucalyptus-vihta",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/eucalyptus-vihta-whisk.png",
@@ -461,9 +461,9 @@
           "slug": "plunge-cold-tub",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Plunge%20Cold%20Tub%20Plunge",
-              "type": "amazon"
+              "name": "Plunge",
+              "url": "https://plunge.com/products/plunge",
+              "type": "manufacturer"
             }
           ],
           "image": "plunge-cold-tub.jpg",
@@ -485,9 +485,9 @@
           "slug": "ice-barrel",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Ice%20Barrel%20Ice%20Barrel",
-              "type": "amazon"
+              "name": "Ice Barrel",
+              "url": "https://icebarrel.com/products/ice-barrel-300",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/ice-barrel.png",
@@ -509,9 +509,9 @@
           "slug": "penguin-chillers-setup",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Penguin%20Chillers%20Setup%20Penguin%20Chillers",
-              "type": "amazon"
+              "name": "Penguin Chillers",
+              "url": "https://penguinchillers.com/product/cold-therapy-insulated-tub-package/",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/penguin-chillers-setup.png",
@@ -533,9 +533,9 @@
           "slug": "100-gallon-stock-tank",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=100-Gallon%20Stock%20Tank%20Tractor%20Supply",
-              "type": "amazon"
+              "name": "Tractor Supply",
+              "url": "https://www.tractorsupply.com/tsc/product/countyline-oval-galvanized-stock-tank-2-ft-w-x-4-ft-l-x-2-ft-h-100-gal-capacity",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/100-gallon-stock-tank.png",
@@ -557,9 +557,9 @@
           "slug": "morozko-forge",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Morozko%20Forge%20Morozko",
-              "type": "amazon"
+              "name": "Morozko Forge",
+              "url": "https://www.morozkoforge.com/product-page/ice-bath-cold-plunge",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/morozko-forge.png",
@@ -609,7 +609,7 @@
         {
           "name": "Sweat Tent",
           "brand": "SweatTent",
-          "price": "$30-40",
+          "price": "$1,500-2,700",
           "description": "The Sweat Tent by SweatTent is a portable, wood-burning sauna that reaches up to 200°F. It's made of high-quality wool material for an authentic sauna experience.",
           "why": "The Sweat Tent offers a real wood-burning sauna experience in a portable, easy-to-set-up package.",
           "richDescription": "The Sweat Tent is a collapsible, wood-burning sauna that provides a true sauna experience on the go. Crafted from 100% wool, it retains heat efficiently and creates a cozy, relaxing environment. The tent measures 4 x 4 x 6 feet, offering ample space for 1-2 people to enjoy the dry, 200°F heat.",
@@ -621,9 +621,9 @@
           "slug": "sweat-tent",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Sweat%20Tent%20SweatTent",
-              "type": "amazon"
+              "name": "SweatTent",
+              "url": "https://www.sweattent.com/products/sweattent",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/sweat-tent.png",
@@ -645,9 +645,9 @@
           "slug": "serenelife-portable-sauna",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=SereneLife%20Portable%20Sauna%20SereneLife",
-              "type": "amazon"
+              "name": "SereneLife",
+              "url": "https://serenelifehome.com/products/slisau10bk",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/serenelife-portable-sauna.png",
@@ -669,9 +669,9 @@
           "slug": "saunabox-smartsteam-kit",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=SaunaBox%20SmartSteam%20Kit%20SaunaBox",
-              "type": "amazon"
+              "name": "SaunaBox",
+              "url": "https://saunabox.com/collections/heat-therapy/products/saunabox-smartsteam-kit-pro-with-red-light-therapy",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/saunabox-smartsteam-kit.png",
@@ -1548,9 +1548,9 @@
           "slug": "biozap-sauna-cleaner",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=BioZap%20Sauna%20Cleaner%20RadonSeal",
-              "type": "amazon"
+              "name": "RadonSeal",
+              "url": "https://www.radonseal.com/product/biozap-sauna-cleaner-deodorizer/",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/biozap-sauna-cleaner.png",
@@ -1560,11 +1560,11 @@
         },
         {
           "name": "Paraffin Wood Oil Treatment",
-          "brand": "Saunatec",
-          "price": "$110+",
-          "description": "Saunatec's Paraffin Wood Oil Treatment is a specialized protective oil designed to extend the lifespan and maintain the natural beauty of sauna wood surfaces. This clear, odorless oil penetrates deep into the wood grain to nourish and preserve the material.",
+          "brand": "PROSAUNAS",
+          "price": "$25-30",
+          "description": "PROSAUNAS Paraffin Wood Oil Treatment is a specialized protective oil designed to extend the lifespan and maintain the natural beauty of sauna wood surfaces. This clear, odorless oil penetrates deep into the wood grain to nourish and preserve the material.",
           "why": "This oil treatment helps maintain the rich, warm appearance of sauna wood while shielding it from the harsh effects of heat, humidity, and frequent use.",
-          "richDescription": "This 16 oz bottle of Paraffin Wood Oil Treatment from Saunatec is formulated with a blend of natural paraffin and mineral oils to deeply condition and protect sauna wood. The lightweight, non-greasy formula absorbs quickly to prevent drying, cracking, and discoloration without leaving a sticky residue.",
+          "richDescription": "This 16 oz bottle of paraffin oil is formulated to deeply condition and protect sauna wood. The lightweight, non-greasy formula absorbs quickly to help prevent drying, cracking, and discoloration without leaving a sticky residue on benches or backrests.",
           "whyPeopleLikeIt": "Users praise how the Paraffin Wood Oil Treatment deeply nourishes the wood to prevent drying and cracking, keeping saunas looking brand new for years.",
           "redditSentiment": null,
           "specs": null,
@@ -1572,9 +1572,9 @@
           "slug": "paraffin-wood-oil-treatment",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Paraffin%20Wood%20Oil%20Treatment%20Saunatec",
-              "type": "amazon"
+              "name": "Steam Sauna Bath",
+              "url": "https://www.steamsaunabath.com/61520/prosaunas/sauna-paraffin-oil/sauna-care",
+              "type": "retailer"
             }
           ],
           "image": "/images/gear/products/paraffin-wood-oil-treatment.png",
@@ -1596,9 +1596,9 @@
           "slug": "rainleaf-microfiber-towel",
           "purchaseLinks": [
             {
-              "name": "Amazon",
-              "url": "https://www.amazon.com/s?k=Rainleaf%20Microfiber%20Towel%20Rainleaf",
-              "type": "amazon"
+              "name": "Rainleaf",
+              "url": "https://www.rainleafonline.com/products/rainleaf-microfiber-towel-perfect-travel-sports-beach-towel-fast-drying-super-absorbent-ultra-compact-suitable-for-camping-backpacking-gym-beach-swimming-yoga-2",
+              "type": "manufacturer"
             }
           ],
           "image": "/images/gear/products/rainleaf-microfiber-towel.png",

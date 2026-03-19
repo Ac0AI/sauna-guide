@@ -6,6 +6,7 @@
  */
 
 import Anthropic from '@anthropic-ai/sdk'
+import { jsonrepair } from 'jsonrepair'
 
 let client = null
 
@@ -47,8 +48,12 @@ export async function extractStructured(systemPrompt, userPrompt, { model = 'cla
   try {
     return JSON.parse(jsonStr)
   } catch (err) {
-    console.error('LLM returned non-JSON:', text.slice(0, 500))
-    throw new Error(`Failed to parse LLM response as JSON: ${err.message}`)
+    try {
+      return JSON.parse(jsonrepair(jsonStr))
+    } catch {
+      console.error('LLM returned non-JSON:', text.slice(0, 500))
+      throw new Error(`Failed to parse LLM response as JSON: ${err.message}`)
+    }
   }
 }
 

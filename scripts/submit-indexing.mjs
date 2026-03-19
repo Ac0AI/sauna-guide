@@ -77,7 +77,7 @@ function collectUrls() {
     '/',
     '/saunas',
     '/guides',
-    '/gear',
+    '/accessories',
     '/sauna-brands',
     '/challenge',
     '/newsletter',
@@ -117,7 +117,7 @@ function collectUrls() {
     for (const category of gearData.categories || []) {
       for (const product of category.products || []) {
         if (product.slug) {
-          urls.push(`${BASE_URL}/gear/${product.slug}`)
+          urls.push(`${BASE_URL}/accessories/${product.slug}`)
         }
       }
     }

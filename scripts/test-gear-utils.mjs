@@ -70,6 +70,8 @@ function getAllProducts() {
   );
 }
 
+const weakPurchaseLinkPattern = /amazon\.com\/s\?|amazon\.[^/]+\/s\?|[?&]k=|search|google|bing|duckduckgo|ebay\.com\/sch\//i;
+
 // Tests
 console.log('\nGear Utilities Tests\n' + '='.repeat(40));
 
@@ -125,6 +127,17 @@ test('purchaseLinks have valid structure', () => {
         expect(['amazon', 'manufacturer', 'retailer'].includes(link.type)).toBe(true);
       });
     }
+  });
+});
+
+test('purchaseLinks use direct product pages instead of search results', () => {
+  const products = getAllProducts();
+  products.forEach(p => {
+    p.purchaseLinks.forEach(link => {
+      if (weakPurchaseLinkPattern.test(link.url)) {
+        throw new Error(`Weak purchase URL for ${p.slug}: ${link.url}`);
+      }
+    });
   });
 });
 
