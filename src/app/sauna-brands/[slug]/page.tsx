@@ -54,6 +54,72 @@ const typeLabels: Record<string, string> = {
   'portable': 'Portable Saunas',
 }
 
+function titleCase(value: string) {
+  return value.replace(/\b\w/g, (char) => char.toUpperCase())
+}
+
+function getSourceLabel(url: string, label?: string) {
+  if (label && label !== 'Official website') {
+    return label
+  }
+
+  try {
+    const parsed = new URL(url)
+    const segments = parsed.pathname
+      .split('/')
+      .filter(Boolean)
+      .filter((segment) => !/^[a-z]{2}(?:-[a-z]{2})?$/i.test(segment))
+
+    if (segments.length === 0) {
+      return 'Homepage'
+    }
+
+    const raw = segments[segments.length - 1]
+      .replace(/\.[a-z0-9]+$/i, '')
+      .replace(/[-_]+/g, ' ')
+
+    return titleCase(raw)
+  } catch {
+    return label || 'Source'
+  }
+}
+
+function getSourceHost(url: string) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return ''
+  }
+}
+
+function getVerifiedDate(sources: Array<{ fetchedAt?: string }>) {
+  const timestamps = sources
+    .map((source) => (source.fetchedAt ? new Date(source.fetchedAt).getTime() : NaN))
+    .filter((value) => !Number.isNaN(value))
+
+  if (timestamps.length === 0) {
+    return null
+  }
+
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  }).format(new Date(Math.max(...timestamps)))
+}
+
+function getSourcesSummary(
+  sources: Array<{ url: string }>,
+  website: string,
+  verifiedDate: string | null
+) {
+  const officialHost = getSourceHost(website)
+  const allOfficial = officialHost && sources.every((source) => getSourceHost(source.url) === officialHost)
+  const label = allOfficial ? `Official sources (${sources.length})` : `Sources (${sources.length})`
+
+  return verifiedDate ? `${label} · Verified ${verifiedDate}` : label
+}
+
 export default async function BrandPage({ params }: Props) {
   const { slug } = await params
   const manufacturer = getManufacturerBySlug(slug)
@@ -61,6 +127,15 @@ export default async function BrandPage({ params }: Props) {
   if (!manufacturer) {
     notFound()
   }
+
+  const sources = manufacturer.enrichment?.sources
+    ? Array.from(
+        new Map(
+          manufacturer.enrichment.sources.map((source) => [source.url, source])
+        ).values()
+      )
+    : []
+  const verifiedDate = getVerifiedDate(sources)
 
   const brandJsonLd = {
     '@context': 'https://schema.org',
@@ -252,19 +327,30 @@ export default async function BrandPage({ params }: Props) {
         )}
 
         {/* Sources */}
-        {manufacturer.enrichment?.sources && manufacturer.enrichment.sources.length > 0 && (
-            <section className="mb-12 text-xs text-sauna-slate/60 border-t border-sauna-ash/20 pt-4">
-                <p className="font-medium mb-1">Sources</p>
-                <ul className="space-y-0.5">
-                    {manufacturer.enrichment.sources.map((s, i) => (
-                        <li key={i}>
-                            <a href={s.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                                {s.label}
+        {sources.length > 0 && (
+            <section className="mb-12 border-t border-sauna-ash/20 pt-5">
+                <details className="group rounded-2xl border border-sauna-ash/30 bg-sauna-linen/30 px-4 py-3">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-sm font-medium text-sauna-slate marker:hidden">
+                        <span>{getSourcesSummary(sources, manufacturer.website, verifiedDate)}</span>
+                        <span className="text-sauna-stone transition-transform group-open:rotate-180">⌄</span>
+                    </summary>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                        {sources.map((source) => (
+                            <a
+                                key={source.url}
+                                href={source.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 rounded-full border border-sauna-ash/40 bg-white px-3 py-1.5 text-xs font-medium text-sauna-slate transition-colors hover:border-sauna-oak/40 hover:text-sauna-ink"
+                                title={source.url}
+                            >
+                                <span>{getSourceLabel(source.url, source.label)}</span>
+                                <span className="text-sauna-stone/70">·</span>
+                                <span className="text-sauna-stone">{getSourceHost(source.url)}</span>
                             </a>
-                            {s.fetchedAt && ` — ${s.fetchedAt.split('T')[0]}`}
-                        </li>
-                    ))}
-                </ul>
+                        ))}
+                    </div>
+                </details>
             </section>
         )}
 
