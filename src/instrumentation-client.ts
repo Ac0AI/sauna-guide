@@ -12,5 +12,7 @@ posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
   capture_exceptions: true,
   debug: process.env.NODE_ENV === 'development',
   opt_out_capturing_by_default: consent !== '1',
+  opt_out_persistence_by_default: true,
+  opt_out_capturing_persistence_type: 'cookie',
   persistence: consent === '1' ? 'localStorage+cookie' : 'memory',
 })
