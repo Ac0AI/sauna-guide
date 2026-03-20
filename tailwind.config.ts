@@ -69,6 +69,7 @@ const config: Config = {
         'fade-up': 'fadeUp 0.8s ease-out forwards',
         'fade-up-delayed': 'fadeUp 0.8s ease-out 0.2s forwards',
         'scale-in': 'scaleIn 0.6s ease-out forwards',
+        'shimmer': 'shimmer 2.5s ease-in-out infinite',
       },
       keyframes: {
         float: {
@@ -91,6 +92,10 @@ const config: Config = {
         scaleIn: {
           '0%': { opacity: '0', transform: 'scale(0.9)' },
           '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+        shimmer: {
+          '0%': { backgroundPosition: '-200% center' },
+          '100%': { backgroundPosition: '200% center' },
         },
       },
       backgroundImage: {

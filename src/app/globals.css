@@ -47,7 +47,47 @@ layer(base);
   --animate-fade-up: fadeUp 0.8s ease-out forwards;
   --animate-fade-up-delayed: fadeUp 0.8s ease-out 0.2s forwards;
   --animate-scale-in: scaleIn 0.6s ease-out forwards;
+  --animate-shimmer: shimmer 4s ease-in-out infinite;
+  --animate-spin-slow: spin-glow 6s linear infinite;
+  --animate-orbit-spark: orbit-spark 4s linear infinite;
+  --animate-sparkle: sparkle 2s ease-in-out infinite;
 
+  @keyframes orbit-spark {
+    0% {
+      rotate: 0deg;
+    }
+    100% {
+      rotate: 360deg;
+    }
+  }
+  @keyframes sp1 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(8px,-14px); opacity:0 } }
+  @keyframes sp2 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(-6px,-16px); opacity:0 } }
+  @keyframes sp3 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(12px,-8px); opacity:0 } }
+  @keyframes sp4 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(-3px,-20px); opacity:0 } }
+  @keyframes sp5 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(10px,-12px); opacity:0 } }
+  @keyframes sp6 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(-9px,-10px); opacity:0 } }
+  @keyframes sp7 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(5px,-18px); opacity:0 } }
+  @keyframes sp8 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(14px,-6px); opacity:0 } }
+  @keyframes sp9 { 0% { transform: translate(0,0); opacity:0.9 } 100% { transform: translate(-10px,-13px); opacity:0 } }
+  @keyframes sp10 { 0% { transform: translate(0,0); opacity:0.8 } 100% { transform: translate(7px,-22px); opacity:0 } }
+  @keyframes sp11 { 0% { transform: translate(0,0); opacity:1 } 100% { transform: translate(-4px,-17px); opacity:0 } }
+  @keyframes sp12 { 0% { transform: translate(0,0); opacity:0.9 } 100% { transform: translate(16px,-9px); opacity:0 } }
+  @keyframes spin-glow {
+    from {
+      rotate: 0deg;
+    }
+    to {
+      rotate: 360deg;
+    }
+  }
+  @keyframes shimmer {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
   @keyframes float {
     0%,
     100% {

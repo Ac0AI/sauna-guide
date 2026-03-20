@@ -119,24 +119,63 @@ export function NewsletterSignup({
                        focus:outline-hidden focus:ring-2 focus:ring-sauna-sand/50 focus:border-sauna-sand
                        transition-all duration-300 shadow-lg"
           />
-          <button
-            type="submit"
-            disabled={status === 'loading'}
-            className="px-8 py-4 bg-sauna-sand text-sauna-charcoal font-medium text-base rounded-xl
-                       hover:bg-sauna-sand/90 transition-colors duration-300
-                       disabled:opacity-50 disabled:cursor-not-allowed
-                       shadow-lg hover:shadow-xl whitespace-nowrap"
-          >
-            {status === 'loading' ? (
-              <span className="flex items-center justify-center gap-2">
-                <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                </svg>
-                Sending...
+          {/* Outer glow wrapper */}
+          <div className="relative group rounded-xl whitespace-nowrap
+                          hover:scale-[1.02] active:scale-[0.98] transition-transform duration-500">
+            {/* Spinning conic gradient border - the "molten metal" ring */}
+            <div className="absolute -inset-[2px] rounded-xl overflow-hidden">
+              <div className="absolute inset-0 bg-[conic-gradient(#5C4033_0%,#C8843C_20%,#E8B86D_35%,#FFF1D0_45%,#E8B86D_55%,#C8843C_70%,#5C4033_100%)]
+                              animate-spin-slow opacity-75 group-hover:opacity-100
+                              transition-opacity duration-500" />
+            </div>
+            {/* Grinding spark - contact point with particle spray */}
+            <div className="absolute inset-0 animate-orbit-spark pointer-events-none">
+              {/* Hot contact point */}
+              <div className="absolute -top-0.5 left-1/2 w-1.5 h-1.5 bg-white rounded-full
+                              shadow-[0_0_4px_2px_rgba(255,220,80,0.9),0_0_12px_4px_rgba(232,184,109,0.4)]" />
+              {/* Particle spray - tiny fast sparks */}
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-amber-200 rounded-full [animation:sp1_0.35s_ease-out_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-white rounded-full [animation:sp2_0.3s_ease-out_0.05s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-yellow-300 rounded-full [animation:sp3_0.4s_ease-out_0.1s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-amber-100 rounded-full [animation:sp4_0.32s_ease-out_0.15s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-orange-300 rounded-full [animation:sp5_0.38s_ease-out_0.08s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-white rounded-full [animation:sp6_0.33s_ease-out_0.2s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-yellow-200 rounded-full [animation:sp7_0.36s_ease-out_0.12s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-amber-300 rounded-full [animation:sp8_0.42s_ease-out_0.03s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-white/80 rounded-full [animation:sp9_0.3s_ease-out_0.18s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-amber-100 rounded-full [animation:sp10_0.34s_ease-out_0.07s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-yellow-100 rounded-full [animation:sp11_0.28s_ease-out_0.22s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-orange-200 rounded-full [animation:sp12_0.37s_ease-out_0.13s_infinite]" />
+            </div>
+            {/* Outer ambient glow */}
+            <div className="absolute -inset-1.5 rounded-xl bg-amber-500/15 blur-lg
+                            animate-glow group-hover:bg-amber-500/25" />
+            <button
+              type="submit"
+              disabled={status === 'loading'}
+              className="relative px-8 py-4 font-medium text-base rounded-xl
+                         overflow-hidden transition-all duration-500
+                         disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {/* Darker warm gradient base */}
+              <span className="absolute inset-0 bg-gradient-to-r from-sauna-bark via-sauna-walnut to-sauna-bark" />
+              {/* Shimmer overlay */}
+              <span className="absolute inset-0 bg-[length:200%_100%] animate-shimmer
+                               bg-gradient-to-r from-transparent via-white/25 to-transparent" />
+              {/* Text */}
+              <span className="relative text-white drop-shadow-sm">
+                {status === 'loading' ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    Sending...
+                  </span>
+                ) : 'Send me the guide'}
               </span>
-            ) : 'Send me the guide'}
-          </button>
+            </button>
+          </div>
         </div>
         {message && (
           <p className={`mt-4 text-center text-sm ${status === 'success' ? 'text-green-300' : 'text-red-300'}`}>
@@ -162,23 +201,58 @@ export function NewsletterSignup({
                        focus:outline-hidden focus:ring-2 focus:ring-sauna-oak/30 focus:border-sauna-oak
                        transition-all duration-300"
           />
-          <button
-            type="submit"
-            disabled={status === 'loading'}
-            className="w-full px-8 py-3.5 bg-sauna-sand text-sauna-charcoal font-medium rounded-lg
-                       hover:bg-sauna-sand/90 transition-colors duration-300
-                       disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
-          >
-            {status === 'loading' ? (
-              <span className="flex items-center justify-center gap-2">
-                <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                </svg>
-                Sending...
+          {/* Outer glow wrapper */}
+          <div className="relative group rounded-lg w-full
+                          hover:scale-[1.02] active:scale-[0.98] transition-transform duration-500">
+            {/* Spinning metal border */}
+            <div className="absolute -inset-[2px] rounded-lg overflow-hidden">
+              <div className="absolute inset-0 bg-[conic-gradient(#5C4033_0%,#C8843C_20%,#E8B86D_35%,#FFF1D0_45%,#E8B86D_55%,#C8843C_70%,#5C4033_100%)]
+                              animate-spin-slow" />
+            </div>
+            {/* Grinding spark - contact point with particle spray */}
+            <div className="absolute inset-0 animate-orbit-spark pointer-events-none">
+              {/* Hot contact point */}
+              <div className="absolute -top-0.5 left-1/2 w-1.5 h-1.5 bg-white rounded-full
+                              shadow-[0_0_4px_2px_rgba(255,220,80,0.9),0_0_12px_4px_rgba(232,184,109,0.4)]" />
+              {/* Particle spray - tiny fast sparks */}
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-amber-200 rounded-full [animation:sp1_0.35s_ease-out_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-white rounded-full [animation:sp2_0.3s_ease-out_0.05s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-yellow-300 rounded-full [animation:sp3_0.4s_ease-out_0.1s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-amber-100 rounded-full [animation:sp4_0.32s_ease-out_0.15s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-orange-300 rounded-full [animation:sp5_0.38s_ease-out_0.08s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-white rounded-full [animation:sp6_0.33s_ease-out_0.2s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-yellow-200 rounded-full [animation:sp7_0.36s_ease-out_0.12s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-amber-300 rounded-full [animation:sp8_0.42s_ease-out_0.03s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-white/80 rounded-full [animation:sp9_0.3s_ease-out_0.18s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-amber-100 rounded-full [animation:sp10_0.34s_ease-out_0.07s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[2px] h-[2px] bg-yellow-100 rounded-full [animation:sp11_0.28s_ease-out_0.22s_infinite]" />
+              <div className="absolute -top-0.5 left-1/2 w-[3px] h-[3px] bg-orange-200 rounded-full [animation:sp12_0.37s_ease-out_0.13s_infinite]" />
+            </div>
+            {/* Ambient glow */}
+            <div className="absolute -inset-1.5 rounded-lg bg-amber-500/15 blur-lg animate-glow" />
+            <button
+              type="submit"
+              disabled={status === 'loading'}
+              className="relative w-full px-8 py-3.5 font-medium rounded-lg
+                         overflow-hidden transition-all duration-500
+                         disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              <span className="absolute inset-0 bg-gradient-to-r from-sauna-bark via-sauna-walnut to-sauna-bark" />
+              <span className="absolute inset-0 bg-[length:200%_100%] animate-shimmer
+                               bg-gradient-to-r from-transparent via-white/25 to-transparent" />
+              <span className="relative text-white drop-shadow-sm">
+                {status === 'loading' ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                    </svg>
+                    Sending...
+                  </span>
+                ) : 'Send me the guide'}
               </span>
-            ) : 'Send me the guide'}
-          </button>
+            </button>
+          </div>
         </div>
         {message && (
           <p className={`mt-4 text-center text-sm ${status === 'success' ? 'text-green-600' : 'text-red-500'}`}>
@@ -285,20 +359,33 @@ export function NewsletterSignup({
         <button
           type="submit"
           disabled={status === 'loading'}
-          className="px-8 py-4 bg-sauna-paper text-sauna-ink font-medium text-base rounded-xl
-                     hover:bg-sauna-linen transition-colors duration-300
+          className="group relative px-8 py-4 font-medium text-base rounded-xl
+                     overflow-hidden transition-all duration-500
                      disabled:opacity-50 disabled:cursor-not-allowed
-                     shadow-lg hover:shadow-xl"
+                     shadow-lg hover:shadow-2xl hover:shadow-sauna-ember/25
+                     hover:scale-[1.02] active:scale-[0.98]"
         >
-          {status === 'loading' ? (
-            <span className="flex items-center justify-center gap-2">
-              <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-              </svg>
-              Opening...
-            </span>
-          ) : 'Step inside →'}
+          {/* Warm gradient base */}
+          <span className="absolute inset-0 bg-gradient-to-r from-sauna-ember via-sauna-glow to-sauna-ember" />
+          {/* Shimmer overlay */}
+          <span className="absolute inset-0 bg-[length:200%_100%] animate-shimmer
+                           bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+          {/* Soft glow pulse */}
+          <span className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100
+                           transition-opacity duration-500
+                           shadow-[inset_0_0_20px_rgba(212,165,116,0.3)]" />
+          {/* Text */}
+          <span className="relative text-white drop-shadow-sm">
+            {status === 'loading' ? (
+              <span className="flex items-center justify-center gap-2">
+                <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                </svg>
+                Opening...
+              </span>
+            ) : 'Step inside →'}
+          </span>
         </button>
       </div>
 
