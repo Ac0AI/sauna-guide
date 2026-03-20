@@ -2,6 +2,7 @@
 
 import { useReducer, useEffect, useCallback } from 'react'
 import { useSearchParams } from 'next/navigation'
+import posthog from 'posthog-js'
 import type { QuizAnswers, QuizStep, QuizResult } from '@/lib/quiz/types'
 import { quizQuestions } from '@/lib/quiz/questions'
 import { getQuizResult } from '@/lib/quiz/engine'
@@ -191,7 +192,10 @@ export default function QuizClient() {
               </p>
             </div>
             <button
-              onClick={() => dispatch({ type: 'START' })}
+              onClick={() => {
+                posthog.capture('quiz_started')
+                dispatch({ type: 'START' })
+              }}
               className="rounded-lg bg-sauna-ink px-8 py-3.5 font-medium text-white transition-colors hover:bg-sauna-charcoal"
             >
               Find my sauna
@@ -207,6 +211,19 @@ export default function QuizClient() {
               question={currentQuestion}
               selected={state.answers[currentQuestion.answerKey]}
               onSelect={(value) => {
+                posthog.capture('quiz_question_answered', {
+                  question: currentQuestion.answerKey,
+                  answer: value,
+                  question_number: questionNumber,
+                })
+                // Check if this is the last question
+                const currentIndex = STEPS.indexOf(state.step)
+                const nextStep = STEPS[currentIndex + 1]
+                if (nextStep === 'results') {
+                  posthog.capture('quiz_completed', {
+                    answers: { ...state.answers, [currentQuestion.answerKey]: value },
+                  })
+                }
                 // Tap-to-advance with small delay
                 setTimeout(() => {
                   dispatch({

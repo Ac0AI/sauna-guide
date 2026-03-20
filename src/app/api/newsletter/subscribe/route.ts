@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { subscribeToNewsletter } from '@/lib/beehiiv'
+import { getPostHogClient } from '@/lib/posthog-server'
 
 export async function POST(request: NextRequest) {
   try {
@@ -25,6 +26,17 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       )
     }
+
+    const posthog = getPostHogClient()
+    posthog.identify({ distinctId: email, properties: { email } })
+    posthog.capture({
+      distinctId: email,
+      event: 'newsletter_subscribed',
+      properties: {
+        source: utm_source || source || 'website',
+        utm_medium: utm_medium || 'homepage',
+      },
+    })
 
     return NextResponse.json({
       success: true,

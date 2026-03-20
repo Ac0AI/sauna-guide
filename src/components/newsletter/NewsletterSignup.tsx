@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import posthog from 'posthog-js'
 
 interface NewsletterSignupProps {
   variant?: 'hero' | 'inline' | 'minimal' | 'buying-guide' | 'buying-guide-hero'
@@ -41,6 +42,12 @@ export function NewsletterSignup({
         setStatus('success')
         setEmail('')
 
+        posthog.identify(email, { email })
+        posthog.capture('newsletter_subscribed', {
+          source: effectiveSource,
+          variant,
+        })
+
         if (source === 'challenge') {
             setShowInvite(true)
             setMessage('') // Clear any previous messages
@@ -55,10 +62,16 @@ export function NewsletterSignup({
       } else {
         setStatus('error')
         setMessage(data.error || 'Something went wrong. Please try again.')
+        posthog.capture('newsletter_subscription_failed', {
+          source: effectiveSource,
+          variant,
+          error: data.error,
+        })
       }
-    } catch {
+    } catch (err) {
       setStatus('error')
       setMessage('Network error. Please try again.')
+      posthog.captureException(err)
     }
   }
 
@@ -81,8 +94,9 @@ export function NewsletterSignup({
                   const url = typeof window !== 'undefined' ? window.location.href : 'https://sauna.guide/challenge';
                   navigator.clipboard.writeText(`Join me for the 30-Day Sauna Reset: ${url}`);
                   setMessage("Link copied to clipboard!");
+                  posthog.capture('challenge_invite_link_copied')
                   // Optional: Redirect after a delay or just let them stay
-                  // setTimeout(() => router.push('/welcome'), 3000); 
+                  // setTimeout(() => router.push('/welcome'), 3000);
               }}
               className="w-full py-4 bg-sauna-ink text-sauna-paper font-medium rounded-xl hover:bg-sauna-charcoal transition-colors mb-4 flex items-center justify-center gap-3 shadow-md hover:shadow-lg"
             >

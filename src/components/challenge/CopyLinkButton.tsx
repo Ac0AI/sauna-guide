@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import posthog from 'posthog-js'
 
 export function CopyLinkButton() {
   const [copied, setCopied] = useState(false)
@@ -10,6 +11,7 @@ export function CopyLinkButton() {
       await navigator.clipboard.writeText('https://saunaguide.com/challenge')
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
+      posthog.capture('challenge_link_copied')
     } catch {
       // Fallback for older browsers
       const textArea = document.createElement('textarea')
@@ -20,6 +22,7 @@ export function CopyLinkButton() {
       document.body.removeChild(textArea)
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
+      posthog.capture('challenge_link_copied')
     }
   }
 

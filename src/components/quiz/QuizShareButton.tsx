@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import posthog from 'posthog-js'
 import type { QuizAnswers } from '@/lib/quiz/types'
 
 interface QuizShareButtonProps {
@@ -22,6 +23,7 @@ export default function QuizShareButton({ answers }: QuizShareButtonProps) {
           text: 'I found the right home sauna. Take a look at the recommendation.',
           url: shareUrl,
         })
+        posthog.capture('quiz_result_shared', { method: 'native' })
         return
       } catch {
         // User cancelled or share failed, fall through to copy
@@ -32,6 +34,7 @@ export default function QuizShareButton({ answers }: QuizShareButtonProps) {
       await navigator.clipboard.writeText(shareUrl)
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
+      posthog.capture('quiz_result_shared', { method: 'clipboard' })
     } catch {
       // Clipboard API not available, prompt manual copy
       prompt('Copy this link:', shareUrl)

@@ -5,10 +5,27 @@
  * Every prompt must include source material. Every output must be parseable JSON.
  */
 
-import Anthropic from '@anthropic-ai/sdk'
+import { Anthropic } from '@posthog/ai'
+import { PostHog } from 'posthog-node'
 import { jsonrepair } from 'jsonrepair'
 
 let client = null
+let phClient = null
+
+function getPostHogClient() {
+  if (!phClient) {
+    phClient = new PostHog(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
+      host: process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://eu.i.posthog.com',
+      flushAt: 1,
+      flushInterval: 0,
+    })
+    // Flush on script exit
+    process.on('beforeExit', async () => {
+      await phClient.shutdown()
+    })
+  }
+  return phClient
+}
 
 function getClient() {
   if (!client) {
@@ -16,7 +33,10 @@ function getClient() {
       console.error('Missing ANTHROPIC_API_KEY. Set it in .env.local')
       process.exit(1)
     }
-    client = new Anthropic()
+    client = new Anthropic({
+      apiKey: process.env.ANTHROPIC_API_KEY,
+      posthog: getPostHogClient(),
+    })
   }
   return client
 }
@@ -24,7 +44,7 @@ function getClient() {
 /**
  * Send a structured prompt to Claude and parse JSON response.
  */
-export async function extractStructured(systemPrompt, userPrompt, { model = 'claude-3-haiku-20240307', maxTokens = 4096, temperature = 0 } = {}) {
+export async function extractStructured(systemPrompt, userPrompt, { model = 'claude-3-haiku-20240307', maxTokens = 4096, temperature = 0, posthogTraceId, posthogProperties } = {}) {
   const resolvedModel = process.env.ANTHROPIC_MODEL || model
   const anthropic = getClient()
 
@@ -34,6 +54,9 @@ export async function extractStructured(systemPrompt, userPrompt, { model = 'cla
     temperature,
     system: systemPrompt,
     messages: [{ role: 'user', content: userPrompt }],
+    posthogDistinctId: 'enrichment-script',
+    posthogTraceId,
+    posthogProperties,
   })
 
   const text = response.content
@@ -102,7 +125,9 @@ ${rawSources.map((s, i) => `### Source ${i + 1}: ${s.url}\n${s.text.slice(0, 300
   }
 }`
 
-  return extractStructured(systemPrompt, userPrompt)
+  return extractStructured(systemPrompt, userPrompt, {
+    posthogProperties: { task: 'normalize_sauna', source_count: rawSources.length },
+  })
 }
 
 /**
@@ -137,5 +162,7 @@ ${rawSources.map((s, i) => `### Source ${i + 1}: ${s.url}\n${s.text.slice(0, 300
   "buyerVerdict": "string or null — 1-2 sentence editorial summary"
 }`
 
-  return extractStructured(systemPrompt, userPrompt)
+  return extractStructured(systemPrompt, userPrompt, {
+    posthogProperties: { task: 'normalize_brand', source_count: rawSources.length },
+  })
 }

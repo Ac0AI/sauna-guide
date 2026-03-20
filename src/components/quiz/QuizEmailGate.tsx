@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import posthog from 'posthog-js'
 import type { QuizAnswers } from '@/lib/quiz/types'
 
 interface QuizEmailGateProps {
@@ -19,6 +20,8 @@ export default function QuizEmailGate({ answers, onUnlock }: QuizEmailGateProps)
 
     setStatus('loading')
     setErrorMessage('')
+
+    posthog.capture('quiz_email_submitted')
 
     try {
       const customFields: Record<string, string> = {}
@@ -48,10 +51,19 @@ export default function QuizEmailGate({ answers, onUnlock }: QuizEmailGateProps)
         return
       }
 
+      posthog.identify(email, { email })
+      posthog.capture('quiz_results_unlocked', {
+        heat_type: answers.heatType,
+        budget: answers.budget,
+        placement: answers.placement,
+        motivation: answers.motivation,
+        timeline: answers.timeline,
+      })
       onUnlock()
-    } catch {
+    } catch (err) {
       setErrorMessage('Something went wrong. Try again.')
       setStatus('error')
+      posthog.captureException(err)
     }
   }
 
