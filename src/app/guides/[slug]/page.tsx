@@ -16,6 +16,7 @@ import { NewsletterSignup } from '@/components/newsletter/NewsletterSignup'
 import { Navigation } from '@/components/layout/Navigation'
 import { Footer } from '@/components/layout/Footer'
 import QuizCTA from '@/components/quiz/QuizCTA'
+import BuyerHandoffCard from '@/components/guides/BuyerHandoffCard'
 
 function formatDisplayDate(value?: string) {
   if (!value) return null
@@ -90,6 +91,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
   const isHealthGuide = (guide.meta.tags || []).some((tag) =>
     ['health', 'medical', 'safety', 'pregnancy', 'kids', 'seniors'].includes(tag.toLowerCase())
   )
+  const showBuyerHandoff = guide.meta.buyerHandoff === true
 
   const articleJsonLd = {
     '@context': 'https://schema.org',
@@ -233,6 +235,8 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           </div>
         </section>
 
+        {showBuyerHandoff && <BuyerHandoffCard slug={guide.meta.slug} />}
+
         {relatedGuides.length > 0 && (
           <section className="mt-16">
             <h2 className="font-display text-2xl font-medium text-sauna-ink mb-6">
@@ -260,15 +264,17 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
           </section>
         )}
 
-        <div className="mt-16 pt-10 border-t border-sauna-ash/50 text-center">
-             <h3 className="font-display text-2xl font-medium text-sauna-ink mb-3">
-                Thinking about a home sauna?
+        {!showBuyerHandoff && (
+          <div className="mt-16 pt-10 border-t border-sauna-ash/50 text-center">
+            <h3 className="font-display text-2xl font-medium text-sauna-ink mb-3">
+              Thinking about a home sauna?
             </h3>
             <p className="text-sauna-slate mb-6">
-                Get our free 3-part guide. Real costs, real reviews, zero sales bias.
+              Get our free 3-part guide. Real costs, real reviews, zero sales bias.
             </p>
             <NewsletterSignup variant="buying-guide" source="guide-article" />
-        </div>
+          </div>
+        )}
       </article>
 
       <Footer />

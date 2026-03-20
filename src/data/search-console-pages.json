@@ -1,17 +1,59 @@
 [
   {
-    "key": "https://sauna.guide/",
-    "clicks": 1,
-    "impressions": 14,
-    "ctr": 7.14,
-    "position": 18.6
+    "key": "https://sauna.guide/guides/when-not-to-sauna",
+    "clicks": 0,
+    "impressions": 493,
+    "ctr": 0,
+    "position": 9.2
+  },
+  {
+    "key": "https://sauna.guide/sauna-brands",
+    "clicks": 0,
+    "impressions": 51,
+    "ctr": 0,
+    "position": 59.1
+  },
+  {
+    "key": "https://sauna.guide/guides",
+    "clicks": 0,
+    "impressions": 46,
+    "ctr": 0,
+    "position": 15.6
+  },
+  {
+    "key": "https://sauna.guide/guides/sauna-safety-guide",
+    "clicks": 0,
+    "impressions": 46,
+    "ctr": 0,
+    "position": 13.5
   },
   {
     "key": "https://sauna.guide/challenge",
     "clicks": 0,
-    "impressions": 18,
+    "impressions": 23,
     "ctr": 0,
-    "position": 42.3
+    "position": 40.8
+  },
+  {
+    "key": "https://sauna.guide/guides/contrast-therapy-complete-guide",
+    "clicks": 0,
+    "impressions": 23,
+    "ctr": 0,
+    "position": 13.8
+  },
+  {
+    "key": "https://sauna.guide/",
+    "clicks": 1,
+    "impressions": 17,
+    "ctr": 5.88,
+    "position": 24.7
+  },
+  {
+    "key": "https://sauna.guide/saunas/sauna-shikiji",
+    "clicks": 0,
+    "impressions": 14,
+    "ctr": 0,
+    "position": 8.4
   },
   {
     "key": "https://sauna.guide/gear/birch-vihta-whisk",
@@ -28,53 +70,11 @@
     "position": 6.7
   },
   {
-    "key": "https://sauna.guide/guides",
-    "clicks": 0,
-    "impressions": 39,
-    "ctr": 0,
-    "position": 14
-  },
-  {
-    "key": "https://sauna.guide/guides/contrast-therapy-complete-guide",
-    "clicks": 0,
-    "impressions": 23,
-    "ctr": 0,
-    "position": 13.8
-  },
-  {
     "key": "https://sauna.guide/guides/infrared-sauna-complete-guide",
     "clicks": 0,
     "impressions": 3,
     "ctr": 0,
     "position": 37.3
-  },
-  {
-    "key": "https://sauna.guide/guides/sauna-safety-guide",
-    "clicks": 0,
-    "impressions": 46,
-    "ctr": 0,
-    "position": 13.5
-  },
-  {
-    "key": "https://sauna.guide/guides/when-not-to-sauna",
-    "clicks": 0,
-    "impressions": 493,
-    "ctr": 0,
-    "position": 9.2
-  },
-  {
-    "key": "https://sauna.guide/sauna-brands",
-    "clicks": 0,
-    "impressions": 29,
-    "ctr": 0,
-    "position": 52.8
-  },
-  {
-    "key": "https://sauna.guide/saunas/sauna-shikiji",
-    "clicks": 0,
-    "impressions": 14,
-    "ctr": 0,
-    "position": 8.4
   },
   {
     "key": "https://www.sauna.guide/sauna-brands/finnleo",

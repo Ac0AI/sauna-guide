@@ -13,6 +13,7 @@ export interface GuideMeta {
   tags?: string[]
   image?: string
   lastModified?: string
+  buyerHandoff?: boolean
 }
 
 export interface GuidePost {
@@ -148,6 +149,7 @@ export function getAllGuides(): GuideMeta[] {
         author: data.author,
         tags: data.tags,
         image: data.image,
+        buyerHandoff: data.buyerHandoff === true,
         lastModified,
       } as GuideMeta
     })

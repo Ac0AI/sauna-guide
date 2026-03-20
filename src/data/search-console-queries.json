@@ -2,9 +2,9 @@
   {
     "key": "sauna guide",
     "clicks": 1,
-    "impressions": 4,
-    "ctr": 25,
-    "position": 36
+    "impressions": 5,
+    "ctr": 20,
+    "position": 43.6
   },
   {
     "key": "bathing brands sauna",
@@ -12,6 +12,13 @@
     "impressions": 1,
     "ctr": 0,
     "position": 53
+  },
+  {
+    "key": "best sauna brands",
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 87
   },
   {
     "key": "best sauna manufacturers",
@@ -63,11 +70,32 @@
     "position": 98
   },
   {
+    "key": "sauna brand",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 26.5
+  },
+  {
     "key": "sauna brands",
     "clicks": 0,
-    "impressions": 6,
+    "impressions": 9,
     "ctr": 0,
-    "position": 77.5
+    "position": 80.2
+  },
+  {
+    "key": "sauna buying guide",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 80
+  },
+  {
+    "key": "sauna companies",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 59.7
   },
   {
     "key": "sauna contraindications",
@@ -91,11 +119,25 @@
     "position": 88
   },
   {
+    "key": "sauna makers",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 99
+  },
+  {
     "key": "sauna manufacturers",
     "clicks": 0,
-    "impressions": 4,
+    "impressions": 7,
     "ctr": 0,
-    "position": 88
+    "position": 77.9
+  },
+  {
+    "key": "sauna name",
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 90
   },
   {
     "key": "sauna protocol",
@@ -107,16 +149,16 @@
   {
     "key": "sauna protocols",
     "clicks": 0,
-    "impressions": 1,
+    "impressions": 3,
     "ctr": 0,
-    "position": 67
+    "position": 67.3
   },
   {
     "key": "sauna reset",
     "clicks": 0,
-    "impressions": 15,
+    "impressions": 20,
     "ctr": 0,
-    "position": 49.9
+    "position": 46.3
   },
   {
     "key": "sauna safety guidelines",
@@ -142,9 +184,9 @@
   {
     "key": "top sauna brands",
     "clicks": 0,
-    "impressions": 1,
+    "impressions": 4,
     "ctr": 0,
-    "position": 99
+    "position": 87
   },
   {
     "key": "what should you not do in a sauna",

@@ -107,6 +107,27 @@ async function fetchAnalytics(dimensions, rowLimit = ROW_LIMIT) {
   }))
 }
 
+async function fetchAggregateTotals() {
+  const res = await searchconsole.searchanalytics.query({
+    siteUrl: SITE_URL,
+    requestBody: {
+      startDate: dateStr(DAYS),
+      endDate: dateStr(1), // yesterday
+      rowLimit: 1,
+      dataState: 'final',
+    },
+  })
+
+  const row = res.data.rows?.[0]
+
+  return {
+    clicks: row?.clicks || 0,
+    impressions: row?.impressions || 0,
+    ctr: row ? Math.round(row.ctr * 10000) / 100 : 0,
+    position: row ? Math.round(row.position * 10) / 10 : 0,
+  }
+}
+
 function findQuickWins(queries) {
   // High impressions but low CTR = improve title/description
   return queries
@@ -138,23 +159,30 @@ async function main() {
   console.log()
 
   // Fetch query and page data in parallel
-  const [queries, pages] = await Promise.all([
+  const [queries, pages, aggregateTotals] = await Promise.all([
     fetchAnalytics(['query']),
     fetchAnalytics(['page']),
+    fetchAggregateTotals(),
   ])
 
   console.log(`📊 Found ${queries.length} queries, ${pages.length} pages`)
 
-  // Compute totals
-  const totals = queries.reduce(
+  const toTotals = (rows) => rows.reduce(
     (acc, q) => ({
       clicks: acc.clicks + q.clicks,
       impressions: acc.impressions + q.impressions,
     }),
     { clicks: 0, impressions: 0 }
   )
-  totals.ctr = totals.impressions > 0
-    ? Math.round((totals.clicks / totals.impressions) * 10000) / 100
+
+  const queryTotals = toTotals(queries)
+  queryTotals.ctr = queryTotals.impressions > 0
+    ? Math.round((queryTotals.clicks / queryTotals.impressions) * 10000) / 100
+    : 0
+
+  const pageTotals = toTotals(pages)
+  pageTotals.ctr = pageTotals.impressions > 0
+    ? Math.round((pageTotals.clicks / pageTotals.impressions) * 10000) / 100
     : 0
 
   // Insights
@@ -167,7 +195,12 @@ async function main() {
     fetchedAt: new Date().toISOString(),
     siteUrl: SITE_URL,
     period: { days: DAYS, startDate: dateStr(DAYS), endDate: dateStr(1) },
-    totals,
+    totals: aggregateTotals,
+    queryTotals,
+    pageTotals,
+    notes: {
+      totals: 'Overall totals come from an aggregate Search Console query without dimensions. Query and page totals are included separately because Search Console can report different totals across dimensions.',
+    },
     insights: {
       quickWins: {
         description: 'High impressions, low CTR — improve title & meta description',
@@ -182,7 +215,9 @@ async function main() {
         items: topPerformers,
       },
     },
-    topPages: pages.sort((a, b) => b.clicks - a.clicks).slice(0, 30),
+    topPages: pages
+      .sort((a, b) => (b.impressions - a.impressions) || (b.clicks - a.clicks))
+      .slice(0, 30),
   }
 
   // Write output files
@@ -199,9 +234,14 @@ async function main() {
   // Print summary
   console.log()
   console.log('── Summary ──────────────────────────────────────')
-  console.log(`   Total clicks:      ${totals.clicks}`)
-  console.log(`   Total impressions: ${totals.impressions}`)
-  console.log(`   Average CTR:       ${totals.ctr}%`)
+  console.log(`   Total clicks:      ${aggregateTotals.clicks}`)
+  console.log(`   Total impressions: ${aggregateTotals.impressions}`)
+  console.log(`   Average CTR:       ${aggregateTotals.ctr}%`)
+  console.log(`   Avg position:      ${aggregateTotals.position}`)
+  console.log()
+  console.log('── Dimension Totals ─────────────────────────────')
+  console.log(`   Query totals:      ${queryTotals.clicks} clicks / ${queryTotals.impressions} impressions / ${queryTotals.ctr}% CTR`)
+  console.log(`   Page totals:       ${pageTotals.clicks} clicks / ${pageTotals.impressions} impressions / ${pageTotals.ctr}% CTR`)
   console.log()
 
   if (topPerformers.length > 0) {
