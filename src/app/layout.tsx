@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/next'
+import CookieBanner from '@/components/CookieBanner'
 import './globals.css'
 
 const baseUrl = 'https://sauna.guide'
@@ -101,6 +102,7 @@ export default function RootLayout({
       <body className="antialiased bg-sauna-steam text-sauna-dark">
         {children}
         <Analytics />
+        <CookieBanner />
       </body>
     </html>
   )

@@ -46,6 +46,7 @@ export function Footer() {
               <li><Link href="/editorial-policy" className="hover:text-sauna-paper transition-colors">Editorial Policy</Link></li>
               <li><Link href="/affiliate-disclosure" className="hover:text-sauna-paper transition-colors">Affiliate Disclosure</Link></li>
               <li><Link href="/contact" className="hover:text-sauna-paper transition-colors">Contact</Link></li>
+              <li><button type="button" data-cookie-settings className="hover:text-sauna-paper transition-colors">Cookie Settings</button></li>
             </ul>
           </div>
           <div className="text-sauna-fog leading-relaxed">
