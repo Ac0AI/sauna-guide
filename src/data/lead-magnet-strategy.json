@@ -1,0 +1,457 @@
+{
+  "generatedAt": "2026-03-16T00:00:00.000Z",
+  "researchScope": "High-ticket home sauna buyer ($3K-$15K+), ICP: affluent quality-conscious researchers",
+  "executiveSummary": "The single highest-leverage move for sauna.guide is an interactive Home Sauna Configurator tool — not a PDF. Interactive tools convert at 40%+ vs 10% for PDFs, produce 48% higher-quality leads, and are engineered to solve this ICP's specific pain: analysis paralysis after 6 months of open tabs. Every other tactic flows downstream from this anchor asset.",
+
+  "leadMagnetFormats": {
+    "ranked": [
+      {
+        "rank": 1,
+        "format": "Interactive Configurator / Cost Calculator",
+        "conversionRate": "40-50%",
+        "leadQuality": "48% higher qualified rate vs PDF",
+        "whyItWins": "Solves analysis paralysis directly. Buyer inputs their space, budget, and priorities — gets a personalized recommendation. Creates a shareable artifact ('show your partner'). The tool does not feel like a lead magnet; it feels like a decision support tool they were looking for.",
+        "saunaGuideVersion": "Home Sauna Configurator: answer 6 questions (space size, indoor/outdoor, traditional/infrared preference, budget range, primary use case, household size), receive a personalized setup recommendation with brand match and estimated cost range",
+        "viralMechanic": "Results page has 'Send this to your partner' share link — couples research together, tool captures both emails or drives one partner to forward",
+        "buildComplexity": "Medium — can use Typeform, Outgrow, or custom Next.js quiz component. Recommend building natively to keep users on site.",
+        "analogousExample": "Haven of Heat (havenofheat.com) already runs a Sauna ROI Calculator that ranks for 'sauna ROI' terms. Pool and hot tub industry uses budget calculators as top-of-funnel for $10K+ purchases.",
+        "estimatedConversionLift": "3-5x vs current newsletter CTA baseline"
+      },
+      {
+        "rank": 2,
+        "format": "Definitive Buyer's Guide (gated, structured)",
+        "conversionRate": "15-25%",
+        "leadQuality": "High — only serious buyers download a 30-page guide",
+        "whyItWins": "Pre-renovation guidebooks perform strongly in analogous markets (luxury home renovation, pools) because only genuine purchase-intent visitors download them. A 30-page PDF costs nothing to produce and pre-qualifies the list.",
+        "saunaGuideVersion": "'The No-BS Home Sauna Buying Guide 2026' — covers: infrared vs traditional vs barrel, space requirements, electrical/installation reality, top 5 brands at each price tier, questions to ask before buying, what to avoid. Framed as 'everything we wish we'd known before the purchase.'",
+        "viralMechanic": "Include a checklist page formatted to print and bring to showroom visits. People photograph and share printed checklists.",
+        "buildComplexity": "Low — you already have most of this content in guides. Compile and gate it.",
+        "analogousExample": "Luxury home marketing firms use 'Pre-Renovation Guidebook' as primary lead magnet. Interior designers use 'Project Guidebook' with goal-setting, timeline, investment estimation — converts because only committed buyers want it.",
+        "estimatedConversionLift": "2-3x vs ungated content"
+      },
+      {
+        "rank": 3,
+        "format": "Sauna Protocol / Starter Kit (email course)",
+        "conversionRate": "10-18%",
+        "leadQuality": "Medium — attracts both buyers and hobbyists",
+        "whyItWins": "5-email automated course keeps you top-of-mind during the 90-180 day research cycle. Converts researchers into habitual readers before they're ready to buy.",
+        "saunaGuideVersion": "'Your First 30 Days: A Sauna Practice Starter Kit' — 5 emails over 3 weeks. Reframes the purchase as beginning a practice, not buying a product. Extremely aligned with brand voice.",
+        "viralMechanic": "Each email ends with 'Forward this to a friend who needs forced stillness' — low friction because it is framed as a gift, not a referral ask.",
+        "buildComplexity": "Low — Beehiiv automation, already in roadmap",
+        "analogousExample": "Hot tub companies use 3-5 day email sequences covering features, financing, and customer stories. The course format outperforms single-download magnets for long-cycle purchases.",
+        "estimatedConversionLift": "Sustained engagement over 90-day cycle is the primary value, not one-time conversion"
+      },
+      {
+        "rank": 4,
+        "format": "Comparison Matrix / Cheat Sheet",
+        "conversionRate": "8-12%",
+        "leadQuality": "Medium-High",
+        "whyItWins": "Buyers deep in research mode want a single reference they can return to. A well-designed comparison sheet gets saved, bookmarked, printed, shared in partner conversations.",
+        "saunaGuideVersion": "'Infrared vs Traditional vs Barrel Sauna: The Complete Comparison' — one-page visual matrix covering heat type, cost range, installation requirements, health applications, maintenance, and brand recommendations at each tier",
+        "viralMechanic": "Designed to be shared in Reddit threads, Facebook groups, and WhatsApp partner chats. Compact format travels well.",
+        "buildComplexity": "Low — 2-3 hours in Figma/Canva",
+        "estimatedConversionLift": "Strong for mid-funnel capture when positioned inside comparison content"
+      }
+    ],
+    "formatsThatUnderperform": [
+      {
+        "format": "Generic 'Sauna Benefits' PDF",
+        "conversionRate": "3-8%",
+        "problem": "Information your ICP already has. Erik has read 47 articles. He does not need more benefits. He needs a decision framework."
+      },
+      {
+        "format": "Discount / Promo Code",
+        "conversionRate": "N/A — no product to discount",
+        "problem": "Does not apply and would attract anti-persona budget hunters if sauna.guide launches affiliate offers with promo codes"
+      },
+      {
+        "format": "Webinar / Live Event",
+        "conversionRate": "15-30% for registrants, low show rate",
+        "problem": "High production cost, scheduling friction, does not match this ICP's preference for async, skimmable content"
+      }
+    ]
+  },
+
+  "buyerPsychology": {
+    "researchPhaseProfile": {
+      "duration": "90-180 days average for $5K-$15K considered purchase",
+      "behaviorPattern": "Open 47 tabs, get overwhelmed, close everything, repeat 3-4 times. Final purchase triggered by a trusted single recommendation that ends the paralysis.",
+      "keyInsight": "This audience does not need more information. They need permission to stop researching and a trusted source to tell them what to buy. The email exchange is not for a PDF — it is for access to someone who has already done the work.",
+      "emotionalState": "Frustrated researcher. Intelligent, used to making decisions, annoyed that this one is hard. Slightly embarrassed by how long it has taken.",
+      "whatMakesThemExchangeEmail": [
+        "Tool that gives a personalized answer, not generic advice — 'This is for MY situation'",
+        "Content that acknowledges the frustration explicitly — 'If you've been researching for months without deciding, read this'",
+        "Credibility signals: brand comparisons with real prices, honest downsides listed, no affiliate cheerleading tone",
+        "Progressive reveal: getting partial value (tool results) with more promised via email (full recommendations)",
+        "Social proof from people who look like them: other founders, professionals who made the purchase"
+      ],
+      "emailExchangeBlockers": [
+        "Looks like another spam list",
+        "Value proposition is generic ('get weekly wellness tips')",
+        "Too much friction before seeing partial value",
+        "No credibility signals on lead magnet landing page"
+      ]
+    },
+    "psychologicalTriggers": {
+      "analyticAnalysis": "ICP is analytical. Lead with data, cite sources, show your work. 'According to a 2022 Finnish cohort study of 2,315 men...' builds trust faster than any benefit claim.",
+      "fearOfWrongPurchase": "This buyer fears the $8,000 mistake more than anything. Lead magnets that de-risk the purchase convert better than those that sell the dream. Frame: 'Here is exactly how to not regret this purchase.'",
+      "partnerApproval": "The majority of home sauna purchases involve two decision-makers. Any tool or content that helps the buyer convince their partner ('share this with your partner') effectively doubles your reach and reduces a key purchase barrier.",
+      "identityAlignment": "This ICP buys things that match how they see themselves. A sauna is not just heat — it is the identity of someone who prioritizes recovery, tradition, and quality. Lead magnets that reinforce this identity ('join 8,000 founders and professionals who have made this their practice') convert better than generic wellness framing.",
+      "reciprocity": "Provide 10x more value than you ask for before the email gate. Visible sample of the guide, first 3 pages free, or live tool preview before capture all increase conversion."
+    }
+  },
+
+  "distributionChannels": {
+    "ranked": [
+      {
+        "rank": 1,
+        "channel": "Google Organic Search",
+        "why": "Captures buyers in active research mode — highest purchase intent of any channel. Pages ranking for 'home sauna cost', 'best home sauna', 'infrared vs traditional sauna', 'home sauna buying guide' are meeting buyers at peak research intensity. CTA placement inside these pages is the highest-ROI distribution lever you have.",
+        "tactics": [
+          "Gate the configurator tool after free questions — mid-article CTA on all buying-related guides",
+          "Add 'Get the complete comparison emailed to you' CTA on comparison content",
+          "Exit-intent popup on guide pages: 'Before you go: you've read this far. The full buying guide is free. Your email, and it is yours.'"
+        ],
+        "currentOpportunity": "sauna.guide has 24 guides live. home-sauna-cost-guide-2026.mdx and ultimate-home-sauna-buying-guide.mdx are the two highest-intent pages. These should have the configurator embedded, not just a newsletter CTA.",
+        "effort": "Low — optimize existing pages",
+        "roi": "Very High"
+      },
+      {
+        "rank": 2,
+        "channel": "Pinterest",
+        "why": "Underrated for home improvement high-ticket. Pinterest users are in planning/inspiration phase — exactly where sauna buyers start. Home sauna boards are active. A buyer saving pins for 3 months before purchase is a buyer who will eventually click through. Pinterest traffic is 90-day purchase intent, not impulse.",
+        "tactics": [
+          "'Home Sauna Ideas by Budget' pins linking to buying guide",
+          "Infographic: 'Infrared vs Traditional: Side-by-Side' (visual comparison converts on Pinterest)",
+          "'Home Sauna Setup Inspiration' boards — lifestyle content that gets saved by planners",
+          "Each pin links to a pillar page, not the homepage"
+        ],
+        "expectedTimeline": "3-6 months to meaningful traffic, but evergreen once pinned",
+        "effort": "Low to Medium — batch creation",
+        "roi": "Medium-High (long-term compounding)"
+      },
+      {
+        "rank": 3,
+        "channel": "Reddit (r/Sauna, r/HomeImprovement, r/Biohackers, r/DIY)",
+        "why": "High-intent community + AI citation engine. When someone posts 'finally buying a home sauna, where do I start' — that thread gets read by thousands of future buyers. A thorough answer with a link to the configurator or buying guide is permanently discoverable.",
+        "tactics": [
+          "Answer 'what home sauna should I buy' posts with genuine help, link to configurator at end",
+          "Post the buying guide naturally when directly relevant to a question",
+          "r/HomeImprovement and r/DIY have large audiences researching exactly this decision"
+        ],
+        "effort": "Medium ongoing",
+        "roi": "High (AI citations + evergreen threads)"
+      },
+      {
+        "rank": 4,
+        "channel": "YouTube Descriptions and Comments",
+        "why": "Home sauna review YouTube videos get hundreds of thousands of views. Commenting with genuine additional information + link to the configurator on high-traffic videos reaches buyers who are deep in research. Not spammy if the comment adds real value.",
+        "tactics": [
+          "Comment on top 'home sauna review' and 'home sauna installation' videos with supplementary info",
+          "If creating own videos eventually: buying guide link in every description",
+          "Partner with home sauna review YouTubers to include configurator link in descriptions"
+        ],
+        "effort": "Low (commenting), Medium (own videos)",
+        "roi": "Medium"
+      },
+      {
+        "rank": 5,
+        "channel": "Facebook Groups (Home Improvement, Biohacking, Health Optimization)",
+        "why": "Private Facebook groups for home renovation, biohacking, and wellness communities have active discussions about home sauna purchases. This ICP uses Facebook less than Reddit but specific groups are high-intent.",
+        "tactics": [
+          "Answer questions in 'Home Improvement' and biohacking groups",
+          "Share the configurator when someone asks for buying help",
+          "Do not post promotional content — only respond when directly relevant"
+        ],
+        "effort": "Low",
+        "roi": "Medium"
+      },
+      {
+        "rank": 6,
+        "channel": "Partner Newsletter Cross-Promotions",
+        "why": "Wellness and longevity newsletters (Peter Attia's subscribers, Huberman audience newsletters, morning routine newsletters) have near-identical ICP overlap. A mention in one issue can drive 500-2,000 highly qualified signups.",
+        "tactics": [
+          "Target newsletters with audience size 5K-50K (large enough to matter, small enough to want cross-promos)",
+          "Offer to write a guest piece on sauna science — adds value to their audience",
+          "Lead with configurator as the thing they share, not the newsletter itself"
+        ],
+        "effort": "Medium (outreach + content creation)",
+        "roi": "Very High per effort"
+      }
+    ],
+    "channelsToDeprioritize": [
+      {
+        "channel": "TikTok",
+        "reason": "Wrong demographic for $15K purchase consideration. Good for brand awareness with Sofia persona, but Erik is not making a $15K decision from a 60-second video."
+      },
+      {
+        "channel": "Twitter/X cold outreach",
+        "reason": "Organic Twitter content is valuable. Cold DM outreach for lead magnet downloads is not how this audience works."
+      },
+      {
+        "channel": "Paid social ads (cold audience)",
+        "reason": "Too early in the brand lifecycle. Budget is better spent on content that earns organic reach first."
+      }
+    ]
+  },
+
+  "emailNurtureSequence": {
+    "philosophy": "This buyer has a 90-180 day cycle. The email sequence is not a conversion sprint — it is a trust-building operation that ensures sauna.guide is the trusted source they return to when they are finally ready to decide.",
+    "structure": [
+      {
+        "email": 1,
+        "timing": "Immediately after signup",
+        "subject": "Your home sauna questions, answered",
+        "purpose": "Deliver promised lead magnet. Establish what they signed up for. One clear next step.",
+        "content": "Deliver the configurator results or guide. 3-sentence brand intro. One CTA: 'The Thursday letter covers this in more depth — first issue arrives [day].'",
+        "tone": "Warm, direct, zero hype"
+      },
+      {
+        "email": 2,
+        "timing": "Day 3",
+        "subject": "The $8,000 mistake most buyers make",
+        "purpose": "Address the fear-of-wrong-purchase directly. Build credibility by being honest about downsides.",
+        "content": "Most common home sauna buying mistakes (undersized space, wrong electrical, ignoring installation costs, buying infrared because it was cheaper without understanding why). Lead with the mistakes, not the upsell. CTA: link to the relevant comparison guide.",
+        "tone": "Fellow researcher who has seen this pattern. Not preachy."
+      },
+      {
+        "email": 3,
+        "timing": "Day 7",
+        "subject": "What Finnish sauna culture gets right (that we get wrong)",
+        "purpose": "Brand voice deepens. Move from information to atmosphere. Remind them why this matters.",
+        "content": "Short cultural piece. The ritual aspect. Why it sticks when other wellness habits don't. Soft connection to the product decision: the right setup makes the ritual more likely to happen.",
+        "tone": "Atmospheric, slightly literary. Breathing sentences."
+      },
+      {
+        "email": 4,
+        "timing": "Day 14",
+        "subject": "The honest infrared vs traditional breakdown",
+        "purpose": "Address the #1 decision question directly. Position sauna.guide as the no-BS source.",
+        "content": "Clear comparison with real trade-offs. Includes who each is actually right for. Cites sources. Does not push one option. Ends with: 'If you want a personalized take on your situation, the configurator does this in 2 minutes: [link]'",
+        "tone": "Analyst, not salesperson"
+      },
+      {
+        "email": 5,
+        "timing": "Day 21",
+        "subject": "A founder's sauna setup (what they bought and why)",
+        "purpose": "Social proof from the tribe. This ICP trusts peer accounts more than brand claims.",
+        "content": "First-person account from someone who matches the ICP — went through the same research paralysis, made a decision, uses it regularly. Specific about what they bought, what it cost, what they would change. Real name and occupation if possible.",
+        "tone": "Personal, specific, honest about imperfections"
+      },
+      {
+        "email": 6,
+        "timing": "Day 35",
+        "subject": "Are you still researching? (No judgment)",
+        "purpose": "Re-engage researchers who have not converted. Acknowledge the cycle explicitly.",
+        "content": "'We know the loop. Open 47 tabs. Get overwhelmed. Close everything. Repeat. If that is where you are, here is the shortcut: [configurator link]. Three minutes, one recommendation. No tabs required.' Also: preview upcoming Thursday letter topic.",
+        "tone": "Self-aware, slightly humorous, permission-giving"
+      },
+      {
+        "email": 7,
+        "timing": "Day 60",
+        "subject": "This Thursday: [current newsletter topic]",
+        "purpose": "Transition from nurture sequence to regular Thursday newsletter cadence. Researcher is now a reader.",
+        "content": "Regular Thursday letter. If they have made it to day 60, they are engaged. Treat them as a subscriber, not a prospect.",
+        "tone": "Regular brand voice"
+      }
+    ],
+    "segmentation": {
+      "highIntent": "Clicked configurator link 2+ times OR visited gear/brand pages — trigger faster follow-up, offer 'personal recommendation' email",
+      "lowIntent": "Opened but did not click — longer spacing, more atmospheric content, less buying-decision content",
+      "dropoff": "No opens after day 14 — send single 're-engagement' with the most compelling content piece. If no response, stop — do not burn the relationship."
+    },
+    "keyMetrics": {
+      "openRateTarget": "40-50% (above industry average — earned by credibility content, not tricks)",
+      "clickRateTarget": "8-12%",
+      "configuratorReturnRate": "Target 25% of email readers return to complete or re-run the configurator"
+    }
+  },
+
+  "viralAndReferralMechanics": {
+    "primaryMechanic": {
+      "name": "Partner Share — The Configurator Decision Tool",
+      "why": "Home sauna is a joint household decision for most buyers. The single highest-friction blocker is partner alignment on type, placement, and budget. A tool that produces a shareable result page ('Here is what the tool recommended for our space and budget') directly solves this friction.",
+      "implementation": "After configurator completion, results page shows: 'Buying this together? Send your partner this link — it shows exactly what we recommended and why.' One-click share link that opens the results directly.",
+      "viralCoefficient": "If 30% of configurator completions are shared with a partner, and 40% of those partners also complete the tool, this is a meaningful organic growth mechanic targeting the same high-intent audience segment.",
+      "effort": "Low to Medium — built into configurator results page design"
+    },
+    "secondaryMechanics": [
+      {
+        "name": "Referral Program: 'Share the Quiet'",
+        "description": "Beehiiv native referral with experience-aligned rewards. Already designed in growth-tactics.json — recommend prioritizing the audio meditation guide at 1 referral (lowest friction tier) and the 'Most Beautiful Saunas' photo guide at 3 referrals.",
+        "keyInsight": "For this audience, the reward should feel like a gift, not a points system. 'Give a friend five minutes of stillness' framing outperforms 'refer and earn X' framing. Confirm this with an A/B test on referral email subject line.",
+        "effort": "Medium setup, zero ongoing"
+      },
+      {
+        "name": "Reddit Thread Seeding",
+        "description": "When the configurator exists, it becomes the answer to every 'help me choose a home sauna' post on Reddit. These posts get hundreds of upvotes and are indexed by Google and AI search. One well-placed, genuinely helpful answer mentioning the tool compounds for years.",
+        "effort": "Low per instance"
+      },
+      {
+        "name": "Shareable Comparison Infographic",
+        "description": "A well-designed 'Infrared vs Traditional vs Barrel' visual comparison gets shared in Facebook groups, Reddit, and partner WhatsApp chats without any prompt. Make it beautiful enough that people want to share it, not just save it.",
+        "effort": "Low — single design asset"
+      }
+    ],
+    "mechanicsThatWillNotWork": [
+      "Gamification leaderboards — wrong tone for this brand and wrong audience psychology",
+      "Contest entries for purchase discounts — attracts anti-persona",
+      "Social media sharing gates (share to unlock content) — too transactional, damages trust"
+    ]
+  },
+
+  "ctaPlacementAndCopy": {
+    "principleHierarchy": [
+      "1. Match CTA to the reader's current stage in their research journey",
+      "2. Offer something more specific than what they just read",
+      "3. Reduce friction — never ask for more than email on first touch",
+      "4. Use language that acknowledges where they are, not where you want them to be"
+    ],
+    "placements": [
+      {
+        "location": "Inline mid-article — research-intent pages",
+        "trigger": "After a section that introduces complexity or raises a decision question",
+        "example": "After a paragraph comparing infrared and traditional heat types: 'Not sure which is right for your space? The configurator takes 2 minutes. [Answer 6 questions]'",
+        "format": "Contextual inline box, not a pop-up",
+        "conversionExpectation": "Highest converting placement — intent peaks at the moment of decision friction",
+        "dataPoint": "Inline mid-article placement outperforms end-of-article by 2-3x when positioned at the peak intent moment"
+      },
+      {
+        "location": "End of buying guide articles",
+        "trigger": "After reading 2,000+ words of buying research",
+        "example": "'You have done the reading. Now get the personalized recommendation. [Run the configurator — 2 minutes]'",
+        "format": "Full-width CTA block, visually distinct from article body",
+        "conversionExpectation": "High — only buyers read to the end of a 2,000-word buying guide"
+      },
+      {
+        "location": "Exit-intent popup (guide pages only — not homepage)",
+        "trigger": "Cursor toward browser close on high-intent pages",
+        "copy": "'Before you go: you've been researching home saunas for a while. Three questions that might end the research phase. [Take the quiz]'",
+        "format": "Simple modal, email gate after 3 preview questions",
+        "conversionExpectation": "2-5% of exits — 'found money' on traffic that would otherwise leave",
+        "dataPoint": "Exit-intent popups on high-intent pages convert 2-5%. On low-intent or homepage, convert under 1% and damage UX."
+      },
+      {
+        "location": "Sticky sidebar (desktop) — buying guide pages",
+        "trigger": "Persistent during reading",
+        "copy": "'Still deciding? The configurator matches your space and budget to the right setup. 2 minutes.'",
+        "format": "Compact sticky widget, does not obscure content",
+        "conversionExpectation": "Low per view but high cumulative exposure across long-form reads"
+      },
+      {
+        "location": "Newsletter subscription box — bottom of all pages",
+        "trigger": "Present on every page",
+        "copy": "Current brand copy ('Step inside') is correct. Do not change. This is not the primary conversion vehicle for buyers — it is the ambient capture for readers who are not yet in research mode.",
+        "conversionExpectation": "Baseline — not the focus for the high-ticket buyer journey"
+      }
+    ],
+    "copyPrinciples": {
+      "doNotUse": [
+        "Subscribe to our newsletter",
+        "Sign up for free",
+        "Join thousands of subscribers",
+        "Get weekly tips",
+        "Download now"
+      ],
+      "useInstead": [
+        "End the research phase — get a personalized recommendation",
+        "Answer 6 questions. Know exactly what to buy.",
+        "The shortcut to a decision you won't regret",
+        "Three minutes. One recommendation. No more open tabs.",
+        "Send this to your partner — it answers the question you've been arguing about"
+      ],
+      "toneNotes": "This ICP is skeptical of hype and pattern-matches on AI-generated copy. Every CTA should sound like it was written by a knowledgeable friend, not a marketing department. Short sentences. Acknowledge the real situation. No exclamation marks."
+    },
+    "abTestPriorities": [
+      {
+        "test": "CTA copy on buying guide pages",
+        "variantA": "'Get the free buying guide emailed to you'",
+        "variantB": "'Answer 6 questions. Get a personalized recommendation.'",
+        "hypothesis": "Specific personalized value outperforms generic guide offer by 2x",
+        "metric": "Email capture rate on ultimate-home-sauna-buying-guide.mdx and home-sauna-cost-guide-2026.mdx"
+      },
+      {
+        "test": "Lead magnet format",
+        "variantA": "PDF buying guide gate",
+        "variantB": "Interactive configurator gate",
+        "hypothesis": "Configurator converts 3-5x higher and attracts buyers vs general readers",
+        "metric": "Email capture rate + subsequent affiliate click-through rate (proxy for buyer intent)"
+      },
+      {
+        "test": "Popup timing",
+        "variantA": "Exit-intent trigger",
+        "variantB": "70% scroll depth trigger",
+        "hypothesis": "Scroll depth captures more intent than exit-intent for long buying guides",
+        "metric": "Popup conversion rate + bounce rate impact"
+      },
+      {
+        "test": "Partner share CTA",
+        "variantA": "Generic 'Share this guide'",
+        "variantB": "'Send this to your partner — it answers the question you've been arguing about'",
+        "hypothesis": "Specific situational language dramatically outperforms generic share prompt",
+        "metric": "Share click-through rate"
+      }
+    ]
+  },
+
+  "implementationPriority": {
+    "week1to2": [
+      {
+        "action": "Add inline mid-article CTA to home-sauna-cost-guide-2026.mdx and ultimate-home-sauna-buying-guide.mdx",
+        "what": "Simple email capture box positioned after the section that introduces the infrared vs traditional decision — offer the comparison cheat sheet as immediate value",
+        "effort": "2 hours",
+        "expectedImpact": "Immediate improvement in conversion on highest-intent pages"
+      },
+      {
+        "action": "Create the 'Infrared vs Traditional vs Barrel' comparison cheat sheet",
+        "what": "Single-page visual comparison PDF. No gate required for now — use as first free value, then upgrade to configurator gate when that is built.",
+        "effort": "3 hours in Canva",
+        "expectedImpact": "Shareable asset for Reddit, partner shares, high save rate on Pinterest"
+      },
+      {
+        "action": "Add exit-intent popup to buying guide pages",
+        "what": "Exit-intent trigger on /guides/* pages. Copy: 'Before you go: the personalized recommendation takes 2 minutes. [link to cheat sheet or configurator]'",
+        "effort": "2 hours",
+        "expectedImpact": "Capture 2-5% of exits on high-intent pages"
+      }
+    ],
+    "month1": [
+      {
+        "action": "Build the Home Sauna Configurator",
+        "what": "6-question interactive tool. Questions: sauna type preference, indoor vs outdoor, space dimensions, budget range, primary use (recovery/social/daily ritual), household size. Results page gives specific recommendation with brand matches. Email gate before results OR email gate with preview of first result.",
+        "effort": "Medium — 15-20 hours for Next.js native build, or $0 using Outgrow/Typeform free tier",
+        "expectedImpact": "Becomes the primary lead capture asset for all high-intent buyer traffic"
+      },
+      {
+        "action": "Set up the 7-email nurture sequence in Beehiiv",
+        "what": "Automate the sequence defined above. Segment by engagement after email 3.",
+        "effort": "8 hours (writing + setup)",
+        "expectedImpact": "Captures buyers across the 90-180 day research cycle instead of losing them after one visit"
+      }
+    ],
+    "month2to3": [
+      {
+        "action": "Launch on Pinterest with buying-intent content",
+        "what": "Pin the comparison cheat sheet, configurator landing page, and cost guide to 'Home Sauna Ideas' and 'Home Sauna Inspiration' boards. Keyword-optimized pin descriptions.",
+        "effort": "2 hours setup, 30 minutes weekly",
+        "expectedImpact": "Long-term evergreen traffic from planners in 3-6 month purchase cycle"
+      },
+      {
+        "action": "Partner newsletter cross-promotions targeting wellness/longevity audience",
+        "what": "Identify 5-10 newsletters with 5K-50K subscribers serving the Huberman/Peter Attia audience. Offer configurator as co-branded asset or guest essay.",
+        "effort": "Medium — outreach + content creation",
+        "expectedImpact": "500-2,000 highly qualified signups per successful cross-promotion"
+      }
+    ]
+  },
+
+  "keyDataPoints": {
+    "interactiveVsPDF": "Interactive tools convert at 40-50% vs 10% for PDFs. Lead quality 48% higher for interactive formats.",
+    "considerationCycleLength": "90-180 days for $5K-$15K home purchase. Email sequence must span this window.",
+    "inlineCTAvsEndOfArticle": "Inline mid-article CTAs positioned at the moment of peak decision friction outperform end-of-article CTAs by 2-3x.",
+    "exitIntentConversion": "Exit-intent popups on high-intent pages convert 2-5% of otherwise-departing visitors.",
+    "coupleDecisionMaking": "Majority of $5K+ home improvement purchases involve two decision-makers. Partner-share mechanics address the single largest purchase barrier.",
+    "emailFirstVsNameAndEmail": "Email-only forms outperform name-plus-email forms. Collect name via progressive profiling after conversion.",
+    "nurtureCycleROI": "Nurtured leads convert 23% faster and at 30% lower acquisition cost than cold traffic."
+  }
+}

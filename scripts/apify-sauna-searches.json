@@ -1,0 +1,46 @@
+{
+  "searches": [
+    {
+      "label": "Helsinki public saunas",
+      "location": "Helsinki, Finland",
+      "queries": ["public sauna", "smoke sauna", "sauna"],
+      "maxPlacesPerQuery": 8,
+      "language": "en"
+    },
+    {
+      "label": "Stockholm bathhouses",
+      "location": "Stockholm, Sweden",
+      "queries": ["public sauna", "bathhouse", "sauna spa"],
+      "maxPlacesPerQuery": 8,
+      "language": "en"
+    },
+    {
+      "label": "Oslo sauna venues",
+      "location": "Oslo, Norway",
+      "queries": ["public sauna", "sauna spa", "fjord sauna"],
+      "maxPlacesPerQuery": 8,
+      "language": "en"
+    },
+    {
+      "label": "Berlin sauna venues",
+      "location": "Berlin, Germany",
+      "queries": ["sauna", "bathhouse", "spa sauna"],
+      "maxPlacesPerQuery": 8,
+      "language": "en"
+    },
+    {
+      "label": "London sauna venues",
+      "location": "London, United Kingdom",
+      "queries": ["public sauna", "bathhouse", "sauna"],
+      "maxPlacesPerQuery": 8,
+      "language": "en"
+    },
+    {
+      "label": "New York sauna venues",
+      "location": "New York, USA",
+      "queries": ["sauna", "bathhouse", "banya"],
+      "maxPlacesPerQuery": 8,
+      "language": "en"
+    }
+  ]
+}

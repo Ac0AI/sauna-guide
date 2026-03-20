@@ -1,0 +1,523 @@
+{
+  "analyzedAt": "2026-03-16T00:00:00Z",
+  "scope": "Search-driven lead magnet opportunities for home sauna buyers — research-to-purchase phase",
+  "pillarPage": "/guides/ultimate-home-sauna-buying-guide",
+  "site": "sauna.guide",
+
+  "executiveSummary": {
+    "topFinding": "The sauna quiz/configurator is table stakes — Almost Heaven, Nordica, Peak Saunas, MySaunaWorld, Topture, Finnish Sauna Builders, and Airpuria all have one. The gap is not the format; it is the quality and the keyword targeting behind it. No competitor has built a quiz that ranks organically. They are all on-site tools with no SEO footprint. That is the opportunity: build a configurator page that targets high-intent query clusters directly, not just a conversion tool buried on /pages/quiz.",
+    "keyGap": "Zero competitors are capturing emails via a downloadable PDF or gated guide. SelectSaunas uses a 5% coupon code exchange. CedarBrook uses a custom design quote form. HavenOfHeat uses a consultation form. The 'home sauna buying guide PDF' and 'home sauna checklist PDF' keyword clusters are almost entirely uncontested as lead magnets. There is no sauna-specific SafetyCulture-quality interactive checklist that ranks.",
+    "immediateWin": "Create a standalone page at /tools/home-sauna-finder (or /guides/find-your-sauna) that hosts the configurator quiz AND targets the 'which home sauna is right for me' and 'home sauna buying checklist' keyword clusters. This page does not exist from any content-first sauna brand. Currently the quiz pages that exist are all at /pages/sauna-quiz on Shopify stores — dead for SEO.",
+    "revenueAlignment": "Buyer-stage keywords have CPC values of $2-8, indicating strong affiliate and commercial intent. Every email captured from these keywords represents a buyer in a 90-180 day research cycle with a $3K-$15K purchase decision."
+  },
+
+  "buyerStageKeywords": {
+    "note": "Estimated volumes based on industry benchmarks and SERP competition density. Verified directional — not from a paid tool.",
+    "tier1_highIntent": [
+      {
+        "keyword": "best home sauna",
+        "estimatedMonthlyVolume": 18000,
+        "difficulty": "high",
+        "intent": "commercial investigation",
+        "currentSERPWinners": ["outsideonline.com", "mensfitness.com", "homeindepth.com"],
+        "contentFormat": "Best-of roundup with comparison table",
+        "leadMagnetAngle": "Inline configurator CTA after comparison section: 'Not sure which fits YOUR space? Answer 6 questions.'",
+        "targetPage": "/guides/best-home-saunas",
+        "pillarConnection": "Internal link from pillar page"
+      },
+      {
+        "keyword": "home sauna buying guide",
+        "estimatedMonthlyVolume": 8500,
+        "difficulty": "medium-high",
+        "intent": "informational with commercial end",
+        "currentSERPWinners": ["homeindepth.com", "finnleo.com", "healthmatesauna.com"],
+        "contentFormat": "Long-form guide with table of contents",
+        "leadMagnetAngle": "Gated 'complete checklist' or configurator at 70% scroll depth",
+        "targetPage": "/guides/ultimate-home-sauna-buying-guide",
+        "pillarConnection": "IS the pillar page — optimize existing"
+      },
+      {
+        "keyword": "how much does a home sauna cost",
+        "estimatedMonthlyVolume": 22000,
+        "difficulty": "high",
+        "intent": "commercial investigation — budget qualification",
+        "currentSERPWinners": ["angi.com", "homeadvisor.com", "havenofheat.com", "funoutdoorliving.com"],
+        "contentFormat": "Cost breakdown with range tables by type",
+        "leadMagnetAngle": "Inline cost calculator or 'get a personalized cost estimate' email gate — buyers here are qualifying budget, email exchange gets them a personalized estimate",
+        "targetPage": "/guides/home-sauna-cost-guide-2026",
+        "pillarConnection": "Strong internal link to pillar",
+        "note": "sauna.guide already has this page — optimize with cost calculator or cost-to-own estimate tool"
+      },
+      {
+        "keyword": "outdoor sauna buying guide",
+        "estimatedMonthlyVolume": 4200,
+        "difficulty": "medium",
+        "intent": "commercial investigation",
+        "currentSERPWinners": ["peakprimalwellness.com", "epichottubs.com"],
+        "contentFormat": "Outdoor-specific guide: foundation, weatherproofing, permit requirements",
+        "leadMagnetAngle": "Outdoor Sauna Site Prep Checklist — highly specific, zero competition",
+        "targetPage": "/guides/outdoor-sauna-guide",
+        "pillarConnection": "Internal link from pillar"
+      },
+      {
+        "keyword": "infrared vs traditional sauna",
+        "estimatedMonthlyVolume": 9500,
+        "difficulty": "medium-high",
+        "intent": "commercial investigation — this is the core decision query",
+        "currentSERPWinners": ["healthline.com", "webmd.com", "homeindepth.com"],
+        "contentFormat": "Side-by-side comparison with recommendation engine",
+        "leadMagnetAngle": "Comparison cheat sheet PDF or inline configurator — 'Tell me about your situation and I'll tell you which is right for you'",
+        "targetPage": "/guides/infrared-vs-traditional-sauna",
+        "pillarConnection": "Internal link from pillar",
+        "note": "sauna.guide already has this page — add lead magnet CTA"
+      },
+      {
+        "keyword": "barrel sauna vs cabin sauna",
+        "estimatedMonthlyVolume": 3800,
+        "difficulty": "low-medium",
+        "intent": "commercial investigation — outdoor buyer narrowing decision",
+        "currentSERPWinners": "Few authoritative content-first brands. Mostly retailer blog posts.",
+        "contentFormat": "Direct comparison with use-case matching",
+        "leadMagnetAngle": "Comparison table PDF or inline configurator branch for outdoor buyers",
+        "targetPage": "/guides/barrel-vs-cabin-sauna",
+        "pillarConnection": "Internal link from pillar"
+      }
+    ],
+    "tier2_researchPhase": [
+      {
+        "keyword": "home sauna installation requirements",
+        "estimatedMonthlyVolume": 3200,
+        "difficulty": "low-medium",
+        "intent": "pre-purchase logistics research",
+        "currentSERPWinners": ["havenofheat.com", "finnishsaunabuilders.com", "nordvikoutdoors.com"],
+        "contentFormat": "Checklist-style guide: electrical, permits, foundation, clearances",
+        "leadMagnetAngle": "THIS IS THE GAP: downloadable 'Home Sauna Installation Checklist' PDF with state-by-state permit guidance. No competitor has this as a lead magnet.",
+        "targetPage": "/guides/home-sauna-installation-checklist",
+        "leadMagnetType": "PDF checklist — gated"
+      },
+      {
+        "keyword": "home sauna electrical requirements",
+        "estimatedMonthlyVolume": 2800,
+        "difficulty": "low",
+        "intent": "pre-purchase technical qualification",
+        "currentSERPWinners": ["homesauna.com", "havenofheat.com", "nordvikoutdoors.com"],
+        "contentFormat": "Technical guide with checklist",
+        "leadMagnetAngle": "Electrical requirements checklist + electrician question cheat sheet",
+        "targetPage": "/guides/home-sauna-electrical-requirements",
+        "leadMagnetType": "Checklist PDF"
+      },
+      {
+        "keyword": "sauna size for home",
+        "estimatedMonthlyVolume": 2400,
+        "difficulty": "low",
+        "intent": "pre-purchase space planning",
+        "currentSERPWinners": "Multiple vendors, no dominant content-first brand",
+        "contentFormat": "Size guide with room dimension requirements by person count",
+        "leadMagnetAngle": "Sauna size calculator + 'email me my custom size recommendation'",
+        "targetPage": "/guides/home-sauna-size-guide",
+        "leadMagnetType": "Interactive calculator with email gate"
+      },
+      {
+        "keyword": "best home sauna under 2000",
+        "estimatedMonthlyVolume": 5500,
+        "difficulty": "medium",
+        "intent": "transactional — budget-constrained buyer ready to act",
+        "currentSERPWinners": "Mix of review sites and Amazon pages",
+        "contentFormat": "Curated roundup with pros/cons",
+        "leadMagnetAngle": "Budget-tier comparison table as PDF, or configurator filtered by budget",
+        "targetPage": "/guides/best-home-sauna-under-2000",
+        "leadMagnetType": "Comparison table PDF or inline tool"
+      },
+      {
+        "keyword": "best outdoor sauna kit",
+        "estimatedMonthlyVolume": 6800,
+        "difficulty": "medium-high",
+        "intent": "transactional — buyer comparing kit options",
+        "currentSERPWinners": ["funoutdoorliving.com", "outsideonline.com"],
+        "contentFormat": "Roundup with side-by-side kit comparison",
+        "leadMagnetAngle": "Outdoor Sauna Kit Comparison PDF — specific enough to feel personalized",
+        "targetPage": "/guides/best-outdoor-sauna-kits",
+        "leadMagnetType": "Comparison PDF or affiliate roundup with email gate"
+      }
+    ],
+    "tier3_questionBased": [
+      {
+        "keyword": "which sauna is right for me",
+        "estimatedMonthlyVolume": 1800,
+        "difficulty": "low",
+        "intent": "pure quiz/configurator intent — person is explicitly asking for a decision tool",
+        "currentSERPWinners": "No dominant result. Mix of vendor quiz pages (no SEO optimization).",
+        "contentFormat": "Interactive quiz or decision tree",
+        "leadMagnetAngle": "THIS IS THE PERFECT QUIZ PAGE KEYWORD. A content page titled 'Which Home Sauna Is Right for You?' with an embedded configurator targeting this exact query. None of the competitor quiz pages are content-first or SEO-optimized.",
+        "targetPage": "/guides/which-home-sauna-is-right-for-me",
+        "priority": "CRITICAL — build this page",
+        "leadMagnetType": "Interactive configurator with email gate on results"
+      },
+      {
+        "keyword": "home sauna checklist",
+        "estimatedMonthlyVolume": 1600,
+        "difficulty": "low",
+        "intent": "buyer wants a structured pre-purchase checklist",
+        "currentSERPWinners": "SafetyCulture (operational checklist, wrong use case), SelectSaunas (ungated)",
+        "contentFormat": "Structured checklist page with downloadable PDF",
+        "leadMagnetAngle": "Gated PDF: 'The Complete Home Sauna Buying Checklist' — all the questions to answer before spending $5K+",
+        "targetPage": "/guides/home-sauna-buying-checklist",
+        "priority": "HIGH",
+        "leadMagnetType": "PDF — gated with email"
+      },
+      {
+        "keyword": "sauna buying guide PDF",
+        "estimatedMonthlyVolume": 720,
+        "difficulty": "very low",
+        "intent": "explicit lead magnet intent — person is searching for a gated resource",
+        "currentSERPWinners": "Nobody is targeting this. SafetyCulture and a few operational PDFs.",
+        "contentFormat": "Landing page for the PDF guide",
+        "leadMagnetAngle": "Direct match: a page called 'Home Sauna Buying Guide PDF' that delivers exactly what the query asks. Low volume but near-100% conversion intent — person is LOOKING for a lead magnet to download.",
+        "targetPage": "/guides/home-sauna-buying-guide-pdf",
+        "priority": "HIGH — low effort, near-zero competition",
+        "leadMagnetType": "PDF guide — gated"
+      },
+      {
+        "keyword": "how to choose a home sauna",
+        "estimatedMonthlyVolume": 4100,
+        "difficulty": "medium",
+        "intent": "decision framework needed — mid-research buyer",
+        "currentSERPWinners": ["cnn.com/underscored", "homeindepth.com", "lowes.com"],
+        "contentFormat": "Decision framework guide with embedded tool",
+        "leadMagnetAngle": "Configurator embedded in article — 'Let us do the choosing for you'",
+        "targetPage": "/guides/how-to-choose-a-home-sauna",
+        "leadMagnetType": "Configurator with email gate"
+      },
+      {
+        "keyword": "home sauna permit requirements",
+        "estimatedMonthlyVolume": 1900,
+        "difficulty": "low",
+        "intent": "pre-purchase compliance research — serious buyer",
+        "currentSERPWinners": ["havenofheat.com", "kyfe.com", "finnishsaunabuilders.com"],
+        "contentFormat": "Guide with state-by-state overview",
+        "leadMagnetAngle": "State-specific permit checklist PDF — someone searching this is within weeks of buying",
+        "targetPage": "/guides/home-sauna-permit-requirements",
+        "leadMagnetType": "PDF checklist or 'email me my state's requirements' tool"
+      }
+    ]
+  },
+
+  "competitorLeadMagnetAudit": {
+    "note": "Direct audit of how each major competitor captures emails. Research conducted March 2026.",
+    "competitors": [
+      {
+        "site": "saunatimes.com",
+        "emailCapture": "Newsletter subscription CTA present. No dedicated lead magnet for buyers.",
+        "products": ["DIY sauna build eBook (paid)", "Sauna plans (paid)", "1:1 consultation (paid)"],
+        "leadMagnetGap": "No free downloadable resource for buyers. No interactive tool. Purely editorial + paid products.",
+        "opportunity": "sauna.guide can own the 'free buyer decision tool' territory they do not cover"
+      },
+      {
+        "site": "cedarbrooksauna.com",
+        "emailCapture": "Multi-step 'Custom Sauna Design and Quote' form — name, phone, email, address, file upload. High friction but very qualified when completed.",
+        "tools": ["Free Sauna Lumber Calculator (ungated)", "No heater size calculator"],
+        "leadMagnetGap": "No lighter-weight lead magnet before the high-commitment quote form. Buyers who are not ready to talk to a salesperson bounce without capturing their email.",
+        "opportunity": "A lower-friction mid-funnel capture (checklist or configurator) would intercept the buyers CedarBrook is losing before they get to quote stage"
+      },
+      {
+        "site": "almostheaven.com",
+        "emailCapture": "Shopify email popup (discount-based, no specific sauna lead magnet). Has a 'Perfect Sauna Quiz' but it is not gated — no email required. Built on Shopify quiz functionality, not content-SEO.",
+        "tools": ["Perfect Sauna Quiz (ungated)", "3D Sauna Configurator (product selector)"],
+        "leadMagnetGap": "Quiz results are NOT gated. They recommend products but do not capture email. This is a significant missed conversion. No downloadable guide.",
+        "opportunity": "Gate the results with 'Email me this recommendation' and sauna.guide would capture leads Almost Heaven is letting walk away"
+      },
+      {
+        "site": "havenofheat.com",
+        "emailCapture": "Custom Sauna Design and Quote form (very high friction). Blog-only lead capture via newsletter.",
+        "tools": ["Strong cost guides ranking well"],
+        "leadMagnetGap": "No interactive tool. No quiz. No downloadable guide. All conversion is form-based.",
+        "opportunity": "Interactive tools and lighter-friction email capture would differentiate from their high-friction approach"
+      },
+      {
+        "site": "homeindepth.com",
+        "emailCapture": "Hustle popup with email capture. Interactive calculators embedded in content (session duration, heater size, calorie burn) — but calculators are ungated.",
+        "tools": ["Inline calculators (ungated)", "Comparison tables"],
+        "leadMagnetGap": "Calculators do not capture email. No downloadable guide. Good content but weak email capture mechanics.",
+        "opportunity": "Gating any one of those calculators with a 'email me my results' option would convert their calculator traffic to email list"
+      },
+      {
+        "site": "nordicasauna.com",
+        "emailCapture": "Product recommendation quiz (Nordica Sauna Recommendation Quiz — product-specific, goes to their shop).",
+        "tools": ["Sauna Heater Size Calculator (ungated)", "Recommendation Quiz (product-guided)"],
+        "leadMagnetGap": "All tools guide toward their own products. No neutral buyer education resource. No downloadable guide.",
+        "opportunity": "sauna.guide's brand-agnostic positioning is a direct advantage — buyers trust neutral sources over vendor tools"
+      },
+      {
+        "site": "selectsaunas.com",
+        "emailCapture": "Newsletter popup offering 5% coupon code. Has a published 'buying checklist' article (ungated).",
+        "tools": ["Ungated buying checklist article"],
+        "leadMagnetGap": "The buying checklist article is their best content but it is ungated and does not capture email. Coupon code capture attracts discount buyers, not high-ticket research buyers.",
+        "opportunity": "sauna.guide's equivalent checklist page should be gated as a PDF download to capture the research-phase buyer SelectSaunas is giving away for free"
+      },
+      {
+        "site": "beingsauna.com",
+        "emailCapture": "None detected on their cost calculator.",
+        "tools": ["Sauna Cost Calculator (ungated, no email required)"],
+        "leadMagnetGap": "The most useful sauna tool online and it captures zero emails. Their calculator takes room dimensions, heater type, wood type, and installation method and outputs an estimated cost. No email gate.",
+        "opportunity": "Build a similar or better calculator and add an email gate: 'Email me this estimate + a materials list'"
+      }
+    ],
+    "competitorMatrixSummary": {
+      "hasQuizOrConfigurator": ["almostheaven.com", "nordicasauna.com", "mysaunaworld.com", "topture.com", "peaksaunas.com", "finnishsaunabuilders.com"],
+      "gatesQuizWithEmail": [],
+      "hasCostCalculator": ["beingsauna.com", "homeindepth.com"],
+      "gatesCalculatorWithEmail": [],
+      "hasDownloadablePDFGuide": [],
+      "hasInstallationChecklist": [],
+      "keyInsight": "ZERO competitors gate their quiz with email. ZERO competitors gate their calculator with email. ZERO competitors offer a downloadable PDF guide as a lead magnet. The entire category is leaving conversion on the table. sauna.guide has a clear first-mover opportunity to own gated buyer tools."
+    }
+  },
+
+  "interactiveToolRankings": {
+    "existingToolsThatRank": [
+      {
+        "tool": "Sauna Cost Calculator",
+        "site": "beingsauna.com/sauna-cost-calculator",
+        "rankingFor": "sauna cost calculator, sauna build cost estimator",
+        "emailCapture": false,
+        "whatMakesItRank": "Dedicated calculator page, keyword-matched URL, functional tool that answers a clear query",
+        "howToOutrank": "Build equivalent at /tools/sauna-cost-calculator, add email gate ('Email me this estimate + a recommended materials list'), add more inputs (indoor vs outdoor, pre-built vs kit vs DIY, state for permit cost estimates)"
+      },
+      {
+        "tool": "Sauna Heater Size Calculator",
+        "site": "thesaunaheater.com, nordicasauna.com, huumsauna.com, harvia.com",
+        "rankingFor": "sauna heater size calculator, sauna heater sizing",
+        "emailCapture": false,
+        "whatMakesItRank": "Multiple competing versions exist — this keyword cluster has 4-5 strong tools already. Lower opportunity."
+      },
+      {
+        "tool": "Sauna Lumber Calculator",
+        "site": "cedarbrooksauna.com/sauna-lumber-calculator",
+        "rankingFor": "sauna lumber calculator, sauna board calculator",
+        "emailCapture": false,
+        "whatMakesItRank": "Niche but functional. Ranks because it exists and no one else has it.",
+        "opportunity": "Lower priority — more relevant to DIY builders than pre-built buyers"
+      }
+    ],
+    "toolsThatDoNotExistYet": [
+      {
+        "toolName": "Home Sauna Total Cost-of-Ownership Calculator",
+        "description": "Beyond purchase price: estimates installation, electrical upgrade, permits, maintenance, and operating costs over 5 years. Outputs a 'true cost' figure. This is the tool that ends the research phase.",
+        "targetKeywords": ["home sauna total cost", "sauna cost of ownership", "how much does it really cost to own a sauna", "sauna operating costs"],
+        "emailGateRationale": "This output is high value and personalized — email exchange is natural. 'Email me my full cost breakdown' is a compelling CTA.",
+        "buildComplexity": "Medium — approximately 8-10 inputs, straightforward math",
+        "priority": "CRITICAL"
+      },
+      {
+        "toolName": "Home Sauna Finder / Configurator Quiz",
+        "description": "6-8 questions: indoor or outdoor, traditional or infrared, space dimensions, budget, primary use case (recovery/social/daily ritual/health), household size. Outputs: recommended type + top 3 brand matches + estimated cost range.",
+        "targetKeywords": ["which sauna is right for me", "what type of sauna should I buy", "home sauna finder", "best sauna for my home"],
+        "emailGateRationale": "Gate results with 'Email me this recommendation' — results page is personalized and worth exchanging an email for.",
+        "buildComplexity": "Medium — can use Typeform embedded or build natively in Next.js",
+        "targetURL": "/guides/which-home-sauna-is-right-for-me",
+        "seoNote": "Make the quiz page a full content page, not a bare /pages/quiz URL. The quiz should live inside editorial content that targets 'which sauna is right for me' and related queries. This is what no competitor has done.",
+        "priority": "CRITICAL"
+      },
+      {
+        "toolName": "Sauna Space Planner",
+        "description": "Input room dimensions and ceiling height, get: minimum clearance requirements, bench layout options, door swing requirements, ventilation requirements. Visual or text output.",
+        "targetKeywords": ["sauna room dimensions", "how much space do I need for a home sauna", "sauna room planning"],
+        "emailGateRationale": "Output a printable space plan — 'Email me my space plan' is a natural CTA",
+        "buildComplexity": "Medium to High — visual output adds complexity",
+        "priority": "Medium"
+      }
+    ]
+  },
+
+  "leadMagnetRecommendations": {
+    "priority1": {
+      "name": "The Home Sauna Finder Quiz",
+      "format": "Interactive quiz (6-8 questions) with email-gated results",
+      "targetURL": "/guides/which-home-sauna-is-right-for-me",
+      "primaryTargetKeyword": "which sauna is right for me",
+      "supportingKeywords": ["home sauna quiz", "what type of sauna should I buy", "home sauna finder", "best sauna for my home"],
+      "whyThisWins": "The keyword 'which sauna is right for me' has near-zero competition from content-first brands. Every competitor quiz is buried at /pages/quiz on a Shopify store with no SEO footprint. A full editorial page with an embedded quiz targeting this query cluster will rank and convert simultaneously.",
+      "emailGateMechanic": "Show first 2 questions freely, gate results page. Or show results and offer 'Email me this recommendation + a personalized buying checklist' — email adds value without blocking the tool.",
+      "conversionEstimate": "40-50% of completions to email (industry benchmark for interactive tools with personalized output)",
+      "effort": "Medium — 2-3 weeks to build natively",
+      "urgency": "Competitors are not SEO-targeting this cluster. First-mover advantage available now."
+    },
+    "priority2": {
+      "name": "The Home Sauna Buying Checklist PDF",
+      "format": "Gated PDF — email exchange for download",
+      "targetURL": "/guides/home-sauna-buying-checklist",
+      "primaryTargetKeyword": "home sauna checklist",
+      "supportingKeywords": ["sauna buying guide PDF", "home sauna buying guide download", "what to check before buying a sauna"],
+      "whyThisWins": "SelectSaunas publishes an ungated checklist article. The SafetyCulture sauna checklist is an operational tool (wrong use case). No brand is offering a buyer-stage checklist as a gated lead magnet. The 'sauna buying guide PDF' keyword has explicit download intent with no competition.",
+      "checklistContents": [
+        "Space requirements checklist (room dimensions, ceiling height, ventilation, drainage)",
+        "Electrical requirements (dedicated circuit, amperage, panel capacity)",
+        "Permit requirements (building permit triggers, electrical permit, setback distances)",
+        "Type decision framework (infrared vs traditional vs barrel — 5 qualifying questions)",
+        "Installation questions to ask your contractor or supplier",
+        "Brand evaluation criteria (warranty, EMF rating, wood quality, customer service)",
+        "Hidden costs to budget for (installation, electrical, permits, maintenance)",
+        "Questions to ask your partner before committing"
+      ],
+      "emailGateMechanic": "Show table of contents and first section free, gate full PDF. Or: full article page + email gate only for PDF version ('Read online free, download the printable checklist')",
+      "conversionEstimate": "15-25% of page visitors who reach the gate",
+      "effort": "Low — 4-6 hours to write and format",
+      "urgency": "High — low effort, clear gap, targets explicit download intent"
+    },
+    "priority3": {
+      "name": "Home Sauna Total Cost-of-Ownership Calculator",
+      "format": "Interactive calculator with email-gated full breakdown",
+      "targetURL": "/tools/home-sauna-cost-calculator",
+      "primaryTargetKeyword": "home sauna cost calculator",
+      "supportingKeywords": ["how much does a home sauna cost", "sauna cost estimator", "home sauna total cost", "sauna cost of ownership"],
+      "whyThisWins": "beingsauna.com has a cost calculator that ranks but captures no emails. havenofheat.com ranks for cost content but has no interactive tool. A calculator that estimates total cost of ownership (purchase + installation + electrical + permits + 5-year operating cost) is genuinely more useful than any existing tool and has a clear email exchange value: 'Email me my full 5-year cost breakdown.'",
+      "calculatorInputs": [
+        "Sauna type (infrared / traditional electric / wood-fired / pre-built kit / custom build)",
+        "Indoor or outdoor",
+        "Size (1-2 person / 3-4 person / 4-6 person)",
+        "Installation method (DIY / professional)",
+        "US state (for permit cost estimate)",
+        "Existing electrical panel capacity (upgrade needed Y/N)",
+        "Intended use frequency (sessions per week)"
+      ],
+      "outputs": [
+        "Estimated purchase price range",
+        "Estimated installation cost",
+        "Electrical upgrade cost if needed",
+        "Permit cost estimate for their state",
+        "Monthly operating cost estimate",
+        "5-year total cost of ownership",
+        "Cost per session at their use frequency"
+      ],
+      "emailGateMechanic": "Show summary numbers free, gate 'Full itemized breakdown + recommended brands at my budget' — email gives them a deeper report",
+      "conversionEstimate": "35-45% of completions to email (personalized financial output is high-value exchange)",
+      "effort": "Medium — 1-2 weeks to build in Next.js",
+      "urgency": "High — beingsauna.com is ranking for this without email capture. Take the traffic AND the email."
+    },
+    "priority4": {
+      "name": "Infrared vs Traditional vs Barrel Comparison PDF",
+      "format": "Single-page visual comparison chart — email exchange or free",
+      "targetURL": "Embedded in /guides/infrared-vs-traditional-sauna and /guides/barrel-vs-cabin-sauna",
+      "primaryTargetKeyword": "infrared vs traditional sauna comparison",
+      "supportingKeywords": ["barrel sauna vs cabin sauna", "types of home sauna comparison", "sauna comparison chart"],
+      "whyThisWins": "No competitor offers a portable, printable comparison chart. This is the artifact buyers bring to partner conversations and showroom visits. It travels via WhatsApp and Reddit threads.",
+      "formatNotes": "One landscape page. 3 columns (infrared / traditional / barrel). Rows: heat type, cost range, installation complexity, electrical requirements, heat-up time, health applications, maintenance, ideal for. sauna.guide branding. URL to configurator at bottom.",
+      "emailGateMechanic": "Offer free download in exchange for email. Or: post the low-resolution version on Pinterest and gate the high-res printable version.",
+      "conversionEstimate": "8-15% of visitors who see the offer",
+      "effort": "Very Low — 2-3 hours in Canva or Figma",
+      "urgency": "Very High — fastest win available, can distribute on Reddit and Pinterest immediately"
+    }
+  },
+
+  "contentGapsForLeadMagnetPages": [
+    {
+      "gap": "No dedicated page targeting 'which sauna is right for me' query",
+      "opportunity": "Create /guides/which-home-sauna-is-right-for-me as an editorial page with embedded quiz. This query has explicit tool intent but no content-first brand has built for it.",
+      "effort": "Medium",
+      "expectedTraffic": "1,500-3,000/month once ranked"
+    },
+    {
+      "gap": "No downloadable buying checklist as a lead magnet anywhere in the space",
+      "opportunity": "Create /guides/home-sauna-buying-checklist with gated PDF download. The query 'sauna buying guide PDF' has explicit download intent and zero content competition.",
+      "effort": "Low",
+      "expectedTraffic": "800-1,500/month"
+    },
+    {
+      "gap": "No total cost-of-ownership tool (all cost calculators focus on purchase price only)",
+      "opportunity": "The real buyer question is 'what will this actually cost me all-in over 5 years?' No tool answers this. Build it and capture every serious buyer who reaches the cost research phase.",
+      "effort": "Medium",
+      "expectedTraffic": "2,000-4,000/month"
+    },
+    {
+      "gap": "No permit/installation requirements page structured as a checklist with state-level detail",
+      "opportunity": "Multiple competitors have generic installation guides but none go deep on state-by-state permit requirements. A person searching 'home sauna permit requirements' is very close to buying.",
+      "effort": "Medium",
+      "expectedTraffic": "1,200-2,400/month"
+    },
+    {
+      "gap": "No 'questions to ask before buying a home sauna' resource",
+      "opportunity": "Question-based formats match PAA boxes and voice search. 'What questions should I ask when buying a sauna' is an uncontested long-tail. A structured 'Questions to Ask' article with downloadable PDF checklist serves this intent perfectly.",
+      "effort": "Low",
+      "expectedTraffic": "600-1,200/month"
+    }
+  ],
+
+  "aiSearchOptimization": {
+    "perplexityBehavior": "Perplexity surfaces vendor sites (nordicasauna.com, havenofheat.com), general wellness sources (healthline, webmd), and Reddit threads for sauna buying queries. It does not currently have a strong editorial sauna brand to cite.",
+    "howToGetCited": [
+      "Structure content with explicit, quotable answer paragraphs at the top of each section (Perplexity extracts these)",
+      "Add FAQ schema markup to all tool and guide pages",
+      "Include specific data points: percentages, price ranges, time estimates — AI cites specifics over generalities",
+      "Get featured in Reddit threads on r/Sauna and r/HomeImprovement with links to the configurator — Perplexity cites Reddit at 6.6% of responses",
+      "The buying checklist and configurator, once live, will be cited because they are the only tools of their kind from a content-first brand"
+    ],
+    "chatGPTBehavior": "ChatGPT recommends the well-known vendor brands (Sunlighten, Finnleo, Almost Heaven) for product recommendations, and general health sites for benefits. For 'how to choose' queries it recommends checklist-style thinking — exactly what our checklist page would provide.",
+    "contentStructureForAI": "Each guide should have: one-sentence direct answer at the top, comparison table where applicable, numbered checklist in the recommendation sections, cited data points. This structure is both user-friendly and AI-extractable."
+  },
+
+  "technicalSEO": {
+    "pillarPageOptimizations": [
+      {
+        "page": "/guides/ultimate-home-sauna-buying-guide",
+        "action": "Add inline CTA for configurator at the 'which type is right for you' section — this is where decision friction peaks",
+        "action2": "Add 'Complete Buyer's Checklist' download CTA at bottom of page — email exchange for PDF",
+        "action3": "Add FAQ schema for the top 5 questions buyers ask (what does a home sauna cost, infrared vs traditional, permits needed, electrical requirements, how long to install)",
+        "action4": "Internal links to: /guides/home-sauna-cost-guide-2026, /guides/infrared-vs-traditional-sauna, /guides/home-sauna-installation-checklist (once created)"
+      },
+      {
+        "page": "/guides/home-sauna-cost-guide-2026",
+        "action": "Add cost calculator tool or prominent CTA to cost calculator page",
+        "action2": "This page already exists — add inline CTA after the pricing section for the configurator",
+        "action3": "Internal link to /guides/ultimate-home-sauna-buying-guide as the 'next step after budgeting'"
+      }
+    ],
+    "newPagesToCreate": [
+      "/guides/which-home-sauna-is-right-for-me",
+      "/guides/home-sauna-buying-checklist",
+      "/tools/home-sauna-cost-calculator",
+      "/guides/home-sauna-installation-checklist",
+      "/guides/barrel-vs-cabin-sauna"
+    ],
+    "urlStructureRecommendation": "Keep quiz/tools at /guides/ or /tools/ — not /pages/. The /pages/ Shopify convention is dead for SEO. A dedicated editorial URL with keyword-matching slug is what separates sauna.guide from every competitor tool that lives at /pages/sauna-quiz.",
+    "schemaMarkup": [
+      "FAQ schema on all guide pages",
+      "HowTo schema on checklist and installation pages",
+      "SoftwareApplication schema on calculator/configurator pages",
+      "BreadcrumbList on all guide and tool pages"
+    ]
+  },
+
+  "implementationPriority": {
+    "thisWeek": [
+      {
+        "action": "Create the Comparison Cheat Sheet PDF (infrared vs traditional vs barrel)",
+        "effort": "2-3 hours",
+        "why": "Fastest lead magnet to produce. Immediately shareable on Reddit and Pinterest. Serve as inline CTA on existing comparison pages while the quiz is built."
+      },
+      {
+        "action": "Add inline lead magnet CTA to /guides/ultimate-home-sauna-buying-guide and /guides/infrared-vs-traditional-sauna",
+        "effort": "1-2 hours",
+        "why": "Both pages likely already receiving organic traffic. Adding an email capture CTA is pure upside with no content required."
+      }
+    ],
+    "nextTwoWeeks": [
+      {
+        "action": "Create /guides/home-sauna-buying-checklist with gated PDF",
+        "effort": "4-6 hours total",
+        "why": "Low effort, zero competition, targets explicit download intent ('sauna buying guide PDF')"
+      },
+      {
+        "action": "Create /guides/which-home-sauna-is-right-for-me with embedded quiz",
+        "effort": "15-20 hours including quiz build",
+        "why": "Targets uncontested keyword cluster with the most aligned lead magnet format"
+      }
+    ],
+    "month1": [
+      {
+        "action": "Build /tools/home-sauna-cost-calculator with email-gated full breakdown",
+        "effort": "1-2 weeks development",
+        "why": "Most-searched tool in the space. beingsauna.com is ranking but capturing nothing. Take the traffic and the email."
+      }
+    ]
+  }
+}

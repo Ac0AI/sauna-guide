@@ -1,9 +1,9 @@
 {
-  "submittedAt": "2026-03-15T07:14:10.302Z",
+  "submittedAt": "2026-03-16T07:00:42.375Z",
   "type": "URL_UPDATED",
-  "totalUrls": 167,
+  "totalUrls": 147,
   "submitted": 147,
-  "remaining": 20,
+  "remaining": 0,
   "results": [
     {
       "url": "https://sauna.guide/",
@@ -18,7 +18,7 @@
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear",
+      "url": "https://sauna.guide/accessories",
       "status": "ok"
     },
     {
@@ -98,10 +98,6 @@
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/saunas/archivolto",
-      "status": "ok"
-    },
-    {
       "url": "https://sauna.guide/saunas/othership-toronto",
       "status": "ok"
     },
@@ -175,10 +171,6 @@
     },
     {
       "url": "https://sauna.guide/saunas/rudding-park",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/saunas/sauna-dek",
       "status": "ok"
     },
     {
@@ -294,6 +286,10 @@
       "status": "ok"
     },
     {
+      "url": "https://sauna.guide/guides/sauna-reset",
+      "status": "ok"
+    },
+    {
       "url": "https://sauna.guide/guides/sauna-sacred-space-spirituality",
       "status": "ok"
     },
@@ -318,380 +314,284 @@
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/kolo-bucket-and-ladle-set",
+      "url": "https://sauna.guide/accessories/kolo-bucket-and-ladle-set",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/rento-pisara-bucket-and-ladle",
+      "url": "https://sauna.guide/accessories/rento-pisara-bucket-and-ladle",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/sensorpush-ht1-thermometer",
+      "url": "https://sauna.guide/accessories/sensorpush-ht1-thermometer",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/fischer-german-thermometer",
+      "url": "https://sauna.guide/accessories/fischer-german-thermometer",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/15-minute-cedar-sand-timer",
+      "url": "https://sauna.guide/accessories/15-minute-cedar-sand-timer",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/olivine-diabase-sauna-stones",
+      "url": "https://sauna.guide/accessories/olivine-diabase-sauna-stones",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/by-itu-sauna-hat",
+      "url": "https://sauna.guide/accessories/by-itu-sauna-hat",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/s-shaped-cedar-backrest",
+      "url": "https://sauna.guide/accessories/s-shaped-cedar-backrest",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/cedar-headrest-pillow",
+      "url": "https://sauna.guide/accessories/cedar-headrest-pillow",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/bamboo-floor-mat",
+      "url": "https://sauna.guide/accessories/bamboo-floor-mat",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/turkish-cotton-peshtemal",
+      "url": "https://sauna.guide/accessories/turkish-cotton-peshtemal",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/waffle-weave-spa-robe",
+      "url": "https://sauna.guide/accessories/waffle-weave-spa-robe",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/eucalyptus-essential-oil",
+      "url": "https://sauna.guide/accessories/eucalyptus-essential-oil",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/birch-essential-oil",
+      "url": "https://sauna.guide/accessories/birch-essential-oil",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/lavender-essential-oil",
+      "url": "https://sauna.guide/accessories/lavender-essential-oil",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/birch-vihta-whisk",
+      "url": "https://sauna.guide/accessories/birch-vihta-whisk",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/eucalyptus-vihta-whisk",
+      "url": "https://sauna.guide/accessories/eucalyptus-vihta-whisk",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/plunge-cold-tub",
+      "url": "https://sauna.guide/accessories/plunge-cold-tub",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/ice-barrel",
+      "url": "https://sauna.guide/accessories/ice-barrel",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/penguin-chillers-setup",
+      "url": "https://sauna.guide/accessories/penguin-chillers-setup",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/100-gallon-stock-tank",
+      "url": "https://sauna.guide/accessories/100-gallon-stock-tank",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/morozko-forge",
+      "url": "https://sauna.guide/accessories/morozko-forge",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/oura-ring-4",
+      "url": "https://sauna.guide/accessories/sauna-pod-bundle",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/whoop-4-0",
+      "url": "https://sauna.guide/accessories/sweat-tent",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/sauna-tracker-app",
+      "url": "https://sauna.guide/accessories/serenelife-portable-sauna",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/athlytic-app",
+      "url": "https://sauna.guide/accessories/saunabox-smartsteam-kit",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/theragun-prime",
+      "url": "https://sauna.guide/accessories/saunalife-model-e6",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/theragun-pro-plus",
+      "url": "https://sauna.guide/accessories/saunalife-model-e8",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/hypervolt",
+      "url": "https://sauna.guide/accessories/saunalife-model-g2",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/lmnt-electrolytes",
+      "url": "https://sauna.guide/accessories/saunalife-model-gl4",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/drip-drop",
+      "url": "https://sauna.guide/accessories/saunalife-model-gl6",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/mitopro-1500",
+      "url": "https://sauna.guide/accessories/auroom-aura",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/joovv-solo",
+      "url": "https://sauna.guide/accessories/auroom-mira-s",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/hooga-hg300",
+      "url": "https://sauna.guide/accessories/auroom-garda",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/higherdose-infrared-blanket",
+      "url": "https://sauna.guide/accessories/huum-drop-6kw",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/mihigh-infrared-blanket",
+      "url": "https://sauna.guide/accessories/huum-hive-mini-9kw",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/sunlighten-solo-system",
+      "url": "https://sauna.guide/accessories/huum-hive-15kw",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/sauna-pod-bundle",
+      "url": "https://sauna.guide/accessories/huum-cliff-6kw",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/sweat-tent",
+      "url": "https://sauna.guide/accessories/huum-steel-6kw",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/serenelife-portable-sauna",
+      "url": "https://sauna.guide/accessories/harvia-cilindro-pc80e",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/saunabox-smartsteam-kit",
+      "url": "https://sauna.guide/accessories/harvia-virta-hl80",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/saunalife-model-e6",
+      "url": "https://sauna.guide/accessories/harvia-kip-6kw-built-in-controls",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/saunalife-model-e8",
+      "url": "https://sauna.guide/accessories/harvia-club-k12-5g",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/saunalife-model-g2",
+      "url": "https://sauna.guide/accessories/harvia-spirit-sp80e",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/saunalife-model-gl4",
+      "url": "https://sauna.guide/accessories/saunum-air-7",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/saunalife-model-gl6",
+      "url": "https://sauna.guide/accessories/saunum-air-perfect-10",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/auroom-aura",
+      "url": "https://sauna.guide/accessories/harvia-legend-150",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/auroom-mira-s",
+      "url": "https://sauna.guide/accessories/harvia-legend-240-greenflame",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/auroom-garda",
+      "url": "https://sauna.guide/accessories/harvia-20-duo-steel",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/huum-drop-6kw",
+      "url": "https://sauna.guide/accessories/huum-hive-wood-17",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/huum-hive-mini-9kw",
+      "url": "https://sauna.guide/accessories/huum-hive-flow",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/huum-hive-15kw",
+      "url": "https://sauna.guide/accessories/biozap-sauna-cleaner",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/huum-cliff-6kw",
+      "url": "https://sauna.guide/accessories/paraffin-wood-oil-treatment",
       "status": "ok"
     },
     {
-      "url": "https://sauna.guide/gear/huum-steel-6kw",
+      "url": "https://sauna.guide/accessories/rainleaf-microfiber-towel",
       "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-cilindro-pc80e",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-virta-hl80",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-kip-6kw-built-in-controls",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-club-k12-5g",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-spirit-sp80e",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/saunum-air-7",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/saunum-air-perfect-10",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-legend-150",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-legend-240-greenflame",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/harvia-20-duo-steel",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/huum-hive-wood-17",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/huum-hive-flow",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/ultimate-ears-wonderboom-2",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/himalayan-salt-lamp",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/rainleaf-microfiber-towel",
-      "status": "ok"
-    },
-    {
-      "url": "https://sauna.guide/gear/bose-soundlink-micro",
-      "status": "error",
-      "error": "429: Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:67726134648'."
-    },
-    {
-      "url": "https://sauna.guide/gear/ip68-led-strip-lights",
-      "status": "error",
-      "error": "429: Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:67726134648'."
-    },
-    {
-      "url": "https://sauna.guide/gear/biozap-sauna-cleaner",
-      "status": "error",
-      "error": "429: Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:67726134648'."
-    },
-    {
-      "url": "https://sauna.guide/gear/paraffin-wood-oil-treatment",
-      "status": "error",
-      "error": "429: Quota exceeded for quota metric 'Publish requests' and limit 'Publish requests per day' of service 'indexing.googleapis.com' for consumer 'project_number:67726134648'."
     },
     {
       "url": "https://sauna.guide/sauna-brands/harvia",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/huum",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/tyl",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/narvi",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/kirami",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/almost-heaven-saunas",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/finnleo",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/clearlight-saunas",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/sunlighten",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/saunaspace",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/barrel-sauna-co",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/saunum",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/klafs",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/polar-saunas",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/durasage",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     },
     {
       "url": "https://sauna.guide/sauna-brands/health-mate",
-      "status": "skipped",
-      "error": "quota exhausted"
+      "status": "ok"
     }
   ]
 }
