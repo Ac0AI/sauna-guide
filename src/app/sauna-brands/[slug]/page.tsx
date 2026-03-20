@@ -223,7 +223,7 @@ export default async function BrandPage({ params }: Props) {
 
               <div className="flex items-center gap-5 mb-6">
                 {manufacturer.logo && (
-                  <div className="w-14 h-14 md:w-16 md:h-16 bg-white rounded-xl p-2.5 flex items-center justify-center shrink-0">
+                  <div className="w-14 h-14 md:w-16 md:h-16 rounded-xl overflow-hidden flex items-center justify-center shrink-0">
                     <Image
                       src={manufacturer.logo}
                       alt={`${manufacturer.name} logo`}
