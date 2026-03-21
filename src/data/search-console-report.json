@@ -1,29 +1,15 @@
 {
-  "fetchedAt": "2026-03-20T19:56:46.066Z",
+  "fetchedAt": "2026-03-21T07:30:21.274Z",
   "siteUrl": "sc-domain:sauna.guide",
   "period": {
-    "days": 28,
-    "startDate": "2026-02-20",
-    "endDate": "2026-03-19"
+    "days": 7,
+    "startDate": "2026-03-14",
+    "endDate": "2026-03-20"
   },
   "totals": {
-    "clicks": 1,
-    "impressions": 697,
-    "ctr": 0.14,
-    "position": 15.3
-  },
-  "queryTotals": {
-    "clicks": 1,
-    "impressions": 89,
-    "ctr": 1.12
-  },
-  "pageTotals": {
-    "clicks": 1,
-    "impressions": 725,
-    "ctr": 0.14
-  },
-  "notes": {
-    "totals": "Overall totals come from an aggregate Search Console query without dimensions. Query and page totals are included separately because Search Console can report different totals across dimensions."
+    "clicks": 0,
+    "impressions": 36,
+    "ctr": 0
   },
   "insights": {
     "quickWins": {
@@ -36,101 +22,44 @@
     },
     "topPerformers": {
       "description": "Queries driving the most clicks",
-      "items": [
-        {
-          "key": "sauna guide",
-          "clicks": 1,
-          "impressions": 5,
-          "ctr": 20,
-          "position": 43.6
-        }
-      ]
+      "items": []
     }
   },
   "topPages": [
     {
-      "key": "https://sauna.guide/guides/when-not-to-sauna",
+      "key": "https://sauna.guide/",
       "clicks": 0,
-      "impressions": 493,
+      "impressions": 3,
       "ctr": 0,
-      "position": 9.2
-    },
-    {
-      "key": "https://sauna.guide/sauna-brands",
-      "clicks": 0,
-      "impressions": 51,
-      "ctr": 0,
-      "position": 59.1
-    },
-    {
-      "key": "https://sauna.guide/guides",
-      "clicks": 0,
-      "impressions": 46,
-      "ctr": 0,
-      "position": 15.6
-    },
-    {
-      "key": "https://sauna.guide/guides/sauna-safety-guide",
-      "clicks": 0,
-      "impressions": 46,
-      "ctr": 0,
-      "position": 13.5
+      "position": 53.3
     },
     {
       "key": "https://sauna.guide/challenge",
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 8,
       "ctr": 0,
-      "position": 40.8
+      "position": 31.4
     },
     {
-      "key": "https://sauna.guide/guides/contrast-therapy-complete-guide",
+      "key": "https://sauna.guide/guides",
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 15,
       "ctr": 0,
-      "position": 13.8
+      "position": 18.9
     },
     {
-      "key": "https://sauna.guide/",
-      "clicks": 1,
-      "impressions": 17,
-      "ctr": 5.88,
-      "position": 24.7
-    },
-    {
-      "key": "https://sauna.guide/saunas/sauna-shikiji",
+      "key": "https://sauna.guide/guides/when-not-to-sauna",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 8,
       "ctr": 0,
-      "position": 8.4
+      "position": 8.8
     },
     {
-      "key": "https://sauna.guide/gear/birch-vihta-whisk",
+      "key": "https://sauna.guide/sauna-brands",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 28,
       "ctr": 0,
-      "position": 5.7
-    },
-    {
-      "key": "https://sauna.guide/gear/lavender-essential-oil",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 6.7
-    },
-    {
-      "key": "https://sauna.guide/guides/infrared-sauna-complete-guide",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 37.3
-    },
-    {
-      "key": "https://www.sauna.guide/sauna-brands/finnleo",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 7.7
+      "position": 65.7
     }
   ]
 }

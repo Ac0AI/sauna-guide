@@ -1,73 +1,10 @@
 [
   {
-    "key": "sauna guide",
-    "clicks": 1,
-    "impressions": 5,
-    "ctr": 20,
-    "position": 43.6
-  },
-  {
-    "key": "bathing brands sauna",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 53
-  },
-  {
     "key": "best sauna brands",
     "clicks": 0,
     "impressions": 4,
     "ctr": 0,
     "position": 87
-  },
-  {
-    "key": "best sauna manufacturers",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 83
-  },
-  {
-    "key": "contraindications sauna respiratory infection",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 8
-  },
-  {
-    "key": "contrast therapy timing sauna cold plunge",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 75
-  },
-  {
-    "key": "heat stroke from sauna",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 69
-  },
-  {
-    "key": "heat stroke sauna",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 70
-  },
-  {
-    "key": "how to do contrast therapy with sauna and cold plunge",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 99
-  },
-  {
-    "key": "infrared sauna",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 98
   },
   {
     "key": "sauna brand",
@@ -79,9 +16,9 @@
   {
     "key": "sauna brands",
     "clicks": 0,
-    "impressions": 9,
+    "impressions": 5,
     "ctr": 0,
-    "position": 80.2
+    "position": 86.2
   },
   {
     "key": "sauna buying guide",
@@ -98,25 +35,11 @@
     "position": 59.7
   },
   {
-    "key": "sauna contraindications",
-    "clicks": 0,
-    "impressions": 3,
-    "ctr": 0,
-    "position": 32
-  },
-  {
-    "key": "sauna contraindications uncontrolled hypertension",
-    "clicks": 0,
-    "impressions": 2,
-    "ctr": 0,
-    "position": 9.5
-  },
-  {
-    "key": "sauna equipment market",
+    "key": "sauna guide",
     "clicks": 0,
     "impressions": 1,
     "ctr": 0,
-    "position": 88
+    "position": 74
   },
   {
     "key": "sauna makers",
@@ -128,9 +51,9 @@
   {
     "key": "sauna manufacturers",
     "clicks": 0,
-    "impressions": 7,
+    "impressions": 5,
     "ctr": 0,
-    "position": 77.9
+    "position": 71.6
   },
   {
     "key": "sauna name",
@@ -140,73 +63,24 @@
     "position": 90
   },
   {
-    "key": "sauna protocol",
-    "clicks": 0,
-    "impressions": 2,
-    "ctr": 0,
-    "position": 81.5
-  },
-  {
     "key": "sauna protocols",
     "clicks": 0,
     "impressions": 3,
     "ctr": 0,
-    "position": 67.3
+    "position": 69.3
   },
   {
     "key": "sauna reset",
     "clicks": 0,
-    "impressions": 20,
+    "impressions": 7,
     "ctr": 0,
-    "position": 46.3
-  },
-  {
-    "key": "sauna safety guidelines",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 95
-  },
-  {
-    "key": "sauna shikiji",
-    "clicks": 0,
-    "impressions": 2,
-    "ctr": 0,
-    "position": 9
-  },
-  {
-    "key": "saunaguide",
-    "clicks": 0,
-    "impressions": 5,
-    "ctr": 0,
-    "position": 6.4
+    "position": 34.9
   },
   {
     "key": "top sauna brands",
     "clicks": 0,
-    "impressions": 4,
+    "impressions": 3,
     "ctr": 0,
-    "position": 87
-  },
-  {
-    "key": "what should you not do in a sauna",
-    "clicks": 0,
-    "impressions": 2,
-    "ctr": 0,
-    "position": 92
-  },
-  {
-    "key": "who should avoid saunas",
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 76
-  },
-  {
-    "key": "who should avoid using a sauna",
-    "clicks": 0,
-    "impressions": 2,
-    "ctr": 0,
-    "position": 87
+    "position": 83
   }
 ]
