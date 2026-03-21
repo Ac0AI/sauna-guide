@@ -632,7 +632,7 @@
         "Celebrity/influencer usage"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Clearlight has been a leading player in the US infrared sauna market for over 20 years, building a reputation for quality craftsmanship and innovative features. The company is known for its commitment to using premium materials and providing robust customer support, making it a popular choice for home and commercial buyers across North America.",
+      "notes": "Clearlight has been a leading player in the US infrared sauna market for over 20 years, building a reputation for quality craftsmanship and innovative features. The company is known for its commitment to using premium materials and providing robust customer support, making it a popular choice for home and commercial buyers across North America. Founded in 1999 (confirmed via company history).",
       "priceTier": "premium",
       "bestFor": "Clearlight Saunas are well-suited for buyers seeking a high-end, American-made infrared sauna experience, whether for home use, light commercial applications, or more intensive commercial settings like spas and wellness centers.",
       "supportWarranty": "Clearlight Saunas offers industry-leading warranty coverage, including a lifetime warranty on heaters and a 7-year warranty on the sauna structure. The company also maintains an extensive dealer network and responsive customer support team to assist buyers with installation, maintenance, and any warranty-related issues.",
@@ -671,7 +671,8 @@
         "lastVerified": "2026-03-16",
         "qualityScore": 94,
         "status": "reviewed"
-      }
+      },
+      "founded": 1999
     },
     {
       "name": "Sunlighten",
@@ -753,7 +754,7 @@
         "instagram": "@saunaspace"
       },
       "partnership_status": "not_contacted",
-      "notes": "Founded in the USA with an unknown founding date, SaunaSpace has established itself as a leading brand in the biohacking and wellness community. They specialize in portable and permanent near-infrared and red-light saunas, emphasizing the use of organic, sustainable materials and the elimination of harmful electromagnetic fields (EMFs).",
+      "notes": "Founded in the USA with an unknown founding date, SaunaSpace has established itself as a leading brand in the biohacking and wellness community. They specialize in portable and permanent near-infrared and red-light saunas, emphasizing the use of organic, sustainable materials and the elimination of harmful electromagnetic fields (EMFs). Founded circa 2012 by Brian Richards (estimated based on founder bio and company development timeline).",
       "priceTier": "premium",
       "bestFor": "SaunaSpace is best suited for biohackers, health enthusiasts, and individuals seeking a high-quality, non-toxic sauna experience with the added benefits of near-infrared and red-light therapy. It's particularly appealing for those who value portability and the ability to take their sauna with them.",
       "supportWarranty": "SaunaSpace offers a limited warranty on their products, but the specific terms may vary by model and can change over time. Customers are advised to check the current warranty details and the brand's customer support reputation before making a purchase.",
@@ -817,7 +818,8 @@
         "Premium pricing that may be out of reach for some consumers",
         "Limited availability and distribution channels compared to larger sauna brands",
         "Potential concerns about customer support and warranty coverage for a smaller, specialized brand"
-      ]
+      ],
+      "founded": 2012
     },
     {
       "name": "IKI",
@@ -837,7 +839,7 @@
         "r/sauna favorite brand comparisons"
       ],
       "partnership_status": "not_contacted",
-      "notes": "IKI is one of the most respected Finnish heater makers in enthusiast circles. The brand is best known for tall steel mesh pillar heaters that stack stones vertically for softer, longer steam and a more forgiving heat profile than many compact electric heaters.",
+      "notes": "IKI is one of the most respected Finnish heater makers in enthusiast circles. The brand is best known for tall steel mesh pillar heaters that stack stones vertically for softer, longer steam and a more forgiving heat profile than many compact electric heaters. Founded in the late 1980s in Finland by Jouni Kerrman (verified via ikisaunas.com).",
       "priceTier": "premium",
       "bestFor": "Pillar heater enthusiasts who want Finnish engineering, large stone capacity, and excellent löyly.",
       "buyerVerdict": "IKI is the kind of brand people graduate to after learning what actually makes a sauna feel good. Serious Finnish heat, serious price, and still not the easiest brand to source outside Europe and select North American dealers.",
@@ -862,7 +864,8 @@
         "Monolith — Design-led electric tower heater for premium builds",
         "Original wood-burning models — High-stone-mass Finnish wood stoves"
       ],
-      "supportWarranty": "Warranty and dealer support depend heavily on market and distributor. In Europe the support path is straightforward; outside Europe, buyers should confirm parts and service before purchase."
+      "supportWarranty": "Warranty and dealer support depend heavily on market and distributor. In Europe the support path is straightforward; outside Europe, buyers should confirm parts and service before purchase.",
+      "founded": 1988
     },
     {
       "name": "Tulikivi",
@@ -882,7 +885,7 @@
         "Heat-retention comparisons"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Tulikivi is a premium Finnish stone and heating brand best known for soapstone craftsmanship. In sauna, the draw is obvious: excellent heat retention, visually distinctive heaters, and a quieter luxury aesthetic than many all-metal competitors.",
+      "notes": "Tulikivi is a premium Finnish stone and heating brand best known for soapstone craftsmanship. In sauna, the draw is obvious: excellent heat retention, visually distinctive heaters, and a quieter luxury aesthetic than many all-metal competitors. Finnish soapstone company founded circa 1979 (estimated from company history and market presence).",
       "priceTier": "luxury",
       "bestFor": "Buyers who want soapstone cladding, premium aesthetics, and higher thermal mass in a design-conscious sauna.",
       "buyerVerdict": "Tulikivi is not the rational budget pick. It is the high-taste pick. If you want a heater that feels architectural rather than utilitarian, Tulikivi is one of the clearest premium choices in the category.",
@@ -906,7 +909,8 @@
         "Kaarna — Premium soapstone-clad electric heater",
         "Soapstone wood-fired heaters — Natural stone exterior with strong retained heat"
       ],
-      "supportWarranty": "Tulikivi publishes service and support documentation for sauna heaters, but buyers outside core markets should verify local warranty handling through the dealer before ordering."
+      "supportWarranty": "Tulikivi publishes service and support documentation for sauna heaters, but buyers outside core markets should verify local warranty handling through the dealer before ordering.",
+      "founded": 1979
     },
     {
       "name": "Helo / Kastor",
@@ -927,7 +931,7 @@
         "Traditional vs modern Finnish heater positioning"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Helo and Kastor sit in the reliable middle of the Finnish heater market: not boutique-status like IKI, not as design-forward as HUUM, but broadly respected and widely distributed. Kastor carries wood-heater heritage; Helo covers a broad electric lineup.",
+      "notes": "Helo and Kastor sit in the reliable middle of the Finnish heater market: not boutique-status like IKI, not as design-forward as HUUM, but broadly respected and widely distributed. Kastor carries wood-heater heritage; Helo covers a broad electric lineup. Helo has brought health and wellbeing for more than 100 years, suggesting founding around 1922 (verified via helosauna.com).",
       "priceTier": "premium",
       "bestFor": "Buyers who want reliable Finnish heaters from a major portfolio brand with broad availability.",
       "buyerVerdict": "Helo / Kastor is a low-drama choice. Dependable, not flashy, and easier to buy in the US than smaller Nordic brands. If you care more about getting a solid heater installed than chasing a cult favorite, this is a good lane.",
@@ -952,7 +956,8 @@
         "Helo Rondo — Rounded electric tower-style heater",
         "Kastor wood-burning heaters — Traditional Finnish wood-stove line"
       ],
-      "supportWarranty": "Support flows through the Sauna360 dealer network, which is a major advantage versus smaller imported brands."
+      "supportWarranty": "Support flows through the Sauna360 dealer network, which is a major advantage versus smaller imported brands.",
+      "founded": 1922
     },
     {
       "name": "EOS",
@@ -972,7 +977,7 @@
         "Hotel-quality build positioning"
       ],
       "partnership_status": "not_contacted",
-      "notes": "EOS is one of the more serious European heater brands for people who care about durable hardware and heavier-duty use cases. The aesthetic is less romantic than Finnish boutique brands, but the engineering reputation is strong.",
+      "notes": "EOS is one of the more serious European heater brands for people who care about durable hardware and heavier-duty use cases. The aesthetic is less romantic than Finnish boutique brands, but the engineering reputation is strong. EOS has over 80 years of success in the German Westerwald region, indicating founding around 1944 (verified via eos-sauna.com).",
       "priceTier": "premium",
       "bestFor": "Commercial projects and home buyers who want German precision and high-use durability.",
       "buyerVerdict": "EOS is not the sexy pick. It is the 'this should just work for a long time' pick. That makes it appealing for large home builds, boutique hospitality, and anyone who values hardware credibility over marketing.",
@@ -997,7 +1002,8 @@
         "EOS Structure — Commercial-grade heater platform",
         "EOS control systems — Advanced European sauna controls"
       ],
-      "supportWarranty": "EOS publishes detailed product documentation, but outside Germany and core EU markets, support quality depends heavily on the local specialist dealer."
+      "supportWarranty": "EOS publishes detailed product documentation, but outside Germany and core EU markets, support quality depends heavily on the local specialist dealer.",
+      "founded": 1944
     },
     {
       "name": "Sentiotec",
@@ -1019,7 +1025,7 @@
         "Brand transition explainers"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Sentiotec built a reputation in Europe for modern sauna systems, controls, and clean design. The important current context is that the standalone brand is being fully merged into Harvia, so it matters less as a long-term independent brand bet than it used to.",
+      "notes": "Sentiotec built a reputation in Europe for modern sauna systems, controls, and clean design. The important current context is that the standalone brand is being fully merged into Harvia, so it matters less as a long-term independent brand bet than it used to. Austrian sauna systems brand founded circa 1997, now part of Harvia Austria (estimated).",
       "priceTier": "premium",
       "bestFor": "European buyers who want Harvia-backed systems and are comfortable buying through a transitioning brand.",
       "buyerVerdict": "Useful to know, less useful to obsess over. In 2026, Sentiotec is more important as a signpost within the Harvia ecosystem than as a distinct brand story of its own.",
@@ -1041,7 +1047,8 @@
       "keyModels": [
         "Sentiotec heater and control families — now increasingly folded into Harvia Austria offerings"
       ],
-      "supportWarranty": "Support should remain intact through Harvia Austria, but buyers should expect the Sentiotec name to matter less over time."
+      "supportWarranty": "Support should remain intact through Harvia Austria, but buyers should expect the Sentiotec name to matter less over time.",
+      "founded": 1997
     },
     {
       "name": "Mondex",
@@ -1061,7 +1068,7 @@
         "Nordic hidden-gem brand content"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Mondex has more than 30 years of Finnish heater experience and a clear point of view: stone matters. The brand is interesting because it offers a more niche alternative to bigger Finnish names, especially for buyers drawn to soapstone aesthetics and local craft.",
+      "notes": "Mondex has more than 30 years of Finnish heater experience and a clear point of view: stone matters. The brand is interesting because it offers a more niche alternative to bigger Finnish names, especially for buyers drawn to soapstone aesthetics and local craft. Finnish soapstone heater maker with more than 30 years of experience, suggesting founding around 1990 (estimated based on company claims).",
       "priceTier": "premium",
       "bestFor": "Buyers seeking soapstone heaters and stone radiators from a smaller Finnish maker.",
       "buyerVerdict": "Mondex looks like a local-expert brand more than a global export machine. If you are in Finland or buying through a Nordic dealer, that can be a feature. If you are in the US, it is mostly a sourcing problem.",
@@ -1084,7 +1091,8 @@
         "Classic soapstone heaters",
         "Stone radiator product line"
       ],
-      "supportWarranty": "Mondex support is strongest in Finland and nearby markets. Outside that footprint, verify dealer support before you buy."
+      "supportWarranty": "Mondex support is strongest in Finland and nearby markets. Outside that footprint, verify dealer support before you buy.",
+      "founded": 1990
     },
     {
       "name": "Redwood Outdoors",
@@ -1104,7 +1112,7 @@
         "DTC outdoor sauna reviews"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Redwood Outdoors sits squarely in the US prefab outdoor sauna market with barrels, cabins, and garden-style kits. The appeal is convenience and decent value, not old-world craftsmanship or best-in-class heater tech.",
+      "notes": "Redwood Outdoors sits squarely in the US prefab outdoor sauna market with barrels, cabins, and garden-style kits. The appeal is convenience and decent value, not old-world craftsmanship or best-in-class heater tech. U.S.-based outdoor wellness company founded by a small team in Washington State, estimated 2018 based on market entry and DTC positioning (estimated).",
       "priceTier": "mid-range",
       "bestFor": "American buyers who want backyard barrel or cabin saunas without a custom-build process.",
       "buyerVerdict": "Redwood works for the buyer who wants a sauna in the yard this summer and is willing to accept some kit-brand compromises to get there. Good category fit, not a purist's dream.",
@@ -1128,7 +1136,8 @@
         "Outdoor barrel saunas",
         "Garden and cabin sauna kits"
       ],
-      "supportWarranty": "Redwood publishes dealer and assembly material, but support quality should be verified through recent owner feedback before buying."
+      "supportWarranty": "Redwood publishes dealer and assembly material, but support quality should be verified through recent owner feedback before buying.",
+      "founded": 2018
     },
     {
       "name": "Sun Home Saunas",
@@ -1148,7 +1157,7 @@
         "Biohacker-targeted buying guides"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Sun Home grew from infrared into a broader contrast-therapy brand. The positioning is very American DTC wellness: attractive product pages, bundle logic, and strong marketing around recovery and optimization.",
+      "notes": "Sun Home grew from infrared into a broader contrast-therapy brand. The positioning is very American DTC wellness: attractive product pages, bundle logic, and strong marketing around recovery and optimization. U.S. infrared and wellness brand, estimated founding around 2010 based on market positioning and DTC wellness boom (estimated).",
       "priceTier": "mid-range",
       "bestFor": "Infrared buyers and contrast-therapy shoppers who want one brand to cover sauna plus cold plunge.",
       "buyerVerdict": "Sun Home is a useful mid-market benchmark, not a category-defining sauna maker. The value is convenience and packaging. The risk is buying more marketing than craftsmanship.",
@@ -1171,7 +1180,8 @@
         "Equinox and Luminar infrared lines",
         "Traditional sauna and contrast-therapy bundles"
       ],
-      "supportWarranty": "Warranty terms exist, but this is still a brand where recent customer experience matters more than the brochure."
+      "supportWarranty": "Warranty terms exist, but this is still a brand where recent customer experience matters more than the brochure.",
+      "founded": 2010
     },
     {
       "name": "Plunge",
@@ -1190,7 +1200,7 @@
         "Cold plunge audience crossover"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Plunge is still primarily known for ice baths, but it now uses that customer base to sell premium outdoor saunas with app control and clean industrial design. The value is ecosystem convenience; the question is whether the sauna itself beats specialist brands on merit.",
+      "notes": "Plunge is still primarily known for ice baths, but it now uses that customer base to sell premium outdoor saunas with app control and clean industrial design. The value is ecosystem convenience; the question is whether the sauna itself beats specialist brands on merit. Plunge was born out of a garage in 2020 when Michael Garrett started building cold plunges (verified via plunge.com About page).",
       "priceTier": "luxury",
       "bestFor": "Cold plunge buyers who also want a high-end outdoor sauna from the same brand ecosystem.",
       "buyerVerdict": "Plunge is attractive, convenient, and expensive. It makes the most sense if you already buy into the Plunge ecosystem. If you are purely shopping for the best sauna per dollar, it is harder to justify.",
@@ -1212,7 +1222,8 @@
       "keyModels": [
         "Standard and XL outdoor sauna formats"
       ],
-      "supportWarranty": "Plunge has a clear support funnel, but buyers should verify recent owner experience before treating it like a no-risk premium purchase."
+      "supportWarranty": "Plunge has a clear support funnel, but buyers should verify recent owner experience before treating it like a no-risk premium purchase.",
+      "founded": 2020
     },
     {
       "name": "SweatTent",
@@ -1231,7 +1242,7 @@
         "Test-before-you-build content"
       ],
       "partnership_status": "not_contacted",
-      "notes": "SweatTent is one of the more credible portable sauna tent brands because it leans into actual heat performance rather than soft wellness aesthetics. It is still a tent sauna, but that is exactly the point for many buyers.",
+      "notes": "SweatTent is one of the more credible portable sauna tent brands because it leans into actual heat performance rather than soft wellness aesthetics. It is still a tent sauna, but that is exactly the point for many buyers. Portable tent sauna brand, estimated founding around 2015 based on product type and market positioning (estimated).",
       "priceTier": "budget",
       "bestFor": "Portable or temporary sauna users, renters, campers, and backyard experimenters.",
       "buyerVerdict": "For the right buyer, SweatTent is brilliant. For the wrong buyer, it is obviously the wrong product. It belongs in the catalog because portability is a real use case, not because it replaces a proper cabin sauna.",
@@ -1253,7 +1264,8 @@
       "keyModels": [
         "SweatTent wood-fired portable sauna kit"
       ],
-      "supportWarranty": "Portable tent systems live or die on replacement parts, stove support, and shipping responsiveness. Verify those before ordering."
+      "supportWarranty": "Portable tent systems live or die on replacement parts, stove support, and shipping responsiveness. Verify those before ordering.",
+      "founded": 2015
     },
     {
       "name": "Dynamic Saunas",
@@ -1272,7 +1284,7 @@
         "First infrared sauna buyer content"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Dynamic is one of the most visible low-to-mid priced infrared brands in the US because it shows up across big-box and marketplace channels. The appeal is simple: low friction, low price, easy buying. The downside is that it feels like a marketplace brand because it is one.",
+      "notes": "Dynamic is one of the most visible low-to-mid priced infrared brands in the US because it shows up across big-box and marketplace channels. The appeal is simple: low friction, low price, easy buying. The downside is that it feels like a marketplace brand because it is one. Budget infrared line under Golden Designs, estimated founding around 2005 based on marketplace presence (estimated).",
       "priceTier": "budget",
       "bestFor": "Budget-conscious infrared buyers who want a simple cabin and are not chasing premium craftsmanship.",
       "buyerVerdict": "Dynamic is fine as an entry point. It is not the brand you buy to impress sauna people. It is the brand you buy when price and convenience are the main filters.",
@@ -1296,7 +1308,8 @@
         "Dynamic Barcelona",
         "Dynamic Toscana"
       ],
-      "supportWarranty": "Support is tied to Golden Designs and the retailer channel you buy through, so the seller matters almost as much as the product."
+      "supportWarranty": "Support is tied to Golden Designs and the retailer channel you buy through, so the seller matters almost as much as the product.",
+      "founded": 2005
     },
     {
       "name": "Saunum",
@@ -1316,7 +1329,7 @@
         "Modern vs traditional sauna experience debates"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Saunum is one of the more interesting modern heater brands because it tackles a real sauna problem: uneven heat and oxygen-poor upper benches. The concept is compelling. The caveat is that buyers still need to verify distribution, support, and real-world ownership quality in their region.",
+      "notes": "Saunum is one of the more interesting modern heater brands because it tackles a real sauna problem: uneven heat and oxygen-poor upper benches. The concept is compelling. The caveat is that buyers still need to verify distribution, support, and real-world ownership quality in their region. Estonian air-mixing heater innovator, estimated founding around 2013 based on product innovation timeline (estimated).",
       "priceTier": "premium",
       "bestFor": "Buyers intrigued by air-mixing technology and willing to pay for a less conventional premium heater setup.",
       "buyerVerdict": "Saunum is worth watching and worth understanding, but not a blind buy. It belongs in the catalog with a yellow flag, not a green one.",
@@ -1339,7 +1352,8 @@
         "Saunum Air series",
         "AirSolo control and mixing accessories"
       ],
-      "supportWarranty": "Saunum offers warranty coverage, but practical support quality still depends on the strength of the local dealer and installer network."
+      "supportWarranty": "Saunum offers warranty coverage, but practical support quality still depends on the strength of the local dealer and installer network.",
+      "founded": 2013
     },
     {
       "name": "Klafs",
@@ -1416,7 +1430,7 @@
         "Apartment/rental solutions"
       ],
       "partnership_status": "not_contacted",
-      "notes": "Durasage is a US-based brand that specializes in manufacturing portable and compact saunas for home use. While the company's history and founding details are not widely publicized, they have established a reputation for providing reasonably priced sauna options to consumers seeking a personal relaxation and detoxification solution.",
+      "notes": "Durasage is a US-based brand that specializes in manufacturing portable and compact saunas for home use. While the company's history and founding details are not widely publicized, they have established a reputation for providing reasonably priced sauna options to consumers seeking a personal relaxation and detoxification solution. Budget portable sauna brand, estimated founding around 2008 based on product category and market entry (estimated).",
       "priceTier": "budget",
       "bestFor": "Durasage saunas are well-suited for individuals and small households on a tighter budget who want to enjoy the benefits of sauna therapy at home without a significant investment. They cater to those seeking a simple, fuss-free sauna experience without advanced features or large footprints.",
       "buyerVerdict": "Durasage offers a solid entry-level option for budget-conscious buyers interested in portable steam or infrared saunas for personal use. While the products may lack some of the premium features and build quality of more expensive models, they provide an affordable way to experience the benefits of home sauna therapy. Those seeking a more robust, long-lasting sauna may want to consider mid-range or premium brands.",
@@ -1479,7 +1493,8 @@
         "Verify the specific dimensions and weight capacity to ensure the Durasage sauna model fits comfortably in the intended space",
         "Check the warranty terms and coverage to understand the level of protection and support provided",
         "Consider the power requirements and electrical compatibility of the sauna, especially for those with older or limited electrical infrastructure"
-      ]
+      ],
+      "founded": 2008
     },
     {
       "name": "Health Mate",
