@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-18",
-  "version": "1.1",
+  "updated": "2026-03-21",
+  "version": "1.3",
   "manufacturers": [
     {
       "name": "Harvia",
@@ -1562,6 +1562,304 @@
         "qualityScore": 94,
         "status": "reviewed"
       }
+    },
+    {
+      "name": "Löyly Co",
+      "country": "Finland",
+      "founded": 2018,
+      "website": "https://loylyco.com/",
+      "type": "traditional",
+      "products": [
+        "outdoor-saunas",
+        "sauna-kits",
+        "heaters",
+        "consultation"
+      ],
+      "market": "global",
+      "public": false,
+      "stock": null,
+      "unique_angle": "Finnish sauna company with 10,000+ completed projects. Sells premium outdoor sauna kits with built-in mechanical ventilation. Also operates thesaunaheater.com and saunaconsultation.com.",
+      "content_opportunities": [
+        "Sauna ventilation guide",
+        "Expert consultation process",
+        "Finnish vs North American sauna culture"
+      ],
+      "social": {
+        "instagram": "@loylyco",
+        "linkedin": "loyly-co"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "CEO Veeti Sairanen. 10,000+ sauna projects. Multiple brands under one umbrella.",
+      "priceTier": "premium",
+      "bestFor": "Buyers who want an authentic Finnish outdoor sauna kit with professional-grade ventilation and expert support. Good for those willing to invest in quality and want guidance through the process.",
+      "buyerVerdict": "Löyly is for the buyer who wants Finnish authenticity with modern engineering. Their mechanical ventilation system is a genuine differentiator. 10,000+ projects means they have seen every mistake and know how to avoid them. Premium pricing, but you get expertise along with the product.",
+      "strengths": [
+        "10,000+ completed sauna projects",
+        "Built-in mechanical ventilation (unusual at this price point)",
+        "Multiple service tiers from kits to full consultation",
+        "Authentic Finnish heritage"
+      ],
+      "keyModels": [
+        "Löyly Outdoor Sauna Kit — premium Finnish outdoor sauna with mechanical ventilation"
+      ],
+      "enrichment": {
+        "sources": [
+          "loylyco.com",
+          "LinkedIn",
+          "Lemlist CSV"
+        ],
+        "lastVerified": "2026-03-21",
+        "qualityScore": 0.7,
+        "status": "initial"
+      },
+      "supportWarranty": "Direct consultation available. Warranty details not publicly listed.",
+      "weaknesses": [
+        "Premium pricing",
+        "Newer brand (less long-term track record)",
+        "Limited product range compared to Harvia"
+      ],
+      "cautionPoints": [
+        "Verify current pricing and delivery timelines",
+        "Check availability in your region"
+      ]
+    },
+    {
+      "name": "Haven Sauna",
+      "country": "USA",
+      "founded": 2023,
+      "website": "https://havensauna.com/",
+      "type": "traditional",
+      "products": [
+        "indoor-saunas"
+      ],
+      "market": "north-america",
+      "public": false,
+      "stock": null,
+      "unique_angle": "Pre-launch startup building the world's first plug-in anywhere indoor sauna. Designed for apartments and small spaces with no installation required.",
+      "content_opportunities": [
+        "Plug-in sauna concept",
+        "Apartment sauna solutions",
+        "Startup disruption in sauna market"
+      ],
+      "social": {
+        "instagram": "@havensauna",
+        "linkedin": "haven-sauna"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "Pre-launch. Co-founded by Slate Werner. $16,500 price point. First deliveries expected 2026.",
+      "priceTier": "premium",
+      "bestFor": "Apartment dwellers and renters who want a real sauna experience without permanent installation. Early adopters willing to bet on a new concept.",
+      "buyerVerdict": "Haven is an interesting concept but unproven. A plug-in sauna that needs no installation sounds ideal for apartments. But at $16,500 with no customer reviews yet, this is an early-adopter bet. Wait for first deliveries and real-world feedback before committing.",
+      "strengths": [
+        "No installation required (plug-in)",
+        "Designed for small spaces and apartments",
+        "Innovative concept with no direct competitors"
+      ],
+      "keyModels": [
+        "Haven Sauna — plug-in indoor sauna for apartments and small spaces"
+      ],
+      "enrichment": {
+        "sources": [
+          "havensauna.com",
+          "LinkedIn"
+        ],
+        "lastVerified": "2026-03-21",
+        "qualityScore": 0.5,
+        "status": "initial"
+      },
+      "supportWarranty": "Pre-launch. No warranty details available yet.",
+      "weaknesses": [
+        "Pre-launch, no customer reviews",
+        "High price for unproven product",
+        "Startup risk"
+      ],
+      "cautionPoints": [
+        "Product not yet shipping",
+        "No real-world performance data",
+        "Startup may not survive to fulfill warranty"
+      ]
+    },
+    {
+      "name": "Nootka Saunas",
+      "country": "Canada",
+      "founded": 2020,
+      "website": "https://nootkasaunas.com/",
+      "type": "traditional",
+      "products": [
+        "barrel-saunas",
+        "cabin-saunas"
+      ],
+      "market": "north-america",
+      "public": false,
+      "stock": null,
+      "unique_angle": "Canadian barrel and cabin sauna manufacturer based in Squamish, BC. Over 100 five-star reviews. Mid-range pricing with solid build quality.",
+      "content_opportunities": [
+        "Canadian sauna market",
+        "Barrel sauna comparison",
+        "Cold climate sauna performance"
+      ],
+      "social": {
+        "instagram": "@nootkasaunas",
+        "linkedin": "nootka-saunas"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "Squamish, BC. 100+ 5-star reviews. Good Canadian option for barrel saunas.",
+      "priceTier": "mid-range",
+      "bestFor": "Canadian buyers who want a locally made barrel or cabin sauna with proven quality and strong customer reviews. Also ships to US.",
+      "buyerVerdict": "Nootka is a solid mid-range option, especially if you are in Canada and want to avoid cross-border shipping headaches. 100+ five-star reviews suggest consistent quality. Not the cheapest, but the reviews and local support make it a safe choice for the Canadian market.",
+      "strengths": [
+        "100+ five-star customer reviews",
+        "Canadian-made (no import duties for Canadian buyers)",
+        "Good customer service reputation",
+        "Mid-range pricing"
+      ],
+      "keyModels": [
+        "Nootka Barrel Sauna — traditional barrel sauna in various sizes",
+        "Nootka Cabin Sauna — standalone cabin-style sauna"
+      ],
+      "enrichment": {
+        "sources": [
+          "nootkasaunas.com",
+          "Google Reviews",
+          "LinkedIn"
+        ],
+        "lastVerified": "2026-03-21",
+        "qualityScore": 0.6,
+        "status": "initial"
+      },
+      "supportWarranty": "Reported good customer service. Specific warranty terms not publicly listed.",
+      "weaknesses": [
+        "Smaller brand with limited track record",
+        "Primarily serves Canadian market",
+        "Less product variety than larger brands"
+      ],
+      "cautionPoints": [
+        "Check shipping costs if ordering from outside Canada",
+        "Verify current wait times"
+      ]
+    },
+    {
+      "name": "Home Sauna Kits",
+      "country": "Canada",
+      "founded": 1974,
+      "website": "https://homesaunakits.com/",
+      "type": "kits",
+      "products": [
+        "sauna-kits",
+        "heaters",
+        "steam-generators",
+        "infrared-saunas"
+      ],
+      "market": "north-america",
+      "public": false,
+      "stock": null,
+      "unique_angle": "Canadian sauna manufacturer since 1974 with over 65,000 installations. Makes the Saunacore brand of heaters and steam generators. One of the oldest dedicated sauna companies in North America.",
+      "content_opportunities": [
+        "DIY sauna installation guide",
+        "Saunacore heater review",
+        "50+ years of sauna expertise"
+      ],
+      "social": {
+        "instagram": "@homesaunakits",
+        "linkedin": "home-sauna-kits"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "President: Robert J. Jones. Also Saunacore brand. Bolton, Ontario. Since 1974.",
+      "priceTier": "mid-range",
+      "bestFor": "DIY builders who want a proven kit system with decades of manufacturing experience behind it. Also good for contractors looking for reliable commercial-grade heaters and steam generators.",
+      "buyerVerdict": "Home Sauna Kits has been doing this since 1974 and has 65,000+ installations to show for it. That kind of track record is rare in the sauna industry. The Saunacore heater line is well-regarded by builders and contractors. Not the most glamorous brand, but deeply reliable.",
+      "strengths": [
+        "50+ years in business (founded 1974)",
+        "65,000+ installations",
+        "Makes own heaters (Saunacore brand)",
+        "Wide range from residential to commercial"
+      ],
+      "keyModels": [
+        "Saunacore Heaters — residential 2-10.5 kW and commercial 9-21 kW",
+        "Saunacore Steam Generators — residential 6-18 kW and commercial 9-36 kW",
+        "Custom built-in sauna kits"
+      ],
+      "enrichment": {
+        "sources": [
+          "homesaunakits.com",
+          "saunacore.com",
+          "LinkedIn"
+        ],
+        "lastVerified": "2026-03-21",
+        "qualityScore": 0.7,
+        "status": "initial"
+      },
+      "supportWarranty": "Long-standing company with direct support. Specific warranty terms vary by product.",
+      "weaknesses": [
+        "Website feels dated",
+        "Less brand recognition than Finnish competitors",
+        "Limited international presence"
+      ],
+      "cautionPoints": [
+        "Verify current pricing (not listed online)",
+        "Check lead times for custom kits"
+      ]
+    },
+    {
+      "name": "Bast Sauna",
+      "country": "Sweden",
+      "founded": 2021,
+      "website": "https://bastsauna.com/",
+      "type": "portable",
+      "products": [
+        "sauna-tents",
+        "accessories",
+        "rentals"
+      ],
+      "market": "europe",
+      "public": false,
+      "stock": null,
+      "unique_angle": "Swedish portable sauna tents with 300+ rental and reseller partners across Europe. 4.9/5 on Trustpilot. Making Nordic sauna culture accessible without permits or permanent installation.",
+      "content_opportunities": [
+        "Portable sauna comparison (vs SweatTent)",
+        "European sauna rental market",
+        "Sauna events and community building"
+      ],
+      "social": {
+        "instagram": "@bastsauna",
+        "linkedin": "bast-sauna"
+      },
+      "partnership_status": "not_contacted",
+      "notes": "Stockholm. Co-founders Sebastian Sandlund and Viktor Pettersson. Dual model: direct sales + 300+ rental partners. 4.9/5 Trustpilot. 2 year warranty.",
+      "priceTier": "mid-range",
+      "bestFor": "Europeans who want a portable sauna for personal use or events. Also for entrepreneurs wanting to start a sauna rental business through their partner network.",
+      "buyerVerdict": "Bast is the European answer to SweatTent. The tent design delivers real heat (100°C+) and the 300+ partner network means the model is proven at scale. 4.9/5 on Trustpilot and a 2-year warranty add confidence. If you want a portable sauna in Europe without the hassle of importing from the US, Bast is your best option.",
+      "strengths": [
+        "300+ rental/reseller partners across Europe",
+        "4.9/5 Trustpilot rating",
+        "2-year warranty",
+        "Built for Nordic conditions",
+        "Dual business model (buy or rent)"
+      ],
+      "keyModels": [
+        "Bast Sauna Tent — portable wood-fired sauna tent with stove and accessories"
+      ],
+      "enrichment": {
+        "sources": [
+          "bastsauna.com",
+          "Trustpilot",
+          "LinkedIn"
+        ],
+        "lastVerified": "2026-03-21",
+        "qualityScore": 0.6,
+        "status": "initial"
+      },
+      "supportWarranty": "2-year warranty from date of purchase. Direct customer support available.",
+      "weaknesses": [
+        "Tent-only product line",
+        "Not a permanent sauna solution",
+        "Primarily European market"
+      ],
+      "cautionPoints": [
+        "Check local regulations for wood-fired use",
+        "Not suitable for year-round daily use like a permanent sauna",
+        "Shipping outside Europe may be expensive"
+      ]
     }
   ],
   "aggregators_and_retailers": [
